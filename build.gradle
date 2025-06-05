@@ -42,26 +42,28 @@ allprojects {
 }
 
 task unZipResources() {
-    fileTree(dir: 'archives')/*.include('*.zip')*/.each { dataFile ->
-        if (dataFile.name.endsWith(".zip")) {
-            copy {
-                def parent = dataFile.getParent()
-                def relative = parent.substring(parent.indexOf(rootDir.path) + rootDir.path.length() + 1)
-                def target = relative.substring("archives\\".length())
-                def name = dataFile.name - '.zip'
+    doFirst {
+        fileTree(dir: 'archives')/*.include('*.zip')*/.each { dataFile ->
+            if (dataFile.name.endsWith(".zip")) {
+                copy {
+                    def parent = dataFile.getParent()
+                    def relative = parent.substring(parent.indexOf(rootDir.path) + rootDir.path.length() + 1)
+                    def target = relative.substring("archives\\".length())
+                    def name = dataFile.name - '.zip'
 
-                println "Unzipping ${dataFile.name} From ${relative} To data/$target/$name"
+                    println "Unzipping ${dataFile.name} From ${relative} To data/$target/$name"
 
-                from zipTree(dataFile.path)
-                into "data/$target/$name"
-            }
-        } else if (dataFile.name.endsWith(".csv")) {
-            copy {
-                def parent = dataFile.getParent()
-                def relative = parent.substring(parent.indexOf(rootDir.path) + rootDir.path.length() + 1)
-                def target = relative.substring("archives\\".length())
-                from fileTree(dataFile.path)
-                into "data/$target/"
+                    from zipTree(dataFile.path)
+                    into "data/$target/$name"
+                }
+            } else if (dataFile.name.endsWith(".csv")) {
+                copy {
+                    def parent = dataFile.getParent()
+                    def relative = parent.substring(parent.indexOf(rootDir.path) + rootDir.path.length() + 1)
+                    def target = relative.substring("archives\\".length())
+                    from fileTree(dataFile.path)
+                    into "data/$target/"
+                }
             }
         }
     }
