@@ -11,6 +11,8 @@
 # Do not add local builds to git
 build/
 /data/
+/results-*/
+/results/
 
 # Do not add complied jvm code to git
 *.class
