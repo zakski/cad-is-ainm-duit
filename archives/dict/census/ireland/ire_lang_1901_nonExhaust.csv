@@ -4,7 +4,7 @@ Irish,Irish
 Irish English,English Irish
 English and Irish,English Irish
 Irish and Eng,English Irish
-No,None
+No,No-Language
 English only,English
 English Irish,English Irish
 English Language,English
@@ -14,7 +14,7 @@ I and English,English Irish
 Irish only,Irish
 E,English
 I and E,English Irish
-Nil,None
+Nil,No-Language
 Irish and Engl,English Irish
 E Language,English
 Inglish,English
@@ -44,7 +44,7 @@ Englis,English
 En,English
 French,French
 English and I,English Irish
-Cannot Speak,None
+Cannot Speak,No-Language
 Irish Englis,English Irish
 England,English
 Yes,English Irish
@@ -53,7 +53,7 @@ Can Speak Irish and English,English Irish
 English Lan,English
 E and I,English Irish
 I E,English Irish
-Not,None
+Not,No-Language
 Ir and English,English Irish
 B English,Broken-English
 Eng Irish,English Irish
@@ -61,12 +61,12 @@ English I,English Irish
 Irish and Engls,English Irish
 Irish Engl,English Irish
 Irish and Inglish,English Irish
-Nill,None
+Nill,No-Language
 Enlish,English
 Irish and Engli,English Irish
 E Irish,English Irish
 English Langu,English
-Cannot,None
+Cannot,No-Language
 Cannot Speak Irish,English
 Irsh and English,English Irish
 Ir and Eng,English Irish
@@ -75,7 +75,7 @@ Irish and Eglish,English Irish
 Irish and Enlish,English Irish
 I and Eng,English Irish
 Irish and c English,English Irish
-Neither,None
+Neither,No-Language
 Irish and England,English Irish
 Speak Irish and English,English Irish
 English onely,English
@@ -91,7 +91,7 @@ Irish Inglish,English Irish
 English and French,English French
 Speak Irish,Irish
 Eglish,English
-Infant,None
+Infant,No-Language
 English Languge,English
 I and Englis,English Irish
 Irish Lang,Irish
@@ -102,7 +102,7 @@ A Little Irish and English,English Irish
 Can Speak English,English
 English Onely,English
 E I,English Irish
-No Language,None
+No Language,No-Language
 Ir,Irish
 English La,English
 Eng Lang,English
@@ -144,10 +144,10 @@ Can Speak Irish,Irish
 Speak English Only,English
 English and Some Irish,English Irish
 G and E,English Irish
-Non,None
+Non,No-Language
 Engilsh,English
 I and Engl,English Irish
-Cant Speak,None
+Cant Speak,No-Language
 Irish of English,English Irish
 Ih and English,English Irish
 Enlish and Irish,English Irish
@@ -202,7 +202,7 @@ Irish Eglish,English Irish
 Can Speak Irish English,English Irish
 Br English,Broken-English
 None Can Speak Irish,English
-Not Speaking,None
+Not Speaking,No-Language
 Ih and Eh,English Irish
 All Speak English only,English
 German and English,English German
@@ -210,7 +210,7 @@ Can Speak E and I,English Irish
 Irish and Enghlish,English Irish
 English and German,English German
 Erse and Eng,English Irish
-Engelish,England
+Engelish,English
 Irish England,English Irish
 Irish Yes English,English Irish
 Irish Enlish,English Irish
@@ -220,9 +220,9 @@ English and English,English Irish
 Irish Langue,Irish
 Eng and Iri,English Irish
 Can Speak English Irish,English Irish
-English and Welsh,England Welsh
+English and Welsh,English Welsh
 Does not Appear,Unknown
-England Lan,England
+England Lan,English
 Irish Langu,Irish
 English Learning Irish,English Irish
 Irish Language and English,English Irish
@@ -286,7 +286,7 @@ Irish Englsh,English Irish
 Eng and Irsh,English Irish
 Broken Eng,Broken-English
 Speak Irish English,English Irish
-Cannot Talk,None
+Cannot Talk,No-Language
 Can Speck Irish and English,English Irish
 English Langage,English
 English a Irish,English Irish
@@ -317,7 +317,7 @@ Know Nothing About Irish English Only,English
 Engs and Irish,English Irish
 Eng Langue,English
 Irish and Englih,English Irish
-Can't Speak Yet,None
+Can't Speak Yet,No-Language
 English Languid,English
 Irish and English Not,Irish
 Read and write English,English
@@ -344,9 +344,9 @@ English Large,English
 Enelgish,English
 Can Speak Irish Enlish,English Irish
 English Ect,English
-Cannot Speak English or Irish,None
+Cannot Speak English or Irish,No-Language
 English Irish Language,English Irish
-No Knowledge,None
+No Knowledge,No-Language
 Learning,English Irish
 Irish D English,English Irish
 Certainly Not,English
@@ -376,7 +376,7 @@ Engllish,English
 Eanglis,English
 Eng Langh,English
 Learning Irish English,English Irish
-Nothing,None
+Nothing,No-Language
 Irs and Eng,English Irish
 Irish and English Can Speake Boath,English Irish
 English and,English Irish
@@ -440,7 +440,7 @@ Nothing Foolish,English
 Can Speak English only,English
 Eenglis,English
 Irish and Enl,English Irish
-Can't Speak,None
+Can't Speak,No-Language
 Eng Iris,English Irish
 Ens,English
 Engli and Irish,English Irish
@@ -460,9 +460,9 @@ Speak Irish and E,English Irish
 Engl Language,English
 Irish Cannot Speak,Irish
 Enghlish only,English
-Canot,None
+Canot,No-Language
 English Languag,English
-Dont,None
+Dont,No-Language
 English or Irish,English Irish
 Irish and Elgish,English Irish
 Can Spake Irish,English
@@ -491,7 +491,7 @@ Sorry we dont speak Irish,English
 Irish an Enghish,English Irish
 Iri and Engl,English Irish
 Engliss,English
-Cant Talk,None
+Cant Talk,No-Language
 E langue,English
 All French,French
 No Irish Here,English
@@ -544,9 +544,9 @@ Broken English Irish,Broken-English Irish
 Irish and Englise,English Irish
 Iirsh English,English Irish
 Speak English and Irish,English Irish
-Can not,None
-Not a Word,None
-Irish nor Eng,None
+Can not,No-Language
+Not a Word,No-Language
+Irish nor Eng,No-Language
 English not Irish,English
 E and Iri,English Irish
 Eglsh,English
@@ -561,22 +561,22 @@ English Iri,English Irish
 English and Scotch,English Scotch
 Irish and Saxon,English Irish
 English etc,English
-Cannot Either,None
+Cannot Either,No-Language
 Read and Write English and Irish,English Irish
-Neighter,None
+Neighter,No-Language
 I and E Lang,English Irish
 Welsh,Welsh
 Ish English,English Irish
 Enghlis,English
 Irrish,Irish
 Inglish Lang,English
-Not able to Speak,None
+Not able to Speak,No-Language
 Can speak Irish and English,English Irish
 None Speaks Irish,English
 Speak Englis and Irish,English Irish
-Cannot Speak Either,None
-Cannot Speek,None
-Not Any,None
+Cannot Speak Either,No-Language
+Cannot Speek,No-Language
+Not Any,No-Language
 Irish and Eeng,English Irish
 E Language Irish and c,English Irish
 Irisha and English,English Irish
@@ -593,7 +593,7 @@ Unknown,Unknown
 Irish and Enlis,English Irish
 Irish Inglesh,English Irish
 E english,English Irish
-Cannot Spk,None
+Cannot Spk,No-Language
 E Only,English
 Irish and Englisl,English Irish
 Read and Write,English Irish
@@ -606,7 +606,7 @@ English Ireish,English Irish
 English and Irish Boath,English Irish
 Irish Ingles,English Irish
 Irish E Only,English Irish
-Cannot Speak Yet,None
+Cannot Speak Yet,No-Language
 Speaks Both English and Irish,English Irish
 English Talk Irish,English Irish
 Irh English,English Irish
@@ -627,7 +627,7 @@ Irish and Jinlish,English Irish
 German and Einglish,English German
 EngIish,English
 Jewish,Hebrew
-No Talk,None
+No Talk,No-Language
 English Carney Irish,Carney English Irish
 English Irish Lang,English Irish
 Irich and English,English Irish
@@ -642,7 +642,7 @@ Englassh,English
 Engles,English
 Irish and L English,English Irish
 Irish and Enlgh,English Irish
-Cannot Get Talk,None
+Cannot Get Talk,No-Language
 English Lang?,English
 No Irish Lag,English
 Irish english,English Irish
@@ -667,7 +667,7 @@ Spe English,English
 All,English Irish
 Gaulgue,Irish
 Cannot Read Irish,English
-Cannot Speak Irish or English,None
+Cannot Speak Irish or English,No-Language
 English and Iri,English Irish
 Ensh,English
 English and Latin,English Latin
@@ -683,7 +683,7 @@ Yes Several Lang,Unknown
 Learning Irish and English,English Irish
 English BS,English
 English Lanuage,English
-Cannot read,None
+Cannot read,No-Language
 English Langugge,English
 Irish and Eng and French,English French Irish
 Irish Speaking,Irish
@@ -692,7 +692,7 @@ Englalish,English
 Can Speak Enl,English
 E and Some Irish,English Irish
 Em,English
-Cannot Read,None
+Cannot Read,No-Language
 Speakers English,English
 lrish and English,English Irish
 Irash and English,English Irish
@@ -717,7 +717,7 @@ Enilish,English
 N English,English
 English Langr,English
 Speak,English Irish
-No English or Irish,None
+No English or Irish,No-Language
 English French and Latin,English French Latin
 Information refused,Unknown
 Speke English,English
@@ -736,7 +736,7 @@ English and Language,English Irish
 Scotish and English,English Scotch
 Can Speak Both,English Irish
 English Lnag,English
-Cannot speak,None
+Cannot speak,No-Language
 Spek English,English
 Eng and I,English Irish
 A Little Irish,English Irish
@@ -762,7 +762,7 @@ I Enghlish,English Irish
 Eng Lan,English
 Speark English,English
 Iri and English,English Irish
-Not Much,None
+Not Much,No-Language
 Irsh,Irish
 Irish in English,English Irish
 Irish @ English,English Irish
@@ -770,7 +770,7 @@ Irish and Engih,English Irish
 Englis only,English
 Irish an Engl,English Irish
 Double Dutch,Unknown
-Not Able to Speak,None
+Not Able to Speak,No-Language
 Not Irish and English,English
 Enlish Lan,English
 Irish a Little and English,English Irish
@@ -782,11 +782,11 @@ Both English,English
 Can Speak Irish and E,English Irish
 Speaks,English Irish
 England and Irish,English Irish
-No No,None
+No No,No-Language
 Try Engsh,English
 Irish and English Reads Both,English Irish
 Non English,English
-Baby,None
+Baby,No-Language
 Irish ?,Irish
 Bad English,Broken-English
 Done Irish and English,English Irish
@@ -795,19 +795,19 @@ Irish an Engilsh,English Irish
 English Langues,English
 A Little Irish English,English Irish
 Irish and Englist,English Irish
-Not Able,None
+Not Able,No-Language
 Engleand,English
 Eish,Irish
-Not Speaking Yet,None
+Not Speaking Yet,No-Language
 Engls,English
 Enligh,English
 Can read and write Irish and English,English Irish
 Irish and Englash,English Irish
 Elinlish,English
 Boath,English Irish
-Not E or I,None
+Not E or I,No-Language
 Brokenenglish,Broken-English
-Cannot S,None
+Cannot S,No-Language
 I and Es,English Irish
 I and C English,English Irish
 Prof English,English
@@ -827,12 +827,12 @@ Both Laung,English Irish
 Both Irish English,English Irish
 Englih,English
 English and Eng,English Irish
-Not Yet,None
+Not Yet,No-Language
 English Attending School,English
 English Irs,English Irish
 Speak read write,English Irish
 Irish Englst,English Irish
-Not Talking,None
+Not Talking,No-Language
 Speake Eng,English
 Eng? Language,English
 Ish and Eng,English Irish
@@ -841,7 +841,7 @@ Englisn,English
 Speaks Irish and Eng,English Irish
 English and a Little Irish,English Irish
 Irish Knowledge,Irish
-Could not speak,None
+Could not speak,No-Language
 Irish Language English,English Irish
 Englhish,English
 Broker English,Broken-English
@@ -856,10 +856,10 @@ Irish and English etc,English Irish
 Speak and English,English Irish
 Iirish,Irish
 Enghlish and Irish,English Irish
-To Young,None
+To Young,No-Language
 Irish Spoken,Irish
 Yes Irish and Eng,English Irish
-Not Likely,None
+Not Likely,No-Language
 Shkae Irish and English,English Irish
 English On,English
 English and Write,English Irish
@@ -882,7 +882,7 @@ Speak Irish and Enghlish,English Irish
 Speak and Under a Little Irish English,English Irish
 Irish Engsh,English Irish
 English (Only),English
-Cant Speak Irish Language,None
+Cant Speak Irish Language,No-Language
 Esh and Irish,English Irish
 Irish and inglish,English Irish
 Eng Language only,English
@@ -892,12 +892,12 @@ Itish and English,English Irish
 Irsh and Engls,English Irish
 Irish and Egnglish,English Irish
 Irsh and Enghs,English Irish
-Too young to Speak,None
+Too young to Speak,No-Language
 Englin,English
 Speake Englis,English
 E and I Language,English Irish
 Speack English and Irish,English Irish
-Cannot Speak Neither,None
+Cannot Speak Neither,No-Language
 Egh and Irish,English Irish
 Educated,English Irish
 Eg and Irish,English Irish
@@ -910,8 +910,8 @@ English Chiefy some Irish,English Irish
 Engih and Irish,English Irish
 Irish Langug,Irish
 Can Sp Irish E,English Irish
-Non at all,None
-Noode as Yet,None
+Non at all,No-Language
+Noode as Yet,No-Language
 Iers and Englis,English Irish
 English Parish,English
 Englis an Irish,English Irish
@@ -938,7 +938,7 @@ English Lauguees,English
 Can only Speak English,English
 Both Esh and Irish,English Irish
 Engh and Iriash,English Irish
-No Lang,None
+No Lang,No-Language
 English Can,English
 English and Dowth,English
 Can Speek English and Irish,English Irish
@@ -951,9 +951,9 @@ Cant Speack Irish,English
 Speaker of Irish and English,English Irish
 Talk English and Irish,English Irish
 Iresh,Irish
-Cannot Speke,None
+Cannot Speke,No-Language
 None Can Speak English Not Irish,English
-Cannot read and write,None
+Cannot read and write,No-Language
 Eng and Iris,English Irish
 Spas English,English
 Spkae Irish and English,English Irish
@@ -977,9 +977,9 @@ Irish and Eglash,English Irish
 Irish English Greek French and Latin,English French Greek Irish Latin
 English Scoth,English Scotch
 German French and English,English French German
-Not Known,None
+Not Known,No-Language
 English French Latin,English French Latin
-No Languish,None
+No Languish,No-Language
 Ir E,English Irish
 French and E,English French
 English Cant Speak Irish,English
@@ -998,21 +998,21 @@ Enginglish Lan,English
 Speak I E,English Irish
 Speaks Irish and E,English Irish
 Irsh Eglish,English Irish
-Her own language,None
+Her own language,No-Language
 ? in Jerman,German
-Not Speak Yet,None
-Not here to might,None
+Not Speak Yet,No-Language
+Not here to might,No-Language
 English Speaking Only,English
 English and Gaslie,English Irish
 Cannot Speak I Irish,English
 Irish and Eigh,English Irish
 English ony,English
-Cannot Speak English and Irish,None
-Cannot speak English or Irish,None
+Cannot Speak English and Irish,No-Language
+Cannot speak English or Irish,No-Language
 "RS, English",English
 Irish and Engils,English Irish
 Cattle Irish and English,English Irish
-Neither Two Young,None
+Neither Two Young,No-Language
 Speaks Irish English,English Irish
 English and Italian,English Italian
 A Little of Each,English Irish
@@ -1034,8 +1034,8 @@ English and a slight knowledge of the Irish Language,English Irish
 Speaks I and English,English Irish
 Speak's it only,English Irish
 Irish and Ellish,English Irish
-Cannot Speck,None
-Dumb,Dumb
+Cannot Speck,No-Language
+Dumb,No-Language
 English German and French,English French German
 Ir Eg,English Irish
 Irish Eng and c,English Irish
@@ -1047,35 +1047,35 @@ Quite,English Irish
 All can Speak English and Irish,English Irish
 Do not Sp Irish,English
 Cannot Speak I,English
-Not Sperkery,None
+Not Sperkery,No-Language
 Iinglish,English
 All Speaks,English Irish
 Can Speake English and Irish,English Irish
 Irish El,English Irish
 English and Russian,English Russian
-Cannot read or Speak English or Irish,None
+Cannot read or Speak English or Irish,No-Language
 "Italian,French German English Dutch Spanish",Dutch English French German Italian Spanish
 Tosh and English,English
 Elingish,English
 Can Speak Write,English Irish
 Elnglish,English
 Iish and English,English Irish
-None Irish and English,None
-Cannot Speek Yet,None
+None Irish and English,No-Language
+Cannot Speek Yet,No-Language
 Sheiper English Only,English
 Can Speak English and Irish Fluency,English Irish
 English and C a Little Irish,English Irish
 Can Speak E or I,English Irish
 Can Speak I or E,English Irish
 English Irsh,English Irish
-Cant read,None
+Cant read,No-Language
 Irish Scotch,Irish Scotch
-Lame,None
-Decrepit,None
-Cannot Speaker,None
+Lame,No-Language
+Decrepit,No-Language
+Cannot Speaker,No-Language
 English Russian,English Russian
 Englishn Language,English
-Sightly,None
+Sightly,No-Language
 Eng Lengh,English
 Es,English
 Eeng and Irish,English Irish
@@ -1091,14 +1091,14 @@ Rish Englis,English Irish
 Eh Language,English
 Eg Language,English
 En Irish,English Irish
-No Eng,None
+No Eng,No-Language
 Irish but badly and English,English Irish
 English All Sheer,English
 English Irish Nil,English
 Swedish,Swedish
-Cannot Talk at All,None
+Cannot Talk at All,No-Language
 French and German,French German
-Not talking,None
+Not talking,No-Language
 Irish Langish,Irish
 A little English,English
 Irish and Brithers,English Irish
@@ -1111,7 +1111,7 @@ Beginning to Speak English,English
 English O,English
 ? and English,English
 Very Little Irish and English,English Irish
-Child,None
+Child,No-Language
 Enghish Irish,English Irish
 Speaks or little Irish also English,English Irish
 Say Irish,Irish
@@ -1125,31 +1125,31 @@ Englisth,English
 Speakes Irish and English,English Irish
 Not Old English,English
 Can Speaks Irish and English,English Irish
-Dont Know,None
+Dont Know,No-Language
 English Spanish Latin Greek,English Greek Latin Spanish
-Languages,None
+Languages,No-Language
 Irish and C Eng,English Irish
-Telegu,Telegu
+Telegu,Telugu
 Engilst,English
 Irish and Enight,English Irish
 English W C,English
-Canot speak Yet,None
+Canot speak Yet,No-Language
 Irish and Enlst,English Irish
-Cannot speak too young to speak,None
+Cannot speak too young to speak,No-Language
 Nothing to English,English
 English and Elementry Irish,English Irish
 Scotch and En,English Scotch
 Welsh and etc,Welsh
 The Irish,Irish
-No Irish and N,None
+No Irish and N,No-Language
 Speakes English,English
-English No Language,None
+English No Language,No-Language
 Both Irish,Irish
 English A Little Irish Learning Irish,English Irish
-Cant Speak Yet,None
+Cant Speak Yet,No-Language
 English and Irish Learning,English Irish
 rsh and Inglish,English Irish
-Not able,None
+Not able,No-Language
 Ih and Esh,English Irish
 Ish and Esh,English Irish
 Can read and write Both English and Irish,English Irish
@@ -1160,8 +1160,8 @@ Irish on Eng,English Irish
 En and I,English Irish
 Ir and E,English Irish
 English I C,English Irish
-Speak a Little,None
-Unable to Speaker,None
+Speak a Little,No-Language
+Unable to Speaker,No-Language
 Irish and Ir,English Irish
 English Only Can Speak,English
 Irish and Englissh,English Irish
@@ -1169,11 +1169,11 @@ Gelic and English,English Irish
 All No Irish and English,English
 English Lancuace,English
 Irish Englisg,English Irish
-Cannot ?,None
-Broken,None
+Cannot ?,No-Language
+Broken,No-Language
 Galic French and Irish and English,English French Irish
-Hew Ban,None
-Dont Speak,None
+Hew Ban,No-Language
+Dont Speak,No-Language
 Can Speak Irish an English,English Irish
 Englinsh,English
 An English,English
@@ -1188,39 +1188,39 @@ Irish and Elng,English Irish
 English Laug,English
 English Norwigan,English Norwegian
 English Langs,English
-Cannot Seak,None
-Not yet able to speak,None
+Cannot Seak,No-Language
+Not yet able to speak,No-Language
 English and ?,English
-In the Asylum,None
+In the Asylum,No-Language
 English Bkn,Broken-English
 B Kn English,Broken-English
 English book and Irish,English Irish
 Irich and Englich,English Irish
 French English,English French
 English and Student of Irish,English Irish
-Cannot Speak Either English or Irish,None
+Cannot Speak Either English or Irish,No-Language
 Can Spad Irish and English,English Irish
 Speaker Irish and English,English Irish
-Nothing Yet,None
+Nothing Yet,No-Language
 English R,English
 Irish and Eenglis,English Irish
 English and Irilsh,English Irish
 Can Speake Boath,English Irish
 Am Sorry ? English,English
 Iirish and Eenglish,English Irish
-Not Yet Speaking,None
+Not Yet Speaking,No-Language
 Cannot Speak Ir,English
 Irish and Eng Lag,English Irish
-Cannot Speak E Irish,None
+Cannot Speak E Irish,No-Language
 Speaks E,English
-Not Talking Yet,None
+Not Talking Yet,No-Language
 Ennglish,English
 Engtis Language,English
 English and En,English Irish
 English and E,English Irish
 Can speak Both,English Irish
 Knows Irish and English,English Irish
-Only Lisps Yet,None
+Only Lisps Yet,No-Language
 Englirgen Irish,English Irish
 Irish and Englished,English Irish
 Engsh,English
@@ -1238,20 +1238,20 @@ Will Speak Irish and English,English Irish
 Irish and English Read both L,English Irish
 Enh and Irish,English Irish
 Speah,English Irish
-Not Speak,None
+Not Speak,No-Language
 "French, German and C",French German
-Begin Here,None
-Neither Irish Nor Engl,None
+Begin Here,No-Language
+Neither Irish Nor Engl,No-Language
 E Yes I,English Irish
 English of Germany,English German
 Little Irish English,English Irish
-But Soon Well,None
+But Soon Well,No-Language
 Has the Irish Language,Irish
 British Subject,English
-No Talking,None
+No Talking,No-Language
 Irish and Englesh,English Irish
 Irish and Enli,English Irish
-Do Not read,None
+Do Not read,No-Language
 Learning Irish Speaking English,English Irish
 English Langon,English
 English and German and Austrian,Austrian English German
@@ -1268,11 +1268,11 @@ Irish Englilsh,English Irish
 Irish Enghlis,English Irish
 Irish Enghlish,English Irish
 Irh and Enh,English Irish
-Cant Speak I or English,None
+Cant Speak I or English,No-Language
 Inglish and Iris,English Irish
-Cant Speak I or E,None
+Cant Speak I or E,No-Language
 I E Language,English Irish
-None at Presant,None
+None at Presant,No-Language
 Can speak Irish on English,English Irish
 English I R,English Irish
 Irish Nglish,English Irish
@@ -1283,19 +1283,19 @@ English and Iirish,English Irish
 Irish and Enilish,English Irish
 Englis Iris,English Irish
 Speake Irish,Irish
-Cant Speak athal,None
+Cant Speak athal,No-Language
 English and Franish,English French
 I and E Language,English Irish
 English and c,English
-Cannot Speak yet,None
+Cannot Speak yet,No-Language
 Chinesse,Chinese
-Ongmal,None
+Ongmal,No-Language
 Spe Iris and Eng,English Irish
 Elish and Irish,English Irish
 Irish Laguge,Irish
 English Irish German,English German Irish
 Eglash,English
-Cant read write,None
+Cant read write,No-Language
 Canot Speek Irish,English
 Elngish,English
 Sp Irish and English,English Irish
@@ -1317,22 +1317,22 @@ Cant Sp English,Irish
 I Engsh,English Irish
 Englissh Only,English
 Irist and Engish,English Irish
-Not able to speak,None
-Doesnt Speak Yet,None
+Not able to speak,No-Language
+Doesnt Speak Yet,No-Language
 Yes and English,English
 English D L,English
 Iris an English,English Irish
 Irish an En,English Irish
 Iris Laungag,Irish
-Ton Young,None
+Ton Young,No-Language
 English Irish and English,English Irish
 Irsh an English,English Irish
-Not English and Irish,None
+Not English and Irish,No-Language
 Englus,English
 Italian French English,English French Italian
 Is and English,English Irish
 Irst English,English Irish
-Cannot Eng,None
+Cannot Eng,No-Language
 Iirisch inglish,English Irish
 Leaning Irish,Irish
 Sp Irish,Irish
@@ -1353,24 +1353,24 @@ Irh and Elis,English Irish
 Irish glish,English Irish
 Irish lish,English Irish
 Enghis,English
-Cannot Talk Yet,None
+Cannot Talk Yet,No-Language
 Irsh Inglish,English Irish
-Cannot Tell,None
+Cannot Tell,No-Language
 Irish English Only,English Irish
 Enghlist,English
 Irisd and English,English Irish
-Do not speak it,None
+Do not speak it,No-Language
 Plam Irish and English,English Irish
 Irish Englahs,English Irish
 I and Englisg,English Irish
 Enlis Lan,English
 English Irish etc,English Irish
 Irish and Englihs,English Irish
-Cannot Speaek,None
+Cannot Speaek,No-Language
 Irish and ? E,English Irish
 Spak Irish,Irish
 Elgshin,English
-Cannot R R,None
+Cannot R R,No-Language
 Speek English,English
 Irish Englingh,English Irish
 Cant Speak Irish and English,English Irish
@@ -1396,7 +1396,7 @@ Irsh and England,English Irish
 Little of Coch,English Irish
 Boeth,English Irish
 English of not so,English
-Not Speak Eng,None
+Not Speak Eng,No-Language
 "Eng, Irish, French",English French Irish
 Irish and Enslis,English Irish
 Scotch and Irish and English,English Irish Scotch
@@ -1409,25 +1409,25 @@ By Linguo,English Irish
 Irish Langage Eng Langage,English Irish
 Read English and Speak Irish,English Irish
 Hebru,Hebrew
-Irish nor English,None
+Irish nor English,No-Language
 Irish and E English,English Irish
 Speakes Englis only,English
 Can Speak of Read Irish,Irish
 Eh and Irish,English Irish
 Irish and Mayo,Irish
-Not Irish or English,None
-Not Spoken,None
+Not Irish or English,No-Language
+Not Spoken,No-Language
 Englist Langurde,English
 Yet No Language,English
 Irish And English,English Irish
 Irish a Enlish,English Irish
 Not English or I,English Irish
 English and Irish Speaks,English Irish
-Commencing,None
+Commencing,No-Language
 Can Distintly Speak Irish English,English Irish
 Spanish,Spanish
 Engliglish,English
-Cannot Speak Eng,None
+Cannot Speak Eng,No-Language
 Inglisih,English
 English only Irish only,English Irish
 Er,English
@@ -1438,13 +1438,13 @@ Irish an Eanglish,English Irish
 "English, French",English French
 English and Irish and French,English French Irish
 Irish a E,English Irish
-Not Irish nor English,None
-Cannot English,None
+Not Irish nor English,No-Language
+Cannot English,No-Language
 Anglo-Irish,English Irish
 Speck only,English
 I English Only,English
-Eng Nil,None
-Read,None
+Eng Nil,No-Language
+Read,No-Language
 Irish and Enligh,English Irish
 Emglish,English
 Gujerate,Gujarati
@@ -1455,13 +1455,13 @@ Irish Langau,Irish
 Both Language English and Irish,English Irish
 Can Speak English and a Little Irish,English Irish
 E and Ish,English Irish
-Too Young to Speak,None
+Too Young to Speak,No-Language
 Lattin English,English Latin
 Irish Engles,English Irish
-Keating,None
+Keating,No-Language
 lirsh and Eng,English Irish
 Fresh English,English French
-Cannot Speak to Young,None
+Cannot Speak to Young,No-Language
 Irish Lattin and English,English Irish Latin
 Learning English Irish,English Irish
 Englanh,English
@@ -1469,7 +1469,7 @@ Emglanh,English
 Scotish Irish,Irish Scotch
 America and English,English Yankey
 Genlish,English
-Cannot Read and Write,None
+Cannot Read and Write,No-Language
 English of Welsh,English Welsh
 En and English,English
 Co English,English
@@ -1486,20 +1486,20 @@ S English Irish,English Irish
 English and Iirsh,English Irish
 Irish in ?,Irish
 Egish,English
-Neither English or Irish,None
+Neither English or Irish,No-Language
 Parent I and E,English Irish
 "Italian, English",English Italian
 English Speak Irish,English Irish
 Canspeak Irish and English,English Irish
 French Dutch English German,Dutch English French German
-Too Young to Talk,None
+Too Young to Talk,No-Language
 English Imperfectly,English
 Iris and Inglish,English Irish
 Spaks English,English
 I on English,English Irish
 Speak only,English Irish
 Student of Irish,Irish
-Cant,None
+Cant,No-Language
 Norwegian English,English Norwegian
 Irish Englh,English Irish
 Irish Lange,Irish
@@ -1508,15 +1508,15 @@ Irish and English Langu,English Irish
 A Little Irish and Good English,English Irish
 Irish and English Read,English Irish
 English and Irish Out Poorly,English Irish
-Cannot Speak it,None
+Cannot Speak it,No-Language
 Speak's English only,English
 Speak's Irish and English,English Irish
-Sorry Idont,None
+Sorry Idont,No-Language
 Eng and only,English Irish
 Irish Descent,Irish
 Irish and Hindustanie,Irish Hindustani
 Slightly,English Irish
-Ignorant,None
+Ignorant,No-Language
 "Greek, Latin and English",English Greek Latin
 GL English,English
 Grabic Bala,Arabic
@@ -1526,32 +1526,32 @@ English on Irish,English Irish
 Englisah,English
 Esh only,English
 English Langae,English
-Cannot Speech Irish,None
+Cannot Speech Irish,No-Language
 Galic and English,English Irish
 In English,English Irish
 Irish of Ireland,Irish
 Irish and Enish,English Irish
 Irish and English Irish not Many Fluently,English Irish
-No Speaking,None
-Doesnot Speak,None
+No Speaking,No-Language
+Doesnot Speak,No-Language
 Englind,English
 English India,English Hindustani
-Too Young,None
+Too Young,No-Language
 Enlish Only,English
 English and India,English Hindustani
-Parish,None
+Parish,No-Language
 Irish Lag,Irish
 Iris and Elg,English Irish
 French Irish and English,English French Irish
 Irish Slightly and English,English Irish
-Studying Sames Few Words,None
+Studying Sames Few Words,No-Language
 Irish English Hindi Etc,English Hindustani Irish
 Cannot and Irish,Irish
 Irish Inglsh,English Irish
 Frin? English,English
 Irish Lanuage,Irish
-Canno,None
-Noting,None
+Canno,No-Language
+Noting,No-Language
 Enghlis and Irish,English Irish
 En Languag,English
 Irish Eng and Latin,English Irish Latin
@@ -1561,7 +1561,7 @@ Eg Langue,English
 Irish Eng and C,English Irish
 I Seeton,Irish
 R and English,English
-Cannot Speak Irish and English,None
+Cannot Speak Irish and English,No-Language
 Englh,English
 Irish English Latin,English Irish Latin
 Englie,English
@@ -1581,10 +1581,10 @@ Write Irish and English,English Irish
 Irish and Inghlind,English Irish
 Engis Language,English
 Irish and English German,English German Irish
-Cannot D,None
+Cannot D,No-Language
 English a Student,English
 English Little of Irish,English Irish
-None Here,None
+None Here,No-Language
 English Welsh,English Welsh
 English Error,English
 English Understands not Speak or Write Irish,English
@@ -1595,11 +1595,11 @@ No I English,English
 English Irish at English,English Irish
 Irish Englih,English Irish
 Irish Enli,English Irish
-Dumb Yet,None
+Dumb Yet,No-Language
 Language Irish English,English Irish
 Cannot Spk Irish,English
-Cannot talk,None
-Cant speak Irish on English,None
+Cannot talk,No-Language
+Cant speak Irish on English,No-Language
 Irish and english,English Irish
 Irish ad English,English Irish
 English two Paudene Hasse,English
@@ -1607,7 +1607,7 @@ English two Paudene Hasse,English
 Greek or Hebrew,Greek Hebrew
 Englash Lang,English
 Irish Englist,English Irish
-Not Thought,None
+Not Thought,No-Language
 Irish and English French and Germany,English French German Irish
 English and Wa?,English Welsh
 Eansh,English
@@ -1632,14 +1632,14 @@ Late Irish and English,English Irish
 Laungs,Unknown
 Eirish and English,English Irish
 HN,Unknown
-No English and Irish,None
+No English and Irish,No-Language
 Englins,English
-Baby Language,None
+Baby Language,No-Language
 Fren and Eng,English French
 English Langeg,English
 French and Eng,English French
 Roman and English,English Latin
-Little of Either,None
+Little of Either,No-Language
 English D Irish,English Irish
 Partial Irish and English,English Irish
 English only Cant Irish,English
