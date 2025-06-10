@@ -4,27 +4,28 @@ import glob
 import os
 
 from sklearn.preprocessing import MultiLabelBinarizer
+from pathlib import Path
 
 import peopleconst as const
 
 # Relative to This File
 rootDirName = os.path.dirname(__file__)
-resultsDirName = os.path.join(rootDirName, '..\\results')
+resultsDirName = os.path.join(rootDirName, Path('../results'))
 
 # 1901 Dictionary File Read
-dirDictionary1901name = os.path.join(rootDirName, '..\\data\\dict\\census\\ireland\\')
+dirDictionary1901name = os.path.join(rootDirName, Path('../data/dict/census/ireland/'))
 dicLang1901name = os.path.join(dirDictionary1901name, 'ire_lang_1901.csv')
 dicLang1901NoExName = os.path.join(dirDictionary1901name, 'ire_lang_1901_nonExhaust.csv')
 dicLit1901name = os.path.join(dirDictionary1901name, 'ire_literacy_1901.csv')
 dicLit1901NoExName = os.path.join(dirDictionary1901name, 'ire_literacy_1901_nonExhaust.csv')
 
 # 1901 Census File Read
-dir1901name = os.path.join(rootDirName, '..\\data\\data\\census\\ireland\\1901\\')
+dir1901name = os.path.join(rootDirName, Path('../data/data/census/ireland/1901/'))
 file1901name = os.path.join(resultsDirName, 'ire_census_1901.csv')
 
+print('Base Census Path' + dir1901name)
 dfList=[]
-
-for filename in glob.iglob(dir1901name + '**/*.csv', recursive=True):
+for filename in glob.iglob(dir1901name + '/**/*.csv', recursive=True):
     print(filename)
     dfList.append(pd.read_csv(filename,names=const.header1901,dtype=const.types1901,index_col=False))
 
@@ -116,7 +117,7 @@ df1901.rename(columns = {
     'Yankey' : 'lang_yankey',
     'Yiddish' : 'lang_yiddish'},
     inplace=True)
-df1901.drop(['No-Language'], axis=1)
+df1901 = df1901.drop(['No-Language'], axis=1)
 print("1901 Census Count = " + str(df1901.shape[0]))
 
 print("1901 Census Literacy Standardisation")
@@ -140,7 +141,7 @@ df1901.rename(columns = {
     'Write' : 'lit_write',
     'Unknown' : 'lit_unknown'},
     inplace=True)
-df1901.drop(['Illiterate'], axis=1)
+df1901 = df1901.drop(['Illiterate'], axis=1)
 print("1901 Census Count = " + str(df1901.shape[0]))
 
 print("1901 Census County Standardisation")
