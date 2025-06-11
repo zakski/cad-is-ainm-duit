@@ -1,646 +1,645 @@
-religion,count
-Roman Catholic,2376086
-R Catholic,434300
-Presbyterian,374972
-Church of Ireland,371739
-Catholic,161908
-R C,112344
-Irish Church,64064
-Methodist,48189
-Church of England,33763
-Church Ireland,13590
-Roman Catholick,13050
-Catholic Church,12700
-Roman Catholic Church,9498
-Ch of Ireland,8374
-Episcopalian,8341
-Roman Catholice,7805
-R C Church,7065
-Presbyterian Church,7012
-Roman Cathlic,6512
-Rom Catholic,6505
-Roman Catholics,5843
-Unitarian,5548
-Baptist,5462
-Presbeterian,5089
-R Catholic Church,4733
-Catholic Religion,4712
-R Catholick,4533
-Roman C,4254
-Prespyterian,4133
-Reformed Presbyterian,3988
-Congregationalist,3904
-C of E,3693
-Protestant Church of Ireland,3616
-Protestant Episcopalian,3615
-C of Ireland,3360
-Roman Cathorlic,3290
-Roman Catolic,3206
-R Catholice,3090
-Roman Cath,3055
-Catholick,2912
-Catholic Roman,2822
-I C,2789
-Church of Rome,2760
-Wesleyan,2634
-Wesleyan Methodist,2536
-I Church,2476
-Catholic R,2421
-Ro Catholic,2310
-Curch of Ireland,2167
-Congregational,2150
-Catholice,2063
-Methodist Church,2063
-Roman Catholic Religion,2052
-English Church,1970
-Rn Catholic,1945
-Prespeterian,1919
-Christian,1884
-Roman Chatolic,1831
-Society of Friends,1819
-Presbyterrian,1809
-Roman Cathlick,1770
-Episcopal Church,1618
-Roman Catcholic,1591
-R Catholic Religion,1580
-Brethren,1483
-R Catholics,1480
-Church of Ireland Protestant,1469
-Protestant,1447
-Rm Catholic,1441
-Presbyterain,1385
-Presbyterians,1383
-Hebrew,1301
-Catholics,1299
-Roman Cathol,1259
-Roman Caholic,1227
-C of England,1218
-Presbterian,1215
-Church England,1211
-Roman Catholc,1209
-Roman C Church,1184
-Roman Cathelic,1158
-R Cathlic,1144
-Roman Cathloic,1139
-Protestant I C,1124
-Presbytarian,1097
-Protestant Church,1089
-Protestant Irish Church,1048
-Independent,1023
-Roman Church,1009
-Jew,998
-Salvation Army,978
-Brethern,939
-United Free Church of Scotland,937
-Uniterian,931
-Ch of England,923
-Roman Catlick,909
-Methodists,900
-C I,876
-Non Subscribing Presbyterian,863
-Prespterian,862
-R Cathorlic,836
-Presbyteran,834
-Moravian,823
-Presbyterian G A,817
-Christian Brethren,811
-Pres,803
-R Chatolic,795
-Roman Cathloc,742
-R Catcholic,689
-Roman Cathiloc,681
-Presbyterin,675
-Roman Catolick,669
-C Ireland,667
-Christian Brethern,667
-R Catolic,657
-Episcopal,641
-Presbyterian Ch,640
-Roman Catherlic,624
-C of I,618
-Church of Scotland,615
-Roman Catho,596
-R Cathlick,588
-Irish Church Protestant,581
-Presbytrian,573
-Romn Catholic,569
-Old Church of Ireland,564
-Roman Catholi,548
-Roman Chatholic,539
-Cathorlic,534
-Roman Catholic C,532
-Presbyterion,526
-Presbyterean,517
-Church of Irland,508
-Jewish,507
-Prebysterian,504
-Romon Catholic,500
-Episcopelian,488
-Prysbeterian,473
-Chatolic,453
-Catholic Religon,449
-Roman Catlic,446
-Roman Cathlice,444
-Ch Ireland,437
-R C Catholic,436
-R Catholic C,434
-Catholic C,424
-Episcopal Church of Ireland,423
-Cathlic,422
-Prisbyterian,421
-The Church of Ireland,418
-Plymouth Brethern,408
-Protestant Church of England,407
-Babtist,407
-Catolic,404
-Roman Cathelick,403
-Episcopalian Church of Ireland,402
-Church of I,402
-Roma Catholic,399
-Roman Catherlick,390
-Church of Ireland Episcopalian,383
-Presbyterian C,378
-Presby,376
-Roam Catholic,376
-C Church,375
-R Cath,372
-Presbiterian,371
-Roman Cathilic,367
-R Cathloic,361
-United Free Church,356
-Romen Catholic,356
-Presbetarian,351
-Rom Cath,350
-Information Refused,347
-Rmn Catholic,345
-Congregational Church,341
-Presbeyterian,337
-Plymouth Brethren,336
-W Methodist,329
-Episcopalian Church,323
-Roman Catholis,321
-C E,311
-R C Religion,311
-Salvationist,310
-Roman Cat,303
-Roman Cathole,302
-Catcholic,300
-Episcoplian,299
-Protestant Episcopal,299
-Catholick Church,296
-Covenanter,296
+Roman Catholic,Roman Catholic
+R Catholic,Roman Catholic
+Presbyterian,Presbyterian
+Church of Ireland,Church of Ireland
+Catholic,Roman Catholic
+R C,Roman Catholic
+Irish Church,Church of Ireland
+Methodist,Methodist
+Church of England,Church of England
+Church Ireland,Church of Ireland
+Roman Catholick,Roman Catholic
+Catholic Church,Roman Catholic
+Roman Catholic Church,Roman Catholic
+Ch of Ireland,Church of Ireland
+Episcopalian,Church of Ireland
+Roman Catholice,Roman Catholic
+R C Church,Roman Catholic
+Presbyterian Church,Presbyterian
+Roman Cathlic,Roman Catholic
+Rom Catholic,Roman Catholic
+Roman Catholics,Roman Catholic
+Unitarian,Unitarian
+Baptist,Baptist
+Presbeterian,Presbyterian
+R Catholic Church,Roman Catholic
+Catholic Religion,Roman Catholic
+R Catholick,Roman Catholic
+Roman C,Roman Catholic
+Prespyterian,Presbyterian
+Reformed Presbyterian,Reformed Presbyterian
+Congregationalist,Congregationalist
+C of E,Church of England
+Protestant Church of Ireland,Church of Ireland
+Protestant Episcopalian,Church of Ireland
+C of Ireland,Church of Ireland
+Roman Cathorlic,Roman Catholic
+Roman Catolic,Roman Catholic
+R Catholice,Roman Catholic
+Roman Cath,Roman Catholic
+Catholick,Roman Catholic
+Catholic Roman,Roman Catholic
+I C,Church of Ireland
+Church of Rome,Roman Catholic
+Wesleyan,Wesleyan Methodist
+Wesleyan Methodist,Wesleyan Methodist
+I Church,Church of Ireland
+Catholic R,Roman Catholic
+Ro Catholic,Roman Catholic
+Curch of Ireland,Church of Ireland
+Congregational,Congregationalist
+Catholice,Roman Catholic
+Methodist Church,Methodist
+Roman Catholic Religion,Roman Catholic
+English Church,Church of England
+Rn Catholic,Roman Catholic
+Prespeterian,Presbyterian
+Christian,Plymouth Brethren
+Roman Chatolic,Roman Catholic
+Society of Friends,Quaker
+Presbyterrian,Presbyterian
+Roman Cathlick,Roman Catholic
+Episcopal Church,Church of Ireland
+Roman Catcholic,Roman Catholic
+R Catholic Religion,Roman Catholic
+Brethren,Plymouth Brethren
+R Catholics,Roman Catholic
+Church of Ireland Protestant,Church of Ireland
+Protestant,Church of Ireland
+Rm Catholic,Roman Catholic
+Presbyterain,Presbyterian
+Presbyterians,Presbyterian
+Hebrew,Jewish
+Catholics,Roman Catholic
+Roman Cathol,Roman Catholic
+Roman Caholic,Roman Catholic
+C of England,Church of England
+Presbterian,Presbyterian
+Church England,Church of England
+Roman Catholc,Roman Catholic
+Roman C Church,Roman Catholic
+Roman Cathelic,Roman Catholic
+R Cathlic,Roman Catholic
+Roman Cathloic,Roman Catholic
+Protestant I C,Church of Ireland
+Presbytarian,Presbyterian
+Protestant Church,Church of Ireland
+Protestant Irish Church,Church of Ireland
+Independent,Independent
+Roman Church,Roman Catholic
+Jew,Jewish
+Salvation Army,Salvationist
+Brethern,Plymouth Brethren
+United Free Church of Scotland,United Free Church of Scotland
+Uniterian,Unitarian
+Ch of England,Church of England
+Roman Catlick,Roman Catholic
+Methodists,Methodist
+C I,Church of Ireland
+Non Subscribing Presbyterian,Non-Subscribing Presbyterian
+Prespterian,Presbyterian
+R Cathorlic,Roman Catholic
+Presbyteran,Presbyterian
+Moravian,Moravian
+Presbyterian G A,Presbyterian
+Christian Brethren,Christian Brethren
+Pres,Presbyterian
+R Chatolic,Roman Catholic
+Roman Cathloc,Roman Catholic
+R Catcholic,Roman Catholic
+Roman Cathiloc,Roman Catholic
+Presbyterin,Presbyterian
+Roman Catolick,Roman Catholic
+C Ireland,Church of Ireland
+Christian Brethern,Christian Brethren
+R Catolic,Roman Catholic
+Episcopal,Church of Ireland
+Presbyterian Ch,Presbyterian
+Roman Catherlic,Roman Catholic
+C of I,Church of Ireland
+Church of Scotland,Church of Scotland
+Roman Catho,Roman Catholic
+R Cathlick,Roman Catholic
+Irish Church Protestant,Church of Ireland
+Presbytrian,Presbyterian
+Romn Catholic,Roman Catholic
+Old Church of Ireland,Church of Ireland
+Roman Catholi,Roman Catholic
+Roman Chatholic,Roman Catholic
+Cathorlic,Roman Catholic
+Roman Catholic C,Roman Catholic
+Presbyterion,Presbyterian
+Presbyterean,Presbyterian
+Church of Irland,Church of Ireland
+Jewish,Jewish
+Prebysterian,Presbyterian
+Romon Catholic,Roman Catholic
+Episcopelian,Church of Ireland
+Prysbeterian,Presbyterian
+Chatolic,Roman Catholic
+Catholic Religon,Roman Catholic
+Roman Catlic,Roman Catholic
+Roman Cathlice,Roman Catholic
+Ch Ireland,Church of Ireland
+R C Catholic,Roman Catholic
+R Catholic C,Roman Catholic
+Catholic C,Roman Catholic
+Episcopal Church of Ireland,Church of Ireland
+Cathlic,Roman Catholic
+Prisbyterian,Presbyterian
+The Church of Ireland,Church of Ireland
+Plymouth Brethern,Plymouth Brethren
+Protestant Church of England,Church of England
+Babtist,Baptist
+Catolic,Roman Catholic
+Roman Cathelick,Roman Catholic
+Episcopalian Church of Ireland,Church of Ireland
+Church of I,Church of Ireland
+Roma Catholic,Roman Catholic
+Roman Catherlick,Roman Catholic
+Church of Ireland Episcopalian,Church of Ireland
+Presbyterian C,Presbyterian
+Presby,Presbyterian
+Roam Catholic,Roman Catholic
+C Church,Roman Catholic
+R Cath,Roman Catholic
+Presbiterian,Presbyterian
+Roman Cathilic,Roman Catholic
+R Cathloic,Roman Catholic
+United Free Church,United Free Church of Scotland
+Romen Catholic,Roman Catholic
+Presbetarian,Presbyterian
+Rom Cath,Roman Catholic
+Information Refused,Unknown
+Rmn Catholic,Roman Catholic
+Congregational Church,Congregationalist
+Presbeyterian,Presbyterian
+Plymouth Brethren,Plymouth Brethren
+W Methodist,Wesleyan Methodist
+Episcopalian Church,Church of Ireland
+Roman Catholis,Roman Catholic
+C E,Church of England
+R C Religion,Roman Catholic
+Salvationist,Salvationist
+Roman Cat,Roman Catholic
+Roman Cathole,Roman Catholic
+Catcholic,Roman Catholic
+Episcoplian,Church of Ireland
+Protestant Episcopal,Church of Ireland
+Catholick Church,Roman Catholic
+Covenanter,Reformed Presbyterian
 Church,295
-R Cathelic,294
-Jewess,294
-Baptist Church,293
-Roman Cathl,292
-Cathlick,285
-R Presbyterian,282
-Methodist New Connexion,281
-Congregationlist,278
-Church of Eng,275
-Episcopalion,267
-Independant,267
-Roman,262
-Presybterian,261
-Roman Cathorlick,260
-Presperterian,259
-Quaker,254
-Church of Irelan,251
-Church Rome,248
-Church of Ireld,245
-Moravian Church,241
-Roman Catholick Church,240
-Ron Catholic,239
-Church of Ire,239
-Curch Ireland,231
-Methodest,230
-Member of Church of Ireland,228
-Roman Cathoic,226
-Episcopalian Protestant,226
-Roman Cathic,224
-Roman Catholic Ch,223
-E Church,221
-Irish Curch,220
-Presbytirian,220
-Protestant Episcopelian,219
-Roman Cathc,218
-Church of England Protestant,218
-R Cathiloc,215
-Protestant Episcopal Church,215
-Roman Catheolic,213
-Ref Presbyterian,209
-Protestant Episcopalians,208
-Rome Catholic,207
-Church of Christ,206
-Catholic Curch,205
-Presbyterien,204
-Prebyterian,203
-Prespertian,201
-A Roman Catholic,197
-Roman Cathlock,195
-Cathloic,194
-Roman Catolice,194
-Episcopalian Irish Church,192
-R Catholic Ch,190
-R Cathelick,190
-Roman Catholoc,190
-Presbeterian Church,189
-Free Church of Scotland,188
-Roman Catholic's,184
-Roman Caterlick,182
-R Catlick,182
-Refd Presbyterian,181
-Ch of I,180
-Holy Roman Catholic,180
-Catholic Ch,178
-R Catherlic,178
-I C Protestant,177
-Roman Catrlick,176
-Member of the Church of Ireland,175
-Roman Cathalic,174
-Church of God,173
-Catholice Church,172
-Presbertian,172
-Congregationalists,172
-Primitive Methodist,172
-Methodist Ch,170
-Catherlick,170
-R C C,170
-Irish Presbyterian,169
-R Cathloc,168
-Presbyternian,167
-Presbyn,167
-United Presbyterian,166
-R Chatholic,165
-Roman Catholik,165
-Church off Ireland,164
-Protestant I Church,164
-Catholique,162
-Curch of England,162
-Non Sub Presbyterian,160
-R Catholc,160
-Cathelic,159
-Prespiterian,157
-Catherlic,156
-R Catherlick,155
-Roman Catchlic,153
-Roman Cathrolic,152
-No Denomination,152
-Cathelick,152
-Roman Cathoc,152
-Roman Catholic Curch,151
-R Catolick,151
-Established Church of Scotland,150
-Roman Catholicks,149
-Cathiloc,146
-Cathlic Church,146
-Independent Church,146
-Free Church,145
-Protestant C I,145
-Roman Cathick,144
-Unatarian,143
-Chuch of Ireland,142
-Roman Catholic Church of Rome,141
-Irish Church Episcopalian,141
-Presybeterian,141
-Irish Catholic,140
-Prespetarian,139
-Unaterian,138
-Presby Church,137
-Roman Cathiolic,137
-Roman Catholic Religon,136
-Roman Caiholic,135
-Roman Cotholic,135
-Church of Roam,135
-C England,134
-Prsbyterian,133
-Roman Catholices,132
-Episcopilian,131
-Presbtyerian,131
-Roman Catholica,130
-Presbytern,130
-Catlick,129
-Roman C C,129
-Protestant Episcopalian Church of Ireland,127
-Pres Church,126
-Catholic Relig,126
-Roman Cathlioc,125
-R Cathol,124
-Catholic Rom,123
-Chatholic,123
-Romin Catholic,123
-Reformed Presbeterian,122
-Presbyteranean,121
-Presberterian,121
-Roman Cathlolic,120
-Roman Catholac,119
-C Religion,119
-R Church,119
-Presbyterranean,119
-Prisbeterian,119
-Roman Chatlic,118
-Episcopalian I C,118
-Irish Episcopal Church,117
-Lutheran,117
-Prespyterian Church,116
-Weslyan Methodist,116
-Methodist New Connection,116
-Prysbterian,115
-?,115
-Baptists,115
-Protestant Church Ireland,115
-Roaman Catholic,114
-Church I,114
-Bretheren,113
-Church of Ired,112
-Presbyerian,112
-Non-Subscribing Presbyterian,111
-Protestant Presbyterian,110
-Prespeterian Church,109
-R Cathalic,109
-U F Church,108
-Protestant Ch of Ireland,107
-Roman Cathlc,107
-Church of Irel,107
-Catholic Rel,107
-Presbeterain,107
-Episcopalean,107
-Roman Caterlic,106
-R Cathlice,105
-Presbyterrean,104
-Church of Irelad,104
-Presbetrian,103
-Unitarian Church,102
-Catolick,102
-Church Irland,102
-Presyterian,102
-Wesleyn Methodist,101
-Irish Ch,101
-Established Church,100
-Church of Ireland Episcopal,100
-Protestant Episcoplian,100
-Bresbyterian,100
-Society of Friend,99
-Roman Catherolic,99
-Church of Iriland,98
-Scotch Church,98
-Roman R Catholic,96
-Irish Protestant Church,96
-Romain Catholic,96
-Irish Presbyterian Church,96
-R Cathlock,95
-Prebesterian,95
-Cathorlick,94
-Church of Ireland Irish Church,94
-Roman Catholic R,93
-Church of Irela,93
-Presbytearian,92
-Roman Catlolic,91
-Presbeterion,90
-Prispeterian,89
-Presbetyrian,89
-Roman Catholio,89
-Pryspeterian,89
-Rom Catholick,89
-Epscoplian,88
-Co England,88
-Prespyterain,87
-Roman Cattolic,87
-R Catholick Church,87
-Church of Engd,87
-Rc Catholic,86
-Presbypterian,86
-Presbpterian,86
-Chur of Ireland,86
+R Cathelic,Roman Catholic
+Jewess,Jewish
+Baptist Church,Baptist
+Roman Cathl,Roman Catholic
+Cathlick,Roman Catholic
+R Presbyterian,Reformed Presbyterian
+Methodist New Connexion,Methodist New Connexion
+Congregationlist,Congregationalist
+Church of Eng,Church of England
+Episcopalion,Church of Ireland
+Independant,Independent
+Roman,Roman Catholic
+Presybterian,Roman Catholic
+Roman Cathorlick,Roman Catholic
+Presperterian,Presbyterian
+Quaker,Quaker
+Church of Irelan,Church of Ireland
+Church Rome,Roman Catholic
+Church of Ireld,Church of Ireland
+Moravian Church,Moravian
+Roman Catholick Church,Roman Catholic
+Ron Catholic,Roman Catholic
+Church of Ire,Church of Ireland
+Curch Ireland,Church of Ireland
+Methodest,Methodist
+Member of Church of Ireland,Church of Ireland
+Roman Cathoic,Roman Catholic
+Episcopalian Protestant,Church of Ireland
+Roman Cathic,Roman Catholic
+Roman Catholic Ch,Roman Catholic
+E Church,Church of England
+Irish Curch,Church of Ireland
+Presbytirian,Presbyterian
+Protestant Episcopelian,Church of Ireland
+Roman Cathc,Roman Catholic
+Church of England Protestant,Church of England
+R Cathiloc,Roman Catholic
+Protestant Episcopal Church,Church of Ireland
+Roman Catheolic,Roman Catholic
+Ref Presbyterian,Reformed Presbyterian
+Protestant Episcopalians,Church of Ireland
+Rome Catholic,Roman Catholic
+Church of Christ,Church of Christ
+Catholic Curch,Roman Catholic
+Presbyterien,Presbyterian
+Prebyterian,Presbyterian
+Prespertian,Presbyterian
+A Roman Catholic,Roman Catholic
+Roman Cathlock,Roman Catholic
+Cathloic,Roman Catholic
+Roman Catolice,Roman Catholic
+Episcopalian Irish Church,Church of Ireland
+R Catholic Ch,Roman Catholic
+R Cathelick,Roman Catholic
+Roman Catholoc,Roman Catholic
+Presbeterian Church,Presbyterian
+Free Church of Scotland,Free Church of Scotland
+Roman Catholic's,Roman Catholic
+Roman Caterlick,Roman Catholic
+R Catlick,Roman Catholic
+Refd Presbyterian,Reformed Presbyterian
+Ch of I,Church of Ireland
+Holy Roman Catholic,Roman Catholic
+Catholic Ch,Roman Catholic
+R Catherlic,Roman Catholic
+I C Protestant,Church of Ireland
+Roman Catrlick,Roman Catholic
+Member of the Church of Ireland,Church of Ireland
+Roman Cathalic,Roman Catholic
+Church of God,Church of God
+Catholice Church,Roman Catholic
+Presbertian,Presbyterian
+Congregationalists,Congregationalist
+Primitive Methodist,Primitive Methodist
+Methodist Ch,Methodist
+Catherlick,Roman Catholic
+R C C,Roman Catholic
+Irish Presbyterian,Presbyterian
+R Cathloc,Roman Catholic
+Presbyternian,Presbyterian
+Presbyn,Presbyterian
+United Presbyterian,United Presbyterian
+R Chatholic,Roman Catholic
+Roman Catholik,Roman Catholic
+Church off Ireland,Church of Ireland
+Protestant I Church,Church of Ireland
+Catholique,Roman Catholic
+Curch of England,Church of England
+Non Sub Presbyterian,Non-Subscribing Presbyterian
+R Catholc,Roman Catholic
+Cathelic,Roman Catholic
+Prespiterian,Presbyterian
+Catherlic,Roman Catholic
+R Catherlick,Roman Catholic
+Roman Catchlic,Roman Catholic
+Roman Cathrolic,Roman Catholic
+No Denomination,Non-denominational Christian
+Cathelick,Roman Catholic
+Roman Cathoc,Roman Catholic
+Roman Catholic Curch,Roman Catholic
+R Catolick,Roman Catholic
+Established Church of Scotland,Church of Scotland
+Roman Catholicks,Roman Catholic
+Cathiloc,Roman Catholic
+Cathlic Church,Roman Catholic
+Independent Church,Independent
+Free Church,Free Church of Scotland
+Protestant C I,Church of Ireland
+Roman Cathick,Roman Catholic
+Unatarian,Unitarian
+Chuch of Ireland,Church of Ireland
+Roman Catholic Church of Rome,Roman Catholic
+Irish Church Episcopalian,Church of Ireland
+Presybeterian,Presbyterian
+Irish Catholic,Roman Catholic
+Prespetarian,Presbyterian
+Unaterian,Unitarian
+Presby Church,Presbyterian
+Roman Cathiolic,Roman Catholic
+Roman Catholic Religon,Roman Catholic
+Roman Caiholic,Roman Catholic
+Roman Cotholic,Roman Catholic
+Church of Roam,Roman Catholic
+C England,Church of England
+Prsbyterian,Presbyterian
+Roman Catholices,Roman Catholic
+Episcopilian,Church of Ireland
+Presbtyerian,Presbyterian
+Roman Catholica,Roman Catholic
+Presbytern,Presbyterian
+Catlick,Roman Catholic
+Roman C C,Roman Catholic
+Protestant Episcopalian Church of Ireland,Church of Ireland
+Pres Church,Presbyterian
+Catholic Relig,Roman Catholic
+Roman Cathlioc,Roman Catholic
+R Cathol,Roman Catholic
+Catholic Rom,Roman Catholic
+Chatholic,Roman Catholic
+Romin Catholic,Roman Catholic
+Reformed Presbeterian,Reformed Presbyterian
+Presbyteranean,Presbyterian
+Presberterian,Presbyterian
+Roman Cathlolic,Roman Catholic
+Roman Catholac,Roman Catholic
+C Religion,Roman Catholic
+R Church,Roman Catholic
+Presbyterranean,Presbyterian
+Prisbeterian,Presbyterian
+Roman Chatlic,Roman Catholic
+Episcopalian I C,Church of Ireland
+Irish Episcopal Church,Church of Ireland
+Lutheran,Lutheran
+Prespyterian Church,Presbyterian
+Weslyan Methodist,Wesleyan Methodist
+Methodist New Connection,Methodist New Connexion
+Prysbterian,Presbyterian
+?,Unknown
+Baptists,Baptist
+Protestant Church Ireland,Church of Ireland
+Roaman Catholic,Roman Catholic
+Church I,Church of Ireland
+Bretheren,Plymouth Brethren
+Church of Ired,Church of Ireland
+Presbyerian,Presbyterian
+Non-Subscribing Presbyterian,Non-Subscribing Presbyterian
+Protestant Presbyterian,Presbyterian
+Prespeterian Church,Presbyterian
+R Cathalic,Roman Catholic
+U F Church,United Free Church of Scotland
+Protestant Ch of Ireland,Church of Ireland
+Roman Cathlc,Roman Catholic
+Church of Irel,Church of Ireland
+Catholic Rel,Roman Catholic
+Presbeterain,Presbyterian
+Episcopalean,Church of Ireland
+Roman Caterlic,Roman Catholic
+R Cathlice,Roman Catholic
+Presbyterrean,Presbyterian
+Church of Irelad,Church of Ireland
+Presbetrian,Presbyterian
+Unitarian Church,Unitarian
+Catolick,Roman Catholic
+Church Irland,Church of Ireland
+Presyterian,Presbyterian
+Wesleyn Methodist,Wesleyan Methodist
+Irish Ch,Church of Ireland
+Established Church,Church of Ireland
+Church of Ireland Episcopal,Church of Ireland
+Protestant Episcoplian,Church of Ireland
+Bresbyterian,Presbyterian
+Society of Friend,Quaker
+Roman Catherolic,Roman Catholic
+Church of Iriland,Church of Ireland
+Scotch Church,Church of Scotland
+Roman R Catholic,Roman Catholic
+Irish Protestant Church,Church of Ireland
+Romain Catholic,Roman Catholic
+Irish Presbyterian Church,Presbyterian
+R Cathlock,Roman Catholic
+Prebesterian,Presbyterian
+Cathorlick,Roman Catholic
+Church of Ireland Irish Church,Church of Ireland
+Roman Catholic R,Roman Catholic
+Church of Irela,Church of Ireland
+Presbytearian,Presbyterian
+Roman Catlolic,Roman Catholic
+Presbeterion,Presbyterian
+Prispeterian,Presbyterian
+Presbetyrian,Presbyterian
+Roman Catholio,Roman Catholic
+Pryspeterian,Presbyterian
+Rom Catholick,Roman Catholic
+Epscoplian,Church of Ireland
+Co England,Church of England
+Prespyterain,Presbyterian
+Roman Cattolic,Roman Catholic
+R Catholick Church,Roman Catholic
+Church of Engd,Church of England
+Rc Catholic,Roman Catholic
+Presbypterian,Presbyterian
+Presbpterian,Presbyterian
+Chur of Ireland,Church of Ireland
 Christain,85
-Rom Cathlic,85
-Catolic Church,85
-Presbyteriam,85
-Wesleyan Methodists,85
-Prespetrian,85
-Church of E,84
-E C,84
-Roman Cathotic,84
-R Catholica,84
-Wesley Methodist,83
-Church of Irld,83
-Reformed Presbyterian Church,83
-Salvationest,83
-Methodist C,83
-Prot Epis,83
-Member Church of Ireland,82
-Mithodist,82
-Presbeterin,81
-Roman Catohlic,81
-Roman Catlice,81
-R Catholic Curch,81
-R Cathorlick,81
-R Catholique,81
-R Catholic R,81
-R Catholices,81
-Roman Cathlics,80
-No Religion,80
-C R,80
-R Cathilic,80
-Presbysterian,79
-P Episcopalian,79
-Episcopelion,79
-Roman Ca,79
-Members of the Church of Ireland,79
-Roman Cathilick,79
-R Catholic Religon,79
-Presbytrain,79
-Presbaterian,79
-Presbyteria,79
-Roman Catholice Church,78
-Church of Ird,77
-Ro Catholick,77
-C I Protestant,77
-U F Church of Scotland,76
-R Catholi,75
-Catholic Apostolic,75
-Prespytarian,75
-Chatolic Church,75
-Agnostic,75
-Prot Episcopalian,75
-Roman Cathoclic,75
-Episcopolian,75
-Protestant Episcopalion,75
-Roman Calothic,75
-R Catholis,74
-Congregationist,74
-Jewish Religion,74
-Roman Catloic,73
-Roman Catorlic,73
-The Irish Church,73
-Prespertain,73
-Episcopal Irish Church,72
-Seceder,72
-Ronan Catholic,70
-Brethren in Christ,70
-Prespbyterian,70
-Medothist,70
-Roman Cathelice,70
-Prespterion,69
-Catholicks,69
-Roman Catholes,69
-Presbeterrian,69
-Jews,68
-Ro C,68
-Friends,68
-R Cathole,68
-Church Ireland Protestant,68
-R Caholic,68
-Catholica,68
-Presterian,68
-The Brethren,67
-Ir Church,67
-Non Subscribing Presbyterians,67
-Roman Catlock,67
-Israelite,67
-Presbyterian Protestant,67
-Episcopalians,66
-Cathlice,66
-Prespreterian,65
-Episcopal Ch,65
-Protestant Episcopal Church of Ireland,65
-Roman Cathlic Church,65
-Roman Cacholic,65
-Roman R C,64
-Prespeterion,64
-R Cathoic,63
-Prespaterian,63
-Christian Known as Brethern,63
-Roman Cathrlic,63
-Presbyteren,63
-Presbyterrian Church,62
-Presbterain,62
-R Caterlick,62
-Reformed Presby,62
-Prebsyterian,62
-Roman Ctholic,62
-Presbeteryian,61
-Old Church Ireland,61
-Church and Ireland,61
-Unitarion,60
-Rhoman Catholic,59
-Catholic Chur,59
-R Roman Catholic,59
-Presbyterran,59
-Roman Catholic Rel,59
-Catcholic Church,59
-Chr of Ireland,59
-R Catheolic,58
-Presbterian Church,58
-Presbertain,58
-Christian Known as Brethren,58
-Protestant C of I,57
-R Cathlic Church,57
-Prysbyterian,57
-C of Engd,57
-Protestant Epis,57
-Unitarians,56
-Roman Cathloce,56
-Roman and Catholic,56
-Presbytirean,56
-Friend,56
-Roman Catorlick,55
-Presbytrean,55
-Catholic religion,55
-Unknown,55
-Roman Caothlic,55
-Methodist N C,55
-Roman Catholic Denomination,54
-Episcopalin,54
-Roman Catolich,54
-Roman Catholec,54
-Cathoclic,54
-R Catho,54
-R Catchlic,54
-Protestant of Church of Ireland,53
-Free Thinker,53
-Lutherian,53
-R Cathrolic,53
-Presbyterian General Assembly,52
-Ch of Eng,52
-Methodist Wesleyan,52
-Presbytreian,52
-Congregationalst,52
-Prespeterin,52
-Catholice Religion,52
-R C Clergyman,52
-Independents,52
-Preysbeterian,51
-Known as Brethren,51
-R Cotholic,51
-Roman Catochlic,51
-Catholices,51
+Rom Cathlic,Roman Catholic
+Catolic Church,Roman Catholic
+Presbyteriam,Presbyterian
+Wesleyan Methodists,Wesleyan Methodist
+Prespetrian,Presbyterian
+Church of E,Church of England
+E C,Church of England
+Roman Cathotic,Roman Catholic
+R Catholica,Roman Catholic
+Wesley Methodist,Wesleyan Methodist
+Church of Irld,Church of Ireland
+Reformed Presbyterian Church,Reformed Presbyterian
+Salvationest,Salvationist
+Methodist C,Methodist
+Prot Epis,Church of Ireland
+Member Church of Ireland,Church of Ireland
+Mithodist,Methodist
+Presbeterin,Presbyterian
+Roman Catohlic,Roman Catholic
+Roman Catlice,Roman Catholic
+R Catholic Curch,Roman Catholic
+R Cathorlick,Roman Catholic
+R Catholique,Roman Catholic
+R Catholic R,Roman Catholic
+R Catholices,Roman Catholic
+Roman Cathlics,Roman Catholic
+No Religion,Atheist
+C R,Roman Catholic
+R Cathilic,Roman Catholic
+Presbysterian,Presbyterian
+P Episcopalian,Church of Ireland
+Episcopelion,Church of Ireland
+Roman Ca,Roman Catholic
+Members of the Church of Ireland,Church of Ireland
+Roman Cathilick,Roman Catholic
+R Catholic Religon,Roman Catholic
+Presbytrain,Presbyterian
+Presbaterian,Presbyterian
+Presbyteria,Presbyterian
+Roman Catholice Church,Roman Catholic
+Church of Ird,Church of Ireland
+Ro Catholick,Roman Catholic
+C I Protestant,Church of Ireland
+U F Church of Scotland,United Free Church of Scotland
+R Catholi,Roman Catholic
+Catholic Apostolic,Catholic Apostolic
+Prespytarian,Presbyterian
+Chatolic Church,Roman Catholic
+Agnostic,Agnostic
+Prot Episcopalian,Church of Ireland
+Roman Cathoclic,Roman Catholic
+Episcopolian,Church of Ireland
+Protestant Episcopalion,Church of Ireland
+Roman Calothic,Roman Catholic
+R Catholis,Roman Catholic
+Congregationist,Congregationalist
+Jewish Religion,Jewish
+Roman Catloic,Roman Catholic
+Roman Catorlic,Roman Catholic
+The Irish Church,Church of Ireland
+Prespertain,Presbyterian
+Episcopal Irish Church,Church of Ireland
+Seceder,Seceder Presbyterian
+Ronan Catholic,Roman Catholic
+Brethren in Christ,Christian Brethren
+Prespbyterian,Presbyterian
+Medothist,Methodist
+Roman Cathelice,Roman Catholic
+Prespterion,Presbyterian
+Catholicks,Roman Catholic
+Roman Catholes,Roman Catholic
+Presbeterrian,Presbyterian
+Jews,Jewish
+Ro C,Roman Catholic
+Friends,Quaker
+R Cathole,Roman Catholic
+Church Ireland Protestant,Church of Ireland
+R Caholic,Roman Catholic
+Catholica,Roman Catholic
+Presterian,Presbyterian
+The Brethren,Christian Brethren
+Ir Church,Church of Ireland
+Non Subscribing Presbyterians,Non-Subscribing Presbyterian
+Roman Catlock,Roman Catholic
+Israelite,Jewish
+Presbyterian Protestant,Presbyterian
+Episcopalians,Church of Ireland
+Cathlice,Roman Catholic
+Prespreterian,Presbyterian
+Episcopal Ch,Church of Ireland
+Protestant Episcopal Church of Ireland,Church of Ireland
+Roman Cathlic Church,Roman Catholic
+Roman Cacholic,Roman Catholic
+Roman R C,Roman Catholic
+Prespeterion,Presbyterian
+R Cathoic,Roman Catholic
+Prespaterian,Presbyterian
+Christian Known as Brethern,Christian Brethren
+Roman Cathrlic,Roman Catholic
+Presbyteren,Presbyterian
+Presbyterrian Church,Presbyterian
+Presbterain,Presbyterian
+R Caterlick,Roman Catholic
+Reformed Presby,Reformed Presbyterian
+Prebsyterian,Presbyterian
+Roman Ctholic,Roman Catholic
+Presbeteryian,Presbyterian
+Old Church Ireland,Church of Ireland
+Church and Ireland,Church of Ireland
+Unitarion,Unitarian
+Rhoman Catholic,Roman Catholic
+Catholic Chur,Roman Catholic
+R Roman Catholic,Roman Catholic
+Presbyterran,Presbyterian
+Roman Catholic Rel,Roman Catholic
+Catcholic Church,Roman Catholic
+Chr of Ireland,Church of Ireland
+R Catheolic,Roman Catholic
+Presbterian Church,Presbyterian
+Presbertain,Presbyterian
+Christian Known as Brethren,Christian Brethren
+Protestant C of I,Church of Ireland
+R Cathlic Church,Roman Catholic
+Prysbyterian,Presbyterian
+C of Engd,Church of England
+Protestant Epis,Church of Ireland
+Unitarians,Unitarian
+Roman Cathloce,Roman Catholic
+Roman and Catholic,Roman Catholic
+Presbytirean,Presbyterian
+Friend,Quaker
+Roman Catorlick,Roman Catholic
+Presbytrean,Presbyterian
+Catholic religion,Roman Catholic
+Unknown,Unknown
+Roman Caothlic,Roman Catholic
+Methodist N C,Methodist New Connexion
+Roman Catholic Denomination,Roman Catholic
+Episcopalin,Church of Ireland
+Roman Catolich,Roman Catholic
+Roman Catholec,Roman Catholic
+Cathoclic,Roman Catholic
+R Catho,Roman Catholic
+R Catchlic,Roman Catholic
+Protestant of Church of Ireland,Church of Ireland
+Free Thinker,Free Thinker
+Lutherian,Lutheran
+R Cathrolic,Roman Catholic
+Presbyterian General Assembly,Presbyterian
+Ch of Eng,Church of England
+Methodist Wesleyan,Wesleyan Methodist
+Presbytreian,Presbyterian
+Congregationalst,Congregationalist
+Prespeterin,Presbyterian
+Catholice Religion,Roman Catholic
+R C Clergyman,Roman Catholic
+Independents,Independent
+Preysbeterian,Presbyterian
+Known as Brethren,Christian Brethren
+R Cotholic,Roman Catholic
+Roman Catochlic,Roman Catholic
+Catholices,Roman Catholic
 Christians,51
-Roman Catholich,51
-R Catcholice,51
-Church of Ireland Protestant Episcopalian,51
-Roman Catholic Thank God,50
-Protestant Episcopn,50
-Presbitarian,50
-Protestant Episcopalian Church,50
-Roman Cathrlick,50
-Presbyterenian,50
-Roman Chatolice,50
-I C Church,50
-R Catholic Relig,50
-Preysbterian,50
-Chirch of Ireland,50
-Prespertion,50
-General Assembly Presbyterian,50
-Moravion,50
-R Catholice Church,50
-Rom Catholice,50
+Roman Catholich,Roman Catholic
+R Catcholice,Roman Catholic
+Church of Ireland Protestant Episcopalian,Church of Ireland
+Roman Catholic Thank God,Roman Catholic
+Protestant Episcopn,Church of Ireland
+Presbitarian,Presbyterian
+Protestant Episcopalian Church,Church of Ireland
+Roman Cathrlick,Roman Catholic
+Presbyterenian,Presbyterian
+Roman Chatolice,Roman Catholic
+I C Church,Church of Ireland
+R Catholic Relig,Roman Catholic
+Preysbterian,Presbyterian
+Chirch of Ireland,Church of Ireland
+Prespertion,Presbyterian
+General Assembly Presbyterian,Presbyterian
+Moravion,Moravian
+R Catholice Church,Roman Catholic
+Rom Catholice,Roman Catholic
 N S Presbyterian,50
-Prysterian,49
-Roman Cathoric,49
+Prysterian,Presbyterian
+Roman Cathoric,Roman Catholic
 Ch England,49
-Rroman Catholic,49
-Rom Catlick,49
-Presn,49
-Romam Catholic,49
-Roamin Catholic,49
-R Catholic Rel,49
-Presbryterian,49
-Cathorlic Church,49
-Roman Catholck,49
-Prespterian Church,48
+Rroman Catholic,Roman Catholic
+Rom Catlick,Roman Catholic
+Presn,Presbyterian
+Romam Catholic,Roman Catholic
+Roamin Catholic,Roman Catholic
+R Catholic Rel,Roman Catholic
+Presbryterian,Presbyterian
+Cathorlic Church,Roman Catholic
+Roman Catholck,Roman Catholic
+Prespterian Church,Presbyterian
 Scotland,48
-Ro Catholice,48
-Presbetarien,48
-Roman C Religion,48
-R Catholigue,48
+Ro Catholice,Roman Catholic
+Presbetarien,Presbyterian
+Roman C Religion,Roman Catholic
+R Catholigue,Roman Catholic
 Seventh Day Adventist,47
-Roman Cathols,47
-Roman Cathel,47
-Cathilic,47
+Roman Cathols,Roman Catholic
+Roman Cathel,Roman Catholic
+Cathilic,Roman Catholic
 Reform Presbyterian,47
-Romane Catholic,47
-Cathlick Church,47
+Romane Catholic,Roman Catholic
+Cathlick Church,Roman Catholic
 P E Church,47
-Rom Cathlick,47
-Catheolic,47
+Rom Cathlick,Roman Catholic
+Catheolic,Roman Catholic
 C of Eng,47
 Protestant Episcopalian Irish Church,46
 Brethern in Christ,46
 Ih Church,46
-Pryspterian,46
-Roman Cathlico,46
+Pryspterian,Presbyterian
+Roman Cathlico,Roman Catholic
 Catholic Apostolic Church,46
 New Connexion Methodist,45
 Rd Presbyterian,45
-Prespteran,45
+Prespteran,Presbyterian
 First Presbyterian,45
-Roman Cathlotic,45
-Roman Cathilc,45
+Roman Cathlotic,Roman Catholic
+Roman Cathilc,Roman Catholic
 Presbyterian Secession,45
 Society Friends,45
-Roman Cathilock,45
+Roman Cathilock,Roman Catholic
 Presbytian,45
 Church of Ir,45
 Irish Episcopalian,44
@@ -648,285 +647,285 @@ Wesleyan Methodist Church,44
 Body of Christ,44
 Weslyan,44
 Metodist,44
-Prespyterrian,44
-Roman Catelick,44
+Prespyterrian,Presbyterian
+Roman Catelick,Roman Catholic
 Church of Id,44
-Cathiolic,44
-R Catolic Church,44
-Romean Catholic,44
-C of Rome,44
-Roman Cath Church,44
-Catholic Profession,44
-Presypterian,44
+Cathiolic,Roman Catholic
+R Catolic Church,Roman Catholic
+Romean Catholic,Roman Catholic
+C of Rome,Roman Catholic
+Roman Cath Church,Roman Catholic
+Catholic Profession,Roman Catholic
+Presypterian,Presbyterian
 Protestant Irish C,44
-Cathlock,44
-Roman Catholic Profession,44
+Cathlock,Roman Catholic
+Roman Catholic Profession,Roman Catholic
 Wes Methodist,44
-Presb,44
-Roman Catiloc,43
+Presb,Presbyterian
+Roman Catiloc,Roman Catholic
 Reformed Pres,43
-Catholice Roman,43
+Catholice Roman,Roman Catholic
 Church Eng,43
-C C,43
+C C,Roman Catholic
 Open Brethren,43
-Presbyterian Curch,43
+Presbyterian Curch,Presbyterian
 U F Presbyterian,43
 Breathern,43
-Roman Cathlik,43
-Presbyterian Church in Ireland,42
-R Catlic,42
-Roman Cathlo,42
+Roman Cathlik,Roman Catholic
+Presbyterian Church in Ireland,Presbyterian
+R Catlic,Roman Catholic
+Roman Cathlo,Roman Catholic
 United Free Church Scotland,42
-Presbytrin,42
+Presbytrin,Presbyterian
 Episcopal C,42
-Presbyt,42
-Pesbyterian,42
+Presbyt,Presbyterian
+Pesbyterian,Presbyterian
 Christian No Denomination,42
-Prespeteran,41
+Prespeteran,Presbyterian
 Church o Ireland,41
 Church of Engld,41
-Roman Chatorlic,41
+Roman Chatorlic,Roman Catholic
 United Free Presbyterian,41
 Prof Episcopalian,41
 Epscopalian,41
-R Cath Church,41
+R Cath Church,Roman Catholic
 Protestant C of Ireland,41
 Church of Engl,40
-Presbeterian C,40
-Prestyterian,40
+Presbeterian C,Presbyterian
+Prestyterian,Presbyterian
 Episcopelian Protestant,40
-Catholick R,40
-Presbyteranian,40
+Catholick R,Roman Catholic
+Presbyteranian,Presbyterian
 Established Church of England,40
-Romas Catholic,40
+Romas Catholic,Roman Catholic
 Nonsubscribing Presbyterian,40
-Roman Chathlic,40
+Roman Chathlic,Roman Catholic
 Member of Church Ireland,40
-Presbyterian Church of Ireland,40
-Presbyterian Chur,40
+Presbyterian Church of Ireland,Presbyterian
+Presbyterian Chur,Presbyterian
 Jewes,39
-Ro Cathlic,39
-R Catrlick,39
+Ro Cathlic,Roman Catholic
+R Catrlick,Roman Catholic
 Open Brethern,39
-Prespetarion,39
+Prespetarion,Presbyterian
 Episcopal Protestant,39
-R Cathc,39
-Prispterian,39
-Cathlioc,39
-R Cathlc,39
-Roman Catloc,39
-Catholic R C,39
+R Cathc,Roman Catholic
+Prispterian,Presbyterian
+Cathlioc,Roman Catholic
+R Cathlc,Roman Catholic
+Roman Catloc,Roman Catholic
+Catholic R C,Roman Catholic
 Epis Church,39
 Congregation,39
-R C Religon,39
-Presberian,39
-Presbyterian's,38
-R Catholik,38
-Romman Catholic,38
-R Catholic Profession,38
+R C Religon,Roman Catholic
+Presberian,Presbyterian
+Presbyterian's,Presbyterian
+R Catholik,Roman Catholic
+Romman Catholic,Roman Catholic
+R Catholic Profession,Roman Catholic
 Christian Breathern,38
-Roming Catholic,38
-R C Church of Rome,38
-Presbterin,38
-Roman Chatolick,38
-Prespyterien,38
+Roming Catholic,Roman Catholic
+R C Church of Rome,Roman Catholic
+Presbterin,Presbyterian
+Roman Chatolick,Roman Catholic
+Prespyterien,Presbyterian
 Unconverted,38
-Rom Catholics,38
-Rom Catcholic,38
+Rom Catholics,Roman Catholic
+Rom Catcholic,Roman Catholic
 Church of Ild,38
-Roman Cartholic,38
-Roman Catrlic,38
-R Catholic Church of Rome,38
-Roman Chalotic,38
-Catherolic,38
+Roman Cartholic,Roman Catholic
+Roman Catrlic,Roman Catholic
+R Catholic Church of Rome,Roman Catholic
+Roman Chalotic,Roman Catholic
+Catherolic,Roman Catholic
 Methidost,38
 Uniterain,37
 Prot Church of Ireland,37
 Episopalian,37
 Old Irish Church,37
 Protestant E C,37
-Roman Cattholic,37
-Presbeterean,37
+Roman Cattholic,Roman Catholic
+Presbeterean,Presbyterian
 Protestant Episcopolian,37
 Secession Church,37
-Roman Caetolic,37
+Roman Caetolic,Roman Catholic
 R P Church,37
-R C Curch,37
-Roman Catholic Franciscan Order,37
-Presbyteran Church,37
-Presbyterian Body,37
+R C Curch,Roman Catholic
+Roman Catholic Franciscan Order,Roman Catholic
+Presbyteran Church,Presbyterian
+Presbyterian Body,Presbyterian
 Christadelphian,37
 Catcholice,37
-Presbytarion,37
+Presbytarion,Presbyterian
 Non Sub Pres,37
-Prespeterians,37
-Roman Cathli,37
-Roamn Catholic,37
+Prespeterians,Presbyterian
+Roman Cathli,Roman Catholic
+Roamn Catholic,Roman Catholic
 Christian Called Brethren,36
 Christian Bretheren,36
-Presbytarean,36
-Roman Catcholice,36
+Presbytarean,Presbyterian
+Roman Catcholice,Roman Catholic
 Episcapalian,36
 Wesleyan Church,36
 Protestant Episcopalian I C,36
 Protestant Church of I,36
 Independant Church,36
 Anglican,36
-Presbyterions,36
-R Cathiolic,36
+Presbyterions,Presbyterian
+R Cathiolic,Roman Catholic
 Indepent,35
 Member of Society of Friends,35
 Member Church Ireland,35
-Presbeterians,35
-Romen Cathlick,35
+Presbeterians,Presbyterian
+Romen Cathlick,Roman Catholic
 Church of Ireland St Marys Church,35
-Prestbyterian,35
+Prestbyterian,Presbyterian
 Church Irish,35
 Weslyn Methodist,35
 P Church of Ireland,35
 Congerationalist,35
-R Catherolic,35
-Church Roam,35
-Prespytern,35
+R Catherolic,Roman Catholic
+Church Roam,Roman Catholic
+Prespytern,Presbyterian
 U P Church,35
-Romal Catholic,35
-Presbtrian,34
-Presbyterinan,34
-Prespyterion,34
-Presbyteian,34
+Romal Catholic,Roman Catholic
+Presbtrian,Presbyterian
+Presbyterinan,Presbyterian
+Prespyterion,Presbyterian
+Presbyteian,Presbyterian
 Church Ireld,34
-Presbeteran,34
+Presbeteran,Presbyterian
 Christian Commonly Called Brethren,34
 Protestant English Church,34
-Presbtyrian,34
+Presbtyrian,Presbyterian
 Christ Church,34
-Ro C Church,34
-Catholic Church of Rome,34
+Ro C Church,Roman Catholic
+Catholic Church of Rome,Roman Catholic
 Methodst,34
 Non Sub Presby,34
-Cathalic,34
+Cathalic,Roman Catholic
 Church Ire,33
 Irish Episcopal,33
-Prespyteran,33
-Catherlick Church,33
+Prespyteran,Presbyterian
+Catherlick Church,Roman Catholic
 Plymoth Brethern,33
-R Catolice,33
+R Catolice,Roman Catholic
 Non Sectarian,33
 P Methodist,33
-Presbytarien,33
+Presbytarien,Presbyterian
 Episcipalian,33
 Epicopalian,33
-Presbyterranian,33
-Presbytereian,33
-Catholic Rm,33
-Roamen Catholic,33
+Presbyterranian,Presbyterian
+Presbytereian,Presbyterian
+Catholic Rm,Roman Catholic
+Roamen Catholic,Roman Catholic
 Methodism,33
-Prespbeterian,33
+Prespbeterian,Presbyterian
 U Presbyterian,33
-R Cathloice,33
-R Catolich,33
-Church of Rome Roman Catholic,33
-Prespeterain,33
-Roman Chatloic,33
-R Chatolice,33
-R Cathlick Church,32
-Catholice R,32
+R Cathloice,Roman Catholic
+R Catolich,Roman Catholic
+Church of Rome Roman Catholic,Roman Catholic
+Prespeterain,Presbyterian
+Roman Chatloic,Roman Catholic
+R Chatolice,Roman Catholic
+R Cathlick Church,Roman Catholic
+Catholice R,Roman Catholic
 Methodis,32
 Ireland,32
 Church of Ingland,32
-Cathiloc Church,32
-I Catholic,32
-Rom Catolic,32
+Cathiloc Church,Roman Catholic
+I Catholic,Roman Catholic
+Rom Catolic,Roman Catholic
 Irsh Church,32
-Presberyterian,32
-Roman Catolic Church,32
-Catholic Ro,32
+Presberyterian,Presbyterian
+Roman Catolic Church,Roman Catholic
+Catholic Ro,Roman Catholic
 Protestants Irish Church,32
-Roman Cather,32
-Cathloc,31
+Roman Cather,Roman Catholic
+Cathloc,Roman Catholic
 Unitarian Presbyterian,31
 Weslayan Methodist,31
-Roman Cateholic,31
+Roman Cateholic,Roman Catholic
 Cch of Ireland,31
-Catholick Religion,31
+Catholick Religion,Roman Catholic
 Church of Ireland Church,31
-Ch of Rome,31
-Ro Catholic Church,31
-Rom Cathol,31
-R Catholic's,31
-Roman Cathric,31
-Prybesterian,31
-Roman Cathock,31
+Ch of Rome,Roman Catholic
+Ro Catholic Church,Roman Catholic
+Rom Cathol,Roman Catholic
+R Catholic's,Roman Catholic
+Roman Cathric,Roman Catholic
+Prybesterian,Presbyterian
+Roman Cathock,Roman Catholic
 Weselyan Methodist,31
-Romen Catholice,31
+Romen Catholice,Roman Catholic
 Babtist Church,31
-Romans Catholic,31
+Romans Catholic,Roman Catholic
 High Church of England,31
-Roman Catlich,30
-Roman Catrolic,30
-Roman C Catholic,30
-Catolich,30
+Roman Catlich,Roman Catholic
+Roman Catrolic,Roman Catholic
+Roman C Catholic,Roman Catholic
+Catolich,Roman Catholic
 Episcopal Church of Scotland,30
-Reman Catholic,30
+Reman Catholic,Roman Catholic
 Church of Ierland,30
 Irish Church Episcopal,30
-Roman Catholic Chur,30
-Roman Catherloic,30
-Catholic Prof,30
+Roman Catholic Chur,Roman Catholic
+Roman Catherloic,Roman Catholic
+Catholic Prof,Roman Catholic
 Chuch of England,30
-Romin Cathlic,30
-Presbyterin Church,30
-Prispaterian,30
+Romin Cathlic,Roman Catholic
+Presbyterin Church,Presbyterian
+Prispaterian,Presbyterian
 United Free,30
-Roman Cholic,30
+Roman Cholic,Roman Catholic
 Church of Englan,30
 Christians Known as Brethren,30
 Uneterian,29
-Roman Cathe,29
+Roman Cathe,Roman Catholic
 No Profession,29
-A Catholic,29
-Prespytrian,29
-Presbyeterian,29
-Roman Catholic Clergyman,29
+A Catholic,Roman Catholic
+Prespytrian,Presbyterian
+Presbyeterian,Presbyterian
+Roman Catholic Clergyman,Roman Catholic
 Episcopelian Church,29
 Irish Church of Ireland,29
-Prespbterian,29
-Catloic,29
-Roman Ch,29
+Prespbterian,Presbyterian
+Catloic,Roman Catholic
+Roman Ch,Roman Catholic
 Reformed Prespyterian,29
 Episcopial Church,29
 Lutheran Church,29
-Roman Cat?,29
-Presbyt Church,29
+Roman Cat?,Roman Catholic
+Presbyt Church,Presbyterian
 Reformed Presbyter,29
 C Brethern,29
 Jewish Synagogue,28
 Apostolic Church,28
-R Cathlioc,28
+R Cathlioc,Roman Catholic
 Idolater,28
-Roman Catholict,28
-C Religon,28
+Roman Catholict,Roman Catholic
+C Religon,Roman Catholic
 Free Church Scotland,28
-R C Catholic Church,28
+R C Catholic Church,Roman Catholic
 Protestant E Ch,28
-Roman Cathloick,28
-Presbytering,28
-Catolique,28
-Prespeyterian,28
+Roman Cathloick,Roman Catholic
+Presbytering,Presbyterian
+Catolique,Roman Catholic
+Prespeyterian,Presbyterian
 Seceding Presbyterian,28
 Plymouth Bretheren,28
 Congreational,28
-Ronnan Catholic,28
-Presbteran,28
+Ronnan Catholic,Roman Catholic
+Presbteran,Presbyterian
 Unitirian,28
 Episcopalian Protestant Church,28
-Presbytarin,28
-Prespeteren,28
+Presbytarin,Presbyterian
+Prespeteren,Presbyterian
 Church Irel,28
 Methodiest,28
 1st Presbyterian,28
 Presperation,27
-Cath Religion,27
+Cath Religion,Roman Catholic
 Christian Scientist,27
 Church Irelad,27
 Presbterion,27
@@ -934,17 +933,17 @@ Christian Undenominational,27
 Presbetarin,27
 Presbetarion,27
 Episcople Church,27
-Roman Cathloice,27
-Roman Cathalick,27
+Roman Cathloice,Roman Catholic
+Roman Cathalick,Roman Catholic
 Prysbetarian,27
 Uniterian Church,27
-R Catlock,27
-Roman Cathk,27
+R Catlock,Roman Catholic
+Roman Cathk,Roman Catholic
 Moravian Ch,27
-Roman Cathck,27
+Roman Cathck,Roman Catholic
 Prebsterian,27
 Congrationalist,27
-Church of Rome Catholic,27
+Church of Rome Catholic,Roman Catholic
 Breathren,27
 Ch of Ireland Protestant,27
 Irish Chirch,27
@@ -952,55 +951,55 @@ Original Secession,27
 A Christian,27
 Freethinker,27
 Episcopal Church Ireland,27
-Catolic Religion,27
+Catolic Religion,Roman Catholic
 Presbt,27
-Raman Catholic,27
+Raman Catholic,Roman Catholic
 Protestants Church of Ireland,26
-R Catholia,26
+R Catholia,Roman Catholic
 Commonly Called Brethren,26
 Episcopalion Church of Ireland,26
 Protestant Episcop,26
 Prespyterin,26
 Presperitian,26
-Roman Catheloc,26
-Roman Catc,26
-R Catcholick,26
-R Cathotic,26
-The Roman Catholic Church,26
+Roman Catheloc,Roman Catholic
+Roman Catc,Roman Catholic
+R Catcholick,Roman Catholic
+R Cathotic,Roman Catholic
+The Roman Catholic Church,Roman Catholic
 Greek Church,26
-Catholic Priest,26
-Catolice,26
-Catholics Roman,26
+Catholic Priest,Roman Catholic
+Catolice,Roman Catholic
+Catholics Roman,Roman Catholic
 Episcopial,26
 Christan,26
 Iresh Church,26
-Roman Catcholic Church,26
+Roman Catcholic Church,Roman Catholic
 Church Irela,26
 Prespterain,26
 Epis Church of Ireland,26
 Congretional,26
 Presbatarian,26
 Episcopalien,26
-Church of Rom,26
-R Catholic Chur,26
+Church of Rom,Roman Catholic
+R Catholic Chur,Roman Catholic
 Protestant Ch Ireland,25
 Ch of Ireland Episcopalian,25
-Romen Catholick,25
+Romen Catholick,Roman Catholic
 Church Irelan,25
 Epispocal Church,25
-Roman Cathoelic,25
+Roman Cathoelic,Roman Catholic
 Prespertain Church,25
 Reformed Presbyterrian,25
-Roman Catherlc,25
-Roman Cathlocic,25
+Roman Catherlc,Roman Catholic
+Roman Cathlocic,Roman Catholic
 Reformd Presbyterian,25
 Methodast,25
 Presbyterian Secession Church,25
 Curch of Irland,25
 Irich Church,25
-Roman Chatlioc,25
+Roman Chatlioc,Roman Catholic
 Presbytenan,25
-R Cat Church,25
+R Cat Church,Roman Catholic
 Christian Brethen,25
 Anglican Catholic,25
 Chalotic,25
@@ -1008,21 +1007,21 @@ Prespterean,25
 I C Episcopalian,25
 Episcopalian Ch of Ireland,25
 Babptist,25
-Roman Calholic,25
+Roman Calholic,Roman Catholic
 Epescopalian,25
 Episcopalian Ch,25
-R Cathlolic,25
+R Cathlolic,Roman Catholic
 Presbytran,25
 Brethren Protestant,25
-Roman Catholock,25
-C Catholic,25
-Roman Catholic R C,25
+Roman Catholock,Roman Catholic
+C Catholic,Roman Catholic
+Roman Catholic R C,Roman Catholic
 Irish Ep Church,25
 Church of Ireland Episcopalion,25
 Protestant Methodist,25
 Presbytiran,25
 Episcopal Church Church of Ireland,25
-Roman Cothlic,25
+Roman Cothlic,Roman Catholic
 Presbn,24
 Catholick Roman,24
 Jewis,24
