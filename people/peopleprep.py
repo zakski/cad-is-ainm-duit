@@ -18,6 +18,7 @@ dicLang1901name = os.path.join(dirDictionary1901name, 'ire_lang_1901.csv')
 dicLang1901NoExName = os.path.join(dirDictionary1901name, 'ire_lang_1901_nonExhaust.csv')
 dicLit1901name = os.path.join(dirDictionary1901name, 'ire_literacy_1901.csv')
 dicLit1901NoExName = os.path.join(dirDictionary1901name, 'ire_literacy_1901_nonExhaust.csv')
+dicRel1901Name = os.path.join(dirDictionary1901name, 'ire_religion_1901.csv')
 
 # 1901 Census File Read
 dir1901name = os.path.join(rootDirName, Path('../data/data/census/ireland/1901/'))
@@ -148,6 +149,17 @@ print("1901 Census County Standardisation")
 countryRename = {'Londonderry' : 'Derry',  'Queen\'s Co.': 'Laois', 'King\'s Co.' : 'Offaly'}
 df1901['county'] = df1901['county'].map(countryRename).fillna(df1901['county'])
 df1901 = df1901[df1901['county'].notnull()]
+print("1901 Census Count = " + str(df1901.shape[0]))
+
+print("1901 Census Religion Standardisation")
+# Use Non Exhaust to convert errors to NaNs
+#dicLang = (pd.read_csv(dicLang1901name,names=['original','languages'],dtype={'original':'string','languages':'string'},index_col='original')
+#          .to_dict())
+dicRel = (pd.read_csv(dicRel1901Name,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
+          .to_dict())['mapped']
+df1901['religion'] = df1901['religion'].fillna('Unknown')
+df1901['religionSan'] = df1901['religion'].map(dicRel)
+df1901 = df1901[df1901['religionSan'].notnull()]
 print("1901 Census Count = " + str(df1901.shape[0]))
 
 df1901.info(verbose=True)
