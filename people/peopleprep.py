@@ -7,6 +7,8 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from pathlib import Path
 
 import peopleconst as const
+import peoplefunc as func
+import namePrep as names
 
 # Relative to This File
 rootDirName = os.path.dirname(__file__)
@@ -24,13 +26,8 @@ dicRel1901Name = os.path.join(dirDictionary1901name, 'ire_religion_1901.csv')
 dir1901name = os.path.join(rootDirName, Path('../data/data/census/ireland/1901/'))
 file1901name = os.path.join(resultsDirName, 'ire_census_1901.csv')
 
-print('Base Census Path' + dir1901name)
-dfList=[]
-for filename in glob.iglob(dir1901name + '/**/*.csv', recursive=True):
-    print(filename)
-    dfList.append(pd.read_csv(filename,names=const.header1901,dtype=const.types1901,index_col=False))
-
-df1901 = pd.concat(dfList, axis=0, ignore_index=True)
+print('Load From Base Census Path: ' + dir1901name)
+df1901 = func.readCensus(dir1901name,const.header1901,const.types1901)
 
 # 1901 Census Data Integrity Check
 print("1901 Census Count = " + str(df1901.shape[0]))
@@ -38,30 +35,34 @@ assert df1901.shape[0] == 4429866
 df1901.info(verbose=True)
 
 # 1901 Census Data Sanitation
-nameRegex = r'\p{L}[\p{L} \'-]*'
-
-
-def name_filter_fn(name:str) -> bool:
-    if re.search(nameRegex,name):
-        return True
-    else:
-        return False
 
 print("1901 Census Filter Surname")
-df1901 = df1901[df1901['surname'].notnull()]
-df1901 = df1901[df1901.surname.apply(name_filter_fn)]
-
+df1901 = func.filterForWords(df1901,'surname')
 print("1901 Census Count = " + str(df1901.shape[0]))
 
 print("1901 Census Filter First Name")
-df1901 = df1901[df1901['name'].notnull()]
-df1901 = df1901[df1901.name.apply(name_filter_fn)]
+df1901 = func.filterForWords(df1901,'name')
+print("1901 Census Count = " + str(df1901.shape[0]))
 
+#print("1901 Census Surname Standardisation")
+#df1901 = func.sanitiseSurnames(df1901)
+#print("1901 Census Count = " + str(df1901.shape[0]))
+
+print("1901 Census First Name Standardisation")
+df1901 = df1901.join(df1901['name'].str.split(expand = True).add_prefix('firstName_').fillna(''))
 print("1901 Census Count = " + str(df1901.shape[0]))
 
 print("1901 Census Capitalise")
 df1901['surnameCap'] = df1901.surname.str.upper()
-df1901['nameCap'] = df1901.name.str.upper()
+df1901['nameCap'] = df1901.firstName_0.str.upper()
+bcenter = names.readBCenterNames()
+df1901['nameBCenterMatch'] =  df1901[['nameCap','gender']].apply(tuple, axis=1).isin(bcenter[['nameCap','gender']].apply(tuple, axis=1))
+bwiz = names.readBWizardNames()
+df1901['nameBWizMatch'] =  df1901[['nameCap','gender']].apply(tuple, axis=1).isin(bwiz[['nameCap','gender']].apply(tuple, axis=1))
+behindNames = names.readBehindNames()
+df1901['nameBehindMatch'] =  df1901[['nameCap','gender']].apply(tuple, axis=1).isin(behindNames[['nameCap','gender']].apply(tuple, axis=1))
+df1901['nameMatch'] =  df1901[['nameBCenterMatch','nameBWizMatch','nameBehindMatch']].sum(axis=1) >= 2
+
 
 print("1901 Census Gender Standardisation")
 gender = {'M' : 0, 'F' : 1, 'm' : 0, 'f' : 1}
@@ -158,7 +159,7 @@ print("1901 Census Religion Standardisation")
 dicRel = (pd.read_csv(dicRel1901Name,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
           .to_dict())['mapped']
 df1901['religion'] = df1901['religion'].fillna('Unknown')
-df1901['religionSan'] = df1901['religion'].map(dicRel)
+df1901['religionSan'] = df1901['religion'].map(dicRel).astype('string')
 df1901 = df1901[df1901['religionSan'].notnull()]
 print("1901 Census Count = " + str(df1901.shape[0]))
 
@@ -170,4 +171,5 @@ os.makedirs(resultsDirName, exist_ok=True)
 df1901.to_csv(file1901name, index=False)
 
 for name, values in df1901.items():
+    print('Writing ire_{name}_1901.csv'.format(name=name))
     df1901[name].value_counts().reset_index().to_csv(os.path.join(resultsDirName, 'ire_{name}_1901.csv'.format(name=name)), index=False)
