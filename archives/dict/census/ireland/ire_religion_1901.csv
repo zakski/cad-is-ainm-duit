@@ -458,7 +458,7 @@ Ro Catholick,Roman Catholic
 C I Protestant,Church of Ireland
 U F Church of Scotland,United Free Church of Scotland
 R Catholi,Roman Catholic
-Catholic Apostolic,Roman Catholic Apostolic
+Catholic Apostolic,Catholic Apostolic
 Prespytarian,Presbyterian
 Chatolic Church,Roman Catholic
 Agnostic,Agnostic
@@ -630,7 +630,7 @@ Brethern in Christ,Christian Brethren
 Ih Church,Church of Ireland
 Pryspterian,Presbyterian
 Roman Cathlico,Roman Catholic
-Catholic Apostolic Church,Roman Catholic Apostolic
+Catholic Apostolic Church,Catholic Apostolic
 New Connexion Methodist,Methodist New Connexion
 Rd Presbyterian,Reformed Presbyterian
 Prespteran,Presbyterian
@@ -900,7 +900,7 @@ Presbyt Church,Presbyterian
 Reformed Presbyter,Reformed Presbyterian
 C Brethern,Christian Brethren
 Jewish Synagogue,Jewish
-Apostolic Church,Roman Catholic Apostolic
+Apostolic Church,Catholic Apostolic
 R Cathlioc,Roman Catholic
 Idolater,Roman Catholic
 Roman Catholict,Roman Catholic
@@ -1794,7 +1794,7 @@ Protestant Ch of Ird,Church of Ireland
 I C Church of Ireland,Church of Ireland
 Prisberian,Presbyterian
 Non Subscribing Presbyter,Non-Subscribing Presbyterian
-Catholic Apostalic Church,Roman Catholic Apostolic
+Catholic Apostalic Church,Catholic Apostolic
 Roman Cathilic C,Roman Catholic
 Pryspaterian,Presbyterian
 Church Irld,Church of Ireland
@@ -3125,7 +3125,7 @@ Presbyterianean,Presbyterian
 Irish Church Protestants,Church of Ireland
 Wesleyan Methotist,Wesleyan Methodist
 Church of Irlnd,Church of Ireland
-Low Church,CHATGPT_UNKNOWN
+Low Church,Church of Ireland
 Roman Cathortic,Roman Catholic
 Non Subscribing Unitarian,Non-Subscribing Presbyterian
 Norweyian Protestant State Church,Church of Norway
@@ -3298,40 +3298,40 @@ Read and write,ERROR
 Roman Catchlck,Roman Catholic
 R C St Vincent De Pauls North William Street Dublin,Roman Catholic
 Premitive Methodist,Primitive Methodist
-Church Ireland Episcopal,CHATGPT_UNKNOWN
-Mbr of Church Ireland,CHATGPT_UNKNOWN
-New Church Swedenborgian,CHATGPT_UNKNOWN
-Protestant Episcopalian O.B.,CHATGPT_UNKNOWN
-Church of Ireland Protestant St Pauls,CHATGPT_UNKNOWN
+Church Ireland Episcopal,Church of Ireland
+Mbr of Church Ireland,Church of Ireland
+New Church Swedenborgian,Swedenborgian
+Protestant Episcopalian O.B.,Church of Ireland
+Church of Ireland Protestant St Pauls,Church of Ireland
 Presbyternian Church,Presbyterian
-Isralite,CHATGPT_UNKNOWN
-Hd C of Ireland,CHATGPT_UNKNOWN
+Isralite,Jewish
+Hd C of Ireland,Church of Ireland
 Catholic Chu,Roman Catholic
-Congregationalest,CHATGPT_UNKNOWN
-Episcapelien,CHATGPT_UNKNOWN
-Episcolpalion,CHATGPT_UNKNOWN
-Protesant Church Ireland,CHATGPT_UNKNOWN
+Congregationalest,Congregationalist
+Episcapelien,Church of Ireland
+Episcolpalion,Church of Ireland
+Protesant Church Ireland,Church of Ireland
 Prespetirian Terrace Now,Presbyterian
 Prisbertin,Presbyterian
 Roman Calhlic,Roman Catholic
-Episcopalen,CHATGPT_UNKNOWN
+Episcopalen,Church of Ireland
 R Catholc Church,Roman Catholic
 Callich Romin,Roman Catholic
-Ephiscipalen,CHATGPT_UNKNOWN
+Ephiscipalen,Church of Ireland
 R Chatolic Religon,Roman Catholic
 Romen Catolic,Roman Catholic
-Christians of No Denomination,CHATGPT_UNKNOWN
+Christians of No Denomination,Non-denominational Christian
 Westbourne Presbyterian Church,Presbyterian
-Christian Bretherens,CHATGPT_UNKNOWN
-General Assembly Prespterian Church,CHATGPT_UNKNOWN
+Christian Bretherens,Christian Brethren
+General Assembly Prespterian Church,Presbyterian
 Roman Calick,Roman Catholic
-Prott I Church,CHATGPT_UNKNOWN
+Prott I Church,Church of Ireland
 R Cautheal,Roman Catholic
-Episcoplan,CHATGPT_UNKNOWN
+Episcoplan,Church of Ireland
 Prespatrain,Presbyterian
-Cangregational,CHATGPT_UNKNOWN
-Undominational,CHATGPT_UNKNOWN
-Piscapalian,CHATGPT_UNKNOWN
+Cangregational,Congregationalist
+Undominational,Non-denominational Christian
+Piscapalian,Church of Ireland
 Rmn Catholic Church,Roman Catholic
 Cathowlic,Roman Catholic
 Cathalick,Roman Catholic
@@ -3339,7 +3339,7 @@ R Cathlothice,Roman Catholic
 R Cathelic Church,Roman Catholic
 R Cathlic C,Roman Catholic
 Rom Catholc,Roman Catholic
-Protestant Ch Irland,CHATGPT_UNKNOWN
+Protestant Ch Irland,Church of Ireland
 Romain Catholique,Roman Catholic
 Not Decided,CHATGPT_UNKNOWN
 Roman Ctho,Roman Catholic
@@ -3347,52 +3347,52 @@ Roanan Cathlic,Roman Catholic
 Unitarean,Unitarian
 Rom Cathicloc,Roman Catholic
 Prestestant,CHATGPT_UNKNOWN
-Christian Commonly called Brethren,CHATGPT_UNKNOWN
+Christian Commonly called Brethren,Christian Brethren
 R Chathlics,Roman Catholic
 St Stephens,CHATGPT_UNKNOWN
 Church of Ireland of Old,Church of Ireland
 Plymouth Breth,Plymouth Brethren
-Protestant Chur of I,CHATGPT_UNKNOWN
+Protestant Chur of I,Church of Ireland
 Roman Catholien,Roman Catholic
 Pyrsbyterian,Presbyterian
-Episcipelian,CHATGPT_UNKNOWN
-Irish Chruch Episcopelian,CHATGPT_UNKNOWN
+Episcipelian,Church of Ireland
+Irish Chruch Episcopelian,Church of Ireland
 Baptert,CHATGPT_UNKNOWN
-Englis Church,CHATGPT_UNKNOWN
+Englis Church,Church of England
 Prespentarine,Presbyterian
 Disciples of Christ,CHATGPT_UNKNOWN
-Catholi Church,CHATGPT_UNKNOWN
+Catholi Church,Roman Catholic
 Episco Church of Ireland,Church of Ireland
 Roman Cawtholic,Roman Catholic
-Protistant Church of England,CHATGPT_UNKNOWN
-Protest Episcopalian E C,CHATGPT_UNKNOWN
-Reformed Presbety,CHATGPT_UNKNOWN
-Episcopalian Prot,CHATGPT_UNKNOWN
-Clatelic,CHATGPT_UNKNOWN
+Protistant Church of England,Church of England
+Protest Episcopalian E C,Church of Ireland
+Reformed Presbety,Reformed Presbyterian
+Episcopalian Prot,Church of Ireland
+Clatelic,Roman Catholic
 Refor Presbyterian,Presbyterian
 Prespertairon,Presbyterian
 First Larne Presbyterian,Presbyterian
 Church of Pres England,Church of Ireland
-Refd Presbeterian,CHATGPT_UNKNOWN
+Refd Presbeterian,Reformed Presbyterian
 Roaman Catchlic,Roman Catholic
 Prysbetarion,Presbyterian
 Presbyterian West Church,Presbyterian
-Christian Comonly Knowing as Bretherns,CHATGPT_UNKNOWN
-Christian (Open Brethren),CHATGPT_UNKNOWN
+Christian Comonly Knowing as Bretherns,Christian Brethren
+Christian (Open Brethren),Christian Brethren
 Presbytirterian,Presbyterian
 Prysbeterranean,Presbyterian
 Prisbtarin,Presbyterian
 Roman Catholique,Roman Catholic
-Protestant North Irish Church Glareston,CHATGPT_UNKNOWN
-Irish Church Prodestant,CHATGPT_UNKNOWN
+Protestant North Irish Church Glareston,Church of Ireland
+Irish Church Prodestant,Church of Ireland
 Catholic Relioun,Roman Catholic
 Presbyterian First Ballymena,Presbyterian
 Prebsteryain,Presbyterian
-Episcopalien Church,CHATGPT_UNKNOWN
-Church Englin,CHATGPT_UNKNOWN
-Piscopelien,CHATGPT_UNKNOWN
-Non Sactarian,CHATGPT_UNKNOWN
-Nonsectarian,CHATGPT_UNKNOWN
+Episcopalien Church,Church of Ireland
+Church Englin,Church of England
+Piscopelien,Church of Ireland
+Non Sactarian,Non-denominational Christian
+Nonsectarian,Non-denominational Christian
 Romling Catholic,Roman Catholic
 Pesperatian,Presbyterian
 Protestant Presbyterian Church,Presbyterian
@@ -3401,7 +3401,7 @@ R Catcholis,Roman Catholic
 Roam Cathelic Church,Roman Catholic
 Presbiterian Curch,Presbyterian
 Re-Presbyterian,Presbyterian
-St Michael's Church of Ireland,CHATGPT_UNKNOWN
+St Michael's Church of Ireland,Church of Ireland
 Ch,CHATGPT_UNKNOWN
 Presbetyrien,Presbyterian
 Roman Chat,Roman Catholic
@@ -3414,45 +3414,45 @@ Prespyterrian Church,Presbyterian
 Roman Cterice,Roman Catholic
 Roman Chatloick,Roman Catholic
 Roman Catha,Roman Catholic
-Original Session Church,CHATGPT_UNKNOWN
-Episquopalion Church,CHATGPT_UNKNOWN
+Original Session Church,Original Secession Church
+Episquopalion Church,Church of Ireland
 The Catholic Church,Roman Catholic
 Non Descriptive,CHATGPT_UNKNOWN
 St Enschs Presbyterian Church,Presbyterian
 Cautholic,Roman Catholic
 Romom Catholic,Roman Catholic
-Reformed Presbyterin,CHATGPT_UNKNOWN
+Reformed Presbyterin,Reformed Presbyterian
 Presbtertain,Presbyterian
 Prysptarion,Presbyterian
 Presbeterian G A,Presbyterian
-Secession Prespyterian,CHATGPT_UNKNOWN
+Secession Prespyterian,Seceder Presbyterian
 Francis St R C,Roman Catholic
 Presbyterian Chr,Presbyterian
-Reformed Prespiterian,CHATGPT_UNKNOWN
-Episcopilians Church of Ireland,CHATGPT_UNKNOWN
+Reformed Prespiterian,Reformed Presbyterian
+Episcopilians Church of Ireland,Church of Ireland
 Roman Catholo,Roman Catholic
-Catholic Church Aportilic,CHATGPT_UNKNOWN
-Christian (Called Brethren),CHATGPT_UNKNOWN
+Catholic Church Aportilic,Catholic Apostolic
+Christian (Called Brethren),Christian Brethren
 Roman Cathlloc,Roman Catholic
-Church of Ireland Seagoe Church,CHATGPT_UNKNOWN
+Church of Ireland Seagoe Church,Church of Ireland
 Roma Catlick,Roman Catholic
 Prespertetian,Presbyterian
 Roman Catlirlic Cruch,Roman Catholic
 R Cathehelic,Roman Catholic
 Ebrington P Church,CHATGPT_UNKNOWN
 Chatolic Religion,Roman Catholic
-Eposcopical Church,CHATGPT_UNKNOWN
-Episkapelian,CHATGPT_UNKNOWN
-Episcopalian or Irish Church,CHATGPT_UNKNOWN
-Protstant Church of Ireland,CHATGPT_UNKNOWN
+Eposcopical Church,Church of Ireland
+Episkapelian,Church of Ireland
+Episcopalian or Irish Church,Church of Ireland
+Protstant Church of Ireland,Church of Ireland
 Child of Christian Known as Brethern,CHATGPT_UNKNOWN
 Cathelice Church,Roman Catholic
 Roman Catiol,Roman Catholic
 R Chacolic,Roman Catholic
 Presberteran,Presbyterian
-Independant Presby,CHATGPT_UNKNOWN
-Member of S of Friend,CHATGPT_UNKNOWN
-Christian Brothern,CHATGPT_UNKNOWN
+Independant Presby,Independent
+Member of S of Friend,Quaker
+Christian Brothern,Christian Brethren
 Roman Katholck,Roman Catholic
 Pryspteren,Presbyterian
 Prisptearian,Presbyterian
@@ -3461,321 +3461,321 @@ R Cathrick,Roman Catholic
 R C St Laurence OTooles,Roman Catholic
 Preppyterrian,Presbyterian
 Pisperterians,Presbyterian
-St Lukes Church Ireland,CHATGPT_UNKNOWN
+St Lukes Church Ireland,Church of Ireland
 Presbetaren,Presbyterian
-Church of Ireland Drumcondra Parish North Strand Church,CHATGPT_UNKNOWN
+Church of Ireland Drumcondra Parish North Strand Church,Church of Ireland
 Pesbyterrian,Presbyterian
 Presbepterian,Presbyterian
-Irish Ch Protestant,CHATGPT_UNKNOWN
-Irish E Church,CHATGPT_UNKNOWN
-M Church,CHATGPT_UNKNOWN
+Irish Ch Protestant,Church of Ireland
+Irish E Church,Church of Ireland
+M Church,Methodist
 Catlicks,Roman Catholic
-Episcopal Ch C I,CHATGPT_UNKNOWN
+Episcopal Ch C I,Church of Ireland
 Presbyterliaie,Presbyterian
 Roman Catcheloc,Roman Catholic
 Prespyrean,Presbyterian
 Ro Catcherlic,Roman Catholic
-Pro Episn,CHATGPT_UNKNOWN
+Pro Episn,Church of Ireland
 Romin Catholice,Roman Catholic
 Roman Cathlok,Roman Catholic
 All Catholicks,Roman Catholic
-St Peter Church of Ireland,CHATGPT_UNKNOWN
+St Peter Church of Ireland,Church of Ireland
 Church of Jireland,Church of Ireland
-Presleyan,CHATGPT_UNKNOWN
-Hewbrew,CHATGPT_UNKNOWN
+Presleyan,Wesleyan Methodist
+Hewbrew,Jewish
 Presbetira,Presbyterian
 1st Laxene Presbyterian Church,Presbyterian
 Roman Catheloc Church,Roman Catholic
-Congugational Chapel,CHATGPT_UNKNOWN
+Congugational Chapel,Congregationalist
 Cathlichurch,Roman Catholic
 Roman Cathilce,Roman Catholic
 R Caticholic,Roman Catholic
 Uunitarian,Unitarian
-Christian Knowen as Breathren,CHATGPT_UNKNOWN
+Christian Knowen as Breathren,Christian Brethren
 Roman Cathelck,Roman Catholic
 Prsbyterin,Presbyterian
-Brethern Generally Known as Plymouth Brethern,CHATGPT_UNKNOWN
+Brethern Generally Known as Plymouth Brethern,Plymouth Brethren
 Roman Castolic,Roman Catholic
 Roman Cathlocis,Roman Catholic
-I C St Patricks Church,CHATGPT_UNKNOWN
+I C St Patricks Church,Church of Ireland
 Cristian,CHATGPT_UNKNOWN
 Aughamore Catholic Church,Roman Catholic
-R C Rathmines,CHATGPT_UNKNOWN
+R C Rathmines,Roman Catholic
 C Church Ireland,Church of Ireland
 Roman Cattc,Roman Catholic
 Meothodist,Methodist
-Unitarians Mission Church Stanhope St Belfast,CHATGPT_UNKNOWN
+Unitarians Mission Church Stanhope St Belfast,Unitarian
 Presbayterian,Presbyterian
-Exclusive Brethren So Called,CHATGPT_UNKNOWN
-Jews Religen,CHATGPT_UNKNOWN
-Greek Catholic,CHATGPT_UNKNOWN
+Exclusive Brethren So Called,Plymouth Brethren
+Jews Religen,Jewish
+Greek Catholic,Greek Orthodox
 Catholic Relg,Roman Catholic
 Roman Cahlic,Roman Catholic
 Roman Catliock,Roman Catholic
-Church of Ireland St Patricks Ballymacarrett Parish Church,CHATGPT_UNKNOWN
+Church of Ireland St Patricks Ballymacarrett Parish Church,Church of Ireland
 Prisbetion,Presbyterian
 Prisptren,Presbyterian
 Prispertean,Presbyterian
-Christian Commonly Known as Plymouth Brethren,CHATGPT_UNKNOWN
+Christian Commonly Known as Plymouth Brethren,Plymouth Brethren
 Roman Calitho,Roman Catholic
 St Finn Barrs Chapel,CHATGPT_UNKNOWN
 Rom Cathice,Roman Catholic
 Church Irend,Church of Ireland
-Episcopaloan,CHATGPT_UNKNOWN
+Episcopaloan,Church of Ireland
 Prespiterin,Presbyterian
 R Catheloc,Roman Catholic
 Roman Cathalice,Roman Catholic
 Catheloic,Roman Catholic
 RC Catholic,Roman Catholic
-Epispocal,CHATGPT_UNKNOWN
+Epispocal,Church of Ireland
 Prespeeterian Church,Presbyterian
-Church of Ireland St Anne Church,CHATGPT_UNKNOWN
-Apistolic Church of Ireland,CHATGPT_UNKNOWN
-Christain Commonly Called Brethren,CHATGPT_UNKNOWN
-Free Ch of Scotland,CHATGPT_UNKNOWN
-Church of Irel St Barnabas C,CHATGPT_UNKNOWN
-Protestant U F Church Scotland,CHATGPT_UNKNOWN
+Church of Ireland St Anne Church,Church of Ireland
+Apistolic Church of Ireland,Apostolic Church of Ireland
+Christain Commonly Called Brethren,Christian Brethren
+Free Ch of Scotland,Free Church of Scotland
+Church of Irel St Barnabas C,Church of Ireland
+Protestant U F Church Scotland,United Free Church of Scotland
 R Catholiguce,Roman Catholic
 Prespertrain,Presbyterian
 R Chatloc,Roman Catholic
-Baptis Church,CHATGPT_UNKNOWN
-Non Subring Presbyterian,CHATGPT_UNKNOWN
-U F P C of Scotland,CHATGPT_UNKNOWN
-Presn Genl Assembly,CHATGPT_UNKNOWN
+Baptis Church,Baptist
+Non Subring Presbyterian,Non-Subscribing Presbyterian
+U F P C of Scotland,United Free Church of Scotland
+Presn Genl Assembly,Presbyterian
 R Chatholics,Roman Catholic
 Prisbysterian Church,Presbyterian
 Romman Catlick,Roman Catholic
-Prot (Pres),CHATGPT_UNKNOWN
+Prot (Pres),Presbyterian
 R Ca,Roman Catholic
-Epispoclian Ch,CHATGPT_UNKNOWN
+Epispoclian Ch,Church of Ireland
 Presbyterian Prespenny,Presbyterian
 Presptarien,Presbyterian
-Epescepelian,CHATGPT_UNKNOWN
+Epescepelian,Church of Ireland
 Presteterian,Presbyterian
 Roman Cathologue,Roman Catholic
 Ch of Ereland,Church of Ireland
 Church for Ireland,Church of Ireland
 Prebersterian,Presbyterian
-Irish,CHATGPT_UNKNOWN
+Irish,Church of Ireland
 Roman Catiholic,Roman Catholic
-Non Secterian,CHATGPT_UNKNOWN
+Non Secterian,Non-denominational Christian
 Roman Catholic Chapel St Andrew,Roman Catholic
-Wesleyin Church,CHATGPT_UNKNOWN
+Wesleyin Church,Wesleyan Methodist
 Roman Catch Church,Roman Catholic
-United Methodists,CHATGPT_UNKNOWN
-Chistan Brethern,CHATGPT_UNKNOWN
+United Methodists,United Methodist
+Chistan Brethern,Christian Brethren
 Presbytation,Presbyterian
-Church Ingland,CHATGPT_UNKNOWN
-Church of Ireland Protsant,CHATGPT_UNKNOWN
+Church Ingland,Church of England
+Church of Ireland Protsant,Church of Ireland
 Roman Chotlic,Roman Catholic
 Cateholic,Roman Catholic
 Roman Chac,Roman Catholic
 Prespetiran,Presbyterian
-Episcopalin Church of Ireland,CHATGPT_UNKNOWN
+Episcopalin Church of Ireland,Church of Ireland
 The Body of Christ,CHATGPT_UNKNOWN
-Maravian Church,CHATGPT_UNKNOWN
-Wesley Methist,CHATGPT_UNKNOWN
-Epispoclan,CHATGPT_UNKNOWN
-St Enoch's Prespyterian,CHATGPT_UNKNOWN
+Maravian Church,Moravian
+Wesley Methist,Wesleyan Methodist
+Epispoclan,Church of Ireland
+St Enoch's Prespyterian,Presbyterian
 Prespriterian,Presbyterian
-Church of Ireland Lurgan Church,CHATGPT_UNKNOWN
-Cathiel,CHATGPT_UNKNOWN
-Hebew,CHATGPT_UNKNOWN
-C Church Ballinaneck,CHATGPT_UNKNOWN
+Church of Ireland Lurgan Church,Church of Ireland
+Cathiel,Roman Catholic
+Hebew,Jewish
+C Church Ballinaneck,Roman Catholic
 Rome Cath,Roman Catholic
 Roaming Catholic,Roman Catholic
 R Catholer,Roman Catholic
-Protestant Episcopali C,CHATGPT_UNKNOWN
+Protestant Episcopali C,Church of Ireland
 Methosist,Methodist
-Episcopalain Church,CHATGPT_UNKNOWN
+Episcopalain Church,Church of Ireland
 Roman Catalick,Roman Catholic
 Roman Cahotolic,Roman Catholic
 R Catchloic,Roman Catholic
 Prespytiran,Presbyterian
-Hebrew Church,CHATGPT_UNKNOWN
+Hebrew Church,Jewish
 Pt Church of Ireland,Church of Ireland
-Wesleys Methodist,CHATGPT_UNKNOWN
-Quaker Meeting,CHATGPT_UNKNOWN
-Finvoy Prisperian Curch,CHATGPT_UNKNOWN
-Mosaic Jew,CHATGPT_UNKNOWN
-Christadelpians,CHATGPT_UNKNOWN
+Wesleys Methodist,Wesleyan Methodist
+Quaker Meeting,Quaker
+Finvoy Prisperian Curch,Presbyterian
+Mosaic Jew,Jewish
+Christadelpians,Christadelphian
 Presbertern,Presbyterian
-Episcipalion,CHATGPT_UNKNOWN
-United Presbyterean,CHATGPT_UNKNOWN
+Episcipalion,Church of Ireland
+United Presbyterean,United Presbyterian
 Prespetrean,Presbyterian
 Roman Cathicol Church,Roman Catholic
 R Catholicke,Roman Catholic
 Roman Cathiolac,Roman Catholic
-Non Subscribing Presbytarians,CHATGPT_UNKNOWN
-Ch of England Episcopalian,CHATGPT_UNKNOWN
+Non Subscribing Presbytarians,Non-Subscribing Presbyterian
+Ch of England Episcopalian,Church of Ireland
 Roman Chalick,Roman Catholic
-Church of Ireland Aghavea Church,CHATGPT_UNKNOWN
-Wesyelean,CHATGPT_UNKNOWN
+Church of Ireland Aghavea Church,Church of Ireland
+Wesyelean,Wesleyan Methodist
 Roman Cathilck,Roman Catholic
 Roman Cachiloc,Roman Catholic
 Rom Cathok,Roman Catholic
 Glenuhery Presbyterian Church,Presbyterian
-Irish P Church,CHATGPT_UNKNOWN
+Irish P Church,Church of Ireland
 R Catchilo,Roman Catholic
 Reformed Chu,CHATGPT_UNKNOWN
 Non S Presbyterian,Presbyterian
 To the Brethern,CHATGPT_UNKNOWN
-Cathrickal Church,CHATGPT_UNKNOWN
+Cathrickal Church,Roman Catholic
 Plymoth Bretheren,Plymouth Brethren
 Prespian,Presbyterian
 Roman Catholin,Roman Catholic
 Fresbyterian,Presbyterian
-Episcopalian All Saints Church,CHATGPT_UNKNOWN
+Episcopalian All Saints Church,Church of Ireland
 Church of Ireland Jas F,Church of Ireland
 Prisbeteran,Presbyterian
-Succession Church,CHATGPT_UNKNOWN
+Succession Church,Seceder Presbyterian
 Catlioght,Roman Catholic
 2nd Presb Ch,Presbyterian
-Christian Commonly Called Brethern,CHATGPT_UNKNOWN
+Christian Commonly Called Brethern,Christian Brethren
 Presystriane Church,Presbyterian
 Catrolic,Roman Catholic
 Catchiloc Church,Roman Catholic
-Irish St George Church,CHATGPT_UNKNOWN
-Methadest,CHATGPT_UNKNOWN
+Irish St George Church,Church of Ireland
+Methadest,Methodist
 Roman Catheliock,Roman Catholic
 Methodist S,Methodist
 Prespyteriain,Presbyterian
-Episcopatian,CHATGPT_UNKNOWN
+Episcopatian,Church of Ireland
 St Catherin P Church,CHATGPT_UNKNOWN
-Church of Ireland Protestant Episcopol,CHATGPT_UNKNOWN
+Church of Ireland Protestant Episcopol,Church of Ireland
 Catoloic,Roman Catholic
-Ref Prespyterian,CHATGPT_UNKNOWN
+Ref Prespyterian,Reformed Presbyterian
 Belongs to R C Church,Roman Catholic
-Known as Open Brethern,CHATGPT_UNKNOWN
+Known as Open Brethern,Christian Brethren
 Presbyteirsan,Presbyterian
-Hebrew Congregation Lennox St,CHATGPT_UNKNOWN
+Hebrew Congregation Lennox St,Jewish
 Pryspeterin,Presbyterian
 Roman Catholic Chappeal,Roman Catholic
-Catholic Suthern german,CHATGPT_UNKNOWN
-Weyseloyn Methodist,CHATGPT_UNKNOWN
-Iri Church,CHATGPT_UNKNOWN
-St Michael's R C Church,CHATGPT_UNKNOWN
-Reformer and Presbyterian,CHATGPT_UNKNOWN
-Christians Known to the World as Plymouth Brethren,CHATGPT_UNKNOWN
+Catholic Suthern german,Roman Catholic
+Weyseloyn Methodist,Wesleyan Methodist
+Iri Church,Church of Ireland
+St Michael's R C Church,Roman Catholic
+Reformer and Presbyterian,Reformed Presbyterian
+Christians Known to the World as Plymouth Brethren,Plymouth Brethren
 Unitariean,Unitarian
-Jew Israelile,CHATGPT_UNKNOWN
-U P,CHATGPT_UNKNOWN
-Chch of England,CHATGPT_UNKNOWN
+Jew Israelile,Jewish
+U P,United Presbyterian
+Chch of England,Church of England
 Presbyterian First Castlederry,Presbyterian
-Christian Information Refused,CHATGPT_UNKNOWN
-Congregilstionalist,CHATGPT_UNKNOWN
+Christian Information Refused,Unknown
+Congregilstionalist,Congregationalist
 Presbetytrian,Presbyterian
 Prebytrrian,Presbyterian
-Mountpottinger Presb Church,CHATGPT_UNKNOWN
+Mountpottinger Presb Church,Presbyterian
 Roman Catrlich,Roman Catholic
-Weslyian Methodist,CHATGPT_UNKNOWN
+Weslyian Methodist,Wesleyan Methodist
 Pyresbyterian,Presbyterian
-Protestant E P,CHATGPT_UNKNOWN
-Methodist Church Weslian,CHATGPT_UNKNOWN
+Protestant E P,Church of Ireland
+Methodist Church Weslian,Wesleyan Methodist
 Church of Ereland,Church of Ireland
 R Cathloics,Roman Catholic
 Krockramuskley,CHATGPT_UNKNOWN
 Roman Catchloc,Roman Catholic
-Methodist N Conn,CHATGPT_UNKNOWN
+Methodist N Conn,Methodist New Connexion
 Tuam Cathedral Roman Catholic,Roman Catholic
 Tresbyterian,Presbyterian
 Roman Catholic Cathorial,Roman Catholic
-Protestant Epescopel,CHATGPT_UNKNOWN
-C Curch,CHATGPT_UNKNOWN
-Roman Catholic St Marys Ch,CHATGPT_UNKNOWN
+Protestant Epescopel,Church of Ireland
+C Curch,Roman Catholic
+Roman Catholic St Marys Ch,Roman Catholic
 Prsbyetrian,Presbyterian
 Romn Catiloc,Roman Catholic
 Prespeteryern,Presbyterian
 Presptyarn,Presbyterian
-Protestant Espiscopials,CHATGPT_UNKNOWN
-England High Church,CHATGPT_UNKNOWN
+Protestant Espiscopials,Church of Ireland
+England High Church,Church of England
 R Catholiec,Roman Catholic
 Rom Catchlic,Roman Catholic
 Chh of Ireld,Church of Ireland
-Catholic and Apstotic Curch,CHATGPT_UNKNOWN
+Catholic and Apstotic Curch,Catholic Apostolic
 Callick,Roman Catholic
 St Strens,CHATGPT_UNKNOWN
 Men Church Ireland,Church of Ireland
 Rhoman Catholics,Roman Catholic
-Moravion Brethern,CHATGPT_UNKNOWN
+Moravion Brethern,Moravian
 Luhteran,Lutheran
-Irish Episcopal C,CHATGPT_UNKNOWN
+Irish Episcopal C,Church of Ireland
 Pr?b?ttrian,Presbyterian
-Christian Commonly Called Brethren Protestant,CHATGPT_UNKNOWN
+Christian Commonly Called Brethren Protestant,Christian Brethren
 Roman Catholace,Roman Catholic
-Mulloglass Irish Church,CHATGPT_UNKNOWN
+Mulloglass Irish Church,Church of Ireland
 Romah Cathorlic,Roman Catholic
-Reformed Presbyterian's,CHATGPT_UNKNOWN
+Reformed Presbyterian's,Reformed Presbyterian
 Roman Cathrloc,Roman Catholic
 Rom R C,Roman Catholic
-Covnanter,CHATGPT_UNKNOWN
+Covnanter,Reformed Presbyterian
 Romaman Catholicks,Roman Catholic
 Catholic Reglion,Roman Catholic
-Reformed Presb Church,CHATGPT_UNKNOWN
+Reformed Presb Church,Reformed Presbyterian
 Bresbterian Church,Presbyterian
-Episcopalain and Church of Ireland,CHATGPT_UNKNOWN
+Episcopalain and Church of Ireland,Church of Ireland
 R Cathor,Roman Catholic
 Presbytrnan,Presbyterian
 Prespbtyerian,Presbyterian
 Baptised Beliver,CHATGPT_UNKNOWN
 Roanal Catholic,Roman Catholic
 Roman Cahlice,Roman Catholic
-Episcopalian and Church of Ireland,CHATGPT_UNKNOWN
+Episcopalian and Church of Ireland,Church of Ireland
 Prestyberia,Presbyterian
 Brethren in the Lord,CHATGPT_UNKNOWN
-The Church of Elgland,CHATGPT_UNKNOWN
+The Church of Elgland,Church of England
 Romn Cathic,Roman Catholic
-Non Sub Prespetarian,CHATGPT_UNKNOWN
-Protestant E Church,CHATGPT_UNKNOWN
-No Denomination Athusts,CHATGPT_UNKNOWN
+Non Sub Prespetarian,Non-Subscribing Presbyterian
+Protestant E Church,Church of Ireland
+No Denomination Athusts,Atheist
 Roman Catllick,Roman Catholic
-Congreationlist,CHATGPT_UNKNOWN
-1st Presbyterian Church,CHATGPT_UNKNOWN
+Congreationlist,Congregationalist
+1st Presbyterian Church,Presbyterian
 Roman Cahtolic,Roman Catholic
-Original Secession Church,CHATGPT_UNKNOWN
+Original Secession Church,Original Secession Church
 Prespyterranean,Presbyterian
 Preshpterian,Presbyterian
 Catherloc,Roman Catholic
 Rome Catloic,Roman Catholic
 Roman Cathileck,Roman Catholic
-Clifton Park Congregational Ch,CHATGPT_UNKNOWN
-Catholic Chuh,CHATGPT_UNKNOWN
+Clifton Park Congregational Ch,Congregationalist
+Catholic Chuh,Roman Catholic
 Roman Catholi Church,Roman Catholic
 Denomination,CHATGPT_UNKNOWN
 Romn Cathc,Roman Catholic
-Congregathional,CHATGPT_UNKNOWN
+Congregathional,Congregationalist
 Presbeteria,Presbyterian
 Cuch of Ireland,Church of Ireland
 Rm Chatolic,Roman Catholic
-Church Roane,CHATGPT_UNKNOWN
+Church Roane,Roman Catholic
 Unitarnin,Unitarian
 Romin Catolic,Roman Catholic
 Rrome Cathlic,Roman Catholic
-Catchrlic Religion,CHATGPT_UNKNOWN
+Catchrlic Religion,Roman Catholic
 Victoria St Presbyterian,Presbyterian
-St Patk 8 R C Church,CHATGPT_UNKNOWN
+St Patk 8 R C Church,Roman Catholic
 Presbiterranean,Presbyterian
-Wesleyan Metd,CHATGPT_UNKNOWN
-Cothlic Church,CHATGPT_UNKNOWN
-Protestant Episcopalia,CHATGPT_UNKNOWN
-Indep Preb,CHATGPT_UNKNOWN
+Wesleyan Metd,Wesleyan Methodist
+Cothlic Church,Roman Catholic
+Protestant Episcopalia,Church of Ireland
+Indep Preb,Independent
 Roman Catolik,Roman Catholic
 Roman Chatliocs,Roman Catholic
 Rom Cathilic,Roman Catholic
 Cathcolic Religion,Roman Catholic
-Cristian Brethern,CHATGPT_UNKNOWN
-C of Ireland Pro Christian Commonly Called Brethern,CHATGPT_UNKNOWN
-Catheloic R,CHATGPT_UNKNOWN
-United F C Scotland,CHATGPT_UNKNOWN
+Cristian Brethern,Christian Brethren
+C of Ireland Pro Christian Commonly Called Brethern,Church of Ireland
+Catheloic R,Roman Catholic
+United F C Scotland,United Free Church of Scotland
 Roman Cattolick,Roman Catholic
-Non Sub Presbyt,CHATGPT_UNKNOWN
-Christan Known as Brethern,CHATGPT_UNKNOWN
-Prot Church Ireland,CHATGPT_UNKNOWN
+Non Sub Presbyt,Non-Subscribing Presbyterian
+Christan Known as Brethern,Christian Brethren
+Prot Church Ireland,Church of Ireland
 Prysbatarian,Presbyterian
-Jewers,CHATGPT_UNKNOWN
-Epistical Church,CHATGPT_UNKNOWN
+Jewers,Jewish
+Epistical Church,Church of Ireland
 Presbyterians Churh,Presbyterian
-Prostestant Episcopalian,CHATGPT_UNKNOWN
+Prostestant Episcopalian,Church of Ireland
 R Catchlick,Roman Catholic
 Christian Brewer,CHATGPT_UNKNOWN
 Suscador,CHATGPT_UNKNOWN
@@ -3786,39 +3786,39 @@ Unitiarn,Unitarian
 Roman Catolica,Roman Catholic
 Chatrlick,Roman Catholic
 Romen Cathloics,Roman Catholic
-Calvinistic Methodist,CHATGPT_UNKNOWN
+Calvinistic Methodist,Calvinistic Methodist
 Roman Cathiloc Church,Roman Catholic
 Catholac Church,Roman Catholic
 Roman Catiloch,Roman Catholic
 Roman Cathilis,Roman Catholic
-Wesleyan Methoist,CHATGPT_UNKNOWN
-Protestant Epscopalian,CHATGPT_UNKNOWN
+Wesleyan Methoist,Wesleyan Methodist
+Protestant Epscopalian,Church of Ireland
 Prispatarian,Presbyterian
 RC Methodist,Methodist
 Roman Catohilc,Roman Catholic
 R C Methodist,Methodist
 Presbyterlan,Presbyterian
-Chatlock,CHATGPT_UNKNOWN
-R C S of Charity,CHATGPT_UNKNOWN
-U F C,CHATGPT_UNKNOWN
+Chatlock,Roman Catholic
+R C S of Charity,Roman Catholic
+U F C,United Free Church of Scotland
 Roman Catholic Supersiations Idolators which Faith H is the King is Definder,Roman Catholic
-Member of I Chur,CHATGPT_UNKNOWN
+Member of I Chur,Church of Ireland
 Roam Catholie,Roman Catholic
-Protestant Church Episcopal,CHATGPT_UNKNOWN
-Catholic Proffession,CHATGPT_UNKNOWN
+Protestant Church Episcopal,Church of Ireland
+Catholic Proffession,Roman Catholic
 Preperstian,Presbyterian
-Protestant Episcopalain,CHATGPT_UNKNOWN
+Protestant Episcopalain,Church of Ireland
 Cathlc,Roman Catholic
 R Catilick,Roman Catholic
 Prisbeterrian,Presbyterian
 Or Catholic,Roman Catholic
-Derry Kinghan Parish Church of Ireland,CHATGPT_UNKNOWN
+Derry Kinghan Parish Church of Ireland,Church of Ireland
 Roman Chathilic,Roman Catholic
 St Georges,CHATGPT_UNKNOWN
 Roman Cattlock,Roman Catholic
 Protestant Lion Church Rathgar,CHATGPT_UNKNOWN
 Romane Shurch,Roman Catholic
-The Giving of Further Information was Declined,CHATGPT_UNKNOWN
+The Giving of Further Information was Declined,Unknown
 Prispertion,Presbyterian
 Roman Cathlie,Roman Catholic
 Prespbyterien,Presbyterian
@@ -3827,80 +3827,80 @@ Prestyrian,Presbyterian
 Meeting House of the Brethern,CHATGPT_UNKNOWN
 Cathlock Curch,Roman Catholic
 Prespeterian Sucession,CHATGPT_UNKNOWN
-Episcopilian Church of Ireland,CHATGPT_UNKNOWN
+Episcopilian Church of Ireland,Church of Ireland
 The Holy Roman Catherlock Church,Roman Catholic
 Rom Catholic Relig,Roman Catholic
 Roman Cahatolic,Roman Catholic
 Catlioc,Roman Catholic
-Methody,CHATGPT_UNKNOWN
-Medotist C,CHATGPT_UNKNOWN
-Epeselian Church of Ireland,CHATGPT_UNKNOWN
+Methody,Methodist
+Medotist C,Methodist
+Epeselian Church of Ireland,Church of Ireland
 Prspetearn,Presbyterian
 R Calotic,Roman Catholic
-Isrelite,CHATGPT_UNKNOWN
-Morman Church,CHATGPT_UNKNOWN
+Isrelite,Jewish
+Morman Church,Mormon
 R Catholich Church,Roman Catholic
 Roaman Chatolic,Roman Catholic
-Church of Ireland Protestant I P,CHATGPT_UNKNOWN
+Church of Ireland Protestant I P,Church of Ireland
 Presbeteren Church,Presbyterian
-Epescopalian Church of Scotland,CHATGPT_UNKNOWN
-Weselyan Church,CHATGPT_UNKNOWN
-Ephiscopelian,CHATGPT_UNKNOWN
-Known as Exclusive Brethern,CHATGPT_UNKNOWN
+Epescopalian Church of Scotland,Episcopal Church of Scotland
+Weselyan Church,Wesleyan Methodist
+Ephiscopelian,Church of Ireland
+Known as Exclusive Brethern,Plymouth Brethren
 Roman Cattole,Roman Catholic
 Roamon Catholick,Roman Catholic
-Non - Subscribing Presbyterian,CHATGPT_UNKNOWN
+Non - Subscribing Presbyterian,Non-Subscribing Presbyterian
 Catholic S,Roman Catholic
 Presbyterian C?,Presbyterian
-Christian Commonly Keownes Brethren,CHATGPT_UNKNOWN
-Commonly Called Christian Brethren,CHATGPT_UNKNOWN
+Christian Commonly Keownes Brethren,Christian Brethren
+Commonly Called Christian Brethren,Christian Brethren
 R Catholic Chrh,Roman Catholic
 Roman Cathotc,Roman Catholic
-Unattached,CHATGPT_UNKNOWN
+Unattached,Unknown
 Presepeterny,Presbyterian
 Idolators,Roman Catholic
-Epicopal Irish Church,CHATGPT_UNKNOWN
+Epicopal Irish Church,Church of Ireland
 Methiost,Methodist
 Presbytterine,Presbyterian
 Cathiloc Religon,Roman Catholic
 Roman Catherloc,Roman Catholic
 Roman Catelice,Roman Catholic
-Unitorion,CHATGPT_UNKNOWN
-Reformed Presbyterain,CHATGPT_UNKNOWN
-Pismitive Methodist,CHATGPT_UNKNOWN
+Unitorion,Unitarian
+Reformed Presbyterain,Reformed Presbyterian
+Pismitive Methodist,Primitive Methodist
 Prepesternay,Presbyterian
 R Cartholic,Roman Catholic
 Protestant Gospal Halls,CHATGPT_UNKNOWN
-Church Engd,CHATGPT_UNKNOWN
-Wesleyan Ch of E,CHATGPT_UNKNOWN
+Church Engd,Church of England
+Wesleyan Ch of E,Wesleyan Methodist
 R Cothalic,Roman Catholic
-Congregrationlist,CHATGPT_UNKNOWN
-Established Church Scotd,CHATGPT_UNKNOWN
+Congregrationlist,Congregationalist
+Established Church Scotd,Church of Scotland
 Prebystirean,Presbyterian
-Protestants I Church,CHATGPT_UNKNOWN
-Congregation'st,CHATGPT_UNKNOWN
+Protestants I Church,Church of Ireland
+Congregation'st,Congregationalist
 Catholicie,Roman Catholic
 Roman Chaloic,Roman Catholic
-M of Church Ireland,CHATGPT_UNKNOWN
-Westlen Methods,CHATGPT_UNKNOWN
+M of Church Ireland,Church of Ireland
+Westlen Methods,Wesleyan Methodist
 Roman Catholic Sc Heart Church,Roman Catholic
-U F Pres Church,CHATGPT_UNKNOWN
+U F Pres Church,United Free Church of Scotland
 Follower of Jesus,CHATGPT_UNKNOWN
 Rorman Catholic,Roman Catholic
 Rome Catlic,Roman Catholic
 Catlocks,Roman Catholic
 Roman Catollic,Roman Catholic
-Protestant Episcopalian C I,CHATGPT_UNKNOWN
-Unaterion,CHATGPT_UNKNOWN
+Protestant Episcopalian C I,Church of Ireland
+Unaterion,Unitarian
 Roam Caholic,Roman Catholic
 Chatholice,Roman Catholic
-Ch Ballymaett Ireland,CHATGPT_UNKNOWN
-Congregrational,CHATGPT_UNKNOWN
-St Matthews R C Church,CHATGPT_UNKNOWN
-Irish Church all Members of London park I C,CHATGPT_UNKNOWN
+Ch Ballymaett Ireland,Church of Ireland
+Congregrational,Congregationalist
+St Matthews R C Church,Roman Catholic
+Irish Church all Members of London park I C,Church of Ireland
 R Cathlo?,Roman Catholic
-Roman Catholic Catheresdral Malboro St,CHATGPT_UNKNOWN
-Nonsubscribing Presbeterian,CHATGPT_UNKNOWN
+Roman Catholic Catheresdral Malboro St,Roman Catholic
+Nonsubscribing Presbeterian,Non-Subscribing Presbyterian
 Cathol Church,Roman Catholic
 R Cathorlic Religion,Roman Catholic
 Preystern,Presbyterian
@@ -3910,17 +3910,17 @@ Presbteriean,Presbyterian
 Presbytiaran,Presbyterian
 Roman Cathclic,Roman Catholic
 All Presbyterians Belonging to Albert Street Presbyterian Church Belfast,Presbyterian
-Exclusive Brathern,CHATGPT_UNKNOWN
+Exclusive Brathern,Plymouth Brethren
 Prisbiteren,Presbyterian
-Seccession Presbyterian,CHATGPT_UNKNOWN
-Reformed Presy,CHATGPT_UNKNOWN
+Seccession Presbyterian,Seceder Presbyterian
+Reformed Presy,Reformed Presbyterian
 Presbtirean,Presbyterian
 Presbyterian Church Woodvale Presbyterain Church Belfast,Presbyterian
 Meethodist,Methodist
 Roman Cathrical,Roman Catholic
 Leutcholic,CHATGPT_UNKNOWN
-Brithrin in Christ,CHATGPT_UNKNOWN
-All Belong to the Methodist Church and Good Protestants,CHATGPT_UNKNOWN
+Brithrin in Christ,Christian Brethren
+All Belong to the Methodist Church and Good Protestants,Methodist
 Catholich Religion,Roman Catholic
 Rmn C,Roman Catholic
 Roman I Catholic,Roman Catholic
@@ -3928,40 +3928,40 @@ Roman Catholicke,Roman Catholic
 R C Idotalahaors,Roman Catholic
 To Saints Gatherd as Church of God,CHATGPT_UNKNOWN
 Presbiterrion,Presbyterian
-Congernalist,CHATGPT_UNKNOWN
+Congernalist,Congregationalist
 Prysbetirean,Presbyterian
 Rom Catholic St Marrys Church,Roman Catholic
 Presy Beterian,Presbyterian
 Unitairion,Unitarian
-Establishes Church of Scotland Presbyterian,CHATGPT_UNKNOWN
+Establishes Church of Scotland Presbyterian,Church of Scotland
 Prisperten,Presbyterian
 Roman Catiloy,Roman Catholic
-Salvate Army,CHATGPT_UNKNOWN
+Salvate Army,Salvationist
 Roman Catolice Church,Roman Catholic
 R Catholic Gartegeng Church,Roman Catholic
-Protestants Episcopalian Church,CHATGPT_UNKNOWN
+Protestants Episcopalian Church,Church of Ireland
 Religion Presbyterian,Presbyterian
 R Cathric,Roman Catholic
-Unt Church,CHATGPT_UNKNOWN
+Unt Church,Unitarian
 Presbetren,Presbyterian
 R Chatelic,Roman Catholic
 E C Church of Ireland,Church of Ireland
-Ch of Ireland Prtestant,CHATGPT_UNKNOWN
+Ch of Ireland Prtestant,Church of Ireland
 Rm Cath,Roman Catholic
 Adherents,CHATGPT_UNKNOWN
-Church of Ireland St Mathews Church,CHATGPT_UNKNOWN
-Episcopl Church,CHATGPT_UNKNOWN
+Church of Ireland St Mathews Church,Church of Ireland
+Episcopl Church,Church of Ireland
 Phrysbterian,Presbyterian
-Sisters of St John of God,CHATGPT_UNKNOWN
+Sisters of St John of God,Roman Catholic
 Road Romon,Roman Catholic
-Protestant St Peter's Church of Ireland,CHATGPT_UNKNOWN
-Brethern or Nown Brethern,CHATGPT_UNKNOWN
+Protestant St Peter's Church of Ireland,Church of Ireland
+Brethern or Nown Brethern,Christian Brethren
 Clough Presbyterian,Presbyterian
 Church of Roma,Roman Catholic
 Caitloch Religion,Roman Catholic
 Chalotic R,Roman Catholic
 Catholic St Kevins Chapel,Roman Catholic
-Protestant Baggotrath Church,CHATGPT_UNKNOWN
+Protestant Baggotrath Church,Church of Ireland
 Roman Catlitic,Roman Catholic
 Presebterian,Presbyterian
 Roman Cathitoc,Roman Catholic
@@ -3975,1001 +3975,1001 @@ Catholic Cherch,Roman Catholic
 Prespyine,Presbyterian
 Prisbytern,Presbyterian
 Romanic Catholic,Roman Catholic
-Episcopalion Church,CHATGPT_UNKNOWN
-Protestant C I Episcopalian,CHATGPT_UNKNOWN
+Episcopalion Church,Church of Ireland
+Protestant C I Episcopalian,Church of Ireland
 Rmn Cathatloh,Roman Catholic
-Welsety Methodist,CHATGPT_UNKNOWN
-Non Sectaram,CHATGPT_UNKNOWN
-Congregationalsts,CHATGPT_UNKNOWN
+Welsety Methodist,Wesleyan Methodist
+Non Sectaram,Non-denominational Christian
+Congregationalsts,Congregationalist
 Presbeteryans,Presbyterian
 Presptertian,Presbyterian
 Presteberian,Presbyterian
-Govenanters,CHATGPT_UNKNOWN
-Church of Engd Episcopalion,CHATGPT_UNKNOWN
-Church of Ireland Prostant,CHATGPT_UNKNOWN
+Govenanters,Reformed Presbyterian
+Church of Engd Episcopalion,Church of Ireland
+Church of Ireland Prostant,Church of Ireland
 Prespyrain,Presbyterian
-Wesleyon Methodist,CHATGPT_UNKNOWN
+Wesleyon Methodist,Wesleyan Methodist
 Prespertarer,Presbyterian
 Ro Catholic C,Roman Catholic
 Follower,CHATGPT_UNKNOWN
-Prott Episcopalian,CHATGPT_UNKNOWN
-Protestant Eposcipalian,CHATGPT_UNKNOWN
-W Methodist Church,CHATGPT_UNKNOWN
+Prott Episcopalian,Church of Ireland
+Protestant Eposcipalian,Church of Ireland
+W Methodist Church,Wesleyan Methodist
 Roman Cathorlich,Roman Catholic
 All R Catholics,Roman Catholic
 Presbyteriay,Presbyterian
 Prsybeterian,Presbyterian
 Religious Profession,CHATGPT_UNKNOWN
-Congrationlast,CHATGPT_UNKNOWN
-Prsepion,CHATGPT_UNKNOWN
-Irish Protestant Episcopalian,CHATGPT_UNKNOWN
+Congrationlast,Congregationalist
+Prsepion,Presbyterian
+Irish Protestant Episcopalian,Church of Ireland
 Unitarain,Unitarian
-Irish Presbyterian C,CHATGPT_UNKNOWN
+Irish Presbyterian C,Presbyterian
 Roam Catholc,Roman Catholic
 Cathelice,Roman Catholic
 Presbyterian Chuch,Presbyterian
-Roman Catalogue,CHATGPT_UNKNOWN
-Presbyterian Church of the General Assembly,CHATGPT_UNKNOWN
+Roman Catalogue,Roman Catholic
+Presbyterian Church of the General Assembly,Presbyterian
 Presbyteram,Presbyterian
 Presterain,Presbyterian
-Cathilc Chc,CHATGPT_UNKNOWN
-Congrenatonal,CHATGPT_UNKNOWN
-Irish Epispol Church,CHATGPT_UNKNOWN
-Presbtrain Church,CHATGPT_UNKNOWN
-Prisperian,CHATGPT_UNKNOWN
+Cathilc Chc,Roman Catholic
+Congrenatonal,Congregationalist
+Irish Epispol Church,Church of Ireland
+Presbtrain Church,Presbyterian
+Prisperian,Presbyterian
 Presptrian,Presbyterian
-Epispal Church,CHATGPT_UNKNOWN
-R C Catholics,CHATGPT_UNKNOWN
-Church of Ireland Protstant,CHATGPT_UNKNOWN
+Epispal Church,Church of Ireland
+R C Catholics,Roman Catholic
+Church of Ireland Protstant,Church of Ireland
 Peasbyterian,Presbyterian
-Prostestant I C,CHATGPT_UNKNOWN
-R Cattlick,CHATGPT_UNKNOWN
-Rom Catelis,CHATGPT_UNKNOWN
-Roman Catholic St Patrick Church,CHATGPT_UNKNOWN
+Prostestant I C,Church of Ireland
+R Cattlick,Roman Catholic
+Rom Catelis,Roman Catholic
+Roman Catholic St Patrick Church,Roman Catholic
 Methodist New Conn,CHATGPT_UNKNOWN
-Church of Jesus Christ of Latterday Saints,CHATGPT_UNKNOWN
-R Cattlc,CHATGPT_UNKNOWN
-Ramoan Church,CHATGPT_UNKNOWN
-Irish Church Epscopalian,CHATGPT_UNKNOWN
+Church of Jesus Christ of Latterday Saints,Mormon
+R Cattlc,Roman Catholic
+Ramoan Church,Roman Catholic
+Irish Church Epscopalian,Church of Ireland
 Romanan Catholic,Roman Catholic
-Roman Catholic or Idolitor,CHATGPT_UNKNOWN
-Uneration,CHATGPT_UNKNOWN
+Roman Catholic or Idolitor,Roman Catholic
+Uneration,Unitarian
 Presbtrain,Presbyterian
-Indepant Church of Prespterrians,CHATGPT_UNKNOWN
+Indepant Church of Prespterrians,Independent
 Cattolick,Roman Catholic
-Church of Ireland Christs Church,CHATGPT_UNKNOWN
-Church of Ireland St Patrick Church,CHATGPT_UNKNOWN
+Church of Ireland Christs Church,Church of Ireland
+Church of Ireland St Patrick Church,Church of Ireland
 Presebeterian,Presbyterian
 Prestyteria,Presbyterian
-R Cathlick Religion,CHATGPT_UNKNOWN
+R Cathlick Religion,Roman Catholic
 Roman Caotholic,Roman Catholic
-Reformed Presbytren,CHATGPT_UNKNOWN
-Irisu Church,CHATGPT_UNKNOWN
-Chuch Rome,CHATGPT_UNKNOWN
-Roomen Cathloc,CHATGPT_UNKNOWN
+Reformed Presbytren,Reformed Presbyterian
+Irisu Church,Church of Ireland
+Chuch Rome,Roman Catholic
+Roomen Cathloc,Roman Catholic
 Presbyternain,Presbyterian
-Presbyterian C of I,CHATGPT_UNKNOWN
-Church of Ireland Epispcopalian,CHATGPT_UNKNOWN
-Protestant Chuch of Ireland,CHATGPT_UNKNOWN
-MethodisthNew Connection,CHATGPT_UNKNOWN
+Presbyterian C of I,Presbyterian
+Church of Ireland Epispcopalian,Church of Ireland
+Protestant Chuch of Ireland,Church of Ireland
+MethodisthNew Connection,Methodist New Connexion
 St Thomas's Church,CHATGPT_UNKNOWN
-R Catholes,CHATGPT_UNKNOWN
-Indepent Church,CHATGPT_UNKNOWN
-R Cathalice,CHATGPT_UNKNOWN
-Protestant Epicopalian Church of Ireland,CHATGPT_UNKNOWN
-Member of the Order of Greachers,CHATGPT_UNKNOWN
+R Catholes,Roman Catholic
+Indepent Church,Independent
+R Cathalice,Roman Catholic
+Protestant Epicopalian Church of Ireland,Church of Ireland
+Member of the Order of Greachers,Roman Catholic
 Roman Chatlics,Roman Catholic
 Prespyderian,Presbyterian
 Romon Catholice,Roman Catholic
-Church Engnd,CHATGPT_UNKNOWN
-Francisean,CHATGPT_UNKNOWN
+Church Engnd,Church of England
+Francisean,Roman Catholic
 Katholic,Roman Catholic
 Methiotist,Methodist
-U P Church of Scotland,CHATGPT_UNKNOWN
-Eshalid Church,CHATGPT_UNKNOWN
-Roman Catholic Apostolic Church,CHATGPT_UNKNOWN
-Morarian,CHATGPT_UNKNOWN
-M L H Reformed Presbyterian,CHATGPT_UNKNOWN
-Christians usually called Plymouth Brethren,CHATGPT_UNKNOWN
-Presbyterian Westbourne,CHATGPT_UNKNOWN
-Church Roman,CHATGPT_UNKNOWN
+U P Church of Scotland,United Presbyterian
+Eshalid Church,Church of England
+Roman Catholic Apostolic Church,Catholic Apostolic
+Morarian,Moravian
+M L H Reformed Presbyterian,Reformed Presbyterian
+Christians usually called Plymouth Brethren,Plymouth Brethren
+Presbyterian Westbourne,Presbyterian
+Church Roman,Roman Catholic
 Roman Catholek,Roman Catholic
-Prispytrion Church,CHATGPT_UNKNOWN
-St Patrick Cathedral Hall Church of Ireland,CHATGPT_UNKNOWN
+Prispytrion Church,Presbyterian
+St Patrick Cathedral Hall Church of Ireland,Church of Ireland
 Rm Catholi,Roman Catholic
-Belonging to No Denomination,CHATGPT_UNKNOWN
-Protestant St Nicholas without and St Luke's Church of Ireland,CHATGPT_UNKNOWN
+Belonging to No Denomination,Non-denominational Christian
+Protestant St Nicholas without and St Luke's Church of Ireland,Church of Ireland
 Presberterion,Presbyterian
-Presbyterian Gen Assembly,CHATGPT_UNKNOWN
-Catholic (Rome),CHATGPT_UNKNOWN
-Catrelick,CHATGPT_UNKNOWN
+Presbyterian Gen Assembly,Presbyterian
+Catholic (Rome),Roman Catholic
+Catrelick,Roman Catholic
 Catholicity,Roman Catholic
-Castle Ragh Methodists Church,CHATGPT_UNKNOWN
-Ep Irish Church,CHATGPT_UNKNOWN
-St Matthews Romin Catholic Church,CHATGPT_UNKNOWN
-Cathelick Religon,CHATGPT_UNKNOWN
-Congragationalist,CHATGPT_UNKNOWN
-Prespiterean,CHATGPT_UNKNOWN
-Hebrew Jewish,CHATGPT_UNKNOWN
+Castle Ragh Methodists Church,Methodist
+Ep Irish Church,Church of Ireland
+St Matthews Romin Catholic Church,Roman Catholic
+Cathelick Religon,Roman Catholic
+Congragationalist,Congregationalist
+Prespiterean,Presbyterian
+Hebrew Jewish,Jewish
 Roman Cathoel,Roman Catholic
-Congregatonalist,CHATGPT_UNKNOWN
+Congregatonalist,Congregationalist
 Presberitians,Presbyterian
 Roman Calothlic,Roman Catholic
-Swiss Church,CHATGPT_UNKNOWN
-Orthodox Presbyterian,CHATGPT_UNKNOWN
-Non Subsc Pres,CHATGPT_UNKNOWN
-Wesleyan M C,CHATGPT_UNKNOWN
-Presbertian Church,CHATGPT_UNKNOWN
-Wesseleyan Methodists,CHATGPT_UNKNOWN
+Swiss Church,Swiss Protestant
+Orthodox Presbyterian,Presbyterian
+Non Subsc Pres,Non-Subscribing Presbyterian
+Wesleyan M C,Wesleyan Methodist
+Presbertian Church,Presbyterian
+Wesseleyan Methodists,Wesleyan Methodist
 Presbytrirean,Presbyterian
 Roman Catholy,Roman Catholic
-Established Church in Scotland,CHATGPT_UNKNOWN
-Irsh Presbyterian G A,CHATGPT_UNKNOWN
-Pyspetrian,CHATGPT_UNKNOWN
-Roman Chatiloc,CHATGPT_UNKNOWN
-Prispetarian,CHATGPT_UNKNOWN
+Established Church in Scotland,Church of Scotland
+Irsh Presbyterian G A,Presbyterian
+Pyspetrian,Presbyterian
+Roman Chatiloc,Roman Catholic
+Prispetarian,Presbyterian
 Roma Cathlick,Roman Catholic
 St Lukes Church,CHATGPT_UNKNOWN
-Catholic Allen,CHATGPT_UNKNOWN
+Catholic Allen,Roman Catholic
 Roam Cathlick,Roman Catholic
-Piscupelium,CHATGPT_UNKNOWN
-Weseylan Methodist,CHATGPT_UNKNOWN
-Undenomantional,CHATGPT_UNKNOWN
+Piscupelium,Church of Ireland
+Weseylan Methodist,Wesleyan Methodist
+Undenomantional,Non-denominational Christian
 Presbbyterian,Presbyterian
 Prebysterrian,Presbyterian
-Church of God Undenomational,CHATGPT_UNKNOWN
-Hebrew Releigon,CHATGPT_UNKNOWN
+Church of God Undenomational,Non-denominational Christian
+Hebrew Releigon,Jewish
 Churd Ireland,Church of Ireland
 Bapptist,Baptist
 Roman Cathrilick,Roman Catholic
-R C Church of England,CHATGPT_UNKNOWN
-Salvation Army Church of Ireland,CHATGPT_UNKNOWN
-M C Ireland,CHATGPT_UNKNOWN
-R Catholic Religen,CHATGPT_UNKNOWN
-Indepents Church,CHATGPT_UNKNOWN
-Church of Ireland St Barnalas,CHATGPT_UNKNOWN
-The Friend's,CHATGPT_UNKNOWN
-Catholic Daurus C,CHATGPT_UNKNOWN
-Cathalick Church,CHATGPT_UNKNOWN
-Prespettrin,CHATGPT_UNKNOWN
-Protestant Irish Episcopal Church,CHATGPT_UNKNOWN
-R Catholic St Andrew,CHATGPT_UNKNOWN
-Prisbiterian Church,CHATGPT_UNKNOWN
-Presptarian,CHATGPT_UNKNOWN
-Weslin Methodist,CHATGPT_UNKNOWN
-Prispterrien,CHATGPT_UNKNOWN
-Ct R,CHATGPT_UNKNOWN
-Roman Catholic Idolaters,CHATGPT_UNKNOWN
-Lurgan Irish Presbertain,CHATGPT_UNKNOWN
+R C Church of England,Church of England
+Salvation Army Church of Ireland,Salvationist
+M C Ireland,Church of Ireland
+R Catholic Religen,Roman Catholic
+Indepents Church,Independent
+Church of Ireland St Barnalas,Church of Ireland
+The Friend's,Quaker
+Catholic Daurus C,Roman Catholic
+Cathalick Church,Roman Catholic
+Prespettrin,Presbyterian
+Protestant Irish Episcopal Church,Church of Ireland
+R Catholic St Andrew,Roman Catholic
+Prisbiterian Church,Presbyterian
+Presptarian,Presbyterian
+Weslin Methodist,Wesleyan Methodist
+Prispterrien,Presbyterian
+Ct R,Roman Catholic
+Roman Catholic Idolaters,Roman Catholic
+Lurgan Irish Presbertain,Presbyterian
 Catholic Church St Kevins,CHATGPT_UNKNOWN
 Prespytirian,Presbyterian
-Prisptern,CHATGPT_UNKNOWN
-Roman Catochlic Religon,CHATGPT_UNKNOWN
-R Catk Religion,CHATGPT_UNKNOWN
+Prisptern,Presbyterian
+Roman Catochlic Religon,Roman Catholic
+R Catk Religion,Roman Catholic
 R Cathoilice,Roman Catholic
 None Professor,CHATGPT_UNKNOWN
 Belong to Christ,CHATGPT_UNKNOWN
-Bretherin so Called,CHATGPT_UNKNOWN
-Catirlick,CHATGPT_UNKNOWN
+Bretherin so Called,Plymouth Brethren
+Catirlick,Roman Catholic
 Preysbetrian,Presbyterian
-Epescopilian,CHATGPT_UNKNOWN
-Nonseterian,CHATGPT_UNKNOWN
+Epescopilian,Church of Ireland
+Nonseterian,Non-denominational Christian
 Christion,CHATGPT_UNKNOWN
-C Brethrn,CHATGPT_UNKNOWN
-Cathloch Church,CHATGPT_UNKNOWN
-Non-Denominational,CHATGPT_UNKNOWN
-A B Cangregational Church,CHATGPT_UNKNOWN
-United Free Presbyterian Church Scotland,CHATGPT_UNKNOWN
-Non-Subscribing P Presbyterian,CHATGPT_UNKNOWN
+C Brethrn,Christian Brethren
+Cathloch Church,Roman Catholic
+Non-Denominational,Non-denominational Christian
+A B Cangregational Church,Congregationalist
+United Free Presbyterian Church Scotland,United Free Church of Scotland
+Non-Subscribing P Presbyterian,Non-Subscribing Presbyterian
 Rome Catholic Ch,Roman Catholic
-Catherlik Religion,CHATGPT_UNKNOWN
-Episcopilon,CHATGPT_UNKNOWN
-Prespretians,CHATGPT_UNKNOWN
-Episcopal Church of Ireld,CHATGPT_UNKNOWN
-Presptren,CHATGPT_UNKNOWN
-Presberting,CHATGPT_UNKNOWN
-P C,CHATGPT_UNKNOWN
-Not Christian,CHATGPT_UNKNOWN
-Ro Cathol,CHATGPT_UNKNOWN
-Established of Scotland,CHATGPT_UNKNOWN
-Episcopallan,CHATGPT_UNKNOWN
+Catherlik Religion,Roman Catholic
+Episcopilon,Church of Ireland
+Prespretians,Presbyterian
+Episcopal Church of Ireld,Church of Ireland
+Presptren,Presbyterian
+Presberting,Presbyterian
+P C,Presbyterian
+Not Christian,Unknown
+Ro Cathol,Roman Catholic
+Established of Scotland,Church of Scotland
+Episcopallan,Church of Ireland
 Roman Cathloch,Roman Catholic
-Roman Catcloh,CHATGPT_UNKNOWN
-Reformed Prisbyterian,CHATGPT_UNKNOWN
-Presbyterian Seceder,CHATGPT_UNKNOWN
+Roman Catcloh,Roman Catholic
+Reformed Prisbyterian,Reformed Presbyterian
+Presbyterian Seceder,Seceder Presbyterian
 Presbytianan,Presbyterian
-R Catrolic,CHATGPT_UNKNOWN
-Church of Ireland St Michaels,CHATGPT_UNKNOWN
-U F of Scotland,CHATGPT_UNKNOWN
-Episcopaleon C,CHATGPT_UNKNOWN
+R Catrolic,Roman Catholic
+Church of Ireland St Michaels,Church of Ireland
+U F of Scotland,United Free Church of Scotland
+Episcopaleon C,Church of Ireland
 Presbyterian Churc,Presbyterian
-Ballygovern Chr Presbyterian,CHATGPT_UNKNOWN
+Ballygovern Chr Presbyterian,Presbyterian
 Christ's Church,CHATGPT_UNKNOWN
 Presbyterren,Presbyterian
-Rome C Chuch,CHATGPT_UNKNOWN
+Rome C Chuch,Roman Catholic
 Roman Cathicole,Roman Catholic
 Roman Cathical,Roman Catholic
-Protestents Church of Ireland,CHATGPT_UNKNOWN
-Episcopilillian,CHATGPT_UNKNOWN
-Prespitereans,CHATGPT_UNKNOWN
-Ashfield Episcopal Church,CHATGPT_UNKNOWN
-3rd Presbyterian Church,CHATGPT_UNKNOWN
+Protestents Church of Ireland,Church of Ireland
+Episcopilillian,Church of Ireland
+Prespitereans,Presbyterian
+Ashfield Episcopal Church,Church of Ireland
+3rd Presbyterian Church,Presbyterian
 Roman Cathrck,Roman Catholic
 Preysteran,Presbyterian
-Irish Church Church for Ireland,CHATGPT_UNKNOWN
-The One Roy Roman Catholic Church,CHATGPT_UNKNOWN
+Irish Church Church for Ireland,Church of Ireland
+The One Roy Roman Catholic Church,Roman Catholic
 Roman Cathloc C,Roman Catholic
 Roman Cathicok,Roman Catholic
-I Profess to be a Roman Catholic but If the Corrination and is Correct Which I Doubt I am an Idolator,CHATGPT_UNKNOWN
-Presperterion,CHATGPT_UNKNOWN
+I Profess to be a Roman Catholic but If the Corrination and is Correct Which I Doubt I am an Idolator,Roman Catholic
+Presperterion,Presbyterian
 Jewist,Jewish
-Donegall Rd Presbyterian Church,CHATGPT_UNKNOWN
-Episcopel Church of Ireland,CHATGPT_UNKNOWN
-Carthlotic,CHATGPT_UNKNOWN
-Presbyrtion,CHATGPT_UNKNOWN
+Donegall Rd Presbyterian Church,Presbyterian
+Episcopel Church of Ireland,Church of Ireland
+Carthlotic,Roman Catholic
+Presbyrtion,Presbyterian
 R Cathoclic,Roman Catholic
-R Cathlone,CHATGPT_UNKNOWN
-Indept,CHATGPT_UNKNOWN
+R Cathlone,Roman Catholic
+Indept,Independent
 Roman Chatol,Roman Catholic
 Presybitirian,Presbyterian
-Episbalian,CHATGPT_UNKNOWN
-Epliscoplian,CHATGPT_UNKNOWN
-Church England St Peters Church,CHATGPT_UNKNOWN
+Episbalian,Church of Ireland
+Epliscoplian,Church of Ireland
+Church England St Peters Church,Church of England
 Church of Ireland Curch,Church of Ireland
-Ireish Church,CHATGPT_UNKNOWN
-Free Church of Cotland,CHATGPT_UNKNOWN
-Prestretian,CHATGPT_UNKNOWN
-Roman Catriche,CHATGPT_UNKNOWN
+Ireish Church,Church of Ireland
+Free Church of Cotland,Free Church of Scotland
+Prestretian,Presbyterian
+Roman Catriche,Roman Catholic
 Roman Cothelic,Roman Catholic
-Attending Baplist Church,CHATGPT_UNKNOWN
-Presprotarian,CHATGPT_UNKNOWN
-Ref Presbeteria,CHATGPT_UNKNOWN
-R Catchloice,CHATGPT_UNKNOWN
+Attending Baplist Church,Baptist
+Presprotarian,Presbyterian
+Ref Presbeteria,Reformed Presbyterian
+R Catchloice,Roman Catholic
 Catholick Ch,Roman Catholic
 Roman Catholocs,Roman Catholic
 Prespeyterin,Presbyterian
-Espistleplian,CHATGPT_UNKNOWN
-Wesley and Methodist,CHATGPT_UNKNOWN
+Espistleplian,Church of Ireland
+Wesley and Methodist,Wesleyan Methodist
 Presperbterian,Presbyterian
 Presbytherain,Presbyterian
-United Free Ch Pres Church of Scotland,CHATGPT_UNKNOWN
-Presbitaren,CHATGPT_UNKNOWN
-Presbtyerian Church,CHATGPT_UNKNOWN
-Presperytian,CHATGPT_UNKNOWN
+United Free Ch Pres Church of Scotland,United Free Church of Scotland
+Presbitaren,Presbyterian
+Presbtyerian Church,Presbyterian
+Presperytian,Presbyterian
 St Church,CHATGPT_UNKNOWN
-Pres.,CHATGPT_UNKNOWN
+Pres.,Presbyterian
 Roman Catterlick,Roman Catholic
-R Calick,CHATGPT_UNKNOWN
+R Calick,Roman Catholic
 Rowan Catholic,Roman Catholic
-Weseley Methodist,CHATGPT_UNKNOWN
-Reformed Prespyterians,CHATGPT_UNKNOWN
+Weseley Methodist,Wesleyan Methodist
+Reformed Prespyterians,Reformed Presbyterian
 R Cathoilic,Roman Catholic
-Catlick Romn,CHATGPT_UNKNOWN
+Catlick Romn,Roman Catholic
 Caotholic,Roman Catholic
-Methodis Church,CHATGPT_UNKNOWN
+Methodis Church,Methodist
 Roma Cathl,Roman Catholic
-R Catchloci,CHATGPT_UNKNOWN
+R Catchloci,Roman Catholic
 Rc Presbyterian,Presbyterian
-Prespresban,CHATGPT_UNKNOWN
-Refused Fursher Information,CHATGPT_UNKNOWN
+Prespresban,Presbyterian
+Refused Fursher Information,Unknown
 Presyberian,Presbyterian
-Roman Chalitoc,CHATGPT_UNKNOWN
+Roman Chalitoc,Roman Catholic
 All Other Per? Free Chuch,CHATGPT_UNKNOWN
-Rd Prest Church,CHATGPT_UNKNOWN
-First Ballyeaston Presbyterian Church,CHATGPT_UNKNOWN
-Espicoial Chu,CHATGPT_UNKNOWN
-Prespation,CHATGPT_UNKNOWN
-Church Methodist,CHATGPT_UNKNOWN
-Roman Catholic St Michael Church North Anne Street,CHATGPT_UNKNOWN
-Roman Cathlic Curch,CHATGPT_UNKNOWN
-R Cholice,CHATGPT_UNKNOWN
-Prisptrana,CHATGPT_UNKNOWN
+Rd Prest Church,Presbyterian
+First Ballyeaston Presbyterian Church,Presbyterian
+Espicoial Chu,Church of Ireland
+Prespation,Presbyterian
+Church Methodist,Methodist
+Roman Catholic St Michael Church North Anne Street,Roman Catholic
+Roman Cathlic Curch,Roman Catholic
+R Cholice,Roman Catholic
+Prisptrana,Presbyterian
 Catlico,Roman Catholic
-Epispocalin Church of Ireland,CHATGPT_UNKNOWN
+Epispocalin Church of Ireland,Church of Ireland
 Roman Catholic Chapel,Roman Catholic
 Romani Catholic,Roman Catholic
-R Catholio,CHATGPT_UNKNOWN
-Presbertarin,CHATGPT_UNKNOWN
-United F C Scot,CHATGPT_UNKNOWN
-Episcopal Church I,CHATGPT_UNKNOWN
+R Catholio,Roman Catholic
+Presbertarin,Presbyterian
+United F C Scot,United Free Church of Scotland
+Episcopal Church I,Church of Ireland
 Prespyterane,Presbyterian
-Roman Cahar,CHATGPT_UNKNOWN
-Presperstian,CHATGPT_UNKNOWN
-Christ Adelphius,CHATGPT_UNKNOWN
+Roman Cahar,Roman Catholic
+Presperstian,Presbyterian
+Christ Adelphius,Christadelphian
 Cathol,Roman Catholic
-R Catchiloc,CHATGPT_UNKNOWN
-Catholic Riligion,CHATGPT_UNKNOWN
-Cath Religon,CHATGPT_UNKNOWN
+R Catchiloc,Roman Catholic
+Catholic Riligion,Roman Catholic
+Cath Religon,Roman Catholic
 Rhoma Catholic,Roman Catholic
 Roman Catshlic,Roman Catholic
 Roman Katholik,Roman Catholic
-Presbyterian Cargycreevy Church,CHATGPT_UNKNOWN
+Presbyterian Cargycreevy Church,Presbyterian
 Roman Cathliock,Roman Catholic
-English Chruch,CHATGPT_UNKNOWN
+English Chruch,Church of England
 Roman Chatoloc,Roman Catholic
-Chalice,CHATGPT_UNKNOWN
+Chalice,Roman Catholic
 No Religions Profession,CHATGPT_UNKNOWN
-Rom Catrlick,CHATGPT_UNKNOWN
-Subscribing Non Presbyterian,CHATGPT_UNKNOWN
-C I Episcopal Church,CHATGPT_UNKNOWN
-Meravian,CHATGPT_UNKNOWN
-Pros Episcopalian,CHATGPT_UNKNOWN
-R Cathalc,CHATGPT_UNKNOWN
-Indepentant Church,CHATGPT_UNKNOWN
-R Catlocs,CHATGPT_UNKNOWN
+Rom Catrlick,Roman Catholic
+Subscribing Non Presbyterian,Non-Subscribing Presbyterian
+C I Episcopal Church,Church of Ireland
+Meravian,Moravian
+Pros Episcopalian,Church of Ireland
+R Cathalc,Roman Catholic
+Indepentant Church,Independent
+R Catlocs,Roman Catholic
 Romn Catholick,Roman Catholic
-Church I C,CHATGPT_UNKNOWN
-Protestant Pres,CHATGPT_UNKNOWN
-Roman Chirch,CHATGPT_UNKNOWN
-Protestant No Denom,CHATGPT_UNKNOWN
-Ch of Ireland Episcopellian,CHATGPT_UNKNOWN
-Roman C Chirch,CHATGPT_UNKNOWN
-Catholic St Peter Pauls,CHATGPT_UNKNOWN
-Indpendence C,CHATGPT_UNKNOWN
-St Michael's R C,CHATGPT_UNKNOWN
-Indepandant,CHATGPT_UNKNOWN
-Church of Ireland Episcopalean,CHATGPT_UNKNOWN
-Chalict,CHATGPT_UNKNOWN
+Church I C,Church of Ireland
+Protestant Pres,Presbyterian
+Roman Chirch,Roman Catholic
+Protestant No Denom,Non-denominational Christian
+Ch of Ireland Episcopellian,Church of Ireland
+Roman C Chirch,Roman Catholic
+Catholic St Peter Pauls,Roman Catholic
+Indpendence C,Independent
+St Michael's R C,Roman Catholic
+Indepandant,Independent
+Church of Ireland Episcopalean,Church of Ireland
+Chalict,Roman Catholic
 Presperyterian,Presbyterian
-R Cathealec,CHATGPT_UNKNOWN
+R Cathealec,Roman Catholic
 Prsbyteiran,Presbyterian
-Roman Catholic St Andrew,CHATGPT_UNKNOWN
-Church Presbyterian GA or General Assembly,CHATGPT_UNKNOWN
+Roman Catholic St Andrew,Roman Catholic
+Church Presbyterian GA or General Assembly,Presbyterian
 Caterolic,Roman Catholic
-Cath Curch,CHATGPT_UNKNOWN
-The Holy Catholic and Apostolic Church,CHATGPT_UNKNOWN
-Calvinist,CHATGPT_UNKNOWN
+Cath Curch,Roman Catholic
+The Holy Catholic and Apostolic Church,Catholic Apostolic
+Calvinist,Calvinistic Methodist
 Romin Cathloc,Roman Catholic
 Presbyetiern,Presbyterian
-Episkpalian,CHATGPT_UNKNOWN
-Members of Methodist Church,CHATGPT_UNKNOWN
+Episkpalian,Church of Ireland
+Members of Methodist Church,Methodist
 Roman Catherlock,Roman Catholic
-Irish Churdgh,CHATGPT_UNKNOWN
-R Catochiloce,CHATGPT_UNKNOWN
+Irish Churdgh,Church of Ireland
+R Catochiloce,Roman Catholic
 Prsysbeterian,Presbyterian
-Ballylinny Prep Church,CHATGPT_UNKNOWN
-Prespetiern,CHATGPT_UNKNOWN
+Ballylinny Prep Church,Presbyterian
+Prespetiern,Presbyterian
 R Catoholic,Roman Catholic
-R Catilock,CHATGPT_UNKNOWN
-Catheolic Religion,CHATGPT_UNKNOWN
+R Catilock,Roman Catholic
+Catheolic Religion,Roman Catholic
 Christian Body,CHATGPT_UNKNOWN
 (Presbyterian),Presbyterian
-Plymouth Brethrn Christian,CHATGPT_UNKNOWN
-Episcopalian Prostenant,CHATGPT_UNKNOWN
+Plymouth Brethrn Christian,Plymouth Brethren
+Episcopalian Prostenant,Church of Ireland
 Ch of Irland,Church of Ireland
 Prestbyerian,Presbyterian
-Protstant Irish Church,CHATGPT_UNKNOWN
-St Marys Catolic Church,CHATGPT_UNKNOWN
-R Catholic not Idolator,CHATGPT_UNKNOWN
-Protestand Episcopalian,CHATGPT_UNKNOWN
+Protstant Irish Church,Church of Ireland
+St Marys Catolic Church,Roman Catholic
+R Catholic not Idolator,Roman Catholic
+Protestand Episcopalian,Church of Ireland
 Presbrian,Presbyterian
 Preybesterian,Presbyterian
 Rom Catholic Ch,Roman Catholic
-United Free Church Scotd,CHATGPT_UNKNOWN
-Irish Chrch,CHATGPT_UNKNOWN
-Protestant I C Irish Church,CHATGPT_UNKNOWN
+United Free Church Scotd,United Free Church of Scotland
+Irish Chrch,Church of Ireland
+Protestant I C Irish Church,Church of Ireland
 Roman Facholic,Roman Catholic
-Undernominational Christian,CHATGPT_UNKNOWN
-Episcopal CI,CHATGPT_UNKNOWN
-Protestant Called Brethern,CHATGPT_UNKNOWN
-Medhotist,CHATGPT_UNKNOWN
+Undernominational Christian,Non-denominational Christian
+Episcopal CI,Church of Ireland
+Protestant Called Brethern,Plymouth Brethren
+Medhotist,Methodist
 2nd Presbyterian,Presbyterian
 Presbytranian,Presbyterian
-Prot Episcn,CHATGPT_UNKNOWN
+Prot Episcn,Church of Ireland
 Catochlic,Roman Catholic
 Roman Chattic,Roman Catholic
-Catloick Church,CHATGPT_UNKNOWN
-Hydepark Presbyterian Church,CHATGPT_UNKNOWN
-R Catho Church,CHATGPT_UNKNOWN
-Roman Catholic (Idolater),CHATGPT_UNKNOWN
+Catloick Church,Roman Catholic
+Hydepark Presbyterian Church,Presbyterian
+R Catho Church,Roman Catholic
+Roman Catholic (Idolater),Roman Catholic
 Roman Cattich,Roman Catholic
 Roman Cathlouc,Roman Catholic
-R Chatilic,CHATGPT_UNKNOWN
+R Chatilic,Roman Catholic
 Roman Chathiloc,Roman Catholic
-2nd Lisburn Presbyterian,CHATGPT_UNKNOWN
-Prespeterean,CHATGPT_UNKNOWN
-Congregations,CHATGPT_UNKNOWN
-R Cathoick,CHATGPT_UNKNOWN
-Episcopalian or Church or Ireland,CHATGPT_UNKNOWN
-Presbyterian Non Sub,CHATGPT_UNKNOWN
+2nd Lisburn Presbyterian,Presbyterian
+Prespeterean,Presbyterian
+Congregations,Congregationalist
+R Cathoick,Roman Catholic
+Episcopalian or Church or Ireland,Church of Ireland
+Presbyterian Non Sub,Non-Subscribing Presbyterian
 Roaman Catloc,Roman Catholic
-Espicopalion,CHATGPT_UNKNOWN
+Espicopalion,Church of Ireland
 Pryspyterian,Presbyterian
-Protestant Episcopalions,CHATGPT_UNKNOWN
-Presbytenar,CHATGPT_UNKNOWN
+Protestant Episcopalions,Church of Ireland
+Presbytenar,Presbyterian
 Roman Cthlic,Roman Catholic
 R Ccatholic,Roman Catholic
-United F Presbyterian,CHATGPT_UNKNOWN
-R Catholr,CHATGPT_UNKNOWN
-R C Riligion,CHATGPT_UNKNOWN
-Chalotice,CHATGPT_UNKNOWN
-Established,CHATGPT_UNKNOWN
-Methodist Body,CHATGPT_UNKNOWN
-Baptist Chapel,CHATGPT_UNKNOWN
-Presbytarean Church,CHATGPT_UNKNOWN
-Protest C of England,CHATGPT_UNKNOWN
-Catelic Religion,CHATGPT_UNKNOWN
-Roman Cott,CHATGPT_UNKNOWN
+United F Presbyterian,United Free Church of Scotland
+R Catholr,Roman Catholic
+R C Riligion,Roman Catholic
+Chalotice,Roman Catholic
+Established,Church of Ireland
+Methodist Body,Methodist
+Baptist Chapel,Baptist
+Presbytarean Church,Presbyterian
+Protest C of England,Church of England
+Catelic Religion,Roman Catholic
+Roman Cott,Roman Catholic
 Body Presbyterian,Presbyterian
-C I Episcopalian,CHATGPT_UNKNOWN
-Irish of England,CHATGPT_UNKNOWN
-Christians Commonly Called Exclusive Brethren,CHATGPT_UNKNOWN
+C I Episcopalian,Church of Ireland
+Irish of England,Church of England
+Christians Commonly Called Exclusive Brethren,Plymouth Brethren
 Luthern,Lutheran
 Prespbyterain,Presbyterian
 Presbytearing,Presbyterian
-Seventhday Adventist,Seventh-day Adventist
-Late Irish Church,CHATGPT_UNKNOWN
-Medohist,CHATGPT_UNKNOWN
-Wesley Church,CHATGPT_UNKNOWN
+Seventhday Adventist,Seventh Day Adventist
+Late Irish Church,Church of Ireland
+Medohist,Methodist
+Wesley Church,Wesleyan Methodist
 Mosaic,CHATGPT_UNKNOWN
 Roman Cathloick C,Roman Catholic
-Chrush Ireland,CHATGPT_UNKNOWN
-Christilphan,CHATGPT_UNKNOWN
+Chrush Ireland,Church of Ireland
+Christilphan,Christadelphian
 Roman Cathn,Roman Catholic
-Protestant Episcopaelian,CHATGPT_UNKNOWN
-Presbeteranean,CHATGPT_UNKNOWN
-R Cathilac,CHATGPT_UNKNOWN
-Cathloct,CHATGPT_UNKNOWN
-Refused Information,CHATGPT_UNKNOWN
-Protestant Episcopolan,CHATGPT_UNKNOWN
-Church of Jesus Christ of Latter of Latter Day Saints,CHATGPT_UNKNOWN
-Presbyterian Belongs to First Newtown,CHATGPT_UNKNOWN
-Catholic Church of Ireland Not Roman,CHATGPT_UNKNOWN
+Protestant Episcopaelian,Church of Ireland
+Presbeteranean,Presbyterian
+R Cathilac,Roman Catholic
+Cathloct,Roman Catholic
+Refused Information,Unknown
+Protestant Episcopolan,Church of Ireland
+Church of Jesus Christ of Latter of Latter Day Saints,Mormon
+Presbyterian Belongs to First Newtown,Presbyterian
+Catholic Church of Ireland Not Roman,Church of Ireland
 Roman Cathalc,Roman Catholic
-Roman Catlic Church,CHATGPT_UNKNOWN
-Presbertyan,CHATGPT_UNKNOWN
+Roman Catlic Church,Roman Catholic
+Presbertyan,Presbyterian
 The Church of Ireld,Church of Ireland
-Idolatrous Roman Catholic,CHATGPT_UNKNOWN
+Idolatrous Roman Catholic,Roman Catholic
 Presbeteriean,Presbyterian
 Rmn Cathlic,Roman Catholic
-Christians Known as Brethern,CHATGPT_UNKNOWN
-Presbeion,CHATGPT_UNKNOWN
-Churh Iland,CHATGPT_UNKNOWN
+Christians Known as Brethern,Plymouth Brethren
+Presbeion,Presbyterian
+Churh Iland,Church of Ireland
 Roman Cathloack,Roman Catholic
-Episkipalion,CHATGPT_UNKNOWN
-Free United Presbyterian Church of Scotland Presbyterian,CHATGPT_UNKNOWN
-Roman Catholic Idolatrous,CHATGPT_UNKNOWN
-Preyspetrian,CHATGPT_UNKNOWN
-Catloice,CHATGPT_UNKNOWN
+Episkipalion,Church of Ireland
+Free United Presbyterian Church of Scotland Presbyterian,United Free Church of Scotland
+Roman Catholic Idolatrous,Roman Catholic
+Preyspetrian,Presbyterian
+Catloice,Roman Catholic
 Romen Cathelick,Roman Catholic
-Non Sub Prespterian,CHATGPT_UNKNOWN
-Cathletic Religion,CHATGPT_UNKNOWN
+Non Sub Prespterian,Non-Subscribing Presbyterian
+Cathletic Religion,Roman Catholic
 Roan Catholick,Roman Catholic
-Protestant (Church of Ireland),CHATGPT_UNKNOWN
-Prespeterin Church,CHATGPT_UNKNOWN
+Protestant (Church of Ireland),Church of Ireland
+Prespeterin Church,Presbyterian
 Perresbyterian,Presbyterian
 Harolds Cross,CHATGPT_UNKNOWN
-Church Ield,CHATGPT_UNKNOWN
-Non Sucribing Presbyterian,CHATGPT_UNKNOWN
-Prot C I,CHATGPT_UNKNOWN
-Methoist Church,CHATGPT_UNKNOWN
-Presbatarion,CHATGPT_UNKNOWN
-Presterybertian,CHATGPT_UNKNOWN
-Presbyterian St Enoch,CHATGPT_UNKNOWN
-C of I Protestant,CHATGPT_UNKNOWN
-Evangelical Union Congerational,CHATGPT_UNKNOWN
-St Mathew Catholic,CHATGPT_UNKNOWN
-Chatloc,CHATGPT_UNKNOWN
-No Denomation,CHATGPT_UNKNOWN
-Remonstrant Presbyterian Church,CHATGPT_UNKNOWN
+Church Ield,Church of Ireland
+Non Sucribing Presbyterian,Non-Subscribing Presbyterian
+Prot C I,Church of Ireland
+Methoist Church,Methodist
+Presbatarion,Presbyterian
+Presterybertian,Presbyterian
+Presbyterian St Enoch,Presbyterian
+C of I Protestant,Church of Ireland
+Evangelical Union Congerational,Congregationalist
+St Mathew Catholic,Roman Catholic
+Chatloc,Roman Catholic
+No Denomation,Non-denominational Christian
+Remonstrant Presbyterian Church,Remonstrant Presbyterian Church
 Prestyterntan,Presbyterian
-Epescepolion,CHATGPT_UNKNOWN
-R C Crurch,CHATGPT_UNKNOWN
+Epescepolion,Church of Ireland
+R C Crurch,Roman Catholic
 Roman Catrlice,Roman Catholic
 Presptearn,CHATGPT_UNKNOWN
-Presbyterian Ebrington Church,CHATGPT_UNKNOWN
+Presbyterian Ebrington Church,Presbyterian
 Roman Caithlock,Roman Catholic
-Luthern Church,CHATGPT_UNKNOWN
+Luthern Church,Lutheran
 Roman a Catholic,Roman Catholic
-Presbertinen,CHATGPT_UNKNOWN
+Presbertinen,Presbyterian
 Roman Chathloic's,Roman Catholic
-Catholick Religon,CHATGPT_UNKNOWN
-Epicopilian,CHATGPT_UNKNOWN
+Catholick Religon,Roman Catholic
+Epicopilian,Church of Ireland
 A Member of the Body of Christ Church,CHATGPT_UNKNOWN
 Presbtirian,Presbyterian
-R Catholiy,CHATGPT_UNKNOWN
-Presbyrtain,CHATGPT_UNKNOWN
+R Catholiy,Roman Catholic
+Presbyrtain,Presbyterian
 Roman Caitolic,Roman Catholic
-R Cathiolac,CHATGPT_UNKNOWN
-Protestant R C,CHATGPT_UNKNOWN
+R Cathiolac,Roman Catholic
+Protestant R C,Roman Catholic
 Rn Chatolic,Roman Catholic
-On Converted,CHATGPT_UNKNOWN
-Pryspeterian G A,CHATGPT_UNKNOWN
+On Converted,Unconverted
+Pryspeterian G A,Presbyterian
 Eoman Catholic,Roman Catholic
-"Protestant, Church of Ireland",CHATGPT_UNKNOWN
-Church of Ireland Christ Church Lisburn,CHATGPT_UNKNOWN
+"Protestant, Church of Ireland",Church of Ireland
+Church of Ireland Christ Church Lisburn,Church of Ireland
 St Marks Church,CHATGPT_UNKNOWN
-Episcopalian Chur,CHATGPT_UNKNOWN
-Catholick Rel,CHATGPT_UNKNOWN
+Episcopalian Chur,Church of Ireland
+Catholick Rel,Roman Catholic
 F Church of Ireland,Church of Ireland
-E W Indpent Church,CHATGPT_UNKNOWN
-Roman Catholic Sister of the Holy Orders,CHATGPT_UNKNOWN
+E W Indpent Church,Independent
+Roman Catholic Sister of the Holy Orders,Roman Catholic
 Catlich,Roman Catholic
 Low Church of Ireland,Church of Ireland
-Roman Catholic Chirch of Rome,CHATGPT_UNKNOWN
+Roman Catholic Chirch of Rome,Roman Catholic
 Me Church Ireland,Church of Ireland
-Clorney Presbyterian,CHATGPT_UNKNOWN
+Clorney Presbyterian,Presbyterian
 Roman Chathorlic,Roman Catholic
 Roman Catherlicts,Roman Catholic
 Belong to no Denomination with Regenerated Cannot be Called Christians,CHATGPT_UNKNOWN
-Presbetanians,CHATGPT_UNKNOWN
-R C and No Idolaton,CHATGPT_UNKNOWN
-Episacpalian,CHATGPT_UNKNOWN
-Prodestant I C,CHATGPT_UNKNOWN
+Presbetanians,Presbyterian
+R C and No Idolaton,Roman Catholic
+Episacpalian,Church of Ireland
+Prodestant I C,Church of Ireland
 Roman Catoc,Roman Catholic
-Episcopallian,CHATGPT_UNKNOWN
-Late E C,CHATGPT_UNKNOWN
+Episcopallian,Church of Ireland
+Late E C,Church of Ireland
 Ronon Catholic,Roman Catholic
-The United Free Church of Scotland Dublin,CHATGPT_UNKNOWN
-Estabested Church Scotland Presbyterian,CHATGPT_UNKNOWN
-Non Sub Presbt,CHATGPT_UNKNOWN
+The United Free Church of Scotland Dublin,United Free Church of Scotland
+Estabested Church Scotland Presbyterian,Church of Scotland
+Non Sub Presbt,Non-Subscribing Presbyterian
 Roman Catcholk,Roman Catholic
 Uniteraian,Unitarian
 St John Church,CHATGPT_UNKNOWN
-Dundela Presbyterian Church Knock,CHATGPT_UNKNOWN
+Dundela Presbyterian Church Knock,Presbyterian
 Presberitain,Presbyterian
-Society of Friends Commonly Called Quakers,CHATGPT_UNKNOWN
-1st Presbytern Ch,CHATGPT_UNKNOWN
+Society of Friends Commonly Called Quakers,Quaker
+1st Presbytern Ch,Presbyterian
 Presbytrrian,Presbyterian
-Christadelpain,CHATGPT_UNKNOWN
-Catolick Roman,CHATGPT_UNKNOWN
-Episcopalian Prodison,CHATGPT_UNKNOWN
-Congeregational Church,CHATGPT_UNKNOWN
-B Irish Church,CHATGPT_UNKNOWN
+Christadelpain,Christadelphian
+Catolick Roman,Roman Catholic
+Episcopalian Prodison,Church of Ireland
+Congeregational Church,Congregationalist
+B Irish Church,Church of Ireland
 Prebesyterian,Presbyterian
 St Kevins,CHATGPT_UNKNOWN
 Presbyterian D,Presbyterian
 Churich Ireland,Church of Ireland
 Romain Catulict,Roman Catholic
-Church of England Protestant Episcopalian,CHATGPT_UNKNOWN
+Church of England Protestant Episcopalian,Church of England
 Presbyertian,Presbyterian
 Cathotlic,Roman Catholic
-Protestants Episcopalian,CHATGPT_UNKNOWN
-Prespteriainos,CHATGPT_UNKNOWN
+Protestants Episcopalian,Church of Ireland
+Prespteriainos,Presbyterian
 Prespterinan,Presbyterian
 Presbyterian (G A),Presbyterian
-Chruch of Ireland Protestant,CHATGPT_UNKNOWN
+Chruch of Ireland Protestant,Church of Ireland
 Presbyerion,Presbyterian
-Presperytain,CHATGPT_UNKNOWN
+Presperytain,Presbyterian
 St Peters Church,CHATGPT_UNKNOWN
 Catolig,Roman Catholic
 Made Noproffession,CHATGPT_UNKNOWN
 Church Ireand,Church of Ireland
 Protstant,CHATGPT_UNKNOWN
 Roman Cholotic,Roman Catholic
-English Church R,CHATGPT_UNKNOWN
-Protesant Church,CHATGPT_UNKNOWN
+English Church R,Church of England
+Protesant Church,Church of Ireland
 Presberetian,Presbyterian
 Roman Cathleck,Roman Catholic
-Wesleyan - Methodist,CHATGPT_UNKNOWN
-Protestant Christians Commonly Called Brethren,CHATGPT_UNKNOWN
-Roman Calotice,CHATGPT_UNKNOWN
+Wesleyan - Methodist,Wesleyan Methodist
+Protestant Christians Commonly Called Brethren,Plymouth Brethren
+Roman Calotice,Roman Catholic
 Presyterion,Presbyterian
-Preb,CHATGPT_UNKNOWN
+Preb,Presbyterian
 Episc Church of Ireland,Church of Ireland
-Protestan I C,CHATGPT_UNKNOWN
-Weslean,CHATGPT_UNKNOWN
-Roman Catriel,CHATGPT_UNKNOWN
-Catholich Church,CHATGPT_UNKNOWN
-Episcipal Church Ireland,CHATGPT_UNKNOWN
-R Catholetich,CHATGPT_UNKNOWN
-H R Catholick,CHATGPT_UNKNOWN
-Episcopotier,CHATGPT_UNKNOWN
-Church of Ireland or Episcopal Church,CHATGPT_UNKNOWN
-Salvateonist,CHATGPT_UNKNOWN
-Scotch Church Presbyterian,CHATGPT_UNKNOWN
+Protestan I C,Church of Ireland
+Weslean,Wesleyan Methodist
+Roman Catriel,Roman Catholic
+Catholich Church,Roman Catholic
+Episcipal Church Ireland,Church of Ireland
+R Catholetich,Roman Catholic
+H R Catholick,Roman Catholic
+Episcopotier,Church of Ireland
+Church of Ireland or Episcopal Church,Church of Ireland
+Salvateonist,Salvationist
+Scotch Church Presbyterian,Church of Scotland
 Romer Catholic,Roman Catholic
-Agnastic,CHATGPT_UNKNOWN
-Episcopllion,CHATGPT_UNKNOWN
+Agnastic,Agnostic
+Episcopllion,Church of Ireland
 Presbytirrean,Presbyterian
-Roman Caturick,CHATGPT_UNKNOWN
-Prespterin Church,CHATGPT_UNKNOWN
-Roman Callalos,CHATGPT_UNKNOWN
-R Catcholack,CHATGPT_UNKNOWN
-In the Information Refused,CHATGPT_UNKNOWN
-1st Presbyt Ch,CHATGPT_UNKNOWN
-Presbyterian Ch G A,CHATGPT_UNKNOWN
-Protestant Epscopn,CHATGPT_UNKNOWN
+Roman Caturick,Roman Catholic
+Prespterin Church,Presbyterian
+Roman Callalos,Roman Catholic
+R Catcholack,Roman Catholic
+In the Information Refused,Unknown
+1st Presbyt Ch,Presbyterian
+Presbyterian Ch G A,Presbyterian
+Protestant Epscopn,Church of Ireland
 Roman Catholice C,Roman Catholic
-Prespetierin,CHATGPT_UNKNOWN
+Prespetierin,Presbyterian
 Roman Catholic Holy,Roman Catholic
-Prespteairn,CHATGPT_UNKNOWN
-Protestant or Irish Church,CHATGPT_UNKNOWN
-Synagogue,CHATGPT_UNKNOWN
-Christian Brethrin,CHATGPT_UNKNOWN
-Protestant Epscopelin,CHATGPT_UNKNOWN
-Church of Ireland St Barmabas Church,CHATGPT_UNKNOWN
-Presbyterian Irish Church,CHATGPT_UNKNOWN
-St Catherne Protestant Church of Ireland,CHATGPT_UNKNOWN
+Prespteairn,Presbyterian
+Protestant or Irish Church,Church of Ireland
+Synagogue,Jewish
+Christian Brethrin,Christian Brethren
+Protestant Epscopelin,Church of Ireland
+Church of Ireland St Barmabas Church,Church of Ireland
+Presbyterian Irish Church,Presbyterian
+St Catherne Protestant Church of Ireland,Church of Ireland
 R Church of Ireland,Church of Ireland
-Pybesterian,CHATGPT_UNKNOWN
-Enl Curch,CHATGPT_UNKNOWN
-R C St Patrick Church,CHATGPT_UNKNOWN
+Pybesterian,Presbyterian
+Enl Curch,Church of England
+R C St Patrick Church,Roman Catholic
 R Presbeterian,Presbyterian
 R O C C,CHATGPT_UNKNOWN
 Presbyterring,Presbyterian
 Romon Catholo,Roman Catholic
-Known Brethren,CHATGPT_UNKNOWN
+Known Brethren,Plymouth Brethren
 Presberyterain,Presbyterian
-Church Ireland Prostestant,CHATGPT_UNKNOWN
+Church Ireland Prostestant,Church of Ireland
 The Church the Body of Christ,CHATGPT_UNKNOWN
-Reformed Presbertian,CHATGPT_UNKNOWN
-Brethrn,CHATGPT_UNKNOWN
+Reformed Presbertian,Reformed Presbyterian
+Brethrn,Plymouth Brethren
 Presteprian,Presbyterian
-Protestant Church of Ireland Presbyterian,CHATGPT_UNKNOWN
-Glastry Presbyterian,CHATGPT_UNKNOWN
-Episcopalian (Church of Ireland),CHATGPT_UNKNOWN
-Prepspetian,CHATGPT_UNKNOWN
-Plymouth Brethern Church of God,CHATGPT_UNKNOWN
-Roman Cathloic St Malachy Church,CHATGPT_UNKNOWN
+Protestant Church of Ireland Presbyterian,Presbyterian
+Glastry Presbyterian,Presbyterian
+Episcopalian (Church of Ireland),Church of Ireland
+Prepspetian,Presbyterian
+Plymouth Brethern Church of God,Plymouth Brethren
+Roman Cathloic St Malachy Church,Roman Catholic
 Presybiterian,Presbyterian
 Presbestrian,Presbyterian
-No Denominaton,CHATGPT_UNKNOWN
-Church of I C,CHATGPT_UNKNOWN
+No Denominaton,Non-denominational Christian
+Church of I C,Church of Ireland
 Ch of Irelan,Church of Ireland
-Presbetarions,CHATGPT_UNKNOWN
+Presbetarions,Presbyterian
 R I Catholic,Roman Catholic
 Presberterean,Presbyterian
 Protestant Dissenters,CHATGPT_UNKNOWN
-R Cathoice,CHATGPT_UNKNOWN
+R Cathoice,Roman Catholic
 Unatrian,Unitarian
-Ch of Ireland Protestants,CHATGPT_UNKNOWN
-Protestant Denominaton Irish Church,CHATGPT_UNKNOWN
-Clifton St Church (Presbyterian),CHATGPT_UNKNOWN
+Ch of Ireland Protestants,Church of Ireland
+Protestant Denominaton Irish Church,Church of Ireland
+Clifton St Church (Presbyterian),Presbyterian
 Presbreterian,Presbyterian
 H R Catholic,Roman Catholic
 I Presbyterian Ch,Presbyterian
-United free Church of Scotland,CHATGPT_UNKNOWN
-E U C Independent,CHATGPT_UNKNOWN
-Member of The Society of Friends,CHATGPT_UNKNOWN
+United free Church of Scotland,United Free Church of Scotland
+E U C Independent,Independent
+Member of The Society of Friends,Quaker
 Roman Catherole,Roman Catholic
 Roman Catherolc,Roman Catholic
-1st Derry Presbyterian Church,CHATGPT_UNKNOWN
-Protestant Episcopaln,CHATGPT_UNKNOWN
-Roman Catherlok,CHATGPT_UNKNOWN
+1st Derry Presbyterian Church,Presbyterian
+Protestant Episcopaln,Church of Ireland
+Roman Catherlok,Roman Catholic
 Roman Catholic Re,Roman Catholic
-Sant ? Crch Roman Catholic,CHATGPT_UNKNOWN
-Ro Cathalick,CHATGPT_UNKNOWN
-English Military Church,CHATGPT_UNKNOWN
+Sant ? Crch Roman Catholic,Roman Catholic
+Ro Cathalick,Roman Catholic
+English Military Church,Church of England
 Methodsot,Methodist
-C of Ireld,CHATGPT_UNKNOWN
-Episcopal Protestent,CHATGPT_UNKNOWN
-Prespetion,CHATGPT_UNKNOWN
-Presbyterian Protstens,CHATGPT_UNKNOWN
+C of Ireld,Church of Ireland
+Episcopal Protestent,Church of Ireland
+Prespetion,Presbyterian
+Presbyterian Protstens,Presbyterian
 Protestant (Ch of Ireland),CHATGPT_UNKNOWN
 Presbtierian,Presbyterian
-Presbyterian Sceseding Church Denomenation,CHATGPT_UNKNOWN
-Methodist New Connexan,CHATGPT_UNKNOWN
-Church of Ireland Protestant Episcopal,CHATGPT_UNKNOWN
-Westley Methodist,CHATGPT_UNKNOWN
-Protestant Episcopolians,CHATGPT_UNKNOWN
-Epescopal Protestant,CHATGPT_UNKNOWN
-Brethren Hebrews,CHATGPT_UNKNOWN
-Prybestran,CHATGPT_UNKNOWN
-Catholics Molborough St,CHATGPT_UNKNOWN
-Episcoble Church,CHATGPT_UNKNOWN
-Roam Catloice,CHATGPT_UNKNOWN
-Chu of England,CHATGPT_UNKNOWN
-Roman Catholic St Patrick,CHATGPT_UNKNOWN
-Presptering,CHATGPT_UNKNOWN
-Epispcal Church,CHATGPT_UNKNOWN
-Presbyterian 1st Ballymena P S,CHATGPT_UNKNOWN
-Ch Ireland Episcopal,CHATGPT_UNKNOWN
-C O England,CHATGPT_UNKNOWN
+Presbyterian Sceseding Church Denomenation,Church of Ireland
+Methodist New Connexan,Methodist New Connexion
+Church of Ireland Protestant Episcopal,Church of Ireland
+Westley Methodist,Wesleyan Methodist
+Protestant Episcopolians,Church of Ireland
+Epescopal Protestant,Church of Ireland
+Brethren Hebrews,Jewish
+Prybestran,Presbyterian
+Catholics Molborough St,Roman Catholic
+Episcoble Church,Church of Ireland
+Roam Catloice,Roman Catholic
+Chu of England,Church of England
+Roman Catholic St Patrick,Roman Catholic
+Presptering,Presbyterian
+Epispcal Church,Church of Ireland
+Presbyterian 1st Ballymena P S,Presbyterian
+Ch Ireland Episcopal,Church of Ireland
+C O England,Church of England
 Prasbyterian,Presbyterian
-Mem of the Irish Church,CHATGPT_UNKNOWN
-Ro Catrick,CHATGPT_UNKNOWN
-Pryistrain,CHATGPT_UNKNOWN
-Fitzroy Av Presby Church,CHATGPT_UNKNOWN
-Plymouth or Christian Brethern,CHATGPT_UNKNOWN
+Mem of the Irish Church,Church of Ireland
+Ro Catrick,Roman Catholic
+Pryistrain,Presbyterian
+Fitzroy Av Presby Church,Presbyterian
+Plymouth or Christian Brethern,Plymouth Brethren
 Boman Catchulic,Roman Catholic
-Roman Chalotice,CHATGPT_UNKNOWN
+Roman Chalotice,Roman Catholic
 Old Curch of Ireland,Church of Ireland
-The Universal Religion R C,CHATGPT_UNKNOWN
+The Universal Religion R C,Roman Catholic
 Roman Cathcls,Roman Catholic
-R Cathhelick,CHATGPT_UNKNOWN
+R Cathhelick,Roman Catholic
 Trinity Church Lr Gardiner St in the City of Dublin,CHATGPT_UNKNOWN
 Presbyterens,Presbyterian
-Church of England St Nicholas Protestant,CHATGPT_UNKNOWN
-Glemsherry Presbyterian Church,CHATGPT_UNKNOWN
-Presby Religion,CHATGPT_UNKNOWN
-Episcopal C of Ireland,CHATGPT_UNKNOWN
-Church Glemsherry Presbyterian,CHATGPT_UNKNOWN
-Disestablised Church of Ireland,CHATGPT_UNKNOWN
-Sandford Church of Ireland,CHATGPT_UNKNOWN
-C Irland,CHATGPT_UNKNOWN
-Methodist New Connecxion,CHATGPT_UNKNOWN
-Wesleyan Methodis,CHATGPT_UNKNOWN
-Calv Methodist,CHATGPT_UNKNOWN
+Church of England St Nicholas Protestant,Church of England
+Glemsherry Presbyterian Church,Presbyterian
+Presby Religion,Presbyterian
+Episcopal C of Ireland,Church of Ireland
+Church Glemsherry Presbyterian,Presbyterian
+Disestablised Church of Ireland,Church of Ireland
+Sandford Church of Ireland,Church of Ireland
+C Irland,Church of Ireland
+Methodist New Connecxion,Methodist New Connexion
+Wesleyan Methodis,Wesleyan Methodist
+Calv Methodist,Calvinistic Methodist
 Roming Catholc,Roman Catholic
-Congrational Church,CHATGPT_UNKNOWN
-Roman Catlelh,CHATGPT_UNKNOWN
-Reformed Pres Ch,CHATGPT_UNKNOWN
+Congrational Church,Congregationalist
+Roman Catlelh,Roman Catholic
+Reformed Pres Ch,Reformed Presbyterian
 Romar Catholick,Roman Catholic
 Prebystirian,Presbyterian
-Church of Ireland Mon? of Church,CHATGPT_UNKNOWN
+Church of Ireland Mon? of Church,Church of Ireland
 Proatestant,CHATGPT_UNKNOWN
-St Lukes Parish Church Irish Church,CHATGPT_UNKNOWN
-C off England,CHATGPT_UNKNOWN
-Medethed,CHATGPT_UNKNOWN
+St Lukes Parish Church Irish Church,Church of Ireland
+C off England,Church of England
+Medethed,Methodist
 Curch of Ireld,Church of Ireland
-Protestant Bavarian Church,CHATGPT_UNKNOWN
+Protestant Bavarian Church,Protestant Bavarian Church
 Presbtyern,Presbyterian
-Christ Adelphe,CHATGPT_UNKNOWN
+Christ Adelphe,Christadelphian
 Presbeteriain,Presbyterian
 Christ Church of Ireland,Church of Ireland
-Protestant Presbyterian Established Church,CHATGPT_UNKNOWN
-St Joseph R C Church,CHATGPT_UNKNOWN
-Epeskipalian,CHATGPT_UNKNOWN
-Episkpalion,CHATGPT_UNKNOWN
-Irish Church Protestant I C,CHATGPT_UNKNOWN
+Protestant Presbyterian Established Church,Presbyterian
+St Joseph R C Church,Roman Catholic
+Epeskipalian,Church of Ireland
+Episkpalion,Church of Ireland
+Irish Church Protestant I C,Church of Ireland
 Prebepterian,Presbyterian
-Prim Methodist,CHATGPT_UNKNOWN
-Church of Ireland Protestant All Sts,CHATGPT_UNKNOWN
-Bretheran,CHATGPT_UNKNOWN
+Prim Methodist,Primitive Methodist
+Church of Ireland Protestant All Sts,Church of Ireland
+Bretheran,Plymouth Brethren
 Presbytoreins,Presbyterian
-Irish Epispolian Curch,CHATGPT_UNKNOWN
-Erish Church,CHATGPT_UNKNOWN
-Protestant Church of Iireland,CHATGPT_UNKNOWN
-Roman Catholic St Marys,CHATGPT_UNKNOWN
-Protestant Ireland Church,CHATGPT_UNKNOWN
-Epscoplian Protestant,CHATGPT_UNKNOWN
+Irish Epispolian Curch,Church of Ireland
+Erish Church,Church of Ireland
+Protestant Church of Iireland,Church of Ireland
+Roman Catholic St Marys,Roman Catholic
+Protestant Ireland Church,Church of Ireland
+Epscoplian Protestant,Church of Ireland
 Pres?terian,Presbyterian
-Irish Prot Church,CHATGPT_UNKNOWN
-Church of Ireland St Tin Barre's,CHATGPT_UNKNOWN
-Methodist (Wesleyan),CHATGPT_UNKNOWN
+Irish Prot Church,Church of Ireland
+Church of Ireland St Tin Barre's,Church of Ireland
+Methodist (Wesleyan),Wesleyan Methodist
 Pyresbtian,Presbyterian
-Chatolis Church,CHATGPT_UNKNOWN
-Hebrew Faith,CHATGPT_UNKNOWN
+Chatolis Church,Roman Catholic
+Hebrew Faith,Jewish
 Roman Cathol?,Roman Catholic
-Christian Community Called the Brethren,CHATGPT_UNKNOWN
-Reformed Presbys,CHATGPT_UNKNOWN
-R Catterick,CHATGPT_UNKNOWN
-Weslyean Methodist,CHATGPT_UNKNOWN
-Cathelocks,CHATGPT_UNKNOWN
-R Catholic P Aglish,CHATGPT_UNKNOWN
-Christin Known as Breathern,CHATGPT_UNKNOWN
-Established Ch Scotland,CHATGPT_UNKNOWN
-Catholic Church Rome,CHATGPT_UNKNOWN
+Christian Community Called the Brethren,Christian Brethren
+Reformed Presbys,Reformed Presbyterian
+R Catterick,Roman Catholic
+Weslyean Methodist,Wesleyan Methodist
+Cathelocks,Roman Catholic
+R Catholic P Aglish,Roman Catholic
+Christin Known as Breathern,Christian Brethren
+Established Ch Scotland,Church of Scotland
+Catholic Church Rome,Roman Catholic
 Methoidst,Methodist
-Protestant Eps,CHATGPT_UNKNOWN
+Protestant Eps,Church of Ireland
 Plymeth Bretheren,Plymouth Brethren
 The Church Ireland,Church of Ireland
-Cathliogh,CHATGPT_UNKNOWN
+Cathliogh,Roman Catholic
 Roman Catlo,Roman Catholic
-Roanin Cathck,CHATGPT_UNKNOWN
-English Catholic,CHATGPT_UNKNOWN
-Protestant E Chur,CHATGPT_UNKNOWN
+Roanin Cathck,Roman Catholic
+English Catholic,Church of England
+Protestant E Chur,Church of England
 Romeon Catholic,Roman Catholic
-Belmont Presbeteryan Church,CHATGPT_UNKNOWN
-R Catoli,CHATGPT_UNKNOWN
-Iirish Church,CHATGPT_UNKNOWN
+Belmont Presbeteryan Church,Presbyterian
+R Catoli,Roman Catholic
+Iirish Church,Church of Ireland
 Is Presbyterian,Presbyterian
-Presbytreon,CHATGPT_UNKNOWN
-R Catholics Church of Rome,CHATGPT_UNKNOWN
+Presbytreon,Presbyterian
+R Catholics Church of Rome,Roman Catholic
 Attached to None,CHATGPT_UNKNOWN
 Presbetreian,Presbyterian
 Saint,CHATGPT_UNKNOWN
 Presbeyterean,Presbyterian
-Presbynt Ch,CHATGPT_UNKNOWN
-Cathick Church,CHATGPT_UNKNOWN
-Church R Catholic,CHATGPT_UNKNOWN
-Prisptrian,CHATGPT_UNKNOWN
-Presperan,CHATGPT_UNKNOWN
-Irish St Pauls Church,CHATGPT_UNKNOWN
-Romen Catulick,CHATGPT_UNKNOWN
+Presbynt Ch,Presbyterian
+Cathick Church,Roman Catholic
+Church R Catholic,Roman Catholic
+Prisptrian,Presbyterian
+Presperan,Presbyterian
+Irish St Pauls Church,Church of Ireland
+Romen Catulick,Roman Catholic
 R ?,CHATGPT_UNKNOWN
-Urney Presbyerian Ch,CHATGPT_UNKNOWN
-Wes Methodest,CHATGPT_UNKNOWN
-Prespytenan,CHATGPT_UNKNOWN
+Urney Presbyerian Ch,Presbyterian
+Wes Methodest,Wesleyan Methodist
+Prespytenan,Presbyterian
 Protestant St Marys Church,CHATGPT_UNKNOWN
-Belongs to the Holy Roman Catholic Church,CHATGPT_UNKNOWN
+Belongs to the Holy Roman Catholic Church,Roman Catholic
 Presbyteriams,Presbyterian
 Roman Clatick,Roman Catholic
 Church of ireland,Church of Ireland
-Epascopalion Protestant,CHATGPT_UNKNOWN
-R Catholice Rel,CHATGPT_UNKNOWN
-P Church of I,CHATGPT_UNKNOWN
-Church of Ireland St Paterick Church,CHATGPT_UNKNOWN
+Epascopalion Protestant,Church of Ireland
+R Catholice Rel,Roman Catholic
+P Church of I,Church of Ireland
+Church of Ireland St Paterick Church,Church of Ireland
 O C,CHATGPT_UNKNOWN
-Congrationlist,CHATGPT_UNKNOWN
-The Church Eng,CHATGPT_UNKNOWN
-Session Presbyterian,CHATGPT_UNKNOWN
-Presbertian Cur,CHATGPT_UNKNOWN
+Congrationlist,Congregationalist
+The Church Eng,Church of England
+Session Presbyterian,Seceder Presbyterian
+Presbertian Cur,Presbyterian
 Roman Catorlice,Roman Catholic
-Prespertein,CHATGPT_UNKNOWN
-Prostant I C,CHATGPT_UNKNOWN
+Prespertein,Presbyterian
+Prostant I C,Church of Ireland
 Presbyterian Get,Presbyterian
-St Patricks Chapel Roman Catholic,CHATGPT_UNKNOWN
-The Church of Rome,CHATGPT_UNKNOWN
-Christadelpl?,CHATGPT_UNKNOWN
-Episopel Chuch,CHATGPT_UNKNOWN
-Roman Catholic R Catholic Church,CHATGPT_UNKNOWN
-Non Sub Presbytarian,CHATGPT_UNKNOWN
-Cattohice,CHATGPT_UNKNOWN
-Rom Cathck,CHATGPT_UNKNOWN
-Episcopal Church Scotland,CHATGPT_UNKNOWN
-Rn Cc Church,CHATGPT_UNKNOWN
-Cathloik,CHATGPT_UNKNOWN
-Society of friends,CHATGPT_UNKNOWN
-Independant Methodist,CHATGPT_UNKNOWN
+St Patricks Chapel Roman Catholic,Roman Catholic
+The Church of Rome,Roman Catholic
+Christadelpl?,Christadelphian
+Episopel Chuch,Church of Ireland
+Roman Catholic R Catholic Church,Roman Catholic
+Non Sub Presbytarian,Non-Subscribing Presbyterian
+Cattohice,Roman Catholic
+Rom Cathck,Roman Catholic
+Episcopal Church Scotland,Episcopal Church of Scotland
+Rn Cc Church,Roman Catholic
+Cathloik,Roman Catholic
+Society of friends,Quaker
+Independant Methodist,Independent
 Rational Whenever one is Established,CHATGPT_UNKNOWN
-Presbiftenatn,CHATGPT_UNKNOWN
-Roman Catricle,CHATGPT_UNKNOWN
-Protestant Eipscopalian,CHATGPT_UNKNOWN
+Presbiftenatn,Presbyterian
+Roman Catricle,Roman Catholic
+Protestant Eipscopalian,Church of Ireland
 Beark by St Church,CHATGPT_UNKNOWN
 Roman Catlik,Roman Catholic
 Jewesh,Jewish
-Holy Roman Cathlick,CHATGPT_UNKNOWN
-R Church of Rome,CHATGPT_UNKNOWN
+Holy Roman Cathlick,Roman Catholic
+R Church of Rome,Roman Catholic
 Presbtarian,Presbyterian
 Religion C,CHATGPT_UNKNOWN
 Prebterian,Presbyterian
 Rn Catolic,Roman Catholic
-Irish Church St Markes,CHATGPT_UNKNOWN
+Irish Church St Markes,Church of Ireland
 St Matthews Church Irishtown,CHATGPT_UNKNOWN
-Episcpal Church of Irel,CHATGPT_UNKNOWN
-R C Churck,CHATGPT_UNKNOWN
+Episcpal Church of Irel,Church of Ireland
+R C Churck,Roman Catholic
 Presbytrion,Presbyterian
-Cathloc C,CHATGPT_UNKNOWN
+Cathloc C,Roman Catholic
 Roman Cathaolic,Roman Catholic
-Prespertarean Church,CHATGPT_UNKNOWN
-Roman Catchlice St Andrew Westlad Row,CHATGPT_UNKNOWN
+Prespertarean Church,Presbyterian
+Roman Catchlice St Andrew Westlad Row,Roman Catholic
 Roman Cathorc,Roman Catholic
-Epispocal Church of Ireland,CHATGPT_UNKNOWN
+Epispocal Church of Ireland,Church of Ireland
 Roman Catholos,Roman Catholic
-Episcopalain Curch,CHATGPT_UNKNOWN
-Roman Cathloitc Church,CHATGPT_UNKNOWN
-Nothing,CHATGPT_UNKNOWN
-Irish Epispocal,CHATGPT_UNKNOWN
+Episcopalain Curch,Church of Ireland
+Roman Cathloitc Church,Roman Catholic
+Nothing,Atheist
+Irish Epispocal,Church of Ireland
 Plymouth Bratarem,Plymouth Brethren
-Idolater R C,CHATGPT_UNKNOWN
+Idolater R C,Roman Catholic
 Prestybertian,Presbyterian
-Clontarf Presbyterian Church,CHATGPT_UNKNOWN
+Clontarf Presbyterian Church,Presbyterian
 Roamn Catolic,Roman Catholic
-St Luke's Church of Ireland,CHATGPT_UNKNOWN
-Protestant Episcopal Church of England,CHATGPT_UNKNOWN
-Christians Community Called Plymouth Brethern,CHATGPT_UNKNOWN
+St Luke's Church of Ireland,Church of Ireland
+Protestant Episcopal Church of England,Church of England
+Christians Community Called Plymouth Brethern,Plymouth Brethren
 Methdoist,Methodist
 Roman Catchlich,Roman Catholic
 No Proffession,CHATGPT_UNKNOWN
-R Catcherlic,CHATGPT_UNKNOWN
-Catalick Church,CHATGPT_UNKNOWN
-R Cathlotic C,CHATGPT_UNKNOWN
-Hibraw,CHATGPT_UNKNOWN
+R Catcherlic,Roman Catholic
+Catalick Church,Roman Catholic
+R Cathlotic C,Roman Catholic
+Hibraw,Jewish
 Persbyteran,Presbyterian
-Church of Scotland Established Presbyterian,CHATGPT_UNKNOWN
-Protestant Uniterian,CHATGPT_UNKNOWN
-Congregationali?,CHATGPT_UNKNOWN
+Church of Scotland Established Presbyterian,Church of Scotland
+Protestant Uniterian,Unitarian
+Congregationali?,Congregationalist
 Curch Ierland,Church of Ireland
-Episcopalin Ch,CHATGPT_UNKNOWN
+Episcopalin Ch,Church of Ireland
 Prebytrain,Presbyterian
-Prisperterion,CHATGPT_UNKNOWN
-Christian Brethern Protestant,CHATGPT_UNKNOWN
-Congregationatsts,CHATGPT_UNKNOWN
-Unterain,CHATGPT_UNKNOWN
-Prodestant Unitarian,CHATGPT_UNKNOWN
-Uniterranean,CHATGPT_UNKNOWN
-Independ,CHATGPT_UNKNOWN
-Uniterranian,CHATGPT_UNKNOWN
-Xtian Brethren,CHATGPT_UNKNOWN
-Independents or Congregationalists Protestant,CHATGPT_UNKNOWN
-Protestands Church of Ireland,CHATGPT_UNKNOWN
-Piscoapalien,CHATGPT_UNKNOWN
-Church of Ireland St Phillips,CHATGPT_UNKNOWN
-Presbyterian C Ireland,CHATGPT_UNKNOWN
-Apiscipelian,CHATGPT_UNKNOWN
-Protestent Episcopalian,CHATGPT_UNKNOWN
-Nan Subscrebing Presbyterian,CHATGPT_UNKNOWN
+Prisperterion,Presbyterian
+Christian Brethern Protestant,Christian Brethren
+Congregationatsts,Congregationalist
+Unterain,Unitarian
+Prodestant Unitarian,Unitarian
+Uniterranean,Unitarian
+Independ,Independent
+Uniterranian,Unitarian
+Xtian Brethren,Plymouth Brethren
+Independents or Congregationalists Protestant,Congregationalist
+Protestands Church of Ireland,Church of Ireland
+Piscoapalien,Church of Ireland
+Church of Ireland St Phillips,Church of Ireland
+Presbyterian C Ireland,Church of Ireland
+Apiscipelian,Church of Ireland
+Protestent Episcopalian,Church of Ireland
+Nan Subscrebing Presbyterian,Non-Subscribing Presbyterian
 1st Presbyterian C,Presbyterian
 Roman Cathich,Roman Catholic
-Presbyterian not Pastugurshed and any all Title,CHATGPT_UNKNOWN
+Presbyterian not Pastugurshed and any all Title,Presbyterian
 St Anes C T,CHATGPT_UNKNOWN
-Roam C,CHATGPT_UNKNOWN
+Roam C,Roman Catholic
 Roman Cathola,Roman Catholic
-Presbyterian Pres Church,CHATGPT_UNKNOWN
-Church of Ireland St Marys,CHATGPT_UNKNOWN
-Protestant Episcopatian,CHATGPT_UNKNOWN
+Presbyterian Pres Church,Presbyterian
+Church of Ireland St Marys,Church of Ireland
+Protestant Episcopatian,Church of Ireland
 Prisbytirian,Presbyterian
 Roman Catholick R C,Roman Catholic
 Members Church of Ireland,Church of Ireland
-Irish Protestant Episcopal,CHATGPT_UNKNOWN
-R Cathloac,CHATGPT_UNKNOWN
+Irish Protestant Episcopal,Church of Ireland
+R Cathloac,Roman Catholic
 Cauthlic,Roman Catholic
-Medhotest,CHATGPT_UNKNOWN
-Weslegan Methodist,CHATGPT_UNKNOWN
-Established Church of Ireland,CHATGPT_UNKNOWN
-C of I Irish Town,CHATGPT_UNKNOWN
-Roman C Ch,CHATGPT_UNKNOWN
-Evangelical Church,CHATGPT_UNKNOWN
-Protestant of no Particular Church or Denomination,CHATGPT_UNKNOWN
-Congregationelst,CHATGPT_UNKNOWN
-Bapt,CHATGPT_UNKNOWN
+Medhotest,Methodist
+Weslegan Methodist,Wesleyan Methodist
+Established Church of Ireland,Church of Ireland
+C of I Irish Town,Church of Ireland
+Roman C Ch,Roman Catholic
+Evangelical Church,Evangelical
+Protestant of no Particular Church or Denomination,Non-denominational Christian
+Congregationelst,Congregationalist
+Bapt,Baptist
 Prsbterian,Presbyterian
 W Presbyterian,Presbyterian
 Roman Cathllock,Roman Catholic
-Protestant Church of Irealand,CHATGPT_UNKNOWN
-Plymouthite,CHATGPT_UNKNOWN
+Protestant Church of Irealand,Church of Ireland
+Plymouthite,Plymouth Brethren
 Pesbytrean,Presbyterian
-Prisbeterian P,CHATGPT_UNKNOWN
+Prisbeterian P,Presbyterian
 Protestant Picoflin,CHATGPT_UNKNOWN
 Prostentant,CHATGPT_UNKNOWN
 Roman Catherleick,Roman Catholic
 Roman Cathicloc,Roman Catholic
-Epistopical Church,CHATGPT_UNKNOWN
-Prespeteiran,CHATGPT_UNKNOWN
-Cnristan Brethern,CHATGPT_UNKNOWN
+Epistopical Church,Church of Ireland
+Prespeteiran,Presbyterian
+Cnristan Brethern,Christian Brethren
 R Church Ireland,Church of Ireland
-Protestant of Ireland,CHATGPT_UNKNOWN
+Protestant of Ireland,Church of Ireland
 Presbyterian I C,Presbyterian
-Espicolian,CHATGPT_UNKNOWN
+Espicolian,Church of Ireland
 Courch of Ireland,Church of Ireland
 Presbytaria,Presbyterian
-Roman Chatolic Religion,CHATGPT_UNKNOWN
-M of C of Ireland,CHATGPT_UNKNOWN
+Roman Chatolic Religion,Roman Catholic
+M of C of Ireland,Church of Ireland
 Rroman Cathlic,Roman Catholic
-All Member of the Church of Ireland,CHATGPT_UNKNOWN
-Stoly R Catholic,CHATGPT_UNKNOWN
-High Curch Prodestant,CHATGPT_UNKNOWN
-A Roman Cath,CHATGPT_UNKNOWN
-Methodist Wesan,CHATGPT_UNKNOWN
+All Member of the Church of Ireland,Church of Ireland
+Stoly R Catholic,Roman Catholic
+High Curch Prodestant,Church of Ireland
+A Roman Cath,Roman Catholic
+Methodist Wesan,Wesleyan Methodist
 Ref Presbterian,Presbyterian
-Presbyterian General Assemby,CHATGPT_UNKNOWN
-Presbitatian,CHATGPT_UNKNOWN
-Epispecopillian,CHATGPT_UNKNOWN
+Presbyterian General Assemby,Presbyterian
+Presbitatian,Presbyterian
+Epispecopillian,Church of Ireland
 Un Presbyterian,Presbyterian
 Catholice Rn,Roman Catholic
-The Apostolic Holy Roman Catholic Church,CHATGPT_UNKNOWN
-Wesylean Mithodist,CHATGPT_UNKNOWN
-Roman Catcholice Church,CHATGPT_UNKNOWN
+The Apostolic Holy Roman Catholic Church,Catholic Apostolic
+Wesylean Mithodist,Wesleyan Methodist
+Roman Catcholice Church,Roman Catholic
 Catcholic Ro,Roman Catholic
 Cotholic,Roman Catholic
-Nonsubscribing Presbyt,CHATGPT_UNKNOWN
+Nonsubscribing Presbyt,Non-Subscribing Presbyterian
 Underns National Christian,CHATGPT_UNKNOWN
 Prespberterian,Presbyterian
-Episcopal Curch of Ireland,CHATGPT_UNKNOWN
-Episcopalian of Ireland,CHATGPT_UNKNOWN
+Episcopal Curch of Ireland,Church of Ireland
+Episcopalian of Ireland,Church of Ireland
 Presbytereain,Presbyterian
-Catholc Chuch,CHATGPT_UNKNOWN
-Eposcopalian,CHATGPT_UNKNOWN
-R Catlic Church,CHATGPT_UNKNOWN
+Catholc Chuch,Roman Catholic
+Eposcopalian,Church of Ireland
+R Catlic Church,Roman Catholic
 Ronan Cathric,Roman Catholic
-Reformed Presbyten,CHATGPT_UNKNOWN
-Methodist Chur,CHATGPT_UNKNOWN
-Episcopalian C Ireland,CHATGPT_UNKNOWN
-United free W Prespeterian,CHATGPT_UNKNOWN
-Roman Catholic Catholic Religion,CHATGPT_UNKNOWN
-Presbetyran,CHATGPT_UNKNOWN
-Presbetainan,CHATGPT_UNKNOWN
-Methodoet,CHATGPT_UNKNOWN
+Reformed Presbyten,Reformed Presbyterian
+Methodist Chur,Methodist
+Episcopalian C Ireland,Church of Ireland
+United free W Prespeterian,United Free Church of Scotland
+Roman Catholic Catholic Religion,Roman Catholic
+Presbetyran,Presbyterian
+Presbetainan,Presbyterian
+Methodoet,Methodist
 Roman Catalice,Roman Catholic
 Cholic,Roman Catholic
 Roman Catheroc,Roman Catholic
-I C Episcapalion,CHATGPT_UNKNOWN
-Kiash Church Roman Catholic,CHATGPT_UNKNOWN
-Catholic Chirch,CHATGPT_UNKNOWN
+I C Episcapalion,Church of Ireland
+Kiash Church Roman Catholic,Roman Catholic
+Catholic Chirch,Roman Catholic
 St Luke's Protestant,CHATGPT_UNKNOWN
-Church of Roame R Catholic,CHATGPT_UNKNOWN
-Roamon C,CHATGPT_UNKNOWN
-Hillhall Presbyterian Church,CHATGPT_UNKNOWN
-Society of Freinds,CHATGPT_UNKNOWN
-Prespertian Broodway Church,CHATGPT_UNKNOWN
+Church of Roame R Catholic,Roman Catholic
+Roamon C,Roman Catholic
+Hillhall Presbyterian Church,Presbyterian
+Society of Freinds,Quaker
+Prespertian Broodway Church,Presbyterian
 Mosaie,CHATGPT_UNKNOWN
 Rommen Catholic,Roman Catholic
 Roan Cathiloc,Roman Catholic
 Free Christian,CHATGPT_UNKNOWN
-Church of Ireland St Mary Church,CHATGPT_UNKNOWN
-United Free Chruch of Scotland,CHATGPT_UNKNOWN
+Church of Ireland St Mary Church,Church of Ireland
+United Free Chruch of Scotland,United Free Church of Scotland
 Roman Catchrolic,Roman Catholic
 R Cathoalic,Roman Catholic
-Episgopalions,CHATGPT_UNKNOWN
-Protestant Ch of Eng,CHATGPT_UNKNOWN
-Tennent St Methodist,CHATGPT_UNKNOWN
-Episcopeal Church,CHATGPT_UNKNOWN
-Presytn,CHATGPT_UNKNOWN
+Episgopalions,Church of Ireland
+Protestant Ch of Eng,Church of England
+Tennent St Methodist,Methodist
+Episcopeal Church,Church of Ireland
+Presytn,Presbyterian
 Catolic Reformed,CHATGPT_UNKNOWN
 Roman Catheolick,Roman Catholic
-The Glengarriffe Chatolic Church,CHATGPT_UNKNOWN
+The Glengarriffe Chatolic Church,Roman Catholic
 R Catchorlic,Roman Catholic
 Presbeteriam,Presbyterian
 Weseling,CHATGPT_UNKNOWN
@@ -4977,10 +4977,10 @@ St Agustine,CHATGPT_UNKNOWN
 Prisbtyerian,Presbyterian
 Rhoman Cathlotic,Roman Catholic
 Christian of no Denomination Further Information Refused,CHATGPT_UNKNOWN
-Catholat,CHATGPT_UNKNOWN
-Irish Epis,CHATGPT_UNKNOWN
-Hbrew Denomination,CHATGPT_UNKNOWN
-Seceders,CHATGPT_UNKNOWN
+Catholat,Roman Catholic
+Irish Epis,Church of Ireland
+Hbrew Denomination,Jewish
+Seceders,Seceder Presbyterian
 Cath? Religion,CHATGPT_UNKNOWN
 Re Catholice,Roman Catholic
 R Catholick Chur,CHATGPT_UNKNOWN
@@ -4992,14 +4992,14 @@ Roman Chatotlic,Roman Catholic
 Prostestant C of Eng,CHATGPT_UNKNOWN
 Georges Church,CHATGPT_UNKNOWN
 Roman Ctholoic,Roman Catholic
-Prot Ep Ch,CHATGPT_UNKNOWN
-Episcopalian Protestan and Church,CHATGPT_UNKNOWN
+Prot Ep Ch,Church of Ireland
+Episcopalian Protestan and Church,Church of Ireland
 Ro Calothic,CHATGPT_UNKNOWN
 Romane Cathloic,Roman Catholic
 Catolicks,Roman Catholic
-Episcopical Ch,CHATGPT_UNKNOWN
+Episcopical Ch,Church of Ireland
 Prespeterian Body,CHATGPT_UNKNOWN
-I C Protestant Episcopal Church,CHATGPT_UNKNOWN
+I C Protestant Episcopal Church,Church of Ireland
 R Catheloick,CHATGPT_UNKNOWN
 Christian Church of Ireland,CHATGPT_UNKNOWN
 Christian Comty Call Brethren,CHATGPT_UNKNOWN
@@ -5371,7 +5371,7 @@ Congregational Curch,CHATGPT_UNKNOWN
 Methosdist Church,CHATGPT_UNKNOWN
 Ro,CHATGPT_UNKNOWN
 Prespereterian,CHATGPT_UNKNOWN
-Seventh D Adventist,Seventh-day Adventist
+Seventh D Adventist,Seventh Day Adventist
 Ch of Ireland P,Church of Ireland
 Presbeterian Meeting House,CHATGPT_UNKNOWN
 Mosaic Religion,CHATGPT_UNKNOWN
@@ -6291,7 +6291,7 @@ Chotalic Religon,CHATGPT_UNKNOWN
 Chatcolic,Roman Catholic
 Prsapeterian,CHATGPT_UNKNOWN
 All Belong to the Holy Roman Catholic Church,CHATGPT_UNKNOWN
-Angtican,Anglican
+Angtican,Church of England
 Pro Cathedrid,CHATGPT_UNKNOWN
 Non Denominational,CHATGPT_UNKNOWN
 Presbyterian Malting House,CHATGPT_UNKNOWN
@@ -6994,7 +6994,7 @@ Prispetairian,CHATGPT_UNKNOWN
 Presbytiren Church,CHATGPT_UNKNOWN
 Prispterian Church,CHATGPT_UNKNOWN
 Windser Presbytrian Church,CHATGPT_UNKNOWN
-Seventh day Adventist,Seventh-day Adventist
+Seventh day Adventist,Seventh Day Adventist
 Presberteryian,Presbyterian
 Presbyterian Second Derry,CHATGPT_UNKNOWN
 Pyspration Church,CHATGPT_UNKNOWN
@@ -7326,7 +7326,7 @@ Prestpetrian,Presbyterian
 Catheloc,CHATGPT_UNKNOWN
 Church and England,CHATGPT_UNKNOWN
 Prespoterian,Presbyterian
-Angelican,Anglican
+Angelican,Church of England
 Rom Cathoc,Roman Catholic
 Roman Catcholis,Roman Catholic
 R Chacthoelc,CHATGPT_UNKNOWN
@@ -7555,7 +7555,7 @@ Epescopalians Pro,CHATGPT_UNKNOWN
 Siner on Saved and on the Broad Road,CHATGPT_UNKNOWN
 Presbyterian Byresberterian,CHATGPT_UNKNOWN
 Non-Sub Presby,CHATGPT_UNKNOWN
-Seventh Day Advantest,Seventh-day Adventist
+Seventh Day Advantest,Seventh Day Adventist
 Catlic Curch,CHATGPT_UNKNOWN
 R Charlic,CHATGPT_UNKNOWN
 Roamen Catolic,Roman Catholic
@@ -7850,7 +7850,7 @@ Rom Cathrolic,Roman Catholic
 Esp Church,CHATGPT_UNKNOWN
 C I St Pauls,CHATGPT_UNKNOWN
 Prodeston Episco,CHATGPT_UNKNOWN
-Seventh Day Adventest,Seventh-day Adventist
+Seventh Day Adventest,Seventh Day Adventist
 Plymouth Brethren So Called,CHATGPT_UNKNOWN
 Roman Chaloc,CHATGPT_UNKNOWN
 Romann Catholic,Roman Catholic
@@ -8266,7 +8266,7 @@ Siner Saved by Grace Belong to Christ Redemed Br Blood,CHATGPT_UNKNOWN
 Presbetirean,CHATGPT_UNKNOWN
 Kilbride Presbyterian Church,CHATGPT_UNKNOWN
 Hebrew Synogogue,CHATGPT_UNKNOWN
-Seventh Day Advents,Seventh-day Adventist
+Seventh Day Advents,Seventh Day Adventist
 Church of Ird Late Established Church,CHATGPT_UNKNOWN
 R Cathoce,CHATGPT_UNKNOWN
 Roman Cathlite,Roman Catholic
@@ -8392,7 +8392,7 @@ Holy R C,CHATGPT_UNKNOWN
 Presbytrine Church,CHATGPT_UNKNOWN
 Captist,Baptist
 Christean Brethern,CHATGPT_UNKNOWN
-Seventh Day Adventists,Seventh-day Adventist
+Seventh Day Adventists,Seventh Day Adventist
 Roman Chatrlack,CHATGPT_UNKNOWN
 Calolick,CHATGPT_UNKNOWN
 Protestant Epicopelion,CHATGPT_UNKNOWN
@@ -10367,7 +10367,7 @@ R Cathgue,CHATGPT_UNKNOWN
 Presby Gen Assembly,CHATGPT_UNKNOWN
 R Cathlion,CHATGPT_UNKNOWN
 Presbbterian,Presbyterian
-Orthodox Jew,Orthodox
+Orthodox Jew,Jewish
 Genl Assembly Presbyterian,CHATGPT_UNKNOWN
 Jewish Denomination,CHATGPT_UNKNOWN
 Brethern Merrive Hall,CHATGPT_UNKNOWN
@@ -12412,7 +12412,7 @@ Roman Catochlic Religion,CHATGPT_UNKNOWN
 Roman Cathtlic,Roman Catholic
 Wesylean Med,CHATGPT_UNKNOWN
 Reaman Cathea,CHATGPT_UNKNOWN
-Servant day Adventist,Seventh-day Adventist
+Servant day Adventist,Seventh Day Adventist
 Jewish Perenasion,CHATGPT_UNKNOWN
 Estbel Church of Scotland,CHATGPT_UNKNOWN
 Chu Ireland,CHATGPT_UNKNOWN
@@ -12443,7 +12443,7 @@ In Roman Catholic,Roman Catholic
 Bretherne,CHATGPT_UNKNOWN
 Protestant Epescopll,CHATGPT_UNKNOWN
 Irish Church of,CHATGPT_UNKNOWN
-Anglica,Anglican
+Anglica,Church of England
 Roanan Cathlaoc,CHATGPT_UNKNOWN
 Non - Subscirbing Presbyterian,CHATGPT_UNKNOWN
 Roman Catrorlic,Roman Catholic
@@ -13095,7 +13095,7 @@ Terres Row Presybetrian,CHATGPT_UNKNOWN
 St Georges Irish,CHATGPT_UNKNOWN
 T C,CHATGPT_UNKNOWN
 Jews Church National Protestant,CHATGPT_UNKNOWN
-Seventh Day Adsentist,Seventh-day Adventist
+Seventh Day Adsentist,Seventh Day Adventist
 Advent Church,CHATGPT_UNKNOWN
 Church of Ireland and Church of England,CHATGPT_UNKNOWN
 Roman Cathils,Roman Catholic
@@ -13782,7 +13782,7 @@ R Cothloco,CHATGPT_UNKNOWN
 R Catrickle,CHATGPT_UNKNOWN
 Irish Episcopelian,CHATGPT_UNKNOWN
 R Cthiolce R Catholic,CHATGPT_UNKNOWN
-Seventh Pay Adventist,Seventh-day Adventist
+Seventh Pay Adventist,Seventh Day Adventist
 Irish Episcopal Irish Church,CHATGPT_UNKNOWN
 Russian Orthodox Church,CHATGPT_UNKNOWN
 Roman Cathelic Cwd,Roman Catholic
