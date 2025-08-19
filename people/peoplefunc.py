@@ -2,6 +2,7 @@ import pandas as pd
 import regex as re
 
 import glob
+import os
 
 from sklearn.preprocessing import MultiLabelBinarizer
 
@@ -198,14 +199,55 @@ def processReligion(censusYear,dicRel, df_census):
 
     return df_census
 
-def processBirthplace(censusYear,dicRel, df_census):
+def processBirthplace(censusYear,dicBir, df_census):
     print(censusYear + " Census Filtering Birthplace")
     df_census['birthplace'] = df_census['birthplace'].fillna('Unknown')
     print(censusYear + " Census Count = " + str(df_census.shape[0]))
 
     print(censusYear + " Census Sanitising Birthplace")
-    df_census['birthCountry'] = df_census['birthplace'].map(dicRel).astype('string')
+    df_census['birthCountry'] = df_census['birthplace'].map(dicBir).astype('string')
     df_census = df_census[df_census['birthCountry'].notnull()]
     print(censusYear + " Census Count = " + str(df_census.shape[0]))
 
     return df_census
+
+def processOccupation(censusYear,dicClaude, df_census):
+    print(censusYear + " Census Filtering Occupation")
+    df_census['occupation'] = df_census['occupation'].fillna('Unknown')
+    print(censusYear + " Census Count = " + str(df_census.shape[0]))
+
+    #print(censusYear + " Census Filtering Out Occupations With ?")
+    #df_census = df_census[~df_census["occupation"].str.contains("?", regex=False)]
+    #print(censusYear + " Census Count = " + str(df_census.shape[0]))
+    print(censusYear + " Census Sanitising Occupation - Regex Pass")
+
+    def occupation_fn(name:str) -> str:
+        trimmed = name.replace('[','').replace(']','').replace('(','').replace(')','').replace('{','').replace('}','').replace('"','').replace('-',' ')
+        return re.sub("\s\s+", " ", trimmed)
+
+    df_census['occupationSan'] = df_census['occupation'].astype('string').apply(occupation_fn)
+
+    print(censusYear + " Census Sanitising Occupation - Claude Pass")
+    df_census['occupationClaude'] = df_census['occupationSan'].replace(dicClaude).astype('string')
+    #df_census = df_census[df_census['birthCountry'].notnull()]
+    print(censusYear + " Census Count = " + str(df_census.shape[0]))
+
+
+
+    return df_census
+
+def writeChunks(parentPath, filePrefix, censusYear, chunkSize, fieldName, df_census):
+    print(censusYear + " Census Chunking " + fieldName + " into chunks of size " +  str(chunkSize))
+    toChunk = df_census[fieldName].value_counts().reset_index().sort_values(['count',fieldName],ascending=[False,True])
+    chunks = [toChunk[i:i+chunkSize].copy() for i in range(0,toChunk.shape[0],chunkSize)]
+
+    k = 1
+    for chunk in chunks:
+        chunk.to_csv(os.path.join(parentPath, filePrefix + '_census_' + censusYear + '_' + fieldName + '_chunk_{}.csv'.format(k)), index=False)
+        k=k+1
+
+def writeFields(parentPath, filePrefix, censusYear, df_census):
+    for name, values in df_census.items():
+        fileName = '{filePrefix}_{name}_{censusYear}.csv'.format(filePrefix=filePrefix,name=name,censusYear=censusYear)
+        print('Writing {name}'.format(name=fileName))
+        df_census[name].value_counts().reset_index().sort_values(['count',name],ascending=[False,True]).to_csv(os.path.join(parentPath,fileName), index=False)
