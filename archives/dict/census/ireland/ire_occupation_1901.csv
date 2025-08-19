@@ -1,474 +1,474 @@
 occupation,count
-Scholar,819623
-Farmer,392267
-Farmers Son,131200
-Farmers Daughter,106194
-Farmer's Son,80491
-House Keeper,74988
-Labourer,72355
-Agricultural Labourer,71181
-Farm Servant,67537
-Farmer's Daughter,57583
-Housekeeper,55174
-General Labourer,54269
-Seamstress,43072
-Domestic Servant,42839
-Farm Labourer,36376
-Scholars,33681
-Dressmaker,27068
-Farmers Wife,26862
-General Servant Domestic,23393
-Servant,22747
-Carpenter,18915
-Farmer Son,18624
-General Servant,17406
-Pupil,15695
-Farmer's Wife,15051
-No Occupation,14598
-Shop Assistant,14519
-Linen Weaver,13092
-Dress Maker,11974
-Tailor,11371
-Retired Farmer,8451
-Farmer Daughter,8386
-Fisherman,8171
-Clerk,7741
-Laundress,7542
-Shop Keeper,7539
-Nil,7432
-Infant,7418
-Blacksmith,6820
-Baker,6466
-Shoemaker,6186
-Attending School,6131
-Farmers Sister,5879
-School,5863
-Schollar,5620
-At School,5576
-General Domestic Servant,5526
-Servant Domestic,5520
-Wife,5438
-Grocer,5379
-Cook Domestic Servant,4736
-General Servant-Domestic,4729
-House Wife,4704
-Shepherd,4573
-Schoolar,4251
-Charwoman,4232
-Student,4135
-Scolar,4074
-Milliner,4073
-Publican,4054
-School Boy,4051
-Teacher,4013
-Assistant,3981
-Mill Worker,3893
-Housewife,3867
-Draper,3793
-Painter,3788
-Shopkeeper,3730
-Labourer General,3623
-Black Smith,3578
-Butcher,3575
-National Teacher,3473
-Nurse,3444
-Cook,3397
-Gardener,3350
-Farmers Brother,3248
-Mason,3213
-Herd,3199
-Carter,3058
-Dealer,3055
-Boot Maker,2974
-Cattle Dealer,2962
-Farmer Wife,2952
-Weaver,2811
-Car Driver,2788
-School Girl,2752
-Farmer's Sister,2750
-Railway Porter,2683
-Shoe Maker,2676
-Cooper,2652
-Groom,2623
-Grocers Assistant,2524
-Coachman,2492
-Laborer,2486
-House-Keeper,2455
-Domestic,2429
-Postman,2425
-Messenger,2419
-Machinist,2414
-No Business,2414
-Farming,2348
-Child,2329
-Caretaker,2300
-Labour,2298
-Drapers Assistant,2255
-House Painter,2253
-Tailoress,2220
-Bricklayer,2200
-Sailor,2130
-Flax Spinner,2088
-Plumber,2057
-Spinner,2025
-Agl Labourer,2016
-School Teacher,1996
-Scholor,1957
-Farmers,1954
-Nurse Domestic Servant,1924
-Cambric Weaver,1917
-Plasterer,1913
-Stone Mason,1911
-Damask Weaver,1904
-Labourer's Wife,1868
-House Work,1854
-Army Pensioner,1845
-Scollar,1815
-National School Teacher,1748
-Daughter,1745
-House Keeping,1713
-House Maid,1713
-Spinster,1710
-Joiner,1703
-Flax Dresser,1698
-Draper's Assistant,1671
-Van Driver,1644
-Merchant,1636
-Governess,1634
-Agrl Labourer,1595
-General Labour,1527
-Yarn Winder,1524
-Factory Worker,1517
-Stone Cutter,1513
-Knitter,1479
-Railway Labourer,1476
-Cook-Domestic Servant,1471
-Wool Weaver,1463
-Quay Labourer,1435
-Apprentice,1430
-Son,1429
-Going to School,1416
-Message Boy,1408
-Sister of Mercy,1397
-Embroiderer,1388
-No Profession,1363
-Retired Labourer,1358
-Confectioner,1333
-Accountant,1332
-Solicitor,1320
-Labourers Wife,1319
-Dock Labourer,1315
-Farmer Servant,1305
-Machinest,1303
-Shirt Maker,1301
-Visitor,1259
-Porter,1258
-Housemaid,1255
-Housemaid Domestic Servant,1253
-Linnen Weaver,1246
-Char Woman,1238
-Agricultural Labour,1228
-Coachman Domestic Servant,1211
-Farmer's Brother,1193
-Sholar,1192
-Lady,1188
-Gardner,1186
-Victualler,1185
-Book Keeper,1181
-Commercial Clerk,1165
-Musician,1160
-Smoother,1154
-Gardener Domestic Servant,1151
+Scholar,Scholar
+Farmer,Farmer
+Farmers Son,Farmer's Son
+Farmers Daughter,Farmer's Daughter
+Farmer's Son,Farmer's Son
+House Keeper,Housekeeper
+Labourer,General Labourer
+Agricultural Labourer,Agricultural Labourer
+Farm Servant,Farm Servant
+Farmer's Daughter,Farmer's Daughter
+Housekeeper,Housekeeper
+General Labourer,General Labourer
+Seamstress,Seamstress
+Domestic Servant,General
+Farm Labourer,Agricultural Labourer
+Scholars,Scholar
+Dressmaker,Dressmaker
+Farmers Wife,Farmer's Wife
+General Servant Domestic,General Domestic Servant
+Servant,General Domestic Servant
+Carpenter,Carpenter
+Farmer Son,Farmer's Son
+General Servant,General Domestic Servant
+Pupil,Scholar
+Farmer's Wife,Farmer's Wife
+No Occupation,No Occupation
+Shop Assistant,Shop Assistant
+Linen Weaver,Linen Weaver
+Dress Maker,Dressmaker
+Tailor,Tailor
+Retired Farmer,Retired Farmer
+Farmer Daughter,Farmer's Daughter
+Fisherman,Fisherman
+Clerk,Clerk
+Laundress,Laundress
+Shop Keeper,Shopkeeper
+Nil,No Occupation
+Infant,Infant
+Blacksmith,Blacksmith
+Baker,Baker
+Shoemaker,Shoemaker
+Attending School,Scholar
+Farmers Sister,Farmer's Sister
+School,Scholar
+Schollar,Scholar
+At School,Scholar
+General Domestic Servant,General Domestic Servant
+Servant Domestic,General Domestic Servant
+Wife,Wife
+Grocer,Grocer
+Cook Domestic Servant,Cook Domestic Servant
+General Servant-Domestic,General Domestic Servant
+House Wife,Housewife
+Shepherd,Shepherd
+Schoolar,Scholar
+Charwoman,Charwoman
+Student,Scholar
+Scolar,Scholar
+Milliner,Milliner
+Publican,Publican
+School Boy,Scholar
+Teacher,Teacher
+Assistant,Assistant
+Mill Worker,Millworker
+Housewife,Housewife
+Draper,Draper
+Painter,Painter
+Shopkeeper,Shopkeeper
+Labourer General,General Labourer
+Black Smith,Blacksmith
+Butcher,Butcher
+National Teacher,National School Teacher
+Nurse,Nurse
+Cook,Cook
+Gardener,Gardener
+Farmers Brother,Farmer's Brother
+Mason,Mason
+Herd,Shepherd
+Carter,Carter
+Dealer,Dealer
+Boot Maker,Bootmaker
+Cattle Dealer,Cattle Dealer
+Farmer Wife,Farmer's Wife
+Weaver,Weaver
+Car Driver,Car Driver
+School Girl,Scholar
+Farmer's Sister,Farmer's Sister
+Railway Porter,Railway Porter
+Shoe Maker,Shoemaker
+Cooper,Cooper
+Groom,Groom
+Grocers Assistant,Grocer's Assistant
+Coachman,Coachman
+Laborer,General Labourer
+House-Keeper,Housekeeper
+Domestic,General Domestic Servant
+Postman,Postman
+Messenger,Messenger
+Machinist,Machinist
+No Business,No Occupation
+Farming,Farmer
+Child,Child
+Caretaker,Caretaker
+Labour,General Labourer
+Drapers Assistant,Draper's Assistant
+House Painter,House Painter
+Tailoress,Tailoress
+Bricklayer,Bricklayer
+Sailor,Sailor
+Flax Spinner,Flax Spinner
+Plumber,Plumber
+Spinner,Spinner
+Agl Labourer,Agricultural Labourer
+School Teacher,School Teacher
+Scholor,Scholar
+Farmers,Farmer
+Nurse Domestic Servant,Nurse Domestic Servant
+Cambric Weaver,Cambric Weaver
+Plasterer,Plasterer
+Stone Mason,Stonemason
+Damask Weaver,Damask Weaver
+Labourer's Wife,Labourer's Wife
+House Work,Housekeeper
+Army Pensioner,Army Pensioner
+Scollar,Scholar
+National School Teacher,National School Teacher
+Daughter,Daughter
+House Keeping,Housekeeper
+House Maid,Housemaid
+Spinster,Spinster
+Joiner,Joiner
+Flax Dresser,Flax Dresser
+Draper's Assistant,Draper's Assistant
+Van Driver,Van Driver
+Merchant,Merchant
+Governess,Governess
+Agrl Labourer,Agricultural Labourer
+General Labour,General Labourer
+Yarn Winder,Yarn Winder
+Factory Worker,Factory Worker
+Stone Cutter,Stone Cutter
+Knitter,Knitter
+Railway Labourer,Railway Labourer
+Cook-Domestic Servant,Cook Domestic Servant
+Wool Weaver,Wool Weaver
+Quay Labourer,Quay Labourer
+Apprentice,Apprentice
+Son,Son
+Going to School,Scholar
+Message Boy,Message Boy
+Sister of Mercy,Sister of Mercy
+Embroiderer,Embroiderer
+No Profession,No Occupation
+Retired Labourer,Retired Labourer
+Confectioner,Confectioner
+Accountant,Accountant
+Solicitor,Solicitor
+Labourers Wife,Labourer's Wife
+Dock Labourer,Dock Labourer
+Farmer Servant,Farm Servant
+Machinest,Machinist
+Shirt Maker,Shirt Maker
+Visitor,Visitor
+Porter,Porter
+Housemaid,Housemaid
+Housemaid Domestic Servant,Housemaid
+Linnen Weaver,Linen Weaver
+Char Woman,Charwoman
+Agricultural Labour,Agricultural Labourer
+Coachman Domestic Servant,Coachman Domestic Servant
+Farmer's Brother,Farmer's Brother
+Sholar,Scholar
+Lady,Lady
+Gardner,Gardener
+Victualler,Victualler
+Book Keeper,Bookkeeper
+Commercial Clerk,Commercial Clerk
+Musician,Musician
+Smoother,Smoother
+Gardener Domestic Servant,Gardener Domestic Servant
 At Home,1150
-Farmeress,1143
-Spirit Dealer,1142
-Cabinet Maker,1127
-Farmer and Cattle Dealer,1122
-Farmer and Shoemaker,1116
-Saddler,1110
-Soldier,1106
-Cotton Weaver,1080
-Weaver Linen,1079
-Stitcher,1073
-General Servant (Domestic),1067
-Commercial Traveller,1062
-Winder,1061
-Carman,1047
-Railway Clerk,1032
-No Employment,1012
-Spade Maker,1011
-Hemstitcher,1006
-Bootmaker,1003
+Farmeress,Farmer
+Spirit Dealer,Spirit Dealer
+Cabinet Maker,Cabinetmaker
+Farmer and Cattle Dealer,Farmer and Cattle Dealer
+Farmer and Shoemaker,Farmer and Shoemaker
+Saddler,Saddler
+Soldier,Soldier
+Cotton Weaver,Cotton Weaver
+Weaver Linen,Linen Weaver
+Stitcher,Stitcher
+General Servant (Domestic),General Domestic Servant
+Commercial Traveller,Commercial Traveller
+Winder,Winder
+Carman,Carman
+Railway Clerk,Railway Clerk
+No Employment,No Occupation
+Spade Maker,Spade Maker
+Hemstitcher,Hemstitcher
+Bootmaker,Bootmaker
 Shopman-Grocery,997
 Mill Owners Wife,987
-Housekeeper and Knitter,987
-Steward and Farm Manager,987
-Post Man,986
-Printer,975
-Harness Maker,975
-Housekeeping,973
+Housekeeper and Knitter,Housekeeper and Knitter
+Steward and Farm Manager,Steward and Farm Manager
+Post Man,Postman
+Printer,Printer
+Harness Maker,Harnessmaker
+Housekeeping,Housekeeper
 Builders Labourer,960
-Domestic Servant General,957
-General Servt Domestic,954
-Engine Driver,949
-Agr Labourer,939
-Lodging House Keeper,924
-Genl Labourer,904
-Labourer Agricultural,897
-Seaman,878
-Miller,876
-Land Steward,873
-Grocer's Assistant,864
-Pedlar,861
-Bank Clerk,857
-Washerwoman,853
-Linen Winder,852
-Sewer,849
-Rural Postman,847
-Hospital Nurse,829
-Farmers Servant,829
-Fish Dealer,824
+Domestic Servant General,General Domestic Servant
+General Servt Domestic,General Domestic Servant
+Engine Driver,Engine Driver
+Agr Labourer,Agricultural Labourer
+Lodging House Keeper,Lodging House Keeper
+Genl Labourer,General Labourer
+Labourer Agricultural,Agricultural Labourer
+Seaman,Seaman
+Miller,Miller
+Land Steward,Land Steward
+Grocer's Assistant,Grocer's Assistant
+Pedlar,Pedlar
+Bank Clerk,Bank Clerk
+Washerwoman,Washerwoman
+Linen Winder,Linen Winder
+Sewer,Sewer
+Rural Postman,Rural Postman
+Hospital Nurse,Hospital Nurse
+Farmers Servant,Farm Servant
+Fish Dealer,Fish Dealer
 Printer-Compositor,824
-House Maid Domestic Servant,823
-Not at School,818
-Barmaid,816
-Dividends,808
-Engine Fitter,793
-Labourers Daughter,788
-Unemployed,778
-Dairy Maid,773
-Car Owner,772
-Boatman,767
-Cook Domestic,762
-Labourer Farm,761
-House Carpenter,758
-Medical Student,757
-Coach Builder,744
-Iron Moulder,728
-Farmer Labourer,724
-Lace Maker,721
-Boot and Shoe Maker,719
-Book Folder,717
-Factory Hand,713
-Compositor,713
-Domestic Servant Cook,710
-Agricultural Laborer,709
-Coal Labourer,706
-Nurse-Domestic Servant,703
-Tin Smith,698
-Coal Miner,697
-Fireman,695
-Farm Labour,692
-Spirit Merchant,683
-Servant-Domestic,679
-Shop Porter,678
-No,676
-Mendicant,668
-Engineer,668
-French Polisher,668
-Domestic General Servant,664
-Engine Fitter at Works,664
-Domestic Servt,657
-Van Man,653
-Farmer Sister,649
-Sawyer,646
-Carrier,642
-Reeler,640
-Millworker,640
-Coach Painter,635
-Wool Spinner,628
-Retired Grocer,628
-Builder,627
-House Servant,627
-Brewery Labourer,625
-Road Contractor,623
-General Laborer,623
+House Maid Domestic Servant,Housemaid
+Not at School,No Occupation
+Barmaid,Barmaid
+Dividends,Dividends
+Engine Fitter,Engine Fitter
+Labourers Daughter,Labourer's Daughter
+Unemployed,No Occupation
+Dairy Maid,Dairymaid
+Car Owner,Car Owner
+Boatman,Boatman
+Cook Domestic,Cook Domestic Servant
+Labourer Farm,Agricultural Labourer
+House Carpenter,House Carpenter
+Medical Student,Medical Student
+Coach Builder,Coach Builder
+Iron Moulder,Iron Moulder
+Farmer Labourer,Agricultural Labourer
+Lace Maker,Lacemaker
+Boot and Shoe Maker,Cobbler
+Book Folder,Book Folder
+Factory Hand,Factory Hand
+Compositor,Compositor
+Domestic Servant Cook,Cook Domestic Servant
+Agricultural Laborer,Agricultural Labourer
+Coal Labourer,Coal Labourer
+Nurse-Domestic Servant,Nurse Domestic Servant
+Tin Smith,Tinsmith
+Coal Miner,Coal Miner
+Fireman,Fireman
+Farm Labour,Agricultural Labourer
+Spirit Merchant,Spirit Merchant
+Servant-Domestic,General Domestic Servant
+Shop Porter,Shop Porter
+No,No Occupation
+Mendicant,Mendicant
+Engineer,Engineer
+French Polisher,French Polisher
+Domestic General Servant,General Domestic Servant
+Engine Fitter at Works,Engine Fitter
+Domestic Servt,General Domestic Servant
+Van Man,Van Man
+Farmer Sister,Farmer's Sister
+Sawyer,Sawyer
+Carrier,Carrier
+Reeler,Reeler
+Millworker,Millworker
+Coach Painter,Coach Painter
+Wool Spinner,Wool Spinner
+Retired Grocer,Retired Grocer
+Builder,Builder
+House Servant,General Domestic Servant
+Brewery Labourer,Brewery Labourer
+Road Contractor,Road Contractor
+General Laborer,General Labourer
 Religious,618
-Washer Woman,610
-Railway Servant,610
-Telegraphist,601
-Slater,600
-Groom Domestic Servant,600
-Fitter,597
-Gen Labourer,596
-Linen Lapper,591
-Fowl Dealer,589
-Music Teacher,589
-Iron Turner,582
-Game Keeper,580
-Interest of Money,578
-Veiner,575
-Boarder,572
-Brick Layer,570
-Boiler Maker,570
-Hair Dresser,567
-Waiter,566
-Factory Girl,566
-Farm Servant Domestic,566
-Smith,565
+Washer Woman,Washerwoman
+Railway Servant,Railway Servant
+Telegraphist,Telegraphist
+Slater,Slater
+Groom Domestic Servant,Groom Domestic Servant
+Fitter,Fitter
+Gen Labourer,General Labourer
+Linen Lapper,Linen Lapper
+Fowl Dealer,Fowl Dealer
+Music Teacher,Music Teacher
+Iron Turner,Iron Turner
+Game Keeper,Gamekeeper
+Interest of Money,Interest of Money
+Veiner,Veiner
+Boarder,Boarder
+Brick Layer,Bricklayer
+Boiler Maker,Boilermaker
+Hair Dresser,Hairdresser
+Waiter,Waiter
+Factory Girl,Factory Girl
+Farm Servant Domestic,Farm Servant
+Smith,Smith
 Herdsman,562
 Monitress,561
-Houskeeper,561
-Insurance Agent,556
-Civil Engineer,555
-Publican and Farmer,550
-Coach Man,549
-Dairyman,546
+Houskeeper,Housekeeper
+Insurance Agent,Insurance Agent
+Civil Engineer,Civil Engineer
+Publican and Farmer,Publican and Farmer
+Coach Man,Coach Man
+Dairyman,Dairyman
 Labourer in Iron Works,545
-Stonecutter,544
-Shipwright,542
-Butler,541
+Stonecutter,Stonecutter
+Shipwright,Shipwright
+Butler,Butler
 Nothing,540
-Linen Spinner,538
-Railway Guard,537
-Parlour Maid Domestic Servant,537
-Fisher Man,533
-Lace Worker,532
-Annuity,531
-Clergyman,529
+Linen Spinner,Linen Spinner
+Railway Guard,Railway Guard
+Parlour Maid Domestic Servant,Parlour Maid Domestic Servant
+Fisher Man,Fisherman
+Lace Worker,Lace Worker
+Annuity,Annuitant
+Clergyman,Clergyman
 Grocer Assistant,528
 F Daughter,528
-Dress-Maker,526
+Dress-Maker,Dressmaker
 Seamster,525
 Grocers Porter,524
-Scholar's,522
-House Holder,520
-Telegraph Messenger,520
-Boot and Shoemaker,520
+Scholar's,Scholar
+House Holder,Householder
+Telegraph Messenger,Telegraph Messenger
+Boot and Shoemaker,Cobbler
 Labourers Son,519
-G Labourer,517
-Traveller,516
-Farm Laborer,508
-Annuitant,507
-Farmer and Publican,503
-Shop Girl,502
-Householder,501
-Gentleman,497
-Mechanic,494
-Tinsmith,492
-General House Work,490
-Agricl Labourer,482
-Dairy Man,479
-Hairdresser,478
-Private,477
-Genl Servant Domestic,476
-Hous Keeper,472
-Parish Priest,470
-Post Boy,469
-Steward,467
-Assistant Housekeeper,464
-Barman,462
-Bar Maid,460
-Pork Butcher,455
-Watchmaker,455
+G Labourer,General Labourer
+Traveller,Traveller
+Farm Laborer,Agricultural Labourer
+Annuitant,Annuitant
+Farmer and Publican,Publican and Farmer
+Shop Girl,Shop Girl
+Householder,Householder
+Gentleman,Gentleman
+Mechanic,Mechanic
+Tinsmith,Tinsmith
+General House Work,General Domestic Servant
+Agricl Labourer,Agricultural Labourer
+Dairy Man,Dairyman
+Hairdresser,Hairdresser
+Private,Private
+Genl Servant Domestic,General Domestic Servant
+Hous Keeper,Housekeeper
+Parish Priest,Parish Priest
+Post Boy,Post Boy
+Steward,Steward
+Assistant Housekeeper,Assistant Housekeeper
+Barman,Barman
+Bar Maid,Barmaid
+Pork Butcher,Pork Butcher
+Watchmaker,Watchmaker
 Printer Compositor,449
-Law Clerk,444
+Law Clerk,Law Clerk
 No Trade,443
 House Keeper Domestic,441
-Asylum Attendant,441
+Asylum Attendant,Asylum Attendant
 Green Grocer,440
-Machine Boy,439
+Machine Boy,Machine Boy
 Labourer Genl,437
 Scholer,436
 General Servant - Domestic,436
 Labourer (General),436
 Parlour Maid,435
-General Dealer,434
-Assistant House Keeper,432
-Horse Trainer,432
-Cottier,431
+General Dealer,General Dealer
+Assistant House Keeper,Assistant Housekeeper
+Horse Trainer,Horse Trainer
+Cottier,Cottier
 Farmers Mother,431
 Bricklayers Labourer,430
-Tram Conductor,430
+Tram Conductor,Tram Conductor
 House keeper,429
-Yarn Reeler,427
-Farmer and Fisherman,427
-Barber,425
+Yarn Reeler,Yarn Reeler
+Farmer and Fisherman,Farmer and Fisherman
+Barber,Barber
 Schollars,424
-Pensioner,423
+Pensioner,Pensioner
 Hotel Keeper,422
-Sister of Charity,419
+Sister of Charity,Sister of Charity
 Agril Labourer,413
-Labourer's Daughter,411
-Naval Pensioner,410
-Upholsterer,409
-HouseKeeper,402
-Lodger,401
-Railway Signalman,399
-Photographer,398
-Schooler,398
-Schoolboy,396
-Mariner,396
-Gamekeeper,396
+Labourer's Daughter,Labourer's Daughter
+Naval Pensioner,Naval Pensioner
+Upholsterer,Upholsterer
+HouseKeeper,Housekeeper
+Lodger,Lodger
+Railway Signalman,Railway Signalman
+Photographer,Photographer
+Schooler,Scholar
+Schoolboy,Scholar
+Mariner,Mariner
+Gamekeeper,Gamekeeper
 Agricultural Labr,396
 Basket Maker,395
 Servant General,394
-Horse Dealer,393
-Provision Merchant,393
-Sprigger,392
-Agriculture Labourer,392
-Linen Finisher,392
-Flesher,391
+Horse Dealer,Horse Dealer
+Provision Merchant,Provision Merchant
+Sprigger,Sprigger
+Agriculture Labourer,Agricultural Labourer
+Linen Finisher,Linen Finisher
+Flesher,Flesher
 Farmer Brother,391
-Railway Engine Driver,390
-Provision Dealer,390
-Commission Agent,389
+Railway Engine Driver,Railway Engine Driver
+Provision Dealer,Provision Dealer
+Commission Agent,Commission Agent
 Agl. Labourer,389
 Farmer and Carpenter,388
 Spinner in Mill,387
 ?,387
-"General Servant, Domestic",386
-Bleacher,385
+"General Servant, Domestic",General Domestic Servant
+Bleacher,Bleacher
 F Son,383
-Creamery Manager,383
+Creamery Manager,Creamery Manager
 Garden Labourer,380
-Journalist,379
-General Merchant,379
-Coal Porter,378
-No Scholar,378
+Journalist,Journalist
+General Merchant,General Merchant
+Coal Porter,Coal Porter
+No Scholar,Scholar
 Draper Assistant,377
-Fancy Box Maker,376
+Fancy Box Maker,Fancy Box Maker
 Baby,376
-Typist,375
+Typist,Typist
 Care Taker,374
-Book Binder,374
-Land Owner,374
-Ploughman,373
-Stationer,372
-Bank Official,371
-Flax Rougher,371
-Wine Porter,370
-Farmer's Servant,370
-Kitchen Maid,370
-Farmer's,370
-Land Agent,370
-Master Mariner,369
-Grocer and Publican,368
-Laundry Worker,364
-Farmer and Shopkeeper,363
+Book Binder,Bookbinder
+Land Owner,Land Owner
+Ploughman,Ploughman
+Stationer,Stationer
+Bank Official,Bank Official
+Flax Rougher,Flax Rougher
+Wine Porter,Wine Porter
+Farmer's Servant,Farm Servant
+Kitchen Maid,Kitchen Maid
+Farmer's,Farmer
+Land Agent,Land Agent
+Master Mariner,Master Mariner
+Grocer and Publican,Grocer and Publican
+Laundry Worker,Laundry Worker
+Farmer and Shopkeeper,Farmer and Shopkeeper
 Domestic Work,360
 Nurse Domestic,359
 Corporation Labourer,357
 Landress,353
 Housework,352
-Flax Spreader,351
+Flax Spreader,Flax Spreader
 Knitting,350
-Flax Scutcher,350
+Flax Scutcher,Flax Scutcher
 Vest Maker,349
 Labour General,348
 N.S. Teacher,348
 Taylor,348
 Labourer's Son,345
-Yarn Spinner,345
+Yarn Spinner,Yarn Spinner
 Postmistress,344
-Bread Server,344
-Cattle Drover,343
+Bread Server,Bread Server
+Cattle Drover,Cattle Drover
 Cook Domestic Servt,340
 Labourer Agrl,340
 Not Employed,339
 Agrl. Labourer,339
-Waitress,338
-Inmate,338
+Waitress,Waitress
+Inmate,Inmate
 Working on Farm,337
 Farmer and Grocer,337
 Wash Woman,337
@@ -482,146 +482,146 @@ Quarry Labourer,326
 House Keeper Domestic Servant,326
 Constable R.I.C,325
 Married Woman,324
-Carpenter Master,323
+Carpenter Master,Master Carpenter
 Farmer and Shop Keeper,323
 Spinner Flax,323
 Shop-Keeper,323
 General Servant Dom,323
 Religions,322
-Bank Manager,321
+Bank Manager,Bank Manager
 Carpenter and Farmer,321
-Vintner,321
-Shirt Factory Worker,320
-Fruit Dealer,319
-Pig Buyer,319
-Tea Agent,317
-Laundry Maid,317
+Vintner,Vintner
+Shirt Factory Worker,Shirt Factory Worker
+Fruit Dealer,Fruit Dealer
+Pig Buyer,Pig Buyer
+Tea Agent,Tea Agent
+Laundry Maid,Laundry Maid
 Gardner Domestic Servant,316
 Station Master,315
-Hawker,314
+Hawker,Hawker
 Gardiner,311
-Saleswoman,311
+Saleswoman,Saleswoman
 Servant (Domestic),311
 Gentlewoman,310
-Police Pensioner,309
-Doffer,308
-Hem Stitcher,307
+Police Pensioner,Police Pensioner
+Doffer,Doffer
+Hem Stitcher,Hemstitcher
 Labourers,303
-Shirt Cutter,303
+Shirt Cutter,Shirt Cutter
 Labourer Quay,302
 Weaver (Linen),301
 Winder in Factory,299
 Labourer Agl,299
 Labourer (Farm),298
 Room Keeper,296
-Shopman,296
-Folder,296
+Shopman,Shopman
+Folder,Folder
 Carpenter Unemployed,296
-Coast Guard,295
+Coast Guard,Coast Guard
 Small Farmer,295
 Housekeeper Domestic,295
 Ag Labourer,295
-Nun,295
-Ironmonger,294
+Nun,Nun
+Ironmonger,Ironmonger
 Drapers Apprentice,293
-Retired Servant,292
-Chemist,291
-Collier,291
-Beggar,288
-Shirtmaker,288
-Ship Yard Labourer,288
-Box Maker,287
-Pig Dealer,285
-Brass Finisher,283
-Railway Ganger,283
-Merchant Tailor,283
+Retired Servant,Retired Servant
+Chemist,Chemist
+Collier,Collier
+Beggar,Beggar
+Shirtmaker,Shirtmaker
+Ship Yard Labourer,Shipyard Labourer
+Box Maker,Boxmaker
+Pig Dealer,Pig Dealer
+Brass Finisher,Brass Finisher
+Railway Ganger,Railway Ganger
+Merchant Tailor,Merchant Tailor
 Publican and Grocer,282
 Labourer-General,282
-Mill Labourer,282
-Coal Merchant,281
-Midwife,281
+Mill Labourer,Mill Labourer
+Coal Merchant,Coal Merchant
+Midwife,Midwife
 Housemaid Domestic,277
 Housemaid-Domestic Servant,276
-Stoker,275
+Stoker,Stoker
 Shoe-Maker,275
 Butler Domestic Servant,274
-Farmer's Mother,274
-Linen Merchant,273
+Farmer's Mother,Farmer's Mother
+Linen Merchant,Linen Merchant
 Agr. Labourer,272
 Grocers Apprentice,272
 Hemsticher,272
 Draperess,272
 Employed at Home,271
-A Scholar,271
+A Scholar,Scholar
 Labourer Gen,271
-Moulder,271
+Moulder,Moulder
 A Labourer,270
-Farrier,269
-Warehouseman,268
+Farrier,Farrier
+Warehouseman,Warehouseman
 Not Attending School,268
 Household Duties,268
-Hotel Proprietor,267
+Hotel Proprietor,Hotel Proprietor
 Coachman-Domestic Servant,267
 D Servant,267
-Flax Reeler,265
+Flax Reeler,Flax Reeler
 Pensioner R.I.C,265
-Poulterer,264
-Atending School,264
+Poulterer,Poulterer
+Atending School,Scholar
 Embroider,263
-Jeweller,262
+Jeweller,Jeweller
 Brush Maker,262
 Farmers Nephew,261
-Private Means,261
+Private Means,Private Means
 Car Man,261
-House - Keeper,261
-General Domestic,260
-Letter Carrier,260
-Farmer's Widow,259
+House - Keeper,Housekeeper
+General Domestic,General Domestic Servant
+Letter Carrier,Letter Carrier
+Farmer's Widow,Farmer's Widow
 Farmers son,259
-Linen Bleacher,259
-Assistant in Shop,259
+Linen Bleacher,Linen Bleacher
+Assistant in Shop,Shop Assistant
 Assistant Farmer,258
 Book-Keeper,258
-Widow,258
-Apprentice Carpenter,258
-Office Boy,258
-Tobacconist,257
-Shop Keeper and Farmer,257
-Farmer Retired,256
-Wood Turner,255
-Ship Carpenter,255
+Widow,Widow
+Apprentice Carpenter,Apprentice Carpenter
+Office Boy,Office Boy
+Tobacconist,Tobacconist
+Shop Keeper and Farmer,Farmer and Shopkeeper
+Farmer Retired,Retired Farmer
+Wood Turner,Wood Turner
+Ship Carpenter,Ship Carpenter
 Agricul Labourer,254
-Salesman,254
+Salesman,Salesman
 Master Tailor,254
 Kitchen Maid Domestic Servant,254
 R.I.C. Pensioner,253
 House Maid Domestic,252
-Reeler in Mill,251
-General-Domestic Servant,250
-Rivetter,250
+Reeler in Mill,Mill Reeler
+General-Domestic Servant,General Domestic Servant
+Rivetter,Rivetter
 R.I.C Pensioner,250
-Pauper,249
-Electrician,248
+Pauper,Pauper
+Electrician,Electrician
 Housekeeper Domestic Servant,247
 Farmer and Blacksmith,247
 Post Office Assistant,247
-Annuities,246
+Annuities,Annuitant
 Constable R I C,246
 Land Holder,245
-Packer,245
-Linen Yarn Winder,245
-Carpenter and Joiner,245
+Packer,Packer
+Linen Yarn Winder,Linen Yarn Winder
+Carpenter and Joiner,Carpenter and Joiner
 Labourer Wife,243
 Retired Farmers Wife,243
-Bookkeeper,243
-Spirit Grocer,240
-Ship Wright,240
-Lacemaker,240
-Telegraph Clerk,240
-Engine Cleaner,239
-Stable Boy,239
-G Servant,239
-Scoller,239
+Bookkeeper,Bookkeeper
+Spirit Grocer,Spirit Grocer
+Ship Wright,Shipwright
+Lacemaker,Lacemaker
+Telegraph Clerk,Telegraph Clerk
+Engine Cleaner,Engine Cleaner
+Stable Boy,Stable Boy
+G Servant,General Domestic Servant
+Scoller,Scoller
 Soldiers Wife,238
 Household Work,237
 Dressmaking,237
@@ -629,375 +629,375 @@ Sister,237
 Sticher,231
 Retired Teacher,231
 Mistress,230
-Boilermaker,230
+Boilermaker,Boilermaker
 Farmers Niece,230
 N. Teacher,229
 Factory,226
 Unknown,225
-Railway Milesman,225
+Railway Milesman,Railway Milesman
 Domestic Servant Unemployed,224
 Watch Maker,224
-Dairymaid,224
+Dairymaid,Dairymaid
 Clerk in Holy Orders,223
-Machenist,223
+Machenist,Machinist
 Farm-Servant,222
 Laborour,222
-Boat Man,222
-Labourer Dock,222
-Scolars,222
+Boat Man,Boatman
+Labourer Dock,Dock Labourer
+Scolars,Scholar
 Labouer,221
-Mechanical Engineer,221
-Civil Bill Officer,221
+Mechanical Engineer,Mechanical Engineer
+Civil Bill Officer,Civil Bill Officer
 Genl Servt Domestic,221
 Gl Labourer,220
-Hotel Porter,220
-Store Keeper,217
-Bread Van Driver,217
+Hotel Porter,Hotel Porter
+Store Keeper,Storekeeper
+Bread Van Driver,Bread Van Driver
 Drapery Assistant,217
-Catholic Curate,216
-Private Income,216
-Clark,216
-Gas Labourer,215
+Catholic Curate,Catholic Curate
+Private Income,Private Income
+Clark,Clerk
+Gas Labourer,Gas Labourer
 Solicitors General Clerk,215
-Tenant Farmer,215
-Shipyard Labourer,215
-Presentation Nun,214
-General Labourer Unemployed,213
-Tobacco Spinner,213
-Railway Fireman,212
-Factory Labourer,212
-Cashier,211
-Monitor,211
-General Domestic Servt,210
-Pawnbroker,210
-Coachman Domestic,210
-Artist,210
-Char-Woman,210
+Tenant Farmer,Tenant Farmer
+Shipyard Labourer,Shipyard Labourer
+Presentation Nun,Presentation Nun
+General Labourer Unemployed,Unemployed General Labourer
+Tobacco Spinner,Tobacco Spinner
+Railway Fireman,Railway Fireman
+Factory Labourer,Factory Labourer
+Cashier,Cashier
+Monitor,Monitor
+General Domestic Servt,General Domestic Servant
+Pawnbroker,Pawnbroker
+Coachman Domestic,Domestic Coachman
+Artist,Artist
+Char-Woman,Charwoman
 F Labourer,209
-Auctioneer,209
+Auctioneer,Auctioneer
 Retired Draper,209
-Shopkeeper and Farmer,208
-Shop Boy,208
+Shopkeeper and Farmer,Farmer and Shopkeeper
+Shop Boy,Shop Boy
 Coach Smith,207
 Agric Labourer,207
 N. S. Teacher,206
-Prostitute,206
+Prostitute,Prostitute
 Domestic Servant (General),206
 Laberour,206
 Dairy Keeper,205
-Tram Driver,205
-Domestic Servant Housemaid,205
+Tram Driver,Tram Driver
+Domestic Servant Housemaid,Housemaid
 Retired Domestic Servant,205
 Solicitors Clerk,205
-Miner,203
-Assurance Agent,202
+Miner,Miner
+Assurance Agent,Assurance Agent
 R I C Pensioner,202
-Hackney Car Driver,202
+Hackney Car Driver,Hackney Car Driver
 House Worker,201
 Cambrick Weaver,201
 House Keeper at Home,201
-Shop Messenger,200
+Shop Messenger,Shop Messenger
 Nailor,200
-Roomkeeper,199
-Vice Folder,198
+Roomkeeper,Roomkeeper
+Vice Folder,Vice Folder
 Navvy,198
-Electrical Engineer,198
-Gate Keeper,198
-Paper Bag Maker,197
-Agent,197
-Post Office Clerk,196
+Electrical Engineer,Electrical Engineer
+Gate Keeper,Gatekeeper
+Paper Bag Maker,Paper Bag Maker
+Agent,Agent
+Post Office Clerk,Post Office Clerk
 Post Mistress,195
-Doffer in Mill,194
+Doffer in Mill,Mill Doffer
 N S Teacher,193
-Gas Fitter,193
-Smiths Helper,193
-Farmer's Niece,192
-Bookbinder,192
+Gas Fitter,Gas Fitter
+Smiths Helper,Smiths Helper
+Farmer's Niece,Farmer's Niece
+Bookbinder,Bookbinder
 Shop-Assistant,192
 Trained Nurse,192
-Marine Engineer,192
-Sales Woman,192
+Marine Engineer,Marine Engineer
+Sales Woman,Saleswoman
 Labourer on Farm,192
 Home,191
 Labourer Unemployed,190
-Stocking Knitter,190
-"Cook, Domestic Servant",190
+Stocking Knitter,Stocking Knitter
+"Cook, Domestic Servant",Cook Domestic Servant
 Servant Boy,190
 Farm Servent,190
 Seamstres,189
 Cannot read,189
-Sexton,188
-Wine Merchant,188
-Domestic Servant Coachman,188
-Licensed Publican,188
-Car Proprietor,187
-Pilot,187
-Labourer in Ship Yard,187
-Mercantile Clerk,185
-Methodist Minister,185
-News Agent,184
-Slater and Plasterer,184
-Architect,184
+Sexton,Sexton
+Wine Merchant,Wine Merchant
+Domestic Servant Coachman,Coachman Domestic Servant
+Licensed Publican,Licensed Publican
+Car Proprietor,Car Proprietor
+Pilot,Pilot
+Labourer in Ship Yard,Shipyard Labourer
+Mercantile Clerk,Mercantile Clerk
+Methodist Minister,Methodist Minister
+News Agent,Newsagent
+Slater and Plasterer,Slater and Plasterer
+Architect,Architect
 Not Going to School,184
-Postmaster,183
-Scohlar,183
+Postmaster,Postmaster
+Scohlar,Scholar
 Carpenter Apprentice,182
-Linen Reeler,182
+Linen Reeler,Linen Reeler
 Agricult Labourer,182
 Works on Farm,182
-Shipping Clerk,182
+Shipping Clerk,Shipping Clerk
 Pensioner R I C,182
 Farm Servants,182
-Egg Merchant,181
-Famer,181
+Egg Merchant,Egg Merchant
+Famer,Farmer
 N Teacher,181
 Shepherds Daughter,181
 Shop Man,181
-Lady Clerk,180
-Horse Shoer,180
-Servant Farm,180
-Clothier,179
-Labourer in Brewery,179
-Pupil Teacher,179
+Lady Clerk,Clerk
+Horse Shoer,Horse Shoer
+Servant Farm,Farm Servant
+Clothier,Clothier
+Labourer in Brewery,Brewery Labourer
+Pupil Teacher,Teacher
 Farm Work,178
-Assistant Grocer,178
-Egg Dealer,177
+Assistant Grocer,Assistant Grocer
+Egg Dealer,Egg Dealer
 Genl Servant,177
 Gardener-Domestic Servant,177
 Agricultural Lab,177
 Farmers Daughter in Law,176
-Cycle Mechanic,176
-Interest on Money,176
-Manager,175
-Teacher of Music,175
-Reeler in Spinning Mill,175
-Driver,175
+Cycle Mechanic,Cycle Mechanic
+Interest on Money,Interest on Money
+Manager,Manager
+Teacher of Music,Music Teacher
+Reeler in Spinning Mill,Spinning Mill Reeler
+Driver,Driver
 Domestic Duties,175
-Yarn Dresser,175
+Yarn Dresser,Yarn Dresser
 A Farmer,175
-Corn Merchant,174
-General Clerk,173
-Messenger Boy,173
-Contractor,173
-Flaxdresser,173
+Corn Merchant,Corn Merchant
+General Clerk,Clerk
+Messenger Boy,Messenger Boy
+Contractor,Contractor
+Flaxdresser,Flax Dresser
 Gen Servant Domestic,173
 Cholar,173
 Solicitors Managing Clerk,172
-Millwright,172
-Retired Merchant,172
-Farmer and Miller,172
+Millwright,Millwright
+Retired Merchant,Retired Merchant
+Farmer and Miller,Farmer and Miller
 Hardware Assistant,172
 School Mistress,171
-Cook - Domestic Servant,171
-Bank Porter,171
-Matron,171
+Cook - Domestic Servant,Cook Domestic Servant
+Bank Porter,Bank Porter
+Matron,Matron
 Natl Teacher,171
-Relieving Officer,170
-Tramp,170
-Schoolmaster,170
-Hardware Merchant,170
-F Servant,169
-Driller,168
+Relieving Officer,Relieving Officer
+Tramp,Tramp
+Schoolmaster,Schoolmaster
+Hardware Merchant,Hardware Merchant
+F Servant,Farm Servant
+Driller,Driller
 Parlourmaid Domestic Servant,168
-Able Seaman,168
-Stable Man,168
-Assistant Draper,168
-Cork Cutter,168
-Quarry Man,168
-Foundry Labourer,168
-General Labouer,167
+Able Seaman,Able Seaman
+Stable Man,Stable Man
+Assistant Draper,Assistant Draper
+Cork Cutter,Cork Cutter
+Quarry Man,Quarry Man
+Foundry Labourer,Foundry Labourer
+General Labouer,General Labourer
 F Wife,167
 Domestic Servant Nurse,167
 Mother,166
 Grocer and Farmer,166
-Tea Merchant,166
-Professor,166
+Tea Merchant,Tea Merchant
+Professor,Professor
 Masons Labourer,165
 Cook-Domestic,165
 House Duties,165
 Shepherds Son,165
-Market Gardener,164
-Footman,164
+Market Gardener,Market Gardener
+Footman,Footman
 Gardener Domestic,164
-Civil Servant,163
-Woolen Weaver,163
-Builder's Labourer,163
+Civil Servant,Civil Servant
+Woolen Weaver,Woolen Weaver
+Builder's Labourer,Builder's Labourer
 Farmes Son,163
 Heard,163
 Farmers Daught,163
 Mothers Help,163
-Gentleman Farmer,163
+Gentleman Farmer,Gentleman Farmer
 Herds Daughter,162
 Farmer and Mason,162
-Schoolgirl,161
-Plater,161
+Schoolgirl,Scholar
+Plater,Plater
 Farmers Grand Son,161
 Physician and Surgeon,161
 Samestress,161
-Boot Closer,161
-Teaching,160
-Assistant Teacher,160
-Agricultural Farm Labourer,160
-Professor of Music,160
-Coach Maker,160
-Writing Clerk,159
-Rural Post Man,159
-Pharmaceutical Chemist,159
-Farmers Labourer,159
-Druggist,159
-Scutcher,159
+Boot Closer,Boot Closer
+Teaching,Teacher
+Assistant Teacher,Assistant Teacher
+Agricultural Farm Labourer,Agricultural Labourer
+Professor of Music,Music Professor
+Coach Maker,Coachmaker
+Writing Clerk,Writing Clerk
+Rural Post Man,Rural Postman
+Pharmaceutical Chemist,Pharmaceutical Chemist
+Farmers Labourer,Agricultural Labourer
+Druggist,Druggist
+Scutcher,Scutcher
 Farm Servt,158
-Mantle Maker,158
-Farm Domestic Servant,158
-Farmer's Nephew,158
-Retired Publican,158
-Income from Dividends,157
-Scholler,157
+Mantle Maker,Mantle Maker
+Farm Domestic Servant,Farm Servant
+Farmer's Nephew,Farmer's Nephew
+Retired Publican,Retired Publican
+Income from Dividends,Shareholder
+Scholler,Scholar
 Domestic Servant Gardener,157
 Semstress,157
-Infants,156
-Weaver Cambric,155
-Scholors,155
-Flax Doffer,154
+Infants,Infant
+Weaver Cambric,Cambric Weaver
+Scholors,Scholar
+Flax Doffer,Flax Doffer
 Cotton Winder,154
-Clerk Unemployed,154
-Organist,154
-Nill,154
+Clerk Unemployed,Unemployed Clerk
+Organist,Organist
+Nill,No Occupation
 Lab,153
-Farmer's son,153
-Agricultural Labourers,153
-Labourer (Agricultural),153
-Bricklayer's Labourer,153
-Shephard,153
-Mill Hand,152
-Railway Station Master,152
-Yard Man,152
+Farmer's son,Farmer's Son
+Agricultural Labourers,Agricultural Labourer
+Labourer (Agricultural),Agricultural Labourer
+Bricklayer's Labourer,Bricklayer's Labourer
+Shephard,Shepherd
+Mill Hand,Mill Hand
+Railway Station Master,Railway Stationmaster
+Yard Man,Yard Man
 General Servt-Domestic,152
-General Farm Servant,152
-Student of Theology,152
+General Farm Servant,Farm Servant
+Student of Theology,Theology Student
 H Keeper,152
-Agricultral Labourer,152
-Agricultural Laboure,152
-Clerk Commercial,152
-Tailor and Farmer,151
-Clothes Dealer,151
-Wife of Farmer,151
-Rate Collector,151
-Black-Smith,151
-Yarn Bundler,150
-Weaver Damask,150
-Tenter,150
-Labourer in Shipyard,149
+Agricultral Labourer,Agricultural Labourer
+Agricultural Laboure,Agricultural Labourer
+Clerk Commercial,Commercial Clerk
+Tailor and Farmer,Tailor and Farmer
+Clothes Dealer,Clothes Dealer
+Wife of Farmer,Farmer's Wife
+Rate Collector,Rate Collector
+Black-Smith,Blacksmith
+Yarn Bundler,Yarn Bundler
+Weaver Damask,Damask Weaver
+Tenter,Tenter
+Labourer in Shipyard,Shipyard Labourer
 Printer - Compositor,149
 Laundress Domestic Servant,149
-Nat School Teacher,149
+Nat School Teacher,National School Teacher
 Farmers Grand Daughter,149
-Power Loom Tenter,149
-Builder and Contractor,148
+Power Loom Tenter,Power Loom Tenter
+Builder and Contractor,Builder and Contractor
 Stone Dresser,148
-Surveyor,148
-Flax Preparer,148
-Companion,148
-Linen Waver,147
-Vagrant,147
-Smother,147
+Surveyor,Surveyor
+Flax Preparer,Flax Preparer
+Companion,Companion
+Linen Waver,Linen Weaver
+Vagrant,Vagrant
+Smother,Smother
 Platers Helper,147
 Farm Son,147
 Dress Making,147
-Timber Merchant,147
+Timber Merchant,Timber Merchant
 Servant - Domestic,147
 Income from House Property,147
 Farmer and Labourer,147
 Woollen Weaver,146
-Presbyterian Minister,146
-Apprentice Fitter,146
-Vegetable Dealer,145
+Presbyterian Minister,Presbyterian Minister
+Apprentice Fitter,Apprentice Fitter
+Vegetable Dealer,Vegetable Dealer
 Grocer and Spirit Merchant,145
 Keeping House,145
-Tailor Master,145
-Nat Teacher,145
+Tailor Master,Master Tailor
+Nat Teacher,National School Teacher
 Laboror,145
 Plate Layer,145
-Catholic Clergyman,145
-Spreader,144
-Nurse Domestic Servt,144
-Spinner Linen,144
-Landed Proprietor,144
-Railway Platelayer,144
-Billiard Marker,144
-Distillery Labourer,144
-Roman Catholic Curate,144
-Brushmaker,144
-Roman Catholic Clergyman,143
-Grocer's Porter,143
-Fruiterer,143
-Helper,143
-Town Postman,142
+Catholic Clergyman,Roman Catholic Clergyman
+Spreader,Spreader
+Nurse Domestic Servt,Nurse Domestic Servant
+Spinner Linen,Linen Spinner
+Landed Proprietor,Landed Proprietor
+Railway Platelayer,Railway Platelayer
+Billiard Marker,Billiard Marker
+Distillery Labourer,Distillery Labourer
+Roman Catholic Curate,Roman Catholic Curate
+Brushmaker,Brushmaker
+Roman Catholic Clergyman,Roman Catholic Clergyman
+Grocer's Porter,Grocer's Porter
+Fruiterer,Fruiterer
+Helper,Helper
+Town Postman,Town Postman
 Sewing,142
-Veterinary Surgeon,141
-Iron Ore Miner,140
+Veterinary Surgeon,Veterinary Surgeon
+Iron Ore Miner,Iron Ore Miner
 Labourer Son,139
-Living on Interest of Money,139
+Living on Interest of Money,Living on Interest of Money
 Master Carpenter,139
-Fire Man,139
-Linen Manufacturer,138
-Rope Maker,138
-Scollars,138
+Fire Man,Fireman
+Linen Manufacturer,Linen Manufacturer
+Rope Maker,Ropemaker
+Scollars,Scholar
 Herds Son,138
 General Draper,138
-Stableman,137
-Priest,137
-Fisher,137
-Natl School Teacher,137
-Coach Man Domestic Servant,136
-Shop Apprentice,136
-Pawn Broker,136
+Stableman,Stableman
+Priest,Priest
+Fisher,Fisher
+Natl School Teacher,National School Teacher
+Coach Man Domestic Servant,Coachman Domestic Servant
+Shop Apprentice,Shop Apprentice
+Pawn Broker,Pawnbroker
 Blacksmith and Farmer,135
 Bill Poster,135
-Winder Linen,135
-School Master,135
-Medical Doctor,135
-Not,134
-Ship Joiner,134
+Winder Linen,Linen Winder
+School Master,Schoolmaster
+Medical Doctor,Medical Doctor
+Not,No Occupation
+Ship Joiner,Ship Joiner
 Sempstress,134
 Pattern Maker,133
-Insurance Clerk,133
-Stonemason,133
+Insurance Clerk,Insurance Clerk
+Stonemason,Stonemason
 Work on Farm,133
 Brewers Labourer,133
 G Servant Domestic,133
 Boarding House,132
-Poultry Dealer,132
-Daughter of Farmer,132
+Poultry Dealer,Poultry Dealer
+Daughter of Farmer,Farmer's Daughter
 Seamtress,131
-Attending a School,131
-Building Contractor,130
-Bar Man,130
+Attending a School,Scholar
+Building Contractor,Building Contractor
+Bar Man,Barman
 Mate,130
 Cardriver,129
 Constable R.I.C.,129
 House-Wife,129
 House Owner,128
-Linen Warper,128
-No occupation,128
+Linen Warper,Linen Warper
+No occupation,No Occupation
 General Servant D,128
-Warper,128
+Warper,Warper
 Embroidery,128
-Warp Winder,128
+Warp Winder,Warp Winder
 Labrour,127
-Schoolmistress,127
-Plough Man,127
-Power Loom Weaver,127
+Schoolmistress,Schoolmistress
+Plough Man,Ploughman
+Power Loom Weaver,Power Loom Weaver
 Groom Domestic,127
-Labourer in Factory,126
-Polisher,126
+Labourer in Factory,Factory Labourer
+Polisher,Polisher
 Parlour Maid Domestic,126
-Boat Builder,126
-Bookeeper,125
-House Keper,125
+Boat Builder,Boatbuilder
+Bookeeper,Bookkeeper
+House Keper,Housekeeper
 Chemists Assistant,125
 Domestic Servant House Maid,125
-Cotton Spinner,125
+Cotton Spinner,Cotton Spinner
 Cook-Domestic Servt,125
 Washwoman,125
 G. Labourer,125
