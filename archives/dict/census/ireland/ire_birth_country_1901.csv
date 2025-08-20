@@ -688,7 +688,7 @@ W. Meath,Ireland
 Co Wat,Ireland
 "Cashel, Co Tipperary",Ireland
 Co Limck,Ireland
-Isle of Wight,Isle of Wight
+Isle of Wight,England
 "Tullamore, Kings Co",Ireland
 Dery City,Ireland
 Conty Cork,Ireland
@@ -1672,7 +1672,7 @@ Co Deery,Ireland
 Co Fermannagh,Ireland
 "Magheragall, Co Antrim",Ireland
 Conty Cavan,Ireland
-Tasmania,Australia
+Tasmania,Tasmania
 "Leixlip, Co Kildare",Ireland
 "Glenavy, Co Antrim",Ireland
 Born County Antrim,Ireland
@@ -1702,7 +1702,7 @@ Cork Coy,Ireland
 Tipperary SR,Ireland
 "Bray, Wicklow",Ireland
 "Co Down, B Halbert",Ireland
-West India,India
+West India,West Indies
 "Ireland, Limerick City",Ireland
 "Charleville, Co Cork",Ireland
 County Dow,Ireland
@@ -2152,7 +2152,7 @@ Glenarm,Ireland
 Co West meath,Ireland
 "Terenure, Co Dublin",Ireland
 "Bofield, Co Mayo",Ireland
-Port Glasgow,Glasgow
+Port Glasgow,Scotland
 "Clogheen, Co Tipp",Ireland
 Ballyjasduff,Ireland
 Ballybay,Ireland
@@ -4949,7 +4949,7 @@ In Bray,Ireland
 "Co Monaghan, Clones",Ireland
 "Convoy, Co Donegal",Ireland
 "Tyrella, Co Down",Ireland
-Prussia,Prussia
+Prussia,Germany
 "Co Armag, Ireland",Ireland
 "Co Down, Ireland, C D",Ireland
 "B Bofy, Co Donegal",Ireland
@@ -5195,7 +5195,7 @@ Preston,England
 Berlin,Germany
 "Kerry, ?",Ireland
 County Roscomnon,Ireland
-I O Man,Isle Of Man
+I O Man,Isle of Man
 "C D, Ireland",Ireland
 "Ireland City, Co Antrim",Ireland
 Dumbartonshire,Scotland
@@ -5344,7 +5344,7 @@ West Belfast,Ireland
 Co Fyrone,Ireland
 Limck,Ireland
 "Rochdale, England",England
-"Newport, Isle of Wight",Ireland
+"Newport, Isle of Wight",England
 B C Cork,Ireland
 Manchester England,England
 "Co Derry, Ire",Ireland
@@ -5509,7 +5509,7 @@ Upper Killevy,Ireland
 Co Gal-Ireld,Ireland
 "Inchicullane, Kerry",Ireland
 "Cornhill, Co Kerry",Ireland
-Coventry,ENgland
+Coventry,England
 St Michails,Ireland
 "Co Louth, Ireland C I",Ireland
 Born in Co Louth,Ireland
@@ -6052,7 +6052,7 @@ Searoa,Ireland
 "Howth, County Dublin",Ireland
 Co Meade,Ireland
 Carlingford,Ireland
-Isle Man,Isle Of Man
+Isle Man,Isle of Man
 "Antrim, Bfast",Ireland
 "Belfast, A",Ireland
 Kilmallock,Ireland
@@ -6314,7 +6314,7 @@ Thostown,Ireland
 "Co Down, Ballynahinch",Ireland
 Countyrone,Ireland
 Peckham,England
-"Jersey, Channel Islands",Channel Islands
+"Jersey, Channel Islands",Jersey
 Tipp Coy,Ireland
 Cy Sligo,Ireland
 N Derry,Ireland
@@ -6681,7 +6681,7 @@ Co Riscommon,Ireland
 "Corn, Co Down",Ireland
 Co Leteirm,Ireland
 "Ga Head, Eng",England
-Jersey C I,Channel Islands
+Jersey C I,Jersey
 Carrickhugh,Ireland
 Co Clane,Ireland
 City of Tyrone,Ireland
@@ -9437,7 +9437,7 @@ Born in County Cavan,Ireland
 "Ballymans, Co Antrim",Ireland
 "C Antrim, B",Ireland
 Dacklin,Ireland
-Isle O Man,Isle Of Man
+Isle O Man,Isle of Man
 "Germany, Berlin",Germany
 King,Ireland
 "Glenbrook Co, Co Ireland",Ireland
@@ -9682,7 +9682,7 @@ Welshpool,2
 Co Meath ?,Ireland
 Pembroke st Irishtown,2
 "Anderson, Glascow",2
-"Natal, South Africa",2
+"Natal, South Africa",Natal
 Marlin,2
 "Newtownbride, Co Down",Ireland
 "Whitechapel, London",2
@@ -9693,7 +9693,7 @@ London W,2
 "Reetra, Co Roscommon",Ireland
 St Nicholas Parish,2
 "Foxford, Mayo",2
-"Antigna, West Indies",2
+"Antigna, West Indies",Antigua
 Ballina Co Mayo,Ireland
 "Queens Co, I C",2
 Newport mon,2
@@ -9965,7 +9965,7 @@ Tullagher,2
 "Rosstrevor, Co Down",Ireland
 Fermoy Co,2
 "Bishopstown, Co Cork",Ireland
-"Jersey, Channel Isles",2
+"Jersey, Channel Isles",Jersey
 "Strokedown, Co Roscommon",Ireland
 "Ballybunion, Co Kerry",Ireland
 "Kildangan, Co Kildare",Ireland
@@ -10084,7 +10084,7 @@ Edenderry and Co,2
 Bueuos Aires,2
 "Ireland, Bel",Ireland
 "Belfast, Co Antin",2
-"Belgaum, East Indies",2
+"Belgaum, East Indies",India
 Toronto N A,2
 "Donerale, Co Cork",Ireland
 Mayo Parish Backs,2
@@ -10093,7 +10093,7 @@ Ci Waterford,2
 "Co Kilkenny, Cruttenclough",Ireland
 Co Qeens,2
 "In Ireland, C Carlow",Ireland
-"Ceylon, India",India
+"Ceylon, India",Ceylon
 "Washington, U S A, D C",United States
 Co Tipparry,2
 "Co Tipp, P Kilbarron",2
@@ -10741,7 +10741,7 @@ Co Killkenney,2
 "St Pauls City of Cork, Ireland",Ireland
 "Co Kildare, Balymore",Ireland
 Carmarthenshire,2
-Island of Guernsey,2
+Island of Guernsey,Guernsey
 "Mongrea, Co Down",Ireland
 "Cabincare, Co Dublin",Ireland
 "Gortnucur, Antrim",2
@@ -10858,14 +10858,14 @@ Poplar London,2
 "Belfast, Jireland",Ireland
 "Co Derry, Ballaghy",Ireland
 "England, Woolwick",England
-"Argentine, Republic",2
+"Argentine, Republic",Argentina
 "Jordanstown, County Antrim",Ireland
 "British, England",England
 Clarestown,2
 "Mary Lough, Queens Co",2
 "Surry, England",England
 "Twickanham, Middx",2
-Russian Poland,2
+Russian Poland,Poland
 Not Married,2
 "Cloner, Co monaghan",Ireland
 "?, Co Antrim",Ireland
@@ -11035,12 +11035,12 @@ Glasnevin Dublin County,2
 "New Rose, Co Wexford",Ireland
 "Wakefield, England",England
 Born in Co Tyrone in Ireland,Ireland
-Isle of Malta,2
+Isle of Malta,Malta
 "Lorne, Co Antrim",Ireland
 "Blackshire, Laneshire",2
 "Co Down, Ballygowan",Ireland
 Cape Town Sq,2
-"Cairo, Egypt",2
+"Cairo, Egypt",Egypt
 Northwick,2
 "Kilbarry, Co Meath",Ireland
 "Bonnaham, Co Waterford",Ireland
@@ -11055,7 +11055,7 @@ Limerick Conty,2
 "Tully, Co Antrim",Ireland
 "Hamwood, Co Meath",Ireland
 Co Typparay,2
-"Capetown, St Africa",2
+"Capetown, St Africa",South Africa
 "Bailifland, Co Louth",Ireland
 "Co Meath, Ireland, Present Abode",Ireland
 Micheals Hill Church St,2
@@ -11244,7 +11244,7 @@ Scotalnd,2
 Blackroch,2
 Tower St City Cork,2
 "C Down, Bangor",2
-"Jersey, C Island",2
+"Jersey, C Island",Jersey
 "Nerss, Co Wexford",Ireland
 "Clondoogan, Co Meath",Ireland
 "Co Antrim, Cushendall",Ireland
@@ -11365,7 +11365,7 @@ Cumberland City,2
 Wo Shields,2
 "England, Armagh",England
 "Lambeg County, Antrim",2
-"Singapore, S S",2
+"Singapore, S S",Singapore
 "Limavady, County Derry",2
 106 Up Leeson St,2
 "Blue Bell, Co Dublin",Ireland
@@ -11378,7 +11378,7 @@ Greenore,2
 City New York,2
 "Lambeth, Surrey",2
 Killinchy Woods,2
-Guernsey Channel Islands,2
+Guernsey Channel Islands,Guernsey
 Dronghdo,2
 21 Blackhall Place,2
 "Newcaste, Co Wicklow",Ireland
@@ -11535,7 +11535,7 @@ County K Kenny,2
 "Linconshire, England",England
 City of Antrim,2
 Co Mays,2
-"Bahia, Brazil",2
+"Bahia, Brazil",Brazil
 Co Connaught,2
 Old Park,2
 "England, Roscommon",England
@@ -11700,7 +11700,7 @@ Co Firmanagh,2
 "County Down, Parish of Dru?goll?",Ireland
 Born in Co Down,Ireland
 "Dublin City, England",England
-"Gibraltar, Spain",2
+"Gibraltar, Spain",Gibraltar
 Country Tyrone,2
 "Fermanagh, I",2
 "Rosena, Co Tipperary",Ireland
@@ -11864,7 +11864,7 @@ St Wales,2
 "Glassdmount, Co Down",Ireland
 Hannastown,2
 "Dinapore, India",India
-"Bermuda, India",India
+"Bermuda, India",Bermuda
 "Curriglan, Co Cork",Ireland
 Gloustershire,2
 C Brighton by Rathgar,2
@@ -11943,7 +11943,7 @@ Macclesfield,2
 "Clonlyon, Co Meath",Ireland
 "Innisturk, Mayo",2
 "Renfrewshire, Glasgow",2
-"?nes, Newfoundland",2
+"?nes, Newfoundland",Newfoundland
 C Leitrm,2
 "Inver, Belmullet, Co Mayo",Ireland
 Demone,2
@@ -11981,7 +11981,7 @@ Monogh,2
 Lauragh City,2
 "Red Cross, Co Wicklow",Ireland
 Twickland,2
-"Gibralter, Spain",2
+"Gibralter, Spain",Gibraltar
 "Boston, US",2
 "Killenken, C Cavan",2
 County Roscomo,2
@@ -12383,7 +12383,7 @@ Ballygalley (Co Tyrone),Ireland
 Itlay,2
 "Tyraan, Co Donegal",Ireland
 "Shopshire, England",England
-"Cario, Egypt",2
+"Cario, Egypt",Egypt
 "Tanne, Co Galway",Ireland
 Channel Is,2
 "Limerick, Co Derry",Ireland
@@ -12542,7 +12542,7 @@ Couty Dery,2
 Du County,2
 Ammerica,2
 "Exeter, England",England
-"Valetta, Malta",2
+"Valetta, Malta",Malta
 "Hampstead, England",England
 Conty Donegal,2
 Kilarney,2
@@ -12608,7 +12608,7 @@ Co Dinnegall,2
 "England, Plymouth, Devon",England
 In Ruan,2
 Carmarthen,2
-In Sweden,2
+In Sweden,Sweden
 "Scotland, Fifeshire",Scotland
 "Old Brompton, Kent",2
 "Cork, Balligdlon",2
@@ -12696,7 +12696,7 @@ County Fermana,2
 "Kibborron, Co Tipperary",Ireland
 "Co Longford, Colehill",Ireland
 Marrion,2
-"St Heliers, Jersey",2
+"St Heliers, Jersey",Jersey
 Co Aarmagh,2
 "Ottawa, Canada",Canada
 "Co Tyrone, Tullerford, Drumgreen",Ireland
@@ -12704,7 +12704,7 @@ Co Aarmagh,2
 "Sarnia, Canada",Canada
 County Rosco,2
 Leitrom,2
-"Jersey, C I",2
+"Jersey, C I",Jersey
 Ballintempe Cork,2
 "Caithnesshire, Scotland",Scotland
 "Courfer, Co Down",Ireland
@@ -12865,7 +12865,7 @@ Rush C D,2
 Co Kilkerry,2
 "Townsend Street, Dublin",2
 "Cork, St Finbar Louth",2
-"West Indies, British",2
+"West Indies, British",West Indies
 Bal?,2
 South Sheilds,2
 "Gloucerteskie, England",England
@@ -12909,7 +12909,7 @@ C Tryone,2
 "France, Co Waterford",Ireland
 Coty Galway,2
 "Kings Co, Syngefield",2
-"Barbados, W I",2
+"Barbados, W I",Barbados
 Donyal,2
 "Naas, C.K",2
 Kent (Eng),England
@@ -12962,7 +12962,7 @@ Carmavey,2
 "Kingstown, Co of Dublin",2
 "Co Belfast, Ireland",Ireland
 "Ballymoney, County Antrim",Ireland
-"Su S Island, New Zealand",2
+"Su S Island, New Zealand",New Zealand
 Beffast,2
 Barrow in Furners,2
 In Limavade,2
@@ -13052,7 +13052,7 @@ Skibberen,2
 "Knocker, Co of Limerick",2
 "Ardgoal, Rathkeale, Co Limk",2
 Parish of Cappamore,2
-Aden Arabia,2
+Aden Arabia,Aden
 "Castel, Co Tipperary",Ireland
 Keadymore,2
 Islay,2
@@ -13069,7 +13069,7 @@ Dumnacarra,2
 Isle of Skye,2
 N Y U S A,United States
 Conty Kilkeny,2
-Island of Mauritius,2
+Island of Mauritius,Mauritius
 "Derry, Wexford",2
 "Lessarda, Co Cork",Ireland
 "Lisgoold, Cork",2
@@ -13086,7 +13086,7 @@ Ballyconaghy,2
 "Chicago, U.S.A",United States
 "Louth, Co Drogheda",2
 Lough,2
-"Hamilton, Bermuda",2
+"Hamilton, Bermuda",Bermuda
 "Blennerville, Co Kerry",Ireland
 Dungarvan Co Waterford,Ireland
 "Co Kerry, Miltown",Ireland
@@ -13144,7 +13144,7 @@ Cark,2
 C Lanarkshire,2
 Shankill,2
 Moneyrea,2
-"St Vincent, West Indies",2
+"St Vincent, West Indies",St Vincent
 "Co Down, Kilclief",Ireland
 Born in Waterford City,2
 "Dery, Ireland",Ireland
@@ -13181,7 +13181,7 @@ Sidney Australia,Australia
 "St Georges, London",2
 Wimbledon,2
 "Somerset, Eng",England
-Jersey Channel Islands,2
+Jersey Channel Islands,Jersey
 Rosn,2
 Baugh Co Cavan,Ireland
 "Baltimore, Maryland",2
@@ -13228,7 +13228,7 @@ Listress,2
 ? Co Waterford,Ireland
 "Armagh, Breagh",2
 "Inch, Co Cork",Ireland
-"Jersey, Ch Island",2
+"Jersey, Ch Island",Jersey
 "Sraughmore, Co Wicklow",Ireland
 "Cavanacan, Co Armagh",Ireland
 "Rochesland, Co Cork",Ireland
@@ -13399,7 +13399,7 @@ Tralee City,2
 "Glenville, Cork",2
 "Ballytore, Co Kildare",Ireland
 "Southwold, Suffolk",2
-"Buenos Aires, S A",2
+"Buenos Aires, S A",Argentina
 Fedamore,2
 Ballendine,2
 "Banhill, Scot",2
@@ -13439,9 +13439,9 @@ Hazelhatch Co,2
 City of Nottingham,2
 "Wigborough, Essex",2
 "Monaghan Co, Ireland",Ireland
-"Channel Islands, Jersey",2
+"Channel Islands, Jersey",Jersey
 Cot Kerry,2
-Jamica,2
+Jamica,Jamaica
 County Wesmeath,2
 "Dysert, Co Down",Ireland
 Kilmainhan,2
@@ -13558,7 +13558,7 @@ Camborne,2
 "Belfast, Iriland",2
 "Belfast, Co Antrim, Ire",Ireland
 Sudden,2
-"Capetown, South Africa",2
+"Capetown, South Africa",South Africa
 Surry England,England
 Blackrock C D,2
 "Listowel, County Kerry",Ireland
@@ -13589,7 +13589,7 @@ Switzland,2
 "Carnlough, Co Armagh",Ireland
 "Co Carlow, Ballylinnin",2
 Wigton,2
-"Florence, Italy",2
+"Florence, Italy",Italy
 "Arklow, Ireland",Ireland
 "Tullow, Carlow",2
 "Co Down, City of Belfast",Ireland
@@ -13656,7 +13656,7 @@ Balla Co Mayo,Ireland
 Strobone Tyrone,2
 Formil,2
 "England, Dorset",England
-Geneva Switzerland,2
+Geneva Switzerland,Switzerland
 "Harristown, Co Kildare",Ireland
 "Hartlepool, England",England
 Swiss,2
@@ -13775,7 +13775,7 @@ Cos Dublin,2
 "Mullets Town, Co Lought",2
 Kings town,2
 Hoswick,2
-"Trinidad, W Indies",2
+"Trinidad, W Indies",Trinidad
 "46 Rialto Cottage, Dublin City",2
 "Dhadee, Co Down",Ireland
 "Coleraine, Co Derry, Ireland",Ireland
@@ -13870,11 +13870,11 @@ Co Domegal,2
 "Burtonport, Co Donegal",Ireland
 "Kilkenny Street, Castlecomer, Ireland, Co Kilkenny",Ireland
 "New Market, Co Clare",Ireland
-"Alderney, C I",2
+"Alderney, C I",Alderney
 "Rosslare, Co Wexd",2
 "Pallustown, Co Cork",Ireland
 "Chingford, Essex",2
-St Helena Africa,2
+St Helena Africa,St Helena
 "New Jersey, America",United States
 "Poundgreen, Co Kildare",Ireland
 "Co Donegal, Co Dublin",Ireland
@@ -13925,7 +13925,7 @@ Carnarvonshire,2
 "Holyhead, Wales",2
 Strangford,2
 Coun Donegal,2
-"Cape Town, S Africa",2
+"Cape Town, S Africa",South Africa
 "Kells, Co Meat",2
 City of in Dublin,2
 "Co Galway, B Shire",Ireland
@@ -14003,9 +14003,9 @@ Minorca,1
 Timplemon,1
 Devonpart,1
 "Estation, Co Antrim",Ireland
-"Durban, South Africa",1
+"Durban, South Africa",South Africa
 City Ireland,Ireland
-Ireland of Jersey,Ireland
+Ireland of Jersey,Jersey
 "Antrim, Co Carrickfergus",1
 "Lisnastrain, Co Derry",Ireland
 Newark N J,1
@@ -14076,7 +14076,7 @@ Co Tipperrry,1
 "Newtown, Barry, Co Waterford",Ireland
 "Clonare, Queens Co",1
 "Belfast, City",1
-"Straits, Settle?",1
+"Straits, Settle?",Straits Settlements
 "Co Derry, Kilmoil",Ireland
 "Bunbeg, Co Donegal",Ireland
 "Grrigorars, Co Cork",Ireland
@@ -14106,7 +14106,7 @@ Dundram,1
 Co Loudonderry,1
 "Ennescorthy, Co Wexford",Ireland
 "Kilbogge, Co Armagh",Ireland
-"Co Tyrone, Finland",Ireland
+"Co Tyrone, Finland",Finland
 "Kells, Ireland",Ireland
 Cove of Cork,1
 "City of Wight, England",England
@@ -14243,7 +14243,7 @@ Monard,1
 "Colloney, Co Sligo",Ireland
 "Cavan, Cootehill",1
 "?usson, Co Derry",Ireland
-"Rangone, Burma",1
+"Rangone, Burma",Burma
 "Immune, Co Galway",Ireland
 "Ballybula, Co Mayo",Ireland
 "Co Antrim, Silverstream",Ireland
@@ -14308,7 +14308,7 @@ St Amres,1
 "Midletown, Co Armagh",Ireland
 Attymon,1
 Coicklow,1
-I of Malta,1
+I of Malta,Malta
 "Lionaskee, Co Cork",Ireland
 "Knockrath, Co Wicklow",Ireland
 "Ranalagh, Co Dublin",Ireland
@@ -14358,13 +14358,13 @@ Carr,1
 "Garran James, Co Cork",Ireland
 "King's County, Co Dublin",Ireland
 "London , England",England
-Hobart Tasmania,1
+Hobart Tasmania,Tasmania
 Rath Copper Co Kildare,Ireland
 "Greencastle, Co Donegal",Ireland
 Co Monnohan,1
 Tyrorone,1
 "Newlands, C K",1
-Laus? Switzerland,1
+Laus? Switzerland,Switzerland
 "Durham, Co Wicklow",Ireland
 Abbeyleix Queens County,1
 "Cappojim, Co Waterford",Ireland
@@ -14382,7 +14382,7 @@ Wexford Enniscorthy,1
 "Largs, Ayrshire",1
 "Co Westmeath, Near Mulligan",Ireland
 Armage Co,1
-Lausanne Both in Switzerland,1
+Lausanne Both in Switzerland,Switzerland
 Sherness England,England
 "Summer Hill, Dublin",1
 "Mt Rath, Queen's Co",1
@@ -14407,7 +14407,7 @@ Parish of Glendernott,1
 Marayshire G B,1
 Drumlee,1
 Co Lanarkshire,1
-"Trinidad, West Indies",1
+"Trinidad, West Indies",Trinidad
 "Pontefrast, Yorkshire",1
 "Borrian, Dublin",1
 Garrick,1
@@ -14438,7 +14438,7 @@ New Castle Westla,1
 "Ramelton, Donegall",1
 "Co Monaghan, Near Clones",Ireland
 "Easingwold, Yorkshire",1
-Tokio Japan,1
+Tokio Japan,Japan
 "Besehaven, Co Cork",Ireland
 "Clonesterskent, Co Galway",Ireland
 Motherwell,1
@@ -14454,7 +14454,7 @@ Cork City Cork,1
 "Upper Liberties, County Derry",1
 Upper Lelurtia,1
 "Newhaven, England",England
-"Kendy, Ceylon",1
+"Kendy, Ceylon",Ceylon
 F Dublin,1
 M Co Wicklow,Ireland
 "Count Cork, Ireland",Ireland
@@ -14468,7 +14468,7 @@ In Cape Clear,1
 "Co Donegal, Golard",Ireland
 Wynbery S A,1
 Harolds at Co Dublin,Ireland
-Island of Jersey Channel Island,1
+Island of Jersey Channel Island,Jersey
 "St Ives Cornwall, England",England
 "Inland, Co Antrim",Ireland
 "Omagh, City Tyrone",1
@@ -14602,8 +14602,8 @@ City L,1
 "Co Down, Hilsbrough",Ireland
 Laine Co Antrim,Ireland
 Clonmines,1
-Adelaide,1
-Luxembourg,1
+Adelaide,Australia
+Luxembourg,Luxembourg
 Stockholm,1
 Co Klkemy,1
 "Limk City, St Johns P",1
@@ -14631,13 +14631,13 @@ Dublin 34 Church St,1
 Dublin 21 Presana St,1
 Co Dublin 3 Anne St,Ireland
 "Salin Jura, France",France
-"Austria, Graz",1
+"Austria, Graz",Austria
 "Louth, Wales",1
 St Petersburg,1
 "Ballyhahill, Co Carlow",1
 "Tramore, Waterford Waterford",1
 "Tramore, Co Wexford",Ireland
-"Argentine, Republa",1
+"Argentine, Republa",Argentina
 Lims City,1
 "Gloucestushire, England",England
 Surat 2 - Indies,1
@@ -14677,7 +14677,7 @@ Rangnow,1
 "Hants, Eng",England
 Switzesland,1
 "Wmeath, Tipperary",1
-"Singapore, East Indies",1
+"Singapore, East Indies",Singapore
 "Co Derry, Castledawson",Ireland
 "Clomollon, Westmeath",1
 "Co Derry, Tarnuadace",Ireland
@@ -14805,7 +14805,7 @@ Tyrglasson,1
 Binn,1
 Knochmore,1
 "Ballylesson, County Antrim",Ireland
-Spain (British Subject),1
+Spain (British Subject),Spain
 "Belfast, C R",1
 "Back Lane, Dublin",1
 "Old Castle, Co Louth",Ireland
@@ -14889,7 +14889,7 @@ City waterford,1
 "Tyrone, Co Meath",Ireland
 "C Blany, Co Monagha",1
 Co Dunagall,1
-Ryde Isle of Wight,1
+Ryde Isle of Wight,England
 "Armagh, County Down",Ireland
 "Jamestown, Co Meath",Ireland
 "Killallon, West Meath",1
@@ -15277,12 +15277,12 @@ Monida,1
 "Hollybrook, Co Sligo",Ireland
 "Sleaford, Lincolnshire England",England
 "Greenoage, Co Down",Ireland
-"Neples, Italy",1
+"Neples, Italy",Italy
 Luxembury,1
 "Bellurgan, Co Louth",Ireland
 "Ireland, Gal",Ireland
 "Bandon, Cork W R",1
-Natal S Q,1
+Natal S Q,Natal
 "St Paneras, Middlesex",England
 West Hartlepool,1
 Cracow,1
@@ -15318,7 +15318,7 @@ San Francisco State of California U S,1
 County Dublin Kingsend,1
 "Churchill, Rulety Tralee, Co Kerry, Ireland",Ireland
 Tunadad,1
-"St Vincent, W Indies",1
+"St Vincent, W Indies",St Vincent
 "Co Meath, Tara",Ireland
 "Craigrusky, Co Down",Ireland
 County Hillhall,1
@@ -15373,7 +15373,7 @@ Car? Ireland,Ireland
 "Kelsha, Co Wicklow",Ireland
 "Lisbally, Sligo, Ireland",Ireland
 Born in Gurteen,1
-"Winbory, Cape Colony",1
+"Winbory, Cape Colony",Cape Colony
 "Lochannoch, Scotland",Scotland
 "Mount Melkick, Queens County",1
 "Co Down, Kelbridge, England, Shropshire",England
@@ -15407,7 +15407,7 @@ Bally? Co Down,Ireland
 Droghedga,1
 "Hunbug, Donshire",1
 Wurttemberg,1
-"Burhadoes, West Indies",1
+"Burhadoes, West Indies",Barbados
 "Norwich City, England",England
 W Wicklow,1
 "Gorrie, Ont",1
@@ -15440,7 +15440,7 @@ Co Ke,1
 "Naas, Co meath",Ireland
 "Kensingson, Middlesex",England
 "Dublin City, Clondalkenn Co",1
-Cowes Isle of Wight,1
+Cowes Isle of Wight,England
 "Ballyboden, Rathfarnham, Co Dublin",Ireland
 "Coppa, Co Kerry",Ireland
 "Co Kerry, Causeway",Ireland
@@ -15453,7 +15453,7 @@ Dublin City Brunswicot,1
 Ser Johns ?,1
 "Rotres, Co Down",Ireland
 "Durbar, Scotland",Scotland
-Atsea Off West Coast of Africa,1
+Atsea Off West Coast of Africa,At Sea
 Pollock Shours,1
 "Co Cork, Lisnagoorean",Ireland
 Kilwort,1
@@ -15468,7 +15468,7 @@ Lisgould,1
 Couty Londonderry,1
 Co Kildare in Ireland,Ireland
 "Swellen, Co Cavan",Ireland
-Ireland of Mauritius,Ireland
+Ireland of Mauritius,Mauritius
 Co Kork,1
 "Hazel Hatch, Dublin",1
 "Ballymana ,Co Antrim",Ireland
@@ -15644,7 +15644,7 @@ Satully,1
 Derevona,1
 Enniskellan,1
 "Hampshire, Col",1
-"Oporto, Portugal",1
+"Oporto, Portugal",Portugal
 Leiszuland,1
 Hollywell R County,1
 Tipperary in County,1
@@ -15745,7 +15745,7 @@ Bohola,1
 "Davenport, England",England
 "Co Kildare, Kildangan",Ireland
 Fermnagh,1
-Cape Colony Sa,1
+Cape Colony Sa,Cape Colony
 "St Louis MD, U.S.A",United States
 "Camblin, Co Wexford",Ireland
 "Qurrow, King's Co",1
@@ -15775,7 +15775,7 @@ C Ros,1
 "Pork, East India",India
 Co Weasth,1
 "Mildrum, Co Tipp",1
-"Poland, Warsaw",1
+"Poland, Warsaw",Poland
 Athlone Roscommon,1
 Nenag,1
 Barryhadering,1
@@ -15813,7 +15813,7 @@ Co South Ardee,1
 "County Armargh, Lurgan",1
 "Ireland, Coy Armagh",Ireland
 "Millport, Scotland",Scotland
-"British, Guiana",1
+"British, Guiana",British Guiana
 "Clough Mills, Co Antrim",Ireland
 "Killmena, Mayo",1
 "Mayo, Killmena",1
@@ -15939,7 +15939,7 @@ Mullery or Co Westmeath,Ireland
 "Enniskillen, Fermangh",1
 "Fermoy, Co Clare",Ireland
 Isle of Anglesey,1
-Tunis North Africa,1
+Tunis North Africa,Tunisia
 Wales Conway,1
 "Co Leiterim, Ireland",Ireland
 "Co Cork, Tallow",Ireland
@@ -16031,7 +16031,7 @@ Ballygaro in Queens Co,1
 "Culdaff, Origall",1
 "Co Mayo, Tralee",Ireland
 Co Mary,1
-Pierra Lcore Africa,1
+Pierra Lcore Africa,Africa
 Eilltown,1
 Waler,1
 "Glanmorgan, Wales",1
@@ -16060,7 +16060,7 @@ Union,1
 "Co Kerry, Rossancan, Co K",Ireland
 "Southwark, London, Eng",England
 "Tuin, Co Meath",Ireland
-"Port of Spain, Divided, West Indies",1
+"Port of Spain, Divided, West Indies",West Indies
 "Gravesend, Kent",1
 Eng Sussex,England
 "Mayflax, Scotland",Scotland
@@ -16127,7 +16127,7 @@ Co City Limerick,1
 "Derrygooney, Co Monaghan",Ireland
 Rathbride,1
 "Newton, Mondgemerys",1
-"Yokohama, Japan",1
+"Yokohama, Japan",Japan
 East India Bengal,India
 Not Queens Co,1
 ? Kilkenny,1
@@ -16284,7 +16284,7 @@ Kinnegad,1
 Craveney,1
 "Ns, America",United States
 "Merchans Town, Co Tyrone",Ireland
-Argentine,1
+Argentine,Argentina
 "Merchants Town, Co Tyrone",Ireland
 South Ameca,1
 D Co Kerry,Ireland
@@ -16424,7 +16424,7 @@ Hereford England,England
 St Petersbury Russia,1
 "Belfast, Tyrone",1
 "Louth, Scotland",Scotland
-Brazil S I,1
+Brazil S I,Brazil
 Co Kilnny,1
 "Co Antrim, Whitehead",Ireland
 "Lisfannan, Doneygall",1
@@ -16458,7 +16458,7 @@ In Ireland Coy Londonderry,Ireland
 Rinsha,1
 Drimoleague,1
 "Magdalene St, Drogheda",1
-"Monte Lupo, Italy",1
+"Monte Lupo, Italy",Italy
 "Sandyford, Co Dublin",Ireland
 London College Park,1
 "Richmond, England",England
@@ -16651,7 +16651,7 @@ Gortnasillagh,1
 Born Kings,1
 "Near Strabane, Co Tyrone",Ireland
 "Newtown Cunninghan, Co Donegal",Ireland
-Co Africa,1
+Co Africa,Africa
 East Donegal,1
 "St Johnston, Co Derry",Ireland
 "County Kilkenny, Ireland",Ireland
@@ -16755,7 +16755,7 @@ Co Bangordown,1
 "Balg?, Co Meath",Ireland
 Bust Derry,1
 Cout Tyrone,1
-W Africa,1
+W Africa,Africa
 "Island, Cavan, Bushmills, Co Antrim",Ireland
 Lanarkshire Scotland,Scotland
 "Scotland, Bowmore Islay",Scotland
@@ -16785,7 +16785,7 @@ Co Coalreinderry,1
 Co Craine,1
 "Ardeath, Meath",1
 "Co Kildare, Dublin",Ireland
-Argentine Repic,1
+Argentine Repic,Argentina
 "Crumscarthy, Co Wexford",Ireland
 "Middlesc, England",England
 "Gloneshershire, England",England
@@ -16855,13 +16855,13 @@ Ballynicble,1
 Northern?,1
 Kenilworth,1
 "Rostellan, Cork",1
-"St Johns, Newfoundland",1
+"St Johns, Newfoundland",Newfoundland
 "England, Newcastle West",England
 Jarmani,1
 "Preston, Eng",England
 Killanny,1
-"Milan, Italy",1
-"Guernsey, Channel, Island,",1
+"Milan, Italy",Italy
+"Guernsey, Channel, Island,",Guernsey
 "Co Lanarth, Scotland",Scotland
 Couty R Common,1
 "Lankashire, Engd",England
@@ -16874,7 +16874,7 @@ Rio De Janeiro,1
 Co Orratine?,1
 Rill Wales,1
 Sctland,1
-Sierra Scone,1
+Sierra Scone,Sierra Leone
 "Pales, Queens Co",1
 "Worbarrow, Darset, England",England
 "E?lafad?he, Ballymote",1
@@ -16886,9 +16886,9 @@ Limerick Street,1
 Drumburg,1
 "Blackheath, Co Kent",1
 "Ballyhooley, Co Cork",Ireland
-"Egypt, Mediterranes",1
-"Cypris, Mediterranes",1
-"Malta, Mediterranes",1
+"Egypt, Mediterranes",Egypt
+"Cypris, Mediterranes",Cyprus
+"Malta, Mediterranes",Malta
 "Meath, Narbutas",1
 "Huntle, Co Meath",Ireland
 "Killallon, Meath",1
@@ -16908,7 +16908,7 @@ Persuvania,1
 "Bally Shannon, Co Donegal",Ireland
 "Beith, Ayrshire, Scotland",Scotland
 "Meath, County",1
-Bermuda W T,1
+Bermuda W T,Bermuda
 Maritins,1
 "Devon, Engl",England
 "America, New Prto?",United States
@@ -16932,7 +16932,7 @@ Duluh,1
 "Kilkenna, Co Mayo",Ireland
 "Tinteran, Co Wexford",Ireland
 Newtown Stewart,1
-"Switzerland, Geneva",1
+"Switzerland, Geneva",Switzerland
 "Carn Brude, CoDonegal",1
 Cou Roscon,1
 "Gladree, Co Mayo",Ireland
@@ -16953,7 +16953,7 @@ Montreal-Canada,Canada
 "Criff, Perthshitre, Scotland",Scotland
 "Co Dublin, Wexford",Ireland
 "Ballitore, Co Kildare",Ireland
-Caris Egypt,1
+Caris Egypt,Egypt
 Derra,1
 Fer,1
 Kirkcubbon,1
@@ -17137,7 +17137,7 @@ Cavanagarvin,1
 "Co Mayo, Balliha",Ireland
 Bridge of Scotland,Scotland
 "Ballycatton, Co Cork",Ireland
-"East Donaoe, S. Africa",1
+"East Donaoe, S. Africa",South Africa
 Bangalore India,India
 Thomas St Dublin,1
 Dalry Ayrshire,1
@@ -17227,7 +17227,7 @@ Aghaloon,1
 "Town of Cfergus, Co Antrim",Ireland
 "Scotland, Edinbrgh",Scotland
 "Ballincarry, Co Tipperary",Ireland
-"Channell, Jersey, Ireland",Ireland
+"Channell, Jersey, Ireland",Jersey
 "Tufrid, Co Kilkenny",Ireland
 "Kilcross Inistioge, Co Kilkenny",Ireland
 "Cuttahill, Queen Co",1
@@ -17327,7 +17327,7 @@ Willbrook,1
 Whitchurch,1
 Bamffshire N B,1
 Poynty Pass,1
-"Gozo, Malta",1
+"Gozo, Malta",Malta
 Glendore,1
 Strabone,1
 "Co Londonderry, Limavady",1
@@ -17366,7 +17366,7 @@ Cookford,1
 "Co Kerry, Glenflesk",Ireland
 "Abbey Wood, Queens Co",1
 "Killarney, Kerry Co",1
-Guernsey C I,1
+Guernsey C I,Guernsey
 "Chelmford, Essexshire, England",England
 "Ireland, Co Antrinal",Ireland
 N Ross Co W,1
@@ -17518,7 +17518,7 @@ Ramsey Town,1
 Halifax America,Canada
 "Chaslive, Co Cork",Ireland
 "Gorak, Co Armagh",Ireland
-"New Zealand, Hokitika",1
+"New Zealand, Hokitika",New Zealand
 "Dublin, Basin Lane",1
 Rathkenney,1
 "Shafford, England",England
@@ -17575,7 +17575,7 @@ M Charle Idle Rd,1
 "Kerr, Surrey",1
 "Renoyle, Co Galway",Ireland
 "Buengsaytles, South America",Argentina
-"St Vincent, ?",1
+"St Vincent, ?",St Vincent
 "Scotland, Leith",Scotland
 County Lme,1
 "Co Cork, Inchigeelagh",Ireland
@@ -17790,8 +17790,8 @@ Oldpark Village,1
 City Lirmick,1
 "Ballysheagh, Co Down",Ireland
 "Mossside, Co Antrim",Ireland
-Central Africa,1
-The Argentine Republic,1
+Central Africa,Africa
+The Argentine Republic,Argentina
 Co Camberland,1
 "Sealand Herban, England",England
 "Baltinglas, Co Wicklow",Ireland
@@ -17852,17 +17852,17 @@ Co Sligo?,Ireland
 "Liverbridge, Co Armagh",Ireland
 "Knockbrack, Coy Do",1
 "Donaghy, Coy Do",1
-"Natal, S A",1
+"Natal, S A",Natal
 "City of Dublin, Y C Harbour",1
 "Churchton, Athy, Co Kildare",Ireland
 "Mullabrack, Co Armagh",Ireland
-"St Helens, America",St Helens
+"St Helens, America",St Helena
 Parish Kilmacow,1
 Co Killyenny,1
 "Cowley St John, Oxford",1
 "Netley, Eng",England
 Co Donelgal,1
-"Natal, Africa",1
+"Natal, Africa",Natal
 A Helena,1
 "Brighouse, England",England
 "Peckham, London",1
@@ -17968,7 +17968,7 @@ Stindon Saddle,1
 Brackney,1
 "Blinch, County Down",Ireland
 County Londerry,1
-Republic Argentina,1
+Republic Argentina,Argentina
 Co Anterbury,1
 "Tipperary, Cappoquin",1
 Co Leitirm,1
@@ -17986,7 +17986,7 @@ Jersey C Arnolds,1
 "Donagheady, Co Tyrone",Ireland
 Culmose,1
 Garragh,1
-"Cape Colony, South Africa",1
+"Cape Colony, South Africa",Cape Colony
 "Co Pleahagen, Derryrush",1
 "Chontarf, Co Dublin",Ireland
 "Ballywest, Co Antrim",Ireland
@@ -18025,7 +18025,7 @@ Tulleygarley,1
 Curragh Kildare,1
 The Hague Holland,1
 South India,India
-Argentina S A,1
+Argentina S A,Argentina
 "Powerstown, Leighlin, Co Carlow",1
 "Middletown, Co Cork",Ireland
 "Ennisken, Co Meath",Ireland
@@ -18185,7 +18185,7 @@ Carrichon Sure,1
 "Dungannan, Co Tyrone",Ireland
 Co Marg,1
 "Ireland, C May",Ireland
-Island of Malta,1
+Island of Malta,Malta
 "Battersen, London",1
 "Cratloe, Clare",1
 Cratloe,1
@@ -18368,7 +18368,7 @@ Oekney,1
 "England, Sunder City",England
 "Arbroath N B, (Scotland)",Scotland
 Meadstown,1
-Ceylon Island of,1
+Ceylon Island of,Ceylon
 America K,United States
 "Queensberry, Scotland",Scotland
 "Cornody, Co Cork",Ireland
@@ -18377,7 +18377,7 @@ America K,United States
 "Co Wexford, England",England
 "Skibbereen, Co Cork, Ireland",Ireland
 "Plymouth, Dromahair, England",England
-"Estcourt, Natal, South Africa",1
+"Estcourt, Natal, South Africa",Natal
 "Melbrook, Clonmel, Co Tipperary",Ireland
 "Bank Erod Milngave, Scotland",Scotland
 Co Mondchan,1
@@ -18407,7 +18407,7 @@ Barkin Head Wales,1
 "Clara, Co Down",Ireland
 "Co Down, Drumel",Ireland
 "Carlton, Norfolk",1
-"Eastburne, Austria",1
+"Eastburne, Austria",Austria
 "Enniskillen, Ireland, Co Fermanagh",Ireland
 "Terenure, Rathgar, Co Dublin",Ireland
 "Pouladuff, Co Cork",Ireland
@@ -18738,7 +18738,7 @@ Co Antrim Irel,Ireland
 "Donaraile, Co Cork",Ireland
 "Laharn, Co Kerry",Ireland
 "Banty, Ireland",Ireland
-Jamaica W S,1
+Jamaica W S,Jamaica
 Derryhennit,1
 "Grange, Co Waterford",Ireland
 "Northampton, Eng",England
@@ -18773,7 +18773,7 @@ Foughal Co Cork,Ireland
 "New?, Co Kildare",Ireland
 Putney Down,1
 "Dunleer, Co London",1
-"Ahmanaggar, East Indies",1
+"Ahmanaggar, East Indies",East Indies
 "Co Cork, Donesal",Ireland
 "England, Hill Yorkshire",England
 South Sea,1
@@ -18880,7 +18880,7 @@ Downpatrick Down,1
 "Sydenham, Middlesex",England
 "Kilderkin, County Clare",Ireland
 Peasley,1
-"Lucca, Italy",1
+"Lucca, Italy",Italy
 "Co Dublin, Pembroke Township",Ireland
 "Dromesllogher, Co Limerick",Ireland
 "Dromcollogher, Co Limerick",Ireland
@@ -18900,7 +18900,7 @@ Queenstown County Cork,Ireland
 Denaley York's,1
 "Bangher, Kings County",1
 "Kirr, Kings County",1
-"Farmerston Tasmania, Australia",Australia
+"Farmerston Tasmania, Australia",Tasmania
 Co Tipp Clonmel,1
 Cue Roo Lane,1
 "Sanfrancisco, America",United States
@@ -18948,7 +18948,7 @@ Bin Kings Co,1
 "St.Georges, Dublin",1
 "Londonderry, Kings Co",1
 Gibraltas,1
-"At Sea, St Helena",1
+"At Sea, St Helena",At Sea
 "Shankally, Co Cork",Ireland
 "Simonstown, Co Kildare",Ireland
 "Bonebrook, Co Cavan",Ireland
@@ -19049,7 +19049,7 @@ Gersey Island,1
 "Dundallk, Co Louth",Ireland
 "Leanstershore, England",England
 Avington Hauts,1
-Alexandria Egypt,1
+Alexandria Egypt,Egypt
 "Geyabby, Co Down",Ireland
 "Leiantershore, England",England
 County Dn,1
@@ -19108,7 +19108,7 @@ County Hent,1
 "I of Hight, Newfort",1
 Slitt?gan,1
 "Windgates, Co Wickl",1
-"Simonstown, South Africa",1
+"Simonstown, South Africa",South Africa
 "Pullamor, King's Co",1
 "Co Antrim, Landgrave",Ireland
 Indian Ocean On Board H M T S Himalaya,India
@@ -19141,7 +19141,7 @@ India E,India
 "Scotland, Ireland",Scotland
 "Near Ballymoney, Co Antrim",Ireland
 "Ire, Queens Co",1
-Cape Colony T A,1
+Cape Colony T A,Cape Colony
 "Co Amagh, Lurgan",1
 Parish Kilmore,1
 "Chetham, Kent",1
@@ -19224,7 +19224,7 @@ Philadelphia Park S A,1
 Colloony,1
 Co Limbrick,1
 "Co Limerick, Co Tipperary",Ireland
-Saville Spain,1
+Saville Spain,Spain
 "Firoda, Co Kilkenny",Ireland
 "Rathcoffey, Co Kildare",Ireland
 "Kilmore, Roscommon Co",1
@@ -19420,7 +19420,7 @@ J K England,England
 "Noan, Co Tipperary",Ireland
 "Clonmel, Co Tipr",1
 "Mullicavat, C Kilkenny",1
-"Durban, S Africa",1
+"Durban, S Africa",South Africa
 W,1
 Town of Tippery,1
 "Cappoquine, Co Weterford",1
@@ -19528,7 +19528,7 @@ Surrey E,1
 "Antrim, Cy Antrim",1
 "Bray, Cy Wicklow",1
 In City Waterford,1
-"Jersey, Cromel Isles",1
+"Jersey, Cromel Isles",Jersey
 "C?, Co Cork",Ireland
 Combordya,1
 "Cappawhite, Co Tip",1
@@ -19544,7 +19544,7 @@ Corry,1
 "Bolcy, Queens County",1
 Galwaw,1
 "Inistioge, Co Kilken",1
-Florance Italy,1
+Florance Italy,Italy
 "Co Tyrone, Ballygawley",Ireland
 "Lambeg, County Antrim",Ireland
 Fermannah,1
@@ -19576,7 +19576,7 @@ City of Killkenny,1
 "Cuckor Hill, Co Tipperary",Ireland
 Co Tpperory,1
 Brotone America,United States
-Natal Africa,1
+Natal Africa,Natal
 "Clonmer, Co Tipperary",Ireland
 "Carn, Co Kilkenny",Ireland
 "Conality, Cork",1
@@ -19653,7 +19653,7 @@ Cork and City,1
 Exeeter,1
 "Co Belfast, Down",1
 "Kirkdale, England",England
-"Jersey Channel, Island",1
+"Jersey Channel, Island",Jersey
 "London, Belfast City",1
 New England,England
 Lancheshire,1
@@ -19746,7 +19746,7 @@ In Clohre Cork,1
 Loughel,1
 "Chatom, Co Kent, England",England
 "Halifer, N S N A",1
-"Egypt, Africa",1
+"Egypt, Africa",Egypt
 "Longfield, Co Armagh",Ireland
 Casantown,1
 Pusperons Kildare,1
@@ -19810,7 +19810,7 @@ B Co Derry,Ireland
 "Ireland, Newry Co Down",Ireland
 "Banbury, England",England
 "Famous, Co Cork",Ireland
-"Jersey, Chnl Islands",1
+"Jersey, Chnl Islands",Jersey
 Co ldar,1
 "Acushla, Kerry",1
 "L Chartton, Kerry",1
@@ -19863,7 +19863,7 @@ All in Mayo,1
 City Arklow,1
 "Eng, Lanc",England
 "Annabilt, Ballymurphy",1
-"Johannesburg, South Africa",1
+"Johannesburg, South Africa",South Africa
 "Dumbarton Shire, Scotland",Scotland
 Goland,1
 C A Goland,1
@@ -20034,7 +20034,7 @@ Kell's Co Meath,Ireland
 Castlanes,1
 "Old Chapel, Co Cork",Ireland
 "Co Cork, Rostellan",Ireland
-Jersey (C I's),1
+Jersey (C I's),Jersey
 Ringerkiddy,1
 "Midle, Co Cork",Ireland
 Leonardy by Perry,1
@@ -20199,7 +20199,7 @@ Manchester Town,England
 "Seven Churches, Co Wicklow",Ireland
 "Kings County, Co Cavan",Ireland
 "Dorchester, England",England
-"Kerne, Switzerland",1
+"Kerne, Switzerland",Switzerland
 "Wurtenberg, Germany",Germany
 "West Chester, America",United States
 Clayhmills,1
@@ -20235,7 +20235,7 @@ Coher,1
 "Co Roscommon, Athlone, Connaught",Ireland
 Co Knockerrylop,1
 Alders?,1
-Isl of Ceylon,1
+Isl of Ceylon,Ceylon
 Hampslure,1
 Saffordshire,1
 "Bauff N B, West Home Terrace",1
@@ -20422,7 +20422,7 @@ Borougbridge,1
 "Knockwood, Brevill, Co Limerick",Ireland
 "City of Dalsmith, Scotland",Scotland
 "Cothshal, Norfolk",1
-"Channel Island, Jersey",1
+"Channel Island, Jersey",Jersey
 Stayford,1
 Portarlington La Co,1
 Penslyvenia,1
@@ -20436,7 +20436,7 @@ Rathbone,1
 "Co Kiloan, Kilurk",1
 "Kings Co, Co Roscommon",Ireland
 Co Green,1
-Jamaica W I,1
+Jamaica W I,Jamaica
 "Co Tipperary, Co Kerry",Ireland
 "Pitzburgh, U S A America",United States
 "Ballgooley, Co Cork",Ireland
@@ -20531,11 +20531,11 @@ Midlesex,1
 "Thomastown, Kilkenny",1
 "Lanckshire, England",England
 Shipfield England,England
-Jamaica W J,1
+Jamaica W J,Jamaica
 Hetferdshire,1
 "Castlereagh, C Down",1
 "Co Fermanagh, Devinesh",Ireland
-"Pretoria, Africa",1
+"Pretoria, Africa",South Africa
 "England, South Deoow",England
 "Tahon, East India",India
 Ballintample,1
@@ -20691,7 +20691,7 @@ Abbeyfeal Co L Limerick,1
 Milchilstown,1
 "Aghowle, Co Kerry",Ireland
 Queen's County Ireland,Ireland
-Sou Africa,1
+Sou Africa,South Africa
 13 Hemmound Lane,1
 Co Wick Meath,1
 "York, Ireland",Ireland
@@ -20838,7 +20838,7 @@ Killteel Co Kildare,Ireland
 Clondalkin Co Dublin,Ireland
 "Co Down, Hills Borough",Ireland
 "Knockmore, Co Antrim",Ireland
-"?goon, British Bermuda",1
+"?goon, British Bermuda",Bermuda
 "Secunderabad, Madras Presidency",1
 "Wellington, Madras Presidency",1
 "Dublin City, Panis ?",1
@@ -20913,7 +20913,7 @@ Co Dublin in Ballycross,Ireland
 Thurlus,1
 "Novia Scotia, Halifax, N S",1
 "Ireland, Bagnalstown, Co Carlow",Ireland
-"Ish Queensburgh, S Africa",1
+"Ish Queensburgh, S Africa",South Africa
 Scawa,1
 "Irland, Co Arma",1
 Newbless,1
@@ -21033,10 +21033,10 @@ Ireland (Dublin),Ireland
 "Blidworth, Notts",1
 "Co Antrim, Ballyhill",Ireland
 Co Kavin,1
-"Pegu, Burma",1
+"Pegu, Burma",Burma
 Co Turone,1
 "Lands, England",England
-"Vryburg, 8th Africa",1
+"Vryburg, 8th Africa",South Africa
 "Clabby, Co Fermanagh",Ireland
 "Stoke Poges, England",England
 Co Tppe,1
@@ -21100,7 +21100,7 @@ Bellymagan,1
 Cawbridge,1
 "Brackey, Co Armagh",Ireland
 "St Michael, Hants",1
-"Rome, Italy",1
+"Rome, Italy",Italy
 "Kendle, Westmoreland",1
 Dallybay,1
 Ports Mith Town,1
@@ -21147,7 +21147,7 @@ Einburgh,1
 Folkland Islands,1
 Ilkeston,1
 "Struit, Settlements",1
-"Africa, Cape Town",1
+"Africa, Cape Town",South Africa
 "Ballymartle, Kinsale",1
 "Eastferry, Co Cork",Ireland
 Redditch,1
@@ -21231,7 +21231,7 @@ Channel Isles Guerney,1
 "Lenedyreagh, Co Down",Ireland
 Prussea St,1
 "Ireland, Lim",Ireland
-"Vigo, Spain",1
+"Vigo, Spain",Spain
 "Co Rth Hampton, England",England
 "Balla, Mayo",1
 "Killwood, Roscomon",1
@@ -21261,7 +21261,7 @@ Country Waterford,1
 Lincashire,1
 Roscrea Co,1
 Ballenstray,1
-Portugal Foreign Subject,1
+Portugal Foreign Subject,Portugal
 "Tinn?, Co Wicklow",Ireland
 Assam,1
 "Co Dublin, North Wales",Ireland
@@ -21274,7 +21274,7 @@ Secundrabad,1
 Eniskillen,1
 "Ardmore, Co Down",Ireland
 Kilred,1
-Demerara W I,1
+Demerara W I,British Guiana
 "Co Cork, Ballycroneen",Ireland
 "Cherryvalley, Co Down",Ireland
 "Oola, Co Wicklow",Ireland
@@ -21297,7 +21297,7 @@ Droben England,England
 "Co Limerick, I",Ireland
 "Killaloe, Co Tipperary",Ireland
 "Worksop, Notti",1
-"Lauzaune, Switzerland",1
+"Lauzaune, Switzerland",Switzerland
 "Co Wexford, ?hmon",Ireland
 "E N, Yorkshire",1
 "Campsie, Stirlingshire, Scotland",Scotland
@@ -21405,7 +21405,7 @@ Dublin Rathmines,1
 "Warminster, England",England
 Countey Down,1
 "Letterbreen, Co Fermanagh",Ireland
-"Trimdad, West Indies",1
+"Trimdad, West Indies",Trinidad
 "Sona, Co Meath",Ireland
 "Cleve, Germany",Germany
 Racramento,1
@@ -21481,7 +21481,7 @@ County Dublin Rathmines,1
 "East Ham, England",England
 "Anglesey, Wales",1
 "Detroit Michigan, U.S.A.",United States
-Switzerland A,1
+Switzerland A,Switzerland
 "Moakstown, Co Dublin",Ireland
 "St Parer as England, London",England
 "T 5 St John Rogers Quay, City Dublin",1
@@ -21516,7 +21516,7 @@ U S Amarica,United States
 "Loughaskey, Co Sligo",Ireland
 Tenby,1
 "England, Chester",England
-"Trinidad, R I",1
+"Trinidad, R I",Trinidad
 "Ivertown, Scotland",Scotland
 "Crossnacreery, Co Down",Ireland
 ? Tyrone,1
@@ -21534,7 +21534,7 @@ City of Lincoln,1
 "Tyra, Co Armagh",Ireland
 C Queens County,1
 "Derries, Co Donegal",Ireland
-"Port Elizabeth, Cape Colony",1
+"Port Elizabeth, Cape Colony",Cape Colony
 "Phebadelphie, U S A",United States
 "Ballymena, Co Antram",1
 "Whiteabbey, Co Antram",1
@@ -21658,8 +21658,8 @@ Scot,1
 "Baltimore, Cork",1
 "Scarlow, England",England
 County Ford,1
-"Jersey Chan, Island",1
-"East Indies, India",India
+"Jersey Chan, Island",Jersey
+"East Indies, India",East Indies
 "Galway, East Riding",1
 Beran St,1
 Glunies B P,1
@@ -21747,7 +21747,7 @@ Santega,1
 Westharlepool,1
 Co Darry,1
 "England, Alershot",England
-"England, Jersey",England
+"England, Jersey",Jersey
 "Allerce, Co Derry",Ireland
 "Knock Marshall, Co Wexford",Ireland
 County Rosscarbery,1
@@ -21777,7 +21777,7 @@ Douglas I of Man,1
 "Bombay, E I",1
 "Blackood, Co Mayo",Ireland
 Couty Limerck,1
-"Guernsey,Charvll Irland",1
+"Guernsey,Charvll Irland",Guernsey
 "Drumba, Co Down, Ireland",Ireland
 Whistable Kent,1
 Foynes Co Limerick,Ireland
@@ -21811,7 +21811,7 @@ Coty Sligo,1
 "Chapel? La, Co Dublin",Ireland
 "England, Co Dorbyshire",England
 "Lamerton, Devon",1
-"Harbour, Briton, Newfoundland",1
+"Harbour, Briton, Newfoundland",Newfoundland
 Landen,1
 "Co Moone, Ireland",Ireland
 Corn,1
@@ -21858,7 +21858,7 @@ Renpill House,1
 Larch Hill Santry,1
 Larch Kill Santry,1
 "England, Mayo",England
-"Malta, Metterson",1
+"Malta, Metterson",Malta
 "B Ireland, Co Sligo",Ireland
 "B Ireland, Co Roscommon",Ireland
 Whitegate,1
@@ -22011,19 +22011,19 @@ Glenerew,1
 "Ponieroy, Co Tyrone",Ireland
 Shorneliffe,1
 F?shire,1
-Russia Poland,1
+Russia Poland,Poland
 Canterburgey,1
 Amtria,1
 Co Knock,1
 "Clough Jordeen, Co Tipperary",Ireland
 "Co Armagh, Blackwadutown",Ireland
-"C Jersey, Islands",1
+"C Jersey, Islands",Jersey
 Nice France,France
-"Alderney Channel, Island",1
+"Alderney Channel, Island",Alderney
 Dunganen,1
-Canadia,1
+Canadia,Canada
 "Palace, Co Wexfd",1
-Buenos Dyres,1
+Buenos Dyres,Argentina
 "New Moss, County Wexford",1
 "Ballacoot, Co Wicklow",Ireland
 Co Ballyedmond,1
@@ -22180,7 +22180,7 @@ New Grand Co Antrim S G,Ireland
 "England, Dublin",England
 "Tipperary, Co Armagh",Ireland
 "Wisconsin, U S America",United States
-"Rangoon, Burma",1
+"Rangoon, Burma",Burma
 "Cebberin, Cork",1
 "Cidberin, Cork",1
 Ballymack,1
@@ -22276,7 +22276,7 @@ Co Dublin Kingstown,Ireland
 "Joe, Co Wick",1
 "Waudsworth, London",1
 "London, Co London",1
-"Johanesburg, Transvaal",1
+"Johanesburg, Transvaal",Transvaal
 Co Fermanaght,Ireland
 "Fitt, Co Wexford",Ireland
 "W Indies, Grenada",1
@@ -22330,7 +22330,7 @@ Queen's Count,1
 "Ballma, Kings County",1
 Co Rosscomn,1
 "Grange, Co Meath",Ireland
-Island of Ceylon,1
+Island of Ceylon,Ceylon
 "Mactown, Meath",1
 Kells County,1
 Gurnley,1
@@ -22383,10 +22383,10 @@ Tresternagh,1
 Multy Farnham,1
 "Clonard, Abbeyleix",1
 County Rosn,1
-In Africa,1
+In Africa,Africa
 "Killbride, Co Wicklow",Ireland
 "England, Nollagha",England
-South America Co Galway,Ireland
+South America Co Galway,South America
 "Tipperary, North Riding",1
 "Lusk, Co Kildare",Ireland
 Fermdy Co Cork,Ireland
@@ -22422,13 +22422,13 @@ Leslioren,1
 "Leepeside, Co Antrim",Ireland
 "Caherceveen, C Kerry",1
 "Great Fethard, Tipperary",1
-"St Georges, Bermuda",1
+"St Georges, Bermuda",Bermuda
 "Belfast City, County Antrim, Ireland",Ireland
 Mary,1
 "Lowell, U S A",United States
 Lincon,1
 Irland of ?,1
-Island of St Vincent W Indies,1
+Island of St Vincent W Indies,St Vincent
 W India,India
 "Sacke, W",1
 Mayoughill,1
@@ -22589,7 +22589,7 @@ Clonfert,1
 "Colchester, East England",England
 Dublin - City,1
 Kenmare Kerry,1
-"Fort Branfort, South Africa",1
+"Fort Branfort, South Africa",South Africa
 "Wellington, East India",India
 Tyrne,1
 "Lancashire, Barrow in Furness",1
@@ -22639,7 +22639,7 @@ U. S. A.,1
 "D?, Co Down",Ireland
 "Holyuns, Co Down",Ireland
 "Jordanstown, Co Antrim",Ireland
-"Fort Victoria, Isle of Wight",1
+"Fort Victoria, Isle of Wight",England
 "Dunlear, Co Louth",Ireland
 "County Klkey, Ireland",Ireland
 "Sandpits, Co K",1
@@ -22699,7 +22699,7 @@ County of Louth Town of Drogheda,1
 "Cambridgeport, Mass, U.S.A",United States
 "Belfast, County Tyrone",1
 "Paulghantcherry Madras Pres, India",India
-Colombo Ceylon,1
+Colombo Ceylon,Ceylon
 "Brestol, Glis",1
 "Woodlands, Co Tipperrary",1
 Spink,1
@@ -22809,7 +22809,7 @@ Mead Co,1
 Born in Co Kilkenny,Ireland
 "Sherard Street, Dublin",1
 "Carngalden, County Leitrim",1
-"China, Co Wicklow",Ireland
+"China, Co Wicklow",China
 "Turon, Co Meath",Ireland
 "Woodstown, Co Meath",Ireland
 "Silverhill, Donohill",1
@@ -22878,7 +22878,7 @@ County Qeens,1
 "Ballymote, Co Sligo, Ireland",Ireland
 "Co Louth, Dellinstown",Ireland
 "Ire, Mayo",1
-Island of Alderney,1
+Island of Alderney,Alderney
 "Woolick, London",1
 "Moycarkey, Co Tippy",1
 "Clonmellere, Co Westmeath",Ireland
@@ -22940,7 +22940,7 @@ B Queens Co,1
 "Killyleagh, Co D",1
 City of Limerk,1
 Co D Down,1
-South Africa at Sea,1
+South Africa at Sea,At Sea
 "Rosgray, Co Galway",Ireland
 "Curraboy, Co Mayo",Ireland
 "Killraney, Co Wexford",Ireland
@@ -23088,8 +23088,8 @@ Deelis,1
 Stepheno Green,1
 Motinewick ?,1
 "Caumderk Place, Dublin",1
-Florence in Italy,1
-"Chile, South America, Calincivern, Co Kerry, Ireland",Ireland
+Florence in Italy,Italy
+"Chile, South America, Calincivern, Co Kerry, Ireland",Chile
 Moneyham,1
 "England at Halifox, Yorkshire",England
 I of W England,England
@@ -23106,10 +23106,10 @@ Nr Doagh,1
 "?, America",United States
 "Portain, Co Limk",1
 "Bruree, Co Limk",1
-Born Switzerland,1
+Born Switzerland,Switzerland
 "Watford, Engl",England
 "Breslan, Germany",Germany
-"Corcelles, Canton Deland, Switzerland",1
+"Corcelles, Canton Deland, Switzerland",Switzerland
 U S A Phadelia,United States
 Bamang,1
 Hambury,1
@@ -23186,7 +23186,7 @@ Lavesmaglen,1
 "Kill, Co Waterford",Ireland
 Passage East,1
 "Monemore, Townlands, Co Carlow",1
-"Jersey, St Hellers",1
+"Jersey, St Hellers",Jersey
 "Gwalior, E India",India
 "New Castle on Tyre, England",England
 "Wendyhall, Co Donegal",Ireland
@@ -23229,7 +23229,7 @@ Co Letriem,1
 "Overton Hants, England",England
 "Ballymacward, Co Galway",Ireland
 "Narrahmore, Co Kildare",Ireland
-"Jersey, Channel Island",1
+"Jersey, Channel Island",Jersey
 "Renfrew, Sctland",1
 "Cork, Fermanagh",1
 "Bridgeton, Glasgow",1
@@ -23244,7 +23244,7 @@ Cabentuly Co Dublin,Ireland
 Co Kant,1
 "Kilkenny, Ired",1
 "Cork, Ired",1
-"Lansauge, Switzerland",1
+"Lansauge, Switzerland",Switzerland
 "Curroughnalough, Co Cork",Ireland
 "Curroughnahr, Co Cork",Ireland
 Stand Cally,1
@@ -23350,7 +23350,7 @@ Torone,1
 "Kearvey, Co Down",Ireland
 Nobber,1
 Finnerish,1
-"Como, Italy",1
+"Como, Italy",Italy
 Broughty ? Scotland,Scotland
 "Leiter, Co Cavan",Ireland
 Prawnes,1
@@ -23532,8 +23532,8 @@ Of Dublin,1
 India Burmah,India
 "Syraine, U S A",United States
 Ghores Co,1
-"Jersey, Channel, Islands",1
-Netherlands,1
+"Jersey, Channel, Islands",Jersey
+Netherlands,Netherlands
 Tadcaster,1
 "Tyrone, Derry",1
 "New York City, U S",1
@@ -23613,7 +23613,7 @@ Ballycorke,1
 "Wexford, England",England
 Newport Non,1
 "Nr Beragh, Co Tyrone",Ireland
-"Argentina, Rebublic",1
+"Argentina, Rebublic",Argentina
 "Co Donegal, Muffglenn",Ireland
 "White Hall, Co Dublin",Ireland
 Co Dublin Crumlin,Ireland
@@ -23708,7 +23708,7 @@ Hobfox N. S. B N America,United States
 "Ballylesson, Co D",1
 "County Down, in Ireland",Ireland
 Co L Derrey,1
-"Saint Anns Barbados, West Indies",1
+"Saint Anns Barbados, West Indies",Barbados
 "Co Crawe, Co Dery",1
 "Slemagus, Co Dery",1
 "Ballywilliam,County Down",Ireland
@@ -23830,7 +23830,7 @@ Bohemian,1
 "Starlingshire, Scotland",Scotland
 "Balemina, Co Antrim",Ireland
 "Ballycorus, Co Dublin",Ireland
-"Dundee, Poland",1
+"Dundee, Poland",Poland
 Frala Co Kerry,Ireland
 "Kilfanora, Co Clare",Ireland
 "Ballina, Co Dublin",Ireland
@@ -23882,7 +23882,7 @@ Rupena Castle Glan?anth?,1
 City Antirm,1
 "Newry, Co Down, Ireland",Ireland
 "Clondallon, Rathmullan",1
-Jersey Channel Islads,1
+Jersey Channel Islads,Jersey
 "Bute, Rothesay",1
 "Stabearston, Scotland",Scotland
 "Michel Co, Co Carlow",1
@@ -24258,7 +24258,7 @@ City in Belfast,1
 "Co Carlow, Ballytarsna",1
 Clonmel Co Tipperary Ireland,Ireland
 "London, S W",1
-"Switzerland, Zurich",1
+"Switzerland, Zurich",Switzerland
 "Gloucestershire, Eng",England
 Al Derry,1
 Parriesh Lane,1
@@ -24492,7 +24492,7 @@ Co Fermoagh,1
 BromHedge,1
 Hercasllion Tyne,1
 Callmore,1
-Guernsey C J,1
+Guernsey C J,Guernsey
 "Brays, Co Wicklow",Ireland
 "Ky, C Dublin",1
 "Kilmore, Kerry",1
@@ -24580,7 +24580,7 @@ Rockfoundland,1
 "Ireland Midleton, Co Cork",Ireland
 Limborl,1
 "New Ordeanace, Amercia",1
-"Nagasaki, Japan",1
+"Nagasaki, Japan",Japan
 "Belgasley, Co Cork",Ireland
 "Goleen, Co Cork",Ireland
 "Dunlin, Co Louth",Ireland
@@ -24683,7 +24683,7 @@ Pearstown,1
 "Greencastle, County Antrim",Ireland
 County of Londerry,1
 "Campbeltown, Argyllshire",1
-"Kanshed, S Africa",1
+"Kanshed, S Africa",South Africa
 "Durban, Waterford",1
 Lanschire,1
 "Ja?niessfield, Scotland",Scotland
@@ -24749,7 +24749,7 @@ of Londonderry,1
 Co Fip,1
 Co Limerick Castleconnell,Ireland
 "Burnley, Lankshire, England",England
-"Chanallie I S, Guernsey",1
+"Chanallie I S, Guernsey",Guernsey
 "Ballymaccarrett, Belfast",1
 Deranure,1
 "Domey Carney, Co Dublin",Ireland
@@ -24789,7 +24789,7 @@ Parkhead at I of W,1
 "Kilmeery, Co Limerick",Ireland
 "Bamaboy, Co Galway",Ireland
 Barow in Furness,1
-"Richmond Hill, West India, Islands",India
+"Richmond Hill, West India, Islands",West Indies
 New Bridget,1
 County Tippreay,1
 "Mountrah, Queens Co",1
@@ -24833,7 +24833,7 @@ Hollis St,1
 "Riverstown, Co W Meath",1
 "West Division, Co Antrim",Ireland
 "St Nicholas, Co Antrim",Ireland
-"Ca? Colony,South Africa",1
+"Ca? Colony,South Africa",South Africa
 "Farne, Coy Antrim",1
 "Coleraeni, Co Derry",Ireland
 Dunnerrish,1
@@ -24973,7 +24973,7 @@ Enniskilen,1
 Dorer,1
 "County of Dublin, Skerries",1
 V N S America,United States
-Scutera in Turkey,1
+Scutera in Turkey,Turkey
 Denzil St Dub,1
 Rotunda,1
 "Cahemdaly, Co Dublin",Ireland
@@ -25241,7 +25241,7 @@ Co Mayo Born,Ireland
 "Buckie, Banffshire",1
 Co Lynch,1
 "Birr, Kings C Co",1
-"Tohago, West Indies",1
+"Tohago, West Indies",West Indies
 "Bringtown, London",1
 "Belfast C, Ireland Belfast",Ireland
 "Co Galway, Cloonlion",Ireland
@@ -25265,7 +25265,7 @@ Sheffield of Eng,England
 Belleshaw,1
 "England, I of Wight",England
 "Strawberry Bed, Co Dublin",Ireland
-"?land, New Zealand",1
+"?land, New Zealand",New Zealand
 Wescham,1
 "Galway City, Scotland",Scotland
 "Clostague, Co Cork",Ireland
@@ -25284,7 +25284,7 @@ Sidmeath Devonshire,1
 "Cornap Sherriff Street, Saint Laurence otools Dublin",1
 C Fenwick,1
 "Cunogh Lamp, Co Kildare",Ireland
-Port Louis Mauritius,1
+Port Louis Mauritius,Mauritius
 Charter Cheshire,1
 "Cork, Longford",1
 "Thurbs, Co Tipperary",Ireland
@@ -25320,7 +25320,7 @@ D Belfast,1
 Lester Share E,1
 Notts E,1
 "St Morgaretts, Norfolk",1
-Co Italy,1
+Co Italy,Italy
 Caty Dublin,1
 "Ipswick, England",England
 "Co Westry, England",England
@@ -25581,7 +25581,7 @@ Forfarshire N B,1
 Lurgan in County Armagh,1
 "Co Armagh, Kilmore",Ireland
 Castle Welland,1
-Co Poland,1
+Co Poland,Poland
 "I Down, Co Armagh",Ireland
 "Glassdoumond, Co Down",Ireland
 "Newbuildings, Co Derry",Ireland
@@ -25594,7 +25594,7 @@ Conty Clare,1
 "Co Wigtown, Scotland",Scotland
 "In Ireland, Lisburn",Ireland
 In Scotland County,Scotland
-Chile S A,1
+Chile S A,Chile
 "Omagh Ireland, Co Tyrone",Ireland
 Meath Couty,1
 Glassow City,1
@@ -25726,7 +25726,7 @@ County of Ireland,Ireland
 "Durron, Queens County",1
 "Co Down, Bally ?",Ireland
 "England, Berkshire",England
-"Nassau, West Indies",1
+"Nassau, West Indies",Bahamas
 "Camaryclifs, Co Antrim",Ireland
 "Tanderagee, Co Monaghan",Ireland
 Aughnaclay,1
@@ -25789,7 +25789,7 @@ Co Cartan,1
 Whitehous,1
 "Co Down, Casewellen",Ireland
 "L?mount, Co Cork",Ireland
-"Khandalla, East Indies",1
+"Khandalla, East Indies",East Indies
 Co Tippepry,1
 Colorado in America,United States
 Carnone,1
@@ -25806,7 +25806,7 @@ White Abby,1
 "Annan, Scotland",Scotland
 "Nauen, Co Meath",Ireland
 "Larns, Ireland",Ireland
-West Africa,1
+West Africa,Africa
 "Canmore, E India",India
 "Oldbury, England",England
 Douglas Man,1
@@ -25838,10 +25838,10 @@ In Bringham,1
 "Tullamore, Co Kings",1
 "Anglesey, London",1
 "Lichfield Std, England",England
-Cananore Madras East Indies,1
+Cananore Madras East Indies,India
 "Primary, Co Down",Ireland
 "Bmoy, Co Antrim",Ireland
-"Cape Town, S.A.",1
+"Cape Town, S.A.",Cape Town
 "Nelson, Scotland",Scotland
 "Scotland, Kirkendbright",Scotland
 "Ashton Ander Line, England",England
@@ -25999,7 +25999,7 @@ Cranlome,1
 "Wastfield, England",England
 "Buckinham, England",England
 Cahir Tipperary,1
-"Abbruzzi, Italy",1
+"Abbruzzi, Italy",Italy
 Brookbors,1
 County Deeroy,1
 L Berry,1
@@ -26446,7 +26446,7 @@ County of Letrim,1
 Grahamore,1
 Couy Donegal,1
 "Liverpool, Sanes",1
-Care of Good Hope South Africa,1
+Care of Good Hope South Africa,South Africa
 "Co Roscommon, Tulsk",Ireland
 Coun Leatrim,1
 Clongee Mayo,1
@@ -26936,7 +26936,7 @@ Garryaddan,1
 Corbeha Collan,1
 "In Newyork, U S A",United States
 Philadelphie at U S A,United States
-"Argentine, Republick",1
+"Argentine, Republick",Argentina
 Rochertown,1
 Co Cord,1
 "Alexandered, Meath",1
@@ -27142,7 +27142,7 @@ County Antriem,1
 "Born in Ireland, Co Cork",Ireland
 "Newtown Sandes, Co Kerry",Ireland
 Montoy Co Dublin,Ireland
-"Guernsey, Channel Island",1
+"Guernsey, Channel Island",Guernsey
 "Athbay, C M",1
 West of England,England
 Askbourne Co Meath,Ireland
@@ -27162,7 +27162,7 @@ Cnty Kilkenny,1
 "Iwinstown, Co Fermanagh",Ireland
 Armoy,1
 "Dober, England",England
-"Bermuda, E Ird",1
+"Bermuda, E Ird",Bermuda
 "Co Antrim, Monaclough",Ireland
 Co Knochans,1
 "Portlogan, Scotland",Scotland
@@ -27280,7 +27280,7 @@ Co Dlerry,1
 "Drumgoo, Co Armagh",Ireland
 Drumain Co Tyrone,Ireland
 No 1 North King St,1
-"Demerara, West Indies",1
+"Demerara, West Indies",West Indies
 "Kilmurry, Co Cork",Ireland
 Auntram,1
 T Derry County,1
@@ -27551,7 +27551,7 @@ Lorouto,1
 Co Dinsgall,1
 Connemare,1
 "Balfiurk, Co Mayo",Ireland
-"Barbados, W Indies",1
+"Barbados, W Indies",Barbados
 Lancashere,1
 "Ballinds, Co Mayo",Ireland
 "Clonallen, Co Down",Ireland
@@ -27584,13 +27584,13 @@ Fermanaagh,1
 "Ballynaconagh, Co Down",Ireland
 "Stretford, Manchester",England
 "Bowling, Dunbartonshire, Scotland",Scotland
-"Schaffhausen, Switzerland",1
+"Schaffhausen, Switzerland",Switzerland
 "South Chiels, England",England
 "Magherafielt, County Derry",1
 "Ardeath, Co Meath",Ireland
 "Fulham, Middlesex",England
 "Burna, Kings Co",1
-St Africa,1
+St Africa,South Africa
 H of Ireland,Ireland
 Coun Belfast,1
 Trabane,1
@@ -27688,7 +27688,7 @@ Dollymount,1
 Pem Croke Dock S Wales,1
 Ball of Castle,1
 "Co Armagh, Drumatee",Ireland
-"Johannesburg, S Africa",1
+"Johannesburg, S Africa",South Africa
 "Isle of Skye, Inverness Shire",1
 Co Kilkernny,1
 "Bishophill, Commons, Co Kildare",Ireland
@@ -27760,7 +27760,7 @@ Philadelphia USA,United States
 "Dublin, Island Bridge",1
 N/cle-on-Tyne,1
 Co Antrin of Deriaghy,1
-Alderney (Channel Isles),1
+Alderney (Channel Isles),Alderney
 "Bellycaston, Co Antrim",Ireland
 "Ferghusson, Co Derry",Ireland
 In Ireland Co Fermanagh,Ireland
@@ -27876,9 +27876,9 @@ Co Geitrim,1
 "Vancouver, B C",1
 "Mayo, Shra?ough",1
 "Newcastel, ? tyne",1
-"Suria Leone, W Africa",1
+"Suria Leone, W Africa",Sierra Leone
 Northumberlad,1
-"Sierra, Leone",1
+"Sierra, Leone",Sierra Leone
 "Leichficto, Staffs, England",England
 "Bfares, Co Down",Ireland
 "Parish of Hills Bough, County Down",Ireland
@@ -28065,7 +28065,7 @@ Ballinrabe,1
 Ireland Co Kildare,Ireland
 Co of wicklow,1
 "Castledry, Cy Tyrone",1
-"Lancanne, Switzerland",1
+"Lancanne, Switzerland",Switzerland
 "Rathangan, County Kildare",1
 "England, Water Beach",England
 Co Cork C,Ireland
@@ -28149,7 +28149,7 @@ Dungloe,1
 "Leitrim, Co Antrim",Ireland
 "Portylanon, Ireland",Ireland
 "Edinbrough, Scotland",Scotland
-Qua Bot West Africa,1
+Qua Bot West Africa,Africa
 Co Mulligar,1
 Nort Derry,1
 Co Kildere,1
@@ -28208,7 +28208,7 @@ Herefordshire England,England
 "Mansfield, England",England
 Cambridge England,England
 Hants Portsmouth,1
-"Jersey, Croydore",1
+"Jersey, Croydore",Jersey
 Milltownpass,1
 "Cananore, India",India
 Town England,England
@@ -28289,7 +28289,7 @@ Coleraine Co S Derry,1
 "Clobaron, Co Wex",1
 "Ballebaken, County Dublin",1
 "Ringneal, Co Down",Ireland
-"Italy, Naples",1
+"Italy, Naples",Italy
 "N, Down",1
 County Atriam,1
 "Killycowan, Co Antrim",Ireland
@@ -28331,7 +28331,7 @@ Southwold,1
 "Co Sligo, Enniskillen",Ireland
 Posen Germany,Germany
 Stafferckshui,1
-Gibraltar Spain,1
+Gibraltar Spain,Gibraltar
 "Ederney, Tyrone",1
 "Limerick, Co of Derry",1
 "N.T. Cunninghan, Co Donegal",Ireland
@@ -28386,7 +28386,7 @@ Monighan Co,1
 Kylebege,1
 "Rahugh, Co Westmeath",Ireland
 "Ballyboughl, Kings Co",1
-Giberalter Spain,1
+Giberalter Spain,Gibraltar
 New Town McKennedy,1
 Marfelt,1
 "Marfelt, Co Derry",Ireland
@@ -28480,7 +28480,7 @@ Aldergrove,1
 "Whiteburn, Co Antrim",Ireland
 Tullegrush,1
 St Lukes London,1
-"South Africa, Cape of Good Hope",1
+"South Africa, Cape of Good Hope",Cape of Good Hope
 "Dulkey, Co Dublin",Ireland
 "St Georges, Readery",1
 "Charlemont, Armagh",1
@@ -28570,7 +28570,7 @@ Kings Row,1
 "Belfast, City Antrim",1
 Livingnot,1
 "England, Co of Sussex",England
-Sigapore in China,China
+Sigapore in China,Singapore
 County Wills,1
 "Co Gloucestershire, England",England
 "Ardkill, Co Derry",Ireland
@@ -28636,7 +28636,7 @@ Phibsbore,1
 Down of Down,1
 "Lurganconnery, Co Down",Ireland
 "Garva, Co Derry",Ireland
-"Demarara, B Guiana",1
+"Demarara, B Guiana",British Guiana
 "County Down, Rathisland",Ireland
 "Kilmore, C Cork",1
 Waterford city,1
@@ -28682,7 +28682,7 @@ Argertine Republic,1
 Garr,1
 "Ireland, Birr in ?, Co Tipp",Ireland
 "Dunfanaghy, Co Derry",Ireland
-"Genoa, Italy",1
+"Genoa, Italy",Italy
 "Ballinderry, Galway Co",1
 "Cork, Kellindooling",1
 "Vintry, Co Kerry",Ireland
@@ -28728,7 +28728,7 @@ Billis,1
 "Co Armagh, Newtown Hamilton",Ireland
 "NewYork, U.S",1
 Co Westmead,1
-Park Hurrt Isle of Wight,1
+Park Hurrt Isle of Wight,England
 "Denaske, Tipperary",1
 Qu,1
 City Cok,1
@@ -28892,7 +28892,7 @@ Leceister,1
 "Fulham, England",England
 "Ros?, Co Tipp",1
 "Brackey, Co Donegal",Ireland
-"Hastings, Barbados",1
+"Hastings, Barbados",Barbados
 "Co Louth, St Peter, Drogheda",Ireland
 "Coglan, Co Cavan",Ireland
 "C Antrim, Braid",1
@@ -28968,7 +28968,7 @@ Kansa,1
 City and Belfast,1
 "Co Antrim, Drumbeg",Ireland
 "Burningham, England",England
-"Cumberley, S Africa",1
+"Cumberley, S Africa",South Africa
 "Clonmell, Tipperary",1
 Duncarvan,1
 Upper Libbrtees,1
@@ -29208,7 +29208,7 @@ Rallcormah,1
 "Co Akip, Co Galway",Ireland
 "Rhagh House, Co Cavan",Ireland
 "Co Mayo, Turlough",Ireland
-Co Guernsey,1
+Co Guernsey,Guernsey
 "Graywood, Co Kilkenny",Ireland
 In Qnagh,1
 Clowmie,1
@@ -29235,9 +29235,9 @@ Ralfeland Co Down North of Ireland,Ireland
 Pozo,1
 "Newcastle, America",United States
 Kno Irish,1
-"Gazo, Malta",1
+"Gazo, Malta",Malta
 Talford,1
-St John's Antigun West India,India
+St John's Antigun West India,Antigua
 "Listowell, Ireland",Ireland
 "Ardge, Longford",1
 Not Longford,1
@@ -29573,7 +29573,7 @@ Scogganstown,1
 "Mary Krown, London",1
 "Lelea, Co Armagh",Ireland
 "Ravensdale, Co Louth",Ireland
-"Thayetmyo, Burma",1
+"Thayetmyo, Burma",Burma
 "Finagh, Co Leitrim",Ireland
 "Beaulien, Co Louth",Ireland
 "Raheen, Queens Co",1
@@ -29706,8 +29706,8 @@ Kimmage Co D,1
 50 Upper Dorest St,1
 10 Lien Hall St,1
 Peebles N B,1
-"Bermuda, West India",India
-"Cape of Good Hope, Africa",1
+"Bermuda, West India",Bermuda
+"Cape of Good Hope, Africa",Cape of Good Hope
 Garston England,England
 United States St,1
 "Dunmanway, Co Antrim",Ireland
@@ -29847,7 +29847,7 @@ Cy Maeth,1
 Cyti Belfast,1
 Cyt Belfast,1
 Caliston,1
-"Irinidad, West Indies",1
+"Irinidad, West Indies",Trinidad
 "Rockstown Balla, Co Mayo, Ireland",Ireland
 "Tuam, Co Gal",1
 Scotland Forfar,Scotland
@@ -29892,7 +29892,7 @@ Instiogue,1
 "Ep, England",England
 "Courts Town, Co Kilkenny",Ireland
 County Link,1
-"Singapore, W India",India
+"Singapore, W India",Singapore
 "Monasterevin , Co Kildare",Ireland
 In County of Wicklow,1
 "England, St Malryin",England
@@ -29914,7 +29914,7 @@ Ontaria,1
 "In Ireland, Londonderry",Ireland
 "Boluary, Co Derry",Ireland
 Quin Co Clare,Ireland
-"Andalusia, Spain",1
+"Andalusia, Spain",Spain
 "Midsex, Engld",England
 "Clanconnor, Co Mayo",Ireland
 "Sullintraiy, Co Londonderry",1
@@ -29929,7 +29929,7 @@ Con Roscom,1
 "Born Co Wicklow, Sleignamo",Ireland
 "Balsenguila, Co Wicklow",Ireland
 "Co Dublin, Kildare",Ireland
-"St Gall, Switzerland",1
+"St Gall, Switzerland",Switzerland
 "Co Down, Banger",Ireland
 Ballys Lannon,1
 Co Sligow,Ireland
@@ -29967,7 +29967,7 @@ Dinganna,1
 "Birmingham, Engd",England
 Aylesey,1
 "Radeen, Co Wicklow",Ireland
-"Haples, Italy",1
+"Haples, Italy",Italy
 "Ireland, Co of Kildare",Ireland
 "Wicklow, Dublin",1
 Newtonstewart,1
@@ -29998,7 +29998,7 @@ Norris,1
 "Great Mitton, Oxford England",England
 "Co Armagh, Ir",Ireland
 Co Anrim,1
-"Sorrento, Italy",1
+"Sorrento, Italy",Italy
 Fuerty,1
 Magheross,1
 Co Miath,1
@@ -30059,7 +30059,7 @@ Bally beg,1
 "San Francisco, U.S.A.",United States
 Co Clonmel,1
 "Limerick, Co Louth",Ireland
-"Gulmanda, East Indies",1
+"Gulmanda, East Indies",East Indies
 "County Westmeath, Mullingar",Ireland
 "Erggington, Bondfords",1
 Mt Pleasent,1
@@ -30182,7 +30182,7 @@ Ow?lace,1
 Kilmashogue,1
 "Mill Yorkshire, England",England
 "Co Dublin, Milltown",Ireland
-"Gothenburg, Sweden",1
+"Gothenburg, Sweden",Sweden
 "Jubber Dublin, Co Wicklow",Ireland
 Linclonshire,1
 "Laragh, Co Wicklow",Ireland
@@ -30333,7 +30333,7 @@ Ballyalbana,1
 "?, Drumlin",1
 "Drumlin, Co Down",Ireland
 "Daltrey, Co Dublin",Ireland
-"Vittoriosa, Malta",1
+"Vittoriosa, Malta",Malta
 "Armaghgore, C Derry",1
 "In Warrenpoint, Co Down",Ireland
 "Parish of Kill, Co Cavan, Ireland",Ireland
@@ -30687,7 +30687,7 @@ Cty New York,1
 "Co Cork, Killbrittain",Ireland
 "Commons Road County Cork, Ireland",Ireland
 "Rockfort Bridge, Co Meath",Ireland
-"Kandy, Ceylon",1
+"Kandy, Ceylon",Ceylon
 S Arfrica,1
 "Farthing Ville, Dromina, Co Cork",Ireland
 "Ballyanning, Co Cork",Ireland
@@ -30908,7 +30908,7 @@ Moningtown,1
 Diocese of London,1
 Tipperary town,1
 Carrick On Shannon,1
-Jersey Chaural ?,1
+Jersey Chaural ?,Jersey
 "India, Secanderabad",India
 Fileshire,1
 Tidown,1
@@ -30927,7 +30927,7 @@ Knocknady,1
 Durrow,1
 "Blockrock, Co Dublin",Ireland
 "Corvoy, Co Monaghan",Ireland
-"I, Alderney",1
+"I, Alderney",Alderney
 Kilmurry,1
 Clonole,1
 Isle of Weight,1
@@ -30941,7 +30941,7 @@ Glantane,1
 Cambridge Engd,England
 "Rush, Co of Dublin, Ireland",Ireland
 "England, Mary Port",England
-"Switzerland, Leipsie",1
+"Switzerland, Leipsie",Switzerland
 "Kildare, Exeter",1
 "Lancshire, England",England
 In Dery,1
@@ -30992,7 +30992,7 @@ Ballinough,1
 St Thomas City,1
 "Arbot, Co Tyrone",Ireland
 "Biggleswade, Reds",1
-"Dunedin, New Zealand",1
+"Dunedin, New Zealand",New Zealand
 "Jerbey, Channel, Islands",1
 "Lawshall (Suffolk, England)",England
 "Scotland, Gavon",Scotland
@@ -31031,7 +31031,7 @@ Gasgow,1
 "U S American, City Dublin",United States
 "Edin, Co Tipp",1
 "Doonbey, Co Clare",Ireland
-Sout Africa,1
+Sout Africa,South Africa
 "Bettyville, Fermoy",1
 "Greenhill, Co Cork",Ireland
 Born City of Cork,1
@@ -31402,7 +31402,7 @@ Snandnun,1
 "Co Kerry, Balroy",Ireland
 Co Kerry Derrymne,Ireland
 Killarney Co Kerry,Ireland
-"Valencia, Poland",1
+"Valencia, Poland",Poland
 "Brurea, Co Limk",1
 "Newcastte, Limerick",1
 "Berr, King Co",1
@@ -31448,7 +31448,7 @@ Aferica,1
 Wakeford,1
 "Knutsford, England",England
 "Grimsby, Eng",England
-"Dramen, Norway",1
+"Dramen, Norway",Norway
 "Lisdemaun, Co Mayo",Ireland
 "Knockbrecken, Co Down",Ireland
 "Pavee, Wicklow",1
@@ -31464,7 +31464,7 @@ New Gealand,1
 "Blithfield, Staffordole",1
 "Carman, Co Wicklow",Ireland
 City of Wford,1
-Eskane Italy,1
+Eskane Italy,Italy
 "Pres?ry, ?shire, England",England
 "Suffork, Co Antrim",Ireland
 Madmisston England,England
@@ -31481,8 +31481,8 @@ Cotland,1
 Ghent,1
 "Co Dublin, Co Kerry",Ireland
 "Belfast City, ?",1
-Co Ceylon,1
-"Auckland, New zealand",1
+Co Ceylon,Ceylon
+"Auckland, New zealand",New Zealand
 At Churchtown House in the County of Kerry,1
 "Quarketown Mallow, Co Cork",Ireland
 "Enniakillen, Co Fermanagh",Ireland
@@ -31562,7 +31562,7 @@ County Chesha,1
 "Lambeth, London",1
 "Loughries, Co Down, Ireland",Ireland
 "Ballyobican, Co Down, Ireland",Ireland
-"Co Boke, Austria",1
+"Co Boke, Austria",Austria
 "Bourdeont, France",France
 "Johnswell, Co Kilkenny",Ireland
 "Passage East, Co Waterford",Ireland
@@ -31596,7 +31596,7 @@ Colevain,1
 Blaefast,1
 Pool Dorset,1
 England County,England
-"Naples, Italy",1
+"Naples, Italy",Italy
 "Littlebury, Gloster",1
 "Crebilly, Co Antrim",Ireland
 "Mohow, India",India
@@ -31672,10 +31672,10 @@ Murion,1
 "Edinr, Scotland",Scotland
 "Peebleshire, Newlands",1
 "Swansea, South Wales",1
-"County Kitering, Natal",1
+"County Kitering, Natal",Natal
 "Limerick, Fethard",1
 "Sterling, Sealand",1
-"Jersey, I C W",1
+"Jersey, I C W",Jersey
 Shillelagh,1
 "Mohill, Co Leitirm",1
 "Rathkenney, Co Meath",Ireland
@@ -31746,9 +31746,9 @@ Co Nestmth,1
 Co Dunhiry,1
 "New Park, Maryborough, Queen's County",1
 Cape of ford Hope,1
-"Ventinor, Isle of Wight",1
+"Ventinor, Isle of Wight",England
 Lenham in the County of Kent England,England
-"Egypt, Cairs",1
+"Egypt, Cairs",Egypt
 "Longford, Down",1
 Detroit U S A,United States
 "Market-Hill, Co Armagh",Ireland
@@ -31756,7 +31756,7 @@ Detroit U S A,United States
 "Bradley, Yorkshire",1
 Ceclers Bohemian,1
 Channel,1
-"South Africa, Grahamstown",1
+"South Africa, Grahamstown",South Africa
 Boston U S America,United States
 Croughan,1
 "Lans, England",England
@@ -31837,7 +31837,7 @@ Oxford City,1
 Annall,1
 Lislunnan,1
 "Newport, County",1
-"Bangdare, West Indies",1
+"Bangdare, West Indies",West Indies
 "Carnanee, Co Londonderry",1
 Haddington,1
 "Co Antrim, Cushendal",Ireland
@@ -31876,7 +31876,7 @@ Fifahir,1
 "Blackhill, Co Derry",Ireland
 "Town of Cavan, County Cavan",1
 Belwickshire,1
-"St Helin's, Jersey",1
+"St Helin's, Jersey",Jersey
 Macas China,China
 "Branscombe, England",England
 "Kilmood, Co Down",Ireland
@@ -32060,7 +32060,7 @@ Ringstown,1
 "Co Antrim, Cermoney",Ireland
 "Hill of Allan, Co Kildare",Ireland
 "Ovrea, Co Wicklow",Ireland
-Milan (Italy),1
+Milan (Italy),Italy
 Ro?dy,1
 Enniscortty,1
 Marshan,1
@@ -32227,10 +32227,10 @@ Kilkerry,1
 Toughal County Cork,Ireland
 Kilbridge,1
 "Quebec, America",Canada
-Natal A,1
+Natal A,Natal
 "Carrick in Birr, Co Tipp",1
 Co Tipry,1
-"Cape Town, Africa",1
+"Cape Town, Africa",South Africa
 Carrick-Beg,1
 "Ballinamona, Co Tipperary",Ireland
 "Dualla, Co Tipp",1
@@ -32252,7 +32252,7 @@ Tole of Man,1
 Kennington Warwickshire,1
 "Mulhausen, Alsace",1
 Nap,1
-"Jamaica, WI",1
+"Jamaica, WI",Jamaica
 "Mullingan, W Meath",1
 Co Wateford City,1
 "Red Hill, Co Cavan",Ireland
@@ -32331,7 +32331,7 @@ Ellinborr,1
 "Rathgar, Dublin Co",1
 Devons,1
 "Sissach, Basel",1
-"Lausanne, Switzerland",1
+"Lausanne, Switzerland",Switzerland
 St Marks,1
 Lurgan Co Armagh,Ireland
 "Co Kildare, Neas",Ireland
@@ -32497,9 +32497,9 @@ London R C,1
 "Near Macroom, Co Cork",Ireland
 "Werchester, Frampton",1
 "Co Cork, Tullow",Ireland
-"Bermuda, Island",1
+"Bermuda, Island",Bermuda
 "County Dingle, Kerry",1
-East Africa,1
+East Africa,Africa
 Co Arm?,1
 "Providence, U S A",United States
 "Miltown, Co Kilkenny",Ireland
@@ -32507,7 +32507,7 @@ Co Arm?,1
 "Emus, Co Clare",Ireland
 "Drumkeen, Co Donegal",Ireland
 St Finbors,1
-Stange Norway,1
+Stange Norway,Norway
 "Ballybentragh, Co Antrim",Ireland
 "Bailieborough, County Cavan",1
 Cheschire,1
@@ -32566,7 +32566,7 @@ Drumaness,1
 Milburne,1
 Ballynahoirah,1
 Co Tipp Coy,1
-Co Caud of St Helena,1
+Co Caud of St Helena,St Helena
 Quenn's Co,1
 Born C Carlo,1
 County of Kerr,1
@@ -32577,7 +32577,7 @@ Tippteary,1
 "County Lanarkshire, Scotland",Scotland
 "Carnarvon, N Wales",1
 "Oughaval, Sligo",1
-"Jersey, Chl Ids",1
+"Jersey, Chl Ids",Jersey
 Knock?,1
 Wrexlan,1
 "Castlebellingham, Louth",1
@@ -32597,7 +32597,7 @@ Clones Monaghan,1
 "Adair, Co Limerick",Ireland
 "Killeen, Co Down",Ireland
 "Aughnacloy, Co Tyrnone",1
-"Upper Burma, India",India
+"Upper Burma, India",Burma
 "England, Windsor",England
 "Sherriscork, Co Wexford",Ireland
 "Coragh, Co Cavan",Ireland
@@ -32631,7 +32631,7 @@ Broomhill,1
 K?t,1
 Co Tipperary Nenagh,Ireland
 "Co W Meath, Ireland",Ireland
-"Auckland, New Zealand",1
+"Auckland, New Zealand",New Zealand
 Tadalaghes,1
 "DoeCastle, Co Donegal",Ireland
 Partadown,1
@@ -32673,7 +32673,7 @@ Kingston Surrey,1
 "Carlisle, Scotland",Scotland
 "Lisburn, Co Antrim side",Ireland
 "Glastonterry, Domeratshire",1
-C Malta,1
+C Malta,Malta
 "Co Dublin, Portmarnock",Ireland
 City of ?,1
 Nardang,1
@@ -32764,7 +32764,7 @@ Wexford Ry,1
 "King County, City Dublin",1
 "Rossenres, Louth",1
 "Kiltemon, Co Wicklow",Ireland
-Malta City,1
+Malta City,Malta
 "Portlow, Co Wexford",Ireland
 "Kari Hill, Galway",1
 Retor Mouilussury Essex,1
@@ -32803,7 +32803,7 @@ Chalaneford,1
 "Dromore, West",1
 "Roorley Gowney, Mongh",1
 "Roshertown, Co Cork",Ireland
-"Jersey, England",England
+"Jersey, England",Jersey
 Innisiona,1
 "Kilmichael, Kerry",1
 Runcarrigeen,1
@@ -32830,7 +32830,7 @@ Channell Flis,1
 Duanbarton,1
 Couily Down,1
 "Koch, Co Down",Ireland
-Co Malta,1
+Co Malta,Malta
 "Sligo, Co of Sligo",1
 "Ballinguile, Wicklow",1
 Drogheda Louth,1
@@ -32886,7 +32886,7 @@ Cran,1
 Lurpan,1
 "Shorncliff, Eng",England
 Armagh Co of,1
-? West India,India
+? West India,West Indies
 Harolds X,1
 Collchester England,England
 Colchester England,England
@@ -32970,7 +32970,7 @@ Co Manchester,England
 Co Dublin Sandsnow,Ireland
 Co Dub City,1
 Quilly,1
-"Rio Grande Sul Portoalegre, Brazil",1
+"Rio Grande Sul Portoalegre, Brazil",Brazil
 "Ballyroney, County Down",Ireland
 "Plucker town, Co Kildare",Ireland
 "Arva, Co Cavan",Ireland
@@ -33124,9 +33124,9 @@ Clooncoose,1
 "Ireland, Co of Cork",Ireland
 "Bellacullen, Co Cork",Ireland
 "Bellacullen, Co Cork, Ireland",Ireland
-"Greece, Zante",1
+"Greece, Zante",Greece
 "Stranafiely, Co Fermanagh",Ireland
-"Straits, Settlement",1
+"Straits, Settlement",Straits Settlements
 Bermunghan,1
 "Gorey, Co Wesfd",1
 "Enoris Corthy, Co Wexford",Ireland
@@ -33152,10 +33152,10 @@ Limeri City,1
 "Ballybeem, Co Down",Ireland
 "Edinburgh, England",England
 "Co Antrim, Ballee",Ireland
-"Boral, Switzerland",1
+"Boral, Switzerland",Switzerland
 Ahoghill,1
 Alloa,1
-"Barbados, West Indies",1
+"Barbados, West Indies",Barbados
 "Gurteenfinogue, Co Cork",Ireland
 "Clondrohoid, Co Cork",Ireland
 "Gl?, Co Cork",Ireland
@@ -33279,9 +33279,9 @@ County Ballynahown,1
 "Ballycopland, Co Down",Ireland
 "Co Antrim, Belfast, Co Antrim",Ireland
 "Kilcross, Co Down",Ireland
-"St Helena, Africa",1
-"South Africa, Kingstown",1
-Ireland of St Heland S Africa,Ireland
+"St Helena, Africa",St Helena
+"South Africa, Kingstown",South Africa
+Ireland of St Heland S Africa,St Helena
 Wales Cavanan,1
 Chatney England,England
 Tilerhelf,1
@@ -33297,7 +33297,7 @@ Enniskilling,1
 Buckland City,1
 Drum?irk,1
 Maurtins,1
-"Copelcoloney, S Africa",1
+"Copelcoloney, S Africa",South Africa
 "Hobart, Australia",Australia
 "Wavertree, Liverpool",1
 "Harleston, Norfolk",1
@@ -33308,7 +33308,7 @@ Killnean,1
 "Nth Brunswick St, Dublin Cy",1
 "4 Camden Place, Dublin Cy",1
 "Ballymoneen, Co Wicklow",Ireland
-Demerara West Indies,1
+Demerara West Indies,British Guiana
 Sth Shields,1
 Lamworth,1
 "Leron, Co Antrim",Ireland
@@ -33427,7 +33427,7 @@ Clonalara,1
 Ballycallan,1
 "Co Cavan, Killeahandra",Ireland
 "Carrigaline, Louth, Co Leitrim",Ireland
-"Spanishtown, Jamaica",1
+"Spanishtown, Jamaica",Jamaica
 "Horsham, England",England
 "(Knock), Co Mayo",Ireland
 "Island, Falkland",1
@@ -33439,7 +33439,7 @@ Kingstown Dublin,1
 Rosenalice Queens' Co,1
 Co Dublin Arlane,Ireland
 "Meralin, County of Down",1
-"Malmedy, Prussia",1
+"Malmedy, Prussia",Germany
 "Middleton, Co Armagh",Ireland
 "Banbridge, Co Tyrone",Ireland
 "Plumstead, Kent",1
@@ -33516,7 +33516,7 @@ Sligo (Town of),1
 Rakeney Co Dublin,Ireland
 England Noth,England
 "Aughsea, Co Fermanagh",Ireland
-"Malaga, Spain",1
+"Malaga, Spain",Spain
 Tulbergragin,1
 "Monks Town, Co Dublin",Ireland
 "Murryhills, India",India
@@ -33546,14 +33546,14 @@ Parish of Inneshone,1
 "Claudy, Derry",1
 "Kincull, Derry",1
 Co. Waterford,1
-"Rosscastle, St Vincent, W Indies",1
+"Rosscastle, St Vincent, W Indies",St Vincent
 Balisn's Cavan,1
 Forres,1
 "Sutherland, Scotland",Scotland
 (Armagh City),1
-"U S Consulate General, Cairs Egypt",1
-"U S Consulate, Jerusalim, Syria",1
-"Colombo, Ceylon",1
+"U S Consulate General, Cairs Egypt",Egypt
+"U S Consulate, Jerusalim, Syria",Syria
+"Colombo, Ceylon",Ceylon
 "Bail, Scotland",Scotland
 Co Cork W.R,Ireland
 "Dandon, Co Cork",Ireland
@@ -33665,7 +33665,7 @@ County Ardmore,1
 "Upper Malone, Co Antrim",Ireland
 "Butterfield, Kerry",1
 City on N.B.,1
-"Aden, Arabia",1
+"Aden, Arabia",Aden
 "Ashadoey, Co Derris",1
 Nass Co Kildare,Ireland
 "Toffer, Co Meath",Ireland
@@ -33703,7 +33703,7 @@ West Cavan,1
 Tarbert,1
 Born C Armagh,1
 Co Longrove,1
-"Burma, Rangoon",1
+"Burma, Rangoon",Burma
 "Courtown, Co Tyrone",Ireland
 "Boulogne, France",France
 "County Tipperary, Killenaule",Ireland
@@ -33779,8 +33779,8 @@ Simla,1
 "Salcombe, Dorset",1
 "K?mouth, Dorset",1
 "Blandford, Dorset",1
-"Veroria, Italy",1
-"Bermudra, W O",1
+"Veroria, Italy",Italy
+"Bermudra, W O",Bermuda
 "Bowmomouth, Co Hampshire, En",1
 "Lewis, Sussex",1
 Gurtavalla,1
@@ -33801,7 +33801,7 @@ Lmck City,1
 Tullylinn,1
 "Rendlesham, England",England
 Totness,1
-Gray Austria,1
+Gray Austria,Austria
 "Elsix, England",England
 "Harringham, Scotland",Scotland
 Mcroom,1
@@ -33975,7 +33975,7 @@ Bridport,1
 "Co Dublin, Irishtown Dublin",Ireland
 "Sheffield, York",1
 "Hollywood, Mayo",1
-"Learosas, South America",1
+"Learosas, South America",South America
 Co Col,1
 Shibbereen Towns,1
 Cyty Cork,1
@@ -33984,7 +33984,7 @@ Co Dullin,1
 Boon's Kane Co Tipperary,Ireland
 "Ballymartin, Co Armagh",Ireland
 Hoey Koey,1
-"Malta, England",England
+"Malta, England",Malta
 "Pomeroy, Tyrone",1
 Newerelijai,1
 "Hixon, Staffs",1
@@ -33993,7 +33993,7 @@ Newerelijai,1
 "Castle Connon, Co Limerick",Ireland
 Italian,1
 "Carnsore Point, Co Wexford",Ireland
-"Cape Colony, Transkei Territory",1
+"Cape Colony, Transkei Territory",Cape Colony
 "Carnsore, Co Wexford",Ireland
 Achill Co Mayo,Ireland
 "England, Leistershire",England
@@ -34009,7 +34009,7 @@ Whitealley,1
 "Moylough, Co Meath",Ireland
 "Stetten, Prussian",1
 "Burter Hall, Strandhill, Co Dublin",Ireland
-"Natal, S.Africa",1
+"Natal, S.Africa",Natal
 For England,England
 "Jarrow on Tyne, County Durham",1
 Portieal,1
@@ -34144,7 +34144,7 @@ Hahfas N S,1
 "Bomboy, India",India
 "Ballynare, Co Antrim",Ireland
 Cape Gd Hope,1
-Natal S A,1
+Natal S A,Natal
 Stradbally ? Co,1
 Hill England,England
 "Rathoithy, Co Carlow",1
@@ -34274,10 +34274,10 @@ Seeru Church,1
 Co Cambridgeshire,1
 "Youghoe, Co Cork",Ireland
 "Bridleton, Dublin",1
-"Ekolsurn, Sweden",1
+"Ekolsurn, Sweden",Sweden
 "Herdatown, Co Down",Ireland
 The Braid,1
-"Constantinople, Turkey",1
+"Constantinople, Turkey",Turkey
 Yara hill,1
 "Gerhraglush, Co Tyrone",Ireland
 Tiperray,1
@@ -34430,7 +34430,7 @@ Surford,1
 "Ballinlough, Liscleary, C C, Co Cork",Ireland
 "Bally Ream?, Co Kerry",Ireland
 "Carrigeen, Co Kerry",Ireland
-Jersey krewal Jg,1
+Jersey krewal Jg,Jersey
 "Davistown, Co Meath",Ireland
 "Claycastle, Co Cork",Ireland
 "Quill St, Tralee, County Kerry",Ireland
@@ -34572,8 +34572,8 @@ Banteer Co,1
 Tppry,1
 Casheemore,1
 ?altay,1
-Trinidad B W I,1
-Gibroltor,1
+Trinidad B W I,Trinidad
+Gibroltor,Gibraltar
 Engliland,England
 "Castle Hollard, West Meath",1
 "Brackloney, Co Cavan",Ireland
@@ -34610,7 +34610,7 @@ Waterford Coy,1
 "12 Newcanal U S A, Dublin",United States
 "11 Jonnes Street, Dublin",1
 "Norton, Yorkshire, England",England
-"Sierra Leone, Africa",1
+"Sierra Leone, Africa",Sierra Leone
 County Londy,1
 "Limavady, Co De",1
 Collom,1
@@ -34625,7 +34625,7 @@ Coun Longford,1
 Pallonatown,1
 "Varner St, Belfast City",1
 "Murphy St, Belfast City",1
-"Guernsey Channel, Island",1
+"Guernsey Channel, Island",Guernsey
 "Belfast, Bk",1
 "Partic, Glasgow",1
 Co Down Kilinchy Co,Ireland
@@ -34660,7 +34660,7 @@ Cawnpore Madras,1
 "Killabunane, Co Limerick",Ireland
 Manchester Lane,England
 "Bermaid, Co Louth",Ireland
-"Newcastle, Jamaica",1
+"Newcastle, Jamaica",Jamaica
 Zion Road Bristol,1
 "Co Kerry, Kilkenny",Ireland
 "County Leitrim, Ireland",Ireland
@@ -34728,7 +34728,7 @@ Galway Cty,1
 "Clonoulty, Co Tipperary",Ireland
 Selkirk,1
 Aberden Dh,1
-"Jersey, Ch I",1
+"Jersey, Ch I",Jersey
 "Cannes, France",France
 Hemel Hemptead Herts,1
 "Ballynalinch, Co Down",Ireland
@@ -34738,7 +34738,7 @@ Hemel Hemptead Herts,1
 "Grange, Lmk",1
 "Dumgannon, Co Tyrone",Ireland
 Madrass,1
-"Barbadoes, West Indies",1
+"Barbadoes, West Indies",Barbados
 Lond-Derry,1
 Netswards,1
 "Naira, N B",1
@@ -34884,7 +34884,7 @@ Scohotland,1
 "Co Antrim, Colinward",Ireland
 "County Antrim, Carrickfergus",Ireland
 "Perdysburn, Belfast",1
-Isla of Jersey,1
+Isla of Jersey,Jersey
 "Lisburn, Ireland",Ireland
 Chesham Eng,England
 "Co Down, Donaghades",Ireland
@@ -34896,12 +34896,12 @@ Wolwick,1
 "Fermanagh, Ireland Telmore Co",Ireland
 Bermingham War,1
 "High S, Co Down",Ireland
-"Ramleh, Egypt",1
+"Ramleh, Egypt",Egypt
 Working England,England
 "Stffordshire, England",England
 "Calcutta, E Indias",India
 C Down Cy,1
-"Bermudas, West Indies",1
+"Bermudas, West Indies",Bermuda
 "Hora, Scotia",1
 "Beft, Scotland",Scotland
 Ligonill,1
@@ -35205,10 +35205,10 @@ Kingston on Thames,1
 Killakee Co Dn,1
 "Fermanagh, Enniskellen",1
 "Rohiny, Co Dublin",Ireland
-Trinidad West Indies,1
-Corfu Greece,1
+Trinidad West Indies,Trinidad
+Corfu Greece,Greece
 "Clones, Co Fermanagh",Ireland
-"Aten, Arabia",1
+"Aten, Arabia",Aden
 "Co Antrin, Belfast",1
 Thuochances,1
 "Kilmuckridge, Wexford",1
@@ -35217,7 +35217,7 @@ Lower Broadheath Nr Worcester England,England
 "Togher, Co Louth",Ireland
 Sydney New South Wales,1
 "22 Burlington Rd, Dublin",1
-"St Helena, W Africa",1
+"St Helena, W Africa",St Helena
 Armagh A,1
 "Co W Meath, Mullingar",1
 "Crishton, Scotland",Scotland
@@ -35226,7 +35226,7 @@ Co Devan,1
 "In Ireland, Kings Co",Ireland
 "Portumna, Co Gallway",1
 Hebden Bridge,1
-"Madrid, Spain",1
+"Madrid, Spain",Spain
 "Leisclip, Co Kildare",Ireland
 "Ireland, C Cav",Ireland
 "Ireland, Co Cav",Ireland
@@ -35237,7 +35237,7 @@ Harrington,1
 County Aantrims,1
 County Aantrins,1
 "Ballynnan, Co Derry",Ireland
-"Guernsey, Channel Islands",1
+"Guernsey, Channel Islands",Guernsey
 "Town, Co Canada",Canada
 Ballinia,1
 "Longton, England",England
@@ -35267,7 +35267,7 @@ Offering Quarrel,1
 "Portland, Australia",Australia
 Forfarshire in Scotland,Scotland
 "Hull Yorks, England",England
-"Antigua, West India",India
+"Antigua, West India",Antigua
 Co Dancashire,1
 Barnsley,1
 "Suton, Kent, England",England
@@ -35329,7 +35329,7 @@ Kilcroagh,1
 "Ballygoney, Co Derry",Ireland
 "Co Wexford, Newtownbury",Ireland
 "Castleknock, Co Wexford",Ireland
-"St Craid, West Indies",1
+"St Craid, West Indies",West Indies
 "Co Blarney, Dublin Town",1
 Calrutuly Co Dublin,Ireland
 "Progheda, Co Meath",Ireland
@@ -35461,7 +35461,7 @@ Northwales,1
 West,1
 "Mountreal, Canada",Canada
 Warkuith,1
-"Jersey, Clay?",1
+"Jersey, Clay?",Jersey
 "Batley, Yorkshire",1
 "Marbouth, Co Tembroke",1
 "New York, C America",United States
@@ -35501,7 +35501,7 @@ Horbrook,1
 "Tottenlam, Middlesex",England
 "Notting Hill, Belfast",1
 "British, Burmah",1
-"St John's, Newfoundland",1
+"St John's, Newfoundland",Newfoundland
 "Carrick Furges, Co Antrim",Ireland
 Downpatrick City,1
 Ballinclery,1
@@ -35676,8 +35676,8 @@ Sandeapee,1
 "Rotherithe, Lurrey",1
 "Big Bock, Co Wicklow",Ireland
 ?lo?ele,1
-"Malta, Geere",1
-Ascension Island,1
+"Malta, Geere",Malta
+Ascension Island,Ascension Island
 "Tamworth, England",England
 "Belfast, Achill, Ireland Co Mayo",Ireland
 "Co Antrim, Kilmallock",Ireland
@@ -35707,7 +35707,7 @@ Flint Wales,1
 "Ir, Baliaves",1
 "Co Kerry, Muckross",Ireland
 "Clone, England",England
-(Spain) Espana,1
+(Spain) Espana,Spain
 Queen's Lee,1
 "Ireland, Co Tipperary, Co Limerick",Ireland
 "Tandymount, Co Dublin",Ireland
@@ -35834,7 +35834,7 @@ Roxkboughshire,1
 Drumsoo,1
 Moorfield Co Antrim,Ireland
 "B mena, Co Antrim",Ireland
-"Island of Maurities, Africa",1
+"Island of Maurities, Africa",Mauritius
 "Relgorley, Kinsale, Co Cork",Ireland
 "Glincare, Kerry",1
 Tiper,1
@@ -35918,7 +35918,7 @@ Seam Lustal India,India
 "Co Limerick, Adare",Ireland
 "Tralee, Ke",1
 "C Down, Danparbate",1
-"Canton Berne, Switzerland",1
+"Canton Berne, Switzerland",Switzerland
 Esset St,1
 "Liminster, Co Sussex",1
 Annahill,1
@@ -36218,7 +36218,7 @@ Buenosaires,1
 Otley,1
 "Co Derry, Scotland",Scotland
 "Ballymackney, Co Monaghan",Ireland
-"Conaggeis, Switzerland",1
+"Conaggeis, Switzerland",Switzerland
 Gt Britain,1
 Drumsrane,1
 "Carrick on Suir, Ireland",Ireland
@@ -36279,7 +36279,7 @@ Ballemote,1
 Crusheen Co Clare,Ireland
 "Shankhill, County Dublin",1
 "Johan Well, ?",1
-"Island, Mauritius",1
+"Island, Mauritius",Mauritius
 "Holyburn, Co Down",Ireland
 "Sligo, Ire",1
 Doblin Co,1
@@ -36337,7 +36337,7 @@ Shaw St D,1
 N Town,1
 "Co of Galway , WR",1
 Co of Bangor,1
-"Finland, Brahestad",1
+"Finland, Brahestad",Finland
 "Co Meath, Co Wicklow",Ireland
 "St James, Norfolk",1
 Arman,1
@@ -36400,7 +36400,7 @@ Ratherinan,1
 "Kethard, Co Tipperary",Ireland
 "Kells, Co Kilkeny",1
 Newark N S U S A,United States
-East Indies 1,1
+East Indies 1,East Indies
 "Killuvillan, Co Cork",Ireland
 Ruabon N K,1
 "Co Wicklow, Coolkenno",Ireland
@@ -36431,7 +36431,7 @@ Anireus Street (City),1
 Alton Hants,1
 Dublin City of Mountfox Street,1
 "Telver Bridge, Co Armagh",Ireland
-"Kingstown, Jamaica",1
+"Kingstown, Jamaica",Jamaica
 "Highgate, England",England
 "Farnborough, Kent England",England
 "Dunboyne, Co Meath, England",England
@@ -36482,7 +36482,7 @@ Ballybohill,1
 "Ballyclare, Ireland",Ireland
 "Cloughon, Co Monaghan",Ireland
 Co Tromge,1
-So Africa,1
+So Africa,South Africa
 Bra?,1
 "Mount Rice, County Clare",Ireland
 "Roscrea, Co T",1
@@ -36661,7 +36661,7 @@ Connisbury,1
 "Parish Holywood, Co Down",Ireland
 Ballyablion,1
 "Dundrum, C Dublin",1
-Cape Town South Africa,1
+Cape Town South Africa,Cape Town
 "Dublin City, County Dublin",1
 "Ardoyne, Tullow",1
 Philadelphien U S A,United States
@@ -36760,14 +36760,14 @@ Boily Boagey,1
 "La Lourina, Belgium",Belgium
 "Ghent, Belgium",Belgium
 "Tourcainy, France",France
-"Darkly, Switzerland",1
+"Darkly, Switzerland",Switzerland
 County of Armgh,1
 "New Castle on Tyre, South Shields",1
 "Ballysnasnab, Co Armagh",Ireland
 Ballinrobe Mayo,1
 "Ougherd, Co Galway",Ireland
 Dingawcon,1
-"Sandeford, Norway",1
+"Sandeford, Norway",Norway
 "Jackson Hall, Co Londonderry",1
 "Box, Wilts, England",England
 Denbyshire,1
@@ -36817,7 +36817,7 @@ Deal,1
 Haly,1
 Aboghill,1
 O Magh,1
-Magdeburg Prussia,1
+Magdeburg Prussia,Germany
 Money More,1
 Swanria,1
 Querrin,1
@@ -36860,7 +36860,7 @@ Isle of Whyte,1
 "Rangoon, Bunnah",1
 "Glenburn, Dummerry, Co Antrim",Ireland
 Andagh Co Limerick,Ireland
-Khine Prussia,1
+Khine Prussia,Germany
 "Clonalvy, Co Dublin",Ireland
 Menagh,1
 Glenthorganshire,1
@@ -36894,7 +36894,7 @@ Linconshire,1
 "Co Durhan, England",England
 "Whiggelton, County Antrin",1
 Marlingstown,1
-Prattan Poland,1
+Prattan Poland,Poland
 Shanganagh,1
 "Rentland, England",England
 "Brixton, London",1
@@ -36941,7 +36941,7 @@ Co Antrim By Ballymena,Ireland
 "Dunmorry, Co Antm",1
 Nova Section D B,1
 "Sutton,Cheshire",1
-"Natal, Ladysmith",1
+"Natal, Ladysmith",Natal
 "Lisbunney, Co Derry",Ireland
 Iray Borogh,1
 "Roscrea, Tipperary Co",1
@@ -36991,7 +36991,7 @@ Co Denagal,1
 "Parish of Galbally, Co Tipperary",Ireland
 "Windsor, Eng",England
 "Muckelhill, Co Amh",1
-"Heburt, Tasmania",1
+"Heburt, Tasmania",Tasmania
 Co Dublin Tallagth,Ireland
 Bandon (Cork),1
 "Dakeith, Scotland",Scotland
@@ -37274,24 +37274,24 @@ Bucking Lanshire,1
 "Derrilahane, Dun?y",1
 "Clohane, Co Cork",Ireland
 "Old Abby, Co Cork",Ireland
-"Hatae, South Africa",1
+"Hatae, South Africa",South Africa
 "Tullgzaine, Co Down",Ireland
 C A Cork,1
 "Ballgabert, Co Antrim",Ireland
 More Co,1
 Da?key,1
-Syanrna Asia Minor,1
+Syanrna Asia Minor,Turkey
 "Ireland, Armaugh",Ireland
 "Croshill, Larne, Antrim",1
 "Farranalough, Co Cork",Ireland
 "Derry, England",England
-"Ugie, South Africa",1
+"Ugie, South Africa",South Africa
 "Coggeshall Essex, England",England
 "Newtownards, N Ireland",Ireland
 "Skone, Sweedan",1
 "Newtown Buttler, Cornfarrmanah",1
 "Nova Scotia, Canada",Canada
-"Hobart, Tasmania",1
+"Hobart, Tasmania",Tasmania
 Cony Waterford,1
 "Connemara, Co Mayo",Ireland
 "Plymouth, Co Devon",1
@@ -37402,11 +37402,11 @@ Can Borne Co Meath,Ireland
 "Co Armagh, Crossmacaughby",Ireland
 "Shropshire, Engd",England
 "Millstast, Co Cork",Ireland
-"Rio, Brazil",1
+"Rio, Brazil",Brazil
 Man?r ?lton,1
 New Gla?,1
 Born in Sheffield,1
-"Stockholm, Sweden",1
+"Stockholm, Sweden",Sweden
 "England, Shornecliffe",England
 "Lack, Co Fermanagh",Ireland
 Akufavennymon,1
@@ -37473,7 +37473,7 @@ Co Dublin Barberstown,Ireland
 "Carrigtwohill, County of Cork",1
 "Aldershot, England, Camp",England
 "Co Meath, Kell? Ireland",Ireland
-"Balsthral, Switzerland",1
+"Balsthral, Switzerland",Switzerland
 "Netwnards, Co Down",Ireland
 Dadford,1
 "Fennor, Slane, Meath",1
@@ -37529,7 +37529,7 @@ Danmore E,1
 "Krian, Perak",1
 "Tram, Co Galway",Ireland
 St Settlements,1
-St Johns Newfoundland,1
+St Johns Newfoundland,Newfoundland
 C Town Bur,1
 C Town Reu,1
 "Ireland, Mayo, Ballsbrige",Ireland
@@ -37635,7 +37635,7 @@ Co Moanhan,1
 "Musanbridge, Co Cork",Ireland
 "Murragh, Co Cork",Ireland
 "?, Co Leitrim",Ireland
-"Port Elezbeth, South Africa",1
+"Port Elezbeth, South Africa",South Africa
 "Alderholt, England",England
 "Glengaville Castle, Co Cork",Ireland
 "Duncan, Clare, Co Cork",Ireland
@@ -37693,7 +37693,7 @@ Co Down Gilford,Ireland
 "Neherton, Worcestershire, England",England
 Carrickferg,1
 Thorough,1
-"Neuchatel, Switzerland",1
+"Neuchatel, Switzerland",Switzerland
 Draghey,1
 "Blakburn, England",England
 "Monkstown, Co Dublin, Lancashire",Ireland
@@ -37765,7 +37765,7 @@ See Kessh,1
 "Carrickfergus, Ireland, County Antrim",Ireland
 "Swindon, Wiltshire",1
 "Miltown, Co Louth",Ireland
-"Natal, S.A",1
+"Natal, S.A",Natal
 "Greystoke, Cumberland",1
 Portadown City,1
 Aldershat,1
@@ -37780,9 +37780,9 @@ Biskenhead,1
 "Co Down, Ir",Ireland
 "Co Ant, Ire",1
 "Bedure, Co Antrim",Ireland
-Zante Lonian Islands Greece,1
+Zante Lonian Islands Greece,Greece
 Castle Thorpe,1
-"Haiderabad Sind, East Indies",1
+"Haiderabad Sind, East Indies",East Indies
 "England, Belfast, Windsor",England
 "England, Glasgow",England
 "Trintagh, Co Donegal",Ireland
@@ -37810,7 +37810,7 @@ Madras Presidy,1
 "Clohog, Co Antrim",Ireland
 "? Townland, Co Sligo",Ireland
 Healy England,England
-"Wioxall, Isle of Wight",1
+"Wioxall, Isle of Wight",England
 Shepney,1
 Staffershier,1
 Tile of Man,1
@@ -37858,7 +37858,7 @@ Co Carnaroow,1
 "Lincoln, Skegness",1
 "Claregalway, Co Galway",Ireland
 Scilly Island,1
-"Singapore, Strait Littlements",1
+"Singapore, Strait Littlements",Singapore
 "Airshire, Scotland",Scotland
 Worrestershire,1
 "Kildysart, Co Clare",Ireland
@@ -37924,7 +37924,7 @@ Old Prompton Kent,1
 "Kelled, Co Antrim",Ireland
 "Hackney, England",England
 "Carndonagh, Co Antrim",Ireland
-"Guernsey, Channel Potands",1
+"Guernsey, Channel Potands",Guernsey
 "New Jessey St, America",United States
 "Lancastshire, England",England
 "Co Down, Dromore, Co D",Ireland
@@ -37945,7 +37945,7 @@ Corn C Down,1
 "Marina, Co Down",Ireland
 "Abercorn, Scotland",Scotland
 "Linlithgowshire, Scotland",Scotland
-"India, Malta",India
+"India, Malta",Malta
 "Co Lisburn, Antrim",1
 "Co Cavan, Blaris",Ireland
 United at America,United States
@@ -37979,7 +37979,7 @@ In Kildare,1
 "Dublin Co, Lucan",1
 West Meath Longford,1
 "England, (London)",England
-Danzig Prussia,1
+Danzig Prussia,Germany
 Ireland of Jerry,Ireland
 Midlathian,1
 "Johnstone, Canforeshire",1
@@ -38014,7 +38014,7 @@ Conty Kilkenny,1
 Pheladelphia,1
 "Laberters of Derry, Termonbacca",1
 "Aldershot, Engld",England
-"Guernsey, C Ird",1
+"Guernsey, C Ird",Guernsey
 "Hongkong, Armagh",Hong Kong
 "Nortomain St, Cork",1
 "Enniskerry, Co W",1
@@ -38069,7 +38069,7 @@ Co Cullagh,1
 "Co Dublin, Parish, Lusk",Ireland
 "Belleek, Fermanagh",1
 "Murroe, Co Limerick",Ireland
-"Jamaca, West Indies",1
+"Jamaca, West Indies",Jamaica
 "Aryostoli, Cephalonia, London Isley",1
 "Rush, Dub",1
 "Hempsherie, England",England
@@ -38121,7 +38121,7 @@ Co Randlestown,1
 Bolton Lanch,1
 Straids,1
 "Antrim, Co Leitrim",Ireland
-"Greece, Corfu Tonian Islands",1
+"Greece, Corfu Tonian Islands",Greece
 "New Orleans, Am",1
 Mlhenney,1
 "Co Tipper, Ireland",Ireland
@@ -38156,8 +38156,8 @@ Parash Hortham,1
 County of Lancashire,1
 County Monshan,1
 "Clattom, England",England
-on Sea West Coust of Africa,1
-"Jersey, Chan, Irland",1
+on Sea West Coust of Africa,At Sea
+"Jersey, Chan, Irland",Jersey
 "France, England",England
 "Ireland, Co town",Ireland
 Blackhill,1
@@ -38169,7 +38169,7 @@ Tonbridge Kent England,England
 "Ennisberry, County Wicklow",Ireland
 "Mountdessert, Co Cork",Ireland
 Wolverhamton,1
-"Molepole, South Africa",1
+"Molepole, South Africa",South Africa
 Machester,1
 "Irish St, Co Armagh",Ireland
 "Khocklee, Antrim",1
@@ -38177,7 +38177,7 @@ Machester,1
 West Flam,1
 "Ballymore, Eustace",1
 Co Doneal,1
-Demerara West India,India
+Demerara West India,British Guiana
 "Secundrabad, E. India",India
 "Newtownards, Co Fermanagh",Ireland
 "Gullyard, Co Tyrone",Ireland
