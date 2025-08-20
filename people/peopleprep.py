@@ -24,6 +24,7 @@ dicLit1901NoExName = os.path.join(dirDictionary1901name, 'ire_literacy_1901_nonE
 dicRel1901Name = os.path.join(dirDictionary1901name, 'ire_religion_1901.csv')
 dicRel1901NoExName = os.path.join(dirDictionary1901name, 'ire_religion_1901_nonExhaust.csv')
 dicBirth1901Name = os.path.join(dirDictionary1901name, 'ire_birth_country_1901.csv')
+dicBirth1901NoExName = os.path.join(dirDictionary1901name, 'ire_birth_country_1901_nonExhaust.csv')
 
 # 1901 Census File Read
 dir1901name = os.path.join(rootDirName, Path('../data/data/census/ireland/1901/'))
@@ -87,7 +88,7 @@ print("1901 Census Birthplace Standardisation")
 # Use Non Exhaust to convert errors to NaNs
 #dicLang = (pd.read_csv(dicLang1901name,names=['original','languages'],dtype={'original':'string','languages':'string'},index_col='original')
 #          .to_dict())
-dicBirth = (pd.read_csv(dicBirth1901Name,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
+dicBirth = (pd.read_csv(dicBirth1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
           .to_dict())['mapped']
 df1901 = func.processBirthplace('1901',dicBirth,df1901)
 
@@ -114,7 +115,7 @@ for name, values in df1901.items():
     df1901[name].value_counts().reset_index().to_csv(os.path.join(resultsInterDirName, 'ire_{name}_1901.csv'.format(name=name)), index=False)
 
 print("1901 Census Final Results")
-df1901.drop(['DED', 'firstName_1','firstName_2', 'firstName_3', 'firstName_4', 'firstName_5', 'firstName_6', 'house', 'languages', 'languagesSan', 'literacy', 'literacySan', 'religion', 'surname_1','surname_2', 'surname_3', 'surname_4', 'surname_5', 'name', 'surname', 'surnameSan', 'townlandOrStreet'], axis=1, inplace=True)
+df1901.drop(['DED', 'firstName_1','firstName_2', 'firstName_3', 'firstName_4', 'firstName_5', 'firstName_6', 'house', 'languages', 'languagesSan', 'literacy', 'literacySan', 'religion', 'surname_1','surname_2', 'surname_3', 'surname_4', 'surname_5', 'name', 'surname', 'surnameSan', 'townlandOrStreet','birthplace'], axis=1, inplace=True)
 df1901.to_csv(file1901Name, index=False)
 
 for name, values in df1901.items():
