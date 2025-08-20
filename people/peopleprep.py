@@ -23,6 +23,7 @@ dicLit1901name = os.path.join(dirDictionary1901name, 'ire_literacy_1901.csv')
 dicLit1901NoExName = os.path.join(dirDictionary1901name, 'ire_literacy_1901_nonExhaust.csv')
 dicRel1901Name = os.path.join(dirDictionary1901name, 'ire_religion_1901.csv')
 dicRel1901NoExName = os.path.join(dirDictionary1901name, 'ire_religion_1901_nonExhaust.csv')
+dicBirth1901Name = os.path.join(dirDictionary1901name, 'ire_birth_country_1901.csv')
 
 # 1901 Census File Read
 dir1901name = os.path.join(rootDirName, Path('../data/data/census/ireland/1901/'))
@@ -78,9 +79,17 @@ print("1901 Census Religion Standardisation")
 # Use Non Exhaust to convert errors to NaNs
 #dicLang = (pd.read_csv(dicLang1901name,names=['original','languages'],dtype={'original':'string','languages':'string'},index_col='original')
 #          .to_dict())
-dicRel = (pd.read_csv(dicRel1901Name,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
+dicRel = (pd.read_csv(dicRel1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
           .to_dict())['mapped']
 df1901 = func.processReligion('1901',dicRel,df1901)
+
+print("1901 Census Birthplace Standardisation")
+# Use Non Exhaust to convert errors to NaNs
+#dicLang = (pd.read_csv(dicLang1901name,names=['original','languages'],dtype={'original':'string','languages':'string'},index_col='original')
+#          .to_dict())
+dicBirth = (pd.read_csv(dicBirth1901Name,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
+          .to_dict())['mapped']
+df1901 = func.processBirthplace('1901',dicBirth,df1901)
 
 print("1901 Census First Name Matching")
 bcenter = names.readBCenterNames()
