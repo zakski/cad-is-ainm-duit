@@ -1985,7 +1985,7 @@ City Limerk,Ireland
 "Ireland, County Sligo",Ireland
 Town Carlow,Ireland
 "Dover, England",England
-Cape of Good Hope,Cape of Good Hope
+Cape of Good Hope,Cape Colony
 "Bangalore, India",India
 "Co Tipperary, Clonmel",Ireland
 Lancaster,England
@@ -2532,7 +2532,7 @@ In Co Kerry,Ireland
 "Ireland, County Galway",Ireland
 County Leatrim,Ireland
 Down Coy,Ireland
-Cape Town,Cape of Good Hope
+Cape Town,Cape Colony
 "Kilpike, County Down",Ireland
 "Born, Co Down",Ireland
 "Tulla, Co Clare",Ireland
@@ -3314,7 +3314,7 @@ U.S.America,United States
 "Middlesex, London",England
 "Strabane, Tyrone",Ireland
 "Kilcullen, Co Kildare",Ireland
-Capetown,Cape of Good Hope
+Capetown,Cape Colony
 "Bonnybefore, Co Antrim",Ireland
 "Barnohesker, Co Mayo",Ireland
 "Knuckacuder, Co Cork",Ireland
@@ -5911,7 +5911,7 @@ Johnstown,Ireland
 "Cardiff, S Wales",Wales
 "Hythe, Kent",England
 Pdown,Ireland
-"Cape Town, S A",Cape of Good Hope
+"Cape Town, S A",Cape Colony
 Butlersbridge,Ireland
 Mullinger,Ireland
 Co Meathe,Ireland
@@ -6036,7 +6036,7 @@ Antigua,Antigua
 Curdarah,Ireland
 "Mayreen, Co Limk",Ireland
 "I, C Antrim",Ireland
-Transvaal,Transvaal
+Transvaal,Transvaal Colony
 Born Co Clare,Ireland
 County of the City Limerick,Ireland
 "Dublin, Co Kildare",Ireland
@@ -7545,7 +7545,7 @@ Shrapshire,England
 "Costehill, Co Cavan",Ireland
 Belfast ?,Ireland
 "Clydelark, Scotland",Scotland
-Cape Town S G,Cape of Good Hope
+Cape Town S G,Cape Colony
 "Clonmel, Co Clare",Ireland
 Monohan,Ireland
 "Ir, C Fermanagh",Ireland
@@ -8609,7 +8609,7 @@ Burnfoot,Ireland
 "Mountown, Co Dublin",Ireland
 In County Derry,Ireland
 "Jowa, U S A",United States
-Madeira,Madeira
+Madeira,Portugal
 "Lancashire, St Helens",England
 "Killean, Co Armagh",Ireland
 "Rochestown, Co Cork",Ireland
@@ -8938,7 +8938,7 @@ Monagh,Ireland
 "Ld, Co Cork",Ireland
 Newtownfane,Ireland
 County Wefd,Ireland
-"Cape Town, South Africa",Cape Town
+"Cape Town, South Africa",Cape Colony
 "Herbertstown, Co Limerick",Ireland
 "Co Cork, Doneraile",Ireland
 "Co Cork, E N",Ireland
@@ -10494,7 +10494,7 @@ Doora,2
 Killyearnan,2
 Count Fermanagh,2
 America City,United States
-Cape Town S A,2
+Cape Town S A,Cape Colony
 "Florida, U S A",United States
 Holyhill,2
 "Co Lincolnshire, England",England
@@ -11039,7 +11039,7 @@ Isle of Malta,Malta
 "Lorne, Co Antrim",Ireland
 "Blackshire, Laneshire",2
 "Co Down, Ballygowan",Ireland
-Cape Town Sq,2
+Cape Town Sq,Cape Colony
 "Cairo, Egypt",Egypt
 Northwick,2
 "Kilbarry, Co Meath",Ireland
@@ -13925,7 +13925,7 @@ Carnarvonshire,2
 "Holyhead, Wales",2
 Strangford,2
 Coun Donegal,2
-"Cape Town, S Africa",South Africa
+"Cape Town, S Africa",Cape Colony
 "Kells, Co Meat",2
 City of in Dublin,2
 "Co Galway, B Shire",Ireland
@@ -13995,7 +13995,7 @@ Co Cavan ?,Ireland
 "United States America, Dromara",United States
 "Congleton, Cheshire, England",England
 "Clonnal, Co Tipperary",Ireland
-Pretoria S A,1
+Pretoria S A,Transvaal Colony
 Cyorshire England,England
 Dubilin City,1
 Minorca,1
@@ -16060,7 +16060,7 @@ Union,1
 "Co Kerry, Rossancan, Co K",Ireland
 "Southwark, London, Eng",England
 "Tuin, Co Meath",Ireland
-"Port of Spain, Divided, West Indies",West Indies
+"Port of Spain, Divided, West Indies",Trinidad
 "Gravesend, Kent",1
 Eng Sussex,England
 "Mayflax, Scotland",Scotland
@@ -16307,7 +16307,7 @@ Terry Land,1
 City Galwy,1
 Manchesta,1
 "Co Dublin,Kings co",Ireland
-Lisbon,1
+Lisbon,Portugal
 Brandon Essex,1
 "Castlepollard, Co Westmeath",Ireland
 "Dumfies, Scotland",Scotland
@@ -16869,7 +16869,7 @@ County R Common,1
 Dalton,1
 G Galway,1
 "Belfast, Ireland E H",Ireland
-Rio De Janeiro,1
+Rio De Janeiro,Brazil
 "Rathmore, Antrim, Co Ant",1
 Co Orratine?,1
 Rill Wales,1
@@ -17001,7 +17001,7 @@ Rohnda,1
 Guemsey,1
 "In ? Co Cork, Black Book",Ireland
 Griece,1
-Cape Town I A,1
+Cape Town I A,Cape Colony
 Valdgeol,1
 Coundy Co Armagh,Ireland
 "Leipsie, Germany",Germany
@@ -17045,7 +17045,7 @@ Cook St,1
 "Cologue, Germany",Germany
 "Castletown Road, Co Cork",Ireland
 "74 Fair Lane, Cork City",1
-"Pretoria, Tramond",1
+"Pretoria, Tramond",Transvaal Colony
 "Triehill, Galway",1
 New York America,United States
 "Co Mayo, Newyork",Ireland
@@ -17611,7 +17611,7 @@ City's,1
 Tiparary,1
 "Redfort, Co Wicklow",Ireland
 "Bales Brige, Co Dublin",Ireland
-Port Louis,1
+Port Louis,Mauritius
 "Evie, Orkney Island N B",1
 Rathmines County Dublin,1
 "Cavan, Bally Connell",1
@@ -20535,7 +20535,7 @@ Jamaica W J,Jamaica
 Hetferdshire,1
 "Castlereagh, C Down",1
 "Co Fermanagh, Devinesh",Ireland
-"Pretoria, Africa",South Africa
+"Pretoria, Africa",Transvaal Colony
 "England, South Deoow",England
 "Tahon, East India",India
 Ballintample,1
@@ -20615,7 +20615,7 @@ Town ?,1
 Chushel,1
 Aughnaguran,1
 "Athy, Co Kildar",1
-Hobart Town,1
+Hobart Town,Tasmania
 "Kilonoin, Co Mayo",Ireland
 "Wales, Anglesea",1
 "Ratholly, Co Carlow",1
@@ -21147,7 +21147,7 @@ Einburgh,1
 Folkland Islands,1
 Ilkeston,1
 "Struit, Settlements",1
-"Africa, Cape Town",South Africa
+"Africa, Cape Town",Cape Colony
 "Ballymartle, Kinsale",1
 "Eastferry, Co Cork",Ireland
 Redditch,1
@@ -21668,7 +21668,7 @@ Monaghan Down,1
 "Newtownstewarts, Co Tyrone",Ireland
 "Craigarogan, Co Antrim",Ireland
 "Ballymaccorall, Co Antrim",Ireland
-Constantinople,1
+Constantinople,Turkey
 "Co Kavan, Virgina",1
 "Eclair, W",1
 Bettarbes,1
@@ -22276,7 +22276,7 @@ Co Dublin Kingstown,Ireland
 "Joe, Co Wick",1
 "Waudsworth, London",1
 "London, Co London",1
-"Johanesburg, Transvaal",Transvaal
+"Johanesburg, Transvaal",Transvaal Colony
 Co Fermanaght,Ireland
 "Fitt, Co Wexford",Ireland
 "W Indies, Grenada",1
@@ -24556,7 +24556,7 @@ Clareabridge,1
 Cambridgeshire Engl,England
 "Ducham, England",England
 Co Mago,1
-Bridgetown,1
+Bridgetown,Barbados
 "Devon, Co Dublin",Ireland
 "Cano? Corper, Sligo",1
 "Lisdoonan, Monaghan",1
@@ -24956,7 +24956,7 @@ Ct Wexford,1
 Killroman,1
 "Donador, Co Kildare",Ireland
 Kings and Dublin,1
-Hobart Jasmania,1
+Hobart Jasmania,Tasmania
 "St Andrews, Scotland",Scotland
 "County Armagh, Newry, Co Down",Ireland
 Castleshaul,1
@@ -25612,7 +25612,7 @@ East Twickenham Middlesix,1
 "Liskcard, Cheshire",1
 "Whit?h, Glasgow",1
 "Ballypick, Co Down",Ireland
-Manila,1
+Manila,Philippines
 "Co Galway, Longhua",Ireland
 "Co Mayo, Strandhill",Ireland
 "Kilconly, Co Galway",Ireland
@@ -25841,7 +25841,7 @@ In Bringham,1
 Cananore Madras East Indies,India
 "Primary, Co Down",Ireland
 "Bmoy, Co Antrim",Ireland
-"Cape Town, S.A.",Cape Town
+"Cape Town, S.A.",Cape Colony
 "Nelson, Scotland",Scotland
 "Scotland, Kirkendbright",Scotland
 "Ashton Ander Line, England",England
@@ -26850,7 +26850,7 @@ Sommershire,1
 Wexford (town),1
 New Rome,1
 "Wicklow, Down",1
-"Port Louis, Maurefills",1
+"Port Louis, Maurefills",Mauritius
 "Fanderagll, Co Armagh",Ireland
 "Derry City, Co Derry",Ireland
 Co Brain,1
@@ -26964,7 +26964,7 @@ County Watf,1
 "Co Wexford, Gurrawn",Ireland
 "Co Wexford, Rahole",Ireland
 "Co of Kings, Ireland",Ireland
-"St. Johns, America",United States
+"St. Johns, America",Antigua
 "Skebbereen, Co Cork",Ireland
 "Ballycraig Sq, Co Antrim",Ireland
 "London City, Derry",1
@@ -28480,7 +28480,7 @@ Aldergrove,1
 "Whiteburn, Co Antrim",Ireland
 Tullegrush,1
 St Lukes London,1
-"South Africa, Cape of Good Hope",Cape of Good Hope
+"South Africa, Cape of Good Hope",Cape Colony
 "Dulkey, Co Dublin",Ireland
 "St Georges, Readery",1
 "Charlemont, Armagh",1
@@ -29707,7 +29707,7 @@ Kimmage Co D,1
 10 Lien Hall St,1
 Peebles N B,1
 "Bermuda, West India",Bermuda
-"Cape of Good Hope, Africa",Cape of Good Hope
+"Cape of Good Hope, Africa",Cape Colony
 Garston England,England
 United States St,1
 "Dunmanway, Co Antrim",Ireland
@@ -32230,7 +32230,7 @@ Kilbridge,1
 Natal A,Natal
 "Carrick in Birr, Co Tipp",1
 Co Tipry,1
-"Cape Town, Africa",South Africa
+"Cape Town, Africa",Cape Colony
 Carrick-Beg,1
 "Ballinamona, Co Tipperary",Ireland
 "Dualla, Co Tipp",1
@@ -33298,7 +33298,7 @@ Buckland City,1
 Drum?irk,1
 Maurtins,1
 "Copelcoloney, S Africa",South Africa
-"Hobart, Australia",Australia
+"Hobart, Australia",Tasmania
 "Wavertree, Liverpool",1
 "Harleston, Norfolk",1
 "Mounternedick, Queens County",1
@@ -33644,7 +33644,7 @@ Clushire,1
 Ballyworkan,1
 "Warwick, Killeny",1
 Colbicklow,1
-"Kingstown, Jamaca",1
+"Kingstown, Jamaca",Jamaica
 "Withrenwick, York, England",England
 "Dooer, Kent",1
 "Gloucester, Eng",England
@@ -36926,7 +36926,7 @@ County Edinburgh,1
 "Brixton, England",England
 "Wicklow, Carner C W",1
 T Wicklow,1
-Hobart,1
+Hobart,Tasmania
 "Waers, Co Kildore",1
 "Carnalea, Co Down",Ireland
 "Dromcoliher, Co Cork",Ireland
@@ -38193,7 +38193,7 @@ Maira,1
 "Westminster, London",1
 Brecon,1
 "High St, Newtownards, County Down",Ireland
-Damascus,1
+Damascus,Syria
 "Craigs, Ireland",Ireland
 "Carrick, Ireland",Ireland
 "Canada, Teronto City",Canada
