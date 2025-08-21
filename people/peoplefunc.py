@@ -215,6 +215,10 @@ def processOccupation(censusYear,dicOcc, df_census):
     df_census['birthplace'] = df_census['occupation'].fillna('Unknown')
     print(censusYear + " Census Count = " + str(df_census.shape[0]))
 
+    print(censusYear + " Census Filtering Out Occupations With ?")
+    df_census = df_census[~df_census["occupation"].str.contains("?", regex=False)]
+    print(censusYear + " Census Count = " + str(df_census.shape[0]))
+
     print(censusYear + " Census Sanitising Occupation")
     df_census['occupationTmp'] = df_census['occupation'].replace(dicOcc).astype('string')
     #df_census = df_census[df_census['birthCountry'].notnull()]
