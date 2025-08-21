@@ -198,14 +198,26 @@ def processReligion(censusYear,dicRel, df_census):
 
     return df_census
 
-def processBirthplace(censusYear,dicRel, df_census):
+def processBirthplace(censusYear,dicBir, df_census):
     print(censusYear + " Census Filtering Birthplace")
     df_census['birthplace'] = df_census['birthplace'].fillna('Unknown')
     print(censusYear + " Census Count = " + str(df_census.shape[0]))
 
     print(censusYear + " Census Sanitising Birthplace")
-    df_census['birthCountry'] = df_census['birthplace'].map(dicRel).astype('string')
+    df_census['birthCountry'] = df_census['birthplace'].map(dicBir).astype('string')
     df_census = df_census[df_census['birthCountry'].notnull()]
+    print(censusYear + " Census Count = " + str(df_census.shape[0]))
+
+    return df_census
+
+def processOccupation(censusYear,dicOcc, df_census):
+    print(censusYear + " Census Filtering Occupation")
+    df_census['birthplace'] = df_census['occupation'].fillna('Unknown')
+    print(censusYear + " Census Count = " + str(df_census.shape[0]))
+
+    print(censusYear + " Census Sanitising Occupation")
+    df_census['occupationTmp'] = df_census['occupation'].replace(dicOcc).astype('string')
+    #df_census = df_census[df_census['birthCountry'].notnull()]
     print(censusYear + " Census Count = " + str(df_census.shape[0]))
 
     return df_census

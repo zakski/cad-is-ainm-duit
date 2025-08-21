@@ -92,6 +92,14 @@ dicBirth = (pd.read_csv(dicBirth1901NoExName,names=['original','mapped'],dtype={
           .to_dict())['mapped']
 df1901 = func.processBirthplace('1901',dicBirth,df1901)
 
+print("1901 Census Occupation Standardisation")
+# Use Non Exhaust to convert errors to NaNs
+#dicLang = (pd.read_csv(dicLang1901name,names=['original','languages'],dtype={'original':'string','languages':'string'},index_col='original')
+#          .to_dict())
+dicBirth = (pd.read_csv(dicBirth1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
+          .to_dict())['mapped']
+df1901 = func.processOccupation('1901',dicOcc,df1901)
+
 print("1901 Census First Name Matching")
 bcenter = names.readBCenterNames()
 df1901['nameBCenterMatch'] =  df1901[['nameCap','gender']].apply(tuple, axis=1).isin(bcenter[['nameCap','gender']].apply(tuple, axis=1))
@@ -120,4 +128,7 @@ df1901.to_csv(file1901Name, index=False)
 
 for name, values in df1901.items():
     print('Writing ire_{name}_1901.csv'.format(name=name))
-    df1901[name].value_counts().reset_index().to_csv(os.path.join(resultsDirName, 'ire_{name}_1901.csv'.format(name=name)), index=False)
+    df1901[name].value_counts().reset_index().sort_index(ascending=False).sort_values(ascending=False).to_csv(os.path.join(resultsDirName, 'ire_{name}_1901.csv'.format(name=name)), index=False)
+
+print('Writing ire_occupationTmp_AZ_1901.csv'.format(name=name))
+df1901['occupationTmp'].value_counts().reset_index().sort_values(ascending=False).sort_index(ascending=False).to_csv(os.path.join(resultsDirName, 'ire_occupationTmp_AZ_1901.csv'.format(name=name)), index=False)
