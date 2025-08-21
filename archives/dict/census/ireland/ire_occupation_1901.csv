@@ -2053,7 +2053,7 @@ Shop Assistant Grocery,50
 Woolen Factory Hand,50
 Drawer in Mill,50
 Coal Labour,50
-Yarn Spinner in Mill,50
+Yarn Spinner in Mill,Mill Yarn Spinner
 Drapery Saleswoman,50
 Brick Maker,50
 Dress - Maker,50
@@ -2067,7 +2067,7 @@ Solicitor's Managing Clerk,49
 Hardware Apprentice,49
 Genrl Labourer,49
 Undergraduate R.U.I.,49
-Yarn Bleacher,49
+Yarn Bleacher,Yarn Bleacher
 General Carrier,49
 Grocer and Wine Merchant,49
 Income From Dividends,49
@@ -2740,7 +2740,7 @@ Cook Domestic Servant Unemployed,34
 Coach Man Domestic,34
 Seamstrees,34
 Painter Master,34
-Yarn Spinner Mill Worker,34
+Yarn Spinner Mill Worker,Mill Yarn Spinner
 Shop Assistants,34
 At Scool,Scholar
 Lady Help,33
@@ -3168,7 +3168,7 @@ Reeler in a Spinning Mill,28
 Unemployed Domestic Servant,28
 Laundry Girl,28
 Domestic Servant (Nurse),28
-Yarn Weaver,28
+Yarn Weaver,Yarn Weaver
 Shopkeeper's Wife,28
 Shorthand Writer and Typist,28
 Labour Gen,28
@@ -3765,7 +3765,7 @@ Helper at Home,23
 Charwoman Domestic,23
 Retired Solicitor,23
 Linen Measurer,23
-Yarn Spinner in Spinning Mill,23
+Yarn Spinner in Spinning Mill,Spinning Mill Yarn Spinner
 Husekeeper,23
 Porter Hotel,22
 Labourer in Chemical Works,22
@@ -4299,7 +4299,7 @@ Coachsmith,19
 Spinner Flax Factory,19
 Domestic Servant General Servant,19
 School Attendance Officer,19
-Yarn Dryer,19
+Yarn Dryer,Yarn Dryer
 Aricultural Labourer,Agricultural Labourer
 Clerk Linen Business,19
 Laborur,19
@@ -4845,7 +4845,7 @@ Parlour-Maid,17
 Surface Man on Road,17
 House Maid D. Servant,17
 Retired Domestic Servt,17
-Yarn Finisher,17
+Yarn Finisher,Yarn Finisher
 Teacher (National),17
 Servant Cook Domestic,17
 Principal of School,17
@@ -5069,7 +5069,7 @@ Railway Servant Porter,16
 Charing,16
 Woolspinner,16
 Receiving Instruction at Home,16
-Yarn Drier,16
+Yarn Drier,Yarn Dryer
 Farmer-Fisherman,16
 House and Land Owner,16
 Blacksmith-Master,16
@@ -5475,7 +5475,7 @@ Carmelite Men,14
 Bank Teller,14
 Famers Wife,14
 Stewards Daughter,14
-Yarn Spinner in Factory,14
+Yarn Spinner in Factory,Factory Yarn Spinner
 "Member of the Community of the Order, St. Clare",14
 Spirit Trade,14
 Factory Worker Shirt,14
@@ -5734,7 +5734,7 @@ Outdoor Servant,14
 Assistant Post Mistress,14
 Grocer Etc,14
 Bleach Worker,14
-Agent Bank of Ireland,14
+Agent Bank of Ireland,Bank of Ireland Agent
 Builder and Farmer,14
 Wife House Keeper,14
 Public House Keeper,14
@@ -8213,7 +8213,7 @@ Mill - Worker,8
 Cloth Cropper,8
 Retired Car Driver,8
 Rual Postman,8
-Yarn Twister,8
+Yarn Twister,Yarn Twister
 Doffer (Mill),8
 General Labourer-Unemployed,8
 Emigration Agent,8
@@ -8234,7 +8234,7 @@ Servant Stable,8
 Explosive Maker,8
 Cook Servant-Domestic,8
 Dye Works Labourer,8
-Yachtsman,8
+Yachtsman,Yachtsman
 Carder in Spinning Mill,8
 Apprentice to Linen Trade,8
 Woodman,8
@@ -9002,7 +9002,7 @@ Spinner Linen Mill Worker,8
 Plain Linen Weaver,8
 Domestic Servant Nurse Maid,8
 Factory Labour,8
-Yarn Winder (Linen),8
+Yarn Winder (Linen),Linen Yarn Winder
 Confictioner,8
 Dealer-Gen,8
 Officer of Customs,8
@@ -9174,7 +9174,7 @@ Farm Labouers,7
 Rivett Heater,7
 Grl Labourer,7
 Parcel Boy,7
-Agent Drapery,7
+Agent Drapery,Drapery Agent
 Foundry Clerk,7
 Mill Spreader,7
 Sisters of Mercy Employed teaching Schools Visiting Sick and Relieving Poor,7
@@ -10960,7 +10960,7 @@ Shopwright,6
 Missionery,6
 Printing,6
 Office Caretaker,6
-Yarn Dresser in Linen Factory,6
+Yarn Dresser in Linen Factory,Linen Factory Yarn Dresser
 Farm Laber,6
 No Occupation Private Means,6
 Laundress D S,6
@@ -12359,7 +12359,7 @@ Linnen Warper,5
 Victualler and Cattle Dealer,5
 Master Mariner Retired,5
 Housemaid-Domestic Ser,5
-Yarn Winder (Linen Weaving),5
+Yarn Winder (Linen Weaving),Linen Yarn Winder
 Color Sergeant Infantry,5
 Gnl Servant,5
 Labourer in Bacon Seller,5
@@ -13646,7 +13646,7 @@ Ship Yard Helper,5
 Cigarette Packer,5
 Farmer Visitor,5
 A Farmers Servant,5
-Yarn Dresser in Factory,5
+Yarn Dresser in Factory,Factory Yarn Dresser
 Nil Dividends,5
 Tram-Driver,5
 Reeler at Sp'g Mill,5
@@ -14743,7 +14743,7 @@ Indoor Domestic Servant,4
 G Labourers,4
 Not Atten School,4
 General Srvt Domestic,4
-Agent Insurance,4
+Agent Insurance,Insurance Agent
 Groom D.S.,4
 Seafairing,4
 Boilermaker Rivetter,4
@@ -15446,7 +15446,7 @@ R Catholic Parish Priest,4
 Out Dom Servant,4
 Farmers Dgt,4
 Plumber (Unemployed),4
-Yarn Spiner,4
+Yarn Spiner,Yarn Spinner
 Boker,4
 Civil Service Teacher,4
 Pantry Maid Domestic,4
@@ -15497,7 +15497,7 @@ Dealer at Races,4
 Army Penisoner,4
 Army Pensioner Royal Artillery,4
 Fisherman Farmer,4
-Yarn Bundler in Mill,4
+Yarn Bundler in Mill,Mill Yarn Bundler
 Gen Servant Domest,4
 Sub P Mistress,4
 Commercial Traveller Drapery Trade,4
@@ -16462,7 +16462,7 @@ Sorting Clerk and Tel,4
 Boiler Inspector,4
 Veteinary Surgeon,4
 Electric Motor Man,4
-Yarn Spinner Factory Hand,4
+Yarn Spinner Factory Hand,Factory Yarn Spinner
 Solicitors General Assistant,4
 Labourer Genel,4
 Apprentice Saleswoman,Apprentice Saleswoman
@@ -17891,7 +17891,7 @@ Land-Owner (Farmer),3
 W Weaver,3
 Hotel Managers,3
 Gate Keepers Daughter,3
-Yarn Spinner Linen,3
+Yarn Spinner Linen,Linen Yarn Spinner
 Dispensary Porter,3
 Engineer in Linen Factory,3
 NS Teacher,3
@@ -19602,7 +19602,7 @@ Labourer not Employed,3
 Linen Weaving Tenter,3
 Warerooms Assistant,3
 Servant (Coachman),3
-Agent House,3
+Agent House,House Agent
 Money in Bank,3
 Plumber and Tinsmith,3
 Schoors,3
@@ -19753,7 +19753,7 @@ Post Man and Farmer,3
 Labrer,3
 Undergraduate of R U I,3
 Nurse Children,3
-Yacht Builder,3
+Yacht Builder,Yacht Builder
 Cairtaker,3
 Engine Maker,3
 Black Smith Trade,3
@@ -20613,7 +20613,7 @@ Builder's Assis,3
 Wer Room (Stitcher),3
 Farmer and Draper,3
 Plumber and Gasfitter Master,3
-Yarn Dryer in Mill,3
+Yarn Dryer in Mill,Mill Yarn Dryer
 Genl. Dom. Servant,3
 House keeper at Home,3
 Geoman,3
@@ -20800,7 +20800,7 @@ Assistant Signalman,3
 Nat School Teacher and Farmer,3
 Mill Assistant,3
 Engineer on Railway,3
-Flax Yarn Spinner in Mill,3
+Flax Yarn Spinner in Mill,Flax Mill Yarn Spinner
 Keeping House for Family,3
 Grocer Van Driver,3
 Under Graduate of Royal University,3
@@ -22412,7 +22412,7 @@ Laborour in Factory,3
 Gardener Foreman,3
 Bath Attendent,3
 Paper Mill Worker (Sheeter),3
-Yacht and Boat Builder,3
+Yacht and Boat Builder,Yacht and Boat Builder
 Ex. Sergeant R.I.C,3
 Foreman Miller,3
 Stoker on Ship,3
@@ -23083,7 +23083,7 @@ Navey Pensioner,3
 In Receipt of Annuity,3
 Machinest in Linen Factory,3
 Gass Manager,3
-Yarn Bundler in Factory,3
+Yarn Bundler in Factory,Factory Yarn Bundler
 Pensioner's Son (R.I.C),3
 Quarry man,3
 Apprentice Draughtsman,Apprentice Draughtsman
@@ -24720,7 +24720,7 @@ Engineer Sawmill,2
 Spinner in A Spinning Mill,2
 C Clergyman,2
 Attending at Schooll,2
-Agent House Property,2
+Agent House Property,House Property Agent
 Linen Collar-Stitcher,2
 Clerk to Publican,2
 Derive Income from Dividends,2
@@ -25945,7 +25945,7 @@ Smith's and Helper,2
 Cooper (Master),2
 Clerk Commercial Hardware,2
 Seedsman Assistant,2
-Agent Brewers,2
+Agent Brewers,Brewers Agent
 Master Horse Shoer,2
 Cutter Girl in Paper Mill,2
 Retired Annuitant,2
@@ -28337,7 +28337,7 @@ Handkershief Stitcher,2
 Priest Professor of Language,2
 Licensed Publican and General Trader,2
 Mill Waker,2
-Agent for Sunlight Soap,2
+Agent for Sunlight Soap,Sunlight Soap Agent
 Fram Labourer,2
 Grocer's Packer,2
 General Labowrer,2
@@ -29483,7 +29483,7 @@ Dairy-maid,2
 Woll Spiner,2
 Living Private Dividends,2
 Machine Boy at Factory,2
-Yarn Hawker,2
+Yarn Hawker,Yarn Hawker
 Export Packer,2
 Scale Maker,2
 Flax Sorter in Linen Mill,2
@@ -29532,7 +29532,7 @@ None Wife of Above,2
 Matron of Orphanage,2
 Publishers Agent,2
 Vetrinary Surgeon,2
-Yarn Driver,2
+Yarn Driver,Yarn Driver
 Landlords Wife,2
 Lady's Maid-Domestic Servant,2
 Vet. Surgeon,2
@@ -30289,7 +30289,7 @@ Flax Spinner - in - Mill,2
 Work in Dye Works,2
 Catton Spinner,2
 Bricklayer Unemploy,2
-Yarn Bundler at Mill,2
+Yarn Bundler at Mill,Mill Yarn Bundler
 Royal Irish County Pensioner,2
 Binder in Factory,2
 Farmer and Shop Dealer,2
@@ -31149,7 +31149,7 @@ Steel Metal Worker,2
 R.I.C Pensioner and Clerk,2
 Agricural Labour,Agricultural Labourer
 Baker Wife,2
-Linen Yarn Dresser Unemployed,2
+Linen Yarn Dresser Unemployed,Unemployed Linen Yarn Dresser
 Gasfittir,2
 Cashier-Land Agent's Assistant and Income Tax Recovery and Adjustment Agent,2
 Tread Tailor,2
@@ -31158,7 +31158,7 @@ Cottage Farmer,2
 Parlor Maid D Servant,2
 Embroider's,2
 Searning to Farm,2
-Yarn Dresser in Linnen Factory,2
+Yarn Dresser in Linnen Factory,Linen Factory Yarn Dresser
 Shepered,2
 Commercial Clerk-Stationery,2
 Typist and Stenographer,2
@@ -32006,7 +32006,7 @@ Manager Bacon Factory,2
 Minister Wife,2
 Millinery App,2
 Gen. Servant - Domestic,2
-Yarn Dresser in Mill,2
+Yarn Dresser in Mill,Mill Yarn Dresser
 Commercial Traveeler,2
 Areated Water Bottler,2
 Tower Dealer,2
@@ -32348,7 +32348,7 @@ Past Mistress,2
 Domestic Servant and Maid,2
 Dealer and Pedler,2
 Farmer and General Business,2
-Yarn Bundler in Flax Spinning Mill,2
+Yarn Bundler in Flax Spinning Mill,Flax Spinning Mill Yarn Bundler
 Carter in Sawmill,2
 Seamstress Plain and Fancy Sewing,2
 None Pensioner,2
@@ -32712,7 +32712,7 @@ Annuity and House Property,2
 Warehouse Clerk Linen,2
 Teacher N B,2
 Labourar Quay,2
-Yarn Bleacher in Thread Factory,2
+Yarn Bleacher in Thread Factory,Yarn Factory Bleacher
 Engine Greaser,2
 Coachman-(Domestic Servant),2
 Wool Corder,2
@@ -33309,7 +33309,7 @@ Commericial Agent,2
 Working on Farim,2
 Sick Manufacturer,2
 Laboerer,2
-Yarn Bundle,2
+Yarn Bundle,Yarn Bundler
 Shop and Farm Assistant,2
 Fruit and Vegetable Shop Assistant,2
 Winer Linen Yarn,2
@@ -34204,7 +34204,7 @@ Medical Student Edinburgh University,2
 Pharmacautical Chemist,2
 Sweet Packer,2
 Clerk Northern Bank,2
-Yarn Dresser Linen Factory,2
+Yarn Dresser Linen Factory,Linen Factory Yarn Dresser
 General Drapers,2
 Ex Sergt R.I.Constabulary,2
 Farmers and Army Pensioner Infantry,2
@@ -34326,7 +34326,7 @@ Merchant Provision,2
 Teacher of N. S.,2
 Baker Publican,2
 Coal Merchants Labourer,2
-Agent (Land),2
+Agent (Land),Land Agent
 Agriculta Labourer,Agricultural Labourer
 Wine and Tea Mercht,2
 Grocer and Apprentice,2
@@ -34469,7 +34469,7 @@ Farm Labr - Domestic Svt,2
 Shop Bussiness Drapery,2
 Head Groom Domestic Servant,2
 I.P. Land Owner,2
-Agent Singer Mfg Co,2
+Agent Singer Mfg Co,Singer Mfg Co Agent
 Soldier on Furlow,2
 General Labourer in Public House,2
 Butelers Porter,2
@@ -35122,7 +35122,7 @@ Confectioner and Caterer,2
 Commercial Clerk Engineering,2
 Brewery Car Men,2
 General Servant Domestic Ser,2
-Yarn Dressing,2
+Yarn Dressing,Yarn Dresser
 Labourer Barrack,2
 Commercial Clerk Stock Broker,2
 Worker in Bacon Cellar,2
@@ -35734,7 +35734,7 @@ S.C. and T.,2
 Apprentice in Linen Trade,2
 Millwrights,2
 Merchant and Contractor,2
-Yarn Spiner in Mill,2
+Yarn Spiner in Mill,Mill Yarn Spinner
 Gen Farm Servant,2
 Clerk to Butter Merchant,2
 Probate Court Keeper,2
@@ -36132,7 +36132,7 @@ Winder Linnen Weaving,2
 Assiting in Household Duties,2
 Yord Man,2
 Poultry Wealer,2
-Yachtman Master,2
+Yachtman Master,Master Yachtman
 Farmer an Shop Keeper,2
 Clerk of Pettysessions,2
 Huse Keeping,2
@@ -36351,7 +36351,7 @@ Shophand,2
 Labourer in Copper Works,2
 Living on Private Money,2
 Apprentice Couch Builder,2
-Agent Commercial,2
+Agent Commercial,Commercial Agent
 Loyal School,2
 Hand Loom Weaver (Linen),2
 Clerk Irish Ld Commission,2
@@ -36638,7 +36638,7 @@ Power Loom Linter,2
 No Occupation Annuity,2
 Clirk,2
 Smoother in Laundrey,2
-Yarn Bundlers,2
+Yarn Bundlers,Yarn Bundler
 House Wourk,2
 Clerk in Bleaching Works,2
 Straw Bonnet Maker and Miliner,2
@@ -39854,7 +39854,7 @@ Machinest in Iron Works,2
 Landlord and C,2
 Sergt. R I C,2
 Baker Pastry,2
-Agent to Distillery Company,2
+Agent to Distillery Company,Distillery Company Agent
 Calico Machine Printer,2
 Private Prov Reg. Lancers,2
 Smoother Linen Warehouse,2
@@ -40014,7 +40014,7 @@ Chief Boatman in Charge of Coast Guards,2
 Assit Builder,2
 Sel Boy Factory,2
 Mercantile Book Keeper,2
-Yarn Bundler Labourer,2
+Yarn Bundler Labourer,Yarn Bundler
 Retired Tea Merchant,2
 Aprentice Sorting Cloth,2
 Dealer in Cheap Jewellery,2
@@ -40045,7 +40045,7 @@ Bakor,2
 Pedler and Dealer,2
 Going to School Christian Bretherns,2
 Engine Driver Brick Works,2
-Agent Commission,2
+Agent Commission,Commission Agent
 Egg and Poultry Merchant,2
 Drapers Sales Woman,2
 Assitant in Above,2
@@ -40084,7 +40084,7 @@ Stitcher Blouse and Coat,2
 Agrl Labourer and Fisherman,2
 House from School,2
 Factory Hand Tailoress,2
-Yarn Bundler in Linen Factory,2
+Yarn Bundler in Linen Factory,Linen Factory Yarn Bundler
 Annuity from House Property,2
 Hall Porter Domestic,2
 Domestic Nursery Maid,2
@@ -40108,7 +40108,7 @@ Flourist,2
 Linnen Bettler,2
 HS Smoother and Finisher,2
 Housemaid Domestic Servat,2
-Yarn Worker Linen Factory,2
+Yarn Worker Linen Factory,Linen Factory Yarn Worker
 Smiths Son,2
 Shop Assistant (Draper's),2
 Spenner,2
@@ -40179,7 +40179,7 @@ Farmers Daughter Assisting at Farm Work,2
 Lady (Unoccupied),2
 Shoemaker and Pensioner,2
 Retired Hotelkeeper,2
-Agent Tourist,2
+Agent Tourist,Tourist Agent
 Clerk Merchant Officer,2
 Factory Machine Worker,2
 Clerk Goods Store,2
@@ -40440,7 +40440,7 @@ Rom Keeper,2
 Commercial Clerk S R Tobacco Factory,2
 Groom Domest Servt,2
 Shop Keeper and Green Grocer,2
-Yarn Spinner Millhand,2
+Yarn Spinner Millhand,Mill Yarn Spinner
 Sorting Clk and Telgst,2
 Engineer on Boat,2
 Spinner Linen Mills,2
@@ -42166,7 +42166,7 @@ Brass and Iron Moulder and Farmer,1
 Agent ? and Collector,1
 Husband's House Keeper,1
 Sr Nurse Ward Master,1
-Agent (Linen),1
+Agent (Linen),Linen Agent
 Retired Embroydery Agent,1
 Assistant Matron Farmers Daughter,1
 Sipinner,1
@@ -42489,7 +42489,7 @@ Car Wheel Maker,1
 Bookkeeper Cone Mill,1
 Machenist (Clothing Factory),1
 Dairy-Maid-Domestic Servant,1
-Agent Corn Trade,1
+Agent Corn Trade,Corn Trade Agent
 Linen Factory Yarn Man,1
 Auctioneer and Estate Agent Rate Collection,1
 Work in Starch Factory,1
@@ -43786,7 +43786,7 @@ Letter Carrier or Rural Postman,1
 Retired Teacher-Clerk of Church-Gas Collector House Agent and c,1
 Master Pavior,1
 Apprentice Plastrer,1
-Agent to Feeding Shop,1
+Agent to Feeding Shop,Feeding Shop Agent
 Plain Worker Seamstress,1
 Com'l Travr Soaps,1
 S.B. Steward R.N.,1
@@ -43883,7 +43883,7 @@ Jeweller's Salesman Unemployed,1
 Domestic Servt Gentleman's Nurse,1
 Sale Maker,1
 Unemployed Carpt,1
-Agent for Sunlight Soop,1
+Agent for Sunlight Soop,Sunlight Soap Agent
 Car Driver H Car and Cab Proprietor,1
 La House Keeper,1
 No Occupation (Lame),1
@@ -43966,7 +43966,7 @@ Flowerer Handkerchief,1
 Qarry Labour,1
 Do M Servant,1
 G L Domestic Servant,1
-Agent for Carrier,1
+Agent for Carrier,Carrier Agent
 Boot Maker and Post Office Keeper,1
 Miner-Unemployed,1
 Master Text Maker,1
@@ -44098,7 +44098,7 @@ Parcels Porter G S W Railway,1
 Income is from Land,1
 Commission A,1
 Maid-Domestic St,1
-Agent-Steamship,1
+Agent-Steamship,Steamship Agent
 Message Boy to Fruiterer,1
 Grocer Provision Dealer,1
 Brick Layers Labey,1
@@ -44617,7 +44617,7 @@ Co Inspector R.I. Constabulary,1
 Bookstand Clerk,1
 Commercial Clerk-Stationary,1
 B A Cambridge,1
-Agent to Prudential Co,1
+Agent to Prudential Co,Prudential Co Agent
 Auctioneer and House Agent,1
 Salesman Boots,1
 Watchmaker Tobbing,1
@@ -45283,7 +45283,7 @@ Owner of Real Estate,1
 Factory P Folder,1
 Agricultrual Labourers,1
 Clerk Board and Work,1
-Yarn Bundler Spinning Mill,1
+Yarn Bundler Spinning Mill,Spinning Mill Yarn Bundler
 Cutter Linen Trade,1
 Wife to Buttermerchant who was absent on 31:3:1901,1
 Willow Meath Mean Banh,1
@@ -45386,7 +45386,7 @@ Screwing,1
 Cook - Domestic Svt,1
 Manufacturs Agent,1
 Factory Mechanic (Apprentice),1
-Linen Y Weaver,1
+Linen Y Weaver,Linen Yarn Weaver
 Drapers Assistant Out of Employment,1
 Oiler In Spinning Mill,1
 Finisher Tailor,1
@@ -45554,7 +45554,7 @@ Bicycle and Engine Fitter,1
 Spinning Oiler in Linen Mill,1
 Driller Iron Work,1
 Cycle Assist.,1
-Linen Yarn Spinner in Mill,1
+Linen Yarn Spinner in Mill,Linen Mill Yarn Spinner
 Major Indian Service Retired,1
 Roller Slider in Spinning Mill,1
 Convict Baker,1
@@ -46232,7 +46232,7 @@ Clergyman PG Divinity,1
 Mill Workerr,1
 Farmer and Tax Collector,1
 Station Officer H. M Coast Guard,1
-Yarn Flax Reeler,1
+Yarn Flax Reeler,Flax Yarn Reeler
 Message Boy in Butcher Stall,1
 Engineer Mech,1
 Pensioner R.M. Arts Servant,1
@@ -46368,7 +46368,7 @@ Retired Bank Gent Manager,1
 Nurseryman and c,1
 Rail Road Work,1
 Machine Man Paper Maker in Paper Mill,1
-Agent for Prudential Assurance Company,1
+Agent for Prudential Assurance Company,Prudential Assurance Company Agent
 House Keeper Workingout,1
 Linen Finisher (Butler),1
 Senior Inspector of Nl Schools,1
@@ -46577,7 +46577,7 @@ Artizan (Linen Industry),1
 Plaster in Ship Yard,1
 Apprentice Ware Room,1
 B?ly clerk,1
-Yarn Spinner Factory Worker,1
+Yarn Spinner Factory Worker,Factory Yarn Spinner
 House Yarn Spinner,1
 Driver Coachman,1
 Physician Practes,1
@@ -46799,7 +46799,7 @@ Akf-Folder,1
 Lady Clerk Women,1
 Charge on Property,1
 Apprentice Shirt and Stone Cutter,1
-Agent (Drapery),1
+Agent (Drapery),Drapery Agent
 Simlar Lawyer,1
 Apprentce Clerk,Apprentice Clerk
 Assistant in Grocery (Shop,1
@@ -46824,7 +46824,7 @@ Labourer Dome,1
 Message Boy News Vendor,1
 Nurtery Shopkeeper,1
 Farmerlaburer,1
-Yarn Bunder,1
+Yarn Bunder,Yarn Bundler
 Farmer and Graizer,1
 Caris and Fine Arts Dealer,1
 Laundry Maid Servant Domestic,1
@@ -46961,10 +46961,10 @@ Sister of a Farmer,1
 Pedler of Family,1
 Traveller for Anglo American Oil Co Ltd,1
 Mathing,1
-Yarn Dresser Factory Worker,1
+Yarn Dresser Factory Worker,Factory Yarn Dresser
 Ship Wright ?,1
 Between Maid,1
-Agent for SunlightSoap,1
+Agent for SunlightSoap,Sunlight Soap Agent
 Traveller for Lingire Machine,1
 Living on Annuities Retired Lady,1
 Clerk to Messrs Custon and ?,1
@@ -47430,7 +47430,7 @@ Writing Clark,1
 "Slater, Plasterer",1
 Store fitter,1
 Stationers-Assist,1
-Yarn Bundlers in Bleach Works,1
+Yarn Bundlers in Bleach Works,Bleach Works Yarn Bundler
 Colar Cutter,1
 Stock Grazier is Caretaker,1
 Retired Sales Woman (Millinery),1
@@ -48205,7 +48205,7 @@ Undergraduate T.P.D,1
 Wholsale Draper,1
 Spirit-Accountant,1
 Property Servants,1
-Agent (Brewers),1
+Agent (Brewers),Brewers Agent
 Chemist - Assistant,1
 Clerk Land ?,1
 Martle Mason,1
@@ -48830,7 +48830,7 @@ Boilr Maker,1
 Quaboy Manager,1
 Solictitor General Clerk,1
 Farm Labourer (General),1
-Yarn Dryer in Linen Fact,1
+Yarn Dryer in Linen Fact,Linen Factory Yarn Dryer
 Shirtmaker Drapery,1
 Agricultural Laberouer,Agricultural Labourer
 Engine-Driver (At Works),1
@@ -49440,7 +49440,7 @@ Inspr N.S.P. C.C.,1
 Postal Message Boy,1
 Stone Mashion,1
 Clerk Rent Agents,1
-Agent Pandenties A.C,1
+Agent Pandenties A.C,Pandenties A.C Agent
 Master Currier,1
 Income from Shop,1
 Confectioners Assist,1
@@ -49511,7 +49511,7 @@ Machinet,1
 Clk. D.D.,1
 Surgeon and Physician Medical Doctor,1
 Female Clerk C S,1
-Yar Reeler,1
+Yar Reeler,Yarn Reeler
 Rover Spinner,1
 Rigger-Sailor,1
 Van Carter,1
@@ -49624,7 +49624,7 @@ Living on Interest of Money and Annuity,1
 Draper Assistant and Musician,1
 Work in the Provision Store,1
 Factory Land at Milk Factory,1
-Yarn Worker Factory,1
+Yarn Worker Factory,Factory Yarn Worker
 Flax Sppinner,1
 Horse Leainer,1
 Machinest in Linen Coy,1
@@ -49847,7 +49847,7 @@ Attending School Half Time Mill Worker,1
 Clerk Board of Trade,1
 Pensnior,1
 Engine Driver in Mill Saw,1
-Agent for Scotch Dyers,1
+Agent for Scotch Dyers,Scotch Dyers Agent
 Living on Mean,1
 Sorting Clerk and Telegrarhist G.P.O,1
 Fordler,1
@@ -50989,7 +50989,7 @@ Lablor Gen,1
 Wire-Fencer,1
 Gen Farmer's Sister,1
 Hacker Maker,1
-Yarn Winder (Flax),1
+Yarn Winder (Flax),Flax Yarn Winder
 Farmers G Daug,1
 Linen Store Labourer,1
 Shopman-Jewellers,1
@@ -51021,7 +51021,7 @@ G. S. and W. Railway Porter,1
 G S and W. Station Master,1
 Assistant Bank of Ireland,1
 J.P. and D.L.,1
-Agent for Art Work,1
+Agent for Art Work,Art Work Agent
 Justise of Peace Farmer,1
 Apprentic to Sales,1
 Leather Boot and General Merchant,1
@@ -51215,7 +51215,7 @@ Linen Spinner Factory Worker,1
 Prudential Isurance Agent,1
 Farmar and Publision,1
 Foreman Gardener Dom,1
-Agent in Tea,1
+Agent in Tea,Tea Agent
 Agents in Tea,1
 Hoistman,1
 Spining Room Keeper,1
@@ -52275,7 +52275,7 @@ Farm Labourer C,1
 Factory Worker To Spinner,1
 Vax?n?d?,1
 Civil Servant Unemployed,1
-Yarn Bundler Master,1
+Yarn Bundler Master,Master Yarn Bundler
 Teanant Farmer,1
 Engine Driver Linnen Factory Electric?,1
 Bog Copyist: H M Stationery,1
@@ -52563,7 +52563,7 @@ Apprentice to Horse Shoer,1
 (1st Class) Convict Warder,1
 Spg. Mill Clerk,1
 Factory-Hand (Weaver),1
-Yarn Bleacher Yarn Packer,1
+Yarn Bleacher Yarn Packer,Yarn Bleacher and Yarn Packer
 Land Manufacturer Warper,1
 Electon Engineer,1
 Gardner's Nursery,1
@@ -52666,7 +52666,7 @@ Agriculturer Labrourer,1
 Works in Gas Yard,1
 Phonographer and Typist,1
 Stn. Sergeant D.M.Police Superannuated,1
-Yacht Captain,1
+Yacht Captain,Yacht Captain
 Not Fit on Shchool,1
 Army Pensioner 1st Witts Regt,1
 Writing Clerk and Estate Overseer,1
@@ -52909,7 +52909,7 @@ Labourer-on Farm,1
 Smiths Prentice,1
 Pre Corpl Det West Riding Rgt,1
 Linen Trade Ware House Manager,1
-Yachtoman,1
+Yachtoman,Yachtsman
 Biscuit Factory Girl Apprentice,1
 Trinity House Pilot,1
 M R Labourer Pensioner Line,1
@@ -53537,7 +53537,7 @@ Manager Undertaking and Fosting Establishment,1
 Linen a Winder in Factory,1
 Stitcher in Work Shop,1
 Plate Helper,1
-Agent for Artificial Manures,1
+Agent for Artificial Manures,Artificial Manures Agent
 Minister on Probation in Methodist Church,1
 Coachmaker Unemployed,1
 Not Employed Away from Home,1
@@ -53769,7 +53769,7 @@ Trades Warder Prisons Service,1
 Assurance District Superintendant,1
 Riceroy Custruction,1
 Sorting Clark Telqt P.H.O,1
-Agent Prodential Assurance,1
+Agent Prodential Assurance,Prudential Assurance Agent
 Engine Driver and Provision Store,1
 Compostor-Linotype Operator,1
 Civil Servant (Land Commission),1
@@ -54513,7 +54513,7 @@ Manager of Farms,1
 Justice of Peace Traveller,1
 Clerk Civil Royal Engineers,1
 Mechanic in Jute Factory,1
-Yarn Beaner,1
+Yarn Beaner,Yarn Beamer
 Hotel Boots Domestic,1
 (Domestic Servant Coach Man),1
 Retired Sergeant R. I. C.,1
@@ -54757,7 +54757,7 @@ Labourer - Carmman,1
 Boy Copyist Education office,1
 Factory Worker Biscuit,1
 Luco Cleaner,1
-Agent for Cement Maunfactures,1
+Agent for Cement Maunfactures,Cement Maunfacturers Agent
 Clerk in Building Firm,1
 Late and Lieutenant Royal Grossary Artillery,1
 Fleetlaymaster Roayl Navy (Action List),1
@@ -54964,7 +54964,7 @@ Lady Companion to ? Fulton,1
 Lieut Colonel. Retired List.,1
 Supt of Assurance Co,1
 2nd Steward Steamship,1
-Agent of Assurance Co,1
+Agent of Assurance Co,Assurance Co Agent
 Tinplate Marker,1
 Late Domestic Servant,1
 Farmeres J.P. Prov. Man,1
@@ -55056,7 +55056,7 @@ Iron Dresser Foundry,1
 Superintendent of Agent Life Assurance,1
 Clerk in Holy Orders (I.C),1
 Stile Room Maid Domestic Servant,1
-Agent-Advertising Tablets,1
+Agent-Advertising Tablets,Advertising Tablets Agent
 Part Land Owner,1
 Cooper for Brewery,1
 Shop Assistant (Apprentice),1
@@ -55112,7 +55112,7 @@ Commission Agent and Draper's Assistant,1
 Boot and Shoemaker (Unemployed),1
 Domestic Servent General (Unemployed),1
 Supported by Relative,1
-Agent Prudential Company,1
+Agent Prudential Company,Prudential Company Agent
 Soker in Linen Factory Engener,1
 Brass Furnisher,1
 Clerk in Delph Shop,1
@@ -55266,7 +55266,7 @@ Manager A Farm,1
 Still Room Maid-Servt Domestic,1
 Ex Head Constable R. I. C,1
 Upper Section Watcher H.M Customs Queenstown,1
-Agent Glass,1
+Agent Glass,Glass Agent
 Constable .DM. Police,1
 Barrister (Not Machsing),1
 Farmer Timber Merchant,1
@@ -55558,7 +55558,7 @@ Registrar Mercer's Hospital,1
 C. E.,1
 Labourer-in Wool Stores Unemployed,1
 Packer-in Paper-Factory,1
-Yacht and Boat Builder Master,1
+Yacht and Boat Builder Master,Master Yacht and Boat Builder
 General man,1
 Officer in Land Judges Court,1
 Apprentice S,1
@@ -56122,7 +56122,7 @@ Yarne Bundler,1
 Travelling Asst Steward,1
 Picture Decorator,1
 Warehouse Apprentice Clerk,1
-Agent (For House Property),1
+Agent (For House Property),House Property Agent
 House Furnisher Apprentice,1
 Civel Senior Clerk,1
 Augultre Labour,Agricultural Labourer
@@ -56190,7 +56190,7 @@ G S and W Rly Checker,1
 Carrying Doffings,1
 Dray man Driver,1
 Parceler in Linen Warehouse,1
-Agent for Life Assurance,1
+Agent for Life Assurance,Life Assurance Agent
 Capt Artillery (Meliter),1
 Soller,1
 Army Pensioner Private 88 Cannaught Rangers,1
@@ -56230,7 +56230,7 @@ Sowing School Convent,1
 Iron Fitter Merchant,1
 News Paper Machnisst,1
 Late fore class Clerk of bat education office,1
-Agent (Commission),1
+Agent (Commission),Commission Agent
 Bicycle Machenic,1
 Dispensing Chemical,1
 Dubler Traveller,1
@@ -56793,7 +56793,7 @@ Private Intoress,1
 Farmer and Smith R I C,1
 House Porter D S,1
 Household Manageress,1
-Agent-Insurance,1
+Agent-Insurance,Insurance Agent
 "Officer of Inland Revenue, (Excise Branch)",1
 Rents of Houses,1
 Medical Doctor General Practitioner Licertiate R.C Physician and Surgeon,1
@@ -57251,7 +57251,7 @@ Master of Ennis Workhouse,1
 Ireland Revenue Officer Excise Branch Superannuated,1
 Commercial Provisions,1
 Merch Daughter,1
-Agent Quarries Slate,1
+Agent Quarries Slate,Quarries Slate Agent
 Justin of Peace ? Farmer,1
 Traning Conducter,1
 Biscuit Van Driver,1
@@ -57407,7 +57407,7 @@ Builder Farm,1
 Agricultural in Labourer,1
 Garden Laboure's Daug,1
 Farmer I. P.,1
-Agent (Insurance),1
+Agent (Insurance),Insurance Agent
 Sargarent in Army,1
 Winding Spools Flax Factory,1
 Carriers Railway Agt,1
@@ -57649,7 +57649,7 @@ Agricultural La Son,1
 Teacher of Latin and Greek,1
 Teacher on School,1
 Damask Weaver of Linen,1
-Agent for G S and W R,1
+Agent for G S and W R,G S and W R Agent
 Yard Man Contract Butler Inployment,1
 Timber Merchant Asst,1
 Agricultural Labr Son,1
@@ -59358,7 +59358,7 @@ Lady-Bartender,1
 Assists in Buisness,1
 Assistant Engineer in Bacon Factory,1
 Dairy-Maid Unemployed,1
-Agent (Railway),1
+Agent (Railway),Railway Agent
 Housemaid Domestic Srvt.,1
 Timekeeper Tramway Co,1
 Mail Ferry Contractor,1
@@ -60241,7 +60241,7 @@ Hackney Car D,1
 Engineer Iron Work,1
 R Contrecter,1
 Grocer's Assistant-Unemployed,1
-Agent (Misceellaneous),1
+Agent (Misceellaneous),Agent
 Commercial Clerk (Margarine Trade),1
 Blacksmyth and Farmer,1
 Laborer in Irons Works,1
@@ -60916,7 +60916,7 @@ Coach Man and Land Steward Domestic Servant,1
 Retired Grocer 51 St Charles St,1
 Corder in Mill Flax,1
 Teacheress Employed in the Convent Schools Dingle,1
-Mariner Yachtsman,1
+Mariner Yachtsman,Yachtsman
 Barrister (Practisner),1
 Cook (Ship),1
 Shop Keeper (Provisions),1
@@ -60938,8 +60938,8 @@ Unemployed Clerk in Brewery,1
 Pensioner 88 Regt Foot,1
 Private Retired Mantle Maker,1
 Assistant Town Border,1
-Agent for Property,1
-Mariner (Yachtsman),1
+Agent for Property,Property Agent
+Mariner (Yachtsman),Yachtsman
 Employed in a Factory Winder,1
 Teacher-English etc Music,1
 Traveling Show Lady,1
@@ -61047,7 +61047,7 @@ Incountar Collector,1
 Drovers ? Mill,1
 Monitorness (Scholar),1
 Assist Sub Postmistress,1
-Agent for Tea,1
+Agent for Tea,Tea Agent
 Waterworks Overseer,1
 Barrister at Law J P,1
 Mechanice Engineer,1
@@ -61106,7 +61106,7 @@ Engine Pattern-Maker,1
 Engine Pattermaker,1
 Apple Woman and Dealer,1
 Civil Engineer and Archietect,1
-Agent for Wines,1
+Agent for Wines,Wines Agent
 Shirt and Collar Business,1
 Baron and Provision Shopkeeper,1
 "Builder, Shopkeeper",1
@@ -61147,7 +61147,7 @@ Housewife Mone,1
 Collar Turner out,1
 Steamship Checker,1
 Clerk in Belfast Chardale Society,1
-Y Spinner,1
+Y Spinner,Yarn Spinner
 Fireman Railway Engineer,1
 Power Lome Waver Linen,1
 Cattle Dealeor,1
@@ -61162,7 +61162,7 @@ Agrl and Bourer,1
 Father Woman,1
 Coast Guard-Pensioner,1
 Domestic Housekeeper and Cook,1
-Agent for the Shipping Company Coy City of Desly,1
+Agent for the Shipping Company Coy City of Desly,Shipping Company Agent
 Dock Laboaurer,1
 Dts Councilor,1
 Shop Keeper Groceries Bread,1
@@ -61475,7 +61475,7 @@ House Keeper-Dom Servt,1
 Professor Needlework,1
 Clerk 2nd Dir Gpo,1
 Boy Copyist Irish Land Comn,1
-Yarn Bundeer,1
+Yarn Bundeer,Yarn Bundler
 Labourer at Bleach Grocer,1
 Collars Factory Worker,1
 (Stonedressing),1
@@ -61839,7 +61839,7 @@ Pte 1st Cormaught Rgs,1
 Nurse in Maid Domestic Servant,1
 Apprentice to Machine,1
 Labourer in Boiler Works,1
-Yarn Drsser,1
+Yarn Drsser,Yarn Dresser
 Flaxrougher,1
 Landress-Domestic Servt,1
 Leabour (General),1
@@ -62135,7 +62135,7 @@ Farmer and Dist Counciller,1
 Trooper Imperial Germany,1
 Butler-Dom. Servant,1
 Let Teacher,1
-Agent for Brevery Coy,1
+Agent for Brevery Coy,Brevery Coy Agent
 Merchant-Corn,1
 Interest Received from House Property,1
 Propr. Lodging House,1
@@ -62748,7 +62748,7 @@ Socalist,1
 Ap to W Rooms,1
 Physician and Surgeon Fellow of the Royal College of Surgeons and Etc,1
 Family Grocer and Spirit Merchant,1
-Agent for White Work,1
+Agent for White Work,White Work Agent
 Plaster Labour,1
 Magistrate Landowner,1
 Civil Senior Clerk,1
@@ -62779,7 +62779,7 @@ Messenger-Wareroom,1
 Apprentice Electrician at Works,1
 Head Waiter Hotel,1
 Boot Upper Manufacturer,1
-Yarn Dresser-Unemployed,1
+Yarn Dresser-Unemployed,Unemployed Yarn Dresser
 Shoemaker-Journeyman,1
 Assistant Paymaster Royal Navy (Active List),1
 Commercial Traveller Tea and Wine Agent,1
@@ -62790,7 +62790,7 @@ Engine Fitter and in Brewery,1
 Boot-Upper Closer,1
 Engine Smith Engineer at Factory,1
 Wharfinger,1
-Agent Tea,1
+Agent Tea,Tea Agent
 Gas Company Accountant,1
 Irish Church Mission,1
 Asylum A Ironmould,1
@@ -63603,7 +63603,7 @@ Mill Worker Screwing Machines,1
 Electric Power House Tram Labourer,1
 Butter Flour and Egg Merchant,1
 Cooking at Home,1
-Agent Mineral Waters,1
+Agent Mineral Waters,Mineral Waters Agent
 Boarder Shoemaker,1
 Stu Master G O and WR,1
 In Charge of Children,1
@@ -63966,7 +63966,7 @@ Farm General Servant-Domestic,1
 Farm Labourers wife,1
 General Worker-Domestic,1
 Sterer Typer,1
-Agent Rubber Stamps,1
+Agent Rubber Stamps,Rubber Stamps Agent
 Bernton-A-Lane,1
 Commercial Clerk Printing Office,1
 Servant Bulter,1
@@ -64775,7 +64775,7 @@ Physician M D Cambridge F R C P I,1
 Flim Flimer,1
 Municipal Official,1
 Commercial Clerk (Corn and Flour Trade),1
-Yarn Spinner Mill,1
+Yarn Spinner Mill,Mill Yarn Spinner
 "Housemaid Dom, Servt",1
 Tow Preperer,1
 Telegraphist and Post Office,1
@@ -64872,7 +64872,7 @@ Carpenter P,1
 Alms Collector,1
 Chief Boatn Coast Gd,1
 Labourer Jute Works,1
-Agent Scripture Reader,1
+Agent Scripture Reader,Scripture Reader Agent
 Surgent Major 6 Bn Rifle Brigade,1
 Labourer Sweeper,1
 Working in Factory (Weaver),1
@@ -65008,7 +65008,7 @@ Butter in Linen Bleaching Company,1
 Winding,1
 Cook Deomestic Ser,1
 Bleach Green Lboure,1
-Yarn Bunder Unemployed,1
+Yarn Bunder Unemployed,Unemployed Yarn Bundler
 Asstnt Housekeeper,1
 Clerk Spinning Mill,1
 Turner out Linen Business,1
@@ -65261,7 +65261,7 @@ Apprentice Fitter in Rope Works,1
 Machine Feder Printing,1
 Handichief Sowing,1
 Weaver Linener,1
-Agent for Singer Machine Co,1
+Agent for Singer Machine Co,Singer Machine Co Agent
 Assistant in Stationers,1
 Flax Dresser Labourer,1
 "Constable, Herbert Police",1
@@ -65620,7 +65620,7 @@ Arigrcultural Labourer,Agricultural Labourer
 Stoker an Railway,1
 Iron - Monger,1
 Farmers. Son and Labourer,1
-Agent for Flour,1
+Agent for Flour,Flour Agent
 Scholar (Civ Service),1
 Corportation Labour,1
 Merchant Port Business,1
@@ -65680,7 +65680,7 @@ Agricultural Labo?,1
 Hall Porter in hotel,1
 Agent Drapery Bus.,1
 Fram Labourer Cattle Dealer,1
-Agent Drapery Business,1
+Agent Drapery Business,Drapery Business Agent
 Boarding House Keeper Head of Family,1
 Hotelmanager,1
 Shopman Hardware Assistant,1
@@ -65888,11 +65888,11 @@ Clerk in the Scottish Widow Fund Belfast,1
 Fram-Maker,1
 Stone Carrier Unemployed,1
 Shipyard Holder Up in,1
-Agent-Woollen and Cotton Goods,1
+Agent-Woollen and Cotton Goods,Woollen and Cotton Goods Agent
 General Lord in Linen Business,1
 General Carrier and Furniture Remover,1
 Smith Coach,1
-Agent (Linens),1
+Agent (Linens),Linens Agent
 Clerk in Oil and Color Warehouse,1
 Apprentis Joiner,1
 Civil Service G.P.O,1
@@ -65983,7 +65983,7 @@ Comission Agent (Dry),1
 Luictenant of Salvation Army,1
 Fancy Shop Saleswoman,1
 Pensioner Sergt R.I.R.,1
-Yarn Winden,1
+Yarn Winden,Yarn Winder
 Clerk-Shipping and Timber,1
 Master Pawnbroker,1
 Sergt. of R.I.C.,1
@@ -66185,7 +66185,7 @@ L Waver (Linen),1
 Envelope Stamper,1
 Living on Interest Money,1
 Private ? Fus,1
-Yarn Wheeler,1
+Yarn Wheeler,Yarn Wheeler
 D.J.R.I.C,1
 Squadron Sgt Major,1
 Manufacturer of Tin Barrister Architect,1
@@ -67500,7 +67500,7 @@ Job Carraige Driver,1
 Labourer with Revetters,1
 Small Grocer and Farmer,1
 Stoker in General Works,1
-Yarn Wheeler in Mill,1
+Yarn Wheeler in Mill,Mill Yarn Wheeler
 Worker at Home,1
 Not abel to Work Disabled,1
 S and T R.I.C,1
@@ -67602,7 +67602,7 @@ Neadle Work,1
 Learners-Shirts and Collars,1
 Daling,1
 Turner-Collar Linen,1
-Agent for Serving M/Cs,1
+Agent for Serving M/Cs,Serving M/Cs Agent
 Shirt Maker Spencer,1
 Brick Lrs Labour,1
 Bolt Screwer,1
@@ -67643,7 +67643,7 @@ R.W Servant,1
 Bonnet Cleaner,1
 Boilermaker at R Shop,1
 Boilermaker on Employed,1
-Agent Land,1
+Agent Land,Land Agent
 General Serant Domstc,1
 Laundry Maid Dom. Servant,1
 Leabor ?lesley,1
@@ -68555,7 +68555,7 @@ Trade (Carpenter),1
 Releer Yarn,1
 Commercial Clerk in Tobacco Factory,1
 Laier in Mill,1
-Yarn Spinerer,1
+Yarn Spinerer,Yarn Spinner
 Labeler in Soap Works,1
 Linen Ember Printer,1
 Labourer at Spinning Works,1
@@ -69771,7 +69771,7 @@ House Painter Reeler in Spinning Mill,1
 No profession or occupation aunnity from private resources,1
 Cow keeper,1
 Clerk Petty Session Raly Offr,1
-Agent Soft Goods,1
+Agent Soft Goods,Soft Goods Agent
 Braziers,1
 Under Clothing-Agent,1
 Twine Twister in Factory,1
@@ -69799,7 +69799,7 @@ Teacher N E,1
 Domestic Servant Gardener-Unemployed,1
 Linen Yarn Dyer,1
 Yarn Down,1
-Yarn Bundlan,1
+Yarn Bundlan,Yarn Bundler
 "Clerk in Holy Orders-Master of Arts Trinity College Dublin Curate-in-Charge, St Nicholas, Belfast",1
 Merchant House Finisher,1
 Sticher in Linen Warehouse,1
@@ -69910,7 +69910,7 @@ Turf Retailer,1
 Farmer Ex Mtr R. I. C.,1
 Kiluman,1
 Clerk Assistant Conservitative Officer,1
-Yacht Man,1
+Yacht Man,Yachtsman
 Commercial Clerk to Distiller,1
 Fruiterer and Greengrocer,1
 Rag Dealer and C,1
@@ -70135,7 +70135,7 @@ Army Pensioner Infantry Labourer,1
 Books,1
 Cycle Machanice Unemployed,1
 Apprentice to Moulder,1
-Yarn Bundler in Spinning Mill,1
+Yarn Bundler in Spinning Mill,Spinning Mill Yarn Bundler
 Grocer.,1
 National School Mestrees,1
 Clark in Cloth Factory,1
@@ -70240,7 +70240,7 @@ General Manager of Bank,1
 Caretaker Formerly Pensioner: Royal Engineers,1
 U S,1
 Clerk in Official Assigned Office (Bkptey),1
-Agent Rope Trader,1
+Agent Rope Trader,Rope Trader Agent
 Invoice Clerk at M S W Rg,1
 Solicitors (Managing) Clerk,1
 Gas Engineers Draughtsman,1
@@ -72282,7 +72282,7 @@ Farmer's Son or School Teacher's Son,1
 Apprentice to Drapery and Grocery,1
 Salesman Leed Trade,1
 Retired Sergt. R.I.C.,1
-Agent for Cattle feed Cakes and Meals,1
+Agent for Cattle feed Cakes and Meals,Cattle feed Cakes and Meals Agent
 Carier Employer,1
 Wife Co Sgt Major,1
 Church Saxton,1
@@ -73115,7 +73115,7 @@ Hotel Billiard Marker,1
 Drapery General Saleswoman,1
 Stoker in Engine House,1
 Saffering,1
-Yarn Dresser in Labourer Spinning Mill,1
+Yarn Dresser in Labourer Spinning Mill,Spinning Mill Yarn Dresser
 School Attendances Inspector,1
 Boot Aprentce,1
 Labor-General,1
@@ -74080,7 +74080,7 @@ Appce. Iron-Turner,1
 Pensioned Officer Cash Guards,1
 Grocer-Shop Assistant,1
 Tailoress-Vestmaker,1
-Agent for Sale of Timber,1
+Agent for Sale of Timber,Sale of Timber Agent
 Piecer Factory,1
 Student at Training College,1
 Mill Doffin Mistress in Linen,1
@@ -74535,7 +74535,7 @@ Poilsher,1
 Apothecaries Porter,1
 Railway Mileman,1
 Fireman Labourer,1
-Yarn Worker in Linen Room,1
+Yarn Worker in Linen Room,Linen Room Yarn Worker
 Clerk in General (Unemployed),1
 Dairy Proprietry,1
 Clerk of Supreme Court Graduate of Royal University of Ireland,1
@@ -75037,7 +75037,7 @@ Magistrate and Bank Manager,1
 Coachman Domes,1
 Public Painer,1
 Constabulary Corp Maker,1
-Agent for Artisans Diolgo Co,1
+Agent for Artisans Diolgo Co,Artisans Diolgo Co Agent
 Handkerchief Warehouse,1
 Civil Servant writer,1
 Trinity College Butler,1
@@ -76234,7 +76234,7 @@ Director Brewery Co: J. P.,1
 Engineman in Distillery,1
 Linen Lappers,1
 "Spirit Grocery, Keeper",1
-Yarn Dresser Unemployed,1
+Yarn Dresser Unemployed,Unemployed Yarn Dresser
 Retired Ex Off H M C,1
 Laboure Bleach Works,1
 Skilled Labourer in Rope Works,1
@@ -76909,7 +76909,7 @@ G Labourer Law,1
 Labourer Butter Merchnt,1
 Farming Caretaker,1
 Argr Labourer,Agricultural Labourer
-Agent Assurance,1
+Agent Assurance,Assurance Agent
 Accountant in Wine Stores,1
 Foreman Carrier,1
 A Coachman,Coachman
@@ -77929,7 +77929,7 @@ Fireman in Bleach Works,1
 Army Reserve Private,1
 Dressmaker (Employed),1
 Coml. Traveller - Grocery,1
-Agent for Flour Bran Bacon-Sugar,1
+Agent for Flour Bran Bacon-Sugar,Flour Bran Bacon-Sugar Agent
 Gentleman no Profession,1
 Clerk in Battlery Store,1
 Pensioner Enniskillen Fusiliers,1
@@ -78605,7 +78605,7 @@ Engine Fitter Retired,1
 Coach Man-Unable,1
 App. Baker,1
 Machnie (Sawing Machine),1
-Yarn Drying,1
+Yarn Drying,Yarn Dryer
 Parlour-Maid-Dom Servant,1
 Rover (Flax-Mill),1
 Factory Girl-Shirt,1
@@ -78834,7 +78834,7 @@ Pensioner United States Army,1
 Telegraph - Clerk,1
 Coal Miners Wife,1
 Master Wheelwright,1
-Yarn Dresser in Linen Weaving Factory,1
+Yarn Dresser in Linen Weaving Factory,Linen Weaving Factory Yarn Dresser
 In Print Woorks,1
 Deceased Dr's Daughter living on Interest of Money's,1
 Mill Roller Boy,1
@@ -79827,10 +79827,10 @@ Farmers Schoolar,1
 Teacher Nt,1
 Farmer Etc,1
 Assistan Shopkeeper,1
-Yarn Dresser Linen Weaving Factory,1
+Yarn Dresser Linen Weaving Factory,Linen Weaving Factory Yarn Dresser
 Painter and Paper Hangler,1
 Scholars At,1
-Agent for Brick,1
+Agent for Brick,Brick Agent
 Rate Collector and Publican,1
 Publican and Provision Mercht,1
 Corn Mill Worker,1
@@ -81024,7 +81024,7 @@ Home Houseworker,1
 Assistant Toe,1
 D. Servant Coffee Bar Asstant,1
 Loaction Engine Driver,1
-Agent for Grand Canal C,1
+Agent for Grand Canal C,Grand Canal C Agent
 Housemaid Doms Servt,1
 Clerk Canel Office,1
 Canel Lock Keeper,1
@@ -81201,7 +81201,7 @@ Collector-Gas Department City Council,1
 Apprentice (Lea),1
 St Colonel-Cork Arts R. S. A Land,1
 None-Dividends,1
-Agent-Canadian Government,1
+Agent-Canadian Government,Canadian Government Agent
 Retired Merchant (Building Materials),1
 Cloggon,1
 Appren to B Smith,1
@@ -81815,7 +81815,7 @@ Journey Mand Baker,1
 Book Source,1
 Telegraphist in P.D,1
 Lady of Mess,1
-Agent and Hotel Proprietor,1
+Agent and Hotel Proprietor,Agent and Hotel Proprietor
 Constable R I.Constabulary,1
 Clerk Ship Office,1
 "Warehouse Rolling Machine, Unemployed",1
@@ -81906,7 +81906,7 @@ Shutter Maker,1
 Farmer Sholar,1
 Retired St Rupes,1
 Superannuated from Lunatic Asylum Cork,1
-Agent Yeast Co,1
+Agent Yeast Co,Yeast Co Agent
 "House Maid, Domestic Serv",1
 Machinist Boot Factory,1
 Mengeser,1
@@ -81973,7 +81973,7 @@ Shepheard empd,1
 General Soliciters Clerk,1
 Teacher of Languages and Mathematics,1
 Income from Lands Lady,1
-Agent for Insurance,1
+Agent for Insurance,Insurance Agent
 Keeper of Papers in Estate Duty Office,1
 Stamper Ireland Resr,1
 Boy Copyist Census Office,1
@@ -82493,7 +82493,7 @@ Commercial Traveller Hour,1
 Miles Man Great S and W Roy,1
 Hackney Car Owner Jarvey,1
 Assistant Teacher of English in High School for Girls,1
-Agent-Sewing Machines,1
+Agent-Sewing Machines,Sewing Machines Agent
 Retired from Business No Occupation,1
 Cattle Dealer and Licensed Publican,1
 Boy Painter,1
@@ -82621,7 +82621,7 @@ Printer Machine-Man,1
 Retired H. Con R.I.C. Constabulary,1
 No Fixed Occupation Grocers Messenger,1
 Metropolitan Police Station Sergeant Dublin,1
-Yacht Man Seafaring Man,1
+Yacht Man Seafaring Man,Yachtsman
 Attendant Asylum Clonmel,1
 Archts and Surveyor's Assistant,1
 Deealer of Grocer Co,1
@@ -82643,7 +82643,7 @@ Agricultural Labourer and Linen Weaver,1
 Milly Saleswoman,1
 Student in Engineering Undergraduate R.U.I,1
 Chandelinmaker,1
-Yacht Master,1
+Yacht Master,Yacht's Master
 Sawyer Master,1
 Retired-Dressmaker,1
 Water Clerk and Prudential Assurance Agent,1
@@ -82724,7 +82724,7 @@ Resfreshment House Keeper,1
 House Capenter Employed,1
 Thread Bleacher,1
 Drawerer Mill Worker,1
-Yarn Dries,1
+Yarn Dries,Yarn Dryer
 Whep Waker,1
 Tollyman of Cargo,1
 Bleach Works Clerk,1
@@ -82803,7 +82803,7 @@ Farmer also Superannuated from the G P Office,1
 (Son) Scholar,1
 Hemp Dresser in Ropework,1
 Damask Cart-Carter and Mounter,1
-Yanr Winder,1
+Yanr Winder,Yarn Winder
 Civil Engineer Justice of Peace and Land Owner,1
 Forewoman Embrodiery,1
 Laundry Fire Man,1
@@ -83580,7 +83580,7 @@ Road Contrector,1
 Apprentice Whistry Trade,1
 Saleswoman Fancy Trade,1
 Advertising Manager Newspaper,1
-Agent for Portraits Co,1
+Agent for Portraits Co,Portraits Co Agent
 Rover-Flax Preparing,1
 Boilers Maker's Helper,1
 Tram Servant,1
@@ -84062,7 +84062,7 @@ Daughter (C. G),1
 Supt Cable Station Memb Inst Ebe Eng,1
 House Maid Domestic Servent,1
 Woollen Shearer in Factory,1
-Agent for Royal Liver,1
+Agent for Royal Liver,Royal Liver Agent
 Mill-Furnisher,1
 Physician M D RVT Professor in Q C B I P,1
 Croping Room,1
@@ -85747,7 +85747,7 @@ Machesnist,1
 Railway Portere,1
 B. A. Trinity C. Dublin,1
 Doffing Mistress Linen Factory,1
-Agent for British Vcard Co Limited,1
+Agent for British Vcard Co Limited,British Vcard Co Limited Agent
 Cobblar,1
 General Medical Practitioner ?,1
 Landed Proprieter Major Retired J.P.,1
@@ -86377,7 +86377,7 @@ Wood Turter,1
 Hanklif ? Sthr,1
 Engineer's Fitter Apprentice,1
 Foreman Yarn Bleacher in Factory,1
-Yarn Bleacher in Factory,1
+Yarn Bleacher in Factory,Yarn Factory Bleacher
 Unemployed Boilermaker,1
 Assistant in Salesman,1
 Goat Valuer V C E,1
@@ -86410,7 +86410,7 @@ Carning Shoe Making,1
 Hosiery Grafter,1
 British Superintendent National B. Trust Ltd London Eh,1
 Staff Ques Amry Pay Corps,1
-Agent Flour and House,1
+Agent Flour and House,Flour and House Agent
 General Grocer Boot and Shoe,1
 Royal M F,1
 Apprentice in Land Agent Office,1
@@ -86425,7 +86425,7 @@ Mortgage and Dividends,1
 Boilermakers Helper,1
 Retired Coachman D. Servant,1
 Assist Super Life Office,1
-Agent-Building Society,1
+Agent-Building Society,Building Society Agent
 Retired Indian Medical Dept,1
 Seraper in Shipyard,1
 Packer Maid Work,1
@@ -87372,7 +87372,7 @@ Farmer and R I C Pensr,1
 Hasier,1
 Fruit Cutter,1
 Commercial Traveller Tea Work and Spirits,1
-Yarn Spinner Millworker,1
+Yarn Spinner Millworker,Mill Yarn Spinner
 Manufacturer of Reeds For Weaving Linen,1
 Farmer and Summons,1
 Idly,1
@@ -87767,7 +87767,7 @@ Retired Dray Man,1
 Gardeners Helper,1
 Naval Stoker,1
 Servant Waiter Domestic,1
-Yarn Dryer in Tweed Tactory,1
+Yarn Dryer in Tweed Tactory,Tweed Factory Yarn Dryer
 Trained Nurse Hospital,1
 General H. Work,1
 General Sevd Domestic,1
@@ -89038,7 +89038,7 @@ Kiln Boy,1
 Frs Niece,1
 Farmers Dath,1
 Pensioner 28th Foot Lodge Keeper P L,1
-Agent Dublin City Mission,1
+Agent Dublin City Mission,Dublin City Mission Agent
 Sergt. R. I. Constaby,1
 Indoor-Domestic Servant,1
 Retired Brush Manufacturer,1
@@ -89271,7 +89271,7 @@ Skinner Labour,1
 Tabocconists Assistant,1
 Coachman Domtic. Servant,1
 Apprentice to Engine,1
-Agent for Machines,1
+Agent for Machines,Machines Agent
 Engineer G P D Shief's Office,1
 Care of Orphans,1
 Printing Machine Helper,1
@@ -89790,7 +89790,7 @@ Ironmongor and Delph Dealer,1
 Porfrs Labour,1
 Embrordry,1
 Embordierer,1
-Agent For Woolen Wearing,1
+Agent For Woolen Wearing,Woolen Wearing Agent
 Telegraph Clerk Post Office,1
 Pianost,1
 Assists on Farmer,1
@@ -89826,7 +89826,7 @@ Assistant General Grocery,1
 R. C. Cergyman,1
 Linen Merchant and Embroider,1
 Clerk (Shippiry),1
-Yarn Bleacher and Dyer,1
+Yarn Bleacher and Dyer,Yarn Bleacher and Dyer
 Berthing Master Belfast Harbour,1
 App Riviteer,1
 Ho Spreader in Faty,1
@@ -90222,7 +90222,7 @@ Retired Carpenter's Wife,1
 Servant Domestic Servt,1
 Caretaker Land,1
 Under Servant and House Maid,1
-Yacht Boy,1
+Yacht Boy,Yacht Boy
 D Coachman Domestic,1
 W Mistress in a N T,1
 Sub Officer of Urban Council,1
@@ -91718,7 +91718,7 @@ Work in General,1
 Haps House,1
 Serepture Reader,1
 Teacher (Mathes and Classics),1
-Agent Prudential,1
+Agent Prudential,Prudential Agent
 CS. 8th. K.R.R,1
 Stone Ra?sher,1
 Waiteress in Theatre,1
@@ -92845,7 +92845,7 @@ Bookeeper in Chandlery Business,1
 Damask Ornaments,1
 Accountant in Grocery Business,1
 Wholesale Linen Draper,1
-Agent Bank,1
+Agent Bank,Bank Agent
 Servant-Shop Assistant,1
 Draughtman in Railway works,1
 Working Man at Railway,1
@@ -93343,7 +93343,7 @@ Assistant Laun,1
 Buv Shoe Maker and Fruitdealer,1
 Assistant Proprietress,1
 Royal Navy Retired Deputy Inspector - General,1
-Agent for Carrying Co,1
+Agent for Carrying Co,Carrying Co Agent
 Delivery Clerk (Commercial Soap Man Trade),1
 Agnt Laberour,1
 Carpet weaver,1
@@ -93688,7 +93688,7 @@ App.Riviter,1
 General Servant and and Domestic,1
 Cotton Embroider or Sprigger,1
 R. J. C. Pensioner,1
-Agent for Unitarian Defo,1
+Agent for Unitarian Defo,Unitarian Defo Agent
 Blocker in Workman,1
 Hawker of Delph,1
 Clerk (Stock Brocker),1
@@ -94672,7 +94672,7 @@ Tailor in Warehouse,1
 Factory Platter,1
 Mashman in Distillery,1
 Farm Laberon,1
-Yarn Bundler in Flax Mill,1
+Yarn Bundler in Flax Mill,Flax Mill Yarn Bundler
 Reparing Master in Flax Mill,1
 Farmer and Shope Keeper,1
 Farmer Retired Fisherman,1
@@ -95365,7 +95365,7 @@ Machine Hand in Thread Factory,1
 Constable R. I. C Policeman,1
 Barrister and Jourlist,1
 Poter in Wine Store,1
-Agent Shop,1
+Agent Shop,Shop Agent
 Confectionery Adc,1
 Apprentice Lithographing,1
 J P Olderman,1
@@ -96216,7 +96216,7 @@ Street Labor's Widow,1
 Retired Genrl Labourer,1
 Car Drwers Child in Hospital,1
 Retired Street Singer,1
-Agent for Aguinness Son ?o,1
+Agent for Aguinness Son ?o,Aguinness Son ?o Agent
 Income from Land and Merchant,1
 Merchant Wholesale Druggist,1
 Annuity and Money,1
@@ -96363,7 +96363,7 @@ Cook Domestic Serrnt,1
 Tin Box Maker,1
 Shopman (Wallpaper),1
 Porting Clerk G.P.O.,1
-Agent Paper and C,1
+Agent Paper and C,Paper and C Agent
 Draught Man Student,1
 Winder's in Tweed Factory,1
 Kitchen Maid - Domestic Svt,1
@@ -96550,7 +96550,7 @@ Machanicfitter,1
 Boot Maker Cycle Agent,1
 Folder-,1
 Ornamentor Biscuit Factory,1
-Yarn Bundler Unemployed,1
+Yarn Bundler Unemployed,Unemployed Yarn Bundler
 Schoolmistress of Werehouse,1
 Spinning Mill Clerk,1
 Master of Werehouse,1
@@ -96798,7 +96798,7 @@ Bootupper Cutter,1
 Employed Generaly in Linen Warehouse,1
 Manager and Secretary of Distellary,1
 Masons Laberour,1
-Agent for Woodworking Machiney,1
+Agent for Woodworking Machiney,Woodworking Machiney Agent
 In Preparer Mill,1
 Pione Winder,1
 Syrup Maker in Minarel Store,1
@@ -96992,7 +96992,7 @@ Ladies Shirt Stitcher,1
 Clerk apele Trade,1
 Farmer and Money Lender,1
 Mother's Help in House,1
-Linen Yarn Twister,1
+Linen Yarn Twister,Linen Yarn Twister
 "Soldier Servant Private, 15th Hussars",1
 Rlway Labourer,1
 Supervisor of Irland Revenud (Civil Service),1
@@ -97112,7 +97112,7 @@ Retired grocer,1
 Genrl Grocer,1
 Barman and Grocer's Assistant,1
 Brass Finisher for Foundry,1
-Yarn Weaver in Linnen Factory,1
+Yarn Weaver in Linnen Factory,Linen Factory Yarn Weaver
 Schollar at H,1
 Linen and c Dyer,1
 Civil Servant National Education Office (Boy Copyist),1
@@ -97372,7 +97372,7 @@ Constable-R. I. Constabulary,1
 Bricklayers Attendant,1
 "Servant, General Domestic",1
 Grocers Porter unemployed,1
-Agent and Commercial Traveller,1
+Agent and Commercial Traveller,Agent and Commercial Traveller
 Magistrates Daughter,1
 Traveller for Stationery,1
 Retail Provision Grocer,1
@@ -98237,7 +98237,7 @@ Ast Packer,1
 Dealor Fish,1
 Colonel Indian Stuff Corps Unemployed Supermemory List,1
 Civil Servant 2nd Divn Deptmt of Agriculture,1
-Agent for Camps,1
+Agent for Camps,Camps Agent
 Draper Assistant (Lawyer),1
 Fitter Eng. Works,1
 Apprentice Plumber and Gas-Fitter,1
@@ -98812,7 +98812,7 @@ Carman and Car Owner,1
 Carrage Hetter,1
 Battle Maker,1
 Knitter at Factory,1
-Yarn Dundler,1
+Yarn Dundler,Yarn Bundler
 Wine Millworker,1
 Labrour Builders,1
 Sergeant-I.R.I.Rifles,1
@@ -100102,7 +100102,7 @@ Bachelor of Arts Surgery and Medicine Physician,1
 Rope Work Drawer,1
 Milliner Head,1
 Milliner Buyerers,1
-Yarn Bundeler,1
+Yarn Bundeler,Yarn Bundler
 Dealer in Ordn? and c,1
 (Monitress) Gen Servant (Domestic),1
 Teacher Yard Foreman,1
@@ -100429,7 +100429,7 @@ Cattle Porter,1
 Piecer at Spinning,1
 Medical Profession L K C SZ L K 2 L P Z,1
 Shop at Servant,1
-Linen Yarn Spiner,1
+Linen Yarn Spiner,Linen Yarn Spinner
 Fleet Surgeon R N,1
 General Confectioner,1
 Nailer-Master,1
@@ -100474,7 +100474,7 @@ Manager of Grocer Wine and Spirit Store,1
 Point Shifting,1
 Living from Land and Dividends,1
 Yard Main Domestic Servant,1
-Yarn Bundler (in Linen Mill),1
+Yarn Bundler (in Linen Mill),Linen Mill Yarn Bundler
 Domestick Work Master,1
 Dock Labour on Employed,1
 Laundry Works D.S.,1
@@ -100903,7 +100903,7 @@ Unemployed Nurse-Domestic Servant,1
 Black Smith (Townagnes),1
 Shoalar,1
 "Prof, Nurse",1
-Agent Book,1
+Agent Book,Book Agent
 Domestic Servt Charwoman,1
 Flooter Wood,1
 No Occupation Assistant in on Rent,1
@@ -100915,7 +100915,7 @@ Commission Turf Agent,1
 Millright-Unemployed,1
 Tipe Printer,1
 Press Corsespondent,1
-Yarn Spinner Thread Factory,1
+Yarn Spinner Thread Factory,Thread Factory Yarn Spinner
 Not fit to Work Labourer,1
 Twine Baller in Thread Factory,1
 Seamstress in Linen Warhouse,1
@@ -101529,7 +101529,7 @@ Saywer Unemployed,1
 Gummer in Wareroom,1
 Weft Clarke,1
 Factory (Linen) Machanic,1
-Yarn Bundler Linen Factory,1
+Yarn Bundler Linen Factory,Linen Factory Yarn Bundler
 Keep Hous to Brother,1
 4th Batt R.I.R,1
 Linen Trade (Master),1
@@ -101912,7 +101912,7 @@ Irish-Teacher,1
 Comercial Traveller for Seeds,1
 L R C S and P E L a H Dublin Physician Surgeon and Apotising,1
 Mesanger in Stationers,1
-Agent for Drapers,1
+Agent for Drapers,Drapers Agent
 General Carrier and Vandriver,1
 Book P,1
 Marine Engine Foreman,1
@@ -101932,7 +101932,7 @@ Heair Dresser,1
 Council Labour,1
 Apprentice Engineer Fitter at Work,1
 Apprentice Shipwrite,1
-Agent Sewing Machine,1
+Agent Sewing Machine,Sewing Machine Agent
 Ship Writhe,1
 School Maid,1
 Work in Ware Room,1
@@ -102343,7 +102343,7 @@ Tons Rover Millworker,1
 Unfit,1
 Folder - Linen Warehouse,1
 Weaver In Linen factory,1
-Yarn Fore Man Bundler,1
+Yarn Fore Man Bundler,Yarn Bundler Foreman
 Drawer in (Linen) Preparing Room Mill,1
 Sa Doffer,1
 Cartor and Flax Spg Mill,1
@@ -102556,7 +102556,7 @@ Meal and Flour Shop Assistant,1
 Labour Bread Van Driver,1
 Agricultural Working Man,1
 Mine Clerk,1
-Agent for Singer Machines,1
+Agent for Singer Machines,Singer Machines Agent
 Accountant Drapery Establishment,1
 Grand Farmers Son,1
 Cook and Dairy-Maid,1
@@ -102684,7 +102684,7 @@ Labures,1
 Dealer-Old Iron and c,1
 Rose Nothing,1
 Set Lodgings,1
-Agent-Musical Instruments,1
+Agent-Musical Instruments,Musical Instruments Agent
 Silk Miller,1
 Saw Makers,1
 Captain Army Pay Drpt,1
@@ -103031,7 +103031,7 @@ Tutor of Ancient Classics B A T C D,1
 Coffee Trade Assistant,1
 "Teacher, Music French, Mathematics",1
 District Inspector R.I Constabulary,1
-Agent for Machine,1
+Agent for Machine,Machine Agent
 Clerk-in Whole-Sale House,1
 Apprentice to the Provision and Grocery Carnies,1
 U.S.A. Army Pensioner,1
@@ -103241,7 +103241,7 @@ Commission General Agent,1
 Shhool Child,1
 Traveller Mendicant,1
 Heords Daughter,1
-Agent Tobacco,1
+Agent Tobacco,Tobacco Agent
 Saddlir,1
 Cath. Clergyman (C.C),1
 Attending Scho,1
@@ -103616,7 +103616,7 @@ Agl Labour's Son,1
 "Domestic Servant ""Not"" Employed",1
 Kitcken Maid Domestic Servt,1
 Nurse Domsc Servant,1
-Agent and Civil Bill Officer,1
+Agent and Civil Bill Officer,Agent and Civil Bill Officer
 Agl Laboure's Daughter,1
 Black Smith Sectors,1
 Receiving Relief Head of Family,1
@@ -103945,7 +103945,7 @@ Lock-Smith,1
 Plumber and Gun Smith,1
 Employed-Housework,1
 Engine Driver S. S,1
-Agent for Singer ?,1
+Agent for Singer ?,Singer ? Agent
 Harnessmaker - Masters,1
 Carepenter,1
 An Asylum Attendent,1
@@ -104002,7 +104002,7 @@ Stricker of Flax,1
 Clerk H.M Castoms,1
 C. E and Architect and C,1
 Theol Student Presty,1
-Agent (Grain),1
+Agent (Grain),Grain Agent
 Ex. Con R I C-Pensioned,1
 Auctioneer House and Land Agent,1
 Clerk of Sessions,1
@@ -104858,7 +104858,7 @@ Donkey Engine Driver,1
 Gentle Woman Late Landed Moments,1
 Printers Accountant,1
 Infant Teacher,1
-Agent of the Bank of Ireland,1
+Agent of the Bank of Ireland,Bank of Ireland Agent
 Letter Press Painters Assistant,1
 G P O Sorting Clerk,1
 Temporary Sorting Clerk,1
@@ -105376,7 +105376,7 @@ Bookeeper Merchants Office,1
 App. Milliner,1
 Reeler (Out of Employ),1
 Painter and Decorate,1
-Agent Scottish Legal Society Insurance Agent,1
+Agent Scottish Legal Society Insurance Agent,Scottish Legal Society Insurance Agent
 Gl. Servant,1
 Cook Regl Cantin,1
 Wood Case Maker,1
@@ -105553,7 +105553,7 @@ Farmer and Civilbill Officer,1
 Charge of A. A. Oil Depot,1
 Ex H. Con R.I.C. Farmer,1
 Shop Girl Grocer's Asst,1
-Agent Prudential App Comp,1
+Agent Prudential App Comp,Prudential App Comp Agent
 Yarn Relling,1
 Clerk (Press Officer),1
 Hotel-Keeper and Spirit Licensed,1
@@ -105627,7 +105627,7 @@ General Labourer in Rope Work at Finishing Machine,1
 Egg - Dealer,1
 General Labourer in Island,1
 Mechanic (Millwright),1
-Agent for Building Society,1
+Agent for Building Society,Building Society Agent
 Store Fitter Foreman,1
 Twine Spinner Ropework,1
 Assistance Shopkeeper,1
@@ -106094,7 +106094,7 @@ Assistant Officer of Inland Revenue,1
 Machine Maker and c Engineer,1
 Book Keeper Tobacco Factory,1
 Textile Machinery Engineer,1
-Agent for Assurance,1
+Agent for Assurance,Assurance Agent
 Thread Manufacture,1
 Builder and Contructor,1
 Se Femme,1
@@ -106195,7 +106195,7 @@ Locomotive Fireman (in Railway) and Naval Reserve Man,1
 (Abstractor Local Govt. Board) Scholar,1
 Ragst Metal Merchant,1
 Boot-Closier-Master,1
-Yacht'sman,1
+Yacht'sman,Yachtsman
 Scale Benne Maker,1
 Pedlon Traveller,1
 Cook in Cafe,1
@@ -106703,7 +106703,7 @@ Roman Catholic Clergyman Gerate,1
 Domestic Cook - Servant,1
 Proprietoress of Boarding House,1
 Widow of Knight,1
-Agent for Machinery,1
+Agent for Machinery,Machinery Agent
 2nd Ships Enginner,1
 Salesman - Tool Trade,1
 B.A (T.C.D) Medical Student,1
@@ -106750,7 +106750,7 @@ Reeter in Spinning Mill,1
 Game Keepers Daugtr,1
 Commercial Clerk Wine Merct,1
 In Coal Yard-Labourer,1
-Yarn Bearner in Factory,1
+Yarn Bearner in Factory,Yarn Factory Beamer
 Linen Mill Reeling Master,1
 Sales Woman in Wareroom,1
 Preparing Master in Linen Mill,1
@@ -106820,7 +106820,7 @@ Colonial Military Service: Captain,1
 House Carpanter and Farmer,1
 Tailor and School Attendance Officer,1
 Pattern-Maker Engineer,1
-Yarn Hawker in Mill,1
+Yarn Hawker in Mill,Mill Yarn Hawker
 "Dyer, Bleacher",1
 Linen Mill Preparing Master,1
 Clergyman Curate Church of Ireland,1
@@ -107042,7 +107042,7 @@ Church Verger,1
 Groom of Chambers,1
 J P and D L Landed Proprietor,1
 Army Pensioner Inf,1
-Agent Tea and Wine Trade,1
+Agent Tea and Wine Trade,Tea and Wine Trade Agent
 Income in Dividends,1
 Professor of Sanskrit T.C.D.,1
 Proprietor of Writing Office,1
@@ -107083,7 +107083,7 @@ Retired Cook (Domestic Servant),1
 Hotel Parker,1
 General Registry Office Dublin Inspector of Registration,1
 Undergrade ?,1
-Agent for Foreign Waters,1
+Agent for Foreign Waters,Foreign Waters Agent
 Marine. Stewart,1
 Retired Fish Merct,1
 Assistant Surveyor (Ordance Bervey) (Carrying Chairs),1
@@ -107140,7 +107140,7 @@ Warehouse Cleaner,1
 Loom Mechanic Unemployed,1
 Railway Engin's Driver,1
 Shop Assistant in a Conffctioners Shop,1
-Agent for Drapery,1
+Agent for Drapery,Drapery Agent
 Stitcher of ?,1
 Pensioner-E Sergt R I C Not Employed,1
 Retired Head Cont R.I.C,1
@@ -107157,7 +107157,7 @@ Gardiner-Unemployed,1
 X Inspector DMR,1
 Stoke Worker,1
 Clerke in Hardware,1
-Agent for Oils,1
+Agent for Oils,Oils Agent
 Interest on Money Pension,1
 Theaterical manager,1
 Van Conducter,1
@@ -107252,7 +107252,7 @@ Domestic Servt. Nurse,1
 Gaffair on Quay,1
 Manager of Public Noval,1
 School Teacher Industrial,1
-Agent for Tobacco Manufacturer,1
+Agent for Tobacco Manufacturer,Tobacco Manufacturer Agent
 Apprentice Fitter at Marine Engine Works,1
 Grocer Yarn Winder Factory,1
 Cementer of Boats,1
@@ -109924,7 +109924,7 @@ Plasture,1
 Rivitier,1
 "Priest, Rector of Fethard",1
 Active List Lieutenant East Lancashire St,1
-Agent for A Guinness Son and Co Ld Brewers,1
+Agent for A Guinness Son and Co Ld Brewers,A Guinness Son and Co Ld Brewers Agent
 J.P. for Co Cork and Land Commissioner,1
 Farmer and Cabinetmaker,1
 Private Royal Garrison Regt Labourer,1
@@ -110420,7 +110420,7 @@ Garden-Labour,1
 Cutter Dressmaker,1
 R Navy Reserve Man,1
 Professinal Surveyors clerk staff for Engineer Services War Office and Dublin Castle,1
-Yard Foreman,1
+Yard Foreman,Yard Foreman
 Pensioner 49th Foot,1
 Clerk of Works Bricklayer,1
 In Merchants Office,1
@@ -111027,7 +111027,7 @@ Soldier R D lieut,1
 Royal I. Constebr,1
 Pensioner Ex Hd Con R I Constabulary,1
 Manager Drapery Shop,1
-Yarn Dreser,1
+Yarn Dreser,Yarn Dresser
 Landed Propirtes,1
 Saxtoness,1
 Ladies Nurce,1
@@ -111324,7 +111324,7 @@ Bookeeper in Tailoring Trade,1
 Bookeeper in Carn Mill,1
 Labourer on Coporation,1
 Soap Works Labourer,1
-Yarn Examiner,1
+Yarn Examiner,Yarn Examiner
 Tunner Royal Horse Artillery Net Weaver,1
 Workmistress in Nat School,1
 Farmerens,1
@@ -112603,7 +112603,7 @@ Fireman Sea,1
 Slater in Shirt Factory,1
 Army Pensioner Infantry Gymnastic,1
 Stone Mason and Publican,1
-Agent for Tweed Manufacturer,1
+Agent for Tweed Manufacturer,Tweed Manufacturer Agent
 Clotheir,1
 Coachman Unemploy,1
 Shop Keeper and Draper,1
@@ -112981,7 +112981,7 @@ Mechanic Hacklemaker in Thred Factory,1
 Steem Weaver,1
 Tow Machine,1
 Factory Super,1
-Yarn Bundler in Linen Mill,1
+Yarn Bundler in Linen Mill,Linen Mill Yarn Bundler
 Ornamenter Linen Warehouse,1
 Card Lacer (Liner),1
 Spirits (Clerk),1
@@ -114195,7 +114195,7 @@ Unimplonid Labourer,1
 House Carptiner,1
 Linen Trade Clerk,1
 Machinery Packer,1
-Yarn Spinne,1
+Yarn Spinne,Yarn Spinner
 Clerk Corporate Unemployed,1
 "Magistrate, Borkers,Property",1
 Machinst Laberer,1
@@ -115203,7 +115203,7 @@ Insurans agent,1
 Telephone Assistant,1
 Clergyman Cannon PP,1
 General Retired,1
-Agent for Wine Shipper,1
+Agent for Wine Shipper,Wine Shipper Agent
 Stock Brockar,1
 A Supt Telegraphs,1
 Bresfinisher,1
@@ -117443,7 +117443,7 @@ Linen Weaver and Housekeeper,1
 Car Driver (Post),1
 Spirit-Bar,1
 Fishir,1
-Agent for Oarey's Brewery,1
+Agent for Oarey's Brewery,Oarey's Brewery Agent
 Farmers Mather,1
 General Svt. (Domestic),1
 Ex Sergt. of R.I.C.,1
@@ -118861,8 +118861,8 @@ Wife of Shepherd,1
 Agricultral Laboular,1
 Beetling Linen in F,1
 Alee,1
-Yarn Spinner Mill Work,1
-Yarn Spinner Factory Work,1
+Yarn Spinner Mill Work,Mill Yarn Spinner
+Yarn Spinner Factory Work,Factory Yarn Spinner
 Labour Iron Trade,1
 Tage-Boy,1
 Childes Maid,1
@@ -119612,7 +119612,7 @@ Pte 1st Welsh Regt,1
 Monitor in N. S,1
 Carpet wool weaver,1
 Farmers Butter Merchant,1
-Agent for Hay Borns,1
+Agent for Hay Borns,Hay Borns Agent
 Bathwoman and Massense,1
 Commercial Clerk Gas Co,1
 Ordname Surveyor,1
@@ -120589,7 +120589,7 @@ Foreman-Tobacco Factory,1
 Proprietor of Restaurant,1
 House and Land Farmer,1
 Powerloom Tenter Linen,1
-Yarn Dresser Linen,1
+Yarn Dresser Linen,Linen Yarn Dresser
 General Loft Hand Bleach Works,1
 Factory Cook Domestic Servant,1
 Photography Agent,1
@@ -120714,7 +120714,7 @@ Haretaker,1
 Telegraphic Clerk,1
 Undergraduate of Arts R U I,1
 Fireman Engine,1
-Agent for the Prundential Insurance Company,1
+Agent for the Prundential Insurance Company,the Prundential Insurance Company Agent
 Plack Hackler,1
 R B R U I. Medical Student,1
 Working in a Factory Servant,1
@@ -121558,7 +121558,7 @@ Dyer Wool,1
 Ordinary Kitchen Wk,1
 Sawyer - Apprentice,1
 Ganger of R Milesman,1
-Y Weaver,1
+Y Weaver,Yarn Weaver
 Labourer ? Wife,1
 Foreman Tobbconist,1
 Distillary Labourer,1
@@ -121852,7 +121852,7 @@ Manufacturer Clerk,1
 Boiler Works-Labourer,1
 Bill Porter 2nd Class Army Reserve,1
 Retired Coal Mines Manager,1
-Agent for the G and N By. Company,1
+Agent for the G and N By. Company,the G and N By. Company Agent
 R.I. Artillery,1
 Dentist Medical Practitioner,1
 Market Bundle,1
@@ -122544,7 +122544,7 @@ Dofing in Spinning Mill,1
 Laburer Bond Store,1
 Steam Ship Canvase,1
 Teacher in Natl School,1
-Yarn Worker in Factory Worker,1
+Yarn Worker in Factory Worker,Factory Yarn Worker
 Houskepper,1
 Post,1
 Part Maid,1
@@ -122849,7 +122849,7 @@ Not Business,1
 Inspector GNR,1
 Druggists Appentice,1
 In Hospital,1
-Agent for I B,1
+Agent for I B,I B Agent
 Clerk (2nd Class) Irish Land Commission,1
 Decorator Home,1
 Herdwers Travler,1
@@ -123049,7 +123049,7 @@ Voilin Players,1
 Mineral-Water Engineer,1
 Pensioner Rl Arty Park Gate Keeper,1
 Linen Yarn Warper in Factory,1
-Agent for Irish Church Missions,1
+Agent for Irish Church Missions,Irish Church Missions Agent
 Dispansary Cartaker,1
 ? Conducter,1
 Yarn Carrier in Cogry Flax Factory,1
@@ -123295,7 +123295,7 @@ Kilnman-Domestic Servant,1
 Rate Collector and Auctiner,1
 Starcher in Em?ing Works,1
 Kieveman,1
-Yarn Finishing,1
+Yarn Finishing,Yarn Finisher
 Flax Winder Yarn,1
 Hall Porter in Linen Factory,1
 Linen Merchants Apprentice,1
@@ -123310,7 +123310,7 @@ Cycle Mechanic Master,1
 Machinist (Aprons),1
 Machinist (Hdkf),1
 Labour to Bricklayer,1
-Agent for Manufacturers,1
+Agent for Manufacturers,Manufacturers Agent
 Iron Mongers Apprt,1
 Attendant in Auctioneers Mart,1
 Manager of Window Cleaning Co,1
@@ -123462,7 +123462,7 @@ Labourer in Linon Warehouse,1
 Message Boy (Grocery),1
 Twine Spinnr,1
 Engine House Labourer,1
-Agent for Electrical Fittings Electric Lamps and Shades,1
+Agent for Electrical Fittings Electric Lamps and Shades,Electrical Fittings Electric Lamps and Shades Agent
 S. Maker,1
 General Labourer Pile Driver,1
 Clerk Flax Mill,1
@@ -123764,7 +123764,7 @@ Breaks Stones,1
 Smiths Hilper in Shipyard,1
 Laberour Quay,1
 Sliffing Clerk,1
-Agent for Masons Guinness and Co Limited,1
+Agent for Masons Guinness and Co Limited,Masons Guinness and Co Limited Agent
 Kenn? Dmt Servant,1
 Postmaster Postoffice,1
 Master - Carpenter,1
@@ -123777,7 +123777,7 @@ Chief on Head Clerk in Provision Shop,1
 Miller in (Brewery),1
 Doffin Mistress Mill Worker,1
 Coach Man Posting Establishment,1
-Agent for Manufacturers in Drapery Goods,1
+Agent for Manufacturers in Drapery Goods,Manufacturers in Drapery Goods Agent
 Timber Mercahant,1
 Coach man - Domestic Servant,1
 Merchant and Post Master,1
@@ -124621,7 +124621,7 @@ Catholic Clergman,1
 Dock Labering,1
 Coller Maker,1
 Laberour-Quay,1
-Agent for Underclothing,1
+Agent for Underclothing,Underclothing Agent
 Machineman Biscuit Factory,1
 (Black) Smith,1
 Punch Machine man in Shipyard,1
@@ -124836,7 +124836,7 @@ Thread Makers Up,1
 Flax Thread Winder,1
 Spinner Sp R,1
 Shaft Oiler Linen Mill,1
-Agent for Life Insurance,1
+Agent for Life Insurance,Life Insurance Agent
 Wood Cooker,1
 Lampstress,1
 Stoker (Gasworks),1
@@ -126437,7 +126437,7 @@ School Attendance Officer Town Inspector,1
 Farmers Asst,1
 Retired Fleshier,1
 Houseparlor Maid,1
-Yarn Wender,1
+Yarn Wender,Yarn Winder
 Joynar,1
 Lavour Agl,1
 Mason and Painter,1
@@ -126483,7 +126483,7 @@ Farmers Matron,1
 Ex. NC. RIC-Farmer,1
 Chroms-Artist,1
 Railway Carriage and Wagon Examiner,1
-Yarn Bundlear,1
+Yarn Bundlear,Yarn Bundler
 Sett Boy in Flax Mill,1
 National Schoolmistress,1
 Sapper-Royal Engineer,1
@@ -126501,7 +126501,7 @@ Builders Stone Cutter,1
 Reeler Worker,1
 Labour in Pork Store,1
 Grain Elievator Eng.,1
-Yarn Folder,1
+Yarn Folder,Yarn Folder
 Baots Hotel,1
 Student of Medicine Q C B,1
 Delivery Postman,1
@@ -127182,7 +127182,7 @@ Scwing Agent,1
 Flax Roughter,1
 Dask-Weaver,1
 Wood Tuner,1
-Yarn Dreeser,1
+Yarn Dreeser,Yarn Dresser
 ?uffer,1
 Sales Girl Draper,1
 Fitter of Enginer,1
@@ -127452,7 +127452,7 @@ Secretary and Book - Keeper in Manufacturing Firms,1
 Clower,1
 Du St School,1
 Solicitors Clerk and Assistant Registrar Births Marriages and Deaths,1
-Yarn Bundler in Mill and Sexton of Church,1
+Yarn Bundler in Mill and Sexton of Church,Mill Yarn Bundler and Sexton of Church
 Store Shop Keeper,1
 Widow of Presbyterian Minister,1
 Block Printer Dye Works,1
@@ -127691,7 +127691,7 @@ Business Manger Livery Stable,1
 Land Owner and I.B,1
 Clerk in Cartage Office,1
 Stone Mason out of Employment,1
-Agent for Abbotsford Twall Manufacturing Company,1
+Agent for Abbotsford Twall Manufacturing Company,Abbotsford Twall Manufacturing Company Agent
 Rove Drawer Mill,1
 Layer Spinning Mill,1
 Dowager Countess,1
@@ -128039,7 +128039,7 @@ Farmer of Work Admiralty,1
 Railway Servant Millerman,1
 Meriner,1
 Gardiner Dom,1
-Agent for Singers Machine Co,1
+Agent for Singers Machine Co,Singers Machine Co Agent
 Dealer Castle and C,1
 Boot Maker Publican,1
 Silk Waver,1
@@ -128321,7 +128321,7 @@ Linen Smaser,1
 J.P.-Hardware and Seed Merchant,1
 Flax Spreader Spining Mill,1
 Carpendter,1
-Yarn Flax Spinner,1
+Yarn Flax Spinner,Flax Yarn Spinner
 Linen Ship Yard Weaver,1
 Lawboer,1
 Retired Station Officer of Coast Guard,1
@@ -128604,7 +128604,7 @@ Sergeant Pensioner R I C,1
 Lieutenant Army Salvation,1
 Bice Weaver,1
 Working at Flax Mills,1
-Yaran Winder,1
+Yaran Winder,Yarn Winder
 Principal Assistant Court of Exchequer Ireland,1
 Lady Clerk in Drapery,1
 Apprentice Joiner Unemployed,1
@@ -129002,7 +129002,7 @@ Fire Clay Chimney Pot Maker,1
 Colieminer,1
 Potters,1
 Farrmers Son,1
-Agent for the Singer Mfg Coy,1
+Agent for the Singer Mfg Coy,the Singer Mfg Coy Agent
 Wash Boy,1
 No Trade and C,1
 Retired Road Superintendent,1
@@ -129227,7 +129227,7 @@ Dress Cap Maker,1
 Irish Secty Amalgamated Society of Railway Servants,1
 Waiter-Unemployed,1
 No Occupation Income Annuity and Interest of Money,1
-Yard Fore Man,1
+Yard Fore Man,Yard Foreman
 Mante Maker,1
 Apprentice Mante Maker,1
 Linen Machine Winder,1
@@ -129278,7 +129278,7 @@ Student in Medicine University of Durham,1
 Income from Investments and House Property,1
 Lecture Attendant,1
 Master Sculptor,1
-Agent for Sewing Machines,1
+Agent for Sewing Machines,Sewing Machines Agent
 D U Policeman,1
 Private Gentleman (House Property),1
 Collector of Ireland Poor Rates,1
@@ -130707,7 +130707,7 @@ Storker,1
 Labourers Woollen Factory,1
 Engineer and Ship Builder,1
 Colliery Engineer,1
-Agent for Singer Mashines,1
+Agent for Singer Mashines,Singer Mashines Agent
 Lab Stewart,1
 Asst Analyst,1
 Clerk Ship Agent,1
@@ -131763,7 +131763,7 @@ Porter-Hatter,1
 Brdiscuit Packer,1
 Bacon Currer,1
 Justice of the Peace Land and Dividends,1
-Yard Clerk in Factory,1
+Yard Clerk in Factory,Factory Yard Clerk
 Water-Proof Mantle Ma Unemployed,1
 A Compositor,Compositor
 Vine Porter,1
@@ -131797,7 +131797,7 @@ Nurce-D. Servant,1
 Niece of Farmers,1
 Farmer - Retired Super Annuated Provincial Clerk and ? and ?thing and Telegraph G.P.O,1
 Managress Stitching Factory,1
-Yarn Bundlener,1
+Yarn Bundlener,Yarn Bundler
 Winder Rope Factory,1
 Income from Money and C,1
 Clerk (Lime Keeper),1
@@ -132374,7 +132374,7 @@ Garding (Domestic Servant),1
 Active List,1
 Retired Major Cabally,1
 2nd Mate Royal Navy,1
-Agent for Chemical Manure Manufacturer and Petroleum Oil Merchant,1
+Agent for Chemical Manure Manufacturer and Petroleum Oil Merchant,Chemical Manure Manufacturer and Petroleum Oil Merchant Agent
 Photographer Ast,1
 Drover Cattle,1
 Lady of Income,1
@@ -134717,7 +134717,7 @@ Pte. 3rd Dorset Regt,1
 Deer Keepers,1
 Boatman H.M. Coast Guard,1
 Sergeans R Artilly,1
-Agent for GC Company,1
+Agent for GC Company,GC Company Agent
 A Sawyer,1
 Solicitor Crown Tols,1
 Agent-Shipping,1
@@ -134956,7 +134956,7 @@ Marine Draughtman,1
 Manufacturing Engineer,1
 House Property and Dividend,1
 Overseer Blackcock U. D. C.,1
-Yarn Twister Millworker,1
+Yarn Twister Millworker,Mill Yarn Twister
 Capture Roy Dublin active List,1
 Dopper in Spinning Mill,1
 Attending to Household Duties in her Parent's House,1
@@ -135565,7 +135565,7 @@ Retired Hd Const of R I Constabulary on Pension,1
 Wall Boarder Teacher,1
 Brigade Staff Pensioner R.H.A,1
 Apprentice Iron Moulder Tradesman,1
-Yarn Drier (Linen),1
+Yarn Drier (Linen),Linen Yarn Dryer
 Park Collector,1
 Milesman G.S and W.R.,1
 Messag Boy in Wareroom,1
@@ -136129,7 +136129,7 @@ Spreader in Flax Spinning Mill,1
 Farmer and Linen Dryer,1
 Shop Assistant Shoe Shop,1
 General Labourer (Mill),1
-Yarn Bundling Clerk,1
+Yarn Bundling Clerk,Yarn Bundling Clerk
 (Flax) Spinning Master,1
 Boot: Foreman Shop,1
 Auxiliary Postman-Rural,1
@@ -136506,7 +136506,7 @@ Traveller Printing and Stationery,1
 Shop Assit-New Agency,1
 Wooll Spiner,1
 Farmers Bothers,1
-Retired Yachtsman,1
+Retired Yachtsman,Retired Yachtsman
 Privat Line Regt,1
 Clerk (Bookkeeping),1
 Land Agent I.P.,1
@@ -136947,7 +136947,7 @@ Coachman Gardenner,1
 Crasie Driver,1
 Assistent Harbour Master,1
 Domestic Housemaid out of Employment,1
-Yachtman,1
+Yachtman,Yachtsman
 Parlourmaid Domestic Ser,1
 Dometc Servant Gnl was Obtained,1
 Not at School Jet,1
@@ -137614,7 +137614,7 @@ Souting Clerk,1
 Water works Corporation,1
 Greengrocers Porter,1
 Gardner General,1
-Yarn Spinner in Spinning Factory,1
+Yarn Spinner in Spinning Factory,Spinning Factory Yarn Spinner
 (Army Reserve Man Private Connaught Rangers),1
 First Class Clerk Civil Service Congested Districts Bd for I,1
 Driving Horse and Dray,1
@@ -137942,7 +137942,7 @@ Caretaker Church of Moravian,1
 Skavanger,1
 Printer Comps,1
 Domestic Cook Domestic Servant,1
-Yacthman,1
+Yacthman,Yachtsman
 Shop Keeper Stationery,1
 Law Student I.C.D,1
 Tea and Wine Mcht,1
@@ -138806,7 +138806,7 @@ Seed Packer,1
 Wareroom Girl in Furniture Shop,1
 Dairy Canvasser,1
 No Biss.,1
-Agent for Loan Fund Society,1
+Agent for Loan Fund Society,Loan Fund Society Agent
 Manager in Lime Worker,1
 Laboure in Mill ?,1
 Farmer Oc,1
@@ -138938,7 +138938,7 @@ Clerk I J Leaque,1
 Clerk Engineers,1
 Factory Engineer unemployed,1
 Printer Caligo,1
-Yarn Bundler in Labourer,1
+Yarn Bundler in Labourer,Yarn Bundler
 Traveller (Grocers),1
 Merchant at (Leather),1
 Salemaker Unemployed,1
@@ -139390,7 +139390,7 @@ Wool Sorter Factory,1
 Nursing Sister Domestic,1
 Post Man S P O,1
 Pedlar and Draper,1
-Agent for Pione Farm,1
+Agent for Pione Farm,Pione Farm Agent
 Caretactress Orange,1
 Hall Winder,1
 Tenter in Linen Weaving Factory,1
@@ -139593,7 +139593,7 @@ Physician and Surgeon Royal Colleges of Edinburgh,1
 Matron B Nurse's Home,1
 1st Class Master Gunner Royal Artillery,1
 Retired Catter Merchant,1
-Yarn Spinner - Linen,1
+Yarn Spinner - Linen,Linen Yarn Spinner
 Retired Office - J.P.,1
 Mothers Help (at Home),1
 Trunk Maker (Master),1
@@ -139682,7 +139682,7 @@ Nurse-Maid D S,1
 Platers Helfer,1
 Grein Grocer,1
 Tobaco Cover,1
-Yarn Dryer in Factory,1
+Yarn Dryer in Factory,Factory Yarn Dryer
 Glosser in Ware Room,1
 Coal Commercial Traveller,1
 Spinder Flax Linnen,1
@@ -140000,7 +140000,7 @@ Writting Clerk,1
 Bath Attentent,1
 Iron Machine Moulder,1
 Beetler in Linon Factory,1
-Yarn Spinner in Rope Factory,1
+Yarn Spinner in Rope Factory,Rope Factory Yarn Spinner
 Traveller for Watches,1
 Farmer's - Son,1
 Clerk in Court H,1
@@ -141161,7 +141161,7 @@ Lodging House Game Keeper,1
 Boo?,1
 Carriage Builer,1
 Domestic of (Cook) Servant,1
-Agent for Book,1
+Agent for Book,Book Agent
 Linen and Wool Weaver,1
 Sailor-Second Mate,1
 Petty Officer Hins Jasdy,1
@@ -143063,7 +143063,7 @@ Engin Dr Messenger Boy,1
 Packer in Wine,1
 Cutler's Apprentice,1
 Horse Groom Domestic Servant,1
-Agent for Singer Compy,1
+Agent for Singer Compy,Singer Compy Agent
 Winder in Mill in (Linen),1
 Farmers' Son in Law,1
 Block Smiths Helper,1
@@ -143114,7 +143114,7 @@ Butcheon Assistant,1
 Assistant in Paper Ware House,1
 Sailor (Merchant Ship),1
 Junr. Clerk (Boy Copyist),1
-Yarn Spinner Tweed Factory,1
+Yarn Spinner Tweed Factory,Tweed Factory Yarn Spinner
 Drap Maker,1
 Corporation Yard Man,1
 Whiteform St - School,1
@@ -143543,7 +143543,7 @@ Armey Pinchoner,1
 Father in Law,1
 "School Master, Prisons Service (Irld)",1
 Miles Man on M.G.W.R,1
-Agent for the ? Machine Co,1
+Agent for the ? Machine Co,the ? Machine Co Agent
 Clerk in P S Office,1
 Commission Agent and Cabinet Maker,1
 Joiner Sawyer,1
@@ -143844,7 +143844,7 @@ Book-Keeper and Factory,1
 Flax Struker,1
 Coal Dept Manager,1
 Soldier J. H. K. S,1
-Yarn Twister in Shipyard,1
+Yarn Twister in Shipyard,Shipyard Yarn Twister
 Imbroider,1
 Litho-Printing ?,1
 Superentendent Nurse,1
@@ -144196,7 +144196,7 @@ Soldier Trooper 5th Lancers,1
 "Justice of Peace, No Occupation",1
 Resident Mangistrate,1
 Stationer's Cutter,1
-Agent for Guard Canal Co,1
+Agent for Guard Canal Co,Guard Canal Co Agent
 Retired Rector Capt,1
 Linnen Drier in Beetling Engine,1
 "Beetler, Linen Trade",1
@@ -144451,7 +144451,7 @@ Cloth Inspecter,1
 Corpentor at Building,1
 General in Island Labourer,1
 Manufacturer-Stitcher,1
-Yarn Dresser at Factory,1
+Yarn Dresser at Factory,Factory Yarn Dresser
 Powerloom Tenter at Linen Factory,1
 Bottle Sorter,1
 Halftime Machine Boy,1
@@ -150887,7 +150887,7 @@ I.P. Timber Merchant Corn Miller and c,1
 Merchant P,1
 Plumber and Decorator,1
 Aprentice to Boiler Maker,1
-Yachts Man,1
+Yachts Man,Yachtsman
 Railway Station Maker,1
 Quay Labouere,1
 Machinest Parlors,1
@@ -151318,7 +151318,7 @@ Assistant Swiss Embroider,1
 Drawer in of Webs,1
 Lineman of Postal Telegraph,1
 House-Assistant,1
-Agent For Draper,1
+Agent For Draper,Draper Agent
 Hotplate Baker,1
 Night Watchman on Vessel,1
 Packer (in Confectioners),1
@@ -152512,7 +152512,7 @@ House Mistreess,1
 2nd Division Clerk Secretary's Office GPO Dublin,1
 Housefwife,1
 Constabulary Pensioner and Clerk ? Fisher,1
-Agent for Singer Comp,1
+Agent for Singer Comp,Singer Comp Agent
 Pirn Carrier in Factory,1
 Norrow Hemmer,1
 Electoral Engineer,1
@@ -153151,7 +153151,7 @@ Carter Coal and C,1
 Linen Bobin Winder,1
 Examinor in Shirt Factory,1
 Brakesman on Ry. Engine,1
-Agent for Mammer Makers,1
+Agent for Mammer Makers,Mammer Makers Agent
 Coast Guard Commissioned Boatman,1
 Civil Assistant O.S. Office,1
 Embroidry Worker,1
@@ -156813,7 +156813,7 @@ Carden Master in Mill,1
 Guard on Train,1
 Bleach House Force,1
 Pan Winder,1
-Yarn Driver in Mill,1
+Yarn Driver in Mill,Mill Yarn Driver
 Seam Messers,1
 Baker and Draper,1
 Land Owner Farmer N B Trim Coll Dublin,1
@@ -157780,7 +157780,7 @@ Pensioner (Served as a Steward at Work House),1
 Fitter Carrier,1
 Archdeacon of Leighlin A.M.T.C.D. Incumbent of Parish of Staplestown,1
 Slica Groom,1
-Agent for Bradbury Ma,1
+Agent for Bradbury Ma,Bradbury Ma Agent
 Thread Cager,1
 Half Time Doffer in Thread Mill,1
 Curate: M. A.,1

@@ -1869,10 +1869,13 @@ Brewery Clerk,Brewery Clerk
 Clerkess,Clerk
 Solicitor's Apprentice,Apprentice Solicitor
 Agricultur Labourer,Agricultural Labourer
+Yarn Spinner in Mill,Mill Yarn Spinner
+Yarn Bleacher,Yarn Bleacher
 Apprentice Plater,Apprentice Plater
 Apprentice Shoemaker,Apprentice Shoemaker
 Agracultural Labourer,Agricultural Labourer
 Agricultural Labrour,Agricultural Labourer
+Yarn Spinner Mill Worker,Mill Yarn Spinner
 At Scool,Scholar
 Apprentice Moulder,Apprentice Moulder
 Agric. Labourer,Agricultural Labourer
@@ -1880,6 +1883,7 @@ Apprentice Smith,Apprentice Smith
 Apprentice Printer,Apprentice Printer
 Agricul. Labourer,Agricultural Labourer
 Agril. Labourer,Agricultural Labourer
+Yarn Weaver,Yarn Weaver
 Agricultural Laborour,Agricultural Labourer
 Agricultural Labrourer,Agricultural Labourer
 Agrlt Labourer,Agricultural Labourer
@@ -1893,6 +1897,8 @@ Agricultual Labourer,Agricultural Labourer
 Agriculturl Labourer,Agricultural Labourer
 Apprentice Tenter,Apprentice Tenter
 At Schoolar,Scholar
+Yarn Spinner in Spinning Mill,Spinning Mill Yarn Spinner
+Yarn Beamer,Yarn Beamer
 Agricull Labourer,Agricultural Labourer
 Apprentice Compositor,Apprentice Compositor
 Agricultrl Labourer,Agricultural Labourer
@@ -1900,6 +1906,7 @@ Att School,Scholar
 Agr Labour,Agricultural Labourer
 Apprentice Druggist,Apprentice Druggist
 Agl Laborer,Agricultural Labourer
+Yarn Dryer,Yarn Dryer
 Aricultural Labourer,Agricultural Labourer
 Apprentice Mason,Apprentice Mason
 Agricultular Labourer,Agricultural Labourer
@@ -1915,12 +1922,14 @@ Agricultural Labo,Agricultural Labourer
 Agricultre Labourer,Agricultural Labourer
 Aprentice Carpenter,Apprentice Carpenter
 Agricultural Lbr,Agricultural Labourer
+Yarn Finisher,Yarn Finisher
 Apprentice Pawnbroker,Apprentice Pawnbroker
 A Farm Labourer,Agricultural Labourer
 Aprentice Fitter,Apprentice Fitter
 Agricultar Labourer,Agricultural Labourer
 at School,Scholar
 Apprentice Plasterer,Apprentice Plasterer
+Yarn Drier,Yarn Dryer
 Agricultur Labour,Agricultural Labourer
 A Child,Child
 Augricultural Labourer,Agricultural Labourer
@@ -1928,10 +1937,12 @@ Apprentice Cooper,Apprentice Cooper
 Agrcl Labourer,Agricultural Labourer
 Agricultural Labou,Agricultural Labourer
 Agrcultural Labourer,Agricultural Labourer
+Yarn Spinner in Factory,Factory Yarn Spinner
 Apprentice Shipwright,Apprentice Shipwright
 Agl Labour,Agricultural Labourer
 Apprentice Gardener,Apprentice Gardener
 At Schooll,Scholar
+Agent Bank of Ireland,Bank of Ireland Agent
 Agrl Laborer,Agricultural Labourer
 Agricul Labour,Agricultural Labourer
 Agricultural Laberor,Agricultural Labourer
@@ -1970,6 +1981,8 @@ Agriculturar Labourer,Agricultural Labourer
 Agricultaral Labourer,Agricultural Labourer
 Agricultural La,Agricultural Labourer
 App Fitter,Apprentice Fitter
+Yarn Twister,Yarn Twister
+Yachtsman,Yachtsman
 Agricultral Laborer,Agricultural Labourer
 Agrict Labourer,Agricultural Labourer
 Agriculture Labouer,Agricultural Labourer
@@ -1983,6 +1996,8 @@ App Joiner,Apprentice Joiner
 Agrl: Labourer,Agricultural Labourer
 Agricultural Labrer,Agricultural Labourer
 At Scholars,Scholar
+Yarn Winder (Linen),Linen Yarn Winder
+Agent Drapery,Drapery Agent
 Apprentice Barman,Apprentice Barman
 Agricultural Labror,Agricultural Labourer
 Aprentice Painter,Apprentice Painter
@@ -2015,6 +2030,7 @@ Apprentice Lapper,Apprentice Lapper
 App Dressmaker,Apprentice Dressmaker
 Apprentice Turner,Apprentice Turner
 Agricultul Labourer,Agricultural Labourer
+Yarn Dresser in Linen Factory,Linen Factory Yarn Dresser
 Agricular Labourer,Agricultural Labourer
 Apprentice Builder,Apprentice Builder
 Apprentice Accountant,Apprentice Accountant
@@ -2043,6 +2059,7 @@ Apprentic Tailor,Apprentice Tailor
 Agricultrial Labourer,Agricultural Labourer
 Agl. Laborour,Agricultural Labourer
 Apprentice Tailoress,Apprentice Tailoress
+Yarn Winder (Linen Weaving),Linen Yarn Winder
 Agricultural Leabourer,Agricultural Labourer
 Agricultuarl Labourer,Agricultural Labourer
 Agril Labour,Agricultural Labourer
@@ -2060,6 +2077,7 @@ Agriculurlar Labourer,Agricultural Labourer
 Agricultural Laber,Agricultural Labourer
 Apprentice Scholar,Scholar
 Agricultral Labour,Agricultural Labourer
+Yarn Dresser in Factory,Factory Yarn Dresser
 Apprentice Millwright,Apprentice Millwright
 Apprentice-Dressmaker,Apprentice Dressmaker
 Apprentice Lithographer,Apprentice Lithographer
@@ -2079,6 +2097,7 @@ Agrul Labourer,Agricultural Labourer
 Agril Laborer,Agricultural Labourer
 Apprentice Bookfolder,Apprentice Bookfolder
 Agriculrl Labourer,Agricultural Labourer
+Agent Insurance,Insurance Agent
 Agricultr. Labourer,Agricultural Labourer
 Agriculal Labourer,Agricultural Labourer
 Agricl. Laborer,Agricultural Labourer
@@ -2088,6 +2107,8 @@ Agricultar Labour,Agricultural Labourer
 Aprentice Dressmaker,Apprentice Dressmaker
 Agu Labbor,Agricultural Labourer
 Agriculture Lab,Agricultural Labourer
+Yarn Spiner,Yarn Spinner
+Yarn Bundler in Mill,Mill Yarn Bundler
 Apprentice Stonecutter,Apprentice Stonecutter
 Agl Labr,Agricultural Labourer
 At Choole,Scholar
@@ -2095,8 +2116,10 @@ App Blacksmith,Apprentice Blacksmith
 Apprentice Tinsmith,Apprentice Tinsmith
 Augl Labourer,Agricultural Labourer
 Apprentice Draperess,Apprentice Draperess
+Yearly Annuities,Annuitant
 Apprentice Bleacher,Apprentice Bleacher
 Agriculcural Labourer,Agricultural Labourer
+Yarn Spinner Factory Hand,Factory Yarn Spinner
 Apprentice Saleswoman,Apprentice Saleswoman
 Aricultral Labourer,Agricultural Labourer
 Agricultarl Labourer,Agricultural Labourer
@@ -2111,6 +2134,7 @@ App Driller,Apprentice Driller
 Agl. Laborer,Agricultural Labourer
 Apprentic Cooper,Apprentice Cooper
 Agricultural Labourour,Agricultural Labourer
+Yarn Spinner Linen,Linen Yarn Spinner
 Apprentic Blacksmith,Apprentice Blacksmith
 Agriculatural Labourer,Agricultural Labourer
 Agricultural Laborourer,Agricultural Labourer
@@ -2138,7 +2162,10 @@ A Cooper,Cooper
 Agrc Labourer,Agricultural Labourer
 Agr Laborer,Agricultural Labourer
 Agriclr Labourer,Agricultural Labourer
+Agent House,House Agent
+Yearly Annuity,Annuitant
 Agriculte Labourer,Agricultural Labourer
+Yacht Builder,Yacht Builder
 Agrl. Laborer,Agricultural Labourer
 Aprentice Bricklayer,Apprentice Bricklayer
 Agrul. Labourer,Agricultural Labourer
@@ -2153,7 +2180,9 @@ Agricultural laborer,Agricultural Labourer
 Apprentice Seamstress,Apprentice Seamstress
 Apprentice Coppersmith,Apprentice Coppersmith
 Agricullural Labourer,Agricultural Labourer
+Yarn Dryer in Mill,Mill Yarn Dryer
 Agricut Labourer,Agricultural Labourer
+Flax Yarn Spinner in Mill,Flax Mill Yarn Spinner
 Aprentice Smith,Apprentice Smith
 Agrictrl Labourer,Agricultural Labourer
 Agcl Labourer,Agricultural Labourer
@@ -2169,6 +2198,7 @@ Agri Laberour,Agricultural Labourer
 Agricultural Labe,Agricultural Labourer
 Agur Labourer,Agricultural Labourer
 Ap Carpenter,Apprentice Carpenter
+Yacht and Boat Builder,Yacht and Boat Builder
 Agre Labourer,Agricultural Labourer
 Aglr. Labourer,Agricultural Labourer
 Agrt Labourer,Agricultural Labourer
@@ -2178,6 +2208,7 @@ Apprentice Electrician,Apprentice Electrician
 Agricultural Labouerer,Agricultural Labourer
 A Farmer Servant,Farm Servant
 Apperentic Fitter,Apprentice Fitter
+Yarn Bundler in Factory,Factory Yarn Bundler
 Apprentice Draughtsman,Apprentice Draughtsman
 Agrct Lab,Agricultural Labourer
 Agricult Labour,Agricultural Labourer
@@ -2197,13 +2228,16 @@ Auguricultural Labourer,Agricultural Labourer
 Agr Labrour,Agricultural Labourer
 Apperete Grocer,Apprentice Grocer
 Agricultural Labouar,Agricultural Labourer
+Agent House Property,House Property Agent
 Apprentice Shopman,Apprentice Shopman
 Agrt Labour,Agricultural Labourer
 Aprentice Confectioner,Apprentice Confectioner
 Augl Labour,Agricultural Labourer
 Agil Labourer,Agricultural Labourer
 Agricuttural Labourer,Agricultural Labourer
+Yearly Annuites From Houses,Annuitant
 Aturicultural Labourer,Agricultural Labourer
+Agent Brewers,Brewers Agent
 Apprentice Architect,Apprentice Architect
 Agricultral Labrour,Agricultural Labourer
 Ap Caulker,Apprentice Caulker
@@ -2221,6 +2255,7 @@ A Domestic Servant Laundress,Laundress Domestic Servant
 Apprentice Stitcher,Apprentice Stitcher
 Agrl. Laburer,Agricultural Labourer
 Agricultural Laberur,Agricultural Labourer
+Agent for Sunlight Soap,Sunlight Soap Agent
 Agriculture Laborour,Agricultural Labourer
 Agricultuial Labourer,Agricultural Labourer
 Agriculular Labour,Agricultural Labourer
@@ -2237,8 +2272,10 @@ Apprente Carpenter,Apprentice Carpenter
 Apprentice Pavior,Apprentice Pavior
 Apprentic Ornmentor,Apprentice Ornmentor
 Aprentice Boilermaker,Apprentice Boilermaker
+Yarn Hawker,Yarn Hawker
 Apprentie Bricklayer,Apprentice Bricklayer
 Aprentice Grocer,Apprentice Grocer
+Yarn Driver,Yarn Driver
 Agricultural Lar,Agricultural Labourer
 Appr Grocer,Apprentice Grocer
 Agricultuar Labourer,Agricultural Labourer
@@ -2246,6 +2283,7 @@ Apprentice Salesman,Apprentice Salesman
 Apprentice Beetler,Apprentice Beetler
 Agriclultural Labourer,Agricultural Labourer
 Widow of a Dealer,Dealer's Widow
+Yarn Bundler at Mill,Mill Yarn Bundler
 Agriculturral Labourer,Agricultural Labourer
 Appr Painter,Apprentice Painter
 Agriculturarl Labourer,Agricultural Labourer
@@ -2253,6 +2291,8 @@ Apprentice Pilot,Apprentice Pilot
 Agricultl Laborer,Agricultural Labourer
 Agricultre Lbr,Agricultural Labourer
 Agricural Labour,Agricultural Labourer
+Linen Yarn Dresser Unemployed,Unemployed Linen Yarn Dresser
+Yarn Dresser in Linnen Factory,Linen Factory Yarn Dresser
 Agtul Labour,Agricultural Labourer
 Agric Labour,Agricultural Labourer
 Agl Laborour,Agricultural Labourer
@@ -2263,18 +2303,22 @@ App BrickLayer,Apprentice BrickLayer
 Agric Laborer,Agricultural Labourer
 Agricultarial Labourer,Agricultural Labourer
 Agriculral Labourer,Agricultural Labourer
+Yarn Dresser in Mill,Mill Yarn Dresser
 Apprentice Weaver,Apprentice Weaver
 App-Fitter,Apprentice Fitter
 Agriclt Labourer,Agricultural Labourer
 Apprentice Artist,Apprentice Artist
+Yarn Bundler in Flax Spinning Mill,Flax Spinning Mill Yarn Bundler
 Appr Plumber,Apprentice Plumber
 Aprentice Clerk,Apprentice Clerk
+Yarn Bleacher in Thread Factory,Yarn Factory Bleacher
 Apprentice Manager,Apprentice Manager
 Agre Labour,Agricultural Labourer
 Agricullaral Labourer,Agricultural Labourer
 Apprentice Coachbuilder,Apprentice Coachbuilder
 Agricutl Labourer,Agricultural Labourer
 App Printer,Apprentice Printer
+Yarn Bundle,Yarn Bundler
 Agt. Labourer,Agricultural Labourer
 Apptce Fitter,Apprentice Fitter
 Agricultr Labr,Agricultural Labourer
@@ -2285,21 +2329,29 @@ Agls Labourer,Agricultural Labourer
 Agriculturals Lab,Agricultural Labourer
 Agrct Labourer,Agricultural Labourer
 Agricul Laburer,Agricultural Labourer
+Yarn Dresser Linen Factory,Linen Factory Yarn Dresser
 Apprentice Miller,Apprentice Miller
+Agent (Land),Land Agent
 Agriculta Labourer,Agricultural Labourer
 Aprentice Mason,Apprentice Mason
+Agent Singer Mfg Co,Singer Mfg Co Agent
 Agril: Labourer,Agricultural Labourer
 Agriculutural Labourer,Agricultural Labourer
+Yarn Dressing,Yarn Dresser
 Appt Plater,Apprentice Plater
 A Farm Labour,Agricultural Labourer
 Agul Labour,Agricultural Labourer
 Agr Labrourer,Agricultural Labourer
 Agrucultural Laborour,Agricultural Labourer
+Yarn Spiner in Mill,Mill Yarn Spinner
 Agriculturals Labourer,Agricultural Labourer
 Apprentice Cook,Apprentice Cook
+Yachtman Master,Master Yachtman
 Apprentice-Compositor,Apprentice Compositor
+Agent Commercial,Commercial Agent
 App Boilermaker,Apprentice Boilermaker
 Agricult Laborer,Agricultural Labourer
+Yarn Bundlers,Yarn Bundler
 Agriculturat Labourer,Agricultural Labourer
 Agrilcultral Labourer,Agricultural Labourer
 Argi Labourer,Agricultural Labourer
@@ -2319,21 +2371,29 @@ Agc Labourer,Agricultural Labourer
 App Patternmaker,Apprentice Patternmaker
 Agricultural Laubourer,Agricultural Labourer
 Agricultural Laubour,Agricultural Labourer
+Yark Winder,Yarn Winder
 Agricurtural Labourer,Agricultural Labourer
 Apprentice Coachsmith,Apprentice Coachsmith
 A Cattle Dealer,Cattle Dealer
 Agricltl Labourer,Agricultural Labourer
 App Electrician,Apprentice Electrician
 Aglrcutura Laubourer,Agricultural Labourer
+Agent to Distillery Company,Distillery Company Agent
 Agriatural Labourer,Agricultural Labourer
 Agriculture Labourr,Agricultural Labourer
+Yarn Bundler Labourer,Yarn Bundler
 Apprentice Mechanist,Apprentice Mechanist
+Agent Commission,Commission Agent
 Aprentice Mechanic,Apprentice Mechanic
+Yarn Bundler in Linen Factory,Linen Factory Yarn Bundler
 App Grocer,Apprentice Grocer
+Yarn Worker Linen Factory,Linen Factory Yarn Worker
 Appt Plumber,Apprentice Plumber
+Agent Tourist,Tourist Agent
 Aglicultural Labourer,Agricultural Labourer
 Agl Labor,Agricultural Labourer
 Agricultural Labuorer,Agricultural Labourer
+Yarn Spinner Millhand,Mill Yarn Spinner
 Agril Lobouer,Agricultural Labourer
 Apperntice Carpenter,Apprentice Carpenter
 Agriculture Labor,Agricultural Labourer
@@ -2351,112 +2411,187 @@ Apprentice-Plumber,Apprentice Plumber
 Agricultral Lab,Agricultural Labourer
 Apprentice Farrier,Apprentice Farrier
 Agculr Labourer,Agricultural Labourer
+Agent (Linen),Linen Agent
 Aprentice Paver,Apprentice Paver
+Agent Corn Trade,Corn Trade Agent
 Agural Labourer,Agricultural Labourer
 Aprentice Plater,Apprentice Plater
 A Cooper and Labourer,Cooper and General Labourer
 Agriculural Lauborer,Agricultural Labourer
 Appce Painter,Apprentice Painter
+Agent to Feeding Shop,Feeding Shop Agent
 Apprentice Shipbuilder,Apprentice Shipbuilder
+Agent for Sunlight Soop,Sunlight Soap Agent
+Agent for Carrier,Carrier Agent
 Arg. Labourer,Agricultural Labourer
+Agent-Steamship,Steamship Agent
 Apprentice Linter,Apprentice Linter
 Arigultural Labouer,Agricultural Labourer
 Agricultus Labourer,Agricultural Labourer
 Agricultural Loubourer,Agricultural Labourer
+Agent to Prudential Co,Prudential Co Agent
 Aprentic Painter,Apprentice Painter
 Ap Bricklayer,Apprentice Bricklayer
 Agtural Labrour,Agricultural Labourer
 Widow of a Cooper,Cooper's Wife
 Aprentce Carpenter,Apprentice Carpenter
 agricultural labourer,Agricultural Labourer
+Yarn Bundler Spinning Mill,Spinning Mill Yarn Bundler
 Aagricult Labourer,Agricultural Labourer
+Linen Y Weaver,Linen Yarn Weaver
 Agriltullural Labourer,Agricultural Labourer
+Linen Yarn Spinner in Mill,Linen Mill Yarn Spinner
 Apprintice Mason,Apprentice Mason
 Ap Baker,Apprentice Baker
 Agricultaral Labour,Agricultural Labourer
 Argiculure Labourer,Agricultural Labourer
+Yarn Flax Reeler,Flax Yarn Reeler
 Aprentie Carpenter,Apprentice Carpenter
+Agent for Prudential Assurance Company,Prudential Assurance Company Agent
+Yarn Spinner Factory Worker,Factory Yarn Spinner
+Agent (Drapery),Drapery Agent
 Apprentce Clerk,Apprentice Clerk
+Yarn Bunder,Yarn Bundler
 Agricultlar Labourer,Agricultural Labourer
 Agricultural Labuouer,Agricultural Labourer
+Yarn Dresser Factory Worker,Factory Yarn Dresser
+Agent for SunlightSoap,Sunlight Soap Agent
 Ape Blacksmith,Apprentice Blacksmith
+Yarn Bundlers in Bleach Works,Bleach Works Yarn Bundler
+Agent (Brewers),Brewers Agent
 Appce Draper,Apprentice Draper
 Agriculura Labourer,Agricultural Labourer
+Yarn Dryer in Linen Fact,Linen Factory Yarn Dryer
 Agricultural Laberouer,Agricultural Labourer
 Apprentice Forger,Apprentice Forger
 A Doffer of Flax,Flax Doffer
 Aprentec Dresser,Apprentice Dresser
 Agriculture Laberour,Agricultural Labourer
 Aggricultural Labourer,Agricultural Labourer
+Agent Pandenties A.C,Pandenties A.C Agent
+Yar Reeler,Yarn Reeler
 Agr Laber,Agricultural Labourer
+Yarn Worker Factory,Factory Yarn Worker
 Appre Paviour,Apprentice Paviour
+Agent for Scotch Dyers,Scotch Dyers Agent
 Appce Sawyer,Apprentice Sawyer
+Yarn Winder (Flax),Flax Yarn Winder
+Agent for Art Work,Art Work Agent
 App Compositor,Apprentice Compositor
+Agent in Tea,Tea Agent
 Agaulcutr Labour,Agricultural Labourer
 A Baker,Baker
+Yarn Bundler Master,Master Yarn Bundler
 Agricl Laboroer,Agricultural Labourer
+Yarn Bleacher Yarn Packer,Yarn Bleacher and Yarn Packer
+Yacht Captain,Yacht Captain
 Agritural Laborer,Agricultural Labourer
 Ap Cabinetmaker,Apprentice Cabinetmaker
+Yachtoman,Yachtsman
 App-Cooper,Apprentice Cooper
 Agricultuar Labour,Agricultural Labourer
 Agicul Labourer,Agricultural Labourer
+Agent for Artificial Manures,Artificial Manures Agent
 A Cambric Server,Cambric Server
+Agent Prodential Assurance,Prudential Assurance Agent
 Agri Laburer,Agricultural Labourer
 Apr Shipwright,Apprentice Shipwright
 Agriultural Labour,Agricultural Labourer
 Appt Caulker,Apprentice Caulker
+Yarn Beeteler,Yarn Beetler
 Agricltural Labour,Agricultural Labourer
 Apprentice Stereotyper,Apprentice Stereotyper
+Yarn Beaner,Yarn Beamer
 Apprintice Butcher,Apprentice Butcher
+Agent for Cement Maunfactures,Cement Maunfacturers Agent
+Agent of Assurance Co,Assurance Co Agent
 Agrucl Labourer,Agricultural Labourer
+Agent-Advertising Tablets,Advertising Tablets Agent
+Agent Prudential Company,Prudential Company Agent
+Agent Glass,Glass Agent
 Apprentice Stoker,Apprentice Stoker
+Yacht and Boat Builder Master,Master Yacht and Boat Builder
 Aprentic Engineer,Apprentice Engineer
 Agrictulal Labour,Agricultural Labourer
 Apren Cutter,Apprentice Cutter
+Agent (For House Property),House Property Agent
 Augultre Labour,Agricultural Labourer
+Agent for Life Assurance,Life Assurance Agent
+Agent (Commission),Commission Agent
 Ap Engineer,Apprentice Engineer
+Agent-Insurance,Insurance Agent
+Agent Quarries Slate,Quarries Slate Agent
 Augaultural Labourer,Agricultural Labourer
 Agrcultral Labourer,Agricultural Labourer
+Agent (Insurance),Insurance Agent
 Agur Laboure,Agricultural Labourer
 Appentice Tenter,Apprentice Tenter
+Agent for G S and W R,G S and W R Agent
 Agr Laboueror,Agricultural Labourer
 Aprentice Publican,Apprentice Publican
 Aagricultural Labour,Agricultural Labourer
 Aprentic Mechanic,Apprentice Mechanic
 Agricultl Labour,Agricultural Labourer
 Agricultl Labouere,Agricultural Labourer
+Agent (Railway),Railway Agent
 Agricle Labourer,Agricultural Labourer
 A Factory Worker,Factory Worker
 A Brick Layer,Bricklayer
 Agricultrur Labourer,Agricultural Labourer
 Agricultrn Labour,Agricultural Labourer
 Apprentie Mechanic,Apprentice Mechanic
+Agent (Misceellaneous),Agent
 Aarcultural Labourer,Agricultural Labourer
+Mariner Yachtsman,Yachtsman
+Agent for Property,Property Agent
+Mariner (Yachtsman),Yachtsman
 Apprenice Draper,Apprentice Draper
+Agent for Tea,Tea Agent
+Agent for Wines,Wines Agent
+Y Spinner,Yarn Spinner
+Agent for the Shipping Company Coy City of Desly,Shipping Company Agent
 Apprentic Baker,Apprentice Baker
+Yarn Bundeer,Yarn Bundler
 Agrl Laburer,Agricultural Labourer
 Aaricultual Labourer,Agricultural Labourer
 Apperent Plumber,Apprentice Plumber
+Yarn Drsser,Yarn Dresser
 Aprentice Sawyer,Apprentice Sawyer
 Agricutal Labourer,Agricultural Labourer
+Agent for Brevery Coy,Brevery Coy Agent
 Agrilaltral Labourer,Agricultural Labourer
 An Apprentice at a Dressmaker,Apprentice Dressmaker
+Agent for White Work,White Work Agent
+Yarn Dresser-Unemployed,Unemployed Yarn Dresser
+Agent Tea,Tea Agent
 Agu. Labourer,Agricultural Labourer
+Agent Mineral Waters,Mineral Waters Agent
 Agriculur Labourer,Agricultural Labourer
 Ar. Labourer,Agricultural Labourer
+Agent Rubber Stamps,Rubber Stamps Agent
 Apprintice Carpenter,Apprentice Carpenter
 Appe Stoncutter,Apprentice Stoncutter
 Agricultural Laboar,Agricultural Labourer
 Agricultal Laboure,Agricultural Labourer
 Aagricultural Labourer,Agricultural Labourer
 Agricalural Labourer,Agricultural Labourer
+Yarn Spinner Mill,Mill Yarn Spinner
+Agent Scripture Reader,Scripture Reader Agent
 Agricut Laborour,Agricultural Labourer
 Agurical Labourer,Agricultural Labourer
 Apprenttice Moulder,Apprentice Moulder
+Yarn Bunder Unemployed,Unemployed Yarn Bundler
+Agent for Singer Machine Co,Singer Machine Co Agent
 Arigrcultural Labourer,Agricultural Labourer
+Agent for Flour,Flour Agent
+Agent Drapery Business,Drapery Business Agent
 Agul. Labourer,Agricultural Labourer
 Agriculture Labouror,Agricultural Labourer
+Agent-Woollen and Cotton Goods,Woollen and Cotton Goods Agent
+Agent (Linens),Linens Agent
+Yarn Winden,Yarn Winder
 Agricultural Laboere,Agricultural Labourer
+Yarn Wheeler,Yarn Wheeler
 Agrict. Labourer,Agricultural Labourer
 A Carder in A Spinning Mill,Spinning Mill Carder
 Agricul. Labouer,Agricultural Labourer
@@ -2468,13 +2603,17 @@ Apprintic Tailor,Apprentice Tailor
 Agricultular Laboure,Agricultural Labourer
 Agricultarl Labour,Agricultural Labourer
 Agrlture Labourer,Agricultural Labourer
+Yarn Wheeler in Mill,Mill Yarn Wheeler
 Aprintence Tailor,Apprentice Tailor
+Agent for Serving M/Cs,Serving M/Cs Agent
+Agent Land,Land Agent
 Agriculturar Laborer,Agricultural Labourer
 Apprintice Plumber,Apprentice Plumber
 Appre Carpenter,Apprentice Carpenter
 Agrlr Labourer,Agricultural Labourer
 A Builders Labourer,Builder's Labourer
 Apprentce Moulder,Apprentice Moulder
+Yarn Spinerer,Yarn Spinner
 Apprent Gardener,Apprentice Gardener
 Aprentic Tailoress,Apprentice Tailoress
 Agrictl. Labourer,Agricultural Labourer
@@ -2485,7 +2624,12 @@ Agricultural Labrore,Agricultural Labourer
 Agucl Labourer,Agricultural Labourer
 App Smith,Apprentice Smith
 A Coachman Domestic Servant,Coachman Domestic Servant
+Agent Soft Goods,Soft Goods Agent
+Yarn Bundlan,Yarn Bundler
+Yacht Man,Yachtsman
 Agricultural Laburor,Agricultural Labourer
+Yarn Bundler in Spinning Mill,Spinning Mill Yarn Bundler
+Agent Rope Trader,Rope Trader Agent
 Agricultur Laurer,Agricultural Labourer
 Apprentice Trimmer,Apprentice Trimmer
 Apprentice-Shoemaker,Apprentice Shoemaker
@@ -2497,27 +2641,33 @@ Agricutr Labourer,Agricultural Labourer
 Agriltral Labour,Agricultural Labourer
 Apptice Carpenter,Apprentice Carpenter
 Agricultar Lobour,Agricultural Labourer
+Agent for Cattle feed Cakes and Meals,Cattle feed Cakes and Meals Agent
 Agracultural Laborar,Agricultural Labourer
 A Farmer Shop Keeper,Farmer and Shopkeeper
 Agriculturan Labourer,Agricultural Labourer
 Agricultural Lubrar,Agricultural Labourer
 A Boilermaker,Boilermaker
+Yarn Dresser in Labourer Spinning Mill,Spinning Mill Yarn Dresser
 Agrictulral Labour,Agricultural Labourer
 Agricuturl Labur,Agricultural Labourer
 Agrictual Labur,Agricultural Labourer
 Agriltural Labourer,Agricultural Labourer
 Apprentie Smith,Apprentice Smith
 Agricultural Laberorer,Agricultural Labourer
+Agent for Sale of Timber,Sale of Timber Agent
 Agriculr. Labourer,Agricultural Labourer
 Arricultur Labourer,Agricultural Labourer
 Apprentice Ironworker,Apprentice Ironworker
 Acriculture Labourer,Agricultural Labourer
 Apprentice Seedman,Apprentice Seedman
+Yarn Worker in Linen Room,Linen Room Yarn Worker
 Agricture Labourer,Agricultural Labourer
 Agricultar Laborour,Agricultural Labourer
 A Boarder,Boarder
+Agent for Artisans Diolgo Co,Artisans Diolgo Co Agent
 Augril Labourer,Agricultural Labourer
 Widow of a Black Smith,Blacksmith's Widow
+Yarn Dresser Unemployed,Unemployed Yarn Dresser
 Agricultura Laboure,Agricultural Labourer
 Agrigultural Labour,Agricultural Labourer
 Agricullr Labourer,Agricultural Labourer
@@ -2525,6 +2675,7 @@ Agricultural Laberror,Agricultural Labourer
 Agrilicultural Labourer,Agricultural Labourer
 Agraculturial Labourer,Agricultural Labourer
 Argr Labourer,Agricultural Labourer
+Agent Assurance,Assurance Agent
 A Coachman,Coachman
 Argrl Labourer,Agricultural Labourer
 Agcr Labourer,Agricultural Labourer
@@ -2534,33 +2685,49 @@ App Turner,Apprentice Turner
 Aprentice Engineer,Apprentice Engineer
 Agricultul Labr,Agricultural Labourer
 Agricultrul Labourer,Agricultural Labourer
+Agent for Flour Bran Bacon-Sugar,Flour Bran Bacon-Sugar Agent
 Agricultural Lebourer,Agricultural Labourer
 Agricutre Labourer,Agricultural Labourer
 Agrtlu Labour,Agricultural Labourer
 Agricultural Labuarer,Agricultural Labourer
 Agtulcur Lab,Agricultural Labourer
+Yarn Drying,Yarn Dryer
 Agriclal Labourer,Agricultural Labourer
 Agrcltrl Labourer,Agricultural Labourer
+Yarn Dresser in Linen Weaving Factory,Linen Weaving Factory Yarn Dresser
 Widow of a Carpenter,Carpenter's Widow
 Agriclural Labourer,Agricultural Labourer
 Agricultural Labourere,Agricultural Labourer
 Aprentice Milliner,Apprentice Milliner
+Yarn Dresser Linen Weaving Factory,Linen Weaving Factory Yarn Dresser
+Agent for Brick,Brick Agent
 Agricultural Laborerer,Agricultural Labourer
 Agrilture Labourer,Agricultural Labourer
 Agricultula Labour,Agricultural Labourer
 Aprentic Plumber,Apprentice Plumber
 Apprentic Bootmaker,Apprentice Bootmaker
+Yearly Annuties,Annuitant
 A Corn Miller,Corn Miller
 Agricultral Labourur,Agricultural Labourer
 Agricurl Labourer,Agricultural Labourer
+Agent for Grand Canal C,Grand Canal C Agent
+Agent-Canadian Government,Canadian Government Agent
 Agricultural Labouurer,Agricultural Labourer
 Agrictular Labour,Agricultural Labourer
 Aprentice Driller,Apprentice Driller
 agricl Labourer,Agricultural Labourer
 Agriculturaal Labourer,Agricultural Labourer
+Agent and Hotel Proprietor,Agent and Hotel Proprietor
+Agent Yeast Co,Yeast Co Agent
+Agent for Insurance,Insurance Agent
 Agriculture Labou,Agricultural Labourer
 Agricultrl Laborer,Agricultural Labourer
+Agent-Sewing Machines,Sewing Machines Agent
+Yacht Man Seafaring Man,Yachtsman
 Agr. Laouber,Agricultural Labourer
+Yacht Master,Yacht's Master
+Yarn Dries,Yarn Dryer
+Yanr Winder,Yarn Winder
 Apprentic Lithographer,Apprentice Lithographer
 Apce Carpenter,Apprentice Carpenter
 Apprentice Watchman,Apprentice Watchman
@@ -2568,11 +2735,13 @@ Appenter-Operative,Apprentice Operative
 Apprentic Hackler,Apprentice Hackler
 Agricultra Labor,Agricultural Labourer
 Apprt Dressmaker,Apprentice Dressmaker
+Agent for Portraits Co,Portraits Co Agent
 App-Draper,Apprentice Draper
 Apprentic Bricklayer,Apprentice Bricklayer
 Apprt Flesher,Apprentice Flesher
 Apprentice-Joiner,Apprentice Joiner
 Apprentince Turner,Apprentice Turner
+Agent for Royal Liver,Royal Liver Agent
 Agrc Labrer,Agricultural Labourer
 Labourer as a Carter,Carter
 Agricultural Labarour,Agricultural Labourer
@@ -2585,7 +2754,11 @@ Agrtur Labourer,Agricultural Labourer
 Agricultural Laubror,Agricultural Labourer
 Aarl Labourer,Agricultural Labourer
 Apprt Engineer,Apprentice Engineer
+Agent for British Vcard Co Limited,British Vcard Co Limited Agent
 Aguriculural Labourer,Agricultural Labourer
+Yarn Bleacher in Factory,Yarn Factory Bleacher
+Agent Flour and House,Flour and House Agent
+Agent-Building Society,Building Society Agent
 Agrculula Labou,Agricultural Labourer
 Agri Labou,Agricultural Labourer
 Apprintice Slater,Apprentice Slater
@@ -2594,40 +2767,52 @@ Aug. Labourer,Agricultural Labourer
 Apprent Watchmaker,Apprentice Watchmaker
 Agr Laberor,Agricultural Labourer
 Apprentic Boilermaker,Apprentice Boilermaker
+Yarn Spinner Millworker,Mill Yarn Spinner
 Agriculgtural Labourer,Agricultural Labourer
 Arc. Labour,Agricultural Labourer
 Agriral Laborer,Agricultural Labourer
 Apprentice Shopkeeper,Apprentice Shopkeeper
+Yarn Dryer in Tweed Tactory,Tweed Factory Yarn Dryer
 Agricll Labourer,Agricultural Labourer
 Apprentice Dresser,Apprentice Dresser
 Agricutular Labourer,Agricultural Labourer
 Daughter of a Carpenter,Carpenter's Daughter
+Agent Dublin City Mission,Dublin City Mission Agent
+Agent for Machines,Machines Agent
 Appr Compositor,Apprentice Compositor
+Agent For Woolen Wearing,Woolen Wearing Agent
+Yarn Bleacher and Dyer,Yarn Bleacher and Dyer
 Apprentice Talioress,Apprentice Talioress
 Apprentic Engineer,Apprentice Engineer
 Agricultuar Laborer,Agricultural Labourer
 Agricultularl Labourer,Agricultural Labourer
 Ape Saddler,Apprentice Saddler
+Yacht Boy,Yacht Boy
 Apprentice Auctioneer,Apprentice Auctioneer
 Agraul Labourer,Agricultural Labourer
 App Milliner,Apprentice Milliner
 Agricultral labr,Agricultural Labourer
 Agricultral Labr,Agricultural Labourer
 Appce Carpenter,Apprentice Carpenter
+Agent Prudential,Prudential Agent
 Appe Boilermaker,Apprentice Boilermaker
 Agriculturan Labour,Agricultural Labourer
 App Baker,Apprentice Baker
 Apert Dressmaker,Apprentice Dressmaker
 Agl Laubour,Agricultural Labourer
 Apprentice Commissioner,Apprentice Commissioner
+Agent Bank,Bank Agent
 Agricultural Laur,Agricultural Labourer
+Agent for Carrying Co,Carrying Co Agent
 Apprentice-Draper,Apprentice Draper
 Agricult Laboer,Agricultural Labourer
 Apprentice-Bootmaker,Apprentice Bootmaker
 Aprentice Miller,Apprentice Miller
+Agent for Unitarian Defo,Unitarian Defo Agent
 Appr Rivetter,Apprentice Rivetter
 Agricultirual Labourer,Agricultural Labourer
 Agracuture Labourer,Agricultural Labourer
+Yarn Bundler in Flax Mill,Flax Mill Yarn Bundler
 Agricurtural Labr,Agricultural Labourer
 Aricultural Labour,Agricultural Labourer
 Agricura Labourer,Agricultural Labourer
@@ -2637,63 +2822,106 @@ Agr Laboure,Agricultural Labourer
 Appe Printer,Apprentice Printer
 Agraculural Labourer,Agricultural Labourer
 A Drawer in Flax Spinning Mill,Flax Spinning Mill Drawer
+Agent Shop,Shop Agent
 Agrilcultar Labour,Agricultural Labourer
 Agriculturul Labourer,Agricultural Labourer
+Agent for Aguinness Son ?o,Aguinness Son ?o Agent
+Agent Paper and C,Paper and C Agent
+Yarn Bundler Unemployed,Unemployed Yarn Bundler
+Agent for Woodworking Machiney,Woodworking Machiney Agent
 Mother of a Carter,Carter's Mother
 Wife of a Carter,Carter's Wife
 Daughter of a Carter,Carter's Daughter
 Son of a Carter,Carter's Son
 Appentice Fitter,Apprentice Fitter
+Linen Yarn Twister,Linen Yarn Twister
 Agritcultural Labourer,Agricultural Labourer
+Yarn Weaver in Linnen Factory,Linen Factory Yarn Weaver
 Agriclture Labourer,Agricultural Labourer
 Apprentice Hacklemaker,Apprentice Hacklemaker
+Agent and Commercial Traveller,Agent and Commercial Traveller
 Aglr Labouer,Agricultural Labourer
 Apprentice Telegraphist,Apprentice Telegraphist
 Appr Fitter,Apprentice Fitter
 Apperentice Butcher,Apprentice Butcher
 A Farmer Labourer,Agricultural Labourer
+Agent for Camps,Camps Agent
 App Wheeler,Apprentice Wheeler
 Apprentice-Tobacconist,Apprentice Tobacconist
 Agricutl. Labourer,Agricultural Labourer
+Yarn Dundler,Yarn Bundler
 Agricutlural Labourer,Agricultural Labourer
 Agricutural labourer,Agricultural Labourer
 Agrictal Labourer,Agricultural Labourer
 Aricultural Laborer,Agricultural Labourer
 Apprentier Plater,Apprentice Plater
 Agrilcultural Labour,Agricultural Labourer
+Yarn Bundeler,Yarn Bundler
 Agricl. Labouror,Agricultural Labourer
 Apprentice Gilder,Apprentice Gilder
 Augt Labour,Agricultural Labourer
 Apprentice Molder,Apprentice Molder
+Linen Yarn Spiner,Linen Yarn Spinner
 Apprentic Plumber,Apprentice Plumber
+Yarn Bundler (in Linen Mill),Linen Mill Yarn Bundler
 Apprentice Ironmoulder,Apprentice Ironmoulder
 Apprentice-Plasterer,Apprentice Plasterer
 Agricultual Lab,Agricultural Labourer
 Apprentic-Mason,Apprentice Mason
+Agent Book,Book Agent
+Yarn Spinner Thread Factory,Thread Factory Yarn Spinner
 Agriculal Laborer,Agricultural Labourer
 Agctl Labourer,Agricultural Labourer
 Agar Labour,Agricultural Labourer
 Agllr Labourer,Agricultural Labourer
 Agricultural Labrouer,Agricultural Labourer
 Agriultural Labouarer,Agricultural Labourer
+Yarn Bundler Linen Factory,Linen Factory Yarn Bundler
 Agricultiural Labourer,Agricultural Labourer
 Aprentice Merchant,Apprentice Merchant
+Agent for Drapers,Drapers Agent
+Agent Sewing Machine,Sewing Machine Agent
 Aric Labourer,Agricultural Labourer
+Yarn Fore Man Bundler,Yarn Bundler Foreman
+Agent for Singer Machines,Singer Machines Agent
 By Trade a Baker,Baker
+Agent-Musical Instruments,Musical Instruments Agent
+Agent for Machine,Machine Agent
 Agriculture Laabour,Agricultural Labourer
+Agent Tobacco,Tobacco Agent
 Aprentice Victualler,Apprentice Victualler
 Agriltur Labourer,Agricultural Labourer
+Agent and Civil Bill Officer,Agent and Civil Bill Officer
 Agil. Labourer,Agricultural Labourer
 Agricultur Labr,Agricultural Labourer
 Agricl labourer,Agricultural Labourer
+Agent for Singer ?,Singer ? Agent
+Yaren Dresser,Yarn Dresser
+Agent (Grain),Grain Agent
+Yarn - Reeler,Yarn Reeler
+Agent of the Bank of Ireland,Bank of Ireland Agent
 Apprintce Tailor,Apprentice Tailor
 Apprintce Rivetter,Apprentice Rivetter
 Agricultural Laboour,Agricultural Labourer
+Agent Scottish Legal Society Insurance Agent,Scottish Legal Society Insurance Agent
+Agent Prudential App Comp,Prudential App Comp Agent
+Agent for Building Society,Building Society Agent
 App Plasterer,Apprentice Plasterer
 Agritural Labourer,Agricultural Labourer
+Agent for Assurance,Assurance Agent
+Yacht'sman,Yachtsman
 Apprentic Fitter,Apprentice Fitter
 Agrc. Labourer,Agricultural Labourer
+Agent for Machinery,Machinery Agent
+Yarn Bearner in Factory,Yarn Factory Beamer
 Apr Tenter,Apprentice Tenter
+Yarn Hawker in Mill,Mill Yarn Hawker
+Yearly Annities From Houses,Annuitant
+Agent Tea and Wine Trade,Tea and Wine Trade Agent
+Agent for Foreign Waters,Foreign Waters Agent
+Agent for Drapery,Drapery Agent
+Agent for Oils,Oils Agent
+Agent for Tobacco Manufacturer,Tobacco Manufacturer Agent
 App Farrier,Apprentice Farrier
 Agricultural Labaurer,Agricultural Labourer
 Agricltul Labourer,Agricultural Labourer
@@ -2712,12 +2940,14 @@ Apprentice Miliner,Apprentice Miliner
 Agral. Laborer,Agricultural Labourer
 Argricultural Labr,Agricultural Labourer
 A Cart Benter,Carpenter
+Agent for A Guinness Son and Co Ld Brewers,A Guinness Son and Co Ld Brewers Agent
 Apprentice Electrican,Apprentice Electrican
 Agric Laborerer,Agricultural Labourer
 Apprntic Draper,Apprentice Draper
 Aagrl Labourer,Agricultural Labourer
 Apprentice Sailmaker,Apprentice Sailmaker
 Agraculture Labour,Agricultural Labourer
+Yard Foreman,Yard Foreman
 Apprentic Chemist,Apprentice Chemist
 Agicultural Labourer,Agricultural Labourer
 Agrictulture Labourer,Agricultural Labourer
@@ -2726,19 +2956,24 @@ A Bricklayers,Bricklayer
 Agricultural Leabour,Agricultural Labourer
 Apentice Fitter,Apprentice Fitter
 Apprentic Confectioner,Apprentice Confectioner
+Yarn Dreser,Yarn Dresser
 Apren Manufacturer,Apprentice Manufacturer
 Agricl Labouer,Agricultural Labourer
+Yarn Examiner,Yarn Examiner
 Agulcture Labour,Agricultural Labourer
 Apprintice Joiner,Apprentice Joiner
 Agicaltural Labourer,Agricultural Labourer
 Apprintce Carpenter,Apprentice Carpenter
 Agriculttral Labourer,Agricultural Labourer
 Appt Carpenter,Apprentice Carpenter
+Agent for Tweed Manufacturer,Tweed Manufacturer Agent
+Yarn Bundler in Linen Mill,Linen Mill Yarn Bundler
 Apprentice Silversmith,Apprentice Silversmith
 Agrcutural Labourer,Agricultural Labourer
 Agri Labour,Agricultural Labourer
 Apprent Plumber,Apprentice Plumber
 Apprentice-Dentist,Apprentice Dentist
+Yarn Spinne,Yarn Spinner
 Agrle Labourer,Agricultural Labourer
 Apprenetice Shipbuilder,Apprentice Shipbuilder
 Agricultural Laboerer,Agricultural Labourer
@@ -2748,6 +2983,7 @@ Agriculturl Leabour,Agricultural Labourer
 Agriculrual Leabour,Agricultural Labourer
 Agriculal. Labr,Agricultural Labourer
 Agricutural Labr,Agricultural Labourer
+Agent for Wine Shipper,Wine Shipper Agent
 Agrulacultra Laberour,Agricultural Labourer
 Ap Solicitor,Apprentice Solicitor
 Agriclutral Laborour,Agricultural Labourer
@@ -2769,6 +3005,7 @@ Apprentic Dressmaker,Apprentice Dressmaker
 Agricultur Laoberer,Agricultural Labourer
 Agriculture Labourour,Agricultural Labourer
 agricultural Labourer,Agricultural Labourer
+Agent for Oarey's Brewery,Oarey's Brewery Agent
 A Biscuit Packer,Biscuit Packer
 Apprintce Plasterer,Apprentice Plasterer
 App Confectioner,Apprentice Confectioner
@@ -2777,58 +3014,87 @@ Aaricultural Labourer,Agricultural Labourer
 Aaric Labourer,Agricultural Labourer
 Apprintice Painter,Apprentice Painter
 Agricl Laber,Agricultural Labourer
+Yarn Spinner Mill Work,Mill Yarn Spinner
+Yarn Spinner Factory Work,Factory Yarn Spinner
 Apprenticen Cutter,Apprentice Cutter
 Apprentice Potter,Apprentice Potter
 Ap tailoress,Apprentice tailoress
 Ap Butcher,Apprentice Butcher
 Agricutuarl Labour,Agricultural Labourer
+Agent for Hay Borns,Hay Borns Agent
 Apprintice Milliner,Apprentice Milliner
 App Moulder,Apprentice Moulder
 Apprentce Engineer,Apprentice Engineer
 App-Shipwright,Apprentice Shipwright
 Agricultu. Labourer,Agricultural Labourer
+Yarn Dresser Linen,Linen Yarn Dresser
+Agent for the Prundential Insurance Company,the Prundential Insurance Company Agent
 Agriculture La,Agricultural Labourer
 Agraculte Labourer,Agricultural Labourer
 Agricaltural Labr,Agricultural Labourer
 Agricultuaral Labourer,Agricultural Labourer
 Agriculturl Lab,Agricultural Labourer
 Agricultural Laub,Agricultural Labourer
+Y Weaver,Yarn Weaver
 Appr Brassfinisher,Apprentice Brassfinisher
 Agriculturil Labour,Agricultural Labourer
+Agent for the G and N By. Company,the G and N By. Company Agent
 Appretice Grocer,Apprentice Grocer
 Aglt Labourer,Agricultural Labourer
 Apprentice Woodcarver,Apprentice Woodcarver
 Agrcutul Labour,Agricultural Labourer
+Yarn Worker in Factory Worker,Factory Yarn Worker
 Apprentice Glazier,Apprentice Glazier
 Appr Engineer,Apprentice Engineer
+Agent for I B,I B Agent
+Agent for Irish Church Missions,Irish Church Missions Agent
 Agriculture Labrour,Agricultural Labourer
+Yarn Finishing,Yarn Finisher
+Agent for Manufacturers,Manufacturers Agent
+Agent for Electrical Fittings Electric Lamps and Shades,Electrical Fittings Electric Lamps and Shades Agent
 Apprentice Sadler,Apprentice Sadler
 A Dress-Maker,Dressmaker
+Agent for Masons Guinness and Co Limited,Masons Guinness and Co Limited Agent
+Agent for Manufacturers in Drapery Goods,Manufacturers in Drapery Goods Agent
 Apprentice Tinker,Apprentice Tinker
 Agritiltural Laborer,Agricultural Labourer
 Agl Lab,Agricultural Labourer
 Agl Laboarer,Agricultural Labourer
 Appr Shipwright,Apprentice Shipwright
+Agent for Underclothing,Underclothing Agent
+Agent for Life Insurance,Life Insurance Agent
 Agricultural Loborer,Agricultural Labourer
 Agriculr Laboruer,Agricultural Labourer
 Agricuitural Labourer,Agricultural Labourer
 Apprence Dryer,Apprentice Dryer
 App Ironmonger,Apprentice Ironmonger
 Ap Mechanic,Apprentice Mechanic
+Yarn Wender,Yarn Winder
+Yarn Bundlear,Yarn Bundler
+Yarn Folder,Yarn Folder
 Agricultural Loube,Agricultural Labourer
 Agrucl Labouror,Agricultural Labourer
 Agrir Labourer,Agricultural Labourer
+Yarn Dreeser,Yarn Dresser
+Yarn Bundler in Mill and Sexton of Church,Mill Yarn Bundler and Sexton of Church
 Apperentice Tailoress,Apprentice Tailoress
+Agent for Abbotsford Twall Manufacturing Company,Abbotsford Twall Manufacturing Company Agent
 Agriculturar Lab,Agricultural Labourer
+Agent for Singers Machine Co,Singers Machine Co Agent
 Agricult Labr,Agricultural Labourer
 Apprentic Dresser,Apprentice Dresser
+Yarn Flax Spinner,Flax Yarn Spinner
 Agriculartar Labourer,Agricultural Labourer
 Agricult Laburer,Agricultural Labourer
 Agricutilar Labourer,Agricultural Labourer
+Yaran Winder,Yarn Winder
 Agracultral Labourer,Agricultural Labourer
 Agriculturas Labourer,Agricultural Labourer
 An Apprentice to a Cooper,Apprentice Cooper
+Agent for the Singer Mfg Coy,the Singer Mfg Coy Agent
 Aprintice Fitter,Apprentice Fitter
+Yard Fore Man,Yard Foreman
+Agent for Sewing Machines,Sewing Machines Agent
 Aug Labour,Agricultural Labourer
 Agu Labour,Agricultural Labourer
 Aprente Printer,Apprentice Printer
@@ -2837,6 +3103,7 @@ A B sailor,Able Seaman
 Agurcultural Labourer,Agricultural Labourer
 Apprentice Coachman,Apprentice Coachman
 Agrulture Leabour,Agricultural Labourer
+Agent for Singer Mashines,Singer Mashines Agent
 Apprentice-Baker,Apprentice Baker
 Agric Labouer,Agricultural Labourer
 Agrl. Lauberer,Agricultural Labourer
@@ -2847,8 +3114,11 @@ Appr Electrician,Apprentice Electrician
 Agricultral Laboure,Agricultural Labourer
 Agurculure Labor,Agricultural Labourer
 Acultre Labourer,Agricultural Labourer
+Yard Clerk in Factory,Factory Yard Clerk
 A Compositor,Compositor
+Yarn Bundlener,Yarn Bundler
 Agricrl Labouer,Agricultural Labourer
+Agent for Chemical Manure Manufacturer and Petroleum Oil Merchant,Chemical Manure Manufacturer and Petroleum Oil Merchant Agent
 Aprentice Watchmaker,Apprentice Watchmaker
 Agricultural Leabouer,Agricultural Labourer
 Apprentic Mechanic,Apprentice Mechanic
@@ -2864,18 +3134,25 @@ Agricultuian Labourer,Agricultural Labourer
 Argricultural Laburer,Agricultural Labourer
 Agriculture Laborur,Agricultural Labourer
 Agricullar Labour,Agricultural Labourer
+Agent for GC Company,GC Company Agent
+Yarn Twister Millworker,Mill Yarn Twister
 Acricultural Labrourer,Agricultural Labourer
 Agriculural Labouer,Agricultural Labourer
 Agriultr Labourer,Agricultural Labourer
 Apprenticer Fitter,Apprentice Fitter
+Yarn Drier (Linen),Linen Yarn Dryer
 App Seaman,Apprentice Seaman
 Ariculre Labourer,Agricultural Labourer
 Agaltar Labourer,Agricultural Labourer
 Apprentice Tapper,Apprentice Tapper
+Yarn Bundling Clerk,Yarn Bundling Clerk
+Yarn - Dresser,Yarn Dresser
 Agicultiral Labourer,Agricultural Labourer
 Agu Labourer,Agricultural Labourer
+Retired Yachtsman,Retired Yachtsman
 App Pawnbroker,Apprentice Pawnbroker
 Agricultultural Labourer,Agricultural Labourer
+Yachtman,Yachtsman
 Agrcult Labourer,Agricultural Labourer
 Agrictare Labourer,Agricultural Labourer
 Apprent Bricklayer,Apprentice Bricklayer
@@ -2884,7 +3161,9 @@ Agricul Labouer,Agricultural Labourer
 Agricultulal Labourer,Agricultural Labourer
 Agrirl Labourer,Agricultural Labourer
 Apprentic Clerk,Apprentice Clerk
+Yarn Spinner in Spinning Factory,Spinning Factory Yarn Spinner
 Aprentice Wheeler,Apprentice Wheeler
+Yacthman,Yachtsman
 Agrucultr Labourer,Agricultural Labourer
 Agrilt Labour,Agricultural Labourer
 Agicult Labour,Agricultural Labourer
@@ -2893,19 +3172,27 @@ Agrultrl Labourer,Agricultural Labourer
 Appren Joiner,Apprentice Joiner
 Apprentic Printer,Apprentice Printer
 Appretice Cutter,Apprentice Cutter
+Agent for Loan Fund Society,Loan Fund Society Agent
+Yarn Bundler in Labourer,Yarn Bundler
 Aal Labourer,Agricultural Labourer
+Agent for Pione Farm,Pione Farm Agent
 App Dairymaid,Apprentice Dairymaid
 A Farm Daughter,Farmer's Daughter
+Yarn Spinner - Linen,Linen Yarn Spinner
 Agr Laubour,Agricultural Labourer
+Yarn Dryer in Factory,Factory Yarn Dryer
 Apte Cooper,Apprentice Cooper
 Aprent Dressmaker,Apprentice Dressmaker
 Apprentice-Ironmonger,Apprentice Ironmonger
+Yarn Spinner in Rope Factory,Rope Factory Yarn Spinner
 Apperentice Plater,Apprentice Plater
+Yearly Annuities From House Property,Annuitant
 Apprentic Shopkeeper,Apprentice Shopkeeper
 Agricultural Lourer,Agricultural Labourer
 Agriculture Labr,Agricultural Labourer
 Aprentic Victualler,Apprentice Victualler
 Apprentce Carpenter,Apprentice Carpenter
+Agent for Book,Book Agent
 Apprentice-Plater,Apprentice Plater
 Aprentce Fitter,Apprentice Fitter
 Apprentic Rivetter,Apprentice Rivetter
@@ -2926,11 +3213,17 @@ Agricultrl Labr,Agricultural Labourer
 App-Carpenter,Apprentice Carpenter
 Agricul Laborer,Agricultural Labourer
 Apprentice Shopboy,Apprentice Shopboy
+Agent for Singer Compy,Singer Compy Agent
+Yarn Spinner Tweed Factory,Tweed Factory Yarn Spinner
 Acr Labourer,Agricultural Labourer
+Agent for the ? Machine Co,the ? Machine Co Agent
 Agrl Lobourer,Agricultural Labourer
 Agricultal Laberer,Agricultural Labourer
 Augricultural labourer,Agricultural Labourer
+Yarn Twister in Shipyard,Shipyard Yarn Twister 
 Argicultural Labour,Agricultural Labourer
+Agent for Guard Canal Co,Guard Canal Co Agent
+Yarn Dresser at Factory,Factory Yarn Dresser
 Appce Butcher,Apprentice Butcher
 Apprentice-Pawnbroker,Apprentice Pawnbroker
 Agirigulture Labourer,Agricultural Labourer
@@ -2947,6 +3240,7 @@ Ap Cashier,Apprentice Cashier
 Aprentice Barber,Apprentice Barber
 Appren Folder,Apprentice Folder
 A Corker,Corker
+Yearly Annuity from House Property,Annuitant
 Aprentice Plasterer,Apprentice Plasterer
 App Vestmaker,Apprentice Vestmaker
 Apperntice Plumber,Apprentice Plumber
@@ -2968,7 +3262,9 @@ Agriculral Laborer,Agricultural Labourer
 Agricultul Laborer,Agricultural Labourer
 Agricultural Laburour,Agricultural Labourer
 App Mason,Apprentice Mason
+Yachts Man,Yachtsman
 Agracultural Labour,Agricultural Labourer
+Agent For Draper,Draper Agent
 Apprentice fitter,Apprentice fitter
 Appentice Carpenter,Apprentice Carpenter
 Widow of a Baker,Baker's Widow
@@ -2977,10 +3273,12 @@ Apprentic Grocer,Apprentice Grocer
 Agl labourer,Agricultural Labourer
 Agriculture Laberor,Agricultural Labourer
 Agrl Laborrer,Agricultural Labourer
+Agent for Singer Comp,Singer Comp Agent
 Apprentice Traveller,Apprentice Traveller
 Apprtc Carpenter,Apprentice Carpenter
 Argriculture Labour,Agricultural Labourer
 Apprentice-Surveyor,Apprentice Surveyor
+Agent for Mammer Makers,Mammer Makers Agent
 Ariculture Labour,Agricultural Labourer
 Agricultural Labrourrer,Agricultural Labourer
 Aptc Tailor,Apprentice Tailor
@@ -2999,6 +3297,7 @@ Aprentic Joiner,Apprentice Joiner
 Apprice Engineer,Apprentice Engineer
 Agrricutral Labourer,Agricultural Labourer
 Arigriculture Labourer,Agricultural Labourer
+Yarn Driver in Mill,Mill Yarn Driver
 Agricultrl. Labourer,Agricultural Labourer
 Apprentice Examiner,Apprentice Examiner
 Appentice Mason,Apprentice Mason
@@ -3006,9 +3305,11 @@ AgL Labourer,Agricultural Labourer
 Agricultular Labour,Agricultural Labourer
 Agricultural labour,Agricultural Labourer
 Agricula Labourer,Agricultural Labourer
+Agent for Bradbury Ma,Bradbury Ma Agent
 Appt Clerk,Apprentice Clerk
 Appentic Carpenter,Apprentice Carpenter
 Ap Druggist,Apprentice Druggist
+Yarn At Winder in W Factory,Yarn Factory Winder
 Agrlc Labourer,Agricultural Labourer
 Agrlrl Labourer,Agricultural Labourer
 Agurl Labourer,Agricultural Labourer
