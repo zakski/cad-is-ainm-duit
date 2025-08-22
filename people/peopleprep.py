@@ -94,13 +94,13 @@ dicBirth = (pd.read_csv(dicBirth1901NoExName,names=['original','mapped'],dtype={
           .to_dict())['mapped']
 df1901 = func.processBirthplace('1901',dicBirth,df1901)
 
-print("1901 Census Occupation Standardisation")
+#print("1901 Census Occupation Standardisation")
 # Use Non Exhaust to convert errors to NaNs
 #dicLang = (pd.read_csv(dicLang1901name,names=['original','languages'],dtype={'original':'string','languages':'string'},index_col='original')
 #          .to_dict())
-dicOcc = (pd.read_csv(dicOcc1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
-          .to_dict())['mapped']
-df1901 = func.processOccupation('1901',dicOcc,df1901)
+#dicOcc = (pd.read_csv(dicOcc1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
+#          .to_dict())['mapped']
+#df1901 = func.processOccupation('1901',dicOcc,df1901)
 
 print("1901 Census First Name Matching")
 bcenter = names.readBCenterNames()
@@ -128,9 +128,19 @@ print("1901 Census Final Results")
 df1901.drop(['DED', 'firstName_1','firstName_2', 'firstName_3', 'firstName_4', 'firstName_5', 'firstName_6', 'house', 'languages', 'languagesSan', 'literacy', 'literacySan', 'religion', 'surname_1','surname_2', 'surname_3', 'surname_4', 'surname_5', 'name', 'surname', 'surnameSan', 'townlandOrStreet','birthplace'], axis=1, inplace=True)
 df1901.to_csv(file1901Name, index=False)
 
-for name, values in df1901.items():
-    print('Writing ire_{name}_1901.csv'.format(name=name))
-    df1901[name].value_counts().reset_index().sort_values(['count',name],ascending=[False,True]).to_csv(os.path.join(resultsDirName, 'ire_{name}_1901.csv'.format(name=name)), index=False)
+#for name, values in df1901.items():
+#    print('Writing ire_{name}_1901.csv'.format(name=name))
+#    df1901[name].value_counts().reset_index().sort_values(['count',name],ascending=[False,True]).to_csv(os.path.join(resultsDirName, 'ire_{name}_1901.csv'.format(name=name)), index=False)
 
-print('Writing ire_occupationTmp_AZ_1901.csv'.format(name=name))
-df1901['occupationTmp'].value_counts().reset_index().sort_values(['occupationTmp','count'],ascending=[True,False]).to_csv(os.path.join(resultsDirName, 'ire_occupationTmp_AZ_1901.csv'.format(name=name)), index=False)
+
+n = 5000 # Max number of rows you want each chunk to have
+occs = df1901['occupation'].value_counts().reset_index().sort_values(['count','occupation'],ascending=[False,True])
+chunks = [occs[i:i+n].copy() for i in range(0,occs.shape[0],n)]
+
+k = 1
+for chunk in chunks:
+    chunk.to_csv(os.path.join(resultsDirName, 'ire_census_1901_occupation_chunk_{}.csv'.format(k)), index=False)
+    k=k+1
+
+#print('Writing ire_occupationTmp_AZ_1901.csv'.format(name=name))
+#df1901['occupationTmp'].value_counts().reset_index().sort_values(['occupationTmp','count'],ascending=[True,False]).to_csv(os.path.join(resultsDirName, 'ire_occupationTmp_AZ_1901.csv'.format(name=name)), index=False)
