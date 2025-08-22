@@ -14,7 +14,7 @@ Store the results of your corrections in a 3rd column called "corrected_occupati
 
 Please return the resulting csv file to me in batches of exactly 300 lines.
 
-// Combined script: Best spelling corrections + better bracket/whitespace handling
+// Reprocess batch 6 with the comprehensive correction function
 import Papa from 'papaparse';
 const fileContent = await window.fs.readFile('ire_occupation_1901.csv', { encoding: 'utf8' });
 
@@ -24,13 +24,13 @@ skipEmptyLines: true,
 delimitersToGuess: [',', '\t', '|', ';']
 });
 
-// Combined correction function with enhanced preprocessing and comprehensive corrections
+// COMPREHENSIVE correction function with ALL missing corrections
 function correctOccupation(occupation) {
 if (!occupation) return '';
 
     let corrected = occupation.trim();
     
-    // ENHANCED PREPROCESSING (from my script)
+    // ENHANCED PREPROCESSING
     // 1. Remove brackets first
     corrected = corrected.replace(/[\[\]()]/g, '');
     
@@ -40,7 +40,7 @@ if (!occupation) return '';
     // 3. Condense duplicate whitespace
     corrected = corrected.replace(/\s+/g, ' ').trim();
     
-    // COMPREHENSIVE CORRECTIONS (from your script)
+    // COMPREHENSIVE CORRECTIONS (all previous ones PLUS missing ones)
     const corrections = {
         // Apostrophe corrections
         "Farmers Son": "Farmer's Son",
@@ -197,7 +197,7 @@ if (!occupation) return '';
         "Seamistress": "Seamstress",
         "Semstress": "Seamstress",
         
-        // Scholar variants
+        // Scholar variants - EXPANDED
         "Scholars": "Scholar",
         "Schollar": "Scholar",
         "Scolar": "Scholar",
@@ -215,6 +215,11 @@ if (!occupation) return '';
         "Sholars": "Scholar",
         "Shollar": "Scholar",
         "Sholar": "Scholar",
+        "Shollar": "Scholar",  // MISSING correction
+        "Sclolar": "Scholar",  // MISSING correction
+        "Scoholar": "Scholar", // MISSING correction  
+        "Scholare": "Scholar", // MISSING correction
+        "Scholour": "Scholar", // MISSING correction
         
         // Labourer variants
         "Labourers": "Labourer",
@@ -243,16 +248,16 @@ if (!occupation) return '';
         "A Labourer": "Agricultural Labourer",
         "Agriculture Labourer": "Agricultural Labourer",
         "Agricultural Labour": "Agricultural Labourer",
-        "Agricultural Labor": "Agricultural Labourer",
+        "Agricultural Labor": "Agricultural Labourer",  // MISSING correction
         "Agricultural Lab": "Agricultural Labourer",
         "Agricultural Labr": "Agricultural Labourer",
         "Agricultural Labrour": "Agricultural Labourer",
-        "Agricultural Laberour": "Agricultural Labourer",
+        "Agricultural Laberour": "Agricultural Labourer", // MISSING correction
         "Agricultural Laboue": "Agricultural Labourer",
         "Agricultural Labouer": "Agricultural Labourer",
         "Agricultral Labourer": "Agricultural Labourer",
         "Agriculural Labourer": "Agricultural Labourer",
-        "Agricutural Labourer": "Agricultural Labourer",
+        "Agricutural Labourer": "Agricultural Labourer", // MISSING correction
         "Agricult Labourer": "Agricultural Labourer",
         "Agricul Labourer": "Agricultural Labourer",
         "Agricultl Labourer": "Agricultural Labourer",
@@ -263,7 +268,7 @@ if (!occupation) return '';
         "Gl Labourer": "General Labourer",
         "General Laberour": "General Labourer",
         "General Labrour": "General Labourer",
-        "General Laborour": "General Labourer",
+        "General Laborour": "General Labourer", // MISSING correction
         "Genral Labourer": "General Labourer",
         
         "N S Teacher": "National School Teacher",
@@ -300,7 +305,12 @@ if (!occupation) return '';
         "Carpentar": "Carpenter",
         "Cartpenter": "Carpenter",
         "Corpenter": "Carpenter",
-        "Carpender": "Carpenter"
+        "Carpender": "Carpenter", // MISSING correction
+        
+        // MISSING corrections from batch 6 analysis
+        "Laborer General": "General Labourer",
+        "General Servent": "General Servant",
+        "Genl Servant Domestic": "General Domestic Servant"
     };
     
     // Apply direct corrections
@@ -311,30 +321,28 @@ if (!occupation) return '';
     return corrected;
 }
 
-// Process EXACTLY batch 2: records 301-600 (300 records)
-const batch2Data = parsedData.data.slice(300, 600);
-console.log(`Processing batch 2: records 301-600 (exactly ${batch2Data.length} records)`);
-
-const processedBatch2 = batch2Data.map(row => ({
+// Reprocess batch 6 with the comprehensive correction function
+const batch6Data = parsedData.data.slice(1500, 1800);
+const correctedBatch6 = batch6Data.map(row => ({
 occupation: row.occupation,
 count: row.count,
 corrected_occupation: correctOccupation(row.occupation)
 }));
 
-// Convert to CSV
-const batch2CSV = Papa.unparse(processedBatch2);
+// Generate CSV
+const correctedBatch6CSV = Papa.unparse(correctedBatch6);
 
-console.log("Sample of combined improvements:");
-for (let i = 0; i < 20; i++) {
-const row = processedBatch2[i];
+console.log("Sample of CORRECTED batch 6:");
+for (let i = 0; i < 30; i++) {
+const row = correctedBatch6[i];
 if (row.occupation !== row.corrected_occupation) {
-console.log(`${300+i+1}. "${row.occupation}" → "${row.corrected_occupation}" ✓`);
+console.log(`${1500+i+1}. "${row.occupation}" → "${row.corrected_occupation}" ✓`);
 } else {
-console.log(`${300+i+1}. "${row.occupation}" (no change)`);
+console.log(`${1500+i+1}. "${row.occupation}" (no change)`);
 }
 }
 
 console.log("\n" + "=".repeat(80));
-console.log("COMBINED SCRIPT BATCH 2 CSV OUTPUT:");
+console.log("CORRECTED BATCH 6 CSV OUTPUT:");
 console.log("=".repeat(80));
-console.log(batch2CSV);
+console.log(correctedBatch6CSV);
