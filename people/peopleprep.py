@@ -131,16 +131,10 @@ df1901.to_csv(file1901Name, index=False)
 #for name, values in df1901.items():
 #    print('Writing ire_{name}_1901.csv'.format(name=name))
 #    df1901[name].value_counts().reset_index().sort_values(['count',name],ascending=[False,True]).to_csv(os.path.join(resultsDirName, 'ire_{name}_1901.csv'.format(name=name)), index=False)
+func.writeFields(resultsDirName,'ire','1901',df1901)
 
-
-n = 5000 # Max number of rows you want each chunk to have
-occs = df1901['occupation'].value_counts().reset_index().sort_values(['count','occupation'],ascending=[False,True])
-chunks = [occs[i:i+n].copy() for i in range(0,occs.shape[0],n)]
-
-k = 1
-for chunk in chunks:
-    chunk.to_csv(os.path.join(resultsDirName, 'ire_census_1901_occupation_chunk_{}.csv'.format(k)), index=False)
-    k=k+1
+# Write Chunks
+func.writeChunks(resultsDirName,'ire','1901',5000,'occupation',df1901)
 
 #print('Writing ire_occupationTmp_AZ_1901.csv'.format(name=name))
 #df1901['occupationTmp'].value_counts().reset_index().sort_values(['occupationTmp','count'],ascending=[True,False]).to_csv(os.path.join(resultsDirName, 'ire_occupationTmp_AZ_1901.csv'.format(name=name)), index=False)

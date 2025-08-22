@@ -1153,7 +1153,7 @@ Dairy Woman,102,Dairy Woman
 House and Parlour Maid Domestic Servant,102,House and Parlour Maid Domestic Servant
 Silk Weaver,102,Silk Weaver
 Factory Winder,102,Factory Winder
-Labouring Man,102,Labourer
+Labouring Man,102,Labouring Man
 Dairy Proprietor,102,Dairy Proprietor
 Railway Signal Man,102,Railway Signal Man
 Maid Domestic Servant,102,Maid Domestic Servant
@@ -1185,323 +1185,320 @@ Labourer in Foundry,100,Labourer in Foundry
 Son of Farmer,100,Son of Farmer
 Herd's Son,100,Herd's Son
 Assistant Shopkeeper,100,Assistant Shopkeeper
-Bank Cashier,99
-Farm Labourers,99
-Home Work,99
-Plumber and Gasfitter,99
-Pork Cutter,99
-Soldier's Wife,99
-Winder in Linen Factory,99
-Ag. Labourer,98
-Agricultural Servant,98
-Cutter,98
-Genl. Servant Domestic,98
-Hackler,98
-Iron Dresser,98
-Machine Fitter,98
-R. I. C. Pensioner,98
-Wife of Labourer,98
-Constable R. I. C,97
-Disengaged,97
-Domestic Servant (Cook),97
-Draper's Apprentice,97
-Footman Domestic Servant,97
-Labourer in Mill,97
-Landsteward,97
-Mail Car Driver,97
-Shirt Factory,97
-Apprentice Painter,96
-Bag Maker,96
-Biscuit Packer,96
-Car-Driver,96
-Clerk Railway,96
-Machine Man,96
-Married,96
-Plaster,96
-Waiteress,96
-Certified Pupil,95
-Dentist,95
-Farmers Daug,95
-Millener,95
-Needle Worker,95
-Penitent,95
-Quarryman,95
-Smoother in Laundry,95
-Sower,95
-Weaver-Linen,95
-Apprentice Dressmaker,94
-Carpenter Employed,94
-General Servt,94
-Merchant and Farmer,94
-Not Known,94
-Post-Man,94
-Reeler Flax,94
-Shoeing Smith,94
-Bar Assistant,93
-Drapers Clerk,93
-Farm Worker,93
-Genl Laborer,93
-Lithographic Printer,93
-Ornamenter,93
-Retired Cook,93
-Sawer,93
-Scholers,93
-Clerk of Petty Sessions,92
-Collar Cutter,92
-Family Grocer,92
-Flowerer,92
-House and Parlour Maid,92
-Law Student,92
-Policeman,92
-Private Lady,92
-Settmaker,92
-Sub Postmaster,92
-Wife of Above,92
-Workman,92
-Assistant on Farm,91
-Cook Servant Domestic,91
-Drawer,91
-Farmer's Grand Son,91
-General Laberour,91
-Grazier,91
-Herd's Daughter,91
-Lodge Keeper,91
-Mill-Worker,91
-Seamestress,91
-Wool Knitter,91
-Bank Accountant,90
-Cigarette Maker,90
-Coachbuilder,90
-Domestic Servant-Cook,90
-Drayman,90
-General Farm Labourer,90
-Glazier,90
-Kitchenmaid,90
-R C Clergyman,90
-Railway Inspector,90
-Apprentice Baker,89
-Cannot Read,89
-Carpenters Apprentice,89
-Farmers Son in Law,89
-General Servant Domest,89
-Hotel Proprietress,89
-Machinst,89
-Master Baker,89
-Mid Wife,89
-Scholar Farmers Daughter,89
-Shopman Draper,89
-Sorting Clerk and Telegraphist,89
-Tea Traveller,89
-Wine and Spirit Merchant,89
-Bottler,88
-Builder Labourer,88
-Domestic Labourer,88
-General-Labourer,88
-Home Duties,88
-Lodging Housekeeper,88
-Natl. School Teacher,88
-"Nurse, Domestic Servant",88
-Ornamentor,88
-Pecheur,88
-Presbyterian Clergyman,88
-Sea Captain,88
-Spinner in Spinning Mill,88
-Storeman,88
-Weaver in Factory,88
-Box Folder,87
-Carpenter-Master,87
-Carpenters Wife,87
-Hosier,87
-Lady's Maid,87
-Linnen Winder,87
-Navy Pensioner,87
-Retired Dressmaker,87
-Students,87
-Dealer in Fruit,86
-Domestick Servant,86
-Farm Labouer,86
-Farm Steward,86
-General Grocer,86
-Keeps House,86
-Labouror,86
-Mother's Help,86
-Nurse - Domestic Servant,86
-Retired,86
-Schalar,86
-Shepherd's Daughter,86
-Solicitors Apprentice,86
-Widow of Labourer,86
-Worker in Thread Factory,86
-Apprentice Engineer,85
-Apprentice Joiner,85
-Beetler,85
-Dresmaker,85
-Farmers Son Scholar,85
-Labourer in Distillery,85
-Parlourmaid,85
-Pipe Maker,85
-Professional Nurse,85
-S,85
-Shopman Grocer,85
-Spinning Master,85
-Caulker,84
-Cloth Finisher,84
-Farmersson,84
-Leather Cutter,84
-Maid,84
-National S Teacher,84
-Quay Porter,84
-Scholar Farmers Son,84
-Seamsteress,84
-Sisters of Mercy,84
-Slator,84
-Sub Postmistress,84
-Farmer and House Keeper,83
-Gen Servant,83
-Genl Domestic Servant,83
-Hosiery Knitter,83
-Lock Keeper,83
-No Proffession,83
-Pedler,83
-Stevedore,83
-Yardman,83
-Dairyman's Son,82
-General Servant Unemployed,82
-Land Lady,82
-Land Stewart,82
-Linen Mill Worker,82
-Railway Official,82
-Sculptor,82
-Shepherds Wife,82
-Cycle Agent,81
-Grocers Clerk,81
-Lamp Lighter,81
-Pawnbrokers Assistant,81
-Schlor,81
-Wood Carver,81
-Chemist Assistant,80
-Dairy Labourer,80
-Gas Stoker,80
-Grocer and C,80
-Grocer and Spirit Dealer,80
-Hatter,80
-House Maid Domestic Servt,80
-Labourers Widow,80
-Sextoness,80
-Shop Asst,80
-Solicitor's General Clerk,80
-Turner,80
-Assisting on Farm,79
-Attending at School,79
-Clerk of Works,79
-Coal Carrier,79
-Crochet Worker,79
-F. Daughter,79
-Linen Yarn Dresser,79
-Maltster,79
-Marine Dealer,79
-Nurse Tender,79
-Retired Weaver,79
-Store Man,79
-Veiner in Factory,79
-Carpenters Daughter,78
-Carter Labourer,78
-Cartpenter,78
-D. Servant,78
-Dealer in Fish,78
-Draper and Grocer,78
-Farm Help,78
-Farmer (Retired),78
-Farmers Assistant,78
-Flax Weaver,78
-Genl. Servant,78
-Grocer Apprentice,78
-H. Keeper,78
-Hall Porter,78
-Labourer in Flour Mill,78
-National S. Teacher,78
-Paper Cutter,78
-Plumber and Gas Fitter,78
-Retired Shopkeeper,78
-Boot Machinist,77
-Carpenter's Apprentice,77
-Flax Sorter,77
-Hackle Maker,77
-Hem Sticher,77
-Mason's Labourer,77
-Master of Workhouse,77
-Needle Woman,77
-News Vendor,77
-Retired School Teacher,77
-Scollor,77
-Stationery,77
-A B,76
-Block Printer,76
-Carpentar,76
-Carpenter House,76
-Engin Driver,76
-Farmer and Merchant,76
-Fish Monger,76
-General Worker,76
-Instruction at Home,76
-Labourer Iron Works,76
-Linen Folder,76
-Roman Catholic Priest,76
-Schollor,76
-Sea Man,76
-Seed Merchant,76
-Stone-Cutter,76
-Surface Man,76
-Thread Worker,76
-Winder Yarn,76
-Domestic Farm Servant,75
-Domestic-Servant,75
-Dray Man,75
-Farmer's Grand Daughter,75
-General Servant Domestic Unemployed,75
-Gentle Woman,75
-Labourer Coal,75
-Living Private,75
-No business,75
-Parish Clerk,75
-Parlour Maid-Domestic Servant,75
-Rover,75
-Upholsteress,75
-Vandriver,75
-Warehouse Man,75
-Weft Winder,75
-Wire Worker,75
-Clerk of Union,74
-Decorator,74
-Evangelist,74
-Farm Labourer's Wife,74
-General Labrour,74
-Herds Man,74
-Huckster,74
-Jute Spinner,74
-Leather Merchant,74
-Publicans Daughter,74
-Purveyor,74
-Sail Maker,74
-Samstress,74
-School-Girl,74
-Servant Man,74
-Agriculture Labour,73
-At Scholar,73
-Cook (Domestic Servant),73
-Dairy Boy,73
-Despatch Clerk,73
-Domestic Servant Parlour Maid,73
-F,73
-F. Son,73
-Groom Domestic Servt,73
-Income from Houses,73
-Linen Warehouseman,73
-Master Painter,73
-Ordnance Survey,73
-Publican's Daughter,73
-Scholar Son,73
-Spinner in Linen Mill,73
+Soldier's Wife,99,Soldier's Wife
+Plumber and Gasfitter,99,Plumber and Gasfitter
+Pork Cutter,99,Pork Cutter
+Winder in Linen Factory,99,Winder in Linen Factory
+Home Work,99,Home Work
+Bank Cashier,99,Bank Cashier
+Farm Labourers,99,Farm Labourers
+Iron Dresser,98,Iron Dresser
+Wife of Labourer,98,Wife of Labourer
+Ag. Labourer,98,Agricultural Labourer
+Genl. Servant Domestic,98,Genl. Servant Domestic
+Hackler,98,Hackler
+Cutter,98,Cutter
+Agricultural Servant,98,Agricultural Servant
+Machine Fitter,98,Machine Fitter
+R. I. C. Pensioner,98,R. I. C. Pensioner
+Draper's Apprentice,97,Draper's Apprentice
+Constable R. I. C,97,Constable R. I. C
+Disengaged,97,Disengaged
+Footman Domestic Servant,97,Footman Domestic Servant
+Mail Car Driver,97,Mail Car Driver
+Shirt Factory,97,Shirt Factory
+Domestic Servant (Cook),97,Domestic Servant Cook
+Labourer in Mill,97,Labourer in Mill
+Landsteward,97,Landsteward
+Apprentice Painter,96,Apprentice Painter
+Waiteress,96,Waiteress
+Car-Driver,96,Car Driver
+Plaster,96,Plaster
+Clerk Railway,96,Railway Clerk
+Bag Maker,96,Bag Maker
+Married,96,Married
+Biscuit Packer,96,Biscuit Packer
+Machine Man,96,Machine Man
+Smoother in Laundry,95,Smoother in Laundry
+Millener,95,Millener
+Certified Pupil,95,Certified Pupil
+Quarryman,95,Quarryman
+Dentist,95,Dentist
+Weaver-Linen,95,Weaver Linen
+Penitent,95,Penitent
+Farmers Daug,95,Farmers Daug
+Needle Worker,95,Needle Worker
+Sower,95,Sower
+Carpenter Employed,94,Carpenter Employed
+Reeler Flax,94,Reeler Flax
+Post-Man,94,Postman
+General Servt,94,General Servt
+Merchant and Farmer,94,Merchant and Farmer
+Shoeing Smith,94,Shoeing Smith
+Not Known,94,Not Known
+Apprentice Dressmaker,94,Apprentice Dressmaker
+Genl Laborer,93,Genl Laborer
+Drapers Clerk,93,Drapers Clerk
+Scholers,93,Scholers
+Ornamenter,93,Ornamenter
+Farm Worker,93,Farm Worker
+Sawer,93,Sawer
+Lithographic Printer,93,Lithographic Printer
+Bar Assistant,93,Bar Assistant
+Retired Cook,93,Retired Cook
+Settmaker,92,Settmaker
+Clerk of Petty Sessions,92,Clerk of Petty Sessions
+Private Lady,92,Private Lady
+Sub Postmaster,92,Sub Postmaster
+Law Student,92,Law Student
+Workman,92,Workman
+House and Parlour Maid,92,House and Parlour Maid
+Flowerer,92,Flowerer
+Family Grocer,92,Family Grocer
+Collar Cutter,92,Collar Cutter
+Wife of Above,92,Wife of Above
+Policeman,92,Policeman
+Drawer,91,Drawer
+Seamestress,91,Seamstress
+Farmer's Grand Son,91,Farmer's Grand Son
+Mill-Worker,91,Mill Worker
+General Laberour,91,General Labourer
+Grazier,91,Grazier
+Herd's Daughter,91,Herd's Daughter
+Assistant on Farm,91,Assistant on Farm
+Cook Servant Domestic,91,Cook Servant Domestic
+Lodge Keeper,91,Lodge Keeper
+Wool Knitter,91,Wool Knitter
+Glazier,90,Glazier
+General Farm Labourer,90,General Farm Labourer
+R C Clergyman,90,Roman Catholic Clergyman
+Coachbuilder,90,Coachbuilder
+Kitchenmaid,90,Kitchenmaid
+Railway Inspector,90,Railway Inspector
+Cigarette Maker,90,Cigarette Maker
+Domestic Servant-Cook,90,Domestic Servant Cook
+Drayman,90,Drayman
+Bank Accountant,90,Bank Accountant
+Tea Traveller,89,Tea Traveller
+Scholar Farmers Daughter,89,Scholar Farmers Daughter
+Shopman Draper,89,Shopman Draper
+Master Baker,89,Master Baker
+General Servant Domest,89,General Servant Domest
+Machinst,89,Machinst
+Cannot Read,89,Cannot Read
+Carpenters Apprentice,89,Carpenters Apprentice
+Apprentice Baker,89,Apprentice Baker
+Farmers Son in Law,89,Farmers Son in Law
+Mid Wife,89,Mid Wife
+Sorting Clerk and Telegraphist,89,Sorting Clerk and Telegraphist
+Wine and Spirit Merchant,89,Wine and Spirit Merchant
+Hotel Proprietress,89,Hotel Proprietress
+Sea Captain,88,Sea Captain
+Builder Labourer,88,Builder Labourer
+Storeman,88,Storeman
+Pecheur,88,Pecheur
+Presbyterian Clergyman,88,Presbyterian Clergyman
+Domestic Labourer,88,Domestic Labourer
+Weaver in Factory,88,Weaver in Factory
+Lodging Housekeeper,88,Lodging Housekeeper
+Spinner in Spinning Mill,88,Spinner in Spinning Mill
+General-Labourer,88,General Labourer
+"Nurse, Domestic Servant",88,"Nurse, Domestic Servant"
+Bottler,88,Bottler
+Natl. School Teacher,88,Natl. School Teacher
+Ornamentor,88,Ornamentor
+Home Duties,88,Home Duties
+Navy Pensioner,87,Navy Pensioner
+Retired Dressmaker,87,Retired Dressmaker
+Students,87,Students
+Linnen Winder,87,Linnen Winder
+Carpenters Wife,87,Carpenter's Wife
+Lady's Maid,87,Lady's Maid
+Box Folder,87,Box Folder
+Hosier,87,Hosier
+Carpenter-Master,87,Carpenter Master
+Domestick Servant,86,Domestic Servant
+General Grocer,86,General Grocer
+Farm Steward,86,Farm Steward
+Nurse - Domestic Servant,86,Nurse Domestic Servant
+Mother's Help,86,Mother's Help
+Solicitors Apprentice,86,Solicitors Apprentice
+Dealer in Fruit,86,Dealer in Fruit
+Farm Labouer,86,Farm Labouer
+Schalar,86,Schalar
+Worker in Thread Factory,86,Worker in Thread Factory
+Retired,86,Retired
+Shepherd's Daughter,86,Shepherd's Daughter
+Labouror,86,Labouror
+Widow of Labourer,86,Widow of Labourer
+Keeps House,86,Keeps House
+Parlourmaid,85,Parlourmaid
+Farmers Son Scholar,85,Farmers Son Scholar
+Spinning Master,85,Spinning Master
+Pipe Maker,85,Pipe Maker
+Dresmaker,85,Dresmaker
+Beetler,85,Beetler
+Apprentice Engineer,85,Apprentice Engineer
+Shopman Grocer,85,Shopman Grocer
+Apprentice Joiner,85,Apprentice Joiner
+S,85,S
+Labourer in Distillery,85,Labourer in Distillery
+Professional Nurse,85,Professional Nurse
+Cloth Finisher,84,Cloth Finisher
+Seamsteress,84,Seamstress
+National S Teacher,84,National School Teacher
+Farmersson,84,Farmersson
+Sisters of Mercy,84,Sisters of Mercy
+Scholar Farmers Son,84,Scholar Farmers Son
+Slator,84,Slator
+Leather Cutter,84,Leather Cutter
+Quay Porter,84,Quay Porter
+Sub Postmistress,84,Sub Postmistress
+Caulker,84,Caulker
+Maid,84,Maid
+Stevedore,83,Stevedore
+Genl Domestic Servant,83,Genl Domestic Servant
+Gen Servant,83,Gen Servant
+Yardman,83,Yardman
+No Proffession,83,No Proffession
+Hosiery Knitter,83,Hosiery Knitter
+Pedler,83,Pedler
+Farmer and House Keeper,83,Farmer and House Keeper
+Lock Keeper,83,Lock Keeper
+Dairyman's Son,82,Dairyman's Son
+Linen Mill Worker,82,Linen Mill Worker
+Shepherds Wife,82,Shepherd's Wife
+Land Lady,82,Land Lady
+Sculptor,82,Sculptor
+Railway Official,82,Railway Official
+Land Stewart,82,Land Stewart
+General Servant Unemployed,82,General Servant Unemployed
+Lamp Lighter,81,Lamp Lighter
+Schlor,81,Schlor
+Wood Carver,81,Wood Carver
+Cycle Agent,81,Cycle Agent
+Pawnbrokers Assistant,81,Pawnbrokers Assistant
+Grocers Clerk,81,Grocers Clerk
+Dairy Labourer,80,Dairy Labourer
+Hatter,80,Hatter
+Grocer and C,80,Grocer and C
+House Maid Domestic Servt,80,House Maid Domestic Servt
+Turner,80,Turner
+Shop Asst,80,Shop Asst
+Sextoness,80,Sextoness
+Gas Stoker,80,Gas Stoker
+Solicitor's General Clerk,80,Solicitor's General Clerk
+Grocer and Spirit Dealer,80,Grocer and Spirit Dealer
+Chemist Assistant,80,Chemist Assistant
+Labourers Widow,80,Labourer's Widow
+Coal Carrier,79,Coal Carrier
+Crochet Worker,79,Crochet Worker
+Store Man,79,Store Man
+Linen Yarn Dresser,79,Linen Yarn Dresser
+F. Daughter,79,F. Daughter
+Clerk of Works,79,Clerk of Works
+Attending at School,79,Attending at School
+Retired Weaver,79,Retired Weaver
+Maltster,79,Maltster
+Marine Dealer,79,Marine Dealer
+Assisting on Farm,79,Assisting on Farm
+Veiner in Factory,79,Veiner in Factory
+Nurse Tender,79,Nurse Tender
+Hall Porter,78,Hall Porter
+Farmer (Retired),78,Farmer Retired
+Farmers Assistant,78,Farmer's Assistant
+Farm Help,78,Farm Help
+Carpenters Daughter,78,Carpenter's Daughter
+Paper Cutter,78,Paper Cutter
+Grocer Apprentice,78,Grocer Apprentice
+Draper and Grocer,78,Draper and Grocer
+Plumber and Gas Fitter,78,Plumber and Gas Fitter
+Labourer in Flour Mill,78,Labourer in Flour Mill
+Genl. Servant,78,Genl. Servant
+Cartpenter,78,Carpenter
+National S. Teacher,78,National S. Teacher
+Flax Weaver,78,Flax Weaver
+Retired Shopkeeper,78,Retired Shopkeeper
+D. Servant,78,D. Servant
+Carter Labourer,78,Carter Labourer
+Dealer in Fish,78,Dealer in Fish
+H. Keeper,78,H. Keeper
+Hackle Maker,77,Hackle Maker
+Retired School Teacher,77,Retired School Teacher
+Hem Sticher,77,Hem Sticher
+Mason's Labourer,77,Mason's Labourer
+Master of Workhouse,77,Master of Workhouse
+Stationery,77,Stationery
+Boot Machinist,77,Boot Machinist
+News Vendor,77,News Vendor
+Scollor,77,Scholar
+Carpenter's Apprentice,77,Carpenter's Apprentice
+Flax Sorter,77,Flax Sorter
+Needle Woman,77,Needle Woman
+Carpenter House,76,Carpenter House
+Instruction at Home,76,Instruction at Home
+Fish Monger,76,Fish Monger
+Carpentar,76,Carpenter
+Farmer and Merchant,76,Farmer and Merchant
+Thread Worker,76,Thread Worker
+Block Printer,76,Block Printer
+A B,76,A B
+Linen Folder,76,Linen Folder
+Winder Yarn,76,Winder Yarn
+Sea Man,76,Sea Man
+Labourer Iron Works,76,Labourer Iron Works
+Schollor,76,Schollor
+Stone-Cutter,76,Stone Cutter
+Engin Driver,76,Engin Driver
+Roman Catholic Priest,76,Roman Catholic Priest
+Seed Merchant,76,Seed Merchant
+Surface Man,76,Surface Man
+General Worker,76,General Worker
+General Servant Domestic Unemployed,75,General Servant Domestic Unemployed
+Living Private,75,Living Private
+Dray Man,75,Dray Man
+Weft Winder,75,Weft Winder
+Farmer's Grand Daughter,75,Farmer's Grand Daughter
+Wire Worker,75,Wire Worker
+Labourer Coal,75,Labourer Coal
+Domestic-Servant,75,Domestic Servant
+Domestic Farm Servant,75,Domestic Farm Servant
+No business,75,No business
+Warehouse Man,75,Warehouse Man
+Rover,75,Rover
+Parish Clerk,75,Parish Clerk
+Vandriver,75,Vandriver
+Gentle Woman,75,Gentle Woman
+Upholsteress,75,Upholsteress
+Parlour Maid-Domestic Servant,75,Parlour Maid Domestic Servant
+Herds Man,74,Herds Man
+Samstress,74,Samstress
+Leather Merchant,74,Leather Merchant
+Evangelist,74,Evangelist
+Publicans Daughter,74,Publican's Daughter
+Sail Maker,74,Sail Maker
+Decorator,74,Decorator
+Purveyor,74,Purveyor
+Huckster,74,Huckster
+School-Girl,74,School Girl
+Servant Man,74,Servant Man
+Jute Spinner,74,Jute Spinner
+General Labrour,74,General Labourer
+Clerk of Union,74,Clerk of Union
+Farm Labourer's Wife,74,Farm Labourer's Wife
+Groom Domestic Servt,73,Groom Domestic Servt
+Agriculture Labour,73,Agriculture Labour
+Scholar Son,73,Scholar Son
+Dairy Boy,73,Dairy Boy
+Linen Warehouseman,73,Linen Warehouseman
+F. Son,73,F. Son
+At Scholar,73,At Scholar
+Ordnance Survey,73,Ordnance Survey
+Domestic Servant Parlour Maid,73,Domestic Servant Parlour Maid
+Cook (Domestic Servant),73,Cook Domestic Servant
+Despatch Clerk,73,Despatch Clerk
+F,73,F
+Master Painter,73,Master Painter
 Agricultural L,72
 Bookseller,72
 Chandler,72

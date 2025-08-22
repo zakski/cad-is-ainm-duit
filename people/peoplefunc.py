@@ -2,6 +2,7 @@ import pandas as pd
 import regex as re
 
 import glob
+import os
 
 from sklearn.preprocessing import MultiLabelBinarizer
 
@@ -225,3 +226,19 @@ def processOccupation(censusYear,dicOcc, df_census):
     print(censusYear + " Census Count = " + str(df_census.shape[0]))
 
     return df_census
+
+def writeChunks(parentPath, filePrefix, censusYear, chunkSize, fieldName, df_census):
+    print(censusYear + " Census Chunking " + fieldName + " into chunks of size " +  str(chunkSize))
+    toChunk = df_census[fieldName].value_counts().reset_index().sort_values(['count',fieldName],ascending=[False,True])
+    chunks = [toChunk[i:i+chunkSize].copy() for i in range(0,toChunk.shape[0],chunkSize)]
+
+    k = 1
+    for chunk in chunks:
+        chunk.to_csv(os.path.join(parentPath, filePrefix + '_census_' + censusYear + '_' + fieldName + '_chunk_{}.csv'.format(k)), index=False)
+        k=k+1
+
+def writeFields(parentPath, filePrefix, censusYear, df_census):
+    for name, values in df_census.items():
+        fileName = '{filePrefix}_{name}_{censusYear}.csv'.format(filePrefix=filePrefix,name=name,censusYear=censusYear)
+        print('Writing {name}'.format(name=fileName))
+        df_census[name].value_counts().reset_index().sort_values(['count',name],ascending=[False,True]).to_csv(os.path.join(parentPath,fileName), index=False)
