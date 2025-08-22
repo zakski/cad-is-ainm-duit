@@ -301,7 +301,7 @@ Interest of Money,567,Interest of Money
 Iron Turner,566,Iron Turner
 Farm Servant Domestic,562,Farm Servant Domestic
 Herdsman,560,Herdsman
-Brick Layer,559,Brick Layer
+Brick Layer,559,Bricklayer
 Monitress,557,Monitress
 Factory Girl,557,Factory Girl
 Smith,555,Smith
@@ -321,14 +321,14 @@ Linen Spinner,534,Linen Spinner
 Lace Worker,528,Lace Worker
 Railway Guard,526,Railway Guard
 Butler,525,Butler
-Fisher Man,524,Fisher Man
+Fisher Man,524,Fisherman
 F Daughter,524,F Daughter
 Parlour Maid Domestic Servant,524,Parlour Maid Domestic Servant
 Nothing,523,Nothing
 Grocer Assistant,522,Grocer Assistant
 Dress-Maker,521,Dressmaker
 Scholar's,519,Scholar's
-Labourers Son,518,Labourers Son
+Labourers Son,518,Labourer's Son
 Seamster,518,Seamster
 Clergyman,517,Clergyman
 Grocers Porter,516,Grocers Porter
@@ -337,7 +337,7 @@ Boot and Shoemaker,514,Boot and Shoemaker
 Annuity,511,Annuity
 Farm Laborer,508,Farm Labourer
 Traveller,504,Traveller
-G Labourer,502,G Labourer
+G Labourer,502,General Labourer
 Farmer and Publican,502,Farmer and Publican
 House Holder,500,House Holder
 Annuitant,496,Annuitant
@@ -345,39 +345,39 @@ Shop Girl,493,Shop Girl
 General House Work,490,General House Work
 Tinsmith,487,Tinsmith
 Householder,484,Householder
-Agricl Labourer,482,Agricl Labourer
+Agricl Labourer,482,Agricultural Labourer
 Mechanic,480,Mechanic
 Gentleman,475,Gentleman
-Genl Servant Domestic,473,General Servant Domestic
+Genl Servant Domestic,473,General Domestic Servant
 Dairy Man,473,Dairy Man
 Hairdresser,467,Hairdresser
 Post Boy,466,Post Boy
 Private,466,Private
 Assistant Housekeeper,463,Assistant Housekeeper
 Barman,460,Barman
-Hous Keeper,457,Hous Keeper
+Hous Keeper,457,Housekeeper
 Steward,452,Steward
 Parish Priest,452,Parish Priest
-Bar Maid,450,Bar Maid
+Bar Maid,450,Barmaid
 Pork Butcher,449,Pork Butcher
 Printer Compositor,445,Printer Compositor
 Watchmaker,444,Watchmaker
 Asylum Attendant,438,Asylum Attendant
 Law Clerk,436,Law Clerk
-House Keeper Domestic,435,Housekeeper Domestic
+House Keeper Domestic,435,House Keeper Domestic
 Machine Boy,434,Machine Boy
 No Trade,434,No Trade
 Green Grocer,433,Green Grocer
-General Servant - Domestic,432,General Servant Domestic
-Labourer Genl,432,Labourer General
-Scholer,430,Scholar
+General Servant - Domestic,432,General Domestic Servant
+Labourer Genl,432,Labourer Genl
+Scholer,430,Scholer
 Horse Trainer,430,Horse Trainer
 General Dealer,430,General Dealer
-Assistant House Keeper,429,Assistant Housekeeper
-Farmers Mother,428,Farmers Mother
+Assistant House Keeper,429,Assistant House Keeper
+Farmers Mother,428,Farmer's Mother
 Farmer and Fisherman,427,Farmer and Fisherman
 Cottier,427,Cottier
-Labourer (General),426,Labourer General
+Labourer (General),426,General Labourer
 Bricklayers Labourer,426,Bricklayers Labourer
 Yarn Reeler,424,Yarn Reeler
 Parlour Maid,424,Parlour Maid
@@ -385,7 +385,7 @@ Barber,421,Barber
 House keeper,421,Housekeeper
 Tram Conductor,420,Tram Conductor
 Sister of Charity,416,Sister of Charity
-Schollars,415,Schollars
+Schollars,415,Scholar
 Hotel Keeper,415,Hotel Keeper
 Labourer's Daughter,411,Labourer's Daughter
 Agril Labourer,410,Agril Labourer
@@ -393,9 +393,9 @@ Pensioner,403,Pensioner
 Upholsterer,403,Upholsterer
 Naval Pensioner,402,Naval Pensioner
 Lodger,399,Lodger
-HouseKeeper,399,HouseKeeper
+HouseKeeper,399,Housekeeper
 Railway Signalman,397,Railway Signalman
-Agricultural Labr,393,Agricultural Labr
+Agricultural Labr,393,Agricultural Labourer
 Photographer,392,Photographer
 Sprigger,392,Sprigger
 Gamekeeper,392,Gamekeeper
@@ -404,15 +404,15 @@ Schooler,391,Schooler
 Provision Merchant,391,Provision Merchant
 Farmer Brother,390,Farmer Brother
 Schoolboy,390,Schoolboy
-Agriculture Labourer,389,Agriculture Labourer
+Agriculture Labourer,389,Agricultural Labourer
 Provision Dealer,388,Provision Dealer
-Agl. Labourer,388,Agl. Labourer
+Agl. Labourer,388,Agricultural Labourer
 Farmer and Carpenter,388,Farmer and Carpenter
 Horse Dealer,386,Horse Dealer
 Servant General,385,Servant General
 Flesher,385,Flesher
 Railway Engine Driver,384,Railway Engine Driver
-"General Servant, Domestic",384,"General Servant, Domestic"
+"General Servant, Domestic",384,General Domestic Servant
 Spinner in Mill,381,Spinner in Mill
 F Son,380,F Son
 Creamery Manager,380,Creamery Manager
@@ -428,7 +428,7 @@ Mariner,373,Mariner
 Baby,373,Baby
 Draper Assistant,373,Draper Assistant
 Book Binder,372,Book Binder
-Care Taker,371,Care Taker
+Care Taker,371,Caretaker
 Ploughman,370,Ploughman
 Fancy Box Maker,369,Fancy Box Maker
 Farmer's,368,Farmer's
@@ -453,7 +453,7 @@ Flax Scutcher,349,Flax Scutcher
 Master Mariner,348,Master Mariner
 Knitting,348,Knitting
 Housework,348,Housework
-N.S. Teacher,346,N.S. Teacher
+N.S. Teacher,346,National School Teacher
 Labourer's Son,344,Labourer's Son
 Taylor,344,Taylor
 Vest Maker,342,Vest Maker
@@ -461,9 +461,9 @@ Postmistress,341,Postmistress
 Landress,341,Landress
 Yarn Spinner,339,Yarn Spinner
 Cattle Drover,339,Cattle Drover
-Agrl. Labourer,336,Agrl. Labourer
+Agrl. Labourer,336,Agricultural Labourer
 Working on Farm,336,Working on Farm
-Labourer Agrl,336,Labourer Agricultural
+Labourer Agrl,336,Labourer Agrl
 Not Employed,335,Not Employed
 Bread Server,334,Bread Server
 Farmer and Grocer,333,Farmer and Grocer
@@ -471,21 +471,21 @@ Waitress,333,Waitress
 Farm Assistant,333,Farm Assistant
 Labour General,332,Labour General
 Inmate,332,Inmate
-Boarding House Keeper,331,Boarding Housekeeper
-Cook Domestic Servt,330,Cook Domestic Servant
-Farmers Widow,327,Farmers Widow
+Boarding House Keeper,331,Boarding House Keeper
+Cook Domestic Servt,330,Cook Domestic Servt
+Farmers Widow,327,Farmer's Widow
 House Property,327,House Property
 Wash Woman,324,Wash Woman
 Constable R.I.C,324,Constable R.I.C
 Carpenter Master,323,Carpenter Master
 Quarry Labourer,323,Quarry Labourer
-General Servant Dom,320,General Servant Domestic
-Farmer and Shop Keeper,320,Farmer and Shopkeeper
+General Servant Dom,320,General Servant Dom
+Farmer and Shop Keeper,320,Farmer and Shop Keeper
 Carpenter and Farmer,320,Carpenter and Farmer
 Schoolars,320,Schoolars
 Vintner,319,Vintner
 Shop-Keeper,319,Shopkeeper
-House Keeper Domestic Servant,319,Housekeeper Domestic Servant
+House Keeper Domestic Servant,319,House Keeper Domestic Servant
 Shirt Factory Worker,318,Shirt Factory Worker
 Vanman,318,Vanman
 Religions,316,Religions
@@ -498,17 +498,17 @@ Bank Manager,311,Bank Manager
 Laundry Maid,310,Laundry Maid
 Saleswoman,309,Saleswoman
 Hawker,308,Hawker
-Station Master,308,Station Master
-Servant (Domestic),307,Servant Domestic
+Station Master,308,Stationmaster
+Servant (Domestic),307,Domestic Servant
 Hem Stitcher,306,Hem Stitcher
 Doffer,306,Doffer
-Gardener Domestic Servant,306,Gardener Domestic Servant
+Gardener Domestic Servant,306,Gardner Domestic Servant
 Gardiner,306,Gardiner
 Police Pensioner,304,Police Pensioner
 Gentlewoman,302,Gentlewoman
-Labourers,296,Labourers
+Labourers,296,Labourer
 Labourer Quay,296,Labourer Quay
-Labourer (Farm),296,Labourer Farm
+Labourer (Farm),296,Farm Labourer
 Labourer Agl,295,Labourer Agl
 Small Farmer,295,Small Farmer
 Nun,294,Nun
@@ -520,7 +520,7 @@ Carpenter Unemployed,292,Carpenter Unemployed
 Shopman,291,Shopman
 Winder in Factory,291,Winder in Factory
 Weaver (Linen),290,Weaver Linen
-Ag Labourer,290,Ag Labourer
+Ag Labourer,290,Agricultural Labourer
 Retired Servant,289,Retired Servant
 Ironmonger,288,Ironmonger
 Beggar,288,Beggar
@@ -534,7 +534,7 @@ Box Maker,282,Box Maker
 Room Keeper,281,Room Keeper
 Pig Dealer,281,Pig Dealer
 Mill Labourer,280,Mill Labourer
-Labourer-General,279,Labourer General
+Labourer-General,279,General Labourer
 Publican and Grocer,279,Publican and Grocer
 Coal Merchant,278,Coal Merchant
 Merchant Tailor,278,Merchant Tailor
@@ -544,13 +544,13 @@ Brass Finisher,274,Brass Finisher
 Shoe-Maker,273,Shoemaker
 Farmer's Mother,273,Farmer's Mother
 Housemaid Domestic,273,Housemaid Domestic
-Agr. Labourer,272,Agr. Labourer
+Agr. Labourer,272,Agricultural Labourer
 Linen Merchant,271,Linen Merchant
 Employed at Home,271,Employed at Home
 Butler Domestic Servant,270,Butler Domestic Servant
-Labourer Gen,270,Labourer General
+Labourer Gen,270,Labourer Gen
 Draperess,269,Draperess
-A Labourer,269,A Labourer
+A Labourer,269,Agricultural Labourer
 Farrier,268,Farrier
 Grocers Apprentice,268,Grocers Apprentice
 Hemsticher,268,Hemsticher
@@ -562,11 +562,11 @@ Flax Reeler,264,Flax Reeler
 Moulder,264,Moulder
 Household Duties,264,Household Duties
 Not Attending School,263,Not Attending School
-D Servant,262,D Servant
+D Servant,262,Domestic Servant
 Letter Carrier,260,Letter Carrier
 House - Keeper,260,Housekeeper
 Pensioner R.I.C,260,Pensioner R.I.C
-Farmers Nephew,260,Farmers Nephew
+Farmers Nephew,260,Farmer's Nephew
 Poulterer,259,Poulterer
 Warehouseman,259,Warehouseman
 Farmers son,258,Farmers son
@@ -581,7 +581,7 @@ Assistant Farmer,257,Assistant Farmer
 Assistant in Shop,256,Assistant in Shop
 Apprentice Carpenter,255,Apprentice Carpenter
 Farmer Retired,254,Farmer Retired
-Agricul Labourer,254,Agricul Labourer
+Agricul Labourer,254,Agricultural Labourer
 Widow,253,Widow
 Office Boy,252,Office Boy
 Car Man,252,Car Man
@@ -592,7 +592,7 @@ Wood Turner,251,Wood Turner
 R.I.C. Pensioner,251,R.I.C. Pensioner
 Jeweller,251,Jeweller
 Master Tailor,250,Master Tailor
-Shop Keeper and Farmer,249,Shopkeeper and Farmer
+Shop Keeper and Farmer,249,Shop Keeper and Farmer
 Reeler in Mill,249,Reeler in Mill
 R.I.C Pensioner,248,R.I.C Pensioner
 General-Domestic Servant,248,General Domestic Servant
