@@ -1,23 +1,3 @@
-Do Batch Processing of the attached csv file to correct and standardise the spelling and grammar in the occupation column.
-
-The context of the data is occupations listed in the 1901 Irish Census, by descending frequency.
-
-The file will have a header and 2 columns. Keep the original columns in place, and the ordering of the file intact. Do not sort the file.
-
-This is how I want you to process the occupation column.
-
-First remove any brackets, handle '-' as whitespace, then condense duplicate whitespace.
-
-Next fix the spelling and grammar according to British English, make sure apostrophes are added where appropriate, standardise the word ordering, and expand abbreviations. Where words can be combined, e.g. House Keeper to Housekeeper, please do so.
-
-Store the results of your corrections in a 3rd column called "corrected_occupation".
-
-Please return the resulting csv file to me in batches of exactly 300 lines.
-
-I have attached a script you already created to do this.
-
-Please start from batch 7. do the batches one at a time. review batch 7 for word ordering and spelling.
-
 // Reprocess batch 7 with more comprehensive corrections
 import Papa from 'papaparse';
 const fileContent = await window.fs.readFile('ire_occupation_1901.csv', { encoding: 'utf8' });
@@ -33,22 +13,22 @@ function correctOccupation(occupation) {
 if (!occupation) return '';
 
     let corrected = occupation.trim();
-    
+
     // ENHANCED PREPROCESSING
     // 1. Remove brackets first
     corrected = corrected.replace(/[\[\]()]/g, '');
-    
+
     // 2. Handle hyphens as whitespace
     corrected = corrected.replace(/-/g, ' ');
-    
+
     // 3. Condense duplicate whitespace
     corrected = corrected.replace(/\s+/g, ' ').trim();
-    
+
     // COMPREHENSIVE CORRECTIONS including missing ones from batch 7
     const corrections = {
         // Apostrophe corrections
         "Farmers Son": "Farmer's Son",
-        "Farmers Daughter": "Farmer's Daughter", 
+        "Farmers Daughter": "Farmer's Daughter",
         "Farmers Wife": "Farmer's Wife",
         "Farmer Son": "Farmer's Son",
         "Farmer Daughter": "Farmer's Daughter",
@@ -99,7 +79,7 @@ if (!occupation) return '';
         "Dairymans Daughter": "Dairyman's Daughter",
         "Mill Owners Wife": "Mill Owner's Wife",
         "Fishermans Daughter": "Fisherman's Daughter",
-        
+
         // Combine compound words
         "House Keeper": "Housekeeper",
         "Book Keeper": "Bookkeeper",
@@ -139,7 +119,7 @@ if (!occupation) return '';
         "Brick Layer": "Bricklayer",
         "Coach Man": "Coachman",
         "Fisher Man": "Fisherman",
-        
+
         // Educational titles
         "School Teacher": "Schoolteacher",
         "National School Teacher": "National Schoolteacher",
@@ -148,7 +128,7 @@ if (!occupation) return '';
         "School Master": "Schoolmaster",
         "School Mistress": "Schoolmistress",
         "Hedge School Master": "Hedge Schoolmaster",
-        
+
         // Standardize servant types
         "General Servant Domestic": "General Domestic Servant",
         "Domestic General Servant": "General Domestic Servant",
@@ -169,13 +149,13 @@ if (!occupation) return '';
         "Domestick Servant": "Domestic Servant",
         "Domestic servant": "Domestic Servant",
         "Domest Servant": "Domestic Servant",
-        
+
         // American to British spelling corrections
         "Agricultural Laborer": "Agricultural Labourer",
         "Farm Laborer": "Farm Labourer",
         "General Laborer": "General Labourer",
         "Laborer": "Labourer",
-        
+
         // Order corrections for compound occupations
         "Labourer General": "General Labourer",
         "Labourer Agricultural": "Agricultural Labourer",
@@ -190,7 +170,7 @@ if (!occupation) return '';
         "Labourer Road": "Road Labourer",
         "Labourer Railway": "Railway Labourer",
         "Labourer Farm": "Farm Labourer",
-        
+
         // Common spelling corrections
         "Sempstress": "Seamstress",
         "Seamstres": "Seamstress",
@@ -201,7 +181,7 @@ if (!occupation) return '';
         "Seamistress": "Seamstress",
         "Semstress": "Seamstress",
         "Seanstress": "Seamstress", // MISSING
-        
+
         // Scholar variants - COMPREHENSIVE
         "Scholars": "Scholar",
         "Schollar": "Scholar",
@@ -228,7 +208,7 @@ if (!occupation) return '';
         "Schalor": "Scholar", // MISSING
         "Scholl": "Scholar", // MISSING
         "Shool": "Scholar", // MISSING
-        
+
         // Labourer variants
         "Labourers": "Labourer",
         "Laborour": "Labourer",
@@ -241,7 +221,7 @@ if (!occupation) return '';
         "Labiour": "Labourer",
         "Labouring": "Labourer",
         "Labrourer": "Labourer", // MISSING
-        
+
         // Comprehensive abbreviations
         "Agl Labourer": "Agricultural Labourer",
         "Agrl Labourer": "Agricultural Labourer",
@@ -271,7 +251,7 @@ if (!occupation) return '';
         "Agricul Labourer": "Agricultural Labourer",
         "Agricultl Labourer": "Agricultural Labourer",
         "Agricultur Labourer": "Agricultural Labourer", // MISSING
-        
+
         "Genl Labourer": "General Labourer",
         "Gen Labourer": "General Labourer",
         "G Labourer": "General Labourer",
@@ -281,7 +261,7 @@ if (!occupation) return '';
         "General Laborour": "General Labourer",
         "Genral Labourer": "General Labourer",
         "Genrl Labourer": "General Labourer", // MISSING
-        
+
         "N S Teacher": "National School Teacher",
         "N.S. Teacher": "National School Teacher",
         "NS Teacher": "National School Teacher",
@@ -291,7 +271,7 @@ if (!occupation) return '';
         "Nat School Teacher": "National School Teacher",
         "Natl School Teacher": "National School Teacher",
         "N School Teacher": "National School Teacher",
-        
+
         // Religious
         "R C Priest": "Roman Catholic Priest",
         "R.C. Priest": "Roman Catholic Priest",
@@ -299,7 +279,7 @@ if (!occupation) return '';
         "R C Clergyman": "Roman Catholic Clergyman",
         "R.C. Clergyman": "Roman Catholic Clergyman",
         "RC Clergyman": "Roman Catholic Clergyman",
-        
+
         // Other corrections
         "Coalminer": "Coal Miner",
         "Millworker": "Mill Worker",
@@ -310,7 +290,7 @@ if (!occupation) return '';
         "Housekeper": "Housekeeper",
         "Houskeeper": "Housekeeper",
         "Huse Keeper": "Housekeeper", // MISSING
-        
+
         // Carpenter variants
         "Carpinter": "Carpenter",
         "Carpanter": "Carpenter",
@@ -318,15 +298,15 @@ if (!occupation) return '';
         "Cartpenter": "Carpenter",
         "Corpenter": "Carpenter",
         "Carpender": "Carpenter",
-        
+
         // MISSING corrections from batch 7 analysis
         "Laborer General": "General Labourer",
         "General Servent": "General Servant",
         "Genl Servant Domestic": "General Domestic Servant",
-        
+
         // Specific batch 7 corrections that were missed
         "Cleark": "Clerk",
-        "Clarke": "Clerk", 
+        "Clarke": "Clerk",
         "Clerke": "Clerk",
         "Clerkess": "Clerk",
         "Plumer": "Plumber",
@@ -348,12 +328,12 @@ if (!occupation) return '';
         "Farm Serveant": "Farm Servant",
         "Farme Servant": "Farm Servant"
     };
-    
+
     // Apply direct corrections
     if (corrections[corrected]) {
         corrected = corrections[corrected];
     }
-    
+
     return corrected;
 }
 
