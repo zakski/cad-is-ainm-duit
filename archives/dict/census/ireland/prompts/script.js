@@ -103,6 +103,7 @@ if (!occupation) return '';
         "Care Taker": "Caretaker",
         "Clock Maker": "Clockmaker",
         "Cabinet Maker": "Cabinetmaker",
+        "Cabnet Maker": "Cabinetmaker",
         "Shoe Maker": "Shoemaker",
         "Dress Maker": "Dressmaker",
         "Black Smith": "Blacksmith",
@@ -126,7 +127,8 @@ if (!occupation) return '';
         "Post Mistress": "Postmistress",
         "Brick Layer": "Bricklayer",
         "Fisher Man": "Fisherman",
-        "Post Man": "Postman", 
+        "Iron Monger": "Ironmonger",
+        "Post Man": "Postman",
         "House Maid": "Housemaid",
         "Silver Smith": "Silversmith",
         "Coach Man": "Coachman",
@@ -185,6 +187,7 @@ if (!occupation) return '';
         "Labourer Road": "Road Labourer",
         "Labourer Railway": "Railway Labourer",
         "Labourer Farm": "Farm Labourer",
+        "Laborer General": "General Labourer",
 
         // Common spelling corrections
         "Sempstress": "Seamstress",
@@ -195,6 +198,21 @@ if (!occupation) return '';
         "Seamsterss": "Seamstress",
         "Seamistress": "Seamstress",
         "Semstress": "Seamstress",
+        "Seanstress": "Seamstress",
+        "Cleark": "Clerk",
+        "Clarke": "Clerk",
+        "Clerke": "Clerk",
+        "Clerkess": "Clerk",
+        "Plumer": "Plumber",
+        "Shomaker": "Shoemaker",
+        "Miliner": "Milliner",
+        "Millner": "Milliner",
+        "Laundres": "Laundress",
+        "Aprentice": "Apprentice",
+        "Serveant": "Servant",
+        "At Chool": "At School",
+        "Farm Serveant": "Farm Servant",
+        "Farme Servant": "Farm Servant",
 
         // Scholar variants
         "Scholars": "Scholar",
@@ -222,7 +240,7 @@ if (!occupation) return '';
         "Schalor": "Scholar", // MISSING
         "Scholl": "Scholar", // MISSING
         "Shool": "Scholar", // MISSING
-
+        
         // Labourer variants
         "Labourers": "Labourer",
         "Laborour": "Labourer",
@@ -234,6 +252,7 @@ if (!occupation) return '';
         "Labours": "Labourer",
         "Labiour": "Labourer",
         "Labouring": "Labourer",
+        "Labrourer": "Labourer",
 
         // Comprehensive abbreviations
         "Agl Labourer": "Agricultural Labourer",
@@ -313,34 +332,19 @@ if (!occupation) return '';
         "Carpender": "Carpenter",
 
         // All other established corrections
-        "Cleark": "Clerk",
-        "Clarke": "Clerk",
-        "Clerke": "Clerk",
-        "Clerkess": "Clerk",
-        "Plumer": "Plumber",
-        "Shomaker": "Shoemaker",
-        "Miliner": "Milliner",
-        "Millner": "Milliner",
-        "Laundres": "Laundress",
-        "Aprentice": "Apprentice",
-        "Serveant": "Servant",
         "Famers Son": "Farmer's Son",
         "Farmers' Son": "Farmer's Son", // Fix incorrect apostrophe
-        "At Chool": "At School",
         "Market Gardner": "Market Gardener",
         "Gardner Domestic": "Gardener Domestic",
-        "Cabnet Maker": "Cabinet Maker",
-        "Iron Monger": "Ironmonger",
-        "Farm Serveant": "Farm Servant",
-        "Farme Servant": "Farm Servant",
         "Plummer": "Plumber",
         "Salior": "Sailor",
         "Schloar": "Scholar",
         "At Shool": "At School",
         "Laburer": "Labourer",
         "Gen Laborer": "Gen Labourer",
-        "Laborer General": "General Labourer",
-        "General Servent": "General Servant"
+        "General Servent": "General Servant",
+        "Machinest": "Machinist",
+        "Machineist": "Machinist"
     };
 
     // Apply direct corrections
