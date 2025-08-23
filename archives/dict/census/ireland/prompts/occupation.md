@@ -18,7 +18,7 @@ I have attached a script you already created to do this.
 
 Please start from batch 7. do the batches one at a time. review batch 7 for word ordering and spelling.
 
-// Complete comprehensive correction for batch 9
+// Complete comprehensive correction for batch 10
 import Papa from 'papaparse';
 const fileContent = await window.fs.readFile('ire_occupation_1901.csv', { encoding: 'utf8' });
 
@@ -28,7 +28,7 @@ skipEmptyLines: true,
 delimitersToGuess: [',', '\t', '|', ';']
 });
 
-const batch9Data = parsedData.data.slice(2400, 2700);
+const batch10Data = parsedData.data.slice(2700, 3000);
 
 function correctOccupationComprehensive(occupation) {
 if (!occupation) return '';
@@ -39,62 +39,59 @@ if (!occupation) return '';
     corrected = corrected.replace(/\s+/g, ' ').trim();
 
     const corrections = {
-        // Stage 1 corrections
-        "Clock Maker": "Clockmaker", "Publicans Wife": "Publican's Wife", "Caretakers Wife": "Caretaker's Wife",
-        "Shopkeepers Son": "Shopkeeper's Son", "Policemans Wife": "Policeman's Wife", 
-        "Shop Keepers Wife": "Shopkeeper's Wife", "Land Agents Assistant": "Land Agent's Assistant",
-        "Schol": "Scholar", "Hous Wife": "House Wife", "Farms Servant": "Farm Servant",
-        
-        // Stage 2 comprehensive additions
-        "Buttler": "Butler", "Quay Labour": "Quay Labourer", "Shool Boy": "School Boy",
-        "Frame Maker": "Framemaker", "Farm Laborour": "Farm Labourer", "Corpenter": "Carpenter",
-        "Genl Labour": "Genl Labourer", "Grocers Manager": "Grocer's Manager", "Laburer": "Labourer",
-        "Blacksmiths Helper": "Blacksmith's Helper", "Gen Laborer": "Gen Labourer",
-        "Railway Labour": "Railway Labourer", "Schloar": "Scholar", "Scoolar": "Scholar", 
-        "Domestic Serveant": "Domestic Servant", "Scholoar": "Scholar", "Agricultural Labrour": "Agricultural Labourer",
-        "Shoolar": "Scholar", "Scool Boy": "School Boy",
+        // All comprehensive corrections from previous batches
+        "Farmers Mother in Law": "Farmer's Mother in Law", "Fishermans Wife": "Fisherman's Wife",
+        "Labouer General": "General Labourer", "General Laburer": "General Labourer", 
+        "Accountants Clerk": "Accountant's Clerk", "Blacksmiths Apprentice": "Blacksmith's Apprentice",
+        "Agricultural Labourers Daughter": "Agricultural Labourer's Daughter", "Printers Labourer": "Printer's Labourer",
+        "Chemists Apprentice": "Chemist's Apprentice", "Brewers Clerk": "Brewer's Clerk", "Shoemakers Wife": "Shoemaker's Wife",
 
-        // All other comprehensive corrections
-        "Farmers Son": "Farmer's Son", "Farmers Daughter": "Farmer's Daughter", "Farmers Wife": "Farmer's Wife",
-        "Labourers Wife": "Labourer's Wife", "Labourers Daughter": "Labourer's Daughter", "Labourers Son": "Labourer's Son",
-        "Tailors Daughter": "Tailor's Daughter", "Tailors Wife": "Tailor's Wife", "Policemans Son": "Policeman's Son",
-        "Shop Keepers Daughter": "Shopkeeper's Daughter", "Fishermans Daughter": "Fisherman's Daughter",
-        "Childrens Nurse": "Children's Nurse", "Childrens Maid": "Children's Maid", "Sailors Wife": "Sailor's Wife",
+        // Compound words
         "House Keeper": "Housekeeper", "Shop Keeper": "Shopkeeper", "Watch Maker": "Watchmaker",
         "Shoe Maker": "Shoemaker", "Dress Maker": "Dressmaker", "Black Smith": "Blacksmith", 
-        "Post Man": "Postman", "House Maid": "Housemaid", "Paper Maker": "Papermaker",
-        "General Servant Domestic": "General Domestic Servant", "Gen Servant Domestic": "General Domestic Servant",
-        "Servant Domestic": "Domestic Servant", "Labourer General": "General Labourer", 
-        "Labourer Agricultural": "Agricultural Labourer", "Cleark": "Clerk", "Plummer": "Plumber",
-        "Salior": "Sailor", "Machanist": "Machinist", "Serveant": "Servant", 
-        "At Shool": "At School", "Labours": "Labourer", "Labiour": "Labourer"
+        "Post Man": "Postman", "House Maid": "Housemaid", "Silver Smith": "Silversmith", 
+        "Coach Man": "Coachman", "Wheel Wright": "Wheelwright", "Watch Man": "Watchman", 
+        "House Work": "Housework", "Book Keeper": "Bookkeeper",
+
+        // All other established corrections
+        "Farmers Son": "Farmer's Son", "Farmers Daughter": "Farmer's Daughter", "Farmers Wife": "Farmer's Wife",
+        "Labourers Wife": "Labourer's Wife", "Tailors Wife": "Tailor's Wife", "Policemans Son": "Policeman's Son",
+        "Policemans Wife": "Policeman's Wife", "Shop Keepers Wife": "Shopkeeper's Wife", 
+        "Shopkeepers Daughter": "Shopkeeper's Daughter", "Caretakers Wife": "Caretaker's Wife",
+        "Publicans Wife": "Publican's Wife", "Blacksmiths Helper": "Blacksmith's Helper",
+        "Childrens Nurse": "Children's Nurse", "Sailors Wife": "Sailor's Wife",
+        "General Servant Domestic": "General Domestic Servant", "Servant Domestic": "Domestic Servant",
+        "Labourer General": "General Labourer", "Labourer Agricultural": "Agricultural Labourer",
+        "Cleark": "Clerk", "Plummer": "Plumber", "Salior": "Sailor", "Serveant": "Servant",
+        "Schol": "Scholar", "Schloar": "Scholar", "At Shool": "At School", 
+        "Labours": "Labourer", "Laburer": "Labourer", "Gen Laborer": "Gen Labourer"
     };
 
     return corrections[corrected] || corrected;
 }
 
-const correctedBatch9Final = batch9Data.map(row => ({
+const correctedBatch10Final = batch10Data.map(row => ({
 occupation: row.occupation,
 count: row.count,
 corrected_occupation: correctOccupationComprehensive(row.occupation)
 }));
 
 // Show all corrections
-console.log("COMPREHENSIVE BATCH 9 CORRECTIONS:");
+console.log("COMPREHENSIVE BATCH 10 CORRECTIONS:");
 let finalChangeCount = 0;
-for (let i = 0; i < correctedBatch9Final.length; i++) {
-const row = correctedBatch9Final[i];
+for (let i = 0; i < correctedBatch10Final.length; i++) {
+const row = correctedBatch10Final[i];
 if (row.occupation !== row.corrected_occupation) {
 finalChangeCount++;
-console.log(`${2400+i+1}. "${row.occupation}" → "${row.corrected_occupation}" ✓`);
+console.log(`${2700+i+1}. "${row.occupation}" → "${row.corrected_occupation}" ✓`);
 }
 }
 
-console.log(`\nFinal comprehensive total: ${finalChangeCount} out of ${correctedBatch9Final.length} entries`);
+console.log(`\nFinal comprehensive total: ${finalChangeCount} out of ${correctedBatch10Final.length} entries`);
 
 // Generate CSV
-const batch9CSV = Papa.unparse(correctedBatch9Final);
+const batch10CSV = Papa.unparse(correctedBatch10Final);
 console.log("\n" + "=".repeat(80));
-console.log("BATCH 9 COMPREHENSIVE CSV (300 ROWS):");
+console.log("BATCH 10 COMPREHENSIVE CSV (300 ROWS):");
 console.log("=".repeat(80));
-console.log(batch9CSV);
+console.log(batch10CSV);
