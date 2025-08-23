@@ -2099,10 +2099,9 @@ Retd Farmer,47,Retd Farmer
 Fireman on Steamer,47,Fireman on Steamer
 Telephone Operator,47,Telephone Operator
 Farm Occupier,47,Farm Occupier
-occupation,count,corrected_occupation
-Farmers Sister in Law,47,Farmers Sister in Law
+Farmers Sister in Law,47,Farmer's Sister in Law
 Farmering,47,Farmering
-Childrens Maid,47,Childrens Maid
+Childrens Maid,47,Children's Maid
 Wheelwright,47,Wheelwright
 Servant Dom,47,Servant Dom
 Bacon Curer,47,Bacon Curer
@@ -2113,7 +2112,7 @@ Fishing,47,Fishing
 Tanner,47,Tanner
 Assistant in House,47,Assistant in House
 Spinner Mill,47,Spinner Mill
-Farmers Dauter,47,Farmers Dauter
+Farmers Dauter,47,Farmer's Daughter
 Publican and Shop Keeper,47,Publican and Shop Keeper
 Dairy-Maid,47,Dairy Maid
 Farmer Daught,47,Farmer Daught
@@ -2150,7 +2149,7 @@ Labours,46,Labourer
 Laundry Woman,46,Laundry Woman
 Teacher of Poor Schools,46,Teacher of Poor Schools
 Agr'l Labourer,46,Agr'l Labourer
-Housekeper,46,Housekeper
+Housekeper,46,Housekeeper
 Journeyman Tailor,46,Journeyman Tailor
 Shepherds,46,Shepherds
 Farm Manager,46,Farm Manager
@@ -2179,12 +2178,12 @@ Tea and Wine Merchant,45,Tea and Wine Merchant
 General Svt Domestic,45,General Svt Domestic
 F Scholar,45,F Scholar
 Labourer Agricul,45,Labourer Agricul
-At Shool,45,At Shool
+At Shool,45,At School
 Stud Groom,45,Stud Groom
 Labourer in Ironworks,45,Labourer in Ironworks
 Grand Daughter,44,Grand Daughter
 Wood Ranger,44,Wood Ranger
-Chair Maker,44,Chair Maker
+Chair Maker,44,Chairmaker
 Tinker,44,Tinker
 Hotel Servant,44,Hotel Servant
 Gardener D. Servant,44,Gardener D. Servant
@@ -2196,9 +2195,9 @@ Linen Cambric Weaver,44,Linen Cambric Weaver
 Pupil Midwife,44,Pupil Midwife
 Retired Coachman,44,Retired Coachman
 Itinerant,44,Itinerant
-Seampstress,44,Seampstress
+Seampstress,44,Seamstress
 Gl. Labourer,44,Gl. Labourer
-Plummer,44,Plummer
+Plummer,44,Plumber
 Shepherd's Wife,44,Shepherd's Wife
 Spreader in Spinning Mill,44,Spreader in Spinning Mill
 House Joiner,44,House Joiner
@@ -2267,14 +2266,14 @@ Not At School,42,Not At School
 Shopkeeper's Daughter,42,Shopkeeper's Daughter
 Gas Worker,42,Gas Worker
 Policemans Son,42,Policeman's Son
-Salior,42,Salior
+Salior,42,Sailor
 General Sevt Domestic,42,General Sevt Domestic
 Grocer Shop Keeper,42,Grocer Shop Keeper
 Gatekeeper,42,Gatekeeper
-Paper Maker,42,Paper Maker
+Paper Maker,42,Papermaker
 No Occupation Supported by Friends,42,No Occupation Supported by Friends
 Sergeant R.I.C,42,Sergeant R.I.C
-Scoler,42,Scoler
+Scoler,42,Scholar
 Cutler,42,Cutler
 Working in Factory,42,Working in Factory
 Miles Man on Railway,42,Miles Man on Railway
@@ -2283,7 +2282,7 @@ General Medical Practitioner,42,General Medical Practitioner
 Landlady,42,Landlady
 Farm Labourer Domestic,42,Farm Labourer Domestic
 "Coachman, Domestic Servant",42,"Coachman, Domestic Servant"
-Attending Shool,42,Attending Shool
+Attending Shool,42,Attending School
 Marine Fireman,42,Marine Fireman
 Servant Nurse,42,Servant Nurse
 Linen Factory Worker,42,Linen Factory Worker
@@ -2346,7 +2345,7 @@ G. Servant,41,G. Servant
 Iron Works Labourer,40,Iron Works Labourer
 Warehouse Worker,40,Warehouse Worker
 House Keeping at Home,40,House Keeping at Home
-Attending Scool,40,Attending Scool
+Attending Scool,40,Attending School
 Policeman's Son,40,Policeman's Son
 Doctor,40,Doctor
 Labourer in Bleach Works,40,Labourer in Bleach Works
@@ -2354,7 +2353,7 @@ Damask Tenter,40,Damask Tenter
 Butter Buyer,40,Butter Buyer
 Home House Keeper,40,Home House Keeper
 Income From Land,40,Income From Land
-Machanist,40,Machanist
+Machanist,40,Machinist
 Labiour,40,Labourer
 White Worker,40,White Worker
 Labrs Wife,40,Labourer's Wife
@@ -2380,12 +2379,12 @@ Apprentice Shoemaker,40,Apprentice Shoemaker
 Undertaker,40,Undertaker
 Gen Domestic Servant,40,Gen Domestic Servant
 Trader,40,Trader
-Sholor,40,Sholor
+Sholor,40,Scholar
 Nat. Sch. Teacher,40,Nat. Sch. Teacher
 Tea Dealer,40,Tea Dealer
 Land and Dividends,40,Land and Dividends
 Tramway Conductor,40,Tramway Conductor
-Farmer-Daughter,40,Farmer's Daughter
+Farmer-Daughter,40,Farmer Daughter
 Foreman Carpenter,40,Foreman Carpenter
 Coach Fitter,40,Coach Fitter
 No School,40,No School
@@ -2397,7 +2396,7 @@ Linen-Weaver,39,Linen Weaver
 Farm Laberour,39,Farm Laberour
 Retired Policeman,39,Retired Policeman
 Farm Servan,39,Farm Servan
-Boat Maker,39,Boat Maker
+Boat Maker,39,Boatmaker
 Asst House Keeper,39,Asst House Keeper
 Steward and Gardener,39,Steward and Gardener
 Domestic Employment,39
