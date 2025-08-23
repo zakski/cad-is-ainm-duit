@@ -100,6 +100,7 @@ if (!occupation) return '';
         "Farmeress Son": "Farmeress's Son",
         "Farmeress Daughter": "Farmeress's Daughter",
         "Labrs Wife": "Labourer's Wife",
+        "Childrens Maid": "Children's Maid",
 
         // Combine compound words
         "House Keeper": "Housekeeper",
@@ -144,6 +145,10 @@ if (!occupation) return '';
         "Watch Man": "Watchman",
         "House Work": "Housework",
         "Book Keeper": "Bookkeeper",
+        "Land Agents Assistant": "Land Agent's Assistant",
+        "Hous Wife": "Housewife",
+        "Farms Servant": "Farm Servant",
+        "Paper Maker": "Papermaker",
 
         // Educational titles
         "School Teacher": "Schoolteacher",
@@ -174,6 +179,7 @@ if (!occupation) return '';
         "Domestick Servant": "Domestic Servant",
         "Domestic servant": "Domestic Servant",
         "Domest Servant": "Domestic Servant",
+        "General Servent": "General Servant",
 
         // American to British spelling corrections
         "Agricultural Laborer": "Agricultural Labourer",
@@ -221,7 +227,16 @@ if (!occupation) return '';
         "At Chool": "At School",
         "Farm Serveant": "Farm Servant",
         "Farme Servant": "Farm Servant",
+        "Buttler": "Butler",
+        "Quay Labour": "Quay Labourer",
+        "Shool Boy": "School Boy",
+        "Frame Maker": "Framemaker",
+        "Farm Laborour": "Farm Labourer",
+        "Genl Labour": "Genl Labourer",
+        "Grocers Manager": "Grocer's Manager",
+        "Railway Labour": "Railway Labourer",
 
+        "Scool Boy": "School Boy",
         // Scholar variants
         "Scholars": "Scholar",
         "Schollar": "Scholar",
@@ -248,6 +263,8 @@ if (!occupation) return '';
         "Schalor": "Scholar", // MISSING
         "Scholl": "Scholar", // MISSING
         "Shool": "Scholar", // MISSING
+        "Scoolar": "Scholar",
+        "Shoolar": "Scholar",
 
         // Labourer variants
         "Labourers": "Labourer",
@@ -261,6 +278,8 @@ if (!occupation) return '';
         "Labiour": "Labourer",
         "Labouring": "Labourer",
         "Labrourer": "Labourer",
+        "Laburer": "Labourer",
+        "Gen Laborer": "Gen Labourer",
 
         // Comprehensive abbreviations
         "Agl Labourer": "Agricultural Labourer",
@@ -348,12 +367,10 @@ if (!occupation) return '';
         "Salior": "Sailor",
         "Schloar": "Scholar",
         "At Shool": "At School",
-        "Laburer": "Labourer",
-        "Gen Laborer": "Gen Labourer",
-        "General Servent": "General Servant",
 
         // Machinist
         "Machinest": "Machinist",
+        "Machanist": "Machinist",
         "Machineist": "Machinist"
     };
 
