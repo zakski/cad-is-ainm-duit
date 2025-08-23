@@ -94,20 +94,46 @@ if (!occupation) return '';
         "Sailors Wife": "Sailor's Wife",
 
         // Combine compound words
-        "House Keeper": "Housekeeper", "Boot Maker": "Bootmaker", "Shop Keeper": "Shopkeeper",
-        "Watch Maker": "Watchmaker", "Gate Keeper": "Gatekeeper", "Time Keeper": "Timekeeper",
-        "Care Taker": "Caretaker", "Clock Maker": "Clockmaker", "Cabinet Maker": "Cabinetmaker",
-        "Shoe Maker": "Shoemaker", "Dress Maker": "Dressmaker", "Black Smith": "Blacksmith",
-        "Paper Hanger": "Paperhanger", "Stone Mason": "Stonemason", "Gold Smith": "Goldsmith",
-        "Tin Smith": "Tinsmith", "White Smith": "Whitesmith", "Mill Wright": "Millwright",
-        "Ship Wright": "Shipwright","Police Man": "Policeman", "Milk Man": "Milkman",
-        "Bar Man": "Barman", "Bar Maid": "Barmaid",  "Rope Maker": "Ropemaker",
-        "Lace Maker": "Lacemaker", "Hair Dresser": "Hairdresser", "News Agent": "Newsagent",
-        "Station Master": "Stationmaster", "Post Master": "Postmaster", "Post Mistress": "Postmistress",
-        "Brick Layer": "Bricklayer", "Fisher Man": "Fisherman",
-        "Post Man": "Postman", "House Maid": "Housemaid", "Silver Smith": "Silversmith",
-        "Coach Man": "Coachman", "Wheel Wright": "Wheelwright", "Watch Man": "Watchman",
-        "House Work": "Housework", "Book Keeper": "Bookkeeper",
+        "House Keeper": "Housekeeper",
+        "Boot Maker": "Bootmaker",
+        "Shop Keeper": "Shopkeeper",
+        "Watch Maker": "Watchmaker",
+        "Gate Keeper": "Gatekeeper",
+        "Time Keeper": "Timekeeper",
+        "Care Taker": "Caretaker",
+        "Clock Maker": "Clockmaker",
+        "Cabinet Maker": "Cabinetmaker",
+        "Shoe Maker": "Shoemaker",
+        "Dress Maker": "Dressmaker",
+        "Black Smith": "Blacksmith",
+        "Paper Hanger": "Paperhanger",
+        "Stone Mason": "Stonemason",
+        "Gold Smith": "Goldsmith",
+        "Tin Smith": "Tinsmith",
+        "White Smith": "Whitesmith",
+        "Mill Wright": "Millwright",
+        "Ship Wright": "Shipwright",
+        "Police Man": "Policeman",
+        "Milk Man": "Milkman",
+        "Bar Man": "Barman",
+        "Bar Maid": "Barmaid",
+        "Rope Maker": "Ropemaker",
+        "Lace Maker": "Lacemaker",
+        "Hair Dresser": "Hairdresser",
+        "News Agent": "Newsagent",
+        "Station Master": "Stationmaster",
+        "Post Master": "Postmaster",
+        "Post Mistress": "Postmistress",
+        "Brick Layer": "Bricklayer",
+        "Fisher Man": "Fisherman",
+        "Post Man": "Postman", 
+        "House Maid": "Housemaid",
+        "Silver Smith": "Silversmith",
+        "Coach Man": "Coachman",
+        "Wheel Wright": "Wheelwright",
+        "Watch Man": "Watchman",
+        "House Work": "Housework",
+        "Book Keeper": "Bookkeeper",
 
         // Educational titles
         "School Teacher": "Schoolteacher",
@@ -192,6 +218,10 @@ if (!occupation) return '';
         "Scoholar": "Scholar", // MISSING correction
         "Scholare": "Scholar", // MISSING correction
         "Scholour": "Scholar", // MISSING correction
+        "Schlar": "Scholar", // MISSING
+        "Schalor": "Scholar", // MISSING
+        "Scholl": "Scholar", // MISSING
+        "Shool": "Scholar", // MISSING
 
         // Labourer variants
         "Labourers": "Labourer",
@@ -233,6 +263,7 @@ if (!occupation) return '';
         "Agricult Labourer": "Agricultural Labourer",
         "Agricul Labourer": "Agricultural Labourer",
         "Agricultl Labourer": "Agricultural Labourer",
+        "Agricultur Labourer": "Agricultural Labourer", // MISSING
 
         "Genl Labourer": "General Labourer",
         "Gen Labourer": "General Labourer",
@@ -242,6 +273,7 @@ if (!occupation) return '';
         "General Labrour": "General Labourer",
         "General Laborour": "General Labourer",
         "Genral Labourer": "General Labourer",
+        "Genrl Labourer": "General Labourer", // MISSING
 
         "N S Teacher": "National School Teacher",
         "N.S. Teacher": "National School Teacher",
@@ -270,6 +302,7 @@ if (!occupation) return '';
         "HouseKeeper": "Housekeeper",
         "Housekeper": "Housekeeper",
         "Houskeeper": "Housekeeper",
+        "Huse Keeper": "Housekeeper", // MISSING
 
         // Carpenter variants
         "Carpinter": "Carpenter",
@@ -280,9 +313,33 @@ if (!occupation) return '';
         "Carpender": "Carpenter",
 
         // All other established corrections
-        "Cleark": "Clerk", "Plummer": "Plumber", "Salior": "Sailor", "Serveant": "Servant",
-        "Schloar": "Scholar", "At Shool": "At School", "Laburer": "Labourer",
-        "Gen Laborer": "Gen Labourer", "Laborer General": "General Labourer",
+        "Cleark": "Clerk",
+        "Clarke": "Clerk",
+        "Clerke": "Clerk",
+        "Clerkess": "Clerk",
+        "Plumer": "Plumber",
+        "Shomaker": "Shoemaker",
+        "Miliner": "Milliner",
+        "Millner": "Milliner",
+        "Laundres": "Laundress",
+        "Aprentice": "Apprentice",
+        "Serveant": "Servant",
+        "Famers Son": "Farmer's Son",
+        "Farmers' Son": "Farmer's Son", // Fix incorrect apostrophe
+        "At Chool": "At School",
+        "Market Gardner": "Market Gardener",
+        "Gardner Domestic": "Gardener Domestic",
+        "Cabnet Maker": "Cabinet Maker",
+        "Iron Monger": "Ironmonger",
+        "Farm Serveant": "Farm Servant",
+        "Farme Servant": "Farm Servant",
+        "Plummer": "Plumber",
+        "Salior": "Sailor",
+        "Schloar": "Scholar",
+        "At Shool": "At School",
+        "Laburer": "Labourer",
+        "Gen Laborer": "Gen Labourer",
+        "Laborer General": "General Labourer",
         "General Servent": "General Servant"
     };
 
