@@ -8,13 +8,13 @@ const parsedData = Papa.parse(fileContent, {
     delimitersToGuess: [',', '\t', '|', ';']
 });
 
-// Combined correction function with enhanced preprocessing and comprehensive corrections
+// COMPREHENSIVE correction function
 function correctOccupation(occupation) {
 if (!occupation) return '';
 
     let corrected = occupation.trim();
 
-    // ENHANCED PREPROCESSING (from my script)
+    // ENHANCED PREPROCESSING
     // 1. Remove brackets first
     corrected = corrected.replace(/[\[\]()]/g, '');
 
@@ -24,6 +24,7 @@ if (!occupation) return '';
     // 3. Condense duplicate whitespace
     corrected = corrected.replace(/\s+/g, ' ').trim();
 
+    // COMPREHENSIVE CORRECTIONS (all previous ones PLUS missing ones)
     const corrections = {
         // Apostrophe corrections
         "Farmers Son": "Farmer's Son",
@@ -187,6 +188,10 @@ if (!occupation) return '';
         "Sholars": "Scholar",
         "Shollar": "Scholar",
         "Sholar": "Scholar",
+        "Sclolar": "Scholar",  // MISSING correction
+        "Scoholar": "Scholar", // MISSING correction
+        "Scholare": "Scholar", // MISSING correction
+        "Scholour": "Scholar", // MISSING correction
 
         // Labourer variants
         "Labourers": "Labourer",
@@ -272,12 +277,13 @@ if (!occupation) return '';
         "Carpentar": "Carpenter",
         "Cartpenter": "Carpenter",
         "Corpenter": "Carpenter",
-        "Carpender": "Carpenter"
+        "Carpender": "Carpenter",
 
         // All other established corrections
         "Cleark": "Clerk", "Plummer": "Plumber", "Salior": "Sailor", "Serveant": "Servant",
         "Schloar": "Scholar", "At Shool": "At School", "Laburer": "Labourer",
-        "Gen Laborer": "Gen Labourer"
+        "Gen Laborer": "Gen Labourer", "Laborer General": "General Labourer",
+        "General Servent": "General Servant"
     };
 
     // Apply direct corrections
