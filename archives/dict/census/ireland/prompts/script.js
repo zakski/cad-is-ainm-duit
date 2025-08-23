@@ -92,6 +92,14 @@ if (!occupation) return '';
         "Blacksmiths Helper": "Blacksmith's Helper",
         "Childrens Nurse": "Children's Nurse",
         "Sailors Wife": "Sailor's Wife",
+        "Shepherd Son": "Shepherd's Son",
+        "Herd Daughter": "Herd's Daughter",
+        "Tailors Daughter": "Tailor's Daughter",
+        "Famers Daughter": "Farmer's Daughter",
+        "Caretakers Daughter": "Caretaker's Daughter",
+        "Farmeress Son": "Farmeress's Son",
+        "Farmeress Daughter": "Farmeress's Daughter",
+        "Labrs Wife": "Labourer's Wife",
 
         // Combine compound words
         "House Keeper": "Housekeeper",
@@ -240,7 +248,7 @@ if (!occupation) return '';
         "Schalor": "Scholar", // MISSING
         "Scholl": "Scholar", // MISSING
         "Shool": "Scholar", // MISSING
-        
+
         // Labourer variants
         "Labourers": "Labourer",
         "Laborour": "Labourer",
@@ -343,6 +351,8 @@ if (!occupation) return '';
         "Laburer": "Labourer",
         "Gen Laborer": "Gen Labourer",
         "General Servent": "General Servant",
+
+        // Machinist
         "Machinest": "Machinist",
         "Machineist": "Machinist"
     };
