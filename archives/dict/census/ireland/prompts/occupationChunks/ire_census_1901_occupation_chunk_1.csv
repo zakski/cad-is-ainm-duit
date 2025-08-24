@@ -51,7 +51,7 @@ Wife,5349,Wife
 Grocer,5313,Grocer
 General Servant-Domestic,4715,General Domestic Servant
 Cook Domestic Servant,4665,Cook Domestic Servant
-House Wife,4602,House Wife
+House Wife,4602,Housewife
 Shepherd,4553,Shepherd
 Schoolar,4214,Scholar
 Charwoman,4200,Charwoman
@@ -121,7 +121,7 @@ Nurse Domestic Servant,1890,Nurse Domestic Servant
 Plasterer,1885,Plasterer
 Damask Weaver,1870,Damask Weaver
 Labourer's Wife,1865,Labourer's Wife
-House Work,1826,House Work
+House Work,1826,Housework
 Army Pensioner,1822,Army Pensioner
 Scollar,1791,Scholar
 National School Teacher,1743,National Schoolteacher
@@ -138,7 +138,7 @@ Agrl Labourer,1592,Agricultural Labourer
 Governess,1556,Governess
 Yarn Winder,1514,Yarn Winder
 Factory Worker,1495,Factory Worker
-General Labour,1494,General Labour
+General Labour,1494,General Labourer
 Stone Cutter,1494,Stone Cutter
 Knitter,1477,Knitter
 Railway Labourer,1468,Railway Labourer
@@ -160,7 +160,7 @@ Dock Labourer,1293,Dock Labourer
 Farmer Servant,1289,Farmer Servant
 Solicitor,1287,Solicitor
 Shirt Maker,1283,Shirt Maker
-Machinest,1274,Machinest
+Machinest,1274,Machinist
 Visitor,1250,Visitor
 Char Woman,1227,Char Woman
 Linnen Weaver,1225,Linnen Weaver
@@ -173,7 +173,7 @@ Farmer's Brother,1190,Farmer's Brother
 Sholar,1185,Scholar
 Victualler,1173,Victualler
 Book Keeper,1164,Bookkeeper
-Gardnr,1163,Gardner
+Gardner,1163,Gardner
 Commercial Clerk,1144,Commercial Clerk
 Musician,1143,Musician
 Lady,1142,Lady
@@ -189,7 +189,7 @@ Saddler,1093,Saddler
 Soldier,1086,Soldier
 Cotton Weaver,1069,Cotton Weaver
 Stitcher,1057,Stitcher
-General Servant (Domestic),1055,General Servant (Domestic)
+General Servant (Domestic),1055,General Domestic Servant
 Winder,1042,Winder
 Weaver Linen,1037,Weaver Linen
 Carman,1036,Carman
@@ -260,7 +260,7 @@ Tin Smith,689,Tinsmith
 Spirit Merchant,678,Spirit Merchant
 Servant-Domestic,675,Domestic Servant
 Shop Porter,673,Shop Porter
-Farm Labour,670,Farm Labour
+Farm Labour,670,Farm Labourer
 Fireman,667,Fireman
 Mendicant,662,Mendicant
 No,658,No
@@ -294,7 +294,7 @@ Fitter,589,Fitter
 Fowl Dealer,585,Fowl Dealer
 Linen Lapper,585,Linen Lapper
 Music Teacher,582,Music Teacher
-Game Keeper,573,Game Keeper
+Game Keeper,573,Gamekeeper
 Boarder,570,Boarder
 Veiner,567,Veiner
 Interest of Money,567,Interest of Money
@@ -331,7 +331,7 @@ Scholar's,519,Scholar's
 Labourers Son,518,Labourer's Son
 Seamster,518,Seamster
 Clergyman,517,Clergyman
-Grocers Porter,516,Grocers Porter
+Grocers Porter,516,Grocer's Porter
 Telegraph Messenger,515,Telegraph Messenger
 Boot and Shoemaker,514,Boot and Shoemaker
 Annuity,511,Annuity
@@ -472,7 +472,7 @@ Farm Assistant,333,Farm Assistant
 Labour General,332,Labour General
 Inmate,332,Inmate
 Boarding House Keeper,331,Boarding House Keeper
-Cook Domestic Servt,330,Cook Domestic Servt
+Cook Domestic Servt,330,Cook Domestic Servant
 Farmers Widow,327,Farmer's Widow
 House Property,327,House Property
 Wash Woman,324,Wash Woman

@@ -1,4 +1,4 @@
-// Combined script: Best spelling corrections + better bracket/whitespace handling
+// Get the complete CSV output for Batch 1
 import Papa from 'papaparse';
 const fileContent = await window.fs.readFile('ire_occupation_1901.csv', { encoding: 'utf8' });
 
@@ -8,25 +8,20 @@ const parsedData = Papa.parse(fileContent, {
     delimitersToGuess: [',', '\t', '|', ';']
 });
 
-// COMPREHENSIVE correction function
-function correctOccupation(occupation) {
-if (!occupation) return '';
+// COMPLETE correction function with ALL corrections from original script
+function correctOccupationComplete(occupation) {
+    if (!occupation) return '';
 
     let corrected = occupation.trim();
 
     // ENHANCED PREPROCESSING
-    // 1. Remove brackets first
     corrected = corrected.replace(/[\[\]()]/g, '');
-
-    // 2. Handle hyphens as whitespace
     corrected = corrected.replace(/-/g, ' ');
-
-    // 3. Condense duplicate whitespace
     corrected = corrected.replace(/\s+/g, ' ').trim();
 
-    // COMPREHENSIVE CORRECTIONS (all previous ones PLUS missing ones)
+    // ALL CORRECTIONS from original script plus new ones
     const corrections = {
-        // Apostrophe corrections
+        // Apostrophe corrections (COMPLETE from original)
         "Farmers Son": "Farmer's Son",
         "Farmers Daughter": "Farmer's Daughter",
         "Farmers Wife": "Farmer's Wife",
@@ -102,7 +97,7 @@ if (!occupation) return '';
         "Labrs Wife": "Labourer's Wife",
         "Childrens Maid": "Children's Maid",
 
-        // Combine compound words
+        // Combine compound words (COMPLETE from original)
         "House Keeper": "Housekeeper",
         "Boot Maker": "Bootmaker",
         "Shop Keeper": "Shopkeeper",
@@ -147,10 +142,11 @@ if (!occupation) return '';
         "Book Keeper": "Bookkeeper",
         "Land Agents Assistant": "Land Agent's Assistant",
         "Hous Wife": "Housewife",
+        "House Wife": "Housewife",
         "Farms Servant": "Farm Servant",
         "Paper Maker": "Papermaker",
 
-        // Educational titles
+        // Educational titles (COMPLETE from original)
         "School Teacher": "Schoolteacher",
         "National School Teacher": "National Schoolteacher",
         "National School Master": "National Schoolmaster",
@@ -159,7 +155,7 @@ if (!occupation) return '';
         "School Mistress": "Schoolmistress",
         "Hedge School Master": "Hedge Schoolmaster",
 
-        // Standardize servant types
+        // Standardize servant types (COMPLETE from original)
         "General Servant Domestic": "General Domestic Servant",
         "Domestic General Servant": "General Domestic Servant",
         "General Servant, Domestic": "General Domestic Servant",
@@ -180,6 +176,7 @@ if (!occupation) return '';
         "Domestic servant": "Domestic Servant",
         "Domest Servant": "Domestic Servant",
         "General Servent": "General Servant",
+        "Cook Domestic Servt": "Cook Domestic Servant",
 
         // American to British spelling corrections
         "Agricultural Laborer": "Agricultural Labourer",
@@ -235,8 +232,8 @@ if (!occupation) return '';
         "Genl Labour": "Genl Labourer",
         "Grocers Manager": "Grocer's Manager",
         "Railway Labour": "Railway Labourer",
-
         "Scool Boy": "School Boy",
+
         // Scholar variants
         "Scholars": "Scholar",
         "Schollar": "Scholar",
@@ -255,14 +252,14 @@ if (!occupation) return '';
         "Sholars": "Scholar",
         "Shollar": "Scholar",
         "Sholar": "Scholar",
-        "Sclolar": "Scholar",  // MISSING correction
-        "Scoholar": "Scholar", // MISSING correction
-        "Scholare": "Scholar", // MISSING correction
-        "Scholour": "Scholar", // MISSING correction
-        "Schlar": "Scholar", // MISSING
-        "Schalor": "Scholar", // MISSING
-        "Scholl": "Scholar", // MISSING
-        "Shool": "Scholar", // MISSING
+        "Sclolar": "Scholar",
+        "Scoholar": "Scholar",
+        "Scholare": "Scholar",
+        "Scholour": "Scholar",
+        "Schlar": "Scholar",
+        "Schalor": "Scholar",
+        "Scholl": "Scholar",
+        "Shool": "Scholar",
         "Scoolar": "Scholar",
         "Shoolar": "Scholar",
 
@@ -309,7 +306,7 @@ if (!occupation) return '';
         "Agricult Labourer": "Agricultural Labourer",
         "Agricul Labourer": "Agricultural Labourer",
         "Agricultl Labourer": "Agricultural Labourer",
-        "Agricultur Labourer": "Agricultural Labourer", // MISSING
+        "Agricultur Labourer": "Agricultural Labourer",
 
         "Genl Labourer": "General Labourer",
         "Gen Labourer": "General Labourer",
@@ -319,7 +316,7 @@ if (!occupation) return '';
         "General Labrour": "General Labourer",
         "General Laborour": "General Labourer",
         "Genral Labourer": "General Labourer",
-        "Genrl Labourer": "General Labourer", // MISSING
+        "Genrl Labourer": "General Labourer",
 
         "N S Teacher": "National School Teacher",
         "N.S. Teacher": "National School Teacher",
@@ -347,8 +344,7 @@ if (!occupation) return '';
         "Hous Keeper": "Housekeeper",
         "HouseKeeper": "Housekeeper",
         "Housekeper": "Housekeeper",
-        "Houskeeper": "Housekeeper",
-        "Huse Keeper": "Housekeeper", // MISSING
+        "Huse Keeper": "Housekeeper",
 
         // Carpenter variants
         "Carpinter": "Carpenter",
@@ -360,7 +356,7 @@ if (!occupation) return '';
 
         // All other established corrections
         "Famers Son": "Farmer's Son",
-        "Farmers' Son": "Farmer's Son", // Fix incorrect apostrophe
+        "Farmers' Son": "Farmer's Son",
         "Market Gardner": "Market Gardener",
         "Gardner Domestic": "Gardener Domestic",
         "Plummer": "Plumber",
@@ -382,30 +378,14 @@ if (!occupation) return '';
     return corrected;
 }
 
-// Process EXACTLY batch 2: records 301-600 (300 records)
-const batch2Data = parsedData.data.slice(300, 600);
-console.log(`Processing batch 2: records 301-600 (exactly ${batch2Data.length} records)`);
-
-const processedBatch2 = batch2Data.map(row => ({
-occupation: row.occupation,
-count: row.count,
-corrected_occupation: correctOccupation(row.occupation)
+// Process batch 1: records 1-500
+const batch1Data = parsedData.data.slice(0, 500);
+const processedBatch1 = batch1Data.map((row, index) => ({
+    occupation: row.occupation,
+    count: row.count,
+    corrected_occupation: correctOccupationComplete(row.occupation)
 }));
 
-// Convert to CSV
-const batch2CSV = Papa.unparse(processedBatch2);
-
-console.log("Sample of combined improvements:");
-for (let i = 0; i < 20; i++) {
-const row = processedBatch2[i];
-if (row.occupation !== row.corrected_occupation) {
-console.log(`${300+i+1}. "${row.occupation}" → "${row.corrected_occupation}" ✓`);
-} else {
-console.log(`${300+i+1}. "${row.occupation}" (no change)`);
-}
-}
-
-console.log("\n" + "=".repeat(80));
-console.log("COMBINED SCRIPT BATCH 2 CSV OUTPUT:");
-console.log("=".repeat(80));
-console.log(batch2CSV);
+// Convert to CSV and output
+const batch1CSV = Papa.unparse(processedBatch1);
+console.log(batch1CSV);
