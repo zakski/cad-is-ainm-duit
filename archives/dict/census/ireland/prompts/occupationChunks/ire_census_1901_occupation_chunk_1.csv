@@ -999,17 +999,18 @@ No occupation,124,No occupation
 Domestic Servant House Maid,124,Housemaid Domestic Servant
 Boat Builder,123,Boat Builder
 G. Labourer,123,General Labourer
-Housemaid Domestic Servt,123,Housemaid Domestic Servt
+occupation,count,corrected_occupation
+Housemaid Domestic Servt,123,Housemaid Domestic Servant
 Farmers-Son,122,Farmer's Son
 Publicans Assistant,122,Publican's Assistant
 Invalid,122,Invalid
-Chemists Assistant,122,Chemists Assistant
+Chemists Assistant,122,Chemist's Assistant
 Weaver of Linen,121,Weaver of Linen
 Farmer's Daughter in Law,121,Farmer's Daughter in Law
 Laundry,121,Laundry
 Workmistress,121,Workmistress
 Thatcher,121,Thatcher
-Natl. Teacher,120,Natl. Teacher
+Natl. Teacher,120,National Teacher
 Prison Warder,120,Prison Warder
 Farmservant,120,Farmservant
 Banker,120,Banker
@@ -1019,11 +1020,11 @@ School Child,120,School Child
 Wool Carder,120,Wool Carder
 Jarvey,120,Jarvey
 Hotel Waiter,120,Hotel Waiter
-House Keper,120,House Keper
+House Keper,120,Housekeeper
 Scholar Attending School,119,Scholar Attending School
 Coal Dealer,119,Coal Dealer
-Nat. School Teacher,119,Nat. School Teacher
-Genl. Labourer,119,Genl. Labourer
+Nat. School Teacher,119,National School Teacher
+Genl. Labourer,119,General Labourer
 Labrour,119,Labourer
 Children,119,Children
 Flax Drawer,119,Flax Drawer
@@ -1033,39 +1034,39 @@ Apprentice Clerk,118,Apprentice Clerk
 Mate,118,Mate
 Errand Boy,118,Errand Boy
 Bookfolder,118,Bookfolder
-General Labourers,118,General Labourers
+General Labourers,118,General Labourer
 Servant Cook,118,Servant Cook
-Coachman Domestic Servt,118,Coachman Domestic Servt
+Coachman Domestic Servt,118,Coachman Domestic Servant
 Landholder,117,Landholder
-Dress maker,117,Dress maker
+Dress maker,117,Dressmaker
 Sholars,117,Scholar
 Retired Agricultural Labourer,117,Retired Agricultural Labourer
 Agri Labourer,117,Agricultural Labourer
 General Housework,117,General Housework
-Laboure,117,Laboure
+Laboure,117,Labourer
 Agricultural Labouer,117,Agricultural Labourer
 Income from Land,116,Income from Land
-General House Keeper,116,General House Keeper
+General House Keeper,116,General Housekeeper
 House Business,116,House Business
 Corn Porter,116,Corn Porter
 Employed on Farm,116,Employed on Farm
 House Agent,116,House Agent
-Black Smyth,116,Black Smyth
+Black Smyth,116,Blacksmith
 Attendant,116,Attendant
-Farmers Daugh,115,Farmers Daugh
+Farmers Daugh,115,Farmer's Daughter
 House Assistant,115,House Assistant
 Agricultl Labourer,115,Agricultural Labourer
-Farmers wife,115,Farmers wife
-Labourer Daughter,115,Labourer Daughter
+Farmers wife,115,Farmer's Wife
+Labourer Daughter,115,Labourer's Daughter
 Retired Housekeeper,115,Retired Housekeeper
 Stone Breaker,114,Stone Breaker
-General Servant Domestic Servant,114,General Servant Domestic Servant
+General Servant Domestic Servant,114,General Domestic Servant
 Night Watchman,114,Night Watchman
-Domestic House Keeper,114,Domestic House Keeper
+Domestic House Keeper,114,Domestic Housekeeper
 Retired Farmer's Wife,114,Retired Farmer's Wife
 Joiner on Strike,114,Joiner on Strike
 Grocer's Apprentice,114,Grocer's Apprentice
-General Laboure,114,General Laboure
+General Laboure,114,General Labourer
 N School Teacher,113,National School Teacher
 Police Constable,113,Police Constable
 White Smith,113,Whitesmith
@@ -1078,13 +1079,13 @@ Apprentice Tailor,112,Apprentice Tailor
 Office Clerk,112,Office Clerk
 Ordnance Surveyor,112,Ordnance Surveyor
 Dyer,112,Dyer
-General Servt. Domestic,111,General Servt. Domestic
-Farmerswife,111,Farmerswife
+General Servt. Domestic,111,General Domestic Servant
+Farmerswife,111,Farmer's Wife
 Nailer,111,Nailer
 Groom-Domestic Servant,111,Groom Domestic Servant
 Herds Wife,111,Herd's Wife
-Assistant Shop Keeper,111,Assistant Shop Keeper
-Farmer's Daught,111,Farmer's Daught
+Assistant Shop Keeper,111,Assistant Shopkeeper
+Farmer's Daught,111,Farmer's Daughter
 Catholic Priest,111,Catholic Priest
 Jute Weaver,111,Jute Weaver
 Sr of Mercy,111,Sr of Mercy
@@ -1093,32 +1094,32 @@ Apprentice Plumber,111,Apprentice Plumber
 Cabinetmaker,110,Cabinetmaker
 School-Boy,110,School Boy
 Boot Merchant,110,Boot Merchant
-Retired House Keeper,110,Retired House Keeper
+Retired House Keeper,110,Retired Housekeeper
 Handkerchief Folder,110,Handkerchief Folder
 Dom Servant,110,Domestic Servant
 Bricklayer Labourer,110,Bricklayer Labourer
-Launderess,109,Launderess
-Labourer Agr,109,Labourer Agr
-Messanger,109,Messanger
+Launderess,109,Laundress
+Labourer Agr,109,Agricultural Labourer
+Messanger,109,Messenger
 Shepherd's Son,109,Shepherd's Son
 Rope Spinner,109,Rope Spinner
-Nat. Teacher,109,Nat. Teacher
+Nat. Teacher,109,National Teacher
 Farm-Labourer,108,Farm Labourer
 Chimney Sweep,108,Chimney Sweep
 Merchant Sailor,108,Merchant Sailor
-House Kepper,108,House Kepper
-Retired Shop Keeper,108,Retired Shop Keeper
+House Kepper,108,Housekeeper
+Retired Shop Keeper,108,Retired Shopkeeper
 Harnessmaker,108,Harnessmaker
 None Stated,108,None Stated
 Brass Moulder,107,Brass Moulder
 Doffer in Spinning Mill,107,Doffer in Spinning Mill
-Pensioner R.I.C.,107,Pensioner R.I.C.
-Farmes Daughter,107,Farmes Daughter
+Pensioner R.I.C.,107,R.I.C. Pensioner
+Farmes Daughter,107,Farmer's Daughter
 Brewer,107,Brewer
-House Maid-Domestic Servant,106,House Maid Domestic Servant
+House Maid-Domestic Servant,106,Housemaid Domestic Servant
 Scholar at School,106,Scholar at School
 Fishmonger,106,Fishmonger
-N. School Teacher,106,N. School Teacher
+N. School Teacher,106,National School Teacher
 Linen Yarn Spinner,106,Linen Yarn Spinner
 Farm,105,Farm
 Farmer and Road Contractor,105,Farmer and Road Contractor
@@ -1126,9 +1127,10 @@ Breadserver,105,Breadserver
 Time Keeper,105,Timekeeper
 Corn Miller,104,Corn Miller
 Servant Girl,104,Servant Girl
-Gardener Domestic Servt,104,Gardener Domestic Servt
+Gardener Domestic Servt,104,Gardener Domestic Servant
 Linen Weaver in Factory,104,Linen Weaver in Factory
 Housekeeper at Home,104,Housekeeper at Home
+
 Drapers Porter,104,Drapers Porter
 Asylum Nurse,104,Asylum Nurse
 Domestic Cook,104,Domestic Cook

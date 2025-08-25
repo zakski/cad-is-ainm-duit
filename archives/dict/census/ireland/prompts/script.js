@@ -1,4 +1,4 @@
-// Complete correction function with ALL corrections from original script
+// Stage 2: Final enhanced corrections for Batch 3
 import Papa from 'papaparse';
 const fileContent = await window.fs.readFile('ire_occupation_1901.csv', { encoding: 'utf8' });
 
@@ -8,8 +8,8 @@ const parsedData = Papa.parse(fileContent, {
     delimitersToGuess: [',', '\t', '|', ';']
 });
 
-// COMPLETE correction function with ALL corrections
-function correctOccupationComplete(occupation) {
+// COMPLETE correction function with all corrections
+function correctOccupationFinal(occupation) {
     if (!occupation) return '';
 
     let corrected = occupation.trim();
@@ -18,7 +18,7 @@ function correctOccupationComplete(occupation) {
     corrected = corrected.replace(/\s+/g, ' ').trim();
 
     const corrections = {
-        // Apostrophes - COMPLETE
+        // All apostrophe corrections
         "Farmers Son": "Farmer's Son",
         "Farmers Daughter": "Farmer's Daughter",
         "Farmers Wife": "Farmer's Wife",
@@ -34,29 +34,38 @@ function correctOccupationComplete(occupation) {
         "Farmers Labourer": "Farmer's Labourer",
         "Farmers Assistant": "Farmer's Assistant",
         "Farmers Daughter in Law": "Farmer's Daughter in Law",
+        "Farmers Son in Law": "Farmer's Son in Law",
+        "Farmers Grand Son": "Farmer's Grandson",
+        "Farmers Grand Daughter": "Farmer's Granddaughter",
         "Farmers Daught": "Farmer's Daughter",
         "Drapers Apprentice": "Draper's Apprentice",
         "Grocers Apprentice": "Grocer's Apprentice",
         "Grocers Porter": "Grocer's Porter",
         "Solicitors Clerk": "Solicitor's Clerk",
         "Masons Labourer": "Mason's Labourer",
-
         "Labourers Wife": "Labourer's Wife",
         "Labourers Daughter": "Labourer's Daughter",
         "Labourers Son": "Labourer's Son",
         "Labourers Widow": "Labourer's Widow",
         "Labourer Wife": "Labourer's Wife",
         "Labourer Son": "Labourer's Son",
-
+        "Labourer Daughter": "Labourer's Daughter",
         "Blacksmiths Assistant": "Blacksmith's Assistant",
         "Butchers Assistant": "Butcher's Assistant",
+        "Butchers Porter": "Butcher's Porter",
         "Tailors Assistant": "Tailor's Assistant",
         "Shoemakers Assistant": "Shoemaker's Assistant",
         "Carpenters Assistant": "Carpenter's Assistant",
+        "Carpenters Apprentice": "Carpenter's Apprentice",
         "Drapers Assistant": "Draper's Assistant",
+        "Drapers Porter": "Draper's Porter",
+        "Drapers Clerk": "Draper's Clerk",
         "Grocers Assistant": "Grocer's Assistant",
         "Bakers Assistant": "Baker's Assistant",
         "Soldiers Wife": "Soldier's Wife",
+        "Builders Labourer": "Builder's Labourer",
+        "Builder Labourer": "Builder's Labourer",
+        "Chemists Assistant": "Chemist's Assistant",
         "Policemans Son": "Policeman's Son",
         "Policemans Wife": "Policeman's Wife",
         "Teachers Daughter": "Teacher's Daughter",
@@ -105,13 +114,18 @@ function correctOccupationComplete(occupation) {
         "Labrs Wife": "Labourer's Wife",
         "Childrens Maid": "Children's Maid",
 
-        // Combine compound words
+        // Compound words (keep Dealer, Woman, etc. as separate words typically)
         "House Keeper": "Housekeeper",
+        "General House Keeper": "General Housekeeper",
+        "Domestic House Keeper": "Domestic Housekeeper",
+        "Retired House Keeper": "Retired Housekeeper",
         "House Keeper at Home": "Housekeeper at Home",
         "Box Maker": "Boxmaker",
         "Brush Maker": "Brushmaker",
         "Boot Maker": "Bootmaker",
         "Shop Keeper": "Shopkeeper",
+        "Assistant Shop Keeper": "Assistant Shopkeeper",
+        "Retired Shop Keeper": "Retired Shopkeeper",
         "Shop Keeper and Farmer": "Shopkeeper and Farmer",
         "Watch Maker": "Watchmaker",
         "Store Keeper": "Storekeeper",
@@ -165,9 +179,12 @@ function correctOccupationComplete(occupation) {
         "House Wife": "Housewife",
         "Farms Servant": "Farm Servant",
         "Paper Maker": "Papermaker",
-        "Boat Builder": "Boat Builder",  // Keep as is
+        "Boat Builder": "Boat Builder",
 
-        // Servants - COMPLETE
+        // Note: "Coal Dealer", "Egg Dealer", "Cattle Dealer", "Tea Dealer" etc. remain as is
+        // "Dairy Woman" remains as is - these are standard forms
+
+        // Servant variations
         "General Servant Domestic": "General Domestic Servant",
         "Domestic General Servant": "General Domestic Servant",
         "General Servant, Domestic": "General Domestic Servant",
@@ -178,10 +195,12 @@ function correctOccupationComplete(occupation) {
         "Gen Servant Domestic": "General Domestic Servant",
         "G Servant Domestic": "General Domestic Servant",
         "Servant Domestic": "Domestic Servant",
+        "Domestic Servant Cook": "Cook Domestic Servant",
         "Servant (Domestic)": "Domestic Servant",
         "Domestic Servt": "Domestic Servant",
         "Dom Servant": "Domestic Servant",
         "D Servant": "Domestic Servant",
+        "Genl. Servant Domestic": "General Domestic Servant",
         "Domestic Servent": "Domestic Servant",
         "Domestic Serveant": "Domestic Servant",
         "Domestick Servant": "Domestic Servant",
@@ -190,12 +209,18 @@ function correctOccupationComplete(occupation) {
         "General Servent": "General Servant",
         "Genl Servt Domestic": "General Domestic Servant",
         "General Domestic Servt": "General Domestic Servant",
+        "General Servt. Domestic": "General Domestic Servant",
+        "Housemaid Domestic Servt": "Housemaid Domestic Servant",
+        "Coachman Domestic Servt": "Coachman Domestic Servant",
+        "Gardener Domestic Servt": "Gardener Domestic Servant",
         "Farm Servt": "Farm Servant",
         "Nurse Domestic Servt": "Nurse Domestic Servant",
         "Cook Domestic Servt": "Cook Domestic Servant",
         "Domestic Servant House Maid": "Housemaid Domestic Servant",
         "Genl Servant": "General Servant",
         "General Servt": "General Servant",
+        "Gen Servant": "General Servant",
+        "Genl Domestic Servant": "General Domestic Servant",
 
         // American to British spelling
         "Agricultural Laborer": "Agricultural Labourer",
@@ -309,6 +334,12 @@ function correctOccupationComplete(occupation) {
         "Labouring": "Labourer",
         "Labrourer": "Labourer",
         "Laburer": "Labourer",
+        "Genl Laborer": "General Labourer",
+
+        // Order corrections
+        "Labourer Agr": "Agricultural Labourer",
+        "Labourer Brewery": "Brewery Labourer",
+        "Labourer Ship Yard": "Ship Yard Labourer",
 
         // Abbreviations
         "Agl Labourer": "Agricultural Labourer",
@@ -340,6 +371,7 @@ function correctOccupationComplete(occupation) {
         "Agricultl Labourer": "Agricultural Labourer",
         "Agricultur Labourer": "Agricultural Labourer",
         "Genl Labourer": "General Labourer",
+        "Genl. Labourer": "General Labourer",
         "Gen Labourer": "General Labourer",
         "G Labourer": "General Labourer",
         "Gl Labourer": "General Labourer",
@@ -368,6 +400,9 @@ function correctOccupationComplete(occupation) {
         "R C Clergyman": "Roman Catholic Clergyman",
         "R.C. Clergyman": "Roman Catholic Clergyman",
         "RC Clergyman": "Roman Catholic Clergyman",
+
+        "Pensioner R.I.C.": "R.I.C. Pensioner",
+        "Pensioner R.I.C": "R.I.C. Pensioner",
 
         // Other corrections
         "Coalminer": "Coal Miner",
@@ -410,21 +445,8 @@ function correctOccupationComplete(occupation) {
     return corrected;
 }
 
-// Process batch 2 with complete corrections
-const batch2Data = parsedData.data.slice(500, 1000);
-const processedBatch2 = batch2Data.map((row, index) => ({
+// Process batch 3 with final corrections
+const batch3Data = parsedData.data.slice(1000, 1500);
+const processedBatch3 = batch3Data.map((row, index) => ({
     occupation: row.occupation,
     count: row.count,
-    corrected_occupation: correctOccupationComplete(row.occupation)
-}));
-
-// Convert to CSV
-const batch2CSV = Papa.unparse(processedBatch2);
-
-console.log("BATCH 2 COMPLETE WITH ALL CORRECTIONS");
-console.log("Total records: " + processedBatch2.length);
-console.log("First record: #501 - " + processedBatch2[0].occupation);
-console.log("Last record: #1000 - " + processedBatch2[499].occupation);
-
-// Output complete CSV
-console.log(batch2CSV);
