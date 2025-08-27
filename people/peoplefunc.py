@@ -211,19 +211,28 @@ def processBirthplace(censusYear,dicBir, df_census):
 
     return df_census
 
-def processOccupation(censusYear,dicOcc, df_census):
+def processOccupation(censusYear,dicClaude, df_census):
     print(censusYear + " Census Filtering Occupation")
-    df_census['birthplace'] = df_census['occupation'].fillna('Unknown')
+    df_census['occupation'] = df_census['occupation'].fillna('Unknown')
     print(censusYear + " Census Count = " + str(df_census.shape[0]))
 
     #print(censusYear + " Census Filtering Out Occupations With ?")
     #df_census = df_census[~df_census["occupation"].str.contains("?", regex=False)]
     #print(censusYear + " Census Count = " + str(df_census.shape[0]))
+    print(censusYear + " Census Sanitising Occupation - Regex Pass")
 
-    print(censusYear + " Census Sanitising Occupation")
-    df_census['occupationTmp'] = df_census['occupation'].replace(dicOcc).astype('string')
+    def occupation_fn(name:str) -> str:
+        trimmed = name.replace('[','').replace(']','').replace('(','').replace(')','').replace('{','').replace('}','').replace('"','').replace('-',' ')
+        return re.sub("\s\s+", " ", trimmed)
+
+    df_census['occupationSan'] = df_census['occupation'].astype('string').apply(occupation_fn)
+
+    print(censusYear + " Census Sanitising Occupation - Claude Pass")
+    df_census['occupationClaude'] = df_census['occupationSan'].replace(dicClaude).astype('string')
     #df_census = df_census[df_census['birthCountry'].notnull()]
     print(censusYear + " Census Count = " + str(df_census.shape[0]))
+
+
 
     return df_census
 
