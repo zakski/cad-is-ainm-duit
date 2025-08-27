@@ -27,6 +27,7 @@ dicBirth1901Name = os.path.join(dirDictionary1901name, 'ire_birth_country_1901.c
 dicBirth1901NoExName = os.path.join(dirDictionary1901name, 'ire_birth_country_1901_nonExhaust.csv')
 dicOcc1901Name = os.path.join(dirDictionary1901name, 'ire_occupation_1901.csv')
 dicOcc1901NoExName = os.path.join(dirDictionary1901name, 'ire_occupation_1901_nonExhaust.csv')
+dicOcc1901ClaudeName = os.path.join(dirDictionary1901name, 'ire_occupation_Claude_1901.csv')
 
 # 1901 Census File Read
 dir1901name = os.path.join(rootDirName, Path('../data/data/census/ireland/1901/'))
@@ -94,13 +95,10 @@ dicBirth = (pd.read_csv(dicBirth1901NoExName,names=['original','mapped'],dtype={
           .to_dict())['mapped']
 df1901 = func.processBirthplace('1901',dicBirth,df1901)
 
-#print("1901 Census Occupation Standardisation")
-# Use Non Exhaust to convert errors to NaNs
-#dicLang = (pd.read_csv(dicLang1901name,names=['original','languages'],dtype={'original':'string','languages':'string'},index_col='original')
-#          .to_dict())
-#dicOcc = (pd.read_csv(dicOcc1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
-#          .to_dict())['mapped']
-#df1901 = func.processOccupation('1901',dicOcc,df1901)
+print("1901 Census Occupation Standardisation")
+dicOcc = (pd.read_csv(dicOcc1901ClaudeName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
+          .to_dict())['mapped']
+df1901 = func.processOccupation('1901',dicOcc,df1901)
 
 print("1901 Census First Name Matching")
 bcenter = names.readBCenterNames()
@@ -134,7 +132,7 @@ df1901.to_csv(file1901Name, index=False)
 func.writeFields(resultsDirName,'ire','1901',df1901)
 
 # Write Chunks
-func.writeChunks(resultsDirName,'ire','1901',5000,'occupation',df1901)
+#func.writeChunks(resultsDirName,'ire','1901',5000,'occupation',df1901)
 
 #print('Writing ire_occupationTmp_AZ_1901.csv'.format(name=name))
 #df1901['occupationTmp'].value_counts().reset_index().sort_values(['occupationTmp','count'],ascending=[True,False]).to_csv(os.path.join(resultsDirName, 'ire_occupationTmp_AZ_1901.csv'.format(name=name)), index=False)
