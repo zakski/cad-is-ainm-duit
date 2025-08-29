@@ -25,6 +25,9 @@ dicRel1901Name = os.path.join(dirDictionary1901name, 'ire_religion_1901.csv')
 dicRel1901NoExName = os.path.join(dirDictionary1901name, 'ire_religion_1901_nonExhaust.csv')
 dicBirth1901Name = os.path.join(dirDictionary1901name, 'ire_birth_country_1901.csv')
 dicBirth1901NoExName = os.path.join(dirDictionary1901name, 'ire_birth_country_1901_nonExhaust.csv')
+dicOcc1901Name = os.path.join(dirDictionary1901name, 'ire_occupation_1901.csv')
+dicOcc1901NoExName = os.path.join(dirDictionary1901name, 'ire_occupation_1901_nonExhaust.csv')
+dicOcc1901ClaudeName = os.path.join(dirDictionary1901name, 'ire_occupation_Claude_1901.csv')
 
 # 1901 Census File Read
 dir1901name = os.path.join(rootDirName, Path('../data/data/census/ireland/1901/'))
@@ -109,15 +112,15 @@ os.makedirs(resultsDirName, exist_ok=True)
 # 1901 Census Write Results
 print("1901 Census Intermediate Results")
 df1901.to_csv(file1901InterName, index=False)
-
-for name, values in df1901.items():
-    print('Writing ire_{name}_1901.csv'.format(name=name))
-    df1901[name].value_counts().reset_index().to_csv(os.path.join(resultsInterDirName, 'ire_{name}_1901.csv'.format(name=name)), index=False)
+func.writeFields(resultsInterDirName,'ire','1901',df1901)
 
 print("1901 Census Final Results")
 df1901.drop(['DED', 'firstName_1','firstName_2', 'firstName_3', 'firstName_4', 'firstName_5', 'firstName_6', 'house', 'languages', 'languagesSan', 'literacy', 'literacySan', 'religion', 'surname_1','surname_2', 'surname_3', 'surname_4', 'surname_5', 'name', 'surname', 'surnameSan', 'townlandOrStreet','birthplace'], axis=1, inplace=True)
 df1901.to_csv(file1901Name, index=False)
+func.writeFields(resultsDirName,'ire','1901',df1901)
 
-for name, values in df1901.items():
-    print('Writing ire_{name}_1901.csv'.format(name=name))
-    df1901[name].value_counts().reset_index().to_csv(os.path.join(resultsDirName, 'ire_{name}_1901.csv'.format(name=name)), index=False)
+# Write Chunks
+#func.writeChunks(resultsDirName,'ire','1901',5000,'occupationClaude',df1901)
+
+#print('Writing ire_occupationTmp_AZ_1901.csv'.format(name=name))
+#df1901['occupationTmp'].value_counts().reset_index().sort_values(['occupationTmp','count'],ascending=[True,False]).to_csv(os.path.join(resultsDirName, 'ire_occupationTmp_AZ_1901.csv'.format(name=name)), index=False)
