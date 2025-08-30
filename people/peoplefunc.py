@@ -244,7 +244,25 @@ def processOccupation(censusYear,dicClaude, df_census):
     #df_census = df_census[df_census['birthCountry'].notnull()]
     print(censusYear + " Census Count = " + str(df_census.shape[0]))
 
+    return df_census
 
+def processAge(censusYear, df_census):
+    print(censusYear + " Census Bucketing Ages")
+    df_census['age'] = df_census['age'].astype('Int64')
+
+    df_census.loc[df_census['age'].between(0, 5, 'both'), 'ageBucket'] = '0-5'
+    df_census.loc[df_census['age'].between(5, 12, 'right'), 'ageBucket'] = '6-12'
+    df_census.loc[df_census['age'].between(12, 18, 'right'), 'ageBucket'] = '13-18'
+    df_census.loc[df_census['age'].between(18, 21, 'right'), 'ageBucket'] = '19-21'
+    df_census.loc[df_census['age'].between(21, 29, 'right'), 'ageBucket'] = '22-29'
+    df_census.loc[df_census['age'].between(29, 39, 'right'), 'ageBucket'] = '30-39'
+    df_census.loc[df_census['age'].between(40, 49, 'right'), 'ageBucket'] = '40-49'
+    df_census.loc[df_census['age'].between(39, 59, 'right'), 'ageBucket'] = '50-59'
+    df_census.loc[df_census['age'].between(59, 69, 'right'), 'ageBucket'] = '60-69'
+    df_census.loc[df_census['age'].between(69, 79, 'right'), 'ageBucket'] = '70-79'
+    df_census.loc[df_census['age'].between(79, 89, 'right'), 'ageBucket'] = '80-89'
+    df_census.loc[df_census['age'].between(89, 99, 'right'), 'ageBucket'] = '90-99'
+    df_census.loc[df_census['age'].between(99, 1000, 'right'), 'ageBucket'] = '100+'
 
     return df_census
 

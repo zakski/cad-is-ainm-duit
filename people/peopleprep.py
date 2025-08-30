@@ -10,32 +10,8 @@ import peopleconst as const
 import peoplefunc as func
 import namePrep as names
 
-# Relative to This File
-rootDirName = os.path.dirname(__file__)
-resultsInterDirName = os.path.join(rootDirName, Path('../results_intermediate'))
-resultsDirName = os.path.join(rootDirName, Path('../results'))
-
-# 1901 Dictionary File Read
-dirDictionary1901name = os.path.join(rootDirName, Path('../data/dict/census/ireland/'))
-dicLang1901name = os.path.join(dirDictionary1901name, 'ire_lang_1901.csv')
-dicLang1901NoExName = os.path.join(dirDictionary1901name, 'ire_lang_1901_nonExhaust.csv')
-dicLit1901name = os.path.join(dirDictionary1901name, 'ire_literacy_1901.csv')
-dicLit1901NoExName = os.path.join(dirDictionary1901name, 'ire_literacy_1901_nonExhaust.csv')
-dicRel1901Name = os.path.join(dirDictionary1901name, 'ire_religion_1901.csv')
-dicRel1901NoExName = os.path.join(dirDictionary1901name, 'ire_religion_1901_nonExhaust.csv')
-dicBirth1901Name = os.path.join(dirDictionary1901name, 'ire_birth_country_1901.csv')
-dicBirth1901NoExName = os.path.join(dirDictionary1901name, 'ire_birth_country_1901_nonExhaust.csv')
-dicOcc1901Name = os.path.join(dirDictionary1901name, 'ire_occupation_1901.csv')
-dicOcc1901NoExName = os.path.join(dirDictionary1901name, 'ire_occupation_1901_nonExhaust.csv')
-dicOcc1901ClaudeName = os.path.join(dirDictionary1901name, 'ire_occupation_Claude_1901.csv')
-
-# 1901 Census File Read
-dir1901name = os.path.join(rootDirName, Path('../data/data/census/ireland/1901/'))
-file1901InterName = os.path.join(resultsInterDirName, 'ire_census_1901.csv')
-file1901Name = os.path.join(resultsDirName, 'ire_census_1901.csv')
-
-print('Load From Base Census Path: ' + dir1901name)
-df1901 = func.readCensus(dir1901name,const.header1901,const.types1901)
+print('Load From Base Census Path: ' + const.dir1901name)
+df1901 = func.readCensus(const.dir1901name,const.header1901,const.types1901)
 
 # 1901 Census Data Integrity Check
 print("1901 Census Count = " + str(df1901.shape[0]))
@@ -67,7 +43,7 @@ print("1901 Census Processing Literacy")
 # Use Non Exhaust to convert errors to NaNs
 #dicLang = (pd.read_csv(dicLang1901name,names=['original','languages'],dtype={'original':'string','languages':'string'},index_col='original')
 #          .to_dict())
-dicLit = (pd.read_csv(dicLit1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
+dicLit = (pd.read_csv(const.dicLit1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
           .to_dict())['mapped']
 df1901 = func.processLiteracy('1901',dicLit,df1901)
 
@@ -75,7 +51,7 @@ print("1901 Census Processing Languages")
 # Use Non Exhaust to convert errors to NaNs
 #dicLang = (pd.read_csv(dicLang1901name,names=['original','languages'],dtype={'original':'string','languages':'string'},index_col='original')
 #          .to_dict())
-dicLang = (pd.read_csv(dicLang1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
+dicLang = (pd.read_csv(const.dicLang1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
            .to_dict())['mapped']
 df1901 = func.processLanguages('1901',dicLang,df1901)
 
@@ -83,7 +59,7 @@ print("1901 Census Religion Standardisation")
 # Use Non Exhaust to convert errors to NaNs
 #dicLang = (pd.read_csv(dicLang1901name,names=['original','languages'],dtype={'original':'string','languages':'string'},index_col='original')
 #          .to_dict())
-dicRel = (pd.read_csv(dicRel1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
+dicRel = (pd.read_csv(const.dicRel1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
           .to_dict())['mapped']
 df1901 = func.processReligion('1901',dicRel,df1901)
 
@@ -91,9 +67,12 @@ print("1901 Census Birthplace Standardisation")
 # Use Non Exhaust to convert errors to NaNs
 #dicLang = (pd.read_csv(dicLang1901name,names=['original','languages'],dtype={'original':'string','languages':'string'},index_col='original')
 #          .to_dict())
-dicBirth = (pd.read_csv(dicBirth1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
+dicBirth = (pd.read_csv(const.dicBirth1901NoExName,names=['original','mapped'],dtype={'original':'string','mapped':'string'},index_col='original')
           .to_dict())['mapped']
 df1901 = func.processBirthplace('1901',dicBirth,df1901)
+
+print("1901 Census Age Standardisation")
+df1901 = func.processAge('1901',df1901)
 
 print("1901 Census First Name Matching")
 bcenter = names.readBCenterNames()
@@ -104,21 +83,21 @@ behindNames = names.readBehindNames()
 df1901['nameBehindMatch'] =  df1901[['firstNameCap','gender']].apply(tuple, axis=1).isin(behindNames[['nameCap','gender']].apply(tuple, axis=1))
 df1901['nameMatch'] =  df1901[['nameBCenterMatch','nameBWizMatch','nameBehindMatch']].sum(axis=1) >= 2
 
-os.makedirs(resultsInterDirName, exist_ok=True)
-os.makedirs(resultsDirName, exist_ok=True)
+os.makedirs(const.resultsInterDirName, exist_ok=True)
+os.makedirs(const.resultsDirName, exist_ok=True)
 
 # 1901 Census Write Results
 print("1901 Census Intermediate Results")
 df1901.info(verbose=True)
-df1901.to_csv(file1901InterName, index=False)
-func.writeFields(resultsInterDirName,'ire','1901',df1901)
+df1901.to_csv(const.file1901InterName, index=False)
+func.writeFields(const.resultsInterDirName,'ire','1901',df1901)
 
 print("1901 Census Final Results")
 
-df1901 = df1901[['surnameFiltered', 'firstNameFiltered', 'gender','age','married', 'surnameCap', 'firstNameCap', 'surnameSoundex', 'firstNameSoundex','firstNamesLength', 'nameBCenterMatch','nameBWizMatch','nameBehindMatch','nameMatch', 'birthCountry','county','occupation','lit_read','lit_write', 'lit_unknown' , 'religionSan', 'lang_arabic','lang_austrian','lang_broke-eng','lang_broke-ire','lang_broke-sco','lang_carney','lang_chinese','lang_dutch','lang_english','lang_flemish','lang_french','lang_german','lang_greek','lang_gujarati','lang_hebrew','lang_hindustani','lang_irish','lang_italian','lang_latin','lang_manx','lang_norwegian','lang_russian','lang_scotch','lang_spanish','lang_swedish','lang_swiss-french','lang_telugu','lang_unknown','lang_welsh','lang_yankey','lang_yiddish']]
+df1901 = df1901[['surnameFiltered', 'firstNameFiltered', 'gender','ageBucket','married', 'surnameCap', 'firstNameCap', 'surnameSoundex', 'firstNameSoundex','firstNamesLength', 'nameBCenterMatch','nameBWizMatch','nameBehindMatch','nameMatch', 'birthCountry','county','occupation','lit_read','lit_write', 'lit_unknown' , 'religionSan', 'lang_arabic','lang_austrian','lang_broke-eng','lang_broke-ire','lang_broke-sco','lang_carney','lang_chinese','lang_dutch','lang_english','lang_flemish','lang_french','lang_german','lang_greek','lang_gujarati','lang_hebrew','lang_hindustani','lang_irish','lang_italian','lang_latin','lang_manx','lang_norwegian','lang_russian','lang_scotch','lang_spanish','lang_swedish','lang_swiss-french','lang_telugu','lang_unknown','lang_welsh','lang_yankey','lang_yiddish']]
 df1901.info(verbose=True)
-df1901.to_csv(file1901Name, index=False)
-func.writeFields(resultsDirName,'ire','1901',df1901)
+df1901.to_csv(const.file1901Name, index=False)
+func.writeFields(const.resultsDirName,'ire','1901',df1901)
 
 # Write Chunks
 #func.writeChunks(resultsDirName,'ire','1901',5000,'occupationClaude',df1901)
