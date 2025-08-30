@@ -266,6 +266,18 @@ def processAge(censusYear, df_census):
 
     return df_census
 
+def processMarriage(censusYear,dicMarr, df_census):
+    print(censusYear + " Census Filtering Marriage")
+    df_census['married'] = df_census['married'].fillna('Unknown')
+    print(censusYear + " Census Count = " + str(df_census.shape[0]))
+
+    print(censusYear + " Census Sanitising Marriage")
+    df_census['marriageFiltered'] = df_census['married'].map(dicMarr).astype('string')
+    df_census = df_census[df_census['marriageFiltered'].notnull()]
+    print(censusYear + " Census Count = " + str(df_census.shape[0]))
+
+    return df_census
+
 def writeChunks(parentPath, filePrefix, censusYear, chunkSize, fieldName, df_census):
     print(censusYear + " Census Chunking " + fieldName + " into chunks of size " +  str(chunkSize))
     toChunk = df_census[fieldName].value_counts().reset_index().sort_values(['count',fieldName],ascending=[False,True])

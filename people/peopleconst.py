@@ -40,6 +40,15 @@ resultsDirName = os.path.join(rootDirName, Path('../results'))
 # 1901 Census Final Results File
 file1901Name = os.path.join(resultsDirName, 'ire_census_1901.csv')
 
+# First Name Debugging Results Dir Relative to This File
+firstNamesDirName = os.path.join(rootDirName, Path('../results_firstDebug'))
+# 1901 Census First Name Results File
+firstNames1901Name = os.path.join(firstNamesDirName, 'ire_firstNameDebug_1901.csv')
+firstNames1901FreqName = os.path.join(firstNamesDirName, 'ire_firstNameFreqDebug_1901.csv')
+
+
+
+
 # Irish Census Dictionary Dir Constants
 dirDictionary1901name = os.path.join(rootDirName, Path('../data/dict/census/ireland/'))
 
@@ -60,3 +69,5 @@ dicBirth1901NoExName = os.path.join(dirDictionary1901name, 'ire_birth_country_19
 dicOcc1901Name = os.path.join(dirDictionary1901name, 'ire_occupation_1901.csv')
 dicOcc1901NoExName = os.path.join(dirDictionary1901name, 'ire_occupation_1901_nonExhaust.csv')
 dicOcc1901ClaudeName = os.path.join(dirDictionary1901name, 'ire_occupation_Claude_1901.csv')
+# Marriage
+dicMarried1901Name = os.path.join(dirDictionary1901name, 'ire_married_1901.csv')
