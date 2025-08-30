@@ -4,6 +4,8 @@ import regex as re
 import glob
 import os
 
+import phoentic as pho
+
 from sklearn.preprocessing import MultiLabelBinarizer
 
 
@@ -41,7 +43,7 @@ def sanitiseSurnames(df_census):
             else:
                 return name
 
-    df_census['surnameSan'] = df_census['surname'].apply(name_fn)
+    df_census['surnameSan'] = df_census['surname'].apply(name_fn).astype('string')
     df_census = df_census.join(df_census['surnameSan'].str.split(expand = True).add_prefix('surname_').fillna(''))
     # df_census['surname'].str.split(" ", expand=False)
 
@@ -59,12 +61,18 @@ def processSurnames(censusYear,df_census):
 
     df_census.rename(columns={"surname_0": "surnameFiltered"}, inplace=True)
 
+    df_census["surnameFiltered"] = df_census["surnameFiltered"].astype('string')
+
     print(censusYear + " Census Filtering Out Surnames With ?")
     df_census = df_census[~df_census["surnameFiltered"].str.contains("?", regex=False)]
     print(censusYear + " Census Count = " + str(df_census.shape[0]))
 
     print(censusYear + " Census Capitalising Surnames")
     df_census['surnameCap'] = df_census.surnameFiltered.str.upper()
+    print(censusYear + " Census Count = " + str(df_census.shape[0]))
+
+    print(censusYear + " Census Soundex Surnames")
+    df_census['surnameSoundex'] = df_census['surnameFiltered'].apply(pho.soundex)
     print(censusYear + " Census Count = " + str(df_census.shape[0]))
 
     return df_census
@@ -86,7 +94,11 @@ def processFirstNames(censusYear,df_census):
     print(censusYear + " Census Count = " + str(df_census.shape[0]))
 
     print(censusYear + " Census Capitalising First Names")
-    df_census['nameCap'] = df_census.firstNameFiltered.str.upper()
+    df_census['firstNameCap'] = df_census.firstNameFiltered.str.upper()
+    print(censusYear + " Census Count = " + str(df_census.shape[0]))
+
+    print(censusYear + " Census Soundex First Names")
+    df_census['firstNameSoundex'] = df_census['firstNameFiltered'].apply(pho.soundex)
     print(censusYear + " Census Count = " + str(df_census.shape[0]))
 
     return df_census

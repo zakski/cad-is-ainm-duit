@@ -97,25 +97,26 @@ df1901 = func.processBirthplace('1901',dicBirth,df1901)
 
 print("1901 Census First Name Matching")
 bcenter = names.readBCenterNames()
-df1901['nameBCenterMatch'] =  df1901[['nameCap','gender']].apply(tuple, axis=1).isin(bcenter[['nameCap','gender']].apply(tuple, axis=1))
+df1901['nameBCenterMatch'] =  df1901[['firstNameCap','gender']].apply(tuple, axis=1).isin(bcenter[['nameCap','gender']].apply(tuple, axis=1))
 bwiz = names.readBWizardNames()
-df1901['nameBWizMatch'] =  df1901[['nameCap','gender']].apply(tuple, axis=1).isin(bwiz[['nameCap','gender']].apply(tuple, axis=1))
+df1901['nameBWizMatch'] =  df1901[['firstNameCap','gender']].apply(tuple, axis=1).isin(bwiz[['nameCap','gender']].apply(tuple, axis=1))
 behindNames = names.readBehindNames()
-df1901['nameBehindMatch'] =  df1901[['nameCap','gender']].apply(tuple, axis=1).isin(behindNames[['nameCap','gender']].apply(tuple, axis=1))
+df1901['nameBehindMatch'] =  df1901[['firstNameCap','gender']].apply(tuple, axis=1).isin(behindNames[['nameCap','gender']].apply(tuple, axis=1))
 df1901['nameMatch'] =  df1901[['nameBCenterMatch','nameBWizMatch','nameBehindMatch']].sum(axis=1) >= 2
-
-df1901.info(verbose=True)
 
 os.makedirs(resultsInterDirName, exist_ok=True)
 os.makedirs(resultsDirName, exist_ok=True)
 
 # 1901 Census Write Results
 print("1901 Census Intermediate Results")
+df1901.info(verbose=True)
 df1901.to_csv(file1901InterName, index=False)
 func.writeFields(resultsInterDirName,'ire','1901',df1901)
 
 print("1901 Census Final Results")
-df1901.drop(['DED', 'firstName_1','firstName_2', 'firstName_3', 'firstName_4', 'firstName_5', 'firstName_6', 'house', 'languages', 'languagesSan', 'literacy', 'literacySan', 'religion', 'surname_1','surname_2', 'surname_3', 'surname_4', 'surname_5', 'name', 'surname', 'surnameSan', 'townlandOrStreet','birthplace'], axis=1, inplace=True)
+
+df1901 = df1901[['surnameFiltered', 'firstNameFiltered', 'gender','age','married', 'surnameCap', 'firstNameCap', 'surnameSoundex', 'firstNameSoundex','firstNamesLength', 'nameBCenterMatch','nameBWizMatch','nameBehindMatch','nameMatch', 'birthCountry','county','occupation','lit_read','lit_write', 'lit_unknown' , 'religionSan', 'lang_arabic','lang_austrian','lang_broke-eng','lang_broke-ire','lang_broke-sco','lang_carney','lang_chinese','lang_dutch','lang_english','lang_flemish','lang_french','lang_german','lang_greek','lang_gujarati','lang_hebrew','lang_hindustani','lang_irish','lang_italian','lang_latin','lang_manx','lang_norwegian','lang_russian','lang_scotch','lang_spanish','lang_swedish','lang_swiss-french','lang_telugu','lang_unknown','lang_welsh','lang_yankey','lang_yiddish']]
+df1901.info(verbose=True)
 df1901.to_csv(file1901Name, index=False)
 func.writeFields(resultsDirName,'ire','1901',df1901)
 
