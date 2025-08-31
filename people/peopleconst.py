@@ -45,9 +45,26 @@ firstNamesDirName = os.path.join(rootDirName, Path('../results_firstDebug'))
 # 1901 Census First Name Results File
 firstNames1901Name = os.path.join(firstNamesDirName, 'ire_firstNameDebug_1901.csv')
 firstNames1901FreqName = os.path.join(firstNamesDirName, 'ire_firstNameFreqDebug_1901.csv')
+firstNamesFreqName = os.path.join(firstNamesDirName, 'firstNameFreqDebug_1901.csv')
 
 
+# Scottish Census Dictionary Dir Constants
+dirDictionaryScotName = os.path.join(rootDirName, Path('../data/data/census/scotland/common/'))
+dirDictionaryScotBoyName = os.path.join(dirDictionaryScotName, Path('./scotfirstnames-boys/'))
+dirDictionaryScotGirlsName = os.path.join(dirDictionaryScotName, Path('./scotfirstnames-girls/'))
 
+# North Census Dictionary Dir Constants
+dirDictionaryNornIreName = os.path.join(rootDirName, Path('../data/data/census/norire/common/'))
+dirDictionaryNornIreBoyName = os.path.join(dirDictionaryNornIreName, Path('./norirefirstnames-boys/'))
+dirDictionarynNornIreGirlsName = os.path.join(dirDictionaryNornIreName, Path('./norirefirstnames-girls/'))
+
+# England And Wales Census Dictionary Dir Constants
+dirDictionaryEngWalesName = os.path.join(rootDirName, Path('../data/data/census/engwales/common/'))
+dirDictionaryEngWalesBoyName = os.path.join(dirDictionaryEngWalesName, Path('./engwalesfirstnames-boys/'))
+dirDictionarynEngWalesGirlsName = os.path.join(dirDictionaryEngWalesName, Path('./engwalesfirstnames-girls/'))
+
+# Usa Census Dictionary Dir Constants
+dirDictionaryUsaName = os.path.join(rootDirName, Path('../data/data/census/us/names/'))
 
 # Irish Census Dictionary Dir Constants
 dirDictionary1901name = os.path.join(rootDirName, Path('../data/dict/census/ireland/'))
@@ -71,3 +88,8 @@ dicOcc1901NoExName = os.path.join(dirDictionary1901name, 'ire_occupation_1901_no
 dicOcc1901ClaudeName = os.path.join(dirDictionary1901name, 'ire_occupation_Claude_1901.csv')
 # Marriage
 dicMarried1901Name = os.path.join(dirDictionary1901name, 'ire_married_1901.csv')
+
+# Name Origin Dictionary File Constants
+bcenterFileName = os.path.join(rootDirName, Path('../data/dict/firstnames/babycenter.csv'))
+bwizFileName = os.path.join(rootDirName, Path('../data/dict/firstnames/babynamewizard.csv'))
+behindFileName = os.path.join(rootDirName, Path('../data/dict/firstnames/behindthename.csv'))

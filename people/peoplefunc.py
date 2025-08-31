@@ -9,7 +9,7 @@ import phoentic as pho
 from sklearn.preprocessing import MultiLabelBinarizer
 
 
-def readCensus(dirname, list_header, map_types):
+def readIrishCensus(dirname, list_header, map_types):
     dfList=[]
     for filename in glob.iglob(dirname + '/**/*.csv', recursive=True):
         print(filename)
@@ -278,6 +278,21 @@ def processMarriage(censusYear,dicMarr, df_census):
 
     return df_census
 
+def processFirstNameMatching(censusYear,bcenter, bwiz, behindNames, df_census):
+    print(censusYear + " Census Matching Names to Babycenter")
+    df_census['nameBCenterMatch'] =  df_census[['firstNameCap','gender']].apply(tuple, axis=1).isin(bcenter[['nameCap','gender']].apply(tuple, axis=1))
+
+    print(censusYear + " Census Matching Names to Babycenter")
+    df_census['nameBWizMatch'] =  df_census[['firstNameCap','gender']].apply(tuple, axis=1).isin(bwiz[['nameCap','gender']].apply(tuple, axis=1))
+
+    print(censusYear + " Census Matching Names to Babycenter")
+    df_census['nameBehindMatch'] =  df_census[['firstNameCap','gender']].apply(tuple, axis=1).isin(behindNames[['nameCap','gender']].apply(tuple, axis=1))
+
+    print(censusYear + " Census Matching Names Composite")
+    df_census['nameMatch'] =  df_census[['nameBCenterMatch','nameBWizMatch','nameBehindMatch']].sum(axis=1) >= 2
+
+    return df_census
+
 def writeChunks(parentPath, filePrefix, censusYear, chunkSize, fieldName, df_census):
     print(censusYear + " Census Chunking " + fieldName + " into chunks of size " +  str(chunkSize))
     toChunk = df_census[fieldName].value_counts().reset_index().sort_values(['count',fieldName],ascending=[False,True])
@@ -293,3 +308,9 @@ def writeFields(parentPath, filePrefix, censusYear, df_census):
         fileName = '{filePrefix}_{name}_{censusYear}.csv'.format(filePrefix=filePrefix,name=name,censusYear=censusYear)
         print('Writing {name}'.format(name=fileName))
         df_census[name].value_counts().reset_index().sort_values(['count',name],ascending=[False,True]).to_csv(os.path.join(parentPath,fileName), index=False)
+
+def writeGroups(parentPath, filePrefix, censusYear, grouping, df_census_grouped):
+    for name, group in df_census_grouped:
+        fileName = '{filePrefix}_{grouping}_{name}_{censusYear}.csv'.format(filePrefix=filePrefix,grouping=grouping,name=name,censusYear=censusYear)
+        print('Writing {name}'.format(name=fileName))
+        group.to_csv(os.path.join(parentPath,fileName), index=False)
