@@ -3,6 +3,7 @@ import regex as re
 import glob
 
 import peopleconst as const
+import phoentic as pho
 
 from pathlib import Path
 
@@ -227,7 +228,7 @@ def readUsaNamesFrequency(dirname, startYear,endYear):
     dfList=[]
 
     result = pd.DataFrame(columns=list_header).astype(map_types)
-    result.set_index(['name'], inplace=True)
+    result.set_index(['name','gender'], inplace=True)
 
     for filename in glob.iglob(dirname + '/**/*.txt', recursive=True):
         year = int(re.search(yearRegex,filename).group())
@@ -235,12 +236,15 @@ def readUsaNamesFrequency(dirname, startYear,endYear):
             print(filename)
             df = pd.read_csv(filename,names=list_header, dtype=map_types,index_col=False)
             df = df[df['name'].notnull()]
-            df.set_index(['name'], inplace=True)
+            df = df[df['gender'].notnull()]
+            df.set_index(['name','gender'], inplace=True)
             dfList.append(df)
 
     for yearDF in dfList:
-        result = result.add(yearDF)
+        result = result.add(yearDF, fill_value=0)
 
+    result.reset_index(inplace=True)
+    result.set_index(['name'], inplace=True)
     gender = {'F' : 1, 'M' : 0}
     result['gender'] = result['gender'].map(gender)#.astype('int64')
 
@@ -251,7 +255,7 @@ def readUsaFirstNamesFrequency(startYear,endYear):
     usa['name'] = usa['name'].str.upper()
     return usa
 
-def firstNamesFrequency():
+def readTheseIslandsFirstNamesFrequency():
     scot = readScottishFirstNamesFrequency(1974,2000)
     scot = scot[scot['frequency'] > 2]
     scot['name'] = scot['name'].str.upper()
@@ -271,7 +275,7 @@ def firstNamesFrequency():
     usaWWII = readUsaFirstNamesFrequency(1942,1945)
     usaPost = readUsaFirstNamesFrequency(1946,1954)
 
-    engWales = pd.merge(
+    names = pd.merge(
         pd.merge(
             pd.merge(
                 pd.merge(
@@ -294,12 +298,29 @@ def firstNamesFrequency():
             ),usaWWII,how='outer', left_on=['name', 'gender'], right_on=['name', 'gender'], suffixes=['', '_us_wwii']
         ),usaPost,how='outer', left_on=['name', 'gender'], right_on=['name', 'gender'], suffixes=['', '_us_post']
     )
-    engWales['frequency'] = engWales['frequency'].fillna(0)
-    engWales = engWales.astype({"frequency": int})
-    engWales['frequency_ew_new'] = engWales['frequency_ew_new'].fillna(0)
-    engWales['frequency_ni'] = engWales['frequency_ni'].fillna(0)
-    engWales['frequency_scot'] = engWales['frequency_scot'].fillna(0)
 
-    return engWales
+    names['frequency'] = names['frequency'].fillna(0)
+    names = names.astype({"frequency": int})
+    names['frequency_ew_new'] = names['frequency_ew_new'].fillna(0)
+    names['frequency_ni'] = names['frequency_ni'].fillna(0)
+    names['frequency_scot'] = names['frequency_scot'].fillna(0)
+    names['frequency_us_vic'] = names['frequency_us_vic'].fillna(0)
+    names['frequency_us_ed'] = names['frequency_us_ed'].fillna(0)
+    names['frequency_us_bs'] = names['frequency_us_bs'].fillna(0)
+    names['frequency_us_wwi'] = names['frequency_us_wwi'].fillna(0)
+    names['frequency_us_it'] = names['frequency_us_it'].fillna(0)
+    names['frequency_us_bsii'] = names['frequency_us_bsii'].fillna(0)
+    names['frequency_us_wwii'] = names['frequency_us_wwii'].fillna(0)
+    names['frequency_us_post'] = names['frequency_us_post'].fillna(0)
 
-# return engWalesOld.join(engWalesNew,how='outer',on=['name','gender'],lsuffix='_ew_old',rsuffix='_ew_new')#.join(scot,how='outer',on=['name','gender'],lsuffix='',rsuffix='_scot').join(ni,how='outer',on=['name','gender'],lsuffix='',rsuffix='_ni')
+    bcenter = readBCenterNames()
+    names['nameBCenterMatch'] =  names[['name','gender']].apply(tuple, axis=1).isin(bcenter[['nameCap','gender']].apply(tuple, axis=1))
+    bwiz = readBWizardNames()
+    names['nameBWizMatch'] =  names[['name','gender']].apply(tuple, axis=1).isin(bwiz[['nameCap','gender']].apply(tuple, axis=1))
+    behindNames = readBehindNames()
+    names['nameBehindMatch'] =  names[['name','gender']].apply(tuple, axis=1).isin(behindNames[['nameCap','gender']].apply(tuple, axis=1))
+    names['nameMatch'] =  names[['nameBCenterMatch','nameBWizMatch','nameBehindMatch']].sum(axis=1) >= 2
+
+    names['soundex'] = names['name'].apply(pho.soundex)
+
+    return names

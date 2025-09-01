@@ -312,5 +312,9 @@ def writeFields(parentPath, filePrefix, censusYear, df_census):
 def writeGroups(parentPath, filePrefix, censusYear, grouping, df_census_grouped):
     for name, group in df_census_grouped:
         fileName = '{filePrefix}_{grouping}_{name}_{censusYear}.csv'.format(filePrefix=filePrefix,grouping=grouping,name=name,censusYear=censusYear)
+        dirName = os.path.join(parentPath,'{grouping}_{name}'.format(grouping=grouping,name=name))
+        os.makedirs(dirName, exist_ok=True)
+
         print('Writing {name}'.format(name=fileName))
-        group.to_csv(os.path.join(parentPath,fileName), index=False)
+        group.to_csv(os.path.join(dirName,fileName), index=False)
+        writeFields(dirName,filePrefix,name,group)

@@ -15,11 +15,12 @@ os.makedirs(const.resultsInterDirName, exist_ok=True)
 os.makedirs(const.resultsDirName, exist_ok=True)
 os.makedirs(const.firstNamesDirName, exist_ok=True)
 
-print('Load From Base Census Path: ' + const.dir1901name)
-ni = names.firstNamesFrequency()
-ni.info(verbose=True)
-ni.to_csv(const.firstNamesFreqName, index=False)
+print('Load Compare Names')
+theseIslands = names.readTheseIslandsFirstNamesFrequency()
+theseIslands.info(verbose=True)
+theseIslands.to_csv(const.firstNamesCompareName, index=False)
 
+print('Load From Base Census Path: ' + const.dir1901name)
 df1901 = func.readIrishCensus(const.dir1901name,const.header1901,const.types1901)
 
 # 1901 Census Data Integrity Check
@@ -106,11 +107,14 @@ func.writeFields(const.resultsDirName,'ire','1901',df1901)
 
 
 print("1901 Census FName Results")
-
-fNameColumns = ['firstNameFiltered', 'firstNameCap', 'firstNameSoundex','firstNamesLength', 'gender','ageBucket','marriageFiltered', 'nameBCenterMatch','nameBWizMatch','nameBehindMatch','nameMatch', 'birthCountry','county','lit_read','lit_write', 'lit_unknown' , 'religionSan']
+fNameColumns = ['firstNameFiltered', 'firstNameCap', 'firstNameSoundex','firstNamesLength', 'gender','ageBucket','marriageFiltered', 'nameMatch', 'birthCountry','county','lit_read','lit_write', 'lit_unknown' , 'religionSan']
 #fNameColumns = ['firstNameFiltered', 'firstNameCap', 'firstNameSoundex','firstNamesLength', 'gender','ageBucket','married', 'nameBCenterMatch','nameBWizMatch','nameBehindMatch','nameMatch', 'birthCountry','county','occupation','lit_read','lit_write', 'lit_unknown' , 'religionSan']
+
 df1901FirstName = df1901[fNameColumns]
 df1901FirstName.to_csv(const.firstNames1901Name, index=False)
+
+pd.merge(df1901FirstName,theseIslands,how='outer', left_on=['firstNameCap', 'gender'], right_on=['name', 'gender'], suffixes=['ire_', 'other_']).to_csv(const.firstNamesCompareName2, index=False)
+
 df1901FirstNameFreq = df1901FirstName.groupby(by=fNameColumns).size().reset_index(name="frequency").sort_values(['frequency','firstNameFiltered'],ascending=[False,True])
 df1901FirstNameFreq.to_csv(const.firstNames1901FreqName, index=False)
 
@@ -118,11 +122,7 @@ df1901FirstNameSoundexFreq = df1901FirstNameFreq.groupby('firstNameSoundex')
 func.writeGroups(const.firstNamesDirName,'ire','1901','Soundex',df1901FirstNameSoundexFreq)
 
 df1901FirstNameMatch = df1901FirstName[df1901FirstName['nameMatch'] == True]
+df1901FirstNameMatch['firstNameCap'].value_counts().reset_index().sort_values(['count','firstNameCap'],ascending=[False,True]).to_csv(os.path.join(const.firstNamesDirName,'ire_matches_1901.csv'), index=False)
 
-df1901FirstNameMatch['firstNameCap'].value_counts().reset_index().sort_values(['count','firstNameCap'],ascending=[False,True]).to_csv(os.path.join(const.firstNamesDirName,'Matches.csv'), index=False)
-
-# Write Chunks
-#func.writeChunks(resultsDirName,'ire','1901',5000,'occupationClaude',df1901)
-
-#print('Writing ire_occupationTmp_AZ_1901.csv'.format(name=name))
-#df1901['occupationTmp'].value_counts().reset_index().sort_values(['occupationTmp','count'],ascending=[True,False]).to_csv(os.path.join(resultsDirName, 'ire_occupationTmp_AZ_1901.csv'.format(name=name)), index=False)
+df1901FirstNameNoMatch = df1901FirstName[df1901FirstName['nameMatch'] == False]
+df1901FirstNameNoMatch['firstNameCap'].value_counts().reset_index().sort_values(['count','firstNameCap'],ascending=[False,True]).to_csv(os.path.join(const.firstNamesDirName,'ire_nomatches_1901.csv'), index=False)
