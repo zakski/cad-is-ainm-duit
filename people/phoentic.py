@@ -1,4 +1,5 @@
 import regex as re
+import numpy
 
 # Character to Code map, this way for visibility
 soundexMap = {
@@ -32,6 +33,11 @@ soundexMap = {
 
 # A phonetic algorithm for indexing names by sound, as pronounced in English. Will have trouble with Irish Names that are not Anglicised.
 def soundex(input : str) -> str :
+    """
+    Computes the Levenshtein distance between the two strings.  Returns a tuple containing
+    the distance itself and also the entire matrix for further processing.
+    See: https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm
+    """
     # Defensive Checks
 
     # Null check
@@ -82,3 +88,53 @@ def soundex(input : str) -> str :
         output += '0' # Fill spaces with 0
 
     return output[:4]  # only return first 4 characters
+
+# Computes the Levenshtein distance between the two strings.  Returns a tuple containing the distance itself and also the entire matrix for further processing.
+def wagner_fisher(s: str, t: str):
+    m, n = len(s), len(t)
+    d = numpy.zeros(shape=(m + 1, n + 1), dtype='int32')
+
+    for i in range(1, m + 1):
+        d[i, 0] = i
+
+    for j in range(1, n + 1):
+        d[0, j] = j
+
+    for j in range(1, n + 1):
+        for i in range(1, m + 1):
+            if s[i - 1] == t[j - 1]:
+                substitutionCost = 0
+            else:
+                substitutionCost = 1
+
+            d[i, j] = min(d[i - 1, j] + 1, d[i, j - 1] + 1, d[i - 1, j - 1] + substitutionCost)
+
+    return d[m, n], d
+
+# Compute the edit operations required to get from string s to string t
+def edit_instructions(s: str, t: str):
+    distance, d = wagner_fisher(s, t)
+    m, n = len(s), len(t)
+    instructions = []
+
+    while m > 0 or n > 0:
+        deletion_score = d[m - 1, n] if m >= 1 else float('inf')
+        insertion_score = d[m, n - 1] if n >= 1 else float('inf')
+        substitution_or_noop_score = d[m - 1, n - 1] if m >= 1 and n >= 1 else float('inf')
+        smallest = min(deletion_score, insertion_score, substitution_or_noop_score)
+        if smallest == substitution_or_noop_score:
+            if d[m - 1, n - 1] < d[m, n]:
+                instructions.append('substitute "%s" with "%s" at position %d' % (s[m - 1], t[n - 1], n - 1))
+            m -= 1
+            n -= 1
+        elif smallest == deletion_score:
+            instructions.append('delete "%s" at position %d' % (s[m - 1], n))
+            m -= 1
+        elif smallest == insertion_score:
+            instructions.append('insert "%s" at position %d' % (t[n - 1], n - 1))
+            n -= 1
+
+    if distance != len(instructions):
+        raise Exception('Internal error')
+
+    return instructions[::-1]
