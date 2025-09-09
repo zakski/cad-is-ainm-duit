@@ -1,0 +1,35 @@
+level,comp_name_full,comp_name_short,organiser_name,association_name,competition_type,competition_format,home_and_away,venue_system,clubs,entry,quality,gender,victory,draw,loss,points_tiebreaker,promotion_teams,promotion_system,relegation_teams,relegation_system,format_start,format_end
+1,Football League,Football League,Football League,The Football Association,league,double round-robin,TRUE,by draw,12,invitation,professional,men,2,1,0,goal average,0,,4,election,1888,1890
+1,Football Alliance,Football Alliance,Football Alliance,The Football Association,league,double round-robin,TRUE,by draw,12,invitation,professional,men,2,1,0,goal average,0,,0,,1889,1891
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,10,invitation,both,men,2,1,0,goal average,0,,0,,1889,1889
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,8,invitation,both,men,2,1,0,goal average,0,,0,,1890,1890
+1,Football League,Football League,Football League,The Football Association,league,double round-robin,TRUE,by draw,14,invitation,professional,men,2,1,0,goal average,0,,4,election,1891,1891
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,9,invitation,both,men,2,1,0,goal average,0,,0,,1891,1891
+1,Football League 1st Division,1st Division,Football League,The Football Association,league,double round-robin,TRUE,by draw,16,invitation,professional,men,2,1,0,goal average,0,,3,test matches,1892,1894
+2,Football League 2nd Division,2nd Division,Football League,The Football Association,league,double round-robin,TRUE,by draw,12,invitation,professional,men,2,1,0,goal average,3,test matches,4,election,1892,1892
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,6,invitation,both,men,2,1,0,goal average,0,,0,,1892,1892
+2,Football League 2nd Division,2nd Division,Football League,The Football Association,league,double round-robin,TRUE,by draw,15,invitation,professional,men,2,1,0,goal average,3,test matches,4,election,1893,1893
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,8,invitation,both,men,2,1,0,goal average,0,,0,,1893,1893
+2,Football League 2nd Division,2nd Division,Football League,The Football Association,league,double round-robin,TRUE,by draw,16,invitation,professional,men,2,1,0,goal average,3,test matches,3,election,1894,1894
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,10,invitation,both,men,2,1,0,goal average,0,,0,,1894,1894
+1,Football League 1st Division,1st Division,Football League,The Football Association,league,double round-robin,TRUE,by draw,16,invitation,professional,men,2,1,0,goal average,0,,2,test matches,1895,1897
+2,Football League 2nd Division,2nd Division,Football League,The Football Association,league,double round-robin,TRUE,by draw,16,invitation,professional,men,2,1,0,goal average,2,test matches,3,election,1895,1897
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,9,invitation,both,men,2,1,0,goal average,0,,0,,1895,1895
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,10,invitation,both,men,2,1,0,goal average,0,,0,,1896,1896
+1,Northern Football League Division One,Division One,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,9,invitation,both,men,2,1,0,goal average,0,,0,,1897,1897
+2,Northern Football League Division Two,Division Two,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,7,invitation,both,men,2,1,0,goal average,0,,0,,1897,1897
+1,Football League 1st Division,1st Division,Football League,The Football Association,league,double round-robin,TRUE,by draw,18,invitation,professional,men,2,1,0,goal average,0,,2,relegation,1898,1904
+2,Football League 2nd Division,2nd Division,Football League,The Football Association,league,double round-robin,TRUE,by draw,18,invitation,professional,men,2,1,0,goal average,2,promotion,3,election,1898,1904
+1,Northern Football League Division One,Division One,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,9,invitation,both,men,2,1,0,goal average,0,,0,,1898,1899
+2,Northern Football League Division Two,Division Two,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,10,invitation,both,men,2,1,0,goal average,0,,0,,1898,1899
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,11,invitation,both,men,2,1,0,goal average,0,,0,,1900,1900
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,10,invitation,both,men,2,1,0,goal average,0,,0,,1901,1901
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,13,invitation,both,men,2,1,0,goal average,0,,0,,1902,1904
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,14,invitation,both,men,2,1,0,goal average,0,,0,,1905,1905
+1,Football League 1st Division,1st Division,Football League,The Football Association,league,double round-robin,TRUE,by draw,20,invitation,professional,men,2,1,0,goal average,0,,2,relegation,1905,1913
+2,Football League 2nd Division,2nd Division,Football League,The Football Association,league,double round-robin,TRUE,by draw,20,invitation,professional,men,2,1,0,goal average,2,promotion,3,election,1905,1907
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,12,invitation,amateur,men,2,1,0,goal average,0,,0,,1906,1912
+2,Football League 2nd Division,2nd Division,Football League,The Football Association,league,double round-robin,TRUE,by draw,20,invitation,professional,men,2,1,0,goal average,2,promotion,2,election,1908,1913
+1,Northern Football League,Northern Football League,Northern Football League,The Football Association,league,double round-robin,TRUE,by draw,13,invitation,amateur,men,2,1,0,goal average,0,,0,,1913,1914
+1,Football League 1st Division,1st Division,Football League,The Football Association,league,double round-robin,TRUE,by draw,20,invitation,professional,men,2,1,0,goal average,0,,1,relegation,1914,1914
+2,Football League 2nd Division,2nd Division,Football League,The Football Association,league,double round-robin,TRUE,by draw,20,invitation,professional,men,2,1,0,goal average,3,promotion,2,election,1914,1914

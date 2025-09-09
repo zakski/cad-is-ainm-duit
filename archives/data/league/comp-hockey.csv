@@ -1,0 +1,124 @@
+format_start,format_end,sport,competition_type,competition_tier,competition_name,division_name,clubs,entry_format,competition_format,has_competition_playoffs,uneven_team_format,draw_format,add_draw_format,match_format,finals_format,finals_draw_format,win,draw,loss,tiebreaker_title,promotion,promotion_format,relegation,relegation_format
+1929,1929,Ice Hockey,league,1,Southern League,,5,geography,double_round_robin_and_varsity,FALSE,none,none,none,single_leg,none,none,0,0,0,none,0,none,0,none
+1929,1929,Ice Hockey,league,1,Northern League,,5,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,0,0,0,none,0,none,0,none
+1929,1929,Ice Hockey,league,1,Scottish League,First Division,5,points_competition,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1929,1929,Ice Hockey,league,2,Scottish League,Second Division,5,points_competition,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1929,1929,Ice Hockey,cup,,Patton Cup,,3,league_champions,single_elimination,FALSE,bye_to_scottish_champion,none,none,single_leg,single_leg,none,0,0,0,none,0,none,0,none
+1929,1929,Ice Hockey,cup,,Mitchell Trophy,,10,league_participants,single_elimination,FALSE,first_round_bye_to_weaker_teams,replay,none,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1930,1930,Ice Hockey,league,1,Southern League,,5,geography,suspended,FALSE,none,none,none,single_leg,none,none,0,0,0,none,0,none,0,none
+1930,1930,Ice Hockey,league,1,Northern League,,5,geography,suspended,FALSE,none,none,none,single_leg,none,none,0,0,0,none,0,none,0,none
+1930,1931,Ice Hockey,league,1,Scottish League,,9,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1930,1930,Ice Hockey,cup,,Patton Cup,,3,league_champions,suspended,FALSE,none,none,none,single_leg,none,none,0,0,0,none,0,none,0,none
+1930,1931,Ice Hockey,cup,,Mitchell Trophy,,9,league_participants,single_elimination,FALSE,first_round_bye_to_weaker_teams,replay,none,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1931,1931,Ice Hockey,league,1,English League,,7,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1932,1932,Ice Hockey,league,1,English League,,6,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1932,1932,Ice Hockey,league,1,Scottish League,,8,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1932,1932,Ice Hockey,cup,,Mitchell Trophy,,8,league_participants,single_elimination,FALSE,none,replay,overtime,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1932,1932,Ice Hockey,cup,,President's Pucks,,8,league_participants,single_elimination,FALSE,none,replay,tie_title,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1933,1933,Ice Hockey,league,1,English League,,7,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1933,1933,Ice Hockey,league,1,Scottish League,,7,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1933,1933,Ice Hockey,cup,,Mitchell Trophy,,7,league_participants,single_elimination,FALSE,first_round_bye_to_random_team,replay,none,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1933,1933,Ice Hockey,cup,,President's Pucks,,7,league_participants,single_elimination,FALSE,first_round_bye_to_random_team,replay,none,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1934,1934,Ice Hockey,league,1,English League,,8,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1934,1934,Ice Hockey,league,1,Scottish League,,6,geography,triple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1934,1934,Ice Hockey,cup,,Mitchell Trophy,,6,league_participants,single_elimination,FALSE,first_round_bye_to_random_team,replay,none,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1934,1934,Ice Hockey,cup,,President's Pucks,,6,league_participants,single_elimination,FALSE,first_round_bye_to_random_team,replay,none,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1935,1936,Ice Hockey,league,1,Scottish League,,5,geography,quadruple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1935,1935,Ice Hockey,cup,,Mitchell Trophy,,5,league_participants,single_elimination,FALSE,first_round_bye_to_random_team,replay,none,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1935,1936,Ice Hockey,cup,,President's Pucks,,5,league_participants,single_elimination,FALSE,first_round_bye_to_random_team,replay,none,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1935,1935,Ice Hockey,league,1,English National League,,7,geography,quadruple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1936,1936,Ice Hockey,league,1,English National League,,11,geography,quadruple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1936,1936,Ice Hockey,cup,,English National Tournament,,11,league_participants,single_elimination,FALSE,round_bye_to_random_team,replay,none,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1936,1936,Ice Hockey,cup,,London Cup,,6,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1936,1936,Ice Hockey,cup,,Mitchell Trophy,,4,league_participants,single_elimination,FALSE,none,replay,none,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1937,1937,Ice Hockey,league,1,English National League,,7,geography,quadruple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1937,1937,Ice Hockey,cup,,English National Tournament,,7,league_participants,two_groups_top_two_in each_single_elimination,FALSE,none,replay,none,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1937,1937,Ice Hockey,cup,,London Cup,,8,geography,single_elimination,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1937,1938,Ice Hockey,league,1,Scottish National League,,6,geography,quintuple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1937,1938,Ice Hockey,cup,,Mitchell Trophy,,6,league_participants,single_elimination,FALSE,first_round_bye_to_random_team,replay,none,single_leg,single_leg,replay,0,0,0,none,0,none,0,none
+1937,1938,Ice Hockey,cup,,President's Pucks,,6,league_participants,single_elimination,FALSE,first_round_bye_to_random_team,replay,none,single_leg,two_legs,replay,0,0,0,none,0,none,0,none
+1938,1938,Ice Hockey,cup,,London Cup,,7,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1938,1938,Ice Hockey,league,1,English National League,,6,geography,sextuple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1939,1939,Ice Hockey,league,1,English National League,,5,geography,sextuple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1939,1939,Ice Hockey,league,1,Scottish National League,,6,geography,quintuple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1939,1939,Ice Hockey,cup,,Scottish Cup,,6,league_participants,best_losers_playoff_then_single_elimination,FALSE,none,replay,none,two_legs,two_legs,replay,0,0,0,none,0,none,0,none
+1939,1939,Ice Hockey,cup,,Simpson Trophy,,6,league_participants,best_losers_playoff_then_single_elimination,FALSE,none,replay or bye,none,two_legs,two_legs,replay or bye,0,0,0,none,0,none,0,none
+1939,1939,Ice Hockey,cup,,Coronation Cup,,6,league_participants,single_elimination,FALSE,first_round_bye_to_random_team,overtime,none,single_leg,single_leg,overtime,0,0,0,none,0,none,0,none
+1946,1947,Ice Hockey,league,1,English National League,,7,geography,sextuple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1946,1946,Ice Hockey,cup,,English National Tournament,,4,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1946,1946,Ice Hockey,cup,,English Autumn Cup,,4,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1946,1946,Ice Hockey,league,1,Scottish National League,,7,geography,quadruple_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none
+1946,1946,Ice Hockey,cup,,Scottish League Flag Competition,,7,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1946,1946,Ice Hockey,cup,,Canada Cup,,7,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1946,1946,Ice Hockey,cup,,Simpson Trophy,,7,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,0,0,0,none,0,none,0,none
+1947,1947,Ice Hockey,cup,,English National Tournament,,7,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1947,1947,Ice Hockey,cup,,English Autumn Cup,,6,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1947,1947,Ice Hockey,league,1,Scottish National League,Eastern Section,4,geography,nonuple_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none
+1947,1947,Ice Hockey,league,1,Scottish National League,Western Section,4,geography,nonuple_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none
+1947,1947,Ice Hockey,cup,,Scottish Cup,,8,league_participants,single_elimination,FALSE,none,none,none,two_legs,two_legs,none,0,0,0,none,0,none,0,none
+1947,1947,Ice Hockey,cup,,Simpson Trophy,,4,league_divisions_top_two,single_elimination,FALSE,none,none,none,two_legs,two_legs,none,0,0,0,none,0,none,0,none
+1947,1947,Ice Hockey,cup,,Canada Cup,,8,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1948,1948,Ice Hockey,league,1,English National League,,8,geography,quadruple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1948,1948,Ice Hockey,cup,,English Autumn Cup,,8,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1948,1948,Ice Hockey,cup,,English International Tournament,,8,league_participants_and_french_teams,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1948,1949,Ice Hockey,league,1,Scottish National League,,7,geography,quadruple_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none
+1948,1948,Ice Hockey,cup,,Scottish Cup,,7,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1948,1948,Ice Hockey,cup,,Simpson Trophy,,2,league_divisions_top_two,single_elimination,FALSE,none,none,none,two_legs,two_legs,none,0,0,0,none,0,none,0,none
+1948,1948,Ice Hockey,cup,,Canada Cup,,7,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1949,1949,Ice Hockey,league,1,English National League,,7,geography,quadruple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1949,1949,Ice Hockey,cup,,English Autumn Cup,,7,league_participants,sextuple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1949,1949,Ice Hockey,cup,,English National Tournament,,6,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1949,1951,Ice Hockey,cup,,Scottish Cup,,7,league_participants,single_elimination,FALSE,first_round_bye_to_random_team,overtime_then_replay,none,two_legs,two_legs,none,2,1,0,none,0,none,0,none
+1949,1951,Ice Hockey,cup,,Canada Cup,,7,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1950,1952,Ice Hockey,league,1,English National League,,6,geography,sextuple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1950,1951,Ice Hockey,league,1,Scottish National League,,7,geography,sextuple_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none
+1950,1952,Ice Hockey,cup,,English Autumn Cup,,6,league_participants,sextuple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1950,1951,Ice Hockey,cup,,Scottish Autumn Cup,,7,league_participants,double_round_robin,FALSE,none,none,none,single_leg,two_legs,replay,2,1,0,two_game_series,0,none,0,none
+1952,1952,Ice Hockey,league,1,Scottish National League,,8,geography,quadruple_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none
+1952,1952,Ice Hockey,cup,,Scottish Autumn Cup,,8,league_participants,double_round_robin,FALSE,none,none,none,single_leg,two_legs,replay,2,1,0,two_game_series,0,none,0,none
+1952,1952,Ice Hockey,cup,,Canada Cup,,8,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1953,1953,Ice Hockey,league,1,English National League,,5,geography,sextuple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1953,1953,Ice Hockey,cup,,English Autumn Cup,,5,league_participants,sextuple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1953,1953,Ice Hockey,league,1,Scottish National League,,7,geography,sextuple_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none
+1953,1953,Ice Hockey,cup,,Scottish Autumn Cup,,7,league_participants,double_round_robin,FALSE,none,none,none,single_leg,two_legs,replay,2,1,0,two_game_series,0,none,0,none
+1953,1953,Ice Hockey,cup,,Canada Cup,,7,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1953,1953,Ice Hockey,cup,,Scottish Cup,,7,league_participants,single_elimination,FALSE,first_round_bye_to_random_team,overtime_then_replay,none,two_legs,two_legs,none,2,1,0,none,0,none,0,none
+1954,1954,Ice Hockey,league,1,British National League,,12,geography,quadruple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1954,1954,Ice Hockey,cup,,Autumn Cup,,12,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1954,1954,Ice Hockey,cup,,London Cup,,4,geography,quadruple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1954,1954,Ice Hockey,cup,,Scottish Cup,,6,geography,single_elimination,FALSE,first_round_bye_to_random_team,overtime_then_replay,none,two_legs,two_legs,none,2,1,0,none,0,none,0,none
+1955,1957,Ice Hockey,league,1,British National League,,5,geography,octuple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1955,1959,Ice Hockey,cup,,Autumn Cup,,5,league_participants,sextuple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1958,1958,Ice Hockey,league,1,British National League,,4,geography,decuple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1959,1959,Ice Hockey,league,1,British National League,,5,geography,octuple_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none
+1962,1963,Ice Hockey,league,1,Scottish League,Group A,3,geography,quintuple_round_robin,TRUE,none,none,none,single_leg,single_leg,none,2,1,0,none,0,none,0,none
+1962,1962,Ice Hockey,league,1,Scottish League,Group B,5,geography,round_robin,TRUE,none,none,none,single_leg,single_leg,none,2,1,0,none,0,none,0,none
+1963,1963,Ice Hockey,league,1,Scottish League,Group B,3,geography,triple_round_robin,TRUE,none,none,none,single_leg,single_leg,none,2,1,0,none,0,none,0,none
+1964,1964,Ice Hockey,league,1,Scottish League,Group A,4,geography,sextuple_round_robin,TRUE,none,none,none,single_leg,single_leg,none,2,1,0,none,0,none,0,none
+1964,1964,Ice Hockey,league,1,Scottish League,Group B,2,geography,septuple_round_robin,TRUE,none,none,none,single_leg,single_leg,none,2,1,0,none,0,none,0,none
+1966,1966,Ice Hockey,league,1,Scottish League,,9,geography,quadruple_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1967,1968,Ice Hockey,league,1,Northern League,,6,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1967,1968,Ice Hockey,cup,,Spring Cup,,2,league_divisions_top_two,single_elimination,FALSE,none,none,none,two_legs,two_legs,none,0,0,0,none,0,none,0,none
+1967,1968,Ice Hockey,cup,,Autumn Cup,,6,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1969,1969,Ice Hockey,league,1,Northern League,,10,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1969,1969,Ice Hockey,cup,,Spring Cup,,2,league_divisions_top_two,single_elimination,FALSE,none,none,none,two_legs,two_legs,none,0,0,0,none,0,none,0,none
+1969,1969,Ice Hockey,cup,,Autumn Cup,,10,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1970,1970,Ice Hockey,league,1,Northern League,,6,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1970,1970,Ice Hockey,league,1,Southern League,,5,geography,round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1970,1970,Ice Hockey,cup,,Autumn Cup,,7,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1971,1971,Ice Hockey,league,1,Northern League,,8,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1971,1971,Ice Hockey,league,1,Southern League,,6,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1971,1971,Ice Hockey,cup,,Autumn Cup,,8,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1972,1973,Ice Hockey,league,1,Northern League,,7,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1972,1973,Ice Hockey,league,1,Southern League,,7,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1972,1972,Ice Hockey,cup,,Autumn Cup,,7,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1974,1976,Ice Hockey,league,1,Northern League,,8,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1974,1974,Ice Hockey,league,1,Southern League,,6,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1975,1975,Ice Hockey,league,1,Southern League,Midland Section,5,geography,quadruple_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none
+1975,1975,Ice Hockey,league,1,Southern League,Southern Section,5,geography,double_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none
+1976,1976,Ice Hockey,cup,,Autumn Cup,,8,league_participants,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1976,1976,Ice Hockey,league,1,Southern League,Midland Section,6,geography,double_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none
+1976,1976,Ice Hockey,league,1,Southern League,Southern Section,8,geography,double_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none
+1977,1977,Ice Hockey,league,1,Northern League,,7,geography,double_round_robin,FALSE,none,none,none,single_leg,none,none,2,1,0,none,0,none,0,none
+1977,1977,Ice Hockey,league,1,Southern League,Midland Section,6,geography,double_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none
+1977,1977,Ice Hockey,league,1,Southern League,Southern Section,9,geography,double_round_robin,TRUE,none,none,none,single_leg,two_legs,none,2,1,0,none,0,none,0,none

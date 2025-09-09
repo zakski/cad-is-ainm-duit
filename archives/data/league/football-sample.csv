@@ -1,0 +1,4 @@
+level,name_base,name_adjective,clubs,founded,ended,type,quality,gender,victory,draw,loss,match_system,home_and_away,video_referee,promotion_teams,promotion_system,relegation_teams,relegation_system
+1,league,premier,22,1992,1995,league,professional,men,3,1,0,double round-robin,TRUE,TRUE,0,,3,straight
+1,league,premier,20,1995,,league,professional,men,3,1,0,double round-robin,TRUE,TRUE,0,,3,straight
+1,league,premier,20,1995,,league,professional,men,3,1,0,double round-robin,TRUE,TRUE,0,,3,straight
