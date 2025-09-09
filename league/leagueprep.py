@@ -62,12 +62,22 @@ hockLSDF = hockExpDF[hockExpDF['lastSeason'] == hockExpDF['format_year']].drop_d
 
 # Count these creations by season
 compCreationDF = hockSSDF['format_year'].value_counts().reset_index()
+cupCreationDF = hockSSDF[hockSSDF['competition_type'] == 'cup']['format_year'].value_counts().reset_index()
+leagueCreationDF = hockSSDF[hockSSDF['competition_type'] == 'league']['format_year'].value_counts().reset_index()
 compCreationDi = dict(zip(compCreationDF['format_year'], compCreationDF['count']))
+cupCreationDi = dict(zip(cupCreationDF['format_year'], cupCreationDF['count']))
+leagueCreationDi = dict(zip(leagueCreationDF['format_year'], leagueCreationDF['count']))
 
 # Count these dissolution by season
 compDissolutionDF = hockLSDF['format_year'].value_counts().reset_index()
+cupDissolutionDF = hockLSDF[hockLSDF['competition_type'] == 'cup']['format_year'].value_counts().reset_index()
+leagueDissolutionDF = hockLSDF[hockLSDF['competition_type'] == 'league']['format_year'].value_counts().reset_index()
 compDissolutionDF['format_year'] = compDissolutionDF['format_year']+1
+cupDissolutionDF['format_year'] = cupDissolutionDF['format_year']+1
+leagueDissolutionDF['format_year'] = leagueDissolutionDF['format_year']+1
 compDissolutionDi = dict(zip(compDissolutionDF['format_year'], compDissolutionDF['count']))
+cupDissolutionDi = dict(zip(cupDissolutionDF['format_year'], cupDissolutionDF['count']))
+leagueDissolutionDi = dict(zip(leagueDissolutionDF['format_year'], leagueDissolutionDF['count']))
 
 # Count reported competitions by season
 yearDF = hockExpDF.drop_duplicates(subset=['format_year','competition_name']).groupby('format_year').agg(competitions =('competition_name','count')).reset_index()
@@ -76,11 +86,36 @@ yearDF = yearDF.reindex(np.arange(yearDF['format_year'].min(), yearDF['format_ye
 yearDF['competitions'] = yearDF['competitions'].astype(int)
 yearDF = yearDF.drop(['format_year'],axis=1).reset_index()
 
+# Count reported cup competitions by season
+yearCupDF = hockExpDF[hockExpDF['competition_type'] == 'cup'].drop_duplicates(subset=['format_year','competition_name']).groupby('format_year').agg(cups =('competition_name','count')).reset_index()
+yearCupDF.index = yearCupDF['format_year']
+yearCupDF = yearCupDF.reindex(np.arange(yearCupDF['format_year'].min(), yearCupDF['format_year'].max() + 1)).fillna(0)
+yearCupDF['cups'] = yearCupDF['cups'].astype(int)
+yearCupDF = yearCupDF.drop(['format_year'],axis=1).reset_index()
+
+# Count reported cup competitions by season
+yearLeagueDF = hockExpDF[hockExpDF['competition_type'] == 'league'].drop_duplicates(subset=['format_year','competition_name']).groupby('format_year').agg(leagues=('competition_name','count')).reset_index()
+yearLeagueDF.index = yearLeagueDF['format_year']
+yearLeagueDF = yearLeagueDF.reindex(np.arange(yearLeagueDF['format_year'].min(), yearLeagueDF['format_year'].max() + 1)).fillna(0)
+yearLeagueDF['leagues'] = yearLeagueDF['leagues'].astype(int)
+yearLeagueDF = yearLeagueDF.drop(['format_year'],axis=1).reset_index()
+
+yearDF = yearDF.merge(yearCupDF, left_on='format_year', right_on='format_year').merge(yearLeagueDF, left_on='format_year', right_on='format_year')
+
 # Add In Creation Events
 yearDF['competitionsCreated'] = yearDF['format_year'].map(compCreationDi)
 yearDF['competitionsCreated'] = yearDF['competitionsCreated'].fillna(0).astype(int)
+yearDF['cupsCreated'] = yearDF['format_year'].map(cupCreationDi)
+yearDF['cupsCreated'] = yearDF['cupsCreated'].fillna(0).astype(int)
+yearDF['leaguesCreated'] = yearDF['format_year'].map(leagueCreationDi)
+yearDF['leaguesCreated'] = yearDF['leaguesCreated'].fillna(0).astype(int)
+# Add In Dissolution Events
 yearDF['competitionsFolded'] = yearDF['format_year'].map(compDissolutionDi)
 yearDF['competitionsFolded'] = yearDF['competitionsFolded'].fillna(0).astype(int)
+yearDF['cupsFolded'] = yearDF['format_year'].map(cupDissolutionDi)
+yearDF['cupsFolded'] = yearDF['cupsFolded'].fillna(0).astype(int)
+yearDF['leaguesFolded'] = yearDF['format_year'].map(leagueDissolutionDi)
+yearDF['leaguesFolded'] = yearDF['leaguesFolded'].fillna(0).astype(int)
 
 hockSSDF[["format_year", "competition_name", "competition_type"]].to_csv(os.path.join(resultsInterDirName,'hockey_comp_start.csv'),index=False)
 yearDF.to_csv(os.path.join(resultsInterDirName,'hockey_expanded.csv'),index=False)
