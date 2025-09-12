@@ -37,3 +37,13 @@ leagueTypes = {
     'relegation_teams': 'Int64',
     'relegation_system': 'string',
 }
+
+teamTypes = {
+    'team_name': 'string',
+    'team_base': 'string',
+    'team_suffix': 'string',
+    'country_name': 'string',
+    'sport_name': 'string',
+    'season_founded': 'Int64',
+    'season_last': 'Int64',
+}

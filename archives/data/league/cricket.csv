@@ -1,8 +1,0 @@
-level,comp_name_full,comp_name_short,organiser_name,association_name,competition_type,competition_format,home_and_away,venue_system,clubs,entry,quality,gender,victory,draw,draw_score_bonus,loss,scoring,points_tiebreaker,promotion_teams,promotion_system,relegation_teams,relegation_system,format_start,format_end
-1,County Championship,County Championship,,England and Wales Cricket Board,league,double_round_robin,true,by_fixture,8,agreement,,men,1,0,0,-1,straight,none,0,,0,,1890,1890
-1,County Championship,County Championship,,England and Wales Cricket Board,league,double_round_robin,true,by_fixture,9,agreement,,men,1,0,0,-1,straight,none,0,,0,,1891,1894
-1,County Championship,County Championship,,England and Wales Cricket Board,league,double_round_robin,true,by_fixture,14,agreement,,men,1,0,0,-1,match_ratio,none,0,,0,,1895,1898
-1,County Championship,County Championship,,England and Wales Cricket Board,league,double_round_robin,true,by_fixture,15,agreement,,men,1,0,0,-1,match_ratio,none,0,,0,,1899,1904
-1,County Championship,County Championship,,England and Wales Cricket Board,league,double_round_robin,true,by_fixture,16,agreement,,men,1,0,0,-1,match_ratio,none,0,,0,,1905,1909
-1,County Championship,County Championship,,England and Wales Cricket Board,league,double_round_robin,true,by_fixture,16,agreement,,men,1,0,0,0,match_ratio,none,0,,0,,1910,1910
-1,County Championship,County Championship,,England and Wales Cricket Board,league,double_round_robin,true,by_fixture,16,agreement,,men,5,1,2,0,possible_points_gained_percentage,none,0,,0,,1911,1914

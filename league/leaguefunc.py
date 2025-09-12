@@ -29,3 +29,14 @@ def expandRange(data, minimumCol, maximumCol, rangeCol, col):
     # before we add it to the SICs_min to get the actual SIC number.
     finalData = new_data.assign(actual_col=new_data[minimumCol] + cumsum - 1).rename({"actual_col": col}, axis=1)
     return finalData.drop(['original_index',rangeCol],axis=1)
+
+def teamsSummary(teamsDF, sport):
+    teamsSumDF = teamsDF['season_year'].value_counts().reset_index()['count'].describe().reset_index()
+    teamsSumDF = teamsSumDF.T.reset_index()
+    teamsSumDF.columns = teamsSumDF.iloc[0]
+    teamsSumDF = teamsSumDF.drop(['index', 'std'],axis=1)
+    teamsSumDF = teamsSumDF.iloc[1:]
+    teamsSumDF = teamsSumDF.round().astype('int64')
+    teamsSumDF = teamsSumDF.rename(columns={"count": "seasons"})
+    teamsSumDF['sport'] = sport
+    return teamsSumDF

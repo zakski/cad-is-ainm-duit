@@ -1,3 +1,5 @@
+from tabnanny import verbose
+
 import pandas as pd
 import numpy as np
 import regex as re
@@ -17,12 +19,15 @@ resultsDirName = os.path.join(rootDirName, Path('../results_league'))
 
 dirLeagueName = os.path.join(rootDirName, Path('../data/data/league/'))
 dataFootballLeagueName = os.path.join(dirLeagueName, 'football-leagues.csv')
+
 dataHockLeagueName = os.path.join(dirLeagueName, 'comp-hockey.csv')
+dataTeamsHockName = os.path.join(dirLeagueName, 'teams-hockey.csv')
 
 # File Read
 print('Load League Data From Path: ' + dirLeagueName)
 #footData = pd.read_csv(dataFootballLeagueName,header=0,dtype=footieTypes,index_col=False)
 hockDF = pd.read_csv(dataHockLeagueName,header=0,dtype=const.leagueTypes,index_col=False)
+teamsHockDF = pd.read_csv(dataTeamsHockName,header=0,dtype=const.teamTypes,index_col=False)
 
 # standardisation
 #footData['victory'] = footData['victory'].fillna(0)
@@ -39,6 +44,9 @@ hockDF = pd.read_csv(dataHockLeagueName,header=0,dtype=const.leagueTypes,index_c
 #footExpandedData = footExpandedData.sort_values(['format_year','level'],ascending=[True,True])
 hockExpDF = func.expandRange(hockDF,'format_start','format_end','format_range','format_year')
 hockExpDF = hockExpDF.sort_values(['format_year','competition_tier'],ascending=[True,True])
+
+teamsHockExpDF = func.expandRange(teamsHockDF,'season_founded','season_last','season_range','season_year')
+teamsHockExpDF = teamsHockExpDF.sort_values(['season_year','team_name'],ascending=[True,True])
 
 # aggregate
 
@@ -117,8 +125,22 @@ yearDF['cupsFolded'] = yearDF['cupsFolded'].fillna(0).astype(int)
 yearDF['leaguesFolded'] = yearDF['format_year'].map(leagueDissolutionDi)
 yearDF['leaguesFolded'] = yearDF['leaguesFolded'].fillna(0).astype(int)
 
+#yearDF['competitionsDissolvable'] = yearDF['competitions'] -  yearDF['competitionsCreated']
+#yearDF['cupsDissolvable'] = yearDF['cups'] -  yearDF['cupsCreated']
+#yearDF['leaguesDissolvable'] = yearDF['leagues'] -  yearDF['leaguesCreated']
+
+teamsHockSumDF = func.teamsSummary(teamsHockExpDF,'ice_hockey')
+teamsHockBaseDF = teamsHockExpDF['team_base'].value_counts().reset_index()
+teamsHockSuffDF = teamsHockExpDF['team_suffix'].value_counts().reset_index()
+
 hockSSDF[["format_year", "competition_name", "competition_type"]].to_csv(os.path.join(resultsInterDirName,'hockey_comp_start.csv'),index=False)
 yearDF.to_csv(os.path.join(resultsInterDirName,'hockey_expanded.csv'),index=False)
+
+teamsHockExpDF.to_csv(os.path.join(resultsInterDirName,'teams-hockey-exp.csv'),index=False)
+
+teamsHockSumDF.to_csv(os.path.join(resultsInterDirName,'teams_hockey_sum.csv'),index=False)
+teamsHockBaseDF.to_csv(os.path.join(resultsInterDirName,'teams_hockey_base.csv'),index=False)
+teamsHockSuffDF.to_csv(os.path.join(resultsInterDirName,'teams_hockey_suffix.csv'),index=False)
 #
 #
 #
