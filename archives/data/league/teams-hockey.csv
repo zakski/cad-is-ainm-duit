@@ -20,7 +20,7 @@ Bournemouth Stags,Bournemouth,Stags,UK,Ice Hockey,1983,1987
 Bracknell Bees,Bracknell,Bees,UK,Ice Hockey,1987,1995
 Bracknell Hornets,Bracknell,Hornets,UK,Ice Hockey,1994,1995
 Bradford Bulldogs,Bradford,Bulldogs,UK,Ice Hockey,1980,1995
-Bridge of Weir,Bridge,of Weir,UK,Ice Hockey,1929,1934
+Bridge of Weir,,,UK,Ice Hockey,1929,1934
 Brighton Tigers,Brighton,Tigers,UK,Ice Hockey,1935,1959
 Bristol Bulldogs,Bristol,Bulldogs,UK,Ice Hockey,1992,1992
 Bristol Phantoms,Bristol,Phantoms,UK,Ice Hockey,1987,1987
@@ -28,7 +28,7 @@ Bristol Redwings,Bristol,Redwings,UK,Ice Hockey,1972,1975
 Cambridge University,Cambridge,University,UK,Ice Hockey,1929,1981
 Cardiff Capitals,Cardiff,Capitals,UK,Ice Hockey,1994,1995
 Cardiff Devils,Cardiff,Devils,UK,Ice Hockey,1987,1995
-Chelmsford Chieftans,Chelmsford,Chieftans,UK,Ice Hockey,1987,1995
+Chelmsford Chieftains,Chelmsford,Chieftains,UK,Ice Hockey,1987,1995
 Chelmsford Mohawks,Chelmsford,Mohawks,UK,Ice Hockey,1995,1995
 Cleveland Bombers,Cleveland,Bombers,UK,Ice Hockey,1982,1990
 Crowtree Chiefs,Crowtree,Chiefs,UK,Ice Hockey,1982,1985
@@ -37,15 +37,15 @@ Deeside Dragons,Deeside,Dragons,UK,Ice Hockey,1975,1995
 Dennistoun,,,UK,Ice Hockey,1929,1930
 Dennistoun Eagles,Dennistoun,Eagles,UK,Ice Hockey,1931,1934
 Doonside,,,UK,Ice Hockey,1929,1929
-Dumfries Border Vikings,Dumfries,Border Vikings,UK,Ice Hockey,1995,1995
+Dumfries Border Vikings,Dumfries Border,Vikings,UK,Ice Hockey,1995,1995
 Dumfries Vikings,Dumfries,Vikings,UK,Ice Hockey,1993,1994
 Dundee Rockets,Dundee,Rockets,UK,Ice Hockey,1966,1986
 Dundee Tigers,Dundee,Tigers,UK,Ice Hockey,1938,1987
 Dunfermline Vikings,Dunfermline,Vikings,UK,Ice Hockey,1939,1954
-Durham City Wasps,Durham,City Wasps,UK,Ice Hockey,1995,1995
+Durham City Wasps,Durham City,Wasps,UK,Ice Hockey,1995,1995
 Durham Wasps,Durham,Wasps,UK,Ice Hockey,1962,1995
-Earl's Court Rangers,Earl's,Court Rangers,UK,Ice Hockey,1935,1952
-Earl's Court Royals,Earl's,Court Royals,UK,Ice Hockey,1936,1937
+Earl's Court Rangers,Earl's Court,Rangers,UK,Ice Hockey,1935,1952
+Earl's Court Royals,Earl's Court,Royals,UK,Ice Hockey,1936,1937
 Edinburgh Racers,Edinburgh,Racers,UK,Ice Hockey,1994,1994
 Edinburgh Royals,Edinburgh,Royals,UK,Ice Hockey,1952,1969
 Falkirk Lions,Falkirk,Lions,UK,Ice Hockey,1938,1954
@@ -65,7 +65,7 @@ Gosport Seakings,Gosport,Seakings,UK,Ice Hockey,1993,1995
 Grimsby Buffaloes,Grimsby,Buffaloes,UK,Ice Hockey,1975,1983
 Grimsby Dynamos,Grimsby,Dynamos,UK,Ice Hockey,1984,1984
 Grimsby Redwings,Grimsby,Redwings,UK,Ice Hockey,1994,1995
-Grosvenor House Canadians,Grosvenor,House Canadians,UK,Ice Hockey,1930,1933
+Grosvenor House Canadians,Grosvenor House,Canadians,UK,Ice Hockey,1930,1933
 Guildford Flames,Guildford,Flames,UK,Ice Hockey,1992,1995
 Harringay Greyhounds,Harringay,Greyhounds,UK,Ice Hockey,1936,1995
 Harringay Racers,Harringay,Racers,UK,Ice Hockey,1936,1991
@@ -77,24 +77,24 @@ Juniors,,,UK,Ice Hockey,1932,1934
 Kelvingrove,,,UK,Ice Hockey,1929,1938
 Kensington Corinthians,Kensington,Corinthians,UK,Ice Hockey,1935,1936
 Kirkcaldy Kestrels,Kirkcaldy,Kestrels,UK,Ice Hockey,1986,1987
-Lee Valley Lions,Lee,Valley Lions,UK,Ice Hockey,1984,1994
-Lee Valley Whalers,Lee,Valley Whalers,UK,Ice Hockey,1994,1995
+Lee Valley Lions,Lee Valley,Lions,UK,Ice Hockey,1984,1994
+Lee Valley Whalers,Lee Valley,Whalers,UK,Ice Hockey,1994,1995
 Liverpool Leopards,Liverpool,Leopards,UK,Ice Hockey,1973,1981
 London All-Stars,London,All-Stars,UK,Ice Hockey,1981,1981
 London Lions,London,Lions,UK,Ice Hockey,1929,1932
-London Phoenix Flyers,London,Phoenix Flyers,UK,Ice Hockey,1976,1977
-London Sobell All-Stars,London,Sobell All-Stars,UK,Ice Hockey,1977,1977
+London Phoenix Flyers,London Phoenix,Flyers,UK,Ice Hockey,1976,1977
+London Sobell All-Stars,London Sobell,All-Stars,UK,Ice Hockey,1977,1977
 Manchester,,,UK,Ice Hockey,1929,1934
 Manchester Rapids,Manchester,Rapids,UK,Ice Hockey,1936,1936
 Manchester Storm,Manchester,Storm,UK,Ice Hockey,1995,1995
 Medway Bears,Medway,Bears,UK,Ice Hockey,1986,1995
 Medway Marauders,Medway,Marauders,UK,Ice Hockey,1987,1995
-Milton Keynes Kings,Milton,Keynes Kings,UK,Ice Hockey,1990,1995
-Milton Keynes Monarchs,Milton,Keynes Monarchs,UK,Ice Hockey,1995,1995
+Milton Keynes Kings,Milton Keynes,Kings,UK,Ice Hockey,1990,1995
+Milton Keynes Monarchs,Milton Keynes,Monarchs,UK,Ice Hockey,1995,1995
 Murrayfield Racers,Murrayfield,Racers,UK,Ice Hockey,1966,1993
 Murrayfield Royals,Murrayfield,Royals,UK,Ice Hockey,1962,1995
 Newcastle Warriors,Newcastle,Warriors,UK,Ice Hockey,1995,1995
-Norwich and Peterborough Pirates,Norwich,and Peterborough Pirates,UK,Ice Hockey,1991,1992
+Norwich and Peterborough Pirates,Norwich and Peterborough,Pirates,UK,Ice Hockey,1991,1992
 Nottingham Jaguars,Nottingham,Jaguars,UK,Ice Hockey,1993,1994
 Nottingham Panthers,Nottingham,Panthers,UK,Ice Hockey,1946,1995
 Oxford City Stars,Oxford,City Stars,UK,Ice Hockey,1985,1995
@@ -102,13 +102,13 @@ Oxford University,Oxford,University,UK,Ice Hockey,1929,1981
 Paisley Mohawks,Paisley,Mohawks,UK,Ice Hockey,1962,1976
 Paisley Pirates,Paisley,Pirates,UK,Ice Hockey,1946,1995
 Perth Black Hawks,Perth,Black Hawks,UK,Ice Hockey,1937,1963
-Perth Blackhawks ,Perth,Blackhawks ,UK,Ice Hockey,1966,1966
+Perth Blackhawks,Perth,Blackhawks,UK,Ice Hockey,1966,1966
 Perth Panthers,Perth,Panthers,UK,Ice Hockey,1936,1954
 Peterborough Patriots,Peterborough,Patriots,UK,Ice Hockey,1994,1994
 Peterborough Pirates,Peterborough,Pirates,UK,Ice Hockey,1983,1995
 Peterborough Titans,Peterborough,Titans,UK,Ice Hockey,1987,1988
 Prince's,,,UK,Ice Hockey,1929,1930
-Princes and Queens,Princes,and Queens,UK,Ice Hockey,1931,1932
+Princes and Queens,,,UK,Ice Hockey,1931,1932
 Queen's Ice Club,Queen's,Ice Club,UK,Ice Hockey,1930,1930
 Queens,,,UK,Ice Hockey,1929,1932
 Queens,,,UK,Ice Hockey,1933,1934
@@ -119,7 +119,7 @@ Romford Raiders,Romford,Raiders,UK,Ice Hockey,1987,1995
 Sheffield Knights,Sheffield,Knights,UK,Ice Hockey,1979,1979
 Sheffield Lancers,Sheffield,Lancers,UK,Ice Hockey,1975,1993
 Sheffield Sabres,Sheffield,Sabres,UK,Ice Hockey,1980,1990
-Sheffield Scimtars,Sheffield,Scimtars,UK,Ice Hockey,1994,1995
+Sheffield Scimitars,Sheffield,Scimitars,UK,Ice Hockey,1994,1995
 Sheffield Steelers,Sheffield,Steelers,UK,Ice Hockey,1991,1995
 Slough Harrier Hawks,Slough,Harrier Hawks,UK,Ice Hockey,1994,1995
 Slough Jets,Slough,Jets,UK,Ice Hockey,1986,1995
@@ -147,14 +147,14 @@ Telford Falcons,Telford,Falcons,UK,Ice Hockey,1995,1995
 Telford Tigers,Telford,Tigers,UK,Ice Hockey,1985,1995
 Telford Tornadoes,Telford,Tornadoes,UK,Ice Hockey,1994,1994
 Trafford Metros,Trafford,Metros,UK,Ice Hockey,1986,1994
-United Services,United,Services,UK,Ice Hockey,1929,1930
+United Services,,,UK,Ice Hockey,1929,1930
 Vikings,,,UK,Ice Hockey,1962,1962
 Warwickshire,,,UK,Ice Hockey,1933,1934
 Wembley Canadians,Wembley,Canadians,UK,Ice Hockey,1934,1936
 Wembley Lions,Wembley,Lions,UK,Ice Hockey,1934,1959
 Wembley Monarchs,Wembley,Monarchs,UK,Ice Hockey,1936,1949
 Wembley Vets,Wembley,Vets,UK,Ice Hockey,1970,1972
-Whitley Bay Bandits,Whitley,Bay Bandits,UK,Ice Hockey,1966,1969
+Whitley Bay Bandits,Whitley Bay,Bandits,UK,Ice Hockey,1966,1969
 Whitley Renegades,Whitley,Renegades,UK,Ice Hockey,1994,1995
 Whitley Warriors,Whitley,Warriors,UK,Ice Hockey,1966,1994
 Wightlink Raiders,Wightlink,Raiders,UK,Ice Hockey,1992,1995
