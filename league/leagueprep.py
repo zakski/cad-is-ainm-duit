@@ -56,8 +56,6 @@ teamsHockExpDF = teamsHockExpDF.sort_values(['season_year','team_name'],ascendin
 
 # aggregate
 
-# Stat out likelyhood of league creation
-
 # Get first season for each competition and add as column
 startSeasonDF = hockExpDF.groupby('competition_name').agg(firstSeason =('format_year','min')).reset_index()
 startSeasonDi = dict(zip(startSeasonDF['competition_name'], startSeasonDF['firstSeason']))
@@ -68,99 +66,53 @@ lastSeasonDF = hockExpDF.groupby('competition_name').agg(lastSeason =('format_ye
 lastSeasonDi = dict(zip(lastSeasonDF['competition_name'], lastSeasonDF['lastSeason']))
 hockExpDF['lastSeason'] = hockExpDF['competition_name'].map(lastSeasonDi)
 
-
 # Filter if row season date equals first season date column
 hockSSDF = hockExpDF[hockExpDF['firstSeason'] == hockExpDF['format_year']].drop_duplicates(subset=['format_year','competition_name'])
 # Filter if row season date equals last season date column
 hockLSDF = hockExpDF[hockExpDF['lastSeason'] == hockExpDF['format_year']].drop_duplicates(subset=['format_year','competition_name'])
 
-# Count these creations by season
-compCreationDF = hockSSDF['format_year'].value_counts().reset_index()
-cupCreationDF = hockSSDF[hockSSDF['competition_type'] == 'cup']['format_year'].value_counts().reset_index()
-leagueCreationDF = hockSSDF[hockSSDF['competition_type'] == 'league']['format_year'].value_counts().reset_index()
-compCreationDi = dict(zip(compCreationDF['format_year'], compCreationDF['count']))
-cupCreationDi = dict(zip(cupCreationDF['format_year'], cupCreationDF['count']))
-leagueCreationDi = dict(zip(leagueCreationDF['format_year'], leagueCreationDF['count']))
-
-# Count these dissolution by season
-compDissolutionDF = hockLSDF['format_year'].value_counts().reset_index()
-cupDissolutionDF = hockLSDF[hockLSDF['competition_type'] == 'cup']['format_year'].value_counts().reset_index()
-leagueDissolutionDF = hockLSDF[hockLSDF['competition_type'] == 'league']['format_year'].value_counts().reset_index()
-compDissolutionDF['format_year'] = compDissolutionDF['format_year']+1
-cupDissolutionDF['format_year'] = cupDissolutionDF['format_year']+1
-leagueDissolutionDF['format_year'] = leagueDissolutionDF['format_year']+1
-compDissolutionDi = dict(zip(compDissolutionDF['format_year'], compDissolutionDF['count']))
-cupDissolutionDi = dict(zip(cupDissolutionDF['format_year'], cupDissolutionDF['count']))
-leagueDissolutionDi = dict(zip(leagueDissolutionDF['format_year'], leagueDissolutionDF['count']))
-
 # Count reported competitions by season
-yearDF = hockExpDF.drop_duplicates(subset=['format_year','competition_name']).groupby('format_year').agg(competitions =('competition_name','count')).reset_index()
-yearDF.index = yearDF['format_year']
-yearDF = yearDF.reindex(np.arange(yearDF['format_year'].min(), yearDF['format_year'].max() + 1)).fillna(0)
-yearDF['competitions'] = yearDF['competitions'].astype(int)
-yearDF = yearDF.drop(['format_year'],axis=1).reset_index()
-
+yearDF = func.countActiveCompetitions(hockExpDF)
 # Count reported cup competitions by season
-yearCupDF = hockExpDF[hockExpDF['competition_type'] == 'cup'].drop_duplicates(subset=['format_year','competition_name']).groupby('format_year').agg(cups =('competition_name','count')).reset_index()
-yearCupDF.index = yearCupDF['format_year']
-yearCupDF = yearCupDF.reindex(np.arange(yearCupDF['format_year'].min(), yearCupDF['format_year'].max() + 1)).fillna(0)
-yearCupDF['cups'] = yearCupDF['cups'].astype(int)
-yearCupDF = yearCupDF.drop(['format_year'],axis=1).reset_index()
-
+yearCupDF = func.countActiveCups(hockExpDF)
 # Count reported cup competitions by season
-yearLeagueDF = hockExpDF[hockExpDF['competition_type'] == 'league'].drop_duplicates(subset=['format_year','competition_name']).groupby('format_year').agg(leagues=('competition_name','count')).reset_index()
-yearLeagueDF.index = yearLeagueDF['format_year']
-yearLeagueDF = yearLeagueDF.reindex(np.arange(yearLeagueDF['format_year'].min(), yearLeagueDF['format_year'].max() + 1)).fillna(0)
-yearLeagueDF['leagues'] = yearLeagueDF['leagues'].astype(int)
-yearLeagueDF = yearLeagueDF.drop(['format_year'],axis=1).reset_index()
-
+yearLeagueDF = func.countActiveLeagues(hockExpDF)
+# merge Counts
 yearDF = yearDF.merge(yearCupDF, left_on='format_year', right_on='format_year').merge(yearLeagueDF, left_on='format_year', right_on='format_year')
 
 # Add Change From Previous Year
 yearDF['delta'] = 'delta'
-yearDF['competitionsDelta'] = yearDF['competitions'].diff().fillna(0).astype(int)
-yearDF['cupsDelta'] = yearDF['cups'].diff().fillna(0).astype(int)
-yearDF['leaguesDelta'] = yearDF['leagues'].diff().fillna(0).astype(int)
-
+yearDF = func.calcCompetitionDeltas(yearDF)
 
 # Add In Creation Events
 yearDF['created'] = 'created'
-yearDF['competitionsCreated'] = yearDF['format_year'].map(compCreationDi)
-yearDF['competitionsCreated'] = yearDF['competitionsCreated'].fillna(0).astype(int)
-yearDF['cupsCreated'] = yearDF['format_year'].map(cupCreationDi)
-yearDF['cupsCreated'] = yearDF['cupsCreated'].fillna(0).astype(int)
-yearDF['leaguesCreated'] = yearDF['format_year'].map(leagueCreationDi)
-yearDF['leaguesCreated'] = yearDF['leaguesCreated'].fillna(0).astype(int)
+yearDF = func.countCompetitionCreations(yearDF,hockSSDF)
 
+# Set Initial Delta to Creation Events
 yearDF.loc[0:0,'competitionsDelta'] = yearDF.at[0, 'competitionsCreated']
 yearDF.loc[0:0,'cupsDelta'] = yearDF.at[0, 'cupsCreated']
 yearDF.loc[0:0,'leaguesDelta'] = yearDF.at[0, 'leaguesCreated']
 
 # Add In Dissolution Events
 yearDF['folded'] = 'folded'
-yearDF['competitionsFolded'] = yearDF['format_year'].map(compDissolutionDi)
-yearDF['competitionsFolded'] = yearDF['competitionsFolded'].fillna(0).astype(int)
-yearDF['cupsFolded'] = yearDF['format_year'].map(cupDissolutionDi)
-yearDF['cupsFolded'] = yearDF['cupsFolded'].fillna(0).astype(int)
-yearDF['leaguesFolded'] = yearDF['format_year'].map(leagueDissolutionDi)
-yearDF['leaguesFolded'] = yearDF['leaguesFolded'].fillna(0).astype(int)
+yearDF = func.countCompetitionEnds(yearDF,hockLSDF)
 
 # Add In Net Change Events
 yearDF['netChange'] = 'netChange'
-yearDF['competitionsNetChange'] = yearDF['competitionsCreated']  - yearDF['competitionsFolded']
-yearDF['cupsNetChange'] = yearDF['cupsCreated']  - yearDF['cupsFolded']
-yearDF['leaguesNetChange'] = yearDF['leaguesCreated']  - yearDF['leaguesFolded']
+yearDF = func.calcCompetitionNetChanges(yearDF)
 
-# Add In Suspended Events
-yearDF['suspended'] = 'suspended'
-yearDF['competitionsSuspended'] = yearDF['competitionsNetChange']  - yearDF['competitionsDelta']
-yearDF['cupsSuspended'] = yearDF['cupsNetChange']  - yearDF['cupsDelta']
-yearDF['leaguesSuspended'] = yearDF['leaguesNetChange']  - yearDF['leaguesDelta']
-# Add In Suspended Events
+# Add In Net Suspension Events
+yearDF['suspendedNet'] = 'suspensionsNet'
+yearDF = func.calcCompetitionsNetSuspensions(yearDF)
+# Add In Total Suspended
 yearDF['suspendedTotal'] = 'suspendedTotal'
-yearDF['competitionsSuspendedTotal'] = yearDF['competitionsSuspended'].cumsum()
-yearDF['cupsSuspendedTotal'] = yearDF['cupsSuspended'].cumsum()
-yearDF['leaguesSuspendedTotal'] = yearDF['leaguesSuspended'].cumsum()
+yearDF = func.calcCompetitionsSuspended(yearDF)
+# Separate Suspensions from Unsuspensions
+yearDF['unsuspensions'] = 'unsuspensions'
+yearDF = func.calcCompetitionsUnsuspensions(yearDF)
+# Separate Suspensions from Unsuspensions
+yearDF['suspensions'] = 'suspensions'
+yearDF = func.calcCompetitionsSuspensions(yearDF)
 
 # Add Total From Previous Year
 yearDF['previous'] = 'previous'
@@ -180,20 +132,28 @@ hockSSDF[["format_year", "competition_name", "competition_type"]].to_csv(os.path
 
 yearDF.to_csv(os.path.join(resultsInterDirName,'league_hockey.csv'),index=False)
 
-# assume poisson
-foldedProbability = yearDF.drop(['format_year','delta','created','folded','netChange','suspended','suspendedTotal','previous','competitions','cups','leagues','competitionsDelta','cupsDelta','leaguesDelta','competitionsCreated','cupsCreated','leaguesCreated', 'competitionsNetChange','cupsNetChange','leaguesNetChange','competitionsSuspended','cupsSuspended','leaguesSuspended','competitionsSuspendedTotal','cupsSuspendedTotal','leaguesSuspendedTotal'],axis=1).agg(['sum'])
-foldedProbability['compsFoldedAvgOAT'] = (foldedProbability['competitionsFolded'] / foldedProbability['competitionsPrv']).round(2)
-foldedProbability['cupsFoldedAvgOAT'] =  (foldedProbability['cupsFolded'] / foldedProbability['cupsPrv']).round(2)
-foldedProbability['leaguesFoldedAvgOAT'] = (foldedProbability['leaguesFolded'] / foldedProbability['leaguesPrv']).round(2)
+foldedProbability = yearDF.drop(const.removalList,axis=1).agg(['sum'])
 foldedProbability['duration'] = yearDF['format_year'].max() - yearDF['format_year'].min() + 1 - len(yearDF[yearDF['competitionsPrv'] == 0])
 
-foldedProbability['compsFoldedAvgFOT'] = (foldedProbability['compsFoldedAvgOAT'] / foldedProbability['duration'])
-foldedProbability['cupsFoldedAvgFOT'] =  (foldedProbability['cupsFoldedAvgOAT'] / foldedProbability['duration'])
-foldedProbability['leaguesFoldedAvgFOT'] = (foldedProbability['leaguesFoldedAvgOAT'] / foldedProbability['duration'])
+foldedProbability['compsFoldedAvg'] = foldedProbability['competitionsFolded'] / foldedProbability['duration']
+foldedProbability['cupsFoldedAvg'] =  foldedProbability['cupsFolded'] / foldedProbability['duration']
+foldedProbability['leaguesFoldedAvg'] = foldedProbability['leaguesFolded'] / foldedProbability['duration']
 
-foldedProbability['compsFoldedProb'] = 1 - math.pow(math.e,- foldedProbability['compsFoldedAvgFOT'] * 1)
-foldedProbability['cupsFoldedProb'] =  1 - math.pow(math.e,- foldedProbability['cupsFoldedAvgFOT'] * 1)
-foldedProbability['leaguesFoldedProb'] =   1 - math.pow(math.e,- foldedProbability['leaguesFoldedAvgFOT'] * 1)
+yearDF['compsFoldedDev'] = (yearDF['competitionsFolded'] - foldedProbability['compsFoldedAvg'].iloc[0]).pow(2)
+yearDF['cupsFoldedDev'] = (yearDF['cupsFolded'] - foldedProbability['cupsFoldedAvg'].iloc[0]).pow(2)
+yearDF['leaguesFoldedDev'] = (yearDF['leaguesFolded'] - foldedProbability['leaguesFoldedAvg'].iloc[0]).pow(2)
+
+foldedProbability['compsFoldedSTD'] = np.sqrt(yearDF[yearDF['competitionsPrv'] > 0]['compsFoldedDev'].sum() / foldedProbability['duration'])
+foldedProbability['cupsFoldedSTD'] = np.sqrt(yearDF[yearDF['competitionsPrv'] > 0]['cupsFoldedDev'].sum() / foldedProbability['duration'])
+foldedProbability['leaguesFoldedSTD'] = np.sqrt(yearDF[yearDF['competitionsPrv'] > 0]['leaguesFoldedDev'].sum() / foldedProbability['duration'])
+
+#foldedProbability['compsFoldedAvgFOT'] = (foldedProbability['compsFoldedAvgOAT'] / foldedProbability['duration'])
+#foldedProbability['cupsFoldedAvgFOT'] =  (foldedProbability['cupsFoldedAvgOAT'] / foldedProbability['duration'])
+#foldedProbability['leaguesFoldedAvgFOT'] = (foldedProbability['leaguesFoldedAvgOAT'] / foldedProbability['duration'])
+
+#foldedProbability['compsFoldedProb'] = 1 - math.pow(math.e,- foldedProbability['compsFoldedAvgFOT'] * 1)
+#foldedProbability['cupsFoldedProb'] =  1 - math.pow(math.e,- foldedProbability['cupsFoldedAvgFOT'] * 1)
+#foldedProbability['leaguesFoldedProb'] =   1 - math.pow(math.e,- foldedProbability['leaguesFoldedAvgFOT'] * 1)
 
 foldedProbability.to_csv(os.path.join(resultsInterDirName,'league_hockey_sum.csv'),index=False)
 
