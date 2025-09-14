@@ -1,3 +1,4 @@
+import math
 from tabnanny import verbose
 
 import pandas as pd
@@ -5,6 +6,8 @@ import numpy as np
 import regex as re
 import glob
 import os
+
+from pandas import Int64Dtype
 
 import leagueconst as const
 import leaguefunc as func
@@ -28,6 +31,9 @@ print('Load League Data From Path: ' + dirLeagueName)
 #footData = pd.read_csv(dataFootballLeagueName,header=0,dtype=footieTypes,index_col=False)
 hockDF = pd.read_csv(dataHockLeagueName,header=0,dtype=const.leagueTypes,index_col=False)
 teamsHockDF = pd.read_csv(dataTeamsHockName,header=0,dtype=const.teamTypes,index_col=False)
+
+os.makedirs(resultsInterDirName, exist_ok=True)
+os.makedirs(resultsDirName, exist_ok=True)
 
 # standardisation
 #footData['victory'] = footData['victory'].fillna(0)
@@ -110,20 +116,57 @@ yearLeagueDF = yearLeagueDF.drop(['format_year'],axis=1).reset_index()
 
 yearDF = yearDF.merge(yearCupDF, left_on='format_year', right_on='format_year').merge(yearLeagueDF, left_on='format_year', right_on='format_year')
 
+# Add Change From Previous Year
+yearDF['delta'] = 'delta'
+yearDF['competitionsDelta'] = yearDF['competitions'].diff().fillna(0).astype(int)
+yearDF['cupsDelta'] = yearDF['cups'].diff().fillna(0).astype(int)
+yearDF['leaguesDelta'] = yearDF['leagues'].diff().fillna(0).astype(int)
+
+
 # Add In Creation Events
+yearDF['created'] = 'created'
 yearDF['competitionsCreated'] = yearDF['format_year'].map(compCreationDi)
 yearDF['competitionsCreated'] = yearDF['competitionsCreated'].fillna(0).astype(int)
 yearDF['cupsCreated'] = yearDF['format_year'].map(cupCreationDi)
 yearDF['cupsCreated'] = yearDF['cupsCreated'].fillna(0).astype(int)
 yearDF['leaguesCreated'] = yearDF['format_year'].map(leagueCreationDi)
 yearDF['leaguesCreated'] = yearDF['leaguesCreated'].fillna(0).astype(int)
+
+yearDF.loc[0:0,'competitionsDelta'] = yearDF.at[0, 'competitionsCreated']
+yearDF.loc[0:0,'cupsDelta'] = yearDF.at[0, 'cupsCreated']
+yearDF.loc[0:0,'leaguesDelta'] = yearDF.at[0, 'leaguesCreated']
+
 # Add In Dissolution Events
+yearDF['folded'] = 'folded'
 yearDF['competitionsFolded'] = yearDF['format_year'].map(compDissolutionDi)
 yearDF['competitionsFolded'] = yearDF['competitionsFolded'].fillna(0).astype(int)
 yearDF['cupsFolded'] = yearDF['format_year'].map(cupDissolutionDi)
 yearDF['cupsFolded'] = yearDF['cupsFolded'].fillna(0).astype(int)
 yearDF['leaguesFolded'] = yearDF['format_year'].map(leagueDissolutionDi)
 yearDF['leaguesFolded'] = yearDF['leaguesFolded'].fillna(0).astype(int)
+
+# Add In Net Change Events
+yearDF['netChange'] = 'netChange'
+yearDF['competitionsNetChange'] = yearDF['competitionsCreated']  - yearDF['competitionsFolded']
+yearDF['cupsNetChange'] = yearDF['cupsCreated']  - yearDF['cupsFolded']
+yearDF['leaguesNetChange'] = yearDF['leaguesCreated']  - yearDF['leaguesFolded']
+
+# Add In Suspended Events
+yearDF['suspended'] = 'suspended'
+yearDF['competitionsSuspended'] = yearDF['competitionsNetChange']  - yearDF['competitionsDelta']
+yearDF['cupsSuspended'] = yearDF['cupsNetChange']  - yearDF['cupsDelta']
+yearDF['leaguesSuspended'] = yearDF['leaguesNetChange']  - yearDF['leaguesDelta']
+# Add In Suspended Events
+yearDF['suspendedTotal'] = 'suspendedTotal'
+yearDF['competitionsSuspendedTotal'] = yearDF['competitionsSuspended'].cumsum()
+yearDF['cupsSuspendedTotal'] = yearDF['cupsSuspended'].cumsum()
+yearDF['leaguesSuspendedTotal'] = yearDF['leaguesSuspended'].cumsum()
+
+# Add Total From Previous Year
+yearDF['previous'] = 'previous'
+yearDF['competitionsPrv'] = yearDF['competitions'].shift(1).fillna(0).astype(int)
+yearDF['cupsPrv'] = yearDF['cups'].shift(1).fillna(0).astype(int)
+yearDF['leaguesPrv'] = yearDF['leagues'].shift(1).fillna(0).astype(int)
 
 #yearDF['competitionsDissolvable'] = yearDF['competitions'] -  yearDF['competitionsCreated']
 #yearDF['cupsDissolvable'] = yearDF['cups'] -  yearDF['cupsCreated']
@@ -134,9 +177,26 @@ teamsHockBaseDF = teamsHockExpDF['team_base'].value_counts().reset_index()
 teamsHockSuffDF = teamsHockExpDF['team_suffix'].value_counts().reset_index()
 
 hockSSDF[["format_year", "competition_name", "competition_type"]].to_csv(os.path.join(resultsInterDirName,'hockey_comp_start.csv'),index=False)
-yearDF.to_csv(os.path.join(resultsInterDirName,'hockey_expanded.csv'),index=False)
 
-teamsHockExpDF.to_csv(os.path.join(resultsInterDirName,'teams-hockey-exp.csv'),index=False)
+yearDF.to_csv(os.path.join(resultsInterDirName,'league_hockey.csv'),index=False)
+
+# assume poisson
+foldedProbability = yearDF.drop(['format_year','delta','created','folded','netChange','suspended','suspendedTotal','previous','competitions','cups','leagues','competitionsDelta','cupsDelta','leaguesDelta','competitionsCreated','cupsCreated','leaguesCreated', 'competitionsNetChange','cupsNetChange','leaguesNetChange','competitionsSuspended','cupsSuspended','leaguesSuspended','competitionsSuspendedTotal','cupsSuspendedTotal','leaguesSuspendedTotal'],axis=1).agg(['sum'])
+foldedProbability['compsFoldedAvgOAT'] = (foldedProbability['competitionsFolded'] / foldedProbability['competitionsPrv']).round(2)
+foldedProbability['cupsFoldedAvgOAT'] =  (foldedProbability['cupsFolded'] / foldedProbability['cupsPrv']).round(2)
+foldedProbability['leaguesFoldedAvgOAT'] = (foldedProbability['leaguesFolded'] / foldedProbability['leaguesPrv']).round(2)
+foldedProbability['duration'] = yearDF['format_year'].max() - yearDF['format_year'].min() + 1 - len(yearDF[yearDF['competitionsPrv'] == 0])
+
+foldedProbability['compsFoldedAvgFOT'] = (foldedProbability['compsFoldedAvgOAT'] / foldedProbability['duration'])
+foldedProbability['cupsFoldedAvgFOT'] =  (foldedProbability['cupsFoldedAvgOAT'] / foldedProbability['duration'])
+foldedProbability['leaguesFoldedAvgFOT'] = (foldedProbability['leaguesFoldedAvgOAT'] / foldedProbability['duration'])
+
+foldedProbability['compsFoldedProb'] = 1 - math.pow(math.e,- foldedProbability['compsFoldedAvgFOT'] * 1)
+foldedProbability['cupsFoldedProb'] =  1 - math.pow(math.e,- foldedProbability['cupsFoldedAvgFOT'] * 1)
+foldedProbability['leaguesFoldedProb'] =   1 - math.pow(math.e,- foldedProbability['leaguesFoldedAvgFOT'] * 1)
+
+foldedProbability.to_csv(os.path.join(resultsInterDirName,'league_hockey_sum.csv'),index=False)
+
 
 teamsHockSumDF.to_csv(os.path.join(resultsInterDirName,'teams_hockey_sum.csv'),index=False)
 teamsHockBaseDF.to_csv(os.path.join(resultsInterDirName,'teams_hockey_base.csv'),index=False)
