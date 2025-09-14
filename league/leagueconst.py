@@ -48,7 +48,7 @@ teamTypes = {
     'season_last': 'Int64',
 }
 
-removalList = [
+removalForProbs = [
     'format_year',
     'delta',
     'created',
@@ -80,7 +80,4 @@ removalList = [
     'cupsUnsuspended',
     'leaguesUnsuspended',
     'suspensions',
-    'competitionsSuspended',
-    'cupsSuspended',
-    'leaguesSuspended'
 ]

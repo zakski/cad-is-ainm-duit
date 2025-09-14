@@ -151,3 +151,70 @@ def calcCompetitionsSuspensions(seasonsDF):
     seasonsDF['leaguesSuspended'] = seasonsDF['leaguesNetSuspended'].mask(seasonsDF['leaguesNetSuspended'] < 0,0)
 
     return seasonsDF
+
+def aggregateSeasonEvents(expandedDF):
+    # Get first season for each competition and add as column
+    startSeasonDF = expandedDF.groupby('competition_name').agg(firstSeason =('format_year','min')).reset_index()
+    startSeasonDi = dict(zip(startSeasonDF['competition_name'], startSeasonDF['firstSeason']))
+    expandedDF['firstSeason'] = expandedDF['competition_name'].map(startSeasonDi)
+
+    # Get last season for each competition and add as column
+    lastSeasonDF = expandedDF.groupby('competition_name').agg(lastSeason =('format_year','max')).reset_index()
+    lastSeasonDi = dict(zip(lastSeasonDF['competition_name'], lastSeasonDF['lastSeason']))
+    expandedDF['lastSeason'] = expandedDF['competition_name'].map(lastSeasonDi)
+
+    # Filter if row season date equals first season date column
+    hockSSDF = expandedDF[expandedDF['firstSeason'] == expandedDF['format_year']].drop_duplicates(subset=['format_year','competition_name'])
+    # Filter if row season date equals last season date column
+    hockLSDF = expandedDF[expandedDF['lastSeason'] == expandedDF['format_year']].drop_duplicates(subset=['format_year','competition_name'])
+
+    # Count reported competitions by season
+    seasonsDF = countActiveCompetitions(expandedDF)
+    # Count reported cup competitions by season
+    seasonsCupDF = countActiveCups(expandedDF)
+    # Count reported cup competitions by season
+    seasonsLeagueDF = countActiveLeagues(expandedDF)
+    # merge Counts
+    seasonsDF = seasonsDF.merge(seasonsCupDF, left_on='format_year', right_on='format_year').merge(seasonsLeagueDF, left_on='format_year', right_on='format_year')
+
+    # Add Change From Previous Year
+    seasonsDF['delta'] = 'delta'
+    seasonsDF = calcCompetitionDeltas(seasonsDF)
+
+    # Add In Creation Events
+    seasonsDF['created'] = 'created'
+    seasonsDF = countCompetitionCreations(seasonsDF,hockSSDF)
+
+    # Set Initial Delta to Creation Events
+    seasonsDF.loc[0:0,'competitionsDelta'] = seasonsDF.at[0, 'competitionsCreated']
+    seasonsDF.loc[0:0,'cupsDelta'] = seasonsDF.at[0, 'cupsCreated']
+    seasonsDF.loc[0:0,'leaguesDelta'] = seasonsDF.at[0, 'leaguesCreated']
+
+    # Add In Dissolution Events
+    seasonsDF['folded'] = 'folded'
+    seasonsDF = countCompetitionEnds(seasonsDF,hockLSDF)
+
+    # Add In Net Change Events
+    seasonsDF['netChange'] = 'netChange'
+    seasonsDF = calcCompetitionNetChanges(seasonsDF)
+
+    # Add In Net Suspension Events
+    seasonsDF['suspendedNet'] = 'suspensionsNet'
+    seasonsDF = calcCompetitionsNetSuspensions(seasonsDF)
+    # Add In Total Suspended
+    seasonsDF['suspendedTotal'] = 'suspendedTotal'
+    seasonsDF = calcCompetitionsSuspended(seasonsDF)
+    # Separate Suspensions from Unsuspensions
+    seasonsDF['unsuspensions'] = 'unsuspensions'
+    seasonsDF = calcCompetitionsUnsuspensions(seasonsDF)
+    # Separate Suspensions from Unsuspensions
+    seasonsDF['suspensions'] = 'suspensions'
+    seasonsDF = calcCompetitionsSuspensions(seasonsDF)
+
+    # Add Total From Previous Year
+    seasonsDF['previous'] = 'previous'
+    seasonsDF['competitionsPrv'] = seasonsDF['competitions'].shift(1).fillna(0).astype(int)
+    seasonsDF['cupsPrv'] = seasonsDF['cups'].shift(1).fillna(0).astype(int)
+    seasonsDF['leaguesPrv'] = seasonsDF['leagues'].shift(1).fillna(0).astype(int)
+
+    return seasonsDF
