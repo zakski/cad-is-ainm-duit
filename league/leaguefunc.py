@@ -1,7 +1,9 @@
 import pandas as pd
 import numpy as np
 
+import os
 
+import leagueconst as const
 
 def expandRange(data, minimumCol, maximumCol, rangeCol, col):
 
@@ -110,6 +112,18 @@ def countActiveLeagues(expandedDF):
 
     return seasonsDF
 
+def countActiveDivisions(expandedDF):
+    seasonsDF = expandedDF[expandedDF['competition_type'] == 'league'].groupby('format_year').agg(divisions=('competition_name','count'),leagueClubs=('clubs','sum'),minDivisionClubs=('clubs','min'),maxDivisionClubs=('clubs','max')).reset_index()
+    seasonsDF.index = seasonsDF['format_year']
+    seasonsDF = seasonsDF.reindex(np.arange(seasonsDF['format_year'].min(), seasonsDF['format_year'].max() + 1)).fillna(0)
+    seasonsDF['divisions'] = seasonsDF['divisions'].astype(int)
+    seasonsDF['leagueClubs'] = seasonsDF['leagueClubs'].astype(int)
+    seasonsDF['minDivisionClubs'] = seasonsDF['minDivisionClubs'].astype(int)
+    seasonsDF['maxDivisionClubs'] = seasonsDF['maxDivisionClubs'].astype(int)
+    seasonsDF = seasonsDF.drop(['format_year'],axis=1).reset_index()
+
+    return seasonsDF
+
 def calcCompetitionDeltas(seasonsDF):
     seasonsDF['competitionsDelta'] = seasonsDF['competitions'].diff().fillna(0).astype(int)
     seasonsDF['cupsDelta'] = seasonsDF['cups'].diff().fillna(0).astype(int)
@@ -152,7 +166,7 @@ def calcCompetitionsSuspensions(seasonsDF):
 
     return seasonsDF
 
-def aggregateSeasonEvents(expandedDF):
+def aggregateSeasonsEvents(expandedDF):
     # Get first season for each competition and add as column
     startSeasonDF = expandedDF.groupby('competition_name').agg(firstSeason =('format_year','min')).reset_index()
     startSeasonDi = dict(zip(startSeasonDF['competition_name'], startSeasonDF['firstSeason']))
@@ -164,18 +178,24 @@ def aggregateSeasonEvents(expandedDF):
     expandedDF['lastSeason'] = expandedDF['competition_name'].map(lastSeasonDi)
 
     # Filter if row season date equals first season date column
-    hockSSDF = expandedDF[expandedDF['firstSeason'] == expandedDF['format_year']].drop_duplicates(subset=['format_year','competition_name'])
+    competitionStartDF = expandedDF[expandedDF['firstSeason'] == expandedDF['format_year']].drop_duplicates(subset=['format_year','competition_name'])
     # Filter if row season date equals last season date column
-    hockLSDF = expandedDF[expandedDF['lastSeason'] == expandedDF['format_year']].drop_duplicates(subset=['format_year','competition_name'])
+    competitionEndDF = expandedDF[expandedDF['lastSeason'] == expandedDF['format_year']].drop_duplicates(subset=['format_year','competition_name'])
 
     # Count reported competitions by season
     seasonsDF = countActiveCompetitions(expandedDF)
     # Count reported cup competitions by season
     seasonsCupDF = countActiveCups(expandedDF)
-    # Count reported cup competitions by season
+    # Count reported league competitions by season
     seasonsLeagueDF = countActiveLeagues(expandedDF)
+    # Count reported divisions by season
+    seasonsDivDF = countActiveDivisions(expandedDF)
+
     # merge Counts
-    seasonsDF = seasonsDF.merge(seasonsCupDF, left_on='format_year', right_on='format_year').merge(seasonsLeagueDF, left_on='format_year', right_on='format_year')
+    seasonsDF = (seasonsDF.merge(seasonsCupDF,how='left', left_on='format_year', right_on='format_year')
+                 .merge(seasonsLeagueDF,how='left', left_on='format_year', right_on='format_year')
+                 .merge(seasonsDivDF,how='left', left_on='format_year', right_on='format_year'))
+    seasonsDF = seasonsDF.fillna(0).astype('int64')
 
     # Add Change From Previous Year
     seasonsDF['delta'] = 'delta'
@@ -183,7 +203,7 @@ def aggregateSeasonEvents(expandedDF):
 
     # Add In Creation Events
     seasonsDF['created'] = 'created'
-    seasonsDF = countCompetitionCreations(seasonsDF,hockSSDF)
+    seasonsDF = countCompetitionCreations(seasonsDF,competitionStartDF)
 
     # Set Initial Delta to Creation Events
     seasonsDF.loc[0:0,'competitionsDelta'] = seasonsDF.at[0, 'competitionsCreated']
@@ -192,7 +212,7 @@ def aggregateSeasonEvents(expandedDF):
 
     # Add In Dissolution Events
     seasonsDF['folded'] = 'folded'
-    seasonsDF = countCompetitionEnds(seasonsDF,hockLSDF)
+    seasonsDF = countCompetitionEnds(seasonsDF,competitionEndDF)
 
     # Add In Net Change Events
     seasonsDF['netChange'] = 'netChange'
@@ -216,5 +236,60 @@ def aggregateSeasonEvents(expandedDF):
     seasonsDF['competitionsPrv'] = seasonsDF['competitions'].shift(1).fillna(0).astype(int)
     seasonsDF['cupsPrv'] = seasonsDF['cups'].shift(1).fillna(0).astype(int)
     seasonsDF['leaguesPrv'] = seasonsDF['leagues'].shift(1).fillna(0).astype(int)
+    seasonsDF['competitionsSuspendedPrv'] = seasonsDF['competitionsSuspendedTotal'].shift(1).fillna(0).astype(int)
+    seasonsDF['cupsSuspendedPrv'] = seasonsDF['cupsSuspendedTotal'].shift(1).fillna(0).astype(int)
+    seasonsDF['leaguesSuspendedPrv'] = seasonsDF['leaguesSuspendedTotal'].shift(1).fillna(0).astype(int)
+
+    # Add In Empty Competition Slots
+    maxComps = (seasonsDF['competitions'] + seasonsDF['competitionsSuspendedTotal']).max()
+    maxCups = (seasonsDF['cups'] +  seasonsDF['cupsSuspendedTotal']).max()
+    maxLeagues = (seasonsDF['leagues'] + seasonsDF['leaguesSuspendedTotal']).max()
+
+    seasonsDF['emptyCompSlots'] = 'emptyCompSlots'
+    seasonsDF['emptyComps'] = (maxComps - (seasonsDF['competitions'] + seasonsDF['competitionsSuspendedTotal'])) + seasonsDF['competitionsCreated']
+    seasonsDF['emptyCups'] = (maxCups - (seasonsDF['cups'] + seasonsDF['cupsSuspendedTotal'])) + seasonsDF['cupsCreated']
+    seasonsDF['emptyLeagues'] = (maxLeagues - (seasonsDF['leagues'] + seasonsDF['cupsSuspendedTotal'])) + seasonsDF['leaguesCreated']
 
     return seasonsDF
+
+def summariseSeasonsPeriodEvents(periodName, periodDF):
+    periodProbDF = periodDF.drop(const.removalForProbs,axis=1).agg(['sum'])
+    periodProbDF['duration'] = periodDF['format_year'].max() - periodDF['format_year'].min() + 1 - len(periodDF[periodDF['competitionsPrv'] == 0])
+
+    periodProbDF['competitionsCreatedProb'] = (periodProbDF['competitionsCreated'] / periodProbDF['emptyComps']).round(2)
+    periodProbDF['cupsCreatedProb'] =  (periodProbDF['cupsCreated'] / periodProbDF['emptyCups']).round(2)
+    periodProbDF['leaguesCreatedProb'] = (periodProbDF['leaguesCreated'] / periodProbDF['emptyLeagues']).round(2)
+
+    periodProbDF['compsFoldedProb'] = (periodProbDF['competitionsFolded'] / periodProbDF['competitionsPrv']).round(2)
+    periodProbDF['cupsFoldedProb'] =  (periodProbDF['cupsFolded'] / periodProbDF['cupsPrv']).round(2)
+    periodProbDF['leaguesFoldedProb'] = (periodProbDF['leaguesFolded'] / periodProbDF['leaguesPrv']).round(2)
+
+    periodProbDF['competitionsSuspendedProb'] = (periodProbDF['competitionsSuspended'] / periodProbDF['competitionsPrv']).round(2)
+    periodProbDF['cupsSuspendedProb'] =  (periodProbDF['cupsSuspended'] / periodProbDF['cupsPrv']).round(2)
+    periodProbDF['leaguesSuspendedProb'] = (periodProbDF['leaguesSuspended'] / periodProbDF['leaguesPrv']).round(2)
+
+    periodProbDF['competitionsUnSuspendedProb'] = (periodProbDF['competitionsUnsuspended'] / periodProbDF['competitionsSuspendedPrv']).round(2)
+    periodProbDF['cupsUnSuspendedProb'] =  (periodProbDF['cupsUnsuspended'] / periodProbDF['cupsSuspendedPrv']).round(2)
+    periodProbDF['leaguesUnSuspendedProb'] = (periodProbDF['leaguesUnsuspended'] / periodProbDF['leaguesSuspendedPrv']).round(2)
+
+    periodProbDF['periodName'] = periodName
+
+    periodProbDF = periodProbDF.fillna(0)
+    periodProbDF['duration'] = periodProbDF['duration'].astype('int64')
+
+    return periodProbDF.loc[:, ['periodName', 'duration', 'competitionsCreatedProb','cupsCreatedProb', 'leaguesCreatedProb','compsFoldedProb','cupsFoldedProb','leaguesFoldedProb','competitionsSuspendedProb','cupsSuspendedProb','leaguesSuspendedProb','competitionsUnSuspendedProb','cupsUnSuspendedProb','leaguesUnSuspendedProb']]
+
+def summariseSeasonsEvents(seasonsDF):
+    belleEpSliceDf = seasonsDF[seasonsDF['format_year'] < 1914]
+    interwarSliceDf = seasonsDF[seasonsDF['format_year'] < 1940][seasonsDF['format_year'] > 1918]
+    postwarSliceDf = seasonsDF[seasonsDF['format_year'] < 1980][seasonsDF['format_year'] > 1945]
+    glasnostSliceDf = seasonsDF[seasonsDF['format_year'] < 1990][seasonsDF['format_year'] > 1979]
+    modernSliceDf = seasonsDF[seasonsDF['format_year'] > 1989]
+
+    belleEpSumDf = summariseSeasonsPeriodEvents('La Belle Époque',belleEpSliceDf)
+    interwarSumDf = summariseSeasonsPeriodEvents('Interbellum', interwarSliceDf)
+    postwarSumDf = summariseSeasonsPeriodEvents('Post-War', postwarSliceDf)
+    glasnostSumDf = summariseSeasonsPeriodEvents('Glasnost', glasnostSliceDf)
+    modernSumDf = summariseSeasonsPeriodEvents('Modern', modernSliceDf)
+
+    return pd.concat([belleEpSumDf,interwarSumDf,postwarSumDf,glasnostSumDf,modernSumDf])
