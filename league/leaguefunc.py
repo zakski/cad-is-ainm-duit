@@ -32,18 +32,6 @@ def expandRange(data, minimumCol, maximumCol, rangeCol, col):
     finalData = new_data.assign(actual_col=new_data[minimumCol] + cumsum - 1).rename({"actual_col": col}, axis=1)
     return finalData.drop(['original_index',rangeCol],axis=1)
 
-def teamsSummary(teamsDF, sport):
-    teamsSumDF = teamsDF['season_year'].value_counts().reset_index()['count'].describe().reset_index()
-    teamsSumDF = teamsSumDF.T.reset_index()
-    teamsSumDF.columns = teamsSumDF.iloc[0]
-    teamsSumDF = teamsSumDF.drop(['index', 'std'],axis=1)
-    teamsSumDF = teamsSumDF.iloc[1:]
-    teamsSumDF = teamsSumDF.round().astype('int64')
-    teamsSumDF = teamsSumDF.rename(columns={"count": "seasons"})
-    teamsSumDF['sport'] = sport
-    return teamsSumDF
-
-
 def countCompetitionCreations(seasonsDF, competitionsStartsDF):
     # Count creations by season
     compCreationDF = competitionsStartsDF['format_year'].value_counts().reset_index()
@@ -279,12 +267,19 @@ def summariseSeasonsPeriodEvents(periodName, periodDF):
 
     return periodProbDF.loc[:, ['periodName', 'duration', 'competitionsCreatedProb','cupsCreatedProb', 'leaguesCreatedProb','compsFoldedProb','cupsFoldedProb','leaguesFoldedProb','competitionsSuspendedProb','cupsSuspendedProb','leaguesSuspendedProb','competitionsUnSuspendedProb','cupsUnSuspendedProb','leaguesUnSuspendedProb']]
 
-def summariseSeasonsEvents(seasonsDF):
-    belleEpSliceDf = seasonsDF[seasonsDF['format_year'] < 1914]
-    interwarSliceDf = seasonsDF[seasonsDF['format_year'] < 1940][seasonsDF['format_year'] > 1918]
-    postwarSliceDf = seasonsDF[seasonsDF['format_year'] < 1980][seasonsDF['format_year'] > 1945]
-    glasnostSliceDf = seasonsDF[seasonsDF['format_year'] < 1990][seasonsDF['format_year'] > 1979]
-    modernSliceDf = seasonsDF[seasonsDF['format_year'] > 1989]
+def summariseSeasonsEvents(compsDF, shouldPrint, resultsDir):
+    belleEpSliceDf = compsDF[compsDF['format_year'] < 1914]
+    interwarSliceDf = compsDF[compsDF['format_year'] < 1940][compsDF['format_year'] > 1918]
+    postwarSliceDf = compsDF[compsDF['format_year'] < 1980][compsDF['format_year'] > 1945]
+    glasnostSliceDf = compsDF[compsDF['format_year'] < 1990][compsDF['format_year'] > 1979]
+    modernSliceDf = compsDF[compsDF['format_year'] > 1989]
+
+    if shouldPrint:
+        belleEpSliceDf.to_csv(os.path.join(resultsDir,'league_period_belleEp_agg.csv'),index=False)
+        interwarSliceDf.to_csv(os.path.join(resultsDir,'league_period_interwar_agg.csv'),index=False)
+        postwarSliceDf.to_csv(os.path.join(resultsDir,'league_period_postwar_agg.csv'),index=False)
+        glasnostSliceDf.to_csv(os.path.join(resultsDir,'league_period_glasnost_agg.csv'),index=False)
+        modernSliceDf.to_csv(os.path.join(resultsDir,'league_period_modern_agg.csv'),index=False)
 
     belleEpSumDf = summariseSeasonsPeriodEvents('La Belle Époque',belleEpSliceDf)
     interwarSumDf = summariseSeasonsPeriodEvents('Interbellum', interwarSliceDf)
@@ -293,3 +288,84 @@ def summariseSeasonsEvents(seasonsDF):
     modernSumDf = summariseSeasonsPeriodEvents('Modern', modernSliceDf)
 
     return pd.concat([belleEpSumDf,interwarSumDf,postwarSumDf,glasnostSumDf,modernSumDf])
+
+def summariseTeamsPeriodEvents(periodName, teamsDF, sport):
+    teamsSumDF = teamsDF['season_year'].value_counts().reset_index()['count'].describe().reset_index()
+    teamsSumDF = teamsSumDF.T.reset_index()
+    teamsSumDF.columns = teamsSumDF.iloc[0]
+    teamsSumDF = teamsSumDF.drop(['index', 'std'],axis=1)
+    teamsSumDF = teamsSumDF.iloc[1:]
+
+    teamsSumDF['sport'] = sport
+    teamsSumDF['periodName'] = periodName
+
+
+    teamsSumDF = teamsSumDF.fillna(0)
+    teamsSumDF = teamsSumDF.round().astype('int64',errors='ignore')
+    teamsSumDF = teamsSumDF.rename(columns={"count": "seasons"})
+
+    return teamsSumDF.loc[:, ['periodName',  "seasons", 'sport', 'mean','min', '25%','50%','75%','max']]
+
+
+def summariseTeamEvents(teamsDF, sport, shouldPrint, resultsDir):
+    belleEpSliceDf = teamsDF[teamsDF['season_year'] < 1914]
+    interwarSliceDf = teamsDF[teamsDF['season_year'] < 1940][teamsDF['season_year'] > 1918]
+    postwarSliceDf = teamsDF[teamsDF['season_year'] < 1980][teamsDF['season_year'] > 1945]
+    glasnostSliceDf = teamsDF[teamsDF['season_year'] < 1990][teamsDF['season_year'] > 1979]
+    modernSliceDf = teamsDF[teamsDF['season_year'] > 1989]
+
+    if shouldPrint:
+        belleEpSliceDf.to_csv(os.path.join(resultsDir,'teams_period_belleEp_agg.csv'),index=False)
+        interwarSliceDf.to_csv(os.path.join(resultsDir,'teams_period_interwar_agg.csv'),index=False)
+        postwarSliceDf.to_csv(os.path.join(resultsDir,'teams_period_postwar_agg.csv'),index=False)
+        glasnostSliceDf.to_csv(os.path.join(resultsDir,'teams_period_glasnost_agg.csv'),index=False)
+        modernSliceDf.to_csv(os.path.join(resultsDir,'teams_period_modern_agg.csv'),index=False)
+
+    belleEpSumDf = summariseTeamsPeriodEvents('La Belle Époque',belleEpSliceDf,sport)
+    interwarSumDf = summariseTeamsPeriodEvents('Interbellum', interwarSliceDf,sport)
+    postwarSumDf = summariseTeamsPeriodEvents('Post-War', postwarSliceDf,sport)
+    glasnostSumDf = summariseTeamsPeriodEvents('Glasnost', glasnostSliceDf,sport)
+    modernSumDf = summariseTeamsPeriodEvents('Modern', modernSliceDf,sport)
+
+    return pd.concat([belleEpSumDf,interwarSumDf,postwarSumDf,glasnostSumDf,modernSumDf])
+
+def processSeasonsEvents(compsDF, shouldPrint, resultsDir):
+    # expand
+    compsExpDF = expandRange(compsDF,'format_start','format_end','format_range','format_year')
+    compsExpDF = compsExpDF.sort_values(['format_year','competition_tier'],ascending=[True,True])
+
+    if shouldPrint:
+        compsExpDF.to_csv(os.path.join(resultsDir,'league_expanded.csv'),index=False)
+
+    seasonsDF = aggregateSeasonsEvents(compsExpDF)
+
+    if shouldPrint:
+        seasonsDF.to_csv(os.path.join(resultsDir,'league_aggregate.csv'),index=False)
+
+    foldedProbability = summariseSeasonsEvents(seasonsDF,True,resultsDir)
+
+
+    if shouldPrint:
+        foldedProbability.to_csv(os.path.join(resultsDir,'league_sum.csv'),index=False)
+
+    return foldedProbability
+
+def processTeamsEvents(teamsDF, sport, shouldPrint, resultsDir):
+    # expand
+    teamsExpDF = expandRange(teamsDF,'season_founded','season_last','season_range','season_year')
+    teamsExpDF = teamsExpDF.sort_values(['season_year','team_name'],ascending=[True,True])
+
+    if shouldPrint:
+        teamsExpDF.to_csv(os.path.join(resultsDir,'teams_expanded.csv'),index=False)
+        teamsBaseDF = teamsExpDF['team_base'].value_counts().reset_index()
+        teamsSuffDF = teamsExpDF['team_suffix'].value_counts().reset_index()
+
+        teamsBaseDF.to_csv(os.path.join(resultsDir,'teams_base.csv'),index=False)
+        teamsSuffDF.to_csv(os.path.join(resultsDir,'teams_suffix.csv'),index=False)
+
+    teamsSumDF = summariseTeamEvents(teamsExpDF,sport,True,resultsDir)
+
+    if shouldPrint:
+        teamsSumDF.to_csv(os.path.join(resultsDir,'teams_sum.csv'),index=False)
+
+    return teamsSumDF
