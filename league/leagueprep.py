@@ -37,12 +37,22 @@ os.makedirs(const.resultsDirName, exist_ok=True)
 #print(f'P-value: {ks_p_value}')
 
 # summarise Events
-hockLeaguesDF = func.processSeasonsEvents(leagueHockDF,True,const.resultsHockDirName)
+hockLeaguesDF = func.processSeasonsEvents(leagueHockDF,True,const.resultsHockDirName,postwarYears = [1946,1980])
 hockTeamsDF = func.processTeamsEvents(teamsHockDF, 'ice hockey',True,const.resultsHockDirName)
 hockDF = hockLeaguesDF.merge(hockTeamsDF,how='inner', left_on='periodName', right_on='periodName')
-hockDF.to_csv(os.path.join(const.resultsHockDirName,'all_sum.csv'),index=False)
 
-RugLeagueLeaguesDF = func.processSeasonsEvents(leagueRugLeagueDF,True,const.resultsInterDirName)
+hockPrintDf = hockDF.copy()
+hockPrintDf['created'] = 'created'
+hockPrintDf['folded'] = 'folded'
+hockPrintDf['suspended'] = 'suspended'
+hockPrintDf['unsuspended'] = 'unsuspended'
+hockPrintDf['comps'] = 'comps'
+hockPrintDf['cups'] = 'cups'
+hockPrintDf['leag'] = 'leagues'
+hockPrintDf = hockPrintDf.loc[:, ['periodName', 'duration','comps','competitionsMin','competitions25%','competitionsMedian','competitions75%','competitionsMax', 'cups','cupsMin','cups25%','cupsMedian','cups75%','cupsMax','leag', 'leagMin','leag25%','leagMedian','leag75%','leagMax','created','competitionsCreatedProb','cupsCreatedProb', 'leaguesCreatedProb','folded','compsFoldedProb','cupsFoldedProb','leaguesFoldedProb','suspended','competitionsSuspendedProb','cupsSuspendedProb','leaguesSuspendedProb','unsuspended','competitionsUnSuspendedProb','cupsUnSuspendedProb','leaguesUnSuspendedProb', 'seasons','sport','teams25%','teamsMedian','teams75%','teamsMax','teamsCreatedProb','teamsFoldedProb']]
+hockPrintDf.to_csv(os.path.join(const.resultsHockDirName,'all_sum.csv'),index=False)
+
+rugLeagueLeaguesDF = func.processSeasonsEvents(leagueRugLeagueDF,True,const.resultsInterDirName)
 
 # summarise Teams
 #

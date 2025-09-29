@@ -66,7 +66,7 @@ teamTypes = {
     'season_last': 'Int64',
 }
 
-removalForProbs = [
+removalForCompsProbs = [
     'format_year',
     'delta',
     'created',
@@ -103,4 +103,16 @@ removalForProbs = [
     #'leaguesUnsuspended',
     'suspensions',
     'emptyCompSlots',
+]
+
+
+removalForTeamsProbs = [
+    'season_year',
+    'delta',
+    'created',
+    'folded',
+    'netChange',
+    'previous',
+    'teamsNetChange',
+    'emptyTeamSlots',
 ]
