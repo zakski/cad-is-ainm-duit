@@ -7,14 +7,16 @@ from pathlib import Path
 rootDirName = os.path.dirname(__file__)
 resultsInterDirName = os.path.join(rootDirName, Path('../results_intermediate'))
 resultsHockDirName = os.path.join(rootDirName, Path('../results_hockey'))
-resultsDirName = os.path.join(rootDirName, Path('../results_league'))
+resultsLeagueDirName = os.path.join(rootDirName, Path('../results_league'))
 
 dirLeagueName = os.path.join(rootDirName, Path('../data/data/league/'))
 dataFootballLeagueName = os.path.join(dirLeagueName, 'football-leagues.csv')
 
 dataHockLeagueName = os.path.join(dirLeagueName, 'comp-hockey.csv')
 dataTeamsHockName = os.path.join(dirLeagueName, 'teams-hockey.csv')
-dataRugLeagueLeagueName = os.path.join(dirLeagueName, 'comp-league.csv')
+
+dataLeagueRugLeagueName = os.path.join(dirLeagueName, 'comp-league.csv')
+dataTeamsRugLeagueName = os.path.join(dirLeagueName, 'teams-league.csv')
 
 
 # 1901 Census Constants

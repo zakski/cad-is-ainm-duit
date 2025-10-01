@@ -1,0 +1,210 @@
+org_name,wording_order,id_term,sport_term,assoc_term
+(English) Rugby Football Union (RFU),sport_assoc,_,<sport_full>,Union
+Afghanistan Rugby Federation,id_sport_assoc,<country>,<sport_short>,Federation
+Algerian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+American Samoa Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Andorran Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Arabian Gulf Rugby Football Union,id_sport_assoc,<region>,<sport_full>,Union
+Argentine Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Australian Rugby League Commission,id_sport_assoc,<nationality>,<sport_short>,Commission
+Australian Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Austrian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Azerbaijani Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Bahamas Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Barbados Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Belgian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Belgium Rugby League,id_sport,<country>,<sport_full>,_
+Bermuda Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Botswana Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Brazilian Rugby Confederation,id_sport_assoc,<nationality>,<sport_short>,Confederation
+British Virgin Islands Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Brunei Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Bulgarian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Burundian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Cambodian Federation of Rugby,id_sport_assoc,<nationality>,<sport_short>,Federation
+Cameroonian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Canada Rugby League,id_sport,<country>,<sport_full>,_
+Canadian Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Catalan Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Catalan Rugby League Association,id_sport_assoc,<nationality>,<sport_short>,Association
+Cayman Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Ceylon Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Chilean Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Chinese Rugby Football Association,id_sport_assoc,<nationality>,<sport_full>,Association
+Chinese Taipei Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Comorian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Cook Islands Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Côte d'Ivoire Rugby Federation,id_sport_assoc,<country>,<sport_short>,Federation
+Croatian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Cyprus Rugby Federation,id_sport_assoc,<country>,<sport_short>,Federation
+Czech Rugby League Association,id_sport_assoc,<nationality>,<sport_short>,Association
+Czech Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Czechoslovak Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Danish Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Dominican Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Dutch Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Ecuadorian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Egyptian Rugby Football Union,id_sport_assoc,<nationality>,<sport_full>,Union
+Emirates Rugby League,id_sport,<country>,<sport_full>,_
+Estonia Rugby League Federation,id_sport_assoc,<country>,<sport_short>,Federation
+Estonian Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+French Rugby League Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Federation of Lesotho Rugby,assoc_id_sport,<country>,<sport_short>,Federation
+Federazione Italiana Rugby League,assoc_id_sport,<nationality>,<sport_full>,Federation
+Fiji National Rugby League,id_sport,<country>,<sport_full>,_
+Fiji Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Fiji Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Finnish Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+French Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Georgia Rugby League,id_sport,<country>,<sport_full>,_
+Georgia Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+German Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Ghana Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Greek Rugby League,id_sport,<nationality>,<sport_full>,_
+Guam Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Guatemalan Rugby Association,id_sport_assoc,<nationality>,<sport_short>,Association
+Gulf Rugby Football Union,id_sport_assoc,<region>,<sport_full>,Union
+Guyana Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Haitian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Hellenic Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Hong Kong Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Hungarian Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Indian Rugby Football Union,id_sport_assoc,<nationality>,<sport_full>,Union
+Irish Football Union,id_sport_assoc,<nationality>,<sport_pre_split>,Union
+Irish Rugby Football Union,id_sport_assoc,<nationality>,<sport_full>,Union
+Israel Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Italian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Jamaica Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Jamaica Rugby League Association,id_sport_assoc,<country>,<sport_short>,Association
+Japan Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Japan Rugby League,id_sport,<country>,<sport_full>,_
+Jordan Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Kazakhstan Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Kenya Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Korea Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Lao Rugby Federation,id_sport_assoc,<country>,<sport_short>,Federation
+Latvian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Lebanese Rugby League Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Lebanese Rugby Union Federation,id_sport_assoc,<nationality>,<sport_full>,Federation
+Libyan Rugby Association,id_sport_assoc,<nationality>,<sport_short>,Association
+Liechtenstein Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Lithuanian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Luxembourg Rugby Federation,id_sport_assoc,<country>,<sport_short>,Federation
+Macau Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Madagascan Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Malaya Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Malaysian Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Malian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Malta Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Maltese Rugby League Association,id_sport_assoc,<nationality>,<sport_short>,Association
+Martinique Rugby Committee,id_sport_assoc,<country>,<sport_short>,Committee
+Mexican Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Moldovan Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Monegasque Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Mongolian Rugby Football Union,id_sport_assoc,<nationality>,<sport_full>,Union
+Morocco Rugby League,id_sport,<country>,<sport_full>,_
+Namibia Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+National Rugby Federation of Ukraine,sport_assoc_id,<country>,<sport_short>,Federation
+Nepal Rugby Association,id_sport_assoc,<country>,<sport_short>,Association
+Netherlands Rugby League Bond,id_sport_assoc,<country>,<sport_short>,Bond
+New South Wales Rugby League,id_sport_assoc,<region>,<sport_full>,_
+New South Wales Rugby Union,id_sport_assoc,<region>,<sport_short>,Union
+New Zealand Rugby,id_sport,<country>,<sport_short>,_
+New Zealand Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+New Zealand Rugby League,id_sport,<country>,<sport_full>,_
+New Zealand Rugby Union ,id_sport_assoc,<country>,<sport_short>,Union
+Nigeria Rugby Football Federation,id_sport_assoc,<country>,<sport_full>,Federation
+Niue Rugby Football Union,id_sport_assoc,<country>,<sport_short>,Union
+Northern Football Union of Ireland,sport_assoc_id,<country>,<sport_short>,Union
+Northern Rugby Union,id_sport_assoc,<region>,<sport_short>,Union
+Norwegian Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Pakistan Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Papua New Guinea Rugby Football League,id_sport,<country>,<sport_full>,_
+Papua New Guinea Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Paraguayan Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Peruvian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Philippine Rugby Football Union,id_sport_assoc,<nationality>,<sport_full>,Union
+Philippines National Rugby League,id_sport,<country>,<sport_full>,_
+Polish Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Portuguese Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Portuguese Rugby League Association,id_sport_assoc,<nationality>,<sport_short>,Association
+Qatar Rugby Federation,id_sport_assoc,<country>,<sport_short>,Federation
+Queensland Rugby League,id_sport,<region>,<sport_full>,_
+Queensland Rugby Union,id_sport_assoc,<region>,<sport_short>,Union
+Rhodesia Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Romanian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Royal Moroccan Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Rugby Association of Panama,sport_assoc_id,<country>,<sport_short>,Association
+Rugby Association of Slovenia,sport_assoc_id,<country>,<sport_short>,Association
+Rugby Australia,sport_id,<country>,<sport_short>,_
+Rugby Belize,sport_id,<country>,<sport_short>,_
+Rugby Canada,sport_id,<country>,<sport_short>,_
+Rugby Federation of Costa Rica,sport_assoc_id,<country>,<sport_short>,Federation
+Rugby Football League,sport,_,<sport_full>,_
+Rugby Football Union of East Africa,sport_assoc_id,<region>,<sport_full>,Union
+Rugby Football Union of Kenya,sport_assoc_id,<country>,<sport_full>,Union
+Rugby Iceland,sport_id,<country>,<sport_short>,_
+Rugby League Deutschland,sport_id,<country>,<sport_full>,_
+Rugby League European Federation,sport_id_assoc,<region>,<sport_full>,Federation
+Rugby League Ireland,sport_id,<country>,<sport_short>,_
+Rugby Union Mauritius,sport_assoc_id,<country>,<sport_full>,Union
+Rugby Union of Belarus,sport_assoc_id,<country>,<sport_full>,Union
+Rugby Union of Bosnia and Herzegovina,sport_assoc_id,<country>,<sport_short>,Union
+Rugby Union of Brazil,sport_assoc_id,<country>,<sport_short>,Union
+Rugby Union of Chile,sport_assoc_id,<country>,<sport_short>,Union
+Rugby Union of Russia,sport_assoc_id,<country>,<sport_short>,Union
+Rugby Union of Serbia,sport_assoc_id,<country>,<sport_short>,Union
+Rugby Union of the Soviet Union,sport_assoc_id,<country>,<sport_short>,Union
+Russian Rugby League Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Rwandan Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Saint Lucia Rugby Football Union,id_sport_assoc,<country>,<sport_short>,Union
+Saint Vincent and the Grenadines Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Sammarinese Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Samoa Rugby Football Union,id_sport_assoc,<country>,<sport_short>,Union
+Scotland Rugby League,id_sport,<country>,<sport_full>,_
+Scottish Football Union,id_sport_assoc,<nationality>,<sport_pre_split>,Union
+Scottish Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Senegalese Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Serbian Rugby League,id_sport,<nationality>,<sport_full>,_
+Singapore Rugby League,id_sport,<country>,<sport_full>,_
+Singapore Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Slovak Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Solomon Islands Rugby League Federation,id_sport_assoc,<country>,<sport_short>,Federation
+Solomon Islands Rugby Union Federation,id_sport_assoc,<country>,<sport_short>,Federation
+South Africa Rugby League,id_sport,<country>,<sport_full>,_
+South African Rugby Board,id_sport_assoc,<nationality>,<sport_short>,Board
+South African Rugby Football Union,id_sport_assoc,<nationality>,<sport_full>,Union
+South African Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+South African Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Southern Rugby Football Union ,id_sport_assoc,<region>,<sport_full>,Union
+Spanish Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Sri Lanka Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Swaziland Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Swedish Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Swiss Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Syrian High Rugby Committee,id_sport_assoc,<nationality>,<sport_short>,Committee
+Tahiti Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+Thai Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+Togolese Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Tonga National Rugby League,id_sport,<country>,<sport_short>,_
+Tonga Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Trinidad and Tobago Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Tunisian Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Turkey Rugby Federation,id_sport_assoc,<country>,<sport_short>,Federation
+Turks and Caicos Islands Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Tuvalu Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+UAE Rugby Federation,id_sport_assoc,<country>,<sport_short>,Federation
+Uganda Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
+United States of America Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Uruguayan Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+USA Rugby,id_sport,<country>,<sport_short>,_
+USA Rugby League,id_sport,<country>,<sport_full>,_
+Uzbekistan Rugby Federation,id_sport_assoc,<country>,<sport_short>,Federation
+Vanuatu Rugby Football Union,id_sport_assoc,<country>,<sport_short>,Union
+Venezuelan Rugby Federation,id_sport_assoc,<nationality>,<sport_short>,Federation
+Wales Rugby League,id_sport,<country>,<sport_short>,_
+Welsh Rugby Union,id_sport_assoc,<nationality>,<sport_short>,Union
+West Coast American National Rugby League,id_sport,<region>,<sport_full>,_
+West Indies Rugby League Federation,id_sport_assoc,<country>,<sport_short>,Federation
+Zambia Rugby Football Union,id_sport_assoc,<country>,<sport_full>,Union
+Zimbabwe Rugby Union,id_sport_assoc,<country>,<sport_short>,Union
