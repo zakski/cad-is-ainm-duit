@@ -115,3 +115,17 @@ teamsSuffDF = teamsSuffDF.drop(['count_rl','count_hock'],axis=1)
 teamsSuffDF = teamsSuffDF.sort_values(['count','team_suffix'],ascending=[False,True])
 
 teamsSuffDF.to_csv(os.path.join(const.resultsInterDirName,'teams_suffix.csv'),index=False)
+
+orgsDF = pd.read_csv(const.dataOrgsName,header=0,dtype=const.orgsTypes,index_col=False)
+orgsOrderDf = orgsDF['wording_order'].value_counts().reset_index()
+orgsIdDf = orgsDF['id_term'].value_counts().reset_index()
+orgsIdDf = orgsIdDf[orgsIdDf['id_term'] != '_']
+orgsSportDf = orgsDF['sport_term'].value_counts().reset_index()
+orgsSportDf = orgsSportDf[orgsSportDf['sport_term'] != '_']
+orgsAssocDf = orgsDF['assoc_term'].value_counts().reset_index()
+orgsAssocDf = orgsAssocDf[orgsAssocDf['assoc_term'] != '_']
+
+orgsOrderDf.to_csv(os.path.join(const.resultsInterDirName,'orgs_order.csv'),index=False)
+orgsIdDf.to_csv(os.path.join(const.resultsInterDirName,'orgs_id.csv'),index=False)
+orgsSportDf.to_csv(os.path.join(const.resultsInterDirName,'orgs_sport.csv'),index=False)
+orgsAssocDf.to_csv(os.path.join(const.resultsInterDirName,'orgs_assoc.csv'),index=False)

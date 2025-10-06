@@ -17,6 +17,7 @@ dataTeamsHockName = os.path.join(dirLeagueName, 'teams-hockey.csv')
 
 dataLeagueRugLeagueName = os.path.join(dirLeagueName, 'comp-league.csv')
 dataTeamsRugLeagueName = os.path.join(dirLeagueName, 'teams-league.csv')
+dataOrgsName = os.path.join(dirLeagueName, 'orgs.csv')
 
 
 # 1901 Census Constants
@@ -66,6 +67,14 @@ teamTypes = {
     'sport_name': 'string',
     'season_founded': 'Int64',
     'season_last': 'Int64',
+}
+
+orgsTypes = {
+    'org_name': 'string',
+    'wording_order': 'string',
+    'id_term': 'string',
+    'sport_term': 'string',
+    'assoc_term': 'string',
 }
 
 removalForCompsProbs = [
