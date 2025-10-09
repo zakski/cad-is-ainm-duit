@@ -20,3 +20,19 @@ types1901 = {
     "illnesses": 'string',
     "house": 'string'
 }
+
+# England And Wales Firstname Frequency Constants
+headerEngWalesFreqPre1996 = ["RANK", "NAME"]
+headerEngWalesFreqPost1996 = ["Rank", "Name", "Count"]
+
+
+typesEngWalesFreqPre1996 = {
+    "RANK": 'Int64',
+    "NAME": 'string',
+}
+
+typesEngWalesFreqPost1996 = {
+    "Rank": 'Int64',
+    "Name": 'string',
+    "Count": 'Int64'
+}

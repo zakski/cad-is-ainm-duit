@@ -1,1 +1,0 @@
-from .peopleconst import *

@@ -1,7 +1,10 @@
 import pandas as pd
 import regex as re
+import os
 
 import glob
+
+import peopleconst as const
 
 from sklearn.preprocessing import MultiLabelBinarizer
 
@@ -14,6 +17,64 @@ def readCensus(dirname, list_header, map_types):
 
     return pd.concat(dfList, axis=0, ignore_index=True)
 
+def readPre1996Freq(dirname, map_types):
+    dfList=[]
+    for filename in glob.iglob(dirname + '/**/*.csv', recursive=True):
+        year = int(os.path.basename(filename)[0:4])
+        if (year < 1996):
+            print(filename)
+            fileDF = pd.read_csv(filename,dtype=map_types,index_col=False)
+            fileDF['NAME'] = fileDF['NAME'].str.strip()
+            fileDF[str(year) + '_rank'] = fileDF['RANK']
+            fileDF = fileDF.drop(['RANK'],axis=1)
+            dfList.append(fileDF)
+
+    rankedDF = pd.concat(dfList, axis=0, ignore_index=True)
+    return rankedDF.groupby('NAME', as_index=False).sum()
+
+def readPost1996Freq(dirname, map_types):
+    dfList=[]
+    for filename in glob.iglob(dirname + '/**/*.csv', recursive=True):
+        year = int(os.path.basename(filename)[0:4])
+        if (year >= 1996):
+            print(filename)
+            fileDF = pd.read_csv(filename,dtype=map_types,index_col=False)
+            fileDF['Name'] = fileDF['Name'].str.strip()
+            fileDF[str(year) + '_rank'] = fileDF['Rank']
+            fileDF[str(year) + '_count'] = fileDF['Count']
+            fileDF = fileDF.drop(['Rank','Count'],axis=1)
+            dfList.append(fileDF)
+
+    rankedDF = pd.concat(dfList, axis=0, ignore_index=True)
+    return rankedDF.groupby('Name', as_index=False).sum()
+
+def readEngWalesNameFreq(dirname, gender):
+    namesPre1996DF = readPre1996Freq(dirname,const.typesEngWalesFreqPre1996)
+    namesPost1996DF = readPost1996Freq(dirname,const.typesEngWalesFreqPost1996)
+
+    pre1996MappingDF = namesPost1996DF[["1996_rank","1996_count"]]
+    pre1996MappingDF = pre1996MappingDF[(pre1996MappingDF["1996_rank"] > 0) & (pre1996MappingDF["1996_rank"] < 101)]
+    pre1996MappingDF.set_index("1996_rank", inplace=True)
+    pre1996MappingDi = pre1996MappingDF.to_dict()['1996_count']
+
+    namesPost1996DF['NAME'] = namesPost1996DF['Name']
+    namesPost1996DF = namesPost1996DF.drop('Name',axis=1)
+
+    for name, values in namesPre1996DF.items():
+        if "rank" not in name:
+            continue
+        year = int(os.path.basename(name)[0:4])
+        namesPre1996DF[str(year) + "_count"] = namesPre1996DF[name].map(pre1996MappingDi).fillna(0).astype('Int64')
+
+    namesDF = namesPre1996DF.merge(namesPost1996DF, on='NAME', how='outer').fillna(0)
+
+    for name, values in namesDF.items():
+        if "rank" not in name:
+            continue
+        namesDF = namesDF.drop(name,axis=1)
+
+    namesDF.insert(1, "gender", gender, allow_duplicates=True)
+    return namesDF
 
 
 def filterForWords(df_census, column):
