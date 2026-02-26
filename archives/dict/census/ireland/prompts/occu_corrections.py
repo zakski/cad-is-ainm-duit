@@ -1,6 +1,18 @@
 """
-Stage 2: Final enhanced corrections for Batch 3
-Reads ire_occupation_1901.csv, applies occupation corrections, writes results to CSV.
+Correct and standardise Irish 1901 census occupation strings.
+
+Reads ire_occupation_1901.csv (occupations by descending count), applies
+British English spelling/grammar and period-appropriate normalisation
+(apostrophes, word order, abbreviations, compound words). Outputs the full
+dataset with original columns plus corrected_occupation to
+ire_occupation_1901_corrected.csv. File order is preserved; the file is
+not re-sorted.
+
+Pipeline (per occupation.md): remove brackets; treat '-' as whitespace;
+condense duplicate whitespace; then apply spelling/grammar/ordering and
+compound-word rules from CORRECTIONS. To refine rules, process in batches,
+inspect differences (occupation vs corrected_occupation), add new entries
+to CORRECTIONS and re-run.
 """
 
 import re
@@ -416,31 +428,38 @@ CORRECTIONS = {
 }
 
 
-def correct_occupation_final(occupation: str) -> str:
-    """Apply final occupation string corrections (trim, normalize, lookup)."""
+def _normalize(s: str) -> str:
+    """Remove brackets, treat '-' as space, condense whitespace (per occupation.md)."""
+    s = str(s).strip()
+    s = re.sub(r"[\[\]()]", "", s)
+    s = s.replace("-", " ")
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def correct_occupation_final(occupation: str, max_passes: int = 3) -> str:
+    """Apply occupation corrections: normalize then lookup; repeat until stable."""
     if not occupation or (isinstance(occupation, float) and pd.isna(occupation)):
         return ""
 
-    corrected = str(occupation).strip()
-    corrected = re.sub(r"[\[\]()]", "", corrected)
-    corrected = corrected.replace("-", " ")
-    corrected = re.sub(r"\s+", " ", corrected).strip()
-
-    if corrected in CORRECTIONS:
-        corrected = CORRECTIONS[corrected]
-
+    corrected = _normalize(occupation)
+    for _ in range(max_passes):
+        prev = corrected
+        if corrected in CORRECTIONS:
+            corrected = CORRECTIONS[corrected]
+        if corrected == prev:
+            break
     return corrected
 
 
 def main() -> None:
     df = pd.read_csv(CSV_PATH, encoding="utf-8").dropna(how="all")
 
-    # Process batch 3 with final corrections (rows 1000–1500)
-    batch3 = df.iloc[1000:1500].copy()
-    batch3["corrected"] = batch3["occupation"].map(correct_occupation_final)
+    # Process entire file: normalize then apply lookup corrections
+    df = df.copy()
+    df["corrected_occupation"] = df["occupation"].map(correct_occupation_final)
 
-    batch3.to_csv(OUTPUT_PATH, index=False, encoding="utf-8")
-    print(f"Wrote {len(batch3)} rows to {OUTPUT_PATH}")
+    df.to_csv(OUTPUT_PATH, index=False, encoding="utf-8")
+    print(f"Wrote {len(df)} rows to {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":
