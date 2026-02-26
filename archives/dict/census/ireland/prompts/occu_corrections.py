@@ -24,6 +24,8 @@ import pandas as pd
 SCRIPT_DIR = Path(__file__).resolve().parent
 CSV_PATH = SCRIPT_DIR / "ire_occupation_1901.csv"
 OUTPUT_PATH = SCRIPT_DIR / "ire_occupation_1901_corrected.csv"
+OUTPUT_CHANGED_PATH = SCRIPT_DIR / "ire_occupation_1901_corrected_changed.csv"
+OUTPUT_UNCHANGED_PATH = SCRIPT_DIR / "ire_occupation_1901_corrected_unchanged.csv"
 
 # Complete correction mapping (all corrections from JS)
 CORRECTIONS = {
@@ -460,6 +462,19 @@ def main() -> None:
 
     df.to_csv(OUTPUT_PATH, index=False, encoding="utf-8")
     print(f"Wrote {len(df)} rows to {OUTPUT_PATH}")
+
+    # Split into changed / unchanged, both sorted by count descending
+    df["_sort_count"] = pd.to_numeric(df["count"], errors="coerce").fillna(0).astype("int64")
+
+    changed = df[df["occupation"] != df["corrected_occupation"]].copy()
+    changed = changed.sort_values("_sort_count", ascending=False).drop(columns=["_sort_count"])
+    changed.to_csv(OUTPUT_CHANGED_PATH, index=False, encoding="utf-8")
+    print(f"Wrote {len(changed)} rows (occupation != corrected_occupation) to {OUTPUT_CHANGED_PATH}")
+
+    unchanged = df[df["occupation"] == df["corrected_occupation"]].copy()
+    unchanged = unchanged.sort_values("_sort_count", ascending=False).drop(columns=["_sort_count"])
+    unchanged.to_csv(OUTPUT_UNCHANGED_PATH, index=False, encoding="utf-8")
+    print(f"Wrote {len(unchanged)} rows (occupation == corrected_occupation) to {OUTPUT_UNCHANGED_PATH}")
 
 
 if __name__ == "__main__":
