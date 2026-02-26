@@ -17,6 +17,9 @@ to CORRECTIONS and re-run.
 Change categories (change_category column):
     UNCHANGED
         No change was made; corrected_occupation equals the original occupation.
+    STANDARD
+        Same as UNCHANGED (no change was made), but this occupation's string is the
+        corrected_occupation of at least one other row (i.e. it is a standard form).
     NORMALIZATION
         Only normalization was applied (brackets removed, hyphens as space,
         duplicate whitespace collapsed). No dict lookup was used.
@@ -659,6 +662,14 @@ def main() -> None:
     result = df["occupation"].map(correct_occupation_final)
     df["corrected_occupation"] = result.map(lambda x: x[0])
     df["change_category"] = result.map(lambda x: x[1])
+    # STANDARD: unchanged occupation whose corrected_occupation is the target of some other row's correction
+    corrected_from_changed = set(
+        df.loc[df["occupation"] != df["corrected_occupation"], "corrected_occupation"]
+    )
+    mask_standard = (df["change_category"] == "UNCHANGED") & (
+        df["corrected_occupation"].isin(corrected_from_changed)
+    )
+    df.loc[mask_standard, "change_category"] = "STANDARD"
     print("  Done.", flush=True)
 
     print("Sorting and writing main output ...", flush=True)
@@ -698,28 +709,29 @@ def main() -> None:
     scholar_review.to_csv(OUTPUT_SCHOLAR_REVIEW_PATH, index=False, encoding="utf-8")
     print(f"  Wrote {len(scholar_review)} rows (Scholar variants) to {OUTPUT_SCHOLAR_REVIEW_PATH}", flush=True)
 
-    print("Spellcheck review ...", flush=True)
-    if has_word_list():
-        print("  Identifying rows with unknown words ...", flush=True)
-        unknown_per_row = df["corrected_occupation"].map(unknown_words_in_text)
-        has_unknown = unknown_per_row.map(len) > 0
-        spellcheck_review = df[has_unknown].copy()
-        spellcheck_review["unknown_words"] = unknown_per_row[has_unknown].map(lambda w: "; ".join(w))
-        print(f"  Computing suggestions for {len(spellcheck_review)} rows (may take a while) ...", flush=True)
-        spellcheck_review["suggested_occupation"] = spellcheck_review["corrected_occupation"].map(
-            suggest_spellcorrected
-        )
-        print("  Sorting and writing spellcheck review ...", flush=True)
-        spellcheck_review = spellcheck_review.sort_values(
-            by=["_sort_count", "_occ_lower"], ascending=[False, True]
-        ).drop(columns=["_sort_count", "_occ_lower"])
-        spellcheck_review.to_csv(OUTPUT_SPELLCHECK_REVIEW_PATH, index=False, encoding="utf-8")
-        print(f"  Wrote {len(spellcheck_review)} rows (spellcheck review) to {OUTPUT_SPELLCHECK_REVIEW_PATH}", flush=True)
-    else:
-        print(
-            "  Skipped (no word list in archives/dict/words; run python archives/dict/words/fetch_english_words.py)",
-            flush=True,
-        )
+    # Spellcheck review (commented out for now)
+    # print("Spellcheck review ...", flush=True)
+    # if has_word_list():
+    #     print("  Identifying rows with unknown words ...", flush=True)
+    #     unknown_per_row = df["corrected_occupation"].map(unknown_words_in_text)
+    #     has_unknown = unknown_per_row.map(len) > 0
+    #     spellcheck_review = df[has_unknown].copy()
+    #     spellcheck_review["unknown_words"] = unknown_per_row[has_unknown].map(lambda w: "; ".join(w))
+    #     print(f"  Computing suggestions for {len(spellcheck_review)} rows (may take a while) ...", flush=True)
+    #     spellcheck_review["suggested_occupation"] = spellcheck_review["corrected_occupation"].map(
+    #         suggest_spellcorrected
+    #     )
+    #     print("  Sorting and writing spellcheck review ...", flush=True)
+    #     spellcheck_review = spellcheck_review.sort_values(
+    #         by=["_sort_count", "_occ_lower"], ascending=[False, True]
+    #     ).drop(columns=["_sort_count", "_occ_lower"])
+    #     spellcheck_review.to_csv(OUTPUT_SPELLCHECK_REVIEW_PATH, index=False, encoding="utf-8")
+    #     print(f"  Wrote {len(spellcheck_review)} rows (spellcheck review) to {OUTPUT_SPELLCHECK_REVIEW_PATH}", flush=True)
+    # else:
+    #     print(
+    #         "  Skipped (no word list in archives/dict/words; run python archives/dict/words/fetch_english_words.py)",
+    #         flush=True,
+    #     )
 
 
 if __name__ == "__main__":
