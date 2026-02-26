@@ -4,8 +4,8 @@ Correct and standardise Irish 1901 census occupation strings.
 Reads ire_occupation_1901.csv (occupations by descending count), applies
 British English spelling/grammar and period-appropriate normalisation
 (apostrophes, word order, abbreviations, compound words). Outputs the full
-dataset with original columns plus corrected_occupation to
-ire_occupation_1901_corrected.csv. File order is preserved; the file is
+dataset with original columns plus corrected_occupation and change_category
+to ire_occupation_1901_corrected.csv. File order is preserved; the file is
 not re-sorted.
 
 Pipeline (per occupation.md): remove brackets; treat '-' as whitespace;
@@ -13,6 +13,19 @@ condense duplicate whitespace; then apply spelling/grammar/ordering and
 compound-word rules from CORRECTIONS. To refine rules, process in batches,
 inspect differences (occupation vs corrected_occupation), add new entries
 to CORRECTIONS and re-run.
+
+Change categories (change_category column):
+    UNCHANGED
+        No change was made; corrected_occupation equals the original occupation.
+    NORMALIZATION
+        Only normalization was applied (brackets removed, hyphens as space,
+        duplicate whitespace collapsed). No dict lookup was used.
+    DICT_LOOKUP
+        The occupation was corrected using the CORRECTIONS mapping (exact or
+        case-insensitive match).
+    DICT_LOOKUP; NORMALIZATION
+        Both normalization and a dict lookup were applied (e.g. "House-Keeper"
+        → "House Keeper" → "Housekeeper").
 """
 
 import re
@@ -441,30 +454,48 @@ def _normalize(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
-def correct_occupation_final(occupation: str, max_passes: int = 3) -> str:
-    """Apply occupation corrections: normalize then lookup; repeat until stable."""
+def correct_occupation_final(occupation: str, max_passes: int = 3) -> tuple[str, str]:
+    """Apply occupation corrections; return (corrected_occupation, change_category)."""
     if not occupation or (isinstance(occupation, float) and pd.isna(occupation)):
-        return ""
+        return ("", "UNCHANGED")
+
+    original = str(occupation).strip()
+    categories: set[str] = set()
 
     corrected = _normalize(occupation)
+    if corrected != original:
+        categories.add("NORMALIZATION")
+
     for _ in range(max_passes):
         prev = corrected
         if corrected in CORRECTIONS:
             corrected = CORRECTIONS[corrected]
+            categories.add("DICT_LOOKUP")
         elif corrected.lower() in CORRECTIONS_LOWER:
             canonical_key = CORRECTIONS_LOWER[corrected.lower()]
             corrected = CORRECTIONS[canonical_key]
+            categories.add("DICT_LOOKUP")
         if corrected == prev:
             break
-    return corrected
+
+    if corrected == original:
+        change_category = "UNCHANGED"
+    elif categories:
+        change_category = "; ".join(sorted(categories))
+    else:
+        change_category = "UNCHANGED"
+
+    return (corrected, change_category)
 
 
 def main() -> None:
     df = pd.read_csv(CSV_PATH, encoding="utf-8").dropna(how="all")
 
-    # Process entire file: normalize then apply lookup corrections
+    # Process entire file: normalize then apply lookup corrections; record change category
     df = df.copy()
-    df["corrected_occupation"] = df["occupation"].map(correct_occupation_final)
+    result = df["occupation"].map(correct_occupation_final)
+    df["corrected_occupation"] = result.map(lambda x: x[0])
+    df["change_category"] = result.map(lambda x: x[1])
 
     # Sort all outputs by count descending, then occupation alphabetically (case-insensitive)
     df["_sort_count"] = pd.to_numeric(df["count"], errors="coerce").fillna(0).astype("int64")
