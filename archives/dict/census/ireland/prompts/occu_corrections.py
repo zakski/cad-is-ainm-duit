@@ -429,6 +429,9 @@ CORRECTIONS = {
     "Machineist": "Machinist",
 }
 
+# Case-insensitive fallback: map lowercased key -> canonical key for lookup
+CORRECTIONS_LOWER = {k.lower(): k for k in CORRECTIONS}
+
 
 def _normalize(s: str) -> str:
     """Remove brackets, treat '-' as space, condense whitespace (per occupation.md)."""
@@ -448,6 +451,9 @@ def correct_occupation_final(occupation: str, max_passes: int = 3) -> str:
         prev = corrected
         if corrected in CORRECTIONS:
             corrected = CORRECTIONS[corrected]
+        elif corrected.lower() in CORRECTIONS_LOWER:
+            canonical_key = CORRECTIONS_LOWER[corrected.lower()]
+            corrected = CORRECTIONS[canonical_key]
         if corrected == prev:
             break
     return corrected
@@ -460,19 +466,31 @@ def main() -> None:
     df = df.copy()
     df["corrected_occupation"] = df["occupation"].map(correct_occupation_final)
 
+    # Sort all outputs by count descending, then occupation alphabetically (case-insensitive)
+    df["_sort_count"] = pd.to_numeric(df["count"], errors="coerce").fillna(0).astype("int64")
+    df["_occ_lower"] = df["occupation"].str.lower()
+    df = df.sort_values(by=["_sort_count", "_occ_lower"], ascending=[False, True]).drop(
+        columns=["_sort_count", "_occ_lower"]
+    )
+
     df.to_csv(OUTPUT_PATH, index=False, encoding="utf-8")
     print(f"Wrote {len(df)} rows to {OUTPUT_PATH}")
 
-    # Split into changed / unchanged, both sorted by count descending
+    # Re-add sort keys for changed/unchanged (df no longer has them)
     df["_sort_count"] = pd.to_numeric(df["count"], errors="coerce").fillna(0).astype("int64")
+    df["_occ_lower"] = df["occupation"].str.lower()
 
     changed = df[df["occupation"] != df["corrected_occupation"]].copy()
-    changed = changed.sort_values("_sort_count", ascending=False).drop(columns=["_sort_count"])
+    changed = changed.sort_values(by=["_sort_count", "_occ_lower"], ascending=[False, True]).drop(
+        columns=["_sort_count", "_occ_lower"]
+    )
     changed.to_csv(OUTPUT_CHANGED_PATH, index=False, encoding="utf-8")
     print(f"Wrote {len(changed)} rows (occupation != corrected_occupation) to {OUTPUT_CHANGED_PATH}")
 
     unchanged = df[df["occupation"] == df["corrected_occupation"]].copy()
-    unchanged = unchanged.sort_values("_sort_count", ascending=False).drop(columns=["_sort_count"])
+    unchanged = unchanged.sort_values(by=["_sort_count", "_occ_lower"], ascending=[False, True]).drop(
+        columns=["_sort_count", "_occ_lower"]
+    )
     unchanged.to_csv(OUTPUT_UNCHANGED_PATH, index=False, encoding="utf-8")
     print(f"Wrote {len(unchanged)} rows (occupation == corrected_occupation) to {OUTPUT_UNCHANGED_PATH}")
 
