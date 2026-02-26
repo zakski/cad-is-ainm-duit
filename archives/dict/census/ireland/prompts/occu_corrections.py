@@ -26,10 +26,20 @@ Change categories (change_category column):
     DICT_LOOKUP; NORMALIZATION
         Both normalization and a dict lookup were applied (e.g. "House-Keeper"
         → "House Keeper" → "Housekeeper").
+    AMERICAN_SPELLING
+        American "Labor"/"Laborer" was converted to British "Labour"/"Labourer"
+        via a pattern rule.
+    ABBREVIATION
+        Abbreviation "Servt" was expanded to "Servant" via a pattern rule.
+    POSSESSIVE
+        Possessive apostrophe was added via a pattern rule (e.g. "Farmers Son"
+        → "Farmer's Son" for known occupation stems + relation words).
+    Any of the above may appear combined (e.g. "DICT_LOOKUP; POSSESSIVE").
 """
 
 import re
 from pathlib import Path
+from typing import Callable
 
 import pandas as pd
 
@@ -445,6 +455,60 @@ CORRECTIONS = {
 # Case-insensitive fallback: map lowercased key -> canonical key for lookup
 CORRECTIONS_LOWER = {k.lower(): k for k in CORRECTIONS}
 
+# Pattern-based rules: (compiled_regex, replacement, change_category).
+# Applied after normalization, before dict lookup. Order matters.
+_POSSESSIVE_STEMS = (
+    "Farmer",
+    "Labourer",
+    "Grocer",
+    "Draper",
+    "Tailor",
+    "Mason",
+    "Shepherd",
+    "Herd",
+    "Publican",
+    "Dairyman",
+    "Carpenter",
+    "Blacksmith",
+    "Baker",
+    "Butcher",
+    "Soldier",
+    "Builder",
+    "Chemist",
+    "Teacher",
+    "Policeman",
+    "Printer",
+    "Brewer",
+    "Caretaker",
+    "Fisherman",
+    "Sailor",
+    "Accountant",
+    "Shoemaker",
+    "Mill Owner",
+)
+_POSSESSIVE_RELATIONS = (
+    r"Son|Daughter|Wife|Widow|Mother|Father|Brother|Sister|Nephew|Niece|"
+    r"Servant|Assistant|Apprentice|Labourer|Clerk|Porter|Helper|Manager|"
+    r"Daughter in Law|Son in Law|Mother in Law"
+)
+PATTERN_RULES: list[tuple[re.Pattern, str | Callable[..., str], str]] = [
+    (
+        re.compile(r"\bLabor(er)?\b", re.IGNORECASE),
+        lambda m: "Labour" + (m.group(1) or ""),
+        "AMERICAN_SPELLING",
+    ),
+    (re.compile(r"\bServt\.?\b", re.IGNORECASE), "Servant", "ABBREVIATION"),
+    (
+        re.compile(
+            r"\b(" + "|".join(re.escape(s) for s in _POSSESSIVE_STEMS) + r")s ("
+            + _POSSESSIVE_RELATIONS + r")\b",
+            re.IGNORECASE,
+        ),
+        lambda m: m.group(1).title() + "'s " + m.group(2).title(),
+        "POSSESSIVE",
+    ),
+]
+
 
 def _normalize(s: str) -> str:
     """Remove brackets, treat '-' as space, condense whitespace (per occupation.md)."""
@@ -468,6 +532,12 @@ def correct_occupation_final(occupation: str, max_passes: int = 3) -> tuple[str,
 
     for _ in range(max_passes):
         prev = corrected
+        # Apply pattern-based rules (Labor→Labour, Servt→Servant, Xs Y→X's Y)
+        for pattern, repl, category in PATTERN_RULES:
+            new = pattern.sub(repl, corrected)
+            if new != corrected:
+                categories.add(category)
+                corrected = new
         if corrected in CORRECTIONS:
             corrected = CORRECTIONS[corrected]
             categories.add("DICT_LOOKUP")
