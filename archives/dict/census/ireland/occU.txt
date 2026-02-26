@@ -1,0 +1,702 @@
+Able Seaman
+Accountant
+Agent
+Agricultural Labourer
+Annuitant
+Apprentice
+Apprentice Carpenter
+Apprentice Fitter
+Architect
+Army Pensioner
+Artist
+Assistant
+Assistant Draper
+Assistant Grocer
+Assistant Housekeeper
+Assistant Teacher
+Assurance Agent
+Asylum Attendant
+Auctioneer
+Baker
+Bank Clerk
+Bank Manager
+Bank Official
+Bank Porter
+Barber
+Barmaid
+Barman
+Beggar
+Billiard Marker
+Blacksmith
+Bleacher
+Boarder
+Boatbuilder
+Boatman
+Boilermaker
+Book Folder
+Bookbinder
+Bookkeeper
+Boot Closer
+Bootmaker
+Boxmaker
+Brass Finisher
+Bread Server
+Bread Van Driver
+Brewery Labourer
+Bricklayer
+Bricklayer's Labourer
+Brushmaker
+Builder
+Builder and Contractor
+Builder's Labourer
+Building Contractor
+Butcher
+Butler
+Cabinetmaker
+Cambric Weaver
+Car Driver
+Car Owner
+Car Proprietor
+Caretaker
+Carman
+Carpenter
+Carpenter and Joiner
+Carrier
+Carter
+Cashier
+Catholic Curate
+Cattle Dealer
+Cattle Drover
+Charwoman
+Chemist
+Child
+Civil Bill Officer
+Civil Engineer
+Civil Servant
+Clergyman
+Clerk
+Clothes Dealer
+Clothier
+Coach Man
+Coach Painter
+Coachmaker
+Coachman
+Coachman Domestic Servant
+Coal Labourer
+Coal Merchant
+Coal Miner
+Coal Porter
+Coast Guard
+Cobbler
+Collier
+Commercial Clerk
+Commercial Traveller
+Commission Agent
+Companion
+Compositor
+Confectioner
+Contractor
+Cook
+Cook Domestic Servant
+Cooper
+Cork Cutter
+Corn Merchant
+Cottier
+Cotton Spinner
+Cotton Weaver
+Creamery Manager
+Cycle Mechanic
+Dairymaid
+Dairyman
+Damask Weaver
+Daughter
+Dealer
+Distillery Labourer
+Dividends
+Dock Labourer
+Doffer
+Domestic Coachman
+Draper
+Draper's Assistant
+Dressmaker
+Driller
+Driver
+Druggist
+Egg Dealer
+Egg Merchant
+Electrical Engineer
+Electrician
+Embroiderer
+Engine Cleaner
+Engine Driver
+Engine Fitter
+Engineer
+Factory Girl
+Factory Hand
+Factory Labourer
+Factory Worker
+Fancy Box Maker
+Farm Servant
+Farmer
+Farmer and Cattle Dealer
+Farmer and Fisherman
+Farmer and Miller
+Farmer and Shoemaker
+Farmer and Shopkeeper
+Farmer's Brother
+Farmer's Daughter
+Farmer's Mother
+Farmer's Nephew
+Farmer's Niece
+Farmer's Sister
+Farmer's Son
+Farmer's Widow
+Farmer's Wife
+Farrier
+Fireman
+Fish Dealer
+Fisher
+Fisherman
+Fitter
+Flax Doffer
+Flax Dresser
+Flax Preparer
+Flax Reeler
+Flax Rougher
+Flax Scutcher
+Flax Spinner
+Flax Spreader
+Flesher
+Folder
+Footman
+Foundry Labourer
+Fowl Dealer
+French Polisher
+Fruit Dealer
+Fruiterer
+Gamekeeper
+Gardener
+Gardener Domestic Servant
+Gas Fitter
+Gas Labourer
+Gatekeeper
+General Dealer
+General Domestic Servant
+General Labourer
+General Merchant
+Gentleman
+Gentleman Farmer
+Governess
+Grocer
+Grocer and Publican
+Grocer's Assistant
+Grocer's Porter
+Groom
+Groom Domestic Servant
+Hackney Car Driver
+Hairdresser
+Hardware Merchant
+Harnessmaker
+Hawker
+Helper
+Hemstitcher
+Horse Dealer
+Horse Shoer
+Horse Trainer
+Hospital Nurse
+Hotel Porter
+Hotel Proprietor
+House Carpenter
+House Painter
+Householder
+Housekeeper
+Housekeeper and Knitter
+Housemaid
+Housewife
+Infant
+Inmate
+Insurance Agent
+Insurance Clerk
+Interest on Money
+Iron Moulder
+Iron Ore Miner
+Iron Turner
+Ironmonger
+Jeweller
+Joiner
+Journalist
+Kitchen Maid
+Knitter
+Labourer's Daughter
+Labourer's Wife
+Lace Worker
+Lacemaker
+Lady
+Land Agent
+Land Owner
+Land Steward
+Landed Proprietor
+Laundress
+Laundry Maid
+Laundry Worker
+Law Clerk
+Letter Carrier
+Licensed Publican
+Linen Bleacher
+Linen Finisher
+Linen Lapper
+Linen Manufacturer
+Linen Merchant
+Linen Reeler
+Linen Spinner
+Linen Warper
+Linen Weaver
+Linen Winder
+Linen Yarn Winder
+Lodger
+Lodging House Keeper
+Machine Boy
+Machinist
+Manager
+Mantle Maker
+Marine Engineer
+Mariner
+Market Gardener
+Mason
+Master Carpenter
+Master Mariner
+Master Tailor
+Matron
+Mechanic
+Mechanical Engineer
+Medical Doctor
+Medical Student
+Mendicant
+Mercantile Clerk
+Merchant
+Merchant Tailor
+Message Boy
+Messenger
+Messenger Boy
+Methodist Minister
+Midwife
+Mill Doffer
+Mill Hand
+Mill Labourer
+Mill Reeler
+Miller
+Milliner
+Millworker
+Millwright
+Miner
+Monitor
+Moulder
+Music Professor
+Music Teacher
+Musician
+National School Teacher
+Naval Pensioner
+Newsagent
+No Occupation
+Nun
+Nurse
+Nurse Domestic Servant
+Office Boy
+Organist
+Packer
+Painter
+Paper Bag Maker
+Parish Priest
+Parlourmaid Domestic Servant
+Pauper
+Pawnbroker
+Pedlar
+Pensioner
+Pharmaceutical Chemist
+Photographer
+Pig Buyer
+Pig Dealer
+Pilot
+Plasterer
+Plater
+Ploughman
+Plumber
+Police Pensioner
+Polisher
+Pork Butcher
+Porter
+Post Boy
+Post Office Clerk
+Postman
+Postmaster
+Poulterer
+Poultry Dealer
+Power Loom Tenter
+Power Loom Weaver
+Presbyterian Minister
+Presentation Nun
+Priest
+Printer
+Private
+Private Income
+Private Means
+Professor
+Prostitute
+Provision Dealer
+Provision Merchant
+Publican
+Publican and Farmer
+Quarry Man
+Quay Labourer
+Railway Clerk
+Railway Engine Driver
+Railway Fireman
+Railway Ganger
+Railway Guard
+Railway Labourer
+Railway Milesman
+Railway Platelayer
+Railway Porter
+Railway Servant
+Railway Signalman
+Railway Stationmaster
+Rate Collector
+Reeler
+Relieving Officer
+Retired Farmer
+Retired Grocer
+Retired Labourer
+Retired Merchant
+Retired Publican
+Retired Servant
+Rivetter
+Road Contractor
+Roman Catholic Clergyman
+Roman Catholic Curate
+Roomkeeper
+Ropemaker
+Rural Postman
+Saddler
+Sailor
+Salesman
+Saleswoman
+Sawyer
+Scholar
+School Teacher
+Schoolmaster
+Schoolmistress
+Scoller
+Scutcher
+Seaman
+Seamstress
+Sewer
+Sexton
+Shareholder
+Shepherd
+Ship Carpenter
+Ship Joiner
+Shipping Clerk
+Shipwright
+Shipyard Labourer
+Shirt Cutter
+Shirt Factory Worker
+Shirt Maker
+Shirtmaker
+Shoemaker
+Shop Apprentice
+Shop Assistant
+Shop Boy
+Shop Girl
+Shop Messenger
+Shop Porter
+Shopkeeper
+Shopman
+Slater
+Slater and Plasterer
+Smith
+Smiths Helper
+Smoother
+Smother
+Soldier
+Solicitor
+Son
+Spade Maker
+Spinner
+Spinning Mill Reeler
+Spinster
+Spirit Dealer
+Spirit Grocer
+Spirit Merchant
+Spreader
+Sprigger
+Stableboy
+Stableman
+Stationer
+Steward
+Steward and Farm Manager
+Stitcher
+Stocking Knitter
+Stoker
+Stonecutter
+Stonemason
+Storekeeper
+Surveyor
+Tailor
+Tailor and Farmer
+Tailoress
+Tea Agent
+Tea Merchant
+Teacher
+Telegraph Clerk
+Telegraph Messenger
+Telegraphist
+Tenant Farmer
+Tenter
+Theology Student
+Timber Merchant
+Tinsmith
+Tobacco Spinner
+Tobacconist
+Town Postman
+Tram Conductor
+Tram Driver
+Tramp
+Traveller
+Typist
+Unemployed Clerk
+Unemployed General Labourer
+Upholsterer
+Vagrant
+Van Driver
+Vanman
+Vegetable Dealer
+Veiner
+Veterinary Surgeon
+Vice Folder
+Victualler
+Vintner
+Visitor
+Waiter
+Waitress
+Warehouseman
+Warp Winder
+Warper
+Washerwoman
+Watchmaker
+Weaver
+Widow
+Wife
+Winder
+Wine Merchant
+Wine Porter
+Wood Turner
+Wool Spinner
+Wool Weaver
+Woolen Weaver
+Writing Clerk
+Yard Man
+Yarn Bundler
+Yarn Dresser
+Yarn Reeler
+Yarn Spinner
+Yarn Winder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
