@@ -56,6 +56,12 @@ Change categories (change_category column):
 Rows whose original occupation matches a Scholar variant (e.g. Scholars, Scolar)
 are written to ire_occupation_1901_scholar_review.csv for manual review; no
 pattern correction is applied for Scholar.
+
+Rows whose corrected_occupation contains words not in the British English word list
+are written to ire_occupation_1901_spellcheck_review.csv with unknown_words and
+suggested_occupation (pyspellchecker correction using words_british.txt). The word
+list is read from archives/dict/words/words_british.txt only. Create it once with:
+  python archives/dict/words/fetch_english_words.py
 """
 
 import re
@@ -71,6 +77,9 @@ OUTPUT_PATH = SCRIPT_DIR / "ire_occupation_1901_corrected.csv"
 OUTPUT_CHANGED_PATH = SCRIPT_DIR / "ire_occupation_1901_corrected_changed.csv"
 OUTPUT_UNCHANGED_PATH = SCRIPT_DIR / "ire_occupation_1901_corrected_unchanged.csv"
 OUTPUT_SCHOLAR_REVIEW_PATH = SCRIPT_DIR / "ire_occupation_1901_scholar_review.csv"
+OUTPUT_SPELLCHECK_REVIEW_PATH = SCRIPT_DIR / "ire_occupation_1901_spellcheck_review.csv"
+
+from occupation_spellcheck import has_word_list, suggest_spellcorrected, unknown_words_in_text
 
 # Complete correction mapping (all corrections from JS)
 CORRECTIONS = {
@@ -641,25 +650,27 @@ def correct_occupation_final(occupation: str, max_passes: int = 3) -> tuple[str,
 
 
 def main() -> None:
+    print("Loading CSV ...", flush=True)
     df = pd.read_csv(CSV_PATH, encoding="utf-8").dropna(how="all")
+    print(f"  Loaded {len(df)} rows.", flush=True)
 
-    # Process entire file: normalize then apply lookup corrections; record change category
+    print("Applying corrections (normalize + dict + patterns) ...", flush=True)
     df = df.copy()
     result = df["occupation"].map(correct_occupation_final)
     df["corrected_occupation"] = result.map(lambda x: x[0])
     df["change_category"] = result.map(lambda x: x[1])
+    print("  Done.", flush=True)
 
-    # Sort all outputs by count descending, then occupation alphabetically (case-insensitive)
+    print("Sorting and writing main output ...", flush=True)
     df["_sort_count"] = pd.to_numeric(df["count"], errors="coerce").fillna(0).astype("int64")
     df["_occ_lower"] = df["occupation"].str.lower()
     df = df.sort_values(by=["_sort_count", "_occ_lower"], ascending=[False, True]).drop(
         columns=["_sort_count", "_occ_lower"]
     )
-
     df.to_csv(OUTPUT_PATH, index=False, encoding="utf-8")
-    print(f"Wrote {len(df)} rows to {OUTPUT_PATH}")
+    print(f"  Wrote {len(df)} rows to {OUTPUT_PATH}", flush=True)
 
-    # Re-add sort keys for changed/unchanged (df no longer has them)
+    print("Writing changed/unchanged splits ...", flush=True)
     df["_sort_count"] = pd.to_numeric(df["count"], errors="coerce").fillna(0).astype("int64")
     df["_occ_lower"] = df["occupation"].str.lower()
 
@@ -668,16 +679,16 @@ def main() -> None:
         columns=["_sort_count", "_occ_lower"]
     )
     changed.to_csv(OUTPUT_CHANGED_PATH, index=False, encoding="utf-8")
-    print(f"Wrote {len(changed)} rows (occupation != corrected_occupation) to {OUTPUT_CHANGED_PATH}")
+    print(f"  Wrote {len(changed)} rows (changed) to {OUTPUT_CHANGED_PATH}", flush=True)
 
     unchanged = df[df["occupation"] == df["corrected_occupation"]].copy()
     unchanged = unchanged.sort_values(by=["_sort_count", "_occ_lower"], ascending=[False, True]).drop(
         columns=["_sort_count", "_occ_lower"]
     )
     unchanged.to_csv(OUTPUT_UNCHANGED_PATH, index=False, encoding="utf-8")
-    print(f"Wrote {len(unchanged)} rows (occupation == corrected_occupation) to {OUTPUT_UNCHANGED_PATH}")
+    print(f"  Wrote {len(unchanged)} rows (unchanged) to {OUTPUT_UNCHANGED_PATH}", flush=True)
 
-    # Scholar review: rows whose original occupation is a Scholar variant (no pattern applied; for manual review)
+    print("Writing Scholar review ...", flush=True)
     scholar_review = df[
         df["occupation"].str.strip().str.lower().isin(SCHOLAR_VARIANTS_LOWER)
     ].copy()
@@ -685,7 +696,30 @@ def main() -> None:
         by=["_sort_count", "_occ_lower"], ascending=[False, True]
     ).drop(columns=["_sort_count", "_occ_lower"])
     scholar_review.to_csv(OUTPUT_SCHOLAR_REVIEW_PATH, index=False, encoding="utf-8")
-    print(f"Wrote {len(scholar_review)} rows (Scholar variants) to {OUTPUT_SCHOLAR_REVIEW_PATH}")
+    print(f"  Wrote {len(scholar_review)} rows (Scholar variants) to {OUTPUT_SCHOLAR_REVIEW_PATH}", flush=True)
+
+    print("Spellcheck review ...", flush=True)
+    if has_word_list():
+        print("  Identifying rows with unknown words ...", flush=True)
+        unknown_per_row = df["corrected_occupation"].map(unknown_words_in_text)
+        has_unknown = unknown_per_row.map(len) > 0
+        spellcheck_review = df[has_unknown].copy()
+        spellcheck_review["unknown_words"] = unknown_per_row[has_unknown].map(lambda w: "; ".join(w))
+        print(f"  Computing suggestions for {len(spellcheck_review)} rows (may take a while) ...", flush=True)
+        spellcheck_review["suggested_occupation"] = spellcheck_review["corrected_occupation"].map(
+            suggest_spellcorrected
+        )
+        print("  Sorting and writing spellcheck review ...", flush=True)
+        spellcheck_review = spellcheck_review.sort_values(
+            by=["_sort_count", "_occ_lower"], ascending=[False, True]
+        ).drop(columns=["_sort_count", "_occ_lower"])
+        spellcheck_review.to_csv(OUTPUT_SPELLCHECK_REVIEW_PATH, index=False, encoding="utf-8")
+        print(f"  Wrote {len(spellcheck_review)} rows (spellcheck review) to {OUTPUT_SPELLCHECK_REVIEW_PATH}", flush=True)
+    else:
+        print(
+            "  Skipped (no word list in archives/dict/words; run python archives/dict/words/fetch_english_words.py)",
+            flush=True,
+        )
 
 
 if __name__ == "__main__":
