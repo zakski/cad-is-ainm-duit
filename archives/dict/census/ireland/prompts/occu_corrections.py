@@ -34,7 +34,28 @@ Change categories (change_category column):
     POSSESSIVE
         Possessive apostrophe was added via a pattern rule (e.g. "Farmers Son"
         → "Farmer's Son" for known occupation stems + relation words).
+    WORD_ORDER
+        Word order was corrected by a pattern rule (e.g. "Servant Domestic"
+        → "Domestic Servant", "Domestic Servant General" → "General Domestic Servant").
+    LABOURER_ORDER
+        "Labourer X" was reordered to "X Labourer" by a pattern rule.
+    COMPOUND_KEEPER
+        "X Keeper" was compounded to "Xkeeper" by a pattern rule (e.g. "House Keeper"
+        → "Housekeeper").
+    AGRICULTURAL_ABBREVIATION
+        Unambiguous agricultural abbreviation (Agl, Agrl, Agr, etc.) was expanded
+        to "Agricultural Labourer" by a pattern rule.
+    GENERAL_ABBREVIATION
+        Unambiguous general abbreviation (Genl, Gen, etc.) was expanded to
+        "General Labourer" by a pattern rule.
+    ABBREVIATION_AMBIGUOUS
+        Ambiguous abbreviation ("A Labourer", "G Labourer") was expanded; use this
+        category to review and confirm these corrections.
     Any of the above may appear combined (e.g. "DICT_LOOKUP; POSSESSIVE").
+
+Rows whose original occupation matches a Scholar variant (e.g. Scholars, Scolar)
+are written to ire_occupation_1901_scholar_review.csv for manual review; no
+pattern correction is applied for Scholar.
 """
 
 import re
@@ -49,6 +70,7 @@ CSV_PATH = SCRIPT_DIR / "ire_occupation_1901.csv"
 OUTPUT_PATH = SCRIPT_DIR / "ire_occupation_1901_corrected.csv"
 OUTPUT_CHANGED_PATH = SCRIPT_DIR / "ire_occupation_1901_corrected_changed.csv"
 OUTPUT_UNCHANGED_PATH = SCRIPT_DIR / "ire_occupation_1901_corrected_unchanged.csv"
+OUTPUT_SCHOLAR_REVIEW_PATH = SCRIPT_DIR / "ire_occupation_1901_scholar_review.csv"
 
 # Complete correction mapping (all corrections from JS)
 CORRECTIONS = {
@@ -455,6 +477,9 @@ CORRECTIONS = {
 # Case-insensitive fallback: map lowercased key -> canonical key for lookup
 CORRECTIONS_LOWER = {k.lower(): k for k in CORRECTIONS}
 
+# Scholar variants: keys in CORRECTIONS that map to "Scholar" (for review output only; no pattern corrects these)
+SCHOLAR_VARIANTS_LOWER = {k.lower() for k, v in CORRECTIONS.items() if v == "Scholar"}
+
 # Pattern-based rules: (compiled_regex, replacement, change_category).
 # Applied after normalization, before dict lookup. Order matters.
 _POSSESSIVE_STEMS = (
@@ -506,6 +531,63 @@ PATTERN_RULES: list[tuple[re.Pattern, str | Callable[..., str], str]] = [
         ),
         lambda m: m.group(1).title() + "'s " + m.group(2).title(),
         "POSSESSIVE",
+    ),
+    # Word-order: "Domestic Servant General" → "General Domestic Servant" (before Servant Domestic)
+    (
+        re.compile(r"\bDomestic\s+Servant\s+General\b", re.IGNORECASE),
+        "General Domestic Servant",
+        "WORD_ORDER",
+    ),
+    # Word-order: "Servant Domestic" → "Domestic Servant"
+    (
+        re.compile(r"\bServant\s+Domestic\b", re.IGNORECASE),
+        "Domestic Servant",
+        "WORD_ORDER",
+    ),
+    # Labourer X → X Labourer
+    (
+        re.compile(
+            r"\bLabourer\s+(General|Agricultural|Farm|Dock|Road|Railway|Quay|Brewery|Ship\s+Yard)\b",
+            re.IGNORECASE,
+        ),
+        lambda m: m.group(1).title() + " Labourer",
+        "LABOURER_ORDER",
+    ),
+    # Compound X Keeper
+    (
+        re.compile(r"\b(House|Shop|Store|Gate|Time|Book)\s+Keeper\b", re.IGNORECASE),
+        lambda m: m.group(1).title() + "keeper",
+        "COMPOUND_KEEPER",
+    ),
+    # Agricultural abbreviation (unambiguous): Agl, Agrl, Agr, etc. + Labourer
+    (
+        re.compile(
+            r"\b(Agl|Agrl|Agr|Agricl|Agric|Agri|Ag)\.?\s+Labourer\b",
+            re.IGNORECASE,
+        ),
+        "Agricultural Labourer",
+        "AGRICULTURAL_ABBREVIATION",
+    ),
+    # General abbreviation (unambiguous): Genl, Gen, etc. + Labourer
+    (
+        re.compile(
+            r"\b(Genl|Gen|Genral|Genrl|Gl)\.?\s+Labourer\b",
+            re.IGNORECASE,
+        ),
+        "General Labourer",
+        "GENERAL_ABBREVIATION",
+    ),
+    # Ambiguous: "A Labourer" → Agricultural Labourer (for review)
+    (
+        re.compile(r"\bA\s+Labourer\b", re.IGNORECASE),
+        "Agricultural Labourer",
+        "ABBREVIATION_AMBIGUOUS",
+    ),
+    # Ambiguous: "G Labourer" / "G. Labourer" → General Labourer (for review)
+    (
+        re.compile(r"\bG\.?\s+Labourer\b", re.IGNORECASE),
+        "General Labourer",
+        "ABBREVIATION_AMBIGUOUS",
     ),
 ]
 
@@ -594,6 +676,16 @@ def main() -> None:
     )
     unchanged.to_csv(OUTPUT_UNCHANGED_PATH, index=False, encoding="utf-8")
     print(f"Wrote {len(unchanged)} rows (occupation == corrected_occupation) to {OUTPUT_UNCHANGED_PATH}")
+
+    # Scholar review: rows whose original occupation is a Scholar variant (no pattern applied; for manual review)
+    scholar_review = df[
+        df["occupation"].str.strip().str.lower().isin(SCHOLAR_VARIANTS_LOWER)
+    ].copy()
+    scholar_review = scholar_review.sort_values(
+        by=["_sort_count", "_occ_lower"], ascending=[False, True]
+    ).drop(columns=["_sort_count", "_occ_lower"])
+    scholar_review.to_csv(OUTPUT_SCHOLAR_REVIEW_PATH, index=False, encoding="utf-8")
+    print(f"Wrote {len(scholar_review)} rows (Scholar variants) to {OUTPUT_SCHOLAR_REVIEW_PATH}")
 
 
 if __name__ == "__main__":
