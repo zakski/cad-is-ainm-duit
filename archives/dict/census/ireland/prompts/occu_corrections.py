@@ -1,15 +1,17 @@
 """
 Stage 2: Final enhanced corrections for Batch 3
-Converted from script.js - reads ire_occupation_1901.csv and applies occupation corrections.
+Reads ire_occupation_1901.csv, applies occupation corrections, writes results to CSV.
 """
 
-import csv
 import re
 from pathlib import Path
 
-# Resolve CSV path relative to this script
+import pandas as pd
+
+# Resolve paths relative to this script
 SCRIPT_DIR = Path(__file__).resolve().parent
 CSV_PATH = SCRIPT_DIR / "ire_occupation_1901.csv"
+OUTPUT_PATH = SCRIPT_DIR / "ire_occupation_1901_corrected.csv"
 
 # Complete correction mapping (all corrections from JS)
 CORRECTIONS = {
@@ -416,10 +418,10 @@ CORRECTIONS = {
 
 def correct_occupation_final(occupation: str) -> str:
     """Apply final occupation string corrections (trim, normalize, lookup)."""
-    if not occupation:
+    if not occupation or (isinstance(occupation, float) and pd.isna(occupation)):
         return ""
 
-    corrected = occupation.strip()
+    corrected = str(occupation).strip()
     corrected = re.sub(r"[\[\]()]", "", corrected)
     corrected = corrected.replace("-", " ")
     corrected = re.sub(r"\s+", " ", corrected).strip()
@@ -430,33 +432,15 @@ def correct_occupation_final(occupation: str) -> str:
     return corrected
 
 
-def load_csv(path: Path) -> list[dict]:
-    """Load CSV with header, skip empty lines. Returns list of row dicts."""
-    rows = []
-    with open(path, encoding="utf-8", newline="") as f:
-        reader = csv.DictReader(f, delimiter=",", skipinitialspace=True)
-        for row in reader:
-            if any(v and str(v).strip() for v in row.values()):
-                rows.append(row)
-    return rows
-
-
 def main() -> None:
-    parsed_data = load_csv(CSV_PATH)
+    df = pd.read_csv(CSV_PATH, encoding="utf-8").dropna(how="all")
 
     # Process batch 3 with final corrections (rows 1000–1500)
-    batch3_data = parsed_data[1000:1500]
-    processed_batch3 = [
-        {
-            "occupation": row.get("occupation", ""),
-            "count": row.get("count", ""),
-            "corrected": correct_occupation_final(row.get("occupation", "") or ""),
-        }
-        for row in batch3_data
-    ]
+    batch3 = df.iloc[1000:1500].copy()
+    batch3["corrected"] = batch3["occupation"].map(correct_occupation_final)
 
-    for i, item in enumerate(processed_batch3):
-        print(f"{i + 1000}: {item['occupation']!r} -> {item['corrected']!r} (count={item['count']})")
+    batch3.to_csv(OUTPUT_PATH, index=False, encoding="utf-8")
+    print(f"Wrote {len(batch3)} rows to {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":

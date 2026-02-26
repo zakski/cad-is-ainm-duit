@@ -1,0 +1,10 @@
+---
+description: Project Python virtual environment name
+alwaysApply: true
+---
+
+# Python Virtual Environment
+
+The project's Python virtual environment is **sklearn-env**.
+
+When running Python scripts, running tests, or installing dependencies, use this environment (e.g. activate with `source sklearn-env/bin/activate` or run with `sklearn-env/bin/python`).
