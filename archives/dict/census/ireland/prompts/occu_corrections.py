@@ -709,29 +709,37 @@ def main() -> None:
     scholar_review.to_csv(OUTPUT_SCHOLAR_REVIEW_PATH, index=False, encoding="utf-8")
     print(f"  Wrote {len(scholar_review)} rows (Scholar variants) to {OUTPUT_SCHOLAR_REVIEW_PATH}", flush=True)
 
-    # Spellcheck review (commented out for now)
-    # print("Spellcheck review ...", flush=True)
-    # if has_word_list():
-    #     print("  Identifying rows with unknown words ...", flush=True)
-    #     unknown_per_row = df["corrected_occupation"].map(unknown_words_in_text)
-    #     has_unknown = unknown_per_row.map(len) > 0
-    #     spellcheck_review = df[has_unknown].copy()
-    #     spellcheck_review["unknown_words"] = unknown_per_row[has_unknown].map(lambda w: "; ".join(w))
-    #     print(f"  Computing suggestions for {len(spellcheck_review)} rows (may take a while) ...", flush=True)
-    #     spellcheck_review["suggested_occupation"] = spellcheck_review["corrected_occupation"].map(
-    #         suggest_spellcorrected
-    #     )
-    #     print("  Sorting and writing spellcheck review ...", flush=True)
-    #     spellcheck_review = spellcheck_review.sort_values(
-    #         by=["_sort_count", "_occ_lower"], ascending=[False, True]
-    #     ).drop(columns=["_sort_count", "_occ_lower"])
-    #     spellcheck_review.to_csv(OUTPUT_SPELLCHECK_REVIEW_PATH, index=False, encoding="utf-8")
-    #     print(f"  Wrote {len(spellcheck_review)} rows (spellcheck review) to {OUTPUT_SPELLCHECK_REVIEW_PATH}", flush=True)
-    # else:
-    #     print(
-    #         "  Skipped (no word list in archives/dict/words; run python archives/dict/words/fetch_english_words.py)",
-    #         flush=True,
-    #     )
+    print("Spellcheck review ...", flush=True)
+    if has_word_list():
+        print("  Identifying rows with unknown words ...", flush=True)
+        unknown_per_row = df["corrected_occupation"].map(unknown_words_in_text)
+        has_unknown = unknown_per_row.map(len) > 0
+        spellcheck_review = df[has_unknown].copy()
+        spellcheck_review["unknown_words"] = unknown_per_row[has_unknown].map(lambda w: "; ".join(w))
+        unique_texts = spellcheck_review["corrected_occupation"].unique().tolist()
+        print(f"  Computing suggestions for {len(unique_texts)} unique occupations (parallel) ...", flush=True)
+        from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
+        try:
+            with ProcessPoolExecutor() as executor:
+                suggestions = list(executor.map(suggest_spellcorrected, unique_texts))
+        except (PermissionError, OSError):
+            from occupation_spellcheck import _get_spell_checker
+            _get_spell_checker()  # prime in main thread so worker threads reuse it
+            with ThreadPoolExecutor() as executor:
+                suggestions = list(executor.map(suggest_spellcorrected, unique_texts))
+        suggestion_map = dict(zip(unique_texts, suggestions))
+        spellcheck_review["suggested_occupation"] = spellcheck_review["corrected_occupation"].map(suggestion_map)
+        print("  Sorting and writing spellcheck review ...", flush=True)
+        spellcheck_review = spellcheck_review.sort_values(
+            by=["_sort_count", "_occ_lower"], ascending=[False, True]
+        ).drop(columns=["_sort_count", "_occ_lower"])
+        spellcheck_review.to_csv(OUTPUT_SPELLCHECK_REVIEW_PATH, index=False, encoding="utf-8")
+        print(f"  Wrote {len(spellcheck_review)} rows (spellcheck review) to {OUTPUT_SPELLCHECK_REVIEW_PATH}", flush=True)
+    else:
+        print(
+            "  Skipped (no word list in archives/dict/words; run python archives/dict/words/fetch_english_words.py)",
+            flush=True,
+        )
 
 
 if __name__ == "__main__":

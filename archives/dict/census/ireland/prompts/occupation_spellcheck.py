@@ -13,15 +13,25 @@ from pathlib import Path
 _SCRIPT_DIR = Path(__file__).resolve().parent
 _ARCHIVES_DICT = _SCRIPT_DIR.parent.parent.parent
 WORDS_BRITISH_PATH = _ARCHIVES_DICT / "words" / "words_british.txt"
+# Occupation-weighted frequency (word -> count); used by SpellChecker via load_json for better suggestions
+WORDS_FREQUENCY_CSV_PATH = _ARCHIVES_DICT / "words" / "words_british_occupation_frequency.csv"
 
 _SPELL_CHECKER = None
 _SUGGEST_CACHE: dict[str, str] = {}
 
 
 def _load_british_word_set() -> set[str]:
-    """Load British word set from words_british.txt only."""
+    """Load British word set from frequency CSV if present, else words_british.txt."""
+    if WORDS_FREQUENCY_CSV_PATH.exists():
+        print("  [spellcheck] Loading word list from words_british_occupation_frequency.csv ...", flush=True)
+        import pandas as pd
+        freq_df = pd.read_csv(WORDS_FREQUENCY_CSV_PATH, encoding="utf-8")
+        words = set(freq_df["word"].astype(str).str.strip().str.lower())
+        words.discard("")
+        print(f"  [spellcheck] Loaded {len(words)} words.", flush=True)
+        return words
     if not WORDS_BRITISH_PATH.exists():
-        print("  [spellcheck] No words_british.txt found; spellcheck disabled.", flush=True)
+        print("  [spellcheck] No words_british.txt or frequency CSV found; spellcheck disabled.", flush=True)
         return set()
     print("  [spellcheck] Loading British word list from words_british.txt ...", flush=True)
     words = {
@@ -53,18 +63,26 @@ def _strip_possessive(word: str) -> tuple[str, str]:
 
 
 def _get_spell_checker():
-    """Return a SpellChecker loaded with words_british.txt, or None if unavailable."""
+    """Return a SpellChecker loaded with frequency CSV (load_json) or words_british.txt (load_words), or None if unavailable."""
     global _SPELL_CHECKER
     if _SPELL_CHECKER is not None:
         return _SPELL_CHECKER
-    if not BRITISH_WORDS or not WORDS_BRITISH_PATH.exists():
+    if not BRITISH_WORDS:
         return None
     try:
         from spellchecker import SpellChecker
+        import pandas as pd
         print("  [spellcheck] Initialising SpellChecker and loading dictionary ...", flush=True)
         _SPELL_CHECKER = SpellChecker(language=None)
-        _SPELL_CHECKER.word_frequency.load_words(BRITISH_WORDS)
-        print(f"  [spellcheck] Dictionary loaded ({len(BRITISH_WORDS)} words).", flush=True)
+        if WORDS_FREQUENCY_CSV_PATH.exists():
+            freq_df = pd.read_csv(WORDS_FREQUENCY_CSV_PATH, encoding="utf-8")
+            freq_dict = dict(zip(freq_df["word"].astype(str).str.strip().str.lower(), freq_df["frequency"].astype(int)))
+            freq_dict = {k: v for k, v in freq_dict.items() if k}
+            _SPELL_CHECKER.word_frequency.load_json(freq_dict)
+            print(f"  [spellcheck] Dictionary loaded from frequency CSV ({len(freq_dict)} words).", flush=True)
+        else:
+            _SPELL_CHECKER.word_frequency.load_words(BRITISH_WORDS)
+            print(f"  [spellcheck] Dictionary loaded ({len(BRITISH_WORDS)} words).", flush=True)
         return _SPELL_CHECKER
     except ImportError:
         print("  [spellcheck] pyspellchecker not installed; suggestions disabled.", flush=True)
