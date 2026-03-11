@@ -1,6 +1,7 @@
 """
-One-off script: frequency of words from words_british.txt in the occupation column
-of ire_occupation_1901.csv. Outputs a CSV of word, frequency (weighted by row count).
+One-off script: frequency of words from words_british.txt + words_manual.txt in the
+occupation column of ire_occupation_1901.csv. Outputs a CSV of word, frequency
+(weighted by row count).
 """
 
 import re
@@ -9,7 +10,8 @@ from pathlib import Path
 import pandas as pd
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-WORDS_PATH = SCRIPT_DIR / "words_british.txt"
+WORDS_BRITISH_PATH = SCRIPT_DIR / "words_british.txt"
+WORDS_MANUAL_PATH = SCRIPT_DIR / "words_manual.txt"
 # Census occupations CSV (with occupation, count columns)
 CSV_PATH = SCRIPT_DIR.parent / "census" / "ireland" / "prompts" / "ire_occupation_1901.csv"
 OUTPUT_PATH = SCRIPT_DIR / "words_british_occupation_frequency.csv"
@@ -28,13 +30,19 @@ def tokenize_occupation(text: str) -> list[str]:
 
 
 def main() -> None:
-    print("Loading British word list ...", flush=True)
+    print("Loading word list (words_british + words_manual) ...", flush=True)
     british_words = {
         w.strip().lower()
-        for w in WORDS_PATH.read_text(encoding="utf-8").splitlines()
+        for w in WORDS_BRITISH_PATH.read_text(encoding="utf-8").splitlines()
         if w.strip()
     }
-    print(f"  Loaded {len(british_words)} words.", flush=True)
+    manual_words = {
+        w.strip().lower()
+        for w in WORDS_MANUAL_PATH.read_text(encoding="utf-8").splitlines()
+        if w.strip()
+    }
+    all_words = british_words | manual_words
+    print(f"  British: {len(british_words)}, manual: {len(manual_words)}, combined: {len(all_words)} words.", flush=True)
 
     print("Loading occupations CSV ...", flush=True)
     df = pd.read_csv(CSV_PATH.resolve(), encoding="utf-8")
@@ -44,16 +52,16 @@ def main() -> None:
     print(f"  Loaded {len(df)} rows.", flush=True)
 
     print("Counting word frequencies in occupations ...", flush=True)
-    freq: dict[str, int] = {w: 0 for w in british_words}
+    freq: dict[str, int] = {w: 0 for w in all_words}
     for _, row in df.iterrows():
         occ = row["occupation"]
         cnt = int(row["count"])
         for token in tokenize_occupation(str(occ)):
-            if token in british_words:
+            if token in all_words:
                 freq[token] += cnt
 
     # Ensure every dictionary word has minimum frequency 1
-    for w in british_words:
+    for w in all_words:
         if freq[w] < 1:
             freq[w] = 1
 
