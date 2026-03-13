@@ -224633,9 +224633,9 @@ parliaments
 parling
 parlish
 parlorish
-parlormaid
 parlour
 parlourish
+parlourmaid
 parlours
 parlous
 parlously

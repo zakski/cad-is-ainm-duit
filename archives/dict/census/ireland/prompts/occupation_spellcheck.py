@@ -51,6 +51,11 @@ def has_word_list() -> bool:
     return bool(BRITISH_WORDS)
 
 
+def _word_has_digit(word: str) -> bool:
+    """Return True if word contains any digit (0-9)."""
+    return any(c.isdigit() for c in word)
+
+
 def _strip_possessive(word: str) -> tuple[str, str]:
     """If word ends with a possessive suffix ('s, s', or '), return (stem, suffix); else (word, '')."""
     if len(word) >= 2 and word.endswith("'s"):
@@ -117,6 +122,8 @@ def unknown_words_in_text(text: str) -> list[str]:
         word = re.sub(r"^[^\w']+|[^\w']+$", "", t)  # keep apostrophe for possessive stripping
         if not word or not any(c.isalpha() for c in word):
             continue
+        if _word_has_digit(word):
+            continue
         stem, _ = _strip_possessive(word)
         if stem.lower() not in BRITISH_WORDS:
             unknown.append(word)
@@ -139,6 +146,9 @@ def suggest_spellcorrected(text: str) -> str:
     for t in tokens:
         word = re.sub(r"^[^\w']+|[^\w']+$", "", t)  # keep apostrophe in word for possessive
         if not word or not any(c.isalpha() for c in word):
+            result.append(t)
+            continue
+        if _word_has_digit(word):
             result.append(t)
             continue
         stem, poss_suffix = _strip_possessive(word)

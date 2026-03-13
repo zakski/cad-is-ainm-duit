@@ -20,7 +20,7 @@ Farmer's Wife,15005,Farmer's Wife,STANDARD
 No Occupation,14408,No Occupation,STANDARD
 Shop Assistant,14400,Shop Assistant,STANDARD
 Linen Weaver,12974,Linen Weaver,STANDARD
-Tailor,11225,Tailor,UNCHANGED
+Tailor,11225,Tailor,STANDARD
 Retired Farmer,8401,Retired Farmer,STANDARD
 Fisherman,8119,Fisherman,STANDARD
 Clerk,7604,Clerk,STANDARD
@@ -114,8 +114,8 @@ Quay Labourer,1421,Quay Labourer,STANDARD
 Apprentice,1415,Apprentice,STANDARD
 Going to School,1406,Going to School,UNCHANGED
 Message Boy,1390,Message Boy,STANDARD
-Sister of Mercy,1383,Sister of Mercy,UNCHANGED
-Embroiderer,1379,Embroiderer,UNCHANGED
+Sister of Mercy,1383,Sister of Mercy,STANDARD
+Embroiderer,1379,Embroiderer,STANDARD
 Retired Labourer,1358,Retired Labourer,STANDARD
 No Profession,1331,No Profession,STANDARD
 Confectioner,1312,Confectioner,UNCHANGED
@@ -253,7 +253,7 @@ Parlour Maid Domestic Servant,524,Parlour Maid Domestic Servant,STANDARD
 Nothing,523,Nothing,STANDARD
 Grocer Assistant,522,Grocer Assistant,STANDARD
 Scholar's,519,Scholar's,UNCHANGED
-Seamster,518,Seamster,UNCHANGED
+Seamster,518,Seamster,STANDARD
 Clergyman,517,Clergyman,UNCHANGED
 Telegraph Messenger,515,Telegraph Messenger,STANDARD
 Boot and Shoemaker,514,Boot and Shoemaker,STANDARD
@@ -279,7 +279,7 @@ Steward,452,Steward,UNCHANGED
 Pork Butcher,449,Pork Butcher,STANDARD
 Printer Compositor,445,Printer Compositor,STANDARD
 Watchmaker,444,Watchmaker,STANDARD
-Asylum Attendant,438,Asylum Attendant,UNCHANGED
+Asylum Attendant,438,Asylum Attendant,STANDARD
 Law Clerk,436,Law Clerk,STANDARD
 Machine Boy,434,Machine Boy,STANDARD
 No Trade,434,No Trade,UNCHANGED
@@ -287,7 +287,6 @@ Green Grocer,433,Green Grocer,STANDARD
 Labourer Genl,432,Labourer Genl,STANDARD
 General Dealer,430,General Dealer,STANDARD
 Horse Trainer,430,Horse Trainer,STANDARD
-Scholer,430,Scholer,UNCHANGED
 Cottier,427,Cottier,UNCHANGED
 Farmer and Fisherman,427,Farmer and Fisherman,UNCHANGED
 Bricklayers Labourer,426,Bricklayers Labourer,STANDARD
@@ -298,7 +297,6 @@ Tram Conductor,420,Tram Conductor,STANDARD
 Sister of Charity,416,Sister of Charity,UNCHANGED
 Hotel Keeper,415,Hotel Keeper,STANDARD
 Labourer's Daughter,411,Labourer's Daughter,STANDARD
-Agril Labourer,410,Agril Labourer,STANDARD
 Pensioner,403,Pensioner,UNCHANGED
 Upholsterer,403,Upholsterer,UNCHANGED
 Naval Pensioner,402,Naval Pensioner,UNCHANGED
@@ -380,7 +378,6 @@ Carpenter Master,323,Carpenter Master,STANDARD
 Quarry Labourer,323,Quarry Labourer,STANDARD
 Carpenter and Farmer,320,Carpenter and Farmer,UNCHANGED
 General Servant Dom,320,General Servant Dom,STANDARD
-Schoolars,320,Schoolars,UNCHANGED
 Vintner,319,Vintner,UNCHANGED
 Shirt Factory Worker,318,Shirt Factory Worker,UNCHANGED
 Vanman,318,Vanman,UNCHANGED
@@ -495,7 +492,6 @@ Sticher,223,Sticher,UNCHANGED
 Boilermaker,222,Boilermaker,UNCHANGED
 Dairymaid,220,Dairymaid,UNCHANGED
 Machenist,220,Machenist,UNCHANGED
-Scolars,220,Scolars,UNCHANGED
 Clerk in Holy Orders,219,Clerk in Holy Orders,STANDARD
 G Servant,219,G Servant,STANDARD
 Hotel Porter,219,Hotel Porter,STANDARD
@@ -539,7 +535,7 @@ Shop Messenger,200,Shop Messenger,STANDARD
 Miner,199,Miner,UNCHANGED
 Roomkeeper,199,Roomkeeper,UNCHANGED
 Nailor,198,Nailor,UNCHANGED
-Cambrick Weaver,197,Cambrick Weaver,UNCHANGED
+Cambrick Weaver,197,Cambrick Weaver,STANDARD
 Navvy,197,Navvy,UNCHANGED
 Vice Folder,196,Vice Folder,STANDARD
 Assurance Agent,195,Assurance Agent,UNCHANGED
@@ -738,7 +734,6 @@ Master Carpenter,139,Master Carpenter,STANDARD
 Spreader,139,Spreader,UNCHANGED
 Veterinary Surgeon,139,Veterinary Surgeon,UNCHANGED
 Living on Interest of Money,137,Living on Interest of Money,UNCHANGED
-Scollars,137,Scollars,UNCHANGED
 Priest,136,Priest,UNCHANGED
 Blacksmith and Farmer,135,Blacksmith and Farmer,UNCHANGED
 Fire Man,135,Fire Man,STANDARD
@@ -973,7 +968,6 @@ Lithographic Printer,93,Lithographic Printer,UNCHANGED
 Ornamenter,93,Ornamenter,UNCHANGED
 Retired Cook,93,Retired Cook,STANDARD
 Sawer,93,Sawer,UNCHANGED
-Scholers,93,Scholers,UNCHANGED
 Clerk of Petty Sessions,92,Clerk of Petty Sessions,UNCHANGED
 Collar Cutter,92,Collar Cutter,STANDARD
 Family Grocer,92,Family Grocer,UNCHANGED
@@ -1058,7 +1052,6 @@ Shopman Grocer,85,Shopman Grocer,STANDARD
 Spinning Master,85,Spinning Master,STANDARD
 Caulker,84,Caulker,UNCHANGED
 Cloth Finisher,84,Cloth Finisher,UNCHANGED
-Farmersson,84,Farmersson,UNCHANGED
 Leather Cutter,84,Leather Cutter,STANDARD
 Maid,84,Maid,UNCHANGED
 Quay Porter,84,Quay Porter,UNCHANGED
@@ -1288,7 +1281,6 @@ Visiting Governess,67,Visiting Governess,UNCHANGED
 Business,66,Business,UNCHANGED
 Farmer and Cooper,66,Farmer and Cooper,UNCHANGED
 Grocers Messenger,66,Grocers Messenger,STANDARD
-Ironmongers Assistant,66,Ironmongers Assistant,UNCHANGED
 Labourer Carter,66,Labourer Carter,STANDARD
 Labourer Genl.,66,Labourer Genl.,STANDARD
 Linen Butler,66,Linen Butler,UNCHANGED
@@ -1452,7 +1444,6 @@ Cottager,57,Cottager,UNCHANGED
 Dairy Maid Domestic Servant,57,Dairy Maid Domestic Servant,STANDARD
 District Nurse,57,District Nurse,UNCHANGED
 Farmer and Herd,57,Farmer and Herd,UNCHANGED
-Farmersdaughter,57,Farmersdaughter,UNCHANGED
 General,57,General,UNCHANGED
 Hackney Car Owner,57,Hackney Car Owner,UNCHANGED
 Harbour Constable,57,Harbour Constable,UNCHANGED
@@ -1770,7 +1761,6 @@ Electric Engineer,43,Electric Engineer,UNCHANGED
 Ex Soldier,43,Ex Soldier,STANDARD
 Farmar,43,Farmar,UNCHANGED
 Farmerss,43,Farmerss,UNCHANGED
-Farmour,43,Farmour,UNCHANGED
 Fishdealer,43,Fishdealer,UNCHANGED
 Flax Merchant,43,Flax Merchant,STANDARD
 Flax Spinner in Thread Factory,43,Flax Spinner in Thread Factory,UNCHANGED
@@ -1840,7 +1830,6 @@ Dock Labour,41,Dock Labour,STANDARD
 Doffer Flax,41,Doffer Flax,STANDARD
 Domestic Assistant,41,Domestic Assistant,UNCHANGED
 Engine Fitter in Works,41,Engine Fitter in Works,UNCHANGED
-Farmer's Daugh,41,Farmer's Daugh,UNCHANGED
 Fitter at Works,41,Fitter at Works,UNCHANGED
 Flax Buyer,41,Flax Buyer,STANDARD
 Flax Carder,41,Flax Carder,STANDARD
@@ -1885,7 +1874,6 @@ Carpenter's Son,40,Carpenter's Son,STANDARD
 Coach Fitter,40,Coach Fitter,UNCHANGED
 Damask Tenter,40,Damask Tenter,UNCHANGED
 Doctor,40,Doctor,UNCHANGED
-Farmer Daugh,40,Farmer Daugh,UNCHANGED
 Foreman Carpenter,40,Foreman Carpenter,STANDARD
 Gen Domestic Servant,40,Gen Domestic Servant,STANDARD
 Grand Son,40,Grand Son,STANDARD
@@ -1908,7 +1896,6 @@ No School,40,No School,UNCHANGED
 Policeman's Son,40,Policeman's Son,STANDARD
 Railway Messenger,40,Railway Messenger,UNCHANGED
 School Pupil,40,School Pupil,UNCHANGED
-Sholor,40,Sholor,UNCHANGED
 Slate Maker,40,Slate Maker,UNCHANGED
 Tea Dealer,40,Tea Dealer,STANDARD
 Tin Plate Worker,40,Tin Plate Worker,STANDARD
@@ -2023,7 +2010,6 @@ Linen Smoother,37,Linen Smoother,UNCHANGED
 Linen Spreader,37,Linen Spreader,UNCHANGED
 Machine Feeder,37,Machine Feeder,UNCHANGED
 Magistrate and Farmer,37,Magistrate and Farmer,UNCHANGED
-N.S.Teacher,37,N.S.Teacher,UNCHANGED
 Parlor Maid Domestic Servant,37,Parlor Maid Domestic Servant,STANDARD
 Pensioner from R.I.C,37,Pensioner from R.I.C,UNCHANGED
 Pichaur,37,Pichaur,UNCHANGED
@@ -2154,7 +2140,6 @@ Lace Knitter,34,Lace Knitter,UNCHANGED
 Lapper,34,Lapper,UNCHANGED
 Laundry Work,34,Laundry Work,STANDARD
 Linen Drawer,34,Linen Drawer,UNCHANGED
-Linenlapper,34,Linenlapper,UNCHANGED
 Malt House Labourer,34,Malt House Labourer,STANDARD
 Malthouse Labourer,34,Malthouse Labourer,UNCHANGED
 Messinger,34,Messinger,UNCHANGED
@@ -2166,7 +2151,6 @@ Retired Charwoman,34,Retired Charwoman,UNCHANGED
 Retired General Servant,34,Retired General Servant,STANDARD
 Scholar at Home,34,Scholar at Home,UNCHANGED
 Schoolers,34,Schoolers,UNCHANGED
-Scolour,34,Scolour,UNCHANGED
 Seamstrees,34,Seamstrees,UNCHANGED
 Shirt Factory Hand,34,Shirt Factory Hand,UNCHANGED
 Son Scholar,34,Son Scholar,STANDARD
@@ -2249,7 +2233,6 @@ Brick Yard Labourer,32,Brick Yard Labourer,STANDARD
 Brickmaker,32,Brickmaker,STANDARD
 Cab Proprietor,32,Cab Proprietor,STANDARD
 Carpentor,32,Carpentor,UNCHANGED
-Cattledealer,32,Cattledealer,UNCHANGED
 Chemical Labourer,32,Chemical Labourer,UNCHANGED
 Coach Man Domestic,32,Coach Man Domestic,STANDARD
 Commerical Clerk,32,Commerical Clerk,UNCHANGED
@@ -2266,11 +2249,9 @@ Ex Sergt R I C,32,Ex Sergt R I C,STANDARD
 Factory Employee,32,Factory Employee,UNCHANGED
 Farme's Son,32,Farme's Son,UNCHANGED
 Farmer and Smith,32,Farmer and Smith,UNCHANGED
-Farmlabourer,32,Farmlabourer,UNCHANGED
 Field Worker,32,Field Worker,UNCHANGED
 Fruit Merchant,32,Fruit Merchant,UNCHANGED
 General Laburer,32,General Laburer,UNCHANGED
-General Servant Domst,32,General Servant Domst,STANDARD
 Harbour Labourer,32,Harbour Labourer,STANDARD
 Heater Boy,32,Heater Boy,STANDARD
 House Furnisher,32,House Furnisher,STANDARD
@@ -2313,7 +2294,6 @@ Cook Domestic Sert,31,Cook Domestic Sert,STANDARD
 Cow Keeper,31,Cow Keeper,STANDARD
 Dividend,31,Dividend,UNCHANGED
 Domestic Housemaid,31,Domestic Housemaid,STANDARD
-Domestic Sevt,31,Domestic Sevt,UNCHANGED
 Farme,31,Farme,UNCHANGED
 Farmer Assistant,31,Farmer Assistant,UNCHANGED
 Farmer Mother,31,Farmer Mother,UNCHANGED
@@ -2347,8 +2327,6 @@ Printer Compositer,31,Printer Compositer,STANDARD
 Rabbit Trapper,31,Rabbit Trapper,UNCHANGED
 Religieuse,31,Religieuse,UNCHANGED
 Retired Postman,31,Retired Postman,UNCHANGED
-Scolor,31,Scolor,UNCHANGED
-Shcolar,31,Shcolar,UNCHANGED
 Shop Assistant Unemployed,31,Shop Assistant Unemployed,STANDARD
 Spiner,31,Spiner,UNCHANGED
 Stone Mason and Farmer,31,Stone Mason and Farmer,UNCHANGED
@@ -2402,8 +2380,6 @@ Huxter,30,Huxter,UNCHANGED
 Income from Property,30,Income from Property,UNCHANGED
 Institute R V M,30,Institute R V M,UNCHANGED
 Iron Founder,30,Iron Founder,UNCHANGED
-Labourer Agril,30,Labourer Agril,STANDARD
-Labourer Agrl.,30,Labourer Agrl.,STANDARD
 Labourer in Bakery,30,Labourer in Bakery,UNCHANGED
 Labourer in Woollen Factory,30,Labourer in Woollen Factory,STANDARD
 Law Messenger,30,Law Messenger,STANDARD
@@ -2432,14 +2408,12 @@ Sewing Machine Agent,30,Sewing Machine Agent,STANDARD
 Ships Steward,30,Ships Steward,STANDARD
 Shirt and Collar Cutter,30,Shirt and Collar Cutter,UNCHANGED
 Stereotyper,30,Stereotyper,UNCHANGED
-Tailorers,30,Tailorers,UNCHANGED
 Tambourer,30,Tambourer,UNCHANGED
 Teacher Nat School,30,Teacher Nat School,STANDARD
 Trunk Maker,30,Trunk Maker,UNCHANGED
 Work Man,30,Work Man,STANDARD
 Works at Home,30,Works at Home,UNCHANGED
 Agricultural Labourer Shepherd,29,Agricultural Labourer Shepherd,STANDARD
-Agril. Labourer,29,Agril. Labourer,UNCHANGED
 Apprentice Iron Moulder,29,Apprentice Iron Moulder,STANDARD
 Army Pensioner Infantry,29,Army Pensioner Infantry,STANDARD
 Assistant Keeper,29,Assistant Keeper,STANDARD
@@ -2478,7 +2452,6 @@ House Trainer,29,House Trainer,UNCHANGED
 Inmate of Charitable Institution,29,Inmate of Charitable Institution,UNCHANGED
 Intrest on Money,29,Intrest on Money,UNCHANGED
 King's Scholar,29,King's Scholar,UNCHANGED
-Laberor,29,Laberor,UNCHANGED
 Labour Farm,29,Labour Farm,STANDARD
 Labour Quay,29,Labour Quay,STANDARD
 Lady Help,29,Lady Help,STANDARD
@@ -2504,7 +2477,6 @@ Practising Barrister,29,Practising Barrister,UNCHANGED
 Reeler Mill Worker,29,Reeler Mill Worker,UNCHANGED
 Ropemaker,29,Ropemaker,STANDARD
 Scholars Attending School,29,Scholars Attending School,UNCHANGED
-Schoolor,29,Schoolor,UNCHANGED
 Servants Child,29,Servants Child,UNCHANGED
 Setmaker,29,Setmaker,UNCHANGED
 Sewers,29,Sewers,UNCHANGED
@@ -2529,7 +2501,6 @@ Waver Linen,29,Waver Linen,STANDARD
 Apprentice Linen Trade,28,Apprentice Linen Trade,UNCHANGED
 Apprentice to Dressmaker,28,Apprentice to Dressmaker,UNCHANGED
 Assistant Publican,28,Assistant Publican,UNCHANGED
-Asylum Attendt,28,Asylum Attendt,UNCHANGED
 Attending School Scholar,28,Attending School Scholar,STANDARD
 B. Smith,28,B. Smith,UNCHANGED
 Billiard Maker,28,Billiard Maker,UNCHANGED
@@ -2607,8 +2578,6 @@ Traveler,28,Traveler,UNCHANGED
 Unemployed Domestic Servant,28,Unemployed Domestic Servant,STANDARD
 Yarn Weaver,28,Yarn Weaver,STANDARD
 A School,27,A School,UNCHANGED
-Agricultural Laborour,27,Agricultural Laborour,UNCHANGED
-Agrlt Labourer,27,Agrlt Labourer,UNCHANGED
 Assisting at Home,27,Assisting at Home,UNCHANGED
 Bailiff,27,Bailiff,UNCHANGED
 Book Sewer,27,Book Sewer,STANDARD
@@ -2715,7 +2684,6 @@ Farmer's Sister in Law,26,Farmer's Sister in Law,STANDARD
 Farmer's Son and Fisherman,26,Farmer's Son and Fisherman,STANDARD
 Farmer's Son Scholar,26,Farmer's Son Scholar,STANDARD
 Farmers Dau,26,Farmers Dau,UNCHANGED
-Farmers Dgtr,26,Farmers Dgtr,UNCHANGED
 Farming and Fishing,26,Farming and Fishing,UNCHANGED
 Farming Son,26,Farming Son,STANDARD
 Fireman on Railway,26,Fireman on Railway,UNCHANGED
@@ -2804,7 +2772,6 @@ Fitters Helper,25,Fitters Helper,UNCHANGED
 Flax Dealer,25,Flax Dealer,UNCHANGED
 Folder in Wareroom,25,Folder in Wareroom,STANDARD
 Furniture Porter,25,Furniture Porter,UNCHANGED
-Gen Farm Labr,25,Gen Farm Labr,UNCHANGED
 General Servent Domestic,25,General Servent Domestic,STANDARD
 Grocer and Provision Dealer,25,Grocer and Provision Dealer,UNCHANGED
 Grocer Shop Assistant,25,Grocer Shop Assistant,STANDARD
@@ -2817,9 +2784,7 @@ Labourer and Farmer,25,Labourer and Farmer,UNCHANGED
 Labourer in Tobacco Factory,25,Labourer in Tobacco Factory,UNCHANGED
 Labourer in Tweed Factory,25,Labourer in Tweed Factory,UNCHANGED
 Ladies Companion,25,Ladies Companion,UNCHANGED
-Ladys Maid Domestic Servant,25,Ladys Maid Domestic Servant,STANDARD
 Light Porter,25,Light Porter,UNCHANGED
-Linnen Waver,25,Linnen Waver,UNCHANGED
 Machineman,25,Machineman,UNCHANGED
 Machinist in Wareroom,25,Machinist in Wareroom,UNCHANGED
 Malthouse Man,25,Malthouse Man,UNCHANGED
@@ -2853,7 +2818,6 @@ A Farmer's Son,24,A Farmer's Son,STANDARD
 Agricultual Labourer,24,Agricultual Labourer,STANDARD
 Agricultura Labourer,24,Agricultura Labourer,UNCHANGED
 Agriculturl Labourer,24,Agriculturl Labourer,UNCHANGED
-Agrl Labour,24,Agrl Labour,UNCHANGED
 Asst Housekeeper,24,Asst Housekeeper,STANDARD
 Auctioner,24,Auctioner,UNCHANGED
 Barker,24,Barker,UNCHANGED
@@ -2935,7 +2899,6 @@ Religious of the Good Shepherd,24,Religious of the Good Shepherd,UNCHANGED
 Retired Farmer Wife,24,Retired Farmer Wife,UNCHANGED
 Rougher in Mill,24,Rougher in Mill,UNCHANGED
 Royal Navy,24,Royal Navy,UNCHANGED
-Samester,24,Samester,UNCHANGED
 Sample Maker,24,Sample Maker,STANDARD
 Seamstriss,24,Seamstriss,UNCHANGED
 Sheeting Weaver,24,Sheeting Weaver,UNCHANGED
@@ -2944,7 +2907,6 @@ Ship Smith,24,Ship Smith,STANDARD
 Shop Woman,24,Shop Woman,UNCHANGED
 ShopKeeper,24,ShopKeeper,UNCHANGED
 Soldier on Furlough,24,Soldier on Furlough,STANDARD
-Srs of Mercy,24,Srs of Mercy,UNCHANGED
 Stable Servant,24,Stable Servant,UNCHANGED
 Stenographer,24,Stenographer,UNCHANGED
 Tailors,24,Tailors,UNCHANGED
@@ -2961,7 +2923,6 @@ A. B.,23,A. B.,UNCHANGED
 A.B. Seaman,23,A.B. Seaman,UNCHANGED
 Agricultural Labours,23,Agricultural Labours,UNCHANGED
 Apprentice Tenter,23,Apprentice Tenter,UNCHANGED
-At Schoolar,23,At Schoolar,UNCHANGED
 Attendent,23,Attendent,UNCHANGED
 Blacksmith's Wife,23,Blacksmith's Wife,STANDARD
 Bonnet Maker,23,Bonnet Maker,UNCHANGED
@@ -3020,7 +2981,6 @@ Labourer on Roads,23,Labourer on Roads,UNCHANGED
 Labourer Retired,23,Labourer Retired,STANDARD
 Ladies Tailoress,23,Ladies Tailoress,UNCHANGED
 Land Proprietor,23,Land Proprietor,UNCHANGED
-Lauberer,23,Lauberer,UNCHANGED
 Linen Spinner in Mill,23,Linen Spinner in Mill,UNCHANGED
 Machiner,23,Machiner,UNCHANGED
 Maid Domestic,23,Maid Domestic,STANDARD
@@ -3087,7 +3047,6 @@ Bootmaker Master,22,Bootmaker Master,STANDARD
 Bricklayers Labour,22,Bricklayers Labour,STANDARD
 Butcher Assistant,22,Butcher Assistant,STANDARD
 Butcher's Assistant,22,Butcher's Assistant,STANDARD
-Camrick Weaver,22,Camrick Weaver,UNCHANGED
 Carpenter Journeyman,22,Carpenter Journeyman,STANDARD
 Carpet Planner,22,Carpet Planner,UNCHANGED
 Chorwoman unemployed,22,Chorwoman unemployed,UNCHANGED
@@ -3182,8 +3141,6 @@ Retired Bank Manager,22,Retired Bank Manager,UNCHANGED
 Retired Soldier,22,Retired Soldier,UNCHANGED
 Revitter,22,Revitter,UNCHANGED
 Rigger,22,Rigger,UNCHANGED
-Ry Porter,22,Ry Porter,UNCHANGED
-Scoholars,22,Scoholars,UNCHANGED
 Scollers,22,Scollers,UNCHANGED
 Sergeant R I Constabulary,22,Sergeant R I Constabulary,UNCHANGED
 Ship Caulker,22,Ship Caulker,UNCHANGED
@@ -3242,7 +3199,6 @@ Domestic Groom,21,Domestic Groom,UNCHANGED
 Draper Asst,21,Draper Asst,UNCHANGED
 Drapery Buyer,21,Drapery Buyer,UNCHANGED
 Drawer in Linen Factory,21,Drawer in Linen Factory,STANDARD
-Embrodier,21,Embrodier,UNCHANGED
 Employed in Woolen Factory,21,Employed in Woolen Factory,UNCHANGED
 Engineer Apprentice,21,Engineer Apprentice,UNCHANGED
 Estate Bailiff,21,Estate Bailiff,STANDARD
@@ -3255,10 +3211,8 @@ Farmers Gd Son,21,Farmers Gd Son,UNCHANGED
 Furniture Broker,21,Furniture Broker,UNCHANGED
 Gardeners Wife,21,Gardeners Wife,UNCHANGED
 Gel Labourer,21,Gel Labourer,UNCHANGED
-General Labr.,21,General Labr.,UNCHANGED
 General Servant and Domestic,21,General Servant and Domestic,STANDARD
 Gl Domestic Servant,21,Gl Domestic Servant,STANDARD
-Gnl Labourer,21,Gnl Labourer,UNCHANGED
 Grocery Business,21,Grocery Business,UNCHANGED
 Hardware,21,Hardware,UNCHANGED
 Horse Keeper,21,Horse Keeper,STANDARD
@@ -3312,7 +3266,6 @@ Religions of the Sisters of Charity,21,Religions of the Sisters of Charity,UNCHA
 Religions Order,21,Religions Order,UNCHANGED
 Retired Governess,21,Retired Governess,UNCHANGED
 Ruler,21,Ruler,UNCHANGED
-Ry Labourer,21,Ry Labourer,STANDARD
 Sanitary Sub Officer,21,Sanitary Sub Officer,STANDARD
 Scavenger,21,Scavenger,UNCHANGED
 Scholar School,21,Scholar School,UNCHANGED
@@ -3349,7 +3302,6 @@ Works in House,21,Works in House,UNCHANGED
 Yarn Beamer,21,Yarn Beamer,UNCHANGED
 Yarn Counter,21,Yarn Counter,UNCHANGED
 Agr Labour,20,Agr Labour,UNCHANGED
-Agricull Labourer,20,Agricull Labourer,UNCHANGED
 Agricultural Labourer's Son,20,Agricultural Labourer's Son,STANDARD
 Analytical Chemist,20,Analytical Chemist,UNCHANGED
 Apprentice Boiler Maker,20,Apprentice Boiler Maker,STANDARD
@@ -3375,7 +3327,6 @@ Com Traveller,20,Com Traveller,STANDARD
 Comercial Clerk,20,Comercial Clerk,UNCHANGED
 Constables Wife,20,Constables Wife,UNCHANGED
 Cook Domestic Serv,20,Cook Domestic Serv,STANDARD
-Cook Domestic Sevt,20,Cook Domestic Sevt,STANDARD
 Cot Man,20,Cot Man,UNCHANGED
 County Council Clerk,20,County Council Clerk,UNCHANGED
 Crotchet Lace Maker,20,Crotchet Lace Maker,UNCHANGED
@@ -3387,7 +3338,6 @@ Dealer in Fowl,20,Dealer in Fowl,UNCHANGED
 Doctor of Medicine,20,Doctor of Medicine,UNCHANGED
 Domestic Occupation,20,Domestic Occupation,UNCHANGED
 Domestic Servat,20,Domestic Servat,UNCHANGED
-Domestic Svt,20,Domestic Svt,UNCHANGED
 Draper Clerk,20,Draper Clerk,UNCHANGED
 Draper Weaver,20,Draper Weaver,STANDARD
 Draper's Porter,20,Draper's Porter,STANDARD
@@ -3403,15 +3353,12 @@ Farmerest,20,Farmerest,UNCHANGED
 Farmers S,20,Farmers S,UNCHANGED
 Farmers Sone,20,Farmers Sone,UNCHANGED
 Farms Labourer,20,Farms Labourer,STANDARD
-Fars Daughter,20,Fars Daughter,UNCHANGED
 Fawl Dealer,20,Fawl Dealer,UNCHANGED
 Foot Man,20,Foot Man,STANDARD
 Foreman Tailor,20,Foreman Tailor,UNCHANGED
 Fowl Picker,20,Fowl Picker,STANDARD
 Garner,20,Garner,UNCHANGED
 General at Coast Guard Station Labourer,20,General at Coast Guard Station Labourer,UNCHANGED
-General Domestic Sevt,20,General Domestic Sevt,UNCHANGED
-General Domestic Svt,20,General Domestic Svt,STANDARD
 General House Worker,20,General House Worker,UNCHANGED
 General Servant Cook,20,General Servant Cook,STANDARD
 General Serveant,20,General Serveant,UNCHANGED
@@ -3456,9 +3403,7 @@ Musican,20,Musican,UNCHANGED
 National School Master,20,National School Master,STANDARD
 Night Watch Man,20,Night Watch Man,STANDARD
 None Business,20,None Business,UNCHANGED
-Nurse Domestic Svt,20,Nurse Domestic Svt,STANDARD
 Nurse Workhouse,20,Nurse Workhouse,UNCHANGED
-Ordinary Attdt,20,Ordinary Attdt,UNCHANGED
 Pipe Finisher,20,Pipe Finisher,UNCHANGED
 Plate Layer on Railway,20,Plate Layer on Railway,UNCHANGED
 Platelayer on Railway,20,Platelayer on Railway,UNCHANGED
@@ -4397,7 +4342,7 @@ Inf,15,Inf,UNCHANGED
 Instructin of Youth,15,Instructin of Youth,UNCHANGED
 Iron Moulder Unemployed,15,Iron Moulder Unemployed,STANDARD
 Ironer,15,Ironer,UNCHANGED
-Ironmonger's Assistant,15,Ironmonger's Assistant,UNCHANGED
+Ironmonger's Assistant,15,Ironmonger's Assistant,STANDARD
 Keeper,15,Keeper,UNCHANGED
 Knitting Stockings,15,Knitting Stockings,UNCHANGED
 Labourar,15,Labourar,UNCHANGED
@@ -5662,7 +5607,6 @@ Infant Scholar,11,Infant Scholar,UNCHANGED
 Infantile,11,Infantile,UNCHANGED
 Inft,11,Inft,STANDARD
 Iron Moulder in Works,11,Iron Moulder in Works,UNCHANGED
-Ironmongers Apprentice,11,Ironmongers Apprentice,UNCHANGED
 Justice of the Peace and Farmer,11,Justice of the Peace and Farmer,UNCHANGED
 Jute Winder,11,Jute Winder,UNCHANGED
 L Wife,11,L Wife,UNCHANGED
@@ -11022,9 +10966,7 @@ Irish Lights Pensioner,5,Irish Lights Pensioner,UNCHANGED
 Iron Dresser in Foundry,5,Iron Dresser in Foundry,UNCHANGED
 Iron Labour,5,Iron Labour,UNCHANGED
 Iron Ship Caulker,5,Iron Ship Caulker,UNCHANGED
-Ironmonger's Apprentice,5,Ironmonger's Apprentice,UNCHANGED
-Ironmongers Manager,5,Ironmongers Manager,UNCHANGED
-Ironmongers Porter,5,Ironmongers Porter,UNCHANGED
+Ironmonger's Apprentice,5,Ironmonger's Apprentice,STANDARD
 Ironmongers Shopman,5,Ironmongers Shopman,UNCHANGED
 Is Going to School,5,Is Going to School,UNCHANGED
 J. P.,5,J. P.,UNCHANGED
@@ -13527,7 +13469,6 @@ Iron Planer,4,Iron Planer,UNCHANGED
 Iron Plater,4,Iron Plater,UNCHANGED
 Iron Turner Apprentice,4,Iron Turner Apprentice,STANDARD
 Iron Turner in Mill,4,Iron Turner in Mill,UNCHANGED
-Ironmongers Clerk,4,Ironmongers Clerk,UNCHANGED
 J P and Farmer,4,J P and Farmer,UNCHANGED
 J P Income From House Property,4,J P Income From House Property,UNCHANGED
 J. P. Farmer,4,J. P. Farmer,UNCHANGED
@@ -17972,8 +17913,8 @@ Ironers in Landry,3,Ironers in Landry,UNCHANGED
 Ironmongar Assistant,3,Ironmongar Assistant,UNCHANGED
 IronMonger,3,IronMonger,UNCHANGED
 Ironmonger Salesman,3,Ironmonger Salesman,UNCHANGED
-Ironmonger's Clerk,3,Ironmonger's Clerk,UNCHANGED
-Ironmonger's Porter,3,Ironmonger's Porter,UNCHANGED
+Ironmonger's Clerk,3,Ironmonger's Clerk,STANDARD
+Ironmonger's Porter,3,Ironmonger's Porter,STANDARD
 Ironmongers,3,Ironmongers,UNCHANGED
 Ironmongers Asst,3,Ironmongers Asst,UNCHANGED
 Ironturner in Foundry,3,Ironturner in Foundry,UNCHANGED
@@ -84762,14 +84703,12 @@ Ironmonger's Labourer,1,Ironmonger's Labourer,UNCHANGED
 Ironmonger's Messenger,1,Ironmonger's Messenger,UNCHANGED
 "Ironmonger, Grocer and General Merchant",1,"Ironmonger, Grocer and General Merchant",UNCHANGED
 "Ironmonger, Master",1,"Ironmonger, Master",UNCHANGED
-Ironmongers apprentice,1,Ironmongers apprentice,UNCHANGED
 Ironmongers Assist,1,Ironmongers Assist,UNCHANGED
 Ironmongers asst,1,Ironmongers asst,UNCHANGED
 Ironmongers Asstnt,1,Ironmongers Asstnt,UNCHANGED
 Ironmongers Clarke,1,Ironmongers Clarke,UNCHANGED
 Ironmongers Commercial Clerk,1,Ironmongers Commercial Clerk,UNCHANGED
 Ironmongers Commercial Traveller,1,Ironmongers Commercial Traveller,UNCHANGED
-Ironmongers manager,1,Ironmongers manager,UNCHANGED
 Ironmongers Manufrs,1,Ironmongers Manufrs,UNCHANGED
 Ironmongers Shop Assistant,1,Ironmongers Shop Assistant,UNCHANGED
 Ironmongery Assistant,1,Ironmongery Assistant,UNCHANGED
@@ -89267,7 +89206,7 @@ Lady's Nurs Tenter,1,Lady's Nurs Tenter,UNCHANGED
 Lady's Nurse Leader,1,Lady's Nurse Leader,UNCHANGED
 Lady's Nurse Tender,1,Lady's Nurse Tender,UNCHANGED
 Lady's Occupation Interest of Money,1,Lady's Occupation Interest of Money,UNCHANGED
-Lady's Servant,1,Lady's Servant,UNCHANGED
+Lady's Servant,1,Lady's Servant,STANDARD
 Lady's Shirt Maker,1,Lady's Shirt Maker,UNCHANGED
 Lady's Shirt Presser,1,Lady's Shirt Presser,UNCHANGED
 Lady's Tayloress,1,Lady's Tayloress,UNCHANGED
@@ -89298,10 +89237,8 @@ Ladys Maid and Servant,1,Ladys Maid and Servant,UNCHANGED
 Ladys Maid D Servant,1,Ladys Maid D Servant,UNCHANGED
 Ladys Maid D. S,1,Ladys Maid D. S,UNCHANGED
 Ladys Maid Dom Sevt,1,Ladys Maid Dom Sevt,UNCHANGED
-Ladys maid Domestic Servant,1,Ladys maid Domestic Servant,UNCHANGED
 Ladys Nurse Midwife,1,Ladys Nurse Midwife,UNCHANGED
 Ladys Nurse Ser,1,Ladys Nurse Ser,UNCHANGED
-Ladys Servant,1,Ladys Servant,UNCHANGED
 Ladys Tailoring,1,Ladys Tailoring,UNCHANGED
 Ladys Taoyler,1,Ladys Taoyler,UNCHANGED
 Ladys Trained Nurse,1,Ladys Trained Nurse,UNCHANGED
@@ -105258,7 +105195,6 @@ Pensioner School Teacher,1,Pensioner School Teacher,UNCHANGED
 Pensioner School Teacher Natl Education,1,Pensioner School Teacher Natl Education,UNCHANGED
 Pensioner Sco Rifles,1,Pensioner Sco Rifles,UNCHANGED
 Pensioner Sean Royal Artillery,1,Pensioner Sean Royal Artillery,UNCHANGED
-Pensioner Serg R I C Ironmongers Assistant,1,Pensioner Serg R I C Ironmongers Assistant,UNCHANGED
 Pensioner Sergeant 63rd Retirment General Labourer,1,Pensioner Sergeant 63rd Retirment General Labourer,UNCHANGED
 Pensioner Sergeant R.I.C,1,Pensioner Sergeant R.I.C,STANDARD
 Pensioner Sergt 1st Devonshire Regt. Labourer,1,Pensioner Sergt 1st Devonshire Regt. Labourer,UNCHANGED

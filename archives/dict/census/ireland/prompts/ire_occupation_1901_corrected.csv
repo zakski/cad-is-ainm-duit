@@ -28,7 +28,7 @@ No Occupation,14408,No Occupation,STANDARD
 Shop Assistant,14400,Shop Assistant,STANDARD
 Linen Weaver,12974,Linen Weaver,STANDARD
 Dress Maker,11828,Dressmaker,DICT_LOOKUP
-Tailor,11225,Tailor,UNCHANGED
+Tailor,11225,Tailor,STANDARD
 Retired Farmer,8401,Retired Farmer,STANDARD
 Farmer Daughter,8349,Farmer's Daughter,DICT_LOOKUP
 Fisherman,8119,Fisherman,STANDARD
@@ -149,8 +149,8 @@ Quay Labourer,1421,Quay Labourer,STANDARD
 Apprentice,1415,Apprentice,STANDARD
 Going to School,1406,Going to School,UNCHANGED
 Message Boy,1390,Message Boy,STANDARD
-Sister of Mercy,1383,Sister of Mercy,UNCHANGED
-Embroiderer,1379,Embroiderer,UNCHANGED
+Sister of Mercy,1383,Sister of Mercy,STANDARD
+Embroiderer,1379,Embroiderer,STANDARD
 Retired Labourer,1358,Retired Labourer,STANDARD
 No Profession,1331,No Profession,STANDARD
 Labourers Wife,1314,Labourer's Wife,POSSESSIVE
@@ -329,7 +329,7 @@ Grocer Assistant,522,Grocer Assistant,STANDARD
 Dress-Maker,521,Dressmaker,DICT_LOOKUP; NORMALIZATION
 Scholar's,519,Scholar's,UNCHANGED
 Labourers Son,518,Labourer's Son,POSSESSIVE
-Seamster,518,Seamster,UNCHANGED
+Seamster,518,Seamster,STANDARD
 Clergyman,517,Clergyman,UNCHANGED
 Grocers Porter,516,Grocer's Porter,POSSESSIVE
 Telegraph Messenger,515,Telegraph Messenger,STANDARD
@@ -362,7 +362,7 @@ Bar Maid,450,Barmaid,DICT_LOOKUP
 Pork Butcher,449,Pork Butcher,STANDARD
 Printer Compositor,445,Printer Compositor,STANDARD
 Watchmaker,444,Watchmaker,STANDARD
-Asylum Attendant,438,Asylum Attendant,UNCHANGED
+Asylum Attendant,438,Asylum Attendant,STANDARD
 Law Clerk,436,Law Clerk,STANDARD
 House Keeper Domestic,435,Housekeeper Domestic,COMPOUND_KEEPER
 Machine Boy,434,Machine Boy,STANDARD
@@ -372,7 +372,7 @@ General Servant - Domestic,432,General Domestic Servant,NORMALIZATION; WORD_ORDE
 Labourer Genl,432,Labourer Genl,STANDARD
 General Dealer,430,General Dealer,STANDARD
 Horse Trainer,430,Horse Trainer,STANDARD
-Scholer,430,Scholer,UNCHANGED
+Scholer,430,Scholar,DICT_LOOKUP
 Assistant House Keeper,429,Assistant Housekeeper,COMPOUND_KEEPER
 Farmers Mother,428,Farmer's Mother,POSSESSIVE
 Cottier,427,Cottier,UNCHANGED
@@ -388,7 +388,7 @@ Sister of Charity,416,Sister of Charity,UNCHANGED
 Hotel Keeper,415,Hotel Keeper,STANDARD
 Schollars,415,Scholar,DICT_LOOKUP
 Labourer's Daughter,411,Labourer's Daughter,STANDARD
-Agril Labourer,410,Agril Labourer,STANDARD
+Agril Labourer,410,Agricultural Labourer,DICT_LOOKUP
 Pensioner,403,Pensioner,UNCHANGED
 Upholsterer,403,Upholsterer,UNCHANGED
 Naval Pensioner,402,Naval Pensioner,UNCHANGED
@@ -482,7 +482,7 @@ Quarry Labourer,323,Quarry Labourer,STANDARD
 Carpenter and Farmer,320,Carpenter and Farmer,UNCHANGED
 Farmer and Shop Keeper,320,Farmer and Shopkeeper,COMPOUND_KEEPER
 General Servant Dom,320,General Servant Dom,STANDARD
-Schoolars,320,Schoolars,UNCHANGED
+Schoolars,320,Scholar,DICT_LOOKUP
 House Keeper Domestic Servant,319,Housekeeper Domestic Servant,COMPOUND_KEEPER
 Shop-Keeper,319,Shopkeeper,COMPOUND_KEEPER; NORMALIZATION
 Vintner,319,Vintner,UNCHANGED
@@ -639,7 +639,7 @@ Farm-Servant,222,Farm Servant,NORMALIZATION
 Dairymaid,220,Dairymaid,UNCHANGED
 Genl Servt Domestic,220,General Domestic Servant,ABBREVIATION; DICT_LOOKUP; WORD_ORDER
 Machenist,220,Machenist,UNCHANGED
-Scolars,220,Scolars,UNCHANGED
+Scolars,220,Scholar,DICT_LOOKUP
 Clerk in Holy Orders,219,Clerk in Holy Orders,STANDARD
 G Servant,219,G Servant,STANDARD
 Hotel Porter,219,Hotel Porter,STANDARD
@@ -697,7 +697,7 @@ House Keeper at Home,199,Housekeeper at Home,COMPOUND_KEEPER
 Miner,199,Miner,UNCHANGED
 Roomkeeper,199,Roomkeeper,UNCHANGED
 Nailor,198,Nailor,UNCHANGED
-Cambrick Weaver,197,Cambrick Weaver,UNCHANGED
+Cambrick Weaver,197,Cambrick Weaver,STANDARD
 Navvy,197,Navvy,UNCHANGED
 Gate Keeper,196,Gatekeeper,COMPOUND_KEEPER
 Vice Folder,196,Vice Folder,STANDARD
@@ -942,7 +942,7 @@ Herds Son,137,Herd's Son,POSSESSIVE
 Living on Interest of Money,137,Living on Interest of Money,UNCHANGED
 Natl School Teacher,137,National School Teacher,DICT_LOOKUP
 Rope Maker,137,Ropemaker,DICT_LOOKUP
-Scollars,137,Scollars,UNCHANGED
+Scollars,137,Scholar,DICT_LOOKUP
 Priest,136,Priest,UNCHANGED
 Blacksmith and Farmer,135,Blacksmith and Farmer,UNCHANGED
 Fire Man,135,Fire Man,STANDARD
@@ -1245,7 +1245,7 @@ Lithographic Printer,93,Lithographic Printer,UNCHANGED
 Ornamenter,93,Ornamenter,UNCHANGED
 Retired Cook,93,Retired Cook,STANDARD
 Sawer,93,Sawer,UNCHANGED
-Scholers,93,Scholers,UNCHANGED
+Scholers,93,Scholar,DICT_LOOKUP
 Clerk of Petty Sessions,92,Clerk of Petty Sessions,UNCHANGED
 Collar Cutter,92,Collar Cutter,STANDARD
 Family Grocer,92,Family Grocer,UNCHANGED
@@ -1346,7 +1346,7 @@ Shopman Grocer,85,Shopman Grocer,STANDARD
 Spinning Master,85,Spinning Master,STANDARD
 Caulker,84,Caulker,UNCHANGED
 Cloth Finisher,84,Cloth Finisher,UNCHANGED
-Farmersson,84,Farmersson,UNCHANGED
+Farmersson,84,Farmer's Son,DICT_LOOKUP
 Leather Cutter,84,Leather Cutter,STANDARD
 Maid,84,Maid,UNCHANGED
 National S Teacher,84,National School Teacher,DICT_LOOKUP
@@ -1614,7 +1614,7 @@ Farmer and Cooper,66,Farmer and Cooper,UNCHANGED
 Farmers Daughter Scholar,66,Farmer's Daughter Scholar,POSSESSIVE
 Grocers Messenger,66,Grocers Messenger,STANDARD
 Housemaid-Domestic,66,Housemaid Domestic,NORMALIZATION
-Ironmongers Assistant,66,Ironmongers Assistant,UNCHANGED
+Ironmongers Assistant,66,Ironmonger's Assistant,POSSESSIVE
 Labourer (Gen),66,General Labourer,DICT_LOOKUP; NORMALIZATION
 Labourer Carter,66,Labourer Carter,STANDARD
 Labourer Genl.,66,Labourer Genl.,STANDARD
@@ -1811,7 +1811,7 @@ Cottager,57,Cottager,UNCHANGED
 Dairy Maid Domestic Servant,57,Dairy Maid Domestic Servant,STANDARD
 District Nurse,57,District Nurse,UNCHANGED
 Farmer and Herd,57,Farmer and Herd,UNCHANGED
-Farmersdaughter,57,Farmersdaughter,UNCHANGED
+Farmersdaughter,57,Farmer's Daughter,DICT_LOOKUP
 General,57,General,UNCHANGED
 Hackney Car Owner,57,Hackney Car Owner,UNCHANGED
 Harbour Constable,57,Harbour Constable,UNCHANGED
@@ -2222,7 +2222,7 @@ Electric Engineer,43,Electric Engineer,UNCHANGED
 Ex Soldier,43,Ex Soldier,STANDARD
 Farmar,43,Farmar,UNCHANGED
 Farmerss,43,Farmerss,UNCHANGED
-Farmour,43,Farmour,UNCHANGED
+Farmour,43,Farmer,DICT_LOOKUP
 Fishdealer,43,Fishdealer,UNCHANGED
 Flax Merchant,43,Flax Merchant,STANDARD
 Flax Spinner in Thread Factory,43,Flax Spinner in Thread Factory,UNCHANGED
@@ -2302,7 +2302,7 @@ Doffer Flax,41,Doffer Flax,STANDARD
 Domestic Assistant,41,Domestic Assistant,UNCHANGED
 Domestic Servt General,41,General Domestic Servant,ABBREVIATION; WORD_ORDER
 Engine Fitter in Works,41,Engine Fitter in Works,UNCHANGED
-Farmer's Daugh,41,Farmer's Daugh,UNCHANGED
+Farmer's Daugh,41,Farmer's Daughter,DICT_LOOKUP
 Fitter at Works,41,Fitter at Works,UNCHANGED
 Flax Buyer,41,Flax Buyer,STANDARD
 Flax Carder,41,Flax Carder,STANDARD
@@ -2351,7 +2351,7 @@ Carpenter's Son,40,Carpenter's Son,STANDARD
 Coach Fitter,40,Coach Fitter,UNCHANGED
 Damask Tenter,40,Damask Tenter,UNCHANGED
 Doctor,40,Doctor,UNCHANGED
-Farmer Daugh,40,Farmer Daugh,UNCHANGED
+Farmer Daugh,40,Farmer's Daughter,DICT_LOOKUP
 Farmer-Daughter,40,Farmer's Daughter,DICT_LOOKUP; NORMALIZATION
 Fishermans Daughter,40,Fisherman's Daughter,POSSESSIVE
 Foreman Carpenter,40,Foreman Carpenter,STANDARD
@@ -2381,7 +2381,7 @@ No School,40,No School,UNCHANGED
 Policeman's Son,40,Policeman's Son,STANDARD
 Railway Messenger,40,Railway Messenger,UNCHANGED
 School Pupil,40,School Pupil,UNCHANGED
-Sholor,40,Sholor,UNCHANGED
+Sholor,40,Scholar,DICT_LOOKUP
 Slate Maker,40,Slate Maker,UNCHANGED
 Tea Dealer,40,Tea Dealer,STANDARD
 Tin Plate Worker,40,Tin Plate Worker,STANDARD
@@ -2523,7 +2523,7 @@ Linen Smoother,37,Linen Smoother,UNCHANGED
 Linen Spreader,37,Linen Spreader,UNCHANGED
 Machine Feeder,37,Machine Feeder,UNCHANGED
 Magistrate and Farmer,37,Magistrate and Farmer,UNCHANGED
-N.S.Teacher,37,N.S.Teacher,UNCHANGED
+N.S.Teacher,37,National School Teacher,DICT_LOOKUP
 Parlor Maid Domestic Servant,37,Parlor Maid Domestic Servant,STANDARD
 Pensioner (Army),37,Pensioner Army,NORMALIZATION
 Pensioner from R.I.C,37,Pensioner from R.I.C,UNCHANGED
@@ -2684,7 +2684,7 @@ Land Agents Assistant,34,Land Agent's Assistant,DICT_LOOKUP
 Lapper,34,Lapper,UNCHANGED
 Laundry Work,34,Laundry Work,STANDARD
 Linen Drawer,34,Linen Drawer,UNCHANGED
-Linenlapper,34,Linenlapper,UNCHANGED
+Linenlapper,34,Linen Lapper,DICT_LOOKUP
 Malt House Labourer,34,Malt House Labourer,STANDARD
 Malthouse Labourer,34,Malthouse Labourer,UNCHANGED
 Messinger,34,Messinger,UNCHANGED
@@ -2697,7 +2697,7 @@ Retired Charwoman,34,Retired Charwoman,UNCHANGED
 Retired General Servant,34,Retired General Servant,STANDARD
 Scholar at Home,34,Scholar at Home,UNCHANGED
 Schoolers,34,Schoolers,UNCHANGED
-Scolour,34,Scolour,UNCHANGED
+Scolour,34,Scholar,DICT_LOOKUP
 Scool Boy,34,School Boy,DICT_LOOKUP
 Seamstrees,34,Seamstrees,UNCHANGED
 Shirt Factory Hand,34,Shirt Factory Hand,UNCHANGED
@@ -2797,7 +2797,7 @@ Cab Proprietor,32,Cab Proprietor,STANDARD
 Care-Taker,32,Caretaker,DICT_LOOKUP; NORMALIZATION
 Carpenter (Master),32,Carpenter Master,NORMALIZATION
 Carpentor,32,Carpentor,UNCHANGED
-Cattledealer,32,Cattledealer,UNCHANGED
+Cattledealer,32,Cattle Dealer,DICT_LOOKUP
 Chemical Labourer,32,Chemical Labourer,UNCHANGED
 Coach Man Domestic,32,Coach Man Domestic,STANDARD
 Coach-Builder,32,Coach Builder,NORMALIZATION
@@ -2816,12 +2816,12 @@ Ex Sergt R I C,32,Ex Sergt R I C,STANDARD
 Factory Employee,32,Factory Employee,UNCHANGED
 Farme's Son,32,Farme's Son,UNCHANGED
 Farmer and Smith,32,Farmer and Smith,UNCHANGED
-Farmlabourer,32,Farmlabourer,UNCHANGED
+Farmlabourer,32,Agricultural Labourer,DICT_LOOKUP
 Field Worker,32,Field Worker,UNCHANGED
 Fruit Merchant,32,Fruit Merchant,UNCHANGED
 Gardener (Domestic Servant),32,Gardener Domestic Servant,NORMALIZATION
 General Laburer,32,General Laburer,UNCHANGED
-General Servant Domst,32,General Servant Domst,STANDARD
+General Servant Domst,32,General Domestic Servant,DICT_LOOKUP
 Harbour Labourer,32,Harbour Labourer,STANDARD
 Harness-Maker,32,Harness Maker,NORMALIZATION
 Heater Boy,32,Heater Boy,STANDARD
@@ -2876,7 +2876,7 @@ Cook Domestic Sert,31,Cook Domestic Sert,STANDARD
 Cow Keeper,31,Cow Keeper,STANDARD
 Dividend,31,Dividend,UNCHANGED
 Domestic Housemaid,31,Domestic Housemaid,STANDARD
-Domestic Sevt,31,Domestic Sevt,UNCHANGED
+Domestic Sevt,31,Domestic Servant,DICT_LOOKUP
 Farme,31,Farme,UNCHANGED
 Farmer Assistant,31,Farmer Assistant,UNCHANGED
 Farmer Mother,31,Farmer Mother,UNCHANGED
@@ -2912,8 +2912,8 @@ Printers Labourer,31,Printer's Labourer,POSSESSIVE
 Rabbit Trapper,31,Rabbit Trapper,UNCHANGED
 Religieuse,31,Religieuse,UNCHANGED
 Retired Postman,31,Retired Postman,UNCHANGED
-Scolor,31,Scolor,UNCHANGED
-Shcolar,31,Shcolar,UNCHANGED
+Scolor,31,Scholar,DICT_LOOKUP
+Shcolar,31,Scholar,DICT_LOOKUP
 Shop Assistant Unemployed,31,Shop Assistant Unemployed,STANDARD
 Spiner,31,Spiner,UNCHANGED
 Stone Mason and Farmer,31,Stone Mason and Farmer,UNCHANGED
@@ -2976,8 +2976,8 @@ Huxter,30,Huxter,UNCHANGED
 Income from Property,30,Income from Property,UNCHANGED
 Institute R V M,30,Institute R V M,UNCHANGED
 Iron Founder,30,Iron Founder,UNCHANGED
-Labourer Agril,30,Labourer Agril,STANDARD
-Labourer Agrl.,30,Labourer Agrl.,STANDARD
+Labourer Agril,30,Agricultural Labourer,DICT_LOOKUP
+Labourer Agrl.,30,Agricultural Labourer,DICT_LOOKUP
 Labourer in Bakery,30,Labourer in Bakery,UNCHANGED
 Labourer in Woollen Factory,30,Labourer in Woollen Factory,STANDARD
 Laundress-Domestic Servant,30,Laundress Domestic Servant,NORMALIZATION
@@ -3010,7 +3010,7 @@ Shirt and Collar Cutter,30,Shirt and Collar Cutter,UNCHANGED
 Shoe - Maker,30,Shoemaker,DICT_LOOKUP; NORMALIZATION
 Shoemakers Wife,30,Shoemaker's Wife,POSSESSIVE
 Stereotyper,30,Stereotyper,UNCHANGED
-Tailorers,30,Tailorers,UNCHANGED
+Tailorers,30,Tailor,DICT_LOOKUP
 Tambourer,30,Tambourer,UNCHANGED
 Teacher Nat School,30,Teacher Nat School,STANDARD
 Trunk Maker,30,Trunk Maker,UNCHANGED
@@ -3018,7 +3018,7 @@ Van-Man,30,Van Man,NORMALIZATION
 Work Man,30,Work Man,STANDARD
 Works at Home,30,Works at Home,UNCHANGED
 Agricultural Labourer Shepherd,29,Agricultural Labourer Shepherd,STANDARD
-Agril. Labourer,29,Agril. Labourer,UNCHANGED
+Agril. Labourer,29,Agricultural Labourer,DICT_LOOKUP
 Apprentice Iron Moulder,29,Apprentice Iron Moulder,STANDARD
 Army Pensioner Infantry,29,Army Pensioner Infantry,STANDARD
 Assistant Keeper,29,Assistant Keeper,STANDARD
@@ -3061,7 +3061,7 @@ House Trainer,29,House Trainer,UNCHANGED
 Inmate of Charitable Institution,29,Inmate of Charitable Institution,UNCHANGED
 Intrest on Money,29,Intrest on Money,UNCHANGED
 King's Scholar,29,King's Scholar,UNCHANGED
-Laberor,29,Laberor,UNCHANGED
+Laberor,29,Labourer,DICT_LOOKUP
 Labour Farm,29,Labour Farm,STANDARD
 Labour Quay,29,Labour Quay,STANDARD
 Lady Help,29,Lady Help,STANDARD
@@ -3088,7 +3088,7 @@ Practising Barrister,29,Practising Barrister,UNCHANGED
 Reeler Mill Worker,29,Reeler Mill Worker,UNCHANGED
 Ropemaker,29,Ropemaker,STANDARD
 Scholars Attending School,29,Scholars Attending School,UNCHANGED
-Schoolor,29,Schoolor,UNCHANGED
+Schoolor,29,Scholar,DICT_LOOKUP
 Servant-General,29,Servant General,NORMALIZATION
 Servants Child,29,Servants Child,UNCHANGED
 Setmaker,29,Setmaker,UNCHANGED
@@ -3114,7 +3114,7 @@ Waver Linen,29,Waver Linen,STANDARD
 Apprentice Linen Trade,28,Apprentice Linen Trade,UNCHANGED
 Apprentice to Dressmaker,28,Apprentice to Dressmaker,UNCHANGED
 Assistant Publican,28,Assistant Publican,UNCHANGED
-Asylum Attendt,28,Asylum Attendt,UNCHANGED
+Asylum Attendt,28,Asylum Attendant,DICT_LOOKUP
 Attending School Scholar,28,Attending School Scholar,STANDARD
 B. Smith,28,B. Smith,UNCHANGED
 Billiard Maker,28,Billiard Maker,UNCHANGED
@@ -3201,8 +3201,8 @@ Traveler,28,Traveler,UNCHANGED
 Unemployed Domestic Servant,28,Unemployed Domestic Servant,STANDARD
 Yarn Weaver,28,Yarn Weaver,STANDARD
 A School,27,A School,UNCHANGED
-Agricultural Laborour,27,Agricultural Laborour,UNCHANGED
-Agrlt Labourer,27,Agrlt Labourer,UNCHANGED
+Agricultural Laborour,27,Agricultural Labourer,DICT_LOOKUP
+Agrlt Labourer,27,Agricultural Labourer,DICT_LOOKUP
 Assisting at Home,27,Assisting at Home,UNCHANGED
 Bailiff,27,Bailiff,UNCHANGED
 Blacksmiths Wife,27,Blacksmith's Wife,POSSESSIVE
@@ -3322,7 +3322,7 @@ Farmer's Sister in Law,26,Farmer's Sister in Law,STANDARD
 Farmer's Son and Fisherman,26,Farmer's Son and Fisherman,STANDARD
 Farmer's Son Scholar,26,Farmer's Son Scholar,STANDARD
 Farmers Dau,26,Farmers Dau,UNCHANGED
-Farmers Dgtr,26,Farmers Dgtr,UNCHANGED
+Farmers Dgtr,26,Farmer's Daughter,DICT_LOOKUP
 Farming and Fishing,26,Farming and Fishing,UNCHANGED
 Farming Son,26,Farming Son,STANDARD
 Fireman on Railway,26,Fireman on Railway,UNCHANGED
@@ -3426,7 +3426,7 @@ Flax Dealer,25,Flax Dealer,UNCHANGED
 Folder in Wareroom,25,Folder in Wareroom,STANDARD
 Furniture Porter,25,Furniture Porter,UNCHANGED
 Game-Keeper,25,Game Keeper,NORMALIZATION
-Gen Farm Labr,25,Gen Farm Labr,UNCHANGED
+Gen Farm Labr,25,Agricultural Labourer,DICT_LOOKUP
 General Servant-Domestic Unemployed,25,General Domestic Servant Unemployed,NORMALIZATION; WORD_ORDER
 General Servent Domestic,25,General Servent Domestic,STANDARD
 General Shop Keeper,25,General Shopkeeper,COMPOUND_KEEPER
@@ -3445,9 +3445,9 @@ Labourer in Tobacco Factory,25,Labourer in Tobacco Factory,UNCHANGED
 Labourer in Tweed Factory,25,Labourer in Tweed Factory,UNCHANGED
 Labourers Mother,25,Labourer's Mother,POSSESSIVE
 Ladies Companion,25,Ladies Companion,UNCHANGED
-Ladys Maid Domestic Servant,25,Ladys Maid Domestic Servant,STANDARD
+Ladys Maid Domestic Servant,25,Lady's Maid Domestic Servant,DICT_LOOKUP
 Light Porter,25,Light Porter,UNCHANGED
-Linnen Waver,25,Linnen Waver,UNCHANGED
+Linnen Waver,25,Linnen Weaver,DICT_LOOKUP
 Machineman,25,Machineman,UNCHANGED
 Machinist in Wareroom,25,Machinist in Wareroom,UNCHANGED
 Malthouse Man,25,Malthouse Man,UNCHANGED
@@ -3483,7 +3483,7 @@ A Farmer's Son,24,A Farmer's Son,STANDARD
 Agricultual Labourer,24,Agricultual Labourer,STANDARD
 Agricultura Labourer,24,Agricultura Labourer,UNCHANGED
 Agriculturl Labourer,24,Agriculturl Labourer,UNCHANGED
-Agrl Labour,24,Agrl Labour,UNCHANGED
+Agrl Labour,24,Agricultural Labourer,DICT_LOOKUP
 Asst Housekeeper,24,Asst Housekeeper,STANDARD
 Auctioner,24,Auctioner,UNCHANGED
 Barker,24,Barker,UNCHANGED
@@ -3572,7 +3572,7 @@ Retired Farmer Wife,24,Retired Farmer Wife,UNCHANGED
 Retired Farmers Daughter,24,Retired Farmer's Daughter,POSSESSIVE
 Rougher in Mill,24,Rougher in Mill,UNCHANGED
 Royal Navy,24,Royal Navy,UNCHANGED
-Samester,24,Samester,UNCHANGED
+Samester,24,Seamster,DICT_LOOKUP
 Sample Maker,24,Sample Maker,STANDARD
 Seamstriss,24,Seamstriss,UNCHANGED
 Sheeting Weaver,24,Sheeting Weaver,UNCHANGED
@@ -3582,7 +3582,7 @@ Shop Keeper's Wife,24,Shopkeeper's Wife,COMPOUND_KEEPER
 Shop Woman,24,Shop Woman,UNCHANGED
 ShopKeeper,24,ShopKeeper,UNCHANGED
 Soldier on Furlough,24,Soldier on Furlough,STANDARD
-Srs of Mercy,24,Srs of Mercy,UNCHANGED
+Srs of Mercy,24,Sister of Mercy,DICT_LOOKUP
 Stable Servant,24,Stable Servant,UNCHANGED
 Stenographer,24,Stenographer,UNCHANGED
 Tailors,24,Tailors,UNCHANGED
@@ -3600,7 +3600,7 @@ A. B.,23,A. B.,UNCHANGED
 A.B. Seaman,23,A.B. Seaman,UNCHANGED
 Agricultural Labours,23,Agricultural Labours,UNCHANGED
 Apprentice Tenter,23,Apprentice Tenter,UNCHANGED
-At Schoolar,23,At Schoolar,UNCHANGED
+At Schoolar,23,Scholar,DICT_LOOKUP
 Attendent,23,Attendent,UNCHANGED
 Blacksmith's Wife,23,Blacksmith's Wife,STANDARD
 Bonnet Maker,23,Bonnet Maker,UNCHANGED
@@ -3669,7 +3669,7 @@ Labourer on Roads,23,Labourer on Roads,UNCHANGED
 Labourer Retired,23,Labourer Retired,STANDARD
 Ladies Tailoress,23,Ladies Tailoress,UNCHANGED
 Land Proprietor,23,Land Proprietor,UNCHANGED
-Lauberer,23,Lauberer,UNCHANGED
+Lauberer,23,Labourer,DICT_LOOKUP
 Linen Spinner in Mill,23,Linen Spinner in Mill,UNCHANGED
 Machiner,23,Machiner,UNCHANGED
 Maid Domestic,23,Maid Domestic,STANDARD
@@ -3741,7 +3741,7 @@ Bootmaker Master,22,Bootmaker Master,STANDARD
 Bricklayers Labour,22,Bricklayers Labour,STANDARD
 Butcher Assistant,22,Butcher Assistant,STANDARD
 Butcher's Assistant,22,Butcher's Assistant,STANDARD
-Camrick Weaver,22,Camrick Weaver,UNCHANGED
+Camrick Weaver,22,Cambrick Weaver,DICT_LOOKUP
 Carpenter Journeyman,22,Carpenter Journeyman,STANDARD
 Carpenter-Apprentice,22,Carpenter Apprentice,NORMALIZATION
 Carpet Planner,22,Carpet Planner,UNCHANGED
@@ -3845,8 +3845,8 @@ Retired Bank Manager,22,Retired Bank Manager,UNCHANGED
 Retired Soldier,22,Retired Soldier,UNCHANGED
 Revitter,22,Revitter,UNCHANGED
 Rigger,22,Rigger,UNCHANGED
-Ry Porter,22,Ry Porter,UNCHANGED
-Scoholars,22,Scoholars,UNCHANGED
+Ry Porter,22,Railway Porter,DICT_LOOKUP
+Scoholars,22,Scholar,DICT_LOOKUP
 Scollers,22,Scollers,UNCHANGED
 Sergeant R I Constabulary,22,Sergeant R I Constabulary,UNCHANGED
 Servant Domestic Cook,22,Cook Domestic Servant,DICT_LOOKUP; WORD_ORDER
@@ -3917,7 +3917,7 @@ Domestic Groom,21,Domestic Groom,UNCHANGED
 Draper Asst,21,Draper Asst,UNCHANGED
 Drapery Buyer,21,Drapery Buyer,UNCHANGED
 Drawer in Linen Factory,21,Drawer in Linen Factory,STANDARD
-Embrodier,21,Embrodier,UNCHANGED
+Embrodier,21,Embroiderer,DICT_LOOKUP
 Employed in Woolen Factory,21,Employed in Woolen Factory,UNCHANGED
 Engineer Apprentice,21,Engineer Apprentice,UNCHANGED
 Estate Bailiff,21,Estate Bailiff,STANDARD
@@ -3933,10 +3933,10 @@ Furniture Broker,21,Furniture Broker,UNCHANGED
 Gardeners Wife,21,Gardeners Wife,UNCHANGED
 Gardner Domestic Servt,21,Gardener Domestic Servant,ABBREVIATION; DICT_LOOKUP
 Gel Labourer,21,Gel Labourer,UNCHANGED
-General Labr.,21,General Labr.,UNCHANGED
+General Labr.,21,General Labourer,DICT_LOOKUP
 General Servant and Domestic,21,General Servant and Domestic,STANDARD
 Gl Domestic Servant,21,Gl Domestic Servant,STANDARD
-Gnl Labourer,21,Gnl Labourer,UNCHANGED
+Gnl Labourer,21,General Labourer,DICT_LOOKUP
 Grocers assistant,21,Grocer's Assistant,POSSESSIVE
 Grocery Business,21,Grocery Business,UNCHANGED
 Groom-Domestic,21,Groom Domestic,NORMALIZATION
@@ -3997,7 +3997,7 @@ Religions of the Sisters of Charity,21,Religions of the Sisters of Charity,UNCHA
 Religions Order,21,Religions Order,UNCHANGED
 Retired Governess,21,Retired Governess,UNCHANGED
 Ruler,21,Ruler,UNCHANGED
-Ry Labourer,21,Ry Labourer,STANDARD
+Ry Labourer,21,Railway Labourer,DICT_LOOKUP
 Sanitary Sub Officer,21,Sanitary Sub Officer,STANDARD
 Scavenger,21,Scavenger,UNCHANGED
 Scholar School,21,Scholar School,UNCHANGED
@@ -4038,7 +4038,7 @@ Yarn Counter,21,Yarn Counter,UNCHANGED
 (Nun) Teacher,20,Nun Teacher,NORMALIZATION
 Agl Laborer,20,Agricultural Labourer,AGRICULTURAL_ABBREVIATION; AMERICAN_SPELLING
 Agr Labour,20,Agr Labour,UNCHANGED
-Agricull Labourer,20,Agricull Labourer,UNCHANGED
+Agricull Labourer,20,Agricultural Labourer,DICT_LOOKUP
 Agricultural Labourer's Son,20,Agricultural Labourer's Son,STANDARD
 Analytical Chemist,20,Analytical Chemist,UNCHANGED
 Apprentice Boiler Maker,20,Apprentice Boiler Maker,STANDARD
@@ -4065,7 +4065,7 @@ Com Traveller,20,Com Traveller,STANDARD
 Comercial Clerk,20,Comercial Clerk,UNCHANGED
 Constables Wife,20,Constables Wife,UNCHANGED
 Cook Domestic Serv,20,Cook Domestic Serv,STANDARD
-Cook Domestic Sevt,20,Cook Domestic Sevt,STANDARD
+Cook Domestic Sevt,20,Cook Domestic Servant,DICT_LOOKUP
 Cot Man,20,Cot Man,UNCHANGED
 County Council Clerk,20,County Council Clerk,UNCHANGED
 Court House Keeper,20,Court Housekeeper,COMPOUND_KEEPER
@@ -4078,7 +4078,7 @@ Dealer in Fowl,20,Dealer in Fowl,UNCHANGED
 Doctor of Medicine,20,Doctor of Medicine,UNCHANGED
 Domestic Occupation,20,Domestic Occupation,UNCHANGED
 Domestic Servat,20,Domestic Servat,UNCHANGED
-Domestic Svt,20,Domestic Svt,UNCHANGED
+Domestic Svt,20,Domestic Servant,DICT_LOOKUP
 Draper Clerk,20,Draper Clerk,UNCHANGED
 Draper Weaver,20,Draper Weaver,STANDARD
 Draper's Porter,20,Draper's Porter,STANDARD
@@ -4095,7 +4095,7 @@ Farmerest,20,Farmerest,UNCHANGED
 Farmers S,20,Farmers S,UNCHANGED
 Farmers Sone,20,Farmers Sone,UNCHANGED
 Farms Labourer,20,Farms Labourer,STANDARD
-Fars Daughter,20,Fars Daughter,UNCHANGED
+Fars Daughter,20,Farmer's Daughter,DICT_LOOKUP
 Fawl Dealer,20,Fawl Dealer,UNCHANGED
 Fishermans Son,20,Fisherman's Son,POSSESSIVE
 Foot Man,20,Foot Man,STANDARD
@@ -4104,8 +4104,8 @@ Fowl Picker,20,Fowl Picker,STANDARD
 Garner,20,Garner,UNCHANGED
 General at Coast Guard Station Labourer,20,General at Coast Guard Station Labourer,UNCHANGED
 General Domestic Servt.,20,General Domestic Servant.,ABBREVIATION
-General Domestic Sevt,20,General Domestic Sevt,UNCHANGED
-General Domestic Svt,20,General Domestic Svt,STANDARD
+General Domestic Sevt,20,General Domestic Servant,DICT_LOOKUP
+General Domestic Svt,20,General Domestic Servant,DICT_LOOKUP
 General House Worker,20,General House Worker,UNCHANGED
 General Labor,20,General Labour,AMERICAN_SPELLING
 General Servant (Domestic,20,General Domestic Servant,NORMALIZATION; WORD_ORDER
@@ -4157,9 +4157,9 @@ Musican,20,Musican,UNCHANGED
 National School Master,20,National School Master,STANDARD
 Night Watch Man,20,Night Watch Man,STANDARD
 None Business,20,None Business,UNCHANGED
-Nurse Domestic Svt,20,Nurse Domestic Svt,STANDARD
+Nurse Domestic Svt,20,Nurse Domestic Servant,DICT_LOOKUP
 Nurse Workhouse,20,Nurse Workhouse,UNCHANGED
-Ordinary Attdt,20,Ordinary Attdt,UNCHANGED
+Ordinary Attdt,20,Ordinary Attendant,DICT_LOOKUP
 Pipe Finisher,20,Pipe Finisher,UNCHANGED
 Plate Layer on Railway,20,Plate Layer on Railway,UNCHANGED
 Platelayer on Railway,20,Platelayer on Railway,UNCHANGED
@@ -5222,7 +5222,7 @@ Inf,15,Inf,UNCHANGED
 Instructin of Youth,15,Instructin of Youth,UNCHANGED
 Iron Moulder Unemployed,15,Iron Moulder Unemployed,STANDARD
 Ironer,15,Ironer,UNCHANGED
-Ironmonger's Assistant,15,Ironmonger's Assistant,UNCHANGED
+Ironmonger's Assistant,15,Ironmonger's Assistant,STANDARD
 Keeper,15,Keeper,UNCHANGED
 Knitting Stockings,15,Knitting Stockings,UNCHANGED
 Laborer (Farm),15,Farm Labourer,AMERICAN_SPELLING; LABOURER_ORDER; NORMALIZATION
@@ -6656,7 +6656,7 @@ Infant Scholar,11,Infant Scholar,UNCHANGED
 Infantile,11,Infantile,UNCHANGED
 Inft,11,Inft,STANDARD
 Iron Moulder in Works,11,Iron Moulder in Works,UNCHANGED
-Ironmongers Apprentice,11,Ironmongers Apprentice,UNCHANGED
+Ironmongers Apprentice,11,Ironmonger's Apprentice,POSSESSIVE
 Justice of the Peace and Farmer,11,Justice of the Peace and Farmer,UNCHANGED
 Jute Winder,11,Jute Winder,UNCHANGED
 Kitchen Maid-Domestic,11,Kitchen Maid Domestic,NORMALIZATION
@@ -8481,7 +8481,7 @@ General Servant domestic,8,General Domestic Servant,WORD_ORDER
 General Servant-Domes,8,General Servant Domes,NORMALIZATION
 General Servat,8,General Servat,UNCHANGED
 General Servt Dom,8,General Servant Dom,ABBREVIATION
-General Servt Domst,8,General Servant Domst,ABBREVIATION
+General Servt Domst,8,General Domestic Servant,ABBREVIATION; DICT_LOOKUP
 General Sevant Domestic,8,General Sevant Domestic,STANDARD
 General Shop Assistant,8,General Shop Assistant,STANDARD
 Generl Servant Domestic,8,Generl Domestic Servant,WORD_ORDER
@@ -9544,7 +9544,7 @@ Labour in General,7,Labour in General,UNCHANGED
 Labour in Mill,7,Labour in Mill,UNCHANGED
 Labour on Quay,7,Labour on Quay,UNCHANGED
 Labour Shipyard,7,Labour Shipyard,UNCHANGED
-Labourer (Agril),7,Labourer Agril,NORMALIZATION
+Labourer (Agril),7,Agricultural Labourer,DICT_LOOKUP; NORMALIZATION
 Labourer (Builders),7,Labourer Builders,NORMALIZATION
 Labourer (Iron),7,Labourer Iron,NORMALIZATION
 Labourer - Carter,7,Labourer Carter,NORMALIZATION
@@ -12784,9 +12784,9 @@ Iron Dresser in Foundry,5,Iron Dresser in Foundry,UNCHANGED
 Iron Labour,5,Iron Labour,UNCHANGED
 Iron Ship Caulker,5,Iron Ship Caulker,UNCHANGED
 Iron-Dresser,5,Iron Dresser,NORMALIZATION
-Ironmonger's Apprentice,5,Ironmonger's Apprentice,UNCHANGED
-Ironmongers Manager,5,Ironmongers Manager,UNCHANGED
-Ironmongers Porter,5,Ironmongers Porter,UNCHANGED
+Ironmonger's Apprentice,5,Ironmonger's Apprentice,STANDARD
+Ironmongers Manager,5,Ironmonger's Manager,POSSESSIVE
+Ironmongers Porter,5,Ironmonger's Porter,POSSESSIVE
 Ironmongers Shopman,5,Ironmongers Shopman,UNCHANGED
 Is Going to School,5,Is Going to School,UNCHANGED
 J. P.,5,J. P.,UNCHANGED
@@ -13945,7 +13945,7 @@ Agriculture Lab,4,Agriculture Lab,UNCHANGED
 "Agriculture, Labourer",4,"Agriculture, Labourer",UNCHANGED
 Agricultured Labourer,4,Agricultured Labourer,UNCHANGED
 Agriculturlar Labourer,4,Agriculturlar Labourer,UNCHANGED
-Agril Laborer,4,Agril Labourer,AMERICAN_SPELLING
+Agril Laborer,4,Agricultural Labourer,AMERICAN_SPELLING; DICT_LOOKUP
 Agriltural Labour,4,Agriltural Labour,UNCHANGED
 Agrl Laboure,4,Agrl Laboure,UNCHANGED
 Agrl. Labourers,4,Agrl. Labourers,UNCHANGED
@@ -15647,7 +15647,7 @@ Iron Planer,4,Iron Planer,UNCHANGED
 Iron Plater,4,Iron Plater,UNCHANGED
 Iron Turner Apprentice,4,Iron Turner Apprentice,STANDARD
 Iron Turner in Mill,4,Iron Turner in Mill,UNCHANGED
-Ironmongers Clerk,4,Ironmongers Clerk,UNCHANGED
+Ironmongers Clerk,4,Ironmonger's Clerk,POSSESSIVE
 J P and Farmer,4,J P and Farmer,UNCHANGED
 J P Income From House Property,4,J P Income From House Property,UNCHANGED
 J. P. Farmer,4,J. P. Farmer,UNCHANGED
@@ -15843,7 +15843,7 @@ Lady of Property,4,Lady of Property,UNCHANGED
 Lady Private Income,4,Lady Private Income,STANDARD
 Lady Superintendant,4,Lady Superintendant,UNCHANGED
 Lady's Tailor,4,Lady's Tailor,UNCHANGED
-Ladys Maid Domestic Servt,4,Ladys Maid Domestic Servant,ABBREVIATION
+Ladys Maid Domestic Servt,4,Lady's Maid Domestic Servant,ABBREVIATION; DICT_LOOKUP
 Ladysmaid,4,Ladysmaid,UNCHANGED
 Laibour,4,Laibour,UNCHANGED
 Land - Owner,4,Land Owner,NORMALIZATION
@@ -18837,7 +18837,7 @@ Cook Maker,3,Cook Maker,UNCHANGED
 "Cook, Unemployed",3,"Cook, Unemployed",UNCHANGED
 "Cook,Domestic Servant",3,"Cook,Domestic Servant",UNCHANGED
 Cook-D. Servant,3,Cook D. Servant,NORMALIZATION
-Cook-Domestic Sevt,3,Cook Domestic Sevt,NORMALIZATION
+Cook-Domestic Sevt,3,Cook Domestic Servant,DICT_LOOKUP; NORMALIZATION
 Cook-Domestic-Servant,3,Cook Domestic Servant,NORMALIZATION
 Cook-General Domestic Servant,3,Cook General Domestic Servant,NORMALIZATION
 Cook-General Servant,3,Cook General Servant,NORMALIZATION
@@ -20781,8 +20781,8 @@ Ironers in Landry,3,Ironers in Landry,UNCHANGED
 Ironmongar Assistant,3,Ironmongar Assistant,UNCHANGED
 IronMonger,3,IronMonger,UNCHANGED
 Ironmonger Salesman,3,Ironmonger Salesman,UNCHANGED
-Ironmonger's Clerk,3,Ironmonger's Clerk,UNCHANGED
-Ironmonger's Porter,3,Ironmonger's Porter,UNCHANGED
+Ironmonger's Clerk,3,Ironmonger's Clerk,STANDARD
+Ironmonger's Porter,3,Ironmonger's Porter,STANDARD
 Ironmongers,3,Ironmongers,UNCHANGED
 Ironmongers Asst,3,Ironmongers Asst,UNCHANGED
 Ironturner in Foundry,3,Ironturner in Foundry,UNCHANGED
@@ -20925,7 +20925,7 @@ Laboure Wife,3,Laboure Wife,UNCHANGED
 Laboure's Daughter,3,Laboure's Daughter,UNCHANGED
 Labourer (Ag),3,Labourer Ag,NORMALIZATION
 Labourer (Agri),3,Labourer Agri,NORMALIZATION
-Labourer (Agrl.),3,Labourer Agrl.,NORMALIZATION
+Labourer (Agrl.),3,Agricultural Labourer,DICT_LOOKUP; NORMALIZATION
 Labourer (Brewery),3,Brewery Labourer,LABOURER_ORDER; NORMALIZATION
 Labourer (Coal Porter),3,Labourer Coal Porter,NORMALIZATION
 Labourer (Corporation),3,Labourer Corporation,NORMALIZATION
@@ -21044,7 +21044,7 @@ Labourer's Agricultural,3,Labourer's Agricultural,UNCHANGED
 "Labourer, Rabbit Trapper",3,"Labourer, Rabbit Trapper",UNCHANGED
 "Labourer, Unemployed",3,"Labourer, Unemployed",UNCHANGED
 Labourer-(Farm),3,Farm Labourer,LABOURER_ORDER; NORMALIZATION
-Labourer-Agrl.,3,Labourer Agrl.,NORMALIZATION
+Labourer-Agrl.,3,Agricultural Labourer,DICT_LOOKUP; NORMALIZATION
 Labourer-Dock,3,Dock Labourer,LABOURER_ORDER; NORMALIZATION
 Labourer-Mill,3,Labourer Mill,NORMALIZATION
 Labourer-Road Making,3,Road Labourer Making,LABOURER_ORDER; NORMALIZATION
@@ -21900,7 +21900,7 @@ Nurse Pensioner,3,Nurse Pensioner,UNCHANGED
 Nurse Professional,3,Nurse Professional,STANDARD
 Nurse- Domestic Servant,3,Nurse Domestic Servant,NORMALIZATION
 Nurse-Domestic Servt.,3,Nurse Domestic Servant.,ABBREVIATION; NORMALIZATION
-Nurse-Domestic Svt,3,Nurse Domestic Svt,NORMALIZATION
+Nurse-Domestic Svt,3,Nurse Domestic Servant,DICT_LOOKUP; NORMALIZATION
 Nurse-Maid,3,Nurse Maid,NORMALIZATION
 Nurse-Tender,3,Nurse Tender,NORMALIZATION
 Nurse. Domestic,3,Nurse. Domestic,UNCHANGED
@@ -24471,7 +24471,7 @@ Agril Labouer,2,Agril Labouer,UNCHANGED
 Agril Labourer Retired,2,Agril Labourer Retired,UNCHANGED
 Agril Lobouer,2,Agril Lobouer,UNCHANGED
 "Agril, Labourer",2,"Agril, Labourer",UNCHANGED
-Agril-Labourer,2,Agril Labourer,NORMALIZATION
+Agril-Labourer,2,Agricultural Labourer,DICT_LOOKUP; NORMALIZATION
 Agril: Labourer,2,Agril: Labourer,UNCHANGED
 Agrilculter Labourer,2,Agrilculter Labourer,UNCHANGED
 Agrilcultral Labourer,2,Agrilcultral Labourer,UNCHANGED
@@ -31099,7 +31099,7 @@ General servant-Domestic,2,General Domestic Servant,NORMALIZATION; WORD_ORDER
 General Servant-Domestic Maid,2,General Domestic Servant Maid,NORMALIZATION; WORD_ORDER
 General Servant-Domestic-Unemployed,2,General Domestic Servant Unemployed,NORMALIZATION; WORD_ORDER
 General Servant-Doms,2,General Servant Doms,NORMALIZATION
-General Servant-Domst,2,General Servant Domst,NORMALIZATION
+General Servant-Domst,2,General Domestic Servant,DICT_LOOKUP; NORMALIZATION
 General Servant-Domstic,2,General Servant Domstic,NORMALIZATION
 General Servant-Outdoor,2,General Servant Outdoor,NORMALIZATION
 General Servant-Retired,2,General Servant Retired,NORMALIZATION
@@ -33416,7 +33416,7 @@ Labourer- General,2,General Labourer,LABOURER_ORDER; NORMALIZATION
 Labourer-(Agrl),2,Labourer Agrl,NORMALIZATION
 Labourer-Agr,2,Agricultural Labourer,DICT_LOOKUP; NORMALIZATION
 Labourer-Agricl,2,Labourer Agricl,NORMALIZATION
-Labourer-Agril,2,Labourer Agril,NORMALIZATION
+Labourer-Agril,2,Agricultural Labourer,DICT_LOOKUP; NORMALIZATION
 Labourer-Baker,2,Labourer Baker,NORMALIZATION
 Labourer-Corporation,2,Labourer Corporation,NORMALIZATION
 Labourer-Domest,2,Labourer Domest,NORMALIZATION
@@ -44542,7 +44542,7 @@ Agricuture Labour,1,Agricuture Labour,UNCHANGED
 Agriel Labour,1,Agriel Labour,UNCHANGED
 Agriel. Labourer,1,Agriel. Labourer,UNCHANGED
 Agrigultural Labour,1,Agrigultural Labour,UNCHANGED
-Agril - Labourer,1,Agril Labourer,NORMALIZATION
+Agril - Labourer,1,Agricultural Labourer,DICT_LOOKUP; NORMALIZATION
 Agril Farmer,1,Agril Farmer,UNCHANGED
 Agril Labouer Farmers,1,Agril Labouer Farmers,UNCHANGED
 Agril Labourer and Small Farmer,1,Agril Labourer and Small Farmer,UNCHANGED
@@ -68860,7 +68860,7 @@ Cook - Domestic Serv,1,Cook Domestic Serv,NORMALIZATION
 Cook - Domestic Servant (Unemployed),1,Cook Domestic Servant Unemployed,NORMALIZATION
 Cook - Domestic Servatn,1,Cook Domestic Servatn,NORMALIZATION
 Cook - Domestic servt,1,Cook Domestic Servant,ABBREVIATION; NORMALIZATION
-Cook - Domestic Sevt,1,Cook Domestic Sevt,NORMALIZATION
+Cook - Domestic Sevt,1,Cook Domestic Servant,DICT_LOOKUP; NORMALIZATION
 Cook - Domestic Svt,1,Cook Domestic Svt,NORMALIZATION
 Cook - General,1,Cook General,NORMALIZATION
 Cook - Keeper,1,Cook Keeper,NORMALIZATION
@@ -87661,7 +87661,7 @@ Genera Scholar,1,Genera Scholar,UNCHANGED
 Genera Servant-Domest,1,Genera Servant Domest,NORMALIZATION
 Genera Servant-Domestic,1,Genera Domestic Servant,NORMALIZATION; WORD_ORDER
 General ( Domestic ) Servant,1,General Domestic Servant,NORMALIZATION
-General (Domestic Svt),1,General Domestic Svt,NORMALIZATION
+General (Domestic Svt),1,General Domestic Servant,DICT_LOOKUP; NORMALIZATION
 General (Domestic) servant,1,General Domestic servant,NORMALIZATION
 General (Help) Servant Domestic,1,General Help Domestic Servant,NORMALIZATION; WORD_ORDER
 General (Labourer),1,General Labourer,NORMALIZATION
@@ -99278,16 +99278,16 @@ Ironmonger's Messenger,1,Ironmonger's Messenger,UNCHANGED
 Ironmonger-Assistant,1,Ironmonger Assistant,NORMALIZATION
 Ironmonger-Book-Keeper,1,Ironmonger Bookkeeper,COMPOUND_KEEPER; NORMALIZATION
 Ironmonger-Shopman,1,Ironmonger Shopman,NORMALIZATION
-Ironmongers apprentice,1,Ironmongers apprentice,UNCHANGED
+Ironmongers apprentice,1,Ironmonger's Apprentice,POSSESSIVE
 Ironmongers Assist,1,Ironmongers Assist,UNCHANGED
-Ironmongers Assistant (Head),1,Ironmongers Assistant Head,NORMALIZATION
+Ironmongers Assistant (Head),1,Ironmonger's Assistant Head,NORMALIZATION; POSSESSIVE
 Ironmongers asst,1,Ironmongers asst,UNCHANGED
 Ironmongers Asstnt,1,Ironmongers Asstnt,UNCHANGED
 Ironmongers Book Keeper,1,Ironmongers Bookkeeper,COMPOUND_KEEPER
 Ironmongers Clarke,1,Ironmongers Clarke,UNCHANGED
 Ironmongers Commercial Clerk,1,Ironmongers Commercial Clerk,UNCHANGED
 Ironmongers Commercial Traveller,1,Ironmongers Commercial Traveller,UNCHANGED
-Ironmongers manager,1,Ironmongers manager,UNCHANGED
+Ironmongers manager,1,Ironmonger's Manager,POSSESSIVE
 Ironmongers Manufrs,1,Ironmongers Manufrs,UNCHANGED
 Ironmongers Shop Assistant,1,Ironmongers Shop Assistant,UNCHANGED
 Ironmongery Assistant,1,Ironmongery Assistant,UNCHANGED
@@ -104648,7 +104648,7 @@ Lady's Nurs Tenter,1,Lady's Nurs Tenter,UNCHANGED
 Lady's Nurse Leader,1,Lady's Nurse Leader,UNCHANGED
 Lady's Nurse Tender,1,Lady's Nurse Tender,UNCHANGED
 Lady's Occupation Interest of Money,1,Lady's Occupation Interest of Money,UNCHANGED
-Lady's Servant,1,Lady's Servant,UNCHANGED
+Lady's Servant,1,Lady's Servant,STANDARD
 Lady's Shirt Maker,1,Lady's Shirt Maker,UNCHANGED
 Lady's Shirt Presser,1,Lady's Shirt Presser,UNCHANGED
 Lady's Tayloress,1,Lady's Tayloress,UNCHANGED
@@ -104697,12 +104697,12 @@ Ladys Maid and Servant,1,Ladys Maid and Servant,UNCHANGED
 Ladys Maid D Servant,1,Ladys Maid D Servant,UNCHANGED
 Ladys Maid D. S,1,Ladys Maid D. S,UNCHANGED
 Ladys Maid Dom Sevt,1,Ladys Maid Dom Sevt,UNCHANGED
-Ladys maid Domestic Servant,1,Ladys maid Domestic Servant,UNCHANGED
-Ladys Maid-Domestic Servant,1,Ladys Maid Domestic Servant,NORMALIZATION
+Ladys maid Domestic Servant,1,Lady's Maid Domestic Servant,DICT_LOOKUP
+Ladys Maid-Domestic Servant,1,Lady's Maid Domestic Servant,DICT_LOOKUP; NORMALIZATION
 Ladys Nurse Midwife,1,Ladys Nurse Midwife,UNCHANGED
 Ladys Nurse Ser,1,Ladys Nurse Ser,UNCHANGED
 Ladys Nurse-Domestic,1,Ladys Nurse Domestic,NORMALIZATION
-Ladys Servant,1,Ladys Servant,UNCHANGED
+Ladys Servant,1,Lady's Servant,POSSESSIVE
 Ladys Tailoring,1,Ladys Tailoring,UNCHANGED
 Ladys Taoyler,1,Ladys Taoyler,UNCHANGED
 Ladys Trained Nurse,1,Ladys Trained Nurse,UNCHANGED
@@ -118890,7 +118890,7 @@ Nurse - Children's Domestic,1,Nurse Children's Domestic,NORMALIZATION
 Nurse - Dom,1,Nurse Dom,NORMALIZATION
 Nurse - Domestic Servant House maid,1,Nurse Domestic Servant House maid,NORMALIZATION
 Nurse - Domestic St,1,Nurse Domestic St,NORMALIZATION
-Nurse - Domestic Svt,1,Nurse Domestic Svt,NORMALIZATION
+Nurse - Domestic Svt,1,Nurse Domestic Servant,DICT_LOOKUP; NORMALIZATION
 Nurse - Ladies,1,Nurse Ladies,NORMALIZATION
 Nurse - Mental,1,Nurse Mental,NORMALIZATION
 Nurse - Mid Wife,1,Nurse Mid Wife,NORMALIZATION
@@ -122900,7 +122900,7 @@ Pensioner School Teacher,1,Pensioner School Teacher,UNCHANGED
 Pensioner School Teacher Natl Education,1,Pensioner School Teacher Natl Education,UNCHANGED
 Pensioner Sco Rifles,1,Pensioner Sco Rifles,UNCHANGED
 Pensioner Sean Royal Artillery,1,Pensioner Sean Royal Artillery,UNCHANGED
-Pensioner Serg R I C Ironmongers Assistant,1,Pensioner Serg R I C Ironmongers Assistant,UNCHANGED
+Pensioner Serg R I C Ironmongers Assistant,1,Pensioner Serg R I C Ironmonger's Assistant,POSSESSIVE
 Pensioner Sergeant 63rd Retirment General Labourer,1,Pensioner Sergeant 63rd Retirment General Labourer,UNCHANGED
 Pensioner Sergeant R.I.C,1,Pensioner Sergeant R.I.C,STANDARD
 Pensioner Sergt 1st Devonshire Regt. Labourer,1,Pensioner Sergt 1st Devonshire Regt. Labourer,UNCHANGED
@@ -134405,7 +134405,7 @@ Ry Signall Fitter,1,Ry Signall Fitter,UNCHANGED
 Ry Stationmaster,1,Ry Stationmaster,UNCHANGED
 Ry Store Clerk Engine Fitter at Works,1,Ry Store Clerk Engine Fitter at Works,UNCHANGED
 Ry-Car-Man,1,Ry Car Man,NORMALIZATION
-Ry-Labourer,1,Ry Labourer,NORMALIZATION
+Ry-Labourer,1,Railway Labourer,DICT_LOOKUP; NORMALIZATION
 Ry. Carriage Examiner,1,Ry. Carriage Examiner,UNCHANGED
 Ry. Ganger,1,Ry. Ganger,UNCHANGED
 Ry. Painter Employed,1,Ry. Painter Employed,UNCHANGED

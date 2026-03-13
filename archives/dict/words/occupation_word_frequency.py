@@ -17,6 +17,21 @@ CSV_PATH = SCRIPT_DIR.parent / "census" / "ireland" / "prompts" / "ire_occupatio
 OUTPUT_PATH = SCRIPT_DIR / "words_british_occupation_frequency.csv"
 
 
+# Acronym pattern: one or more "letter." segments, optionally ending with "letter" (no trailing dot)
+_ACRONYM_RE = re.compile(r"^[a-zA-Z](\.[a-zA-Z])*\.?$")
+
+
+def _acronym_variants(word: str) -> set[str]:
+    """Return word and variant without trailing dot so tokenized 'R.I.C.' matches 'r.i.c.' in list."""
+    s = word.strip().lower()
+    if not s or "." not in s:
+        return {s}
+    out = {s}
+    if s.endswith(".") and _ACRONYM_RE.match(s):
+        out.add(s[:-1])  # "r.i.c." -> also add "r.i.c"
+    return out
+
+
 def tokenize_occupation(text: str) -> list[str]:
     """Lowercase tokens, strip leading/trailing non-letters (keep apostrophe in token)."""
     if not isinstance(text, str) or not text.strip():
@@ -31,16 +46,14 @@ def tokenize_occupation(text: str) -> list[str]:
 
 def main() -> None:
     print("Loading word list (words_british + words_manual) ...", flush=True)
-    british_words = {
-        w.strip().lower()
-        for w in WORDS_BRITISH_PATH.read_text(encoding="utf-8").splitlines()
-        if w.strip()
-    }
-    manual_words = {
-        w.strip().lower()
-        for w in WORDS_MANUAL_PATH.read_text(encoding="utf-8").splitlines()
-        if w.strip()
-    }
+    british_words: set[str] = set()
+    for w in WORDS_BRITISH_PATH.read_text(encoding="utf-8").splitlines():
+        if w.strip():
+            british_words |= _acronym_variants(w)
+    manual_words: set[str] = set()
+    for w in WORDS_MANUAL_PATH.read_text(encoding="utf-8").splitlines():
+        if w.strip():
+            manual_words |= _acronym_variants(w)
     all_words = british_words | manual_words
     print(f"  British: {len(british_words)}, manual: {len(manual_words)}, combined: {len(all_words)} words.", flush=True)
 

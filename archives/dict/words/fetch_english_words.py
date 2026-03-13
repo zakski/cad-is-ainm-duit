@@ -19,6 +19,9 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 WORDS_ALPHA_PATH = SCRIPT_DIR / "words_alpha.txt"
 WORDS_BRITISH_PATH = SCRIPT_DIR / "words_british.txt"
 
+# Manual American -> British overrides (e.g. when breame doesn't include them)
+BRITISH_OVERRIDES = {"parlormaid": "parlourmaid"}
+
 
 def main() -> None:
     if not WORDS_ALPHA_PATH.exists():
@@ -37,12 +40,17 @@ def main() -> None:
     ]
     print(f"Converting {len(words)} words to British spelling ...")
     british = set()
+    overrides_lower = {k.lower(): v.lower() for k, v in BRITISH_OVERRIDES.items()}
     for i, w in enumerate(words):
-        try:
-            bw = get_british_spelling(w)
-            british.add(bw.lower() if bw else w)
-        except Exception:
-            british.add(w)
+        w_lower = w.lower()
+        if w_lower in overrides_lower:
+            british.add(overrides_lower[w_lower])
+        else:
+            try:
+                bw = get_british_spelling(w)
+                british.add(bw.lower() if bw else w)
+            except Exception:
+                british.add(w)
         if (i + 1) % 50000 == 0:
             print(f"  {i + 1}/{len(words)}")
     WORDS_BRITISH_PATH.write_text("\n".join(sorted(british)), encoding="utf-8")
