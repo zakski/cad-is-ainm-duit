@@ -81,6 +81,8 @@ OUTPUT_CHANGED_PATH = SCRIPT_DIR / "ire_occupation_1901_corrected_changed.csv"
 OUTPUT_UNCHANGED_PATH = SCRIPT_DIR / "ire_occupation_1901_corrected_unchanged.csv"
 OUTPUT_SCHOLAR_REVIEW_PATH = SCRIPT_DIR / "ire_occupation_1901_scholar_review.csv"
 OUTPUT_SPELLCHECK_REVIEW_PATH = SCRIPT_DIR / "ire_occupation_1901_spellcheck_review.csv"
+OUTPUT_SPELLCHECK_ACCEPTED_PATH = SCRIPT_DIR / "ire_occupation_1901_spellcheck_accept.csv"
+
 
 from occupation_spellcheck import has_word_list, suggest_spellcorrected, unknown_words_in_text
 
@@ -261,6 +263,10 @@ CORRECTIONS = {
     # Servant variations
     "General Servant Domestic": "General Domestic Servant",
     "General Servant Domest": "General Domestic Servant",
+    "General Svt Domestic": "General Domestic Servant",
+    "General Sevt Domestic": "General Domestic Servant",
+    "Servant Domc": "General Domestic Servant",
+    "Cook Domestic Svt" : "Cook Domestic Servant",
     "Domestic General Servant": "General Domestic Servant",
     "General Servant, Domestic": "General Domestic Servant",
     "Domestic Servant, General": "General Domestic Servant",
@@ -269,6 +275,14 @@ CORRECTIONS = {
     "Genl Servant Domestic": "General Domestic Servant",
     "Gen Servant Domestic": "General Domestic Servant",
     "G Servant Domestic": "General Domestic Servant",
+    "Gardener Domestic Svt": "Gardener Domestic Servant",
+    "General Servant Domt" : "General Domestic Servant",
+    "Servant Domest" : "General Domestic Servant",
+    "General Servant Domc" : "General Domestic Servant",
+    "Gardener Domestic Sevt": "Gardener Domestic Servant",
+    "Housemaid Domestic Sevt": "Housemaid Domestic Servant",
+    "Nurse Domestic Sevt": "Nurse Domestic Servant",
+    "Coachman Domestic Svt": "Coachman Domestic Servant",
     "Servant Domestic": "Domestic Servant",
     "Domestic Servant Cook": "Cook Domestic Servant",
     "Servant (Domestic)": "Domestic Servant",
@@ -308,7 +322,8 @@ CORRECTIONS = {
     "Genrl Labourer": "General Labourer",
     # American to British spelling
     "Agricultural Laborer": "Agricultural Labourer",
-    "Farm Laborer": "Farm Labourer",
+    "Farm Laborer": "Agricultural Labourer",
+    "Farm Labrour" : "Agricultural Labourer",
     "General Laborer": "General Labourer",
     "Laborer": "Labourer",
     # Order corrections
@@ -469,6 +484,8 @@ CORRECTIONS = {
     "Agricultral Labourer": "Agricultural Labourer",
     "Agriculural Labourer": "Agricultural Labourer",
     "Agricutural Labourer": "Agricultural Labourer",
+    "Agricultur Labour": "Agricultural Labourer",
+    "Labourer Agl.": "Agricultural Labourer",
     "Agricult Labourer": "Agricultural Labourer",
     "Agrlt Labourer": "Agricultural Labourer",
     "Agricul Labourer": "Agricultural Labourer",
@@ -478,18 +495,28 @@ CORRECTIONS = {
     "Agricull Labourer": "Agricultural Labourer",
     "Labourer Agril": "Agricultural Labourer",
     "Labourer Agrl.": "Agricultural Labourer",
+    "Labrour General": "General Labourer",
     "Farmlabourer": "Agricultural Labourer",
     "Gen Farm Labr": "Agricultural Labourer",
     "Genl Labourer": "General Labourer",
     "Genl. Labourer": "General Labourer",
+    "Farm Labr": "Agricultural Labourer",
+    "Labourer (Agricl)": "Agricultural Labourer",
+    "House Worke": "House Work",
     "Gen Labourer": "General Labourer",
+    "Genral Labour" : "General Labourer",
+    "Farme Labourer" : "Agricultural Labourer",
+    "Farmer Servent": "Farm Servant",
     "G Labourer": "General Labourer",
     "Gl Labourer": "General Labourer",
+    "Labourer Gnl": "General Labourer",
+    "Quary Labourer": "Quarry Labourer",
     "General Laberour": "General Labourer",
     "General Labrour": "General Labourer",
     "General Laborour": "General Labourer",
     "Genral Labourer": "General Labourer",
     "Genrl Labourer": "General Labourer",
+    "General Labiour": "General Labourer",
     "General Labr.": "General Labourer",
     "Gnl Labourer": "General Labourer",
     "G. Labourer": "General Labourer",
@@ -498,12 +525,17 @@ CORRECTIONS = {
     "N. S. Teacher": "National School Teacher",
     "N.S.Teacher": "National School Teacher",
     "NS Teacher": "National School Teacher",
-    "Nat Teacher": "National Teacher",
-    "Natl Teacher": "National Teacher",
+    "N.School Teacher": "National School Teacher",
+    "Nat Teacher": "National School Teacher",
+    "Natl Teacher": "National School Teacher",
     "National S Teacher": "National School Teacher",
     "Nat School Teacher": "National School Teacher",
     "Natl School Teacher": "National School Teacher",
     "N School Teacher": "National School Teacher",
+    "Labourer Agricul": "Agricultural Labourer",
+    "Labour Agrl": "Agricultural Labourer",
+    "Farm Laberour": "Agricultural Labourer",
+    "Famer Servant": "Farm Servant",
     # Religious
     "R C Priest": "Roman Catholic Priest",
     "R.C. Priest": "Roman Catholic Priest",
@@ -614,6 +646,11 @@ PATTERN_RULES: list[tuple[re.Pattern, str | Callable[..., str], str]] = [
     (
         re.compile(r"\bLabor(er)?\b", re.IGNORECASE),
         lambda m: "Labour" + (m.group(1) or ""),
+        "AMERICAN_SPELLING",
+    ),
+    (
+        re.compile(r"\bParlor\b", re.IGNORECASE),
+        lambda m: "Parlour" + (m.group(1) or ""),
         "AMERICAN_SPELLING",
     ),
     (re.compile(r"\bServt\.?\b", re.IGNORECASE), "Servant", "ABBREVIATION"),
@@ -733,12 +770,36 @@ def correct_occupation_final(occupation: str, max_passes: int = 3) -> tuple[str,
 
     return (corrected, change_category)
 
+def publish_scholar_review(df):
+    print("Writing Scholar review ...", flush=True)
+    scholar_review = df[df["occupation"].str.strip().str.lower().isin(SCHOLAR_VARIANTS_LOWER)].copy()
+    scholar_review = (scholar_review.sort_values(by=["_sort_count", "_occ_lower"], ascending=[False, True])
+                      .drop(columns=["_sort_count", "_occ_lower"]))
+    scholar_review.to_csv(OUTPUT_SCHOLAR_REVIEW_PATH, index=False, encoding="utf-8")
+    print(f"  Wrote {len(scholar_review)} rows (Scholar variants) to {OUTPUT_SCHOLAR_REVIEW_PATH}", flush=True)
+    return df
 
-def main() -> None:
-    print("Loading CSV ...", flush=True)
-    df = pd.read_csv(CSV_PATH, encoding="utf-8").dropna(how="all")
-    print(f"  Loaded {len(df)} rows.", flush=True)
+def publish_changed_and_unchanged(df):
+    print("Writing changed/unchanged splits ...", flush=True)
+    df["_sort_count"] = pd.to_numeric(df["count"], errors="coerce").fillna(0).astype("int64")
+    df["_occ_lower"] = df["occupation"].str.lower()
 
+    changed = df[df["occupation"] != df["corrected_occupation"]].copy()
+    changed = changed.sort_values(by=["_sort_count", "_occ_lower"], ascending=[False, True]).drop(
+        columns=["_sort_count", "_occ_lower"]
+    )
+    changed.to_csv(OUTPUT_CHANGED_PATH, index=False, encoding="utf-8")
+    print(f"  Wrote {len(changed)} rows (changed) to {OUTPUT_CHANGED_PATH}", flush=True)
+
+    unchanged = df[df["occupation"] == df["corrected_occupation"]].copy()
+    unchanged = unchanged.sort_values(by=["_sort_count", "_occ_lower"], ascending=[False, True]).drop(
+        columns=["_sort_count", "_occ_lower"]
+    )
+    unchanged.to_csv(OUTPUT_UNCHANGED_PATH, index=False, encoding="utf-8")
+    print(f"  Wrote {len(unchanged)} rows (unchanged) to {OUTPUT_UNCHANGED_PATH}", flush=True)
+    return df
+
+def correct_occupations(df):
     print("Applying corrections (normalize + dict + patterns) ...", flush=True)
     df = df.copy()
     result = df["occupation"].map(correct_occupation_final)
@@ -760,36 +821,19 @@ def main() -> None:
     df = df.sort_values(by=["_sort_count", "_occ_lower"], ascending=[False, True]).drop(
         columns=["_sort_count", "_occ_lower"]
     )
+    return df
+
+def main() -> None:
+    print("Loading CSV ...", flush=True)
+    df = pd.read_csv(CSV_PATH, encoding="utf-8").dropna(how="all")
+    print(f"  Loaded {len(df)} rows.", flush=True)
+
+    df = correct_occupations(df)
     df.to_csv(OUTPUT_PATH, index=False, encoding="utf-8")
     print(f"  Wrote {len(df)} rows to {OUTPUT_PATH}", flush=True)
 
-    print("Writing changed/unchanged splits ...", flush=True)
-    df["_sort_count"] = pd.to_numeric(df["count"], errors="coerce").fillna(0).astype("int64")
-    df["_occ_lower"] = df["occupation"].str.lower()
-
-    changed = df[df["occupation"] != df["corrected_occupation"]].copy()
-    changed = changed.sort_values(by=["_sort_count", "_occ_lower"], ascending=[False, True]).drop(
-        columns=["_sort_count", "_occ_lower"]
-    )
-    changed.to_csv(OUTPUT_CHANGED_PATH, index=False, encoding="utf-8")
-    print(f"  Wrote {len(changed)} rows (changed) to {OUTPUT_CHANGED_PATH}", flush=True)
-
-    unchanged = df[df["occupation"] == df["corrected_occupation"]].copy()
-    unchanged = unchanged.sort_values(by=["_sort_count", "_occ_lower"], ascending=[False, True]).drop(
-        columns=["_sort_count", "_occ_lower"]
-    )
-    unchanged.to_csv(OUTPUT_UNCHANGED_PATH, index=False, encoding="utf-8")
-    print(f"  Wrote {len(unchanged)} rows (unchanged) to {OUTPUT_UNCHANGED_PATH}", flush=True)
-
-    print("Writing Scholar review ...", flush=True)
-    scholar_review = df[
-        df["occupation"].str.strip().str.lower().isin(SCHOLAR_VARIANTS_LOWER)
-    ].copy()
-    scholar_review = scholar_review.sort_values(
-        by=["_sort_count", "_occ_lower"], ascending=[False, True]
-    ).drop(columns=["_sort_count", "_occ_lower"])
-    scholar_review.to_csv(OUTPUT_SCHOLAR_REVIEW_PATH, index=False, encoding="utf-8")
-    print(f"  Wrote {len(scholar_review)} rows (Scholar variants) to {OUTPUT_SCHOLAR_REVIEW_PATH}", flush=True)
+    df = publish_changed_and_unchanged(df)
+    df = publish_scholar_review(df)
 
     print("Spellcheck review ...", flush=True)
     if has_word_list():
@@ -809,14 +853,31 @@ def main() -> None:
             _get_spell_checker()  # prime in main thread so worker threads reuse it
             with ThreadPoolExecutor() as executor:
                 suggestions = list(executor.map(suggest_spellcorrected, unique_texts))
+
+        # Spelling Correction Suggestion Map
         suggestion_map = dict(zip(unique_texts, suggestions))
         spellcheck_review["suggested_occupation"] = spellcheck_review["corrected_occupation"].map(suggestion_map)
+
         print("  Sorting and writing spellcheck review ...", flush=True)
         spellcheck_review = spellcheck_review.sort_values(
             by=["_sort_count", "_occ_lower"], ascending=[False, True]
         ).drop(columns=["_sort_count", "_occ_lower"])
         spellcheck_review.to_csv(OUTPUT_SPELLCHECK_REVIEW_PATH, index=False, encoding="utf-8")
         print(f"  Wrote {len(spellcheck_review)} rows (spellcheck review) to {OUTPUT_SPELLCHECK_REVIEW_PATH}", flush=True)
+
+        corrected_from_changed = set(
+            spellcheck_review.loc[spellcheck_review["suggested_occupation"] != spellcheck_review["corrected_occupation"], "suggested_occupation"]
+        )
+        mask_spelling_accepted = (df["change_category"] == "STANDARD") & (
+            df["corrected_occupation"].isin(corrected_from_changed)
+        )
+
+        correction_accepted = set(df.loc[mask_spelling_accepted, "corrected_occupation"])
+        correction_acceptable = spellcheck_review["suggested_occupation"].isin(correction_accepted)
+        spellcheck_accepted = spellcheck_review[correction_acceptable].copy()
+        spellcheck_accepted.to_csv(OUTPUT_SPELLCHECK_ACCEPTED_PATH, index=False, encoding="utf-8")
+
+
     else:
         print(
             "  Skipped (no word list in archives/dict/words; run python archives/dict/words/fetch_english_words.py)",
