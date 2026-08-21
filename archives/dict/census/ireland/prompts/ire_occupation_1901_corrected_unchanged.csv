@@ -37,7 +37,7 @@ General Domestic Servant,5452,General Domestic Servant,STANDARD
 Wife,5349,Wife,STANDARD
 Grocer,5313,Grocer,UNCHANGED
 Cook Domestic Servant,4665,Cook Domestic Servant,STANDARD
-Shepherd,4553,Shepherd,UNCHANGED
+Shepherd,4553,Shepherd,STANDARD
 Charwoman,4200,Charwoman,STANDARD
 Student,4101,Student,UNCHANGED
 Milliner,4032,Milliner,STANDARD
@@ -362,7 +362,6 @@ Landress,341,Landress,UNCHANGED
 Postmistress,341,Postmistress,STANDARD
 Cattle Drover,339,Cattle Drover,STANDARD
 Yarn Spinner,339,Yarn Spinner,STANDARD
-Labourer Agrl,336,Labourer Agrl,STANDARD
 Working on Farm,336,Working on Farm,UNCHANGED
 Not Employed,335,Not Employed,STANDARD
 Bread Server,334,Bread Server,STANDARD
@@ -599,7 +598,6 @@ Architect,172,Architect,UNCHANGED
 Cycle Mechanic,172,Cycle Mechanic,UNCHANGED
 Driver,172,Driver,UNCHANGED
 Farmer and Miller,172,Farmer and Miller,UNCHANGED
-Flaxdresser,172,Flaxdresser,UNCHANGED
 Millwright,171,Millwright,STANDARD
 Teacher of Music,171,Teacher of Music,UNCHANGED
 Cholar,170,Cholar,UNCHANGED
@@ -642,7 +640,6 @@ Agricultural Farm Labourer,160,Agricultural Farm Labourer,STANDARD
 Farmer and Mason,160,Farmer and Mason,UNCHANGED
 Heard,160,Heard,UNCHANGED
 House Duties,160,House Duties,STANDARD
-Samestress,160,Samestress,UNCHANGED
 Boot Closer,159,Boot Closer,STANDARD
 Schoolgirl,159,Schoolgirl,UNCHANGED
 Farmer's Nephew,158,Farmer's Nephew,STANDARD
@@ -785,7 +782,6 @@ Weaver of Linen,121,Weaver of Linen,UNCHANGED
 Workmistress,121,Workmistress,UNCHANGED
 Banker,120,Banker,UNCHANGED
 Drapery,120,Drapery,UNCHANGED
-Farmservant,120,Farmservant,UNCHANGED
 Hotel Waiter,120,Hotel Waiter,STANDARD
 House Keper,120,House Keper,UNCHANGED
 Jarvey,120,Jarvey,UNCHANGED
@@ -818,7 +814,6 @@ Employed on Farm,116,Employed on Farm,UNCHANGED
 House Agent,116,House Agent,STANDARD
 House Business,116,House Business,STANDARD
 Income from Land,116,Income from Land,UNCHANGED
-Farmers Daugh,115,Farmers Daugh,UNCHANGED
 House Assistant,115,House Assistant,STANDARD
 Retired Housekeeper,115,Retired Housekeeper,STANDARD
 General Laboure,114,General Laboure,UNCHANGED
@@ -839,7 +834,6 @@ Winder in Mill,112,Winder in Mill,STANDARD
 Apprentice Plumber,111,Apprentice Plumber,STANDARD
 Catholic Priest,111,Catholic Priest,UNCHANGED
 Farmer's Daught,111,Farmer's Daught,UNCHANGED
-Farmerswife,111,Farmerswife,UNCHANGED
 Fish Merchant,111,Fish Merchant,STANDARD
 Jute Weaver,111,Jute Weaver,UNCHANGED
 Nailer,111,Nailer,UNCHANGED
@@ -949,7 +943,6 @@ Plaster,96,Plaster,UNCHANGED
 Waiteress,96,Waiteress,UNCHANGED
 Certified Pupil,95,Certified Pupil,UNCHANGED
 Dentist,95,Dentist,UNCHANGED
-Farmers Daug,95,Farmers Daug,UNCHANGED
 Millener,95,Millener,UNCHANGED
 Needle Worker,95,Needle Worker,STANDARD
 Penitent,95,Penitent,UNCHANGED
@@ -997,7 +990,6 @@ Kitchenmaid,90,Kitchenmaid,UNCHANGED
 Railway Inspector,90,Railway Inspector,STANDARD
 Apprentice Baker,89,Apprentice Baker,STANDARD
 Cannot Read,89,Cannot Read,STANDARD
-General Servant Domest,89,General Servant Domest,STANDARD
 Hotel Proprietress,89,Hotel Proprietress,UNCHANGED
 Machinst,89,Machinst,UNCHANGED
 Master Baker,89,Master Baker,STANDARD
@@ -1074,7 +1066,6 @@ Sculptor,82,Sculptor,UNCHANGED
 Cycle Agent,81,Cycle Agent,UNCHANGED
 Lamp Lighter,81,Lamp Lighter,STANDARD
 Pawnbrokers Assistant,81,Pawnbrokers Assistant,UNCHANGED
-Schlor,81,Schlor,UNCHANGED
 Wood Carver,81,Wood Carver,STANDARD
 Chemist Assistant,80,Chemist Assistant,STANDARD
 Dairy Labourer,80,Dairy Labourer,STANDARD
@@ -1267,7 +1258,6 @@ Agricultural General Labourer,67,Agricultural General Labourer,STANDARD
 At school,67,At school,UNCHANGED
 Bottle Blower,67,Bottle Blower,UNCHANGED
 Chemist and Druggist,67,Chemist and Druggist,UNCHANGED
-Farmerson,67,Farmerson,UNCHANGED
 Herd's Wife,67,Herd's Wife,STANDARD
 Labourer's Widow,67,Labourer's Widow,STANDARD
 Machinist in Factory,67,Machinist in Factory,UNCHANGED
@@ -1382,7 +1372,6 @@ Muslin Embroiderer,61,Muslin Embroiderer,UNCHANGED
 none,61,none,UNCHANGED
 Rover in Mill,61,Rover in Mill,UNCHANGED
 Seedsman,61,Seedsman,UNCHANGED
-Shep Herd,61,Shep Herd,STANDARD
 Agricultural,60,Agricultural,UNCHANGED
 Attendant Asylum,60,Attendant Asylum,STANDARD
 Bar Attendant,60,Bar Attendant,STANDARD
@@ -1578,7 +1567,6 @@ Drapers,51,Drapers,UNCHANGED
 Engine Fitter at Work,51,Engine Fitter at Work,UNCHANGED
 Factory Operative,51,Factory Operative,UNCHANGED
 Farmer's Son in Law,51,Farmer's Son in Law,STANDARD
-Farmers Daugt,51,Farmers Daugt,UNCHANGED
 Garden Boy,51,Garden Boy,STANDARD
 Grocers Shop Assistant,51,Grocers Shop Assistant,UNCHANGED
 House Hold Work,51,House Hold Work,STANDARD
@@ -1618,7 +1606,6 @@ Solicitor's Apprentice,50,Solicitor's Apprentice,UNCHANGED
 Spinner in a Spinning Mill,50,Spinner in a Spinning Mill,UNCHANGED
 Stable Groom,50,Stable Groom,UNCHANGED
 Woolen Factory Hand,50,Woolen Factory Hand,UNCHANGED
-Agricultural Labr.,49,Agricultural Labr.,UNCHANGED
 Captain,49,Captain,UNCHANGED
 Clerk General,49,Clerk General,STANDARD
 Coal Labour,49,Coal Labour,UNCHANGED
@@ -1662,9 +1649,6 @@ Carmelite Nun,47,Carmelite Nun,UNCHANGED
 Distiller,47,Distiller,UNCHANGED
 Drawer in Mill,47,Drawer in Mill,STANDARD
 Farm Occupier,47,Farm Occupier,UNCHANGED
-Farmer Daught,47,Farmer Daught,UNCHANGED
-Farmering,47,Farmering,UNCHANGED
-Farmers Dauter,47,Farmers Dauter,UNCHANGED
 Fireman on Steamer,47,Fireman on Steamer,UNCHANGED
 Fishing,47,Fishing,UNCHANGED
 Foreman Labourer,47,Foreman Labourer,UNCHANGED
@@ -17416,7 +17400,6 @@ Genl Servant Domtc,3,Genl Servant Domtc,UNCHANGED
 Genl. Dom. Servant,3,Genl. Dom. Servant,STANDARD
 Genneral Labourer,3,Genneral Labourer,UNCHANGED
 Genral agricultural Labourer,3,Genral agricultural Labourer,UNCHANGED
-Genrl Domestic Servant,3,Genrl Domestic Servant,STANDARD
 Gentleman and Farmer,3,Gentleman and Farmer,UNCHANGED
 Gentleman No Occupation,3,Gentleman No Occupation,UNCHANGED
 Gentleman Servant,3,Gentleman Servant,UNCHANGED
@@ -28643,7 +28626,6 @@ Labourer Ae,2,Labourer Ae,UNCHANGED
 Labourer Agclt,2,Labourer Agclt,UNCHANGED
 Labourer Agricutl,2,Labourer Agricutl,UNCHANGED
 Labourer Agricutural,2,Labourer Agricutural,UNCHANGED
-Labourer agrl,2,Labourer agrl,UNCHANGED
 Labourer and Car Owner,2,Labourer and Car Owner,UNCHANGED
 Labourer and Gardener,2,Labourer and Gardener,UNCHANGED
 Labourer and Mill Hand,2,Labourer and Mill Hand,UNCHANGED
@@ -70704,7 +70686,6 @@ Farms son,1,Farms son,UNCHANGED
 Farms Sone,1,Farms Sone,UNCHANGED
 Farms Sons Wife,1,Farms Sons Wife,UNCHANGED
 Farms. Daughter,1,Farms. Daughter,UNCHANGED
-FarmServant,1,FarmServant,UNCHANGED
 Farmsevant,1,Farmsevant,UNCHANGED
 Farmson,1,Farmson,UNCHANGED
 Farmss Son,1,Farmss Son,UNCHANGED

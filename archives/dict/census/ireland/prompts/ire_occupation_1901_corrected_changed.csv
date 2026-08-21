@@ -99,6 +99,7 @@ Agl. Labourer,388,Agricultural Labourer,AGRICULTURAL_ABBREVIATION
 Care Taker,371,Caretaker,DICT_LOOKUP
 N.S. Teacher,346,National School Teacher,DICT_LOOKUP
 Agrl. Labourer,336,Agricultural Labourer,AGRICULTURAL_ABBREVIATION
+Labourer Agrl,336,Agricultural Labourer,DICT_LOOKUP
 Boarding House Keeper,331,Boarding Housekeeper,COMPOUND_KEEPER
 Cook Domestic Servt,330,Cook Domestic Servant,ABBREVIATION
 Farmers Widow,327,Farmer's Widow,POSSESSIVE
@@ -174,6 +175,7 @@ Genl Servant,176,General Servant,DICT_LOOKUP
 Farmers Daughter in Law,175,Farmer's Daughter in Law,POSSESSIVE
 Gardener-Domestic Servant,175,Gardener Domestic Servant,NORMALIZATION
 Agricultural Lab,173,Agricultural Labourer,DICT_LOOKUP
+Flaxdresser,172,Flax Dresser,DICT_LOOKUP
 Cook - Domestic Servant,171,Cook Domestic Servant,NORMALIZATION
 Natl Teacher,171,National Teacher,DICT_LOOKUP
 Gen Servant Domestic,170,Gen Domestic Servant,WORD_ORDER
@@ -184,6 +186,7 @@ Farmers Daught,163,Farmer's Daughter,DICT_LOOKUP
 Farmers Grand Son,161,Farmer's Grandson,DICT_LOOKUP
 Herds Daughter,161,Herd's Daughter,POSSESSIVE
 Masons Labourer,161,Mason's Labourer,POSSESSIVE
+Samestress,160,Seamstress,DICT_LOOKUP
 Farm Servt,157,Farm Servant,ABBREVIATION
 Farmers Labourer,157,Farmer's Labourer,POSSESSIVE
 Scholler,157,Scholar,DICT_LOOKUP
@@ -225,6 +228,7 @@ Housemaid Domestic Servt,123,Housemaid Domestic Servant,ABBREVIATION
 Chemists Assistant,122,Chemist's Assistant,POSSESSIVE
 Farmers-Son,122,Farmer's Son,NORMALIZATION; POSSESSIVE
 Publicans Assistant,122,Publican's Assistant,POSSESSIVE
+Farmservant,120,Farm Servant,DICT_LOOKUP
 Genl. Labourer,119,General Labourer,GENERAL_ABBREVIATION
 Labrour,119,Labourer,DICT_LOOKUP
 Coachman Domestic Servt,118,Coachman Domestic Servant,ABBREVIATION
@@ -234,6 +238,7 @@ Dress maker,117,Dressmaker,DICT_LOOKUP
 Sholars,117,Scholar,DICT_LOOKUP
 General House Keeper,116,General Housekeeper,COMPOUND_KEEPER
 Agricultl Labourer,115,Agricultural Labourer,DICT_LOOKUP
+Farmers Daugh,115,Farmer's Daughter,DICT_LOOKUP
 Farmers wife,115,Farmer's Wife,POSSESSIVE
 Labourer Daughter,115,Labourer's Daughter,DICT_LOOKUP
 Domestic House Keeper,114,Domestic Housekeeper,COMPOUND_KEEPER
@@ -242,6 +247,7 @@ N School Teacher,113,National School Teacher,DICT_LOOKUP
 White Smith,113,Whitesmith,DICT_LOOKUP
 Nurse-Domestic,112,Nurse Domestic,NORMALIZATION
 Assistant Shop Keeper,111,Assistant Shopkeeper,COMPOUND_KEEPER
+Farmerswife,111,Farmer's Wife,DICT_LOOKUP
 General Servt. Domestic,111,General Servant. Domestic,ABBREVIATION
 Groom-Domestic Servant,111,Groom Domestic Servant,NORMALIZATION
 Herds Wife,111,Herd's Wife,POSSESSIVE
@@ -271,6 +277,7 @@ Genl. Servant Domestic,98,Genl. Domestic Servant,WORD_ORDER
 Domestic Servant (Cook),97,Cook Domestic Servant,DICT_LOOKUP; NORMALIZATION
 Car-Driver,96,Car Driver,NORMALIZATION
 Clerk Railway,96,Railway Clerk,DICT_LOOKUP
+Farmers Daug,95,Farmer's Daughter,DICT_LOOKUP
 Weaver-Linen,95,Linen Weaver,DICT_LOOKUP; NORMALIZATION
 General Servt,94,General Servant,ABBREVIATION
 Post-Man,94,Postman,DICT_LOOKUP; NORMALIZATION
@@ -285,6 +292,7 @@ Domestic Servant-Cook,90,Cook Domestic Servant,DICT_LOOKUP; NORMALIZATION
 R C Clergyman,90,Roman Catholic Clergyman,DICT_LOOKUP
 Carpenters Apprentice,89,Carpenter's Apprentice,POSSESSIVE
 Farmers Son in Law,89,Farmer's Son in Law,POSSESSIVE
+General Servant Domest,89,General Domestic Servant,DICT_LOOKUP
 Scholar Farmers Daughter,89,Scholar Farmer's Daughter,POSSESSIVE
 Builder Labourer,88,Builder's Labourer,DICT_LOOKUP
 General-Labourer,88,General Labourer,NORMALIZATION
@@ -302,6 +310,7 @@ Gen Servant,83,General Servant,DICT_LOOKUP
 Genl Domestic Servant,83,General Domestic Servant,DICT_LOOKUP
 Shepherds Wife,82,Shepherd's Wife,POSSESSIVE
 Grocers Clerk,81,Grocer's Clerk,POSSESSIVE
+Schlor,81,Scholar,DICT_LOOKUP
 House Maid Domestic Servt,80,House Maid Domestic Servant,ABBREVIATION
 Labourers Widow,80,Labourer's Widow,POSSESSIVE
 Carpenters Daughter,78,Carpenter's Daughter,POSSESSIVE
@@ -327,6 +336,7 @@ Builders Clerk,68,Builder's Clerk,POSSESSIVE
 House wife,68,Housewife,DICT_LOOKUP
 Mill Wright,68,Millwright,DICT_LOOKUP
 Agricl. Labourer,67,Agricultural Labourer,AGRICULTURAL_ABBREVIATION
+Farmerson,67,Farmer's Son,DICT_LOOKUP
 Sclolar,67,Scholar,DICT_LOOKUP
 Bar-Maid,66,Barmaid,DICT_LOOKUP; NORMALIZATION
 Dairymans Daughter,66,Dairyman's Daughter,POSSESSIVE
@@ -348,6 +358,7 @@ Clerke,61,Clerk,DICT_LOOKUP
 Laborer General,61,General Labourer,AMERICAN_SPELLING; LABOURER_ORDER
 Labourer (Genl),61,Labourer Genl,NORMALIZATION
 Scholare,61,Scholar,DICT_LOOKUP
+Shep Herd,61,Shepherd,DICT_LOOKUP
 Agricultural Labor,60,Agricultural Labourer,AMERICAN_SPELLING; DICT_LOOKUP
 Gen Servt Domestic,60,Gen Domestic Servant,ABBREVIATION; WORD_ORDER
 Gl Servant Domestic,60,Gl Domestic Servant,WORD_ORDER
@@ -367,7 +378,7 @@ General Servent,58,General Servant,DICT_LOOKUP
 Publicans Son,58,Publican's Son,POSSESSIVE
 Scholour,58,Scholar,DICT_LOOKUP
 Farmersdaughter,57,Farmer's Daughter,DICT_LOOKUP
-Labourer (Agrl),57,Labourer Agrl,NORMALIZATION
+Labourer (Agrl),57,Agricultural Labourer,DICT_LOOKUP; NORMALIZATION
 Labourer-Agricultural,57,Agricultural Labourer,LABOURER_ORDER; NORMALIZATION
 Plumer,57,Plumber,DICT_LOOKUP
 Servant (Farm),57,Servant Farm,NORMALIZATION
@@ -391,7 +402,7 @@ At Chool,53,At School,DICT_LOOKUP
 Clarke,53,Clerk,DICT_LOOKUP
 Farm Serveant,53,Farm Servant,DICT_LOOKUP
 Gardner Domestic,53,Gardener Domestic,DICT_LOOKUP
-Genrl Servant Domestic,53,Genrl Domestic Servant,WORD_ORDER
+Genrl Servant Domestic,53,General Domestic Servant,DICT_LOOKUP; WORD_ORDER
 Schlar,53,Scholar,DICT_LOOKUP
 Servant (General),53,Servant General,NORMALIZATION
 Farm Labourers Wife,52,Farm Labourer's Wife,POSSESSIVE
@@ -403,6 +414,7 @@ Cabinet-Maker,51,Cabinetmaker,DICT_LOOKUP; NORMALIZATION
 Carpanter,51,Carpenter,DICT_LOOKUP
 Childrens Nurse,51,Children's Nurse,DICT_LOOKUP
 Domestic servant,51,Domestic Servant,DICT_LOOKUP
+Farmers Daugt,51,Farmer's Daughter,DICT_LOOKUP
 House Keeper and Farmer,51,Housekeeper and Farmer,COMPOUND_KEEPER
 House Servant Domestic,51,House Domestic Servant,WORD_ORDER
 Market Gardner,51,Market Gardener,DICT_LOOKUP
@@ -416,6 +428,7 @@ Schalor,50,Scholar,DICT_LOOKUP
 Servant Domestic Servant,50,Domestic Servant Servant,WORD_ORDER
 Servt,50,Servant,ABBREVIATION
 Shool,50,Scholar,DICT_LOOKUP
+Agricultural Labr.,49,Agricultural Labourer,DICT_LOOKUP
 Clerkess,49,Clerk,DICT_LOOKUP
 Dress - Maker,49,Dressmaker,DICT_LOOKUP; NORMALIZATION
 Genrl Labourer,49,General Labourer,GENERAL_ABBREVIATION
@@ -436,6 +449,9 @@ Shomaker,48,Shoemaker,DICT_LOOKUP
 Cabnet Maker,47,Cabinetmaker,DICT_LOOKUP
 Childrens Maid,47,Children's Maid,DICT_LOOKUP
 Dairy-Maid,47,Dairy Maid,NORMALIZATION
+Farmer Daught,47,Farmer's Daughter,DICT_LOOKUP
+Farmering,47,Farmer,DICT_LOOKUP
+Farmers Dauter,47,Farmer's Daughter,DICT_LOOKUP
 Farmers Sister in Law,47,Farmer's Sister in Law,POSSESSIVE
 Millner,47,Milliner,DICT_LOOKUP
 Publican and Shop Keeper,47,Publican and Shopkeeper,COMPOUND_KEEPER
@@ -1564,7 +1580,7 @@ Laberour (Farm),6,Laberour Farm,NORMALIZATION
 Laborer Agl,6,Agricultural Labourer,AMERICAN_SPELLING; DICT_LOOKUP
 Labourer (Agricult),6,Labourer Agricult,NORMALIZATION
 Labourer (Foundry),6,Labourer Foundry,NORMALIZATION
-Labourer-Agrl,6,Labourer Agrl,NORMALIZATION
+Labourer-Agrl,6,Agricultural Labourer,DICT_LOOKUP; NORMALIZATION
 Labourer-Quay,6,Quay Labourer,LABOURER_ORDER; NORMALIZATION
 Labourier (Dock),6,Labourier Dock,NORMALIZATION
 Lace maker,6,Lacemaker,DICT_LOOKUP
@@ -1779,7 +1795,7 @@ General Man-Domestic Servant,5,General Man Domestic Servant,NORMALIZATION
 General Servant Domestic Retired,5,General Domestic Servant Retired,WORD_ORDER
 General Servant Domestic Servt,5,General Domestic Servant Servant,ABBREVIATION; WORD_ORDER
 "General Servt ""Domestic""",5,"General Servant ""Domestic""",ABBREVIATION
-General Servt Domest,5,General Servant Domest,ABBREVIATION
+General Servt Domest,5,General Domestic Servant,ABBREVIATION; DICT_LOOKUP
 General Servt Domestic Unemployed,5,General Domestic Servant Unemployed,ABBREVIATION; WORD_ORDER
 General Servt Unemployed,5,General Servant Unemployed,ABBREVIATION
 General-Labr,5,General Labr,NORMALIZATION
@@ -1787,7 +1803,7 @@ Genl Servant-Dom,5,Genl Servant Dom,NORMALIZATION
 Genl Servt Unemployed,5,Genl Servant Unemployed,ABBREVIATION
 Genl-Servant Domestic,5,General Domestic Servant,DICT_LOOKUP; NORMALIZATION; WORD_ORDER
 Genl. Domestic Servt,5,Genl. Domestic Servant,ABBREVIATION
-Genrl Servant-Domestic,5,Genrl Domestic Servant,NORMALIZATION; WORD_ORDER
+Genrl Servant-Domestic,5,General Domestic Servant,DICT_LOOKUP; NORMALIZATION; WORD_ORDER
 Gl. Servant-Domestic,5,Gl. Domestic Servant,NORMALIZATION; WORD_ORDER
 Grocer (Assistant),5,Grocer Assistant,NORMALIZATION
 Grocers porter,5,Grocer's Porter,POSSESSIVE
@@ -1895,7 +1911,7 @@ Servant-Housekeeper,5,Servant Housekeeper,NORMALIZATION
 Servant-Man,5,Servant Man,NORMALIZATION
 Servt Man,5,Servant Man,ABBREVIATION
 Servt-Domestic,5,Domestic Servant,ABBREVIATION; DICT_LOOKUP; NORMALIZATION; WORD_ORDER
-Shep-Herd,5,Shep Herd,NORMALIZATION
+Shep-Herd,5,Shepherd,DICT_LOOKUP; NORMALIZATION
 Ship wright,5,Shipwright,DICT_LOOKUP
 Ship-Joiner,5,Ship Joiner,NORMALIZATION
 Shoemaker-Master,5,Shoemaker Master,NORMALIZATION
@@ -2106,7 +2122,7 @@ General Servant (D),4,General Servant D,NORMALIZATION
 General Servant (Domestic Servant),4,General Domestic Servant Servant,NORMALIZATION; WORD_ORDER
 General servant domestic,4,General Domestic Servant,WORD_ORDER
 General Servant Domestic Cook,4,General Domestic Servant Cook,WORD_ORDER
-General Servant-Domest,4,General Servant Domest,NORMALIZATION
+General Servant-Domest,4,General Domestic Servant,DICT_LOOKUP; NORMALIZATION
 General Servant. (Domestic),4,General Servant. Domestic,NORMALIZATION
 General Servt D,4,General Servant D,ABBREVIATION
 General Servt.,4,General Servant.,ABBREVIATION
@@ -2121,7 +2137,7 @@ Genl. Laborer,4,General Labourer,AMERICAN_SPELLING; GENERAL_ABBREVIATION
 Genl. Servant (Domestic),4,Genl. Domestic Servant,NORMALIZATION; WORD_ORDER
 Genl. Servt.-Domestic,4,Genl. Servant. Domestic,ABBREVIATION; NORMALIZATION
 Genr Servant Domestic,4,Genr Domestic Servant,WORD_ORDER
-Genrl Servt Domestic,4,Genrl Domestic Servant,ABBREVIATION; WORD_ORDER
+Genrl Servt Domestic,4,General Domestic Servant,ABBREVIATION; DICT_LOOKUP; WORD_ORDER
 Genrl-Sert-Domestic,4,Genrl Sert Domestic,NORMALIZATION
 Genrl. Labourer,4,General Labourer,GENERAL_ABBREVIATION
 Gneral Servant Domestic,4,Gneral Domestic Servant,WORD_ORDER
@@ -2776,8 +2792,9 @@ General Sevant-Domestic,3,General Sevant Domestic,NORMALIZATION
 General-Domestic Servt.,3,General Domestic Servant.,ABBREVIATION; NORMALIZATION
 Generl Servt-Domestic,3,Generl Domestic Servant,ABBREVIATION; NORMALIZATION; WORD_ORDER
 Genl. Servant-Domestic Unemployed,3,Genl. Domestic Servant Unemployed,NORMALIZATION; WORD_ORDER
-Genrl Servant (Domestic),3,Genrl Domestic Servant,NORMALIZATION; WORD_ORDER
-Genrl-Servt-Domestic,3,Genrl Domestic Servant,ABBREVIATION; NORMALIZATION; WORD_ORDER
+Genrl Domestic Servant,3,General Domestic Servant,DICT_LOOKUP
+Genrl Servant (Domestic),3,General Domestic Servant,DICT_LOOKUP; NORMALIZATION; WORD_ORDER
+Genrl-Servt-Domestic,3,General Domestic Servant,ABBREVIATION; DICT_LOOKUP; NORMALIZATION; WORD_ORDER
 Gentlewoman-Annuitant,3,Gentlewoman Annuitant,NORMALIZATION
 Gerl Servant Domestic,3,Gerl Domestic Servant,WORD_ORDER
 Gerl Servt Domestic,3,Gerl Domestic Servant,ABBREVIATION; WORD_ORDER
@@ -4512,6 +4529,7 @@ Labourer - Carman,2,Labourer Carman,NORMALIZATION
 Labourer - Foundry,2,Labourer Foundry,NORMALIZATION
 Labourer - Railway,2,Railway Labourer,LABOURER_ORDER; NORMALIZATION
 Labourer - Stonebreaker,2,Labourer Stonebreaker,NORMALIZATION
+Labourer agrl,2,Agricultural Labourer,DICT_LOOKUP
 Labourer and House Keeper,2,Labourer and Housekeeper,COMPOUND_KEEPER
 Labourer and Shop Keeper,2,Labourer and Shopkeeper,COMPOUND_KEEPER
 Labourer at Iron - Works,2,Labourer at Iron Works,NORMALIZATION
@@ -4533,7 +4551,7 @@ Labourer(Agricultural),2,LabourerAgricultural,NORMALIZATION
 Labourer(General),2,LabourerGeneral,NORMALIZATION
 "Labourer,-General",2,General Labourer,DICT_LOOKUP; NORMALIZATION
 Labourer- General,2,General Labourer,LABOURER_ORDER; NORMALIZATION
-Labourer-(Agrl),2,Labourer Agrl,NORMALIZATION
+Labourer-(Agrl),2,Agricultural Labourer,DICT_LOOKUP; NORMALIZATION
 Labourer-Agr,2,Agricultural Labourer,DICT_LOOKUP; NORMALIZATION
 Labourer-Agricl,2,Labourer Agricl,NORMALIZATION
 Labourer-Agril,2,Agricultural Labourer,DICT_LOOKUP; NORMALIZATION
@@ -12081,6 +12099,7 @@ Farmrs Servant Domestic,1,Farmrs Domestic Servant,WORD_ORDER
 Farms Laborer,1,Farms Labourer,AMERICAN_SPELLING
 Farms Servant Domestic,1,Farms Domestic Servant,WORD_ORDER
 Farms Servt,1,Farm Servant,ABBREVIATION; DICT_LOOKUP
+FarmServant,1,Farm Servant,DICT_LOOKUP
 Farmy-Laboure,1,Farmy Laboure,NORMALIZATION
 Farrier-Unemployed,1,Farrier Unemployed,NORMALIZATION
 Father's House Keeper,1,Father's Housekeeper,COMPOUND_KEEPER
@@ -12902,7 +12921,7 @@ General Servant (Demestic),1,General Servant Demestic,NORMALIZATION
 General Servant (Domc),1,General Servant Domc,NORMALIZATION
 General Servant (Dome),1,General Servant Dome,NORMALIZATION
 General Servant (Domes),1,General Servant Domes,NORMALIZATION
-General Servant (Domest),1,General Servant Domest,NORMALIZATION
+General Servant (Domest),1,General Domestic Servant,DICT_LOOKUP; NORMALIZATION
 General Servant (Domestic st),1,General Domestic Servant st,NORMALIZATION; WORD_ORDER
 general Servant (Domestic),1,general Domestic Servant,NORMALIZATION; WORD_ORDER
 General servant (Domestic),1,General Domestic Servant,NORMALIZATION; WORD_ORDER
@@ -13191,9 +13210,9 @@ Genrl Labourer empd,1,General Labourer empd,GENERAL_ABBREVIATION
 Genrl Servt,1,Genrl Servant,ABBREVIATION
 Genrl Servt Domst,1,Genrl Servant Domst,ABBREVIATION
 Genrl Servt Domstc,1,Genrl Servant Domstc,ABBREVIATION
-Genrl-Domestic Servant,1,Genrl Domestic Servant,NORMALIZATION
-Genrl-Servant Domestic,1,Genrl Domestic Servant,NORMALIZATION; WORD_ORDER
-Genrl-Servt Domestic,1,Genrl Domestic Servant,ABBREVIATION; NORMALIZATION; WORD_ORDER
+Genrl-Domestic Servant,1,General Domestic Servant,DICT_LOOKUP; NORMALIZATION
+Genrl-Servant Domestic,1,General Domestic Servant,DICT_LOOKUP; NORMALIZATION; WORD_ORDER
+Genrl-Servt Domestic,1,General Domestic Servant,ABBREVIATION; DICT_LOOKUP; NORMALIZATION; WORD_ORDER
 Genrl. Servant (Domestic),1,Genrl. Domestic Servant,NORMALIZATION; WORD_ORDER
 Genrl. Servant-Domestic,1,Genrl. Domestic Servant,NORMALIZATION; WORD_ORDER
 Genrl. Servt Domestic,1,Genrl. Domestic Servant,ABBREVIATION; WORD_ORDER
@@ -14838,7 +14857,7 @@ Laborer - Gnl,1,Labourer Gnl,AMERICAN_SPELLING; NORMALIZATION
 Laborer - Van Driver,1,Labourer Van Driver,AMERICAN_SPELLING; NORMALIZATION
 Laborer Agricl.,1,Labourer Agricl.,AMERICAN_SPELLING
 Laborer Agricul,1,Labourer Agricul,AMERICAN_SPELLING
-Laborer Agrl,1,Labourer Agrl,AMERICAN_SPELLING
+Laborer Agrl,1,Agricultural Labourer,AMERICAN_SPELLING; DICT_LOOKUP
 Laborer and Fisherman,1,Labourer and Fisherman,AMERICAN_SPELLING
 Laborer and Porter,1,Labourer and Porter,AMERICAN_SPELLING
 Laborer and Soldier,1,Labourer and Soldier,AMERICAN_SPELLING
