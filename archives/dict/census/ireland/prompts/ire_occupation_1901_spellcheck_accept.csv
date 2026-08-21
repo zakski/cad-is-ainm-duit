@@ -32,17 +32,11 @@ Intrest of Money,55,Intrest of Money,UNCHANGED,Intrest,Interest of Money
 Labourer Genrl,52,Labourer Genrl,STANDARD,Genrl,Labourer Genl
 Labourer Agricl,50,Labourer Agricl,STANDARD,Agricl,Labourer Agric
 Barsmaid,46,Barsmaid,UNCHANGED,Barsmaid,Barmaid
-General Svt Domestic,45,General Svt Domestic,STANDARD,Svt,General St Domestic
-Labourer Agricul,45,Labourer Agricul,STANDARD,Agricul,Labourer Agric
 Lenen Weaver,45,Lenen Weaver,UNCHANGED,Lenen,Linen Weaver
 Parlor Maid,45,Parlor Maid,STANDARD,Parlor,Parlour Maid
 Farmar,43,Farmar,UNCHANGED,Farmar,Farmer
-General Sevt Domestic,42,General Sevt Domestic,STANDARD,Sevt,General Sert Domestic
-Quary Labourer,42,Quary Labourer,UNCHANGED,Quary,Quay Labourer
 Lauborer,41,Lauborer,UNCHANGED,Lauborer,Labourer
 Attending Scool,40,Attending Scool,UNCHANGED,Scool,Attending School
-Labourer Gnl,40,Labourer Gnl,STANDARD,Gnl,Labourer Genl
-Farm Laberour,39,Farm Laberour,UNCHANGED,Laberour,Farm Labour
 Farm Servan,39,Farm Servan,UNCHANGED,Servan,Farm Servant
 Agracultural Labourer,37,Agracultural Labourer,UNCHANGED,Agracultural,Agricultural Labourer
 Commercial Traveler,37,Commercial Traveler,UNCHANGED,Traveler,Commercial Traveller
@@ -51,11 +45,9 @@ Housekepper,36,Housekepper,UNCHANGED,Housekepper,Housekeeper
 Gardiner Domestic Servant,35,Gardiner Domestic Servant,STANDARD,Gardiner,Gardener Domestic Servant
 Harnes Maker,35,Harnes Maker,STANDARD,Harnes,Harness Maker
 Cotten Weaver,34,Cotten Weaver,UNCHANGED,Cotten,Cotton Weaver
-Labourer Agl.,34,Labourer Agl.,STANDARD,Agl,Labourer Agr.
 Seamstrees,34,Seamstrees,UNCHANGED,Seamstrees,Seamstress
 Talior,34,Talior,UNCHANGED,Talior,Tailor
 At Scool,33,At Scool,UNCHANGED,Scool,At School
-Cook Domestic Svt,33,Cook Domestic Svt,STANDARD,Svt,Cook Domestic St
 Seimstress,33,Seimstress,UNCHANGED,Seimstress,Seamstress
 Brewry Labourer,32,Brewry Labourer,UNCHANGED,Brewry,Brewery Labourer
 Carpentor,32,Carpentor,UNCHANGED,Carpentor,Carpenter
@@ -108,7 +100,6 @@ Shipherd,22,Shipherd,UNCHANGED,Shipherd,Shepherd
 Agricultrl Labourer,21,Agricultrl Labourer,STANDARD,Agricultrl,Agricultural Labourer
 Cartaker,21,Cartaker,UNCHANGED,Cartaker,Caretaker
 House Buisness,21,House Buisness,UNCHANGED,Buisness,House Business
-Housemaid Domestic Sevt,21,Housemaid Domestic Sevt,STANDARD,Sevt,Housemaid Domestic Sert
 Infint,21,Infint,UNCHANGED,Infint,Infant
 Machnist,21,Machnist,UNCHANGED,Machnist,Machinist
 Printer-Compositer,21,Printer Compositer,NORMALIZATION,Compositer,Printer Compositor
@@ -127,9 +118,7 @@ Agricultular Labourer,19,Agricultular Labourer,UNCHANGED,Agricultular,Agricultur
 Aricultural Labourer,19,Aricultural Labourer,STANDARD,Aricultural,Agricultural Labourer
 Boatmaker,19,Boatmaker,UNCHANGED,Boatmaker,Bootmaker
 Embroidrer,19,Embroidrer,UNCHANGED,Embroidrer,Embroiderer
-General Servant Domt,19,General Servant Domt,UNCHANGED,Domt,General Servant Dom
 Messege Boy,19,Messege Boy,UNCHANGED,Messege,Message Boy
-Servant Domest,19,Servant Domest,STANDARD,Domest,Servant Domes
 Sheepherd,19,Sheepherd,UNCHANGED,Sheepherd,Shepherd
 Shop Asistant,19,Shop Asistant,UNCHANGED,Asistant,Shop Assistant
 Shop Assisant,19,Shop Assisant,STANDARD,Assisant,Shop Assistant
@@ -138,7 +127,6 @@ Argricultural Labourer,18,Argricultural Labourer,UNCHANGED,Argricultural,Agricul
 At Scholl,18,At Scholl,UNCHANGED,Scholl,At School
 Bucher,18,Bucher,UNCHANGED,Bucher,Butcher
 Domask Weaver,18,Domask Weaver,UNCHANGED,Domask,Damask Weaver
-General Servant Domc,18,General Servant Domc,STANDARD,Domc,General Servant Dom
 Generl Labourer,18,Generl Labourer,STANDARD,Generl,General Labourer
 No Occuption,18,No Occuption,UNCHANGED,Occuption,No Occupation
 Reller Flax,18,Reller Flax,UNCHANGED,Reller,Reeler Flax
@@ -147,10 +135,8 @@ School Gairl,18,School Gairl,UNCHANGED,Gairl,School Girl
 Seeamstress,18,Seeamstress,UNCHANGED,Seeamstress,Seamstress
 Talor,18,Talor,UNCHANGED,Talor,Tailor
 Commerical Traveller,17,Commerical Traveller,UNCHANGED,Commerical,Commercial Traveller
-Farm Labrour,17,Farm Labrour,UNCHANGED,Labrour,Farm Labour
 Farm Labrourer,17,Farm Labrourer,UNCHANGED,Labrourer,Farm Labourer
 Farm Sevant,17,Farm Sevant,UNCHANGED,Sevant,Farm Servant
-Genral Labour,17,Genral Labour,UNCHANGED,Genral,General Labour
 Genral Servant Domestic,17,Genral Domestic Servant,WORD_ORDER,Genral,General Domestic Servant
 Landuress,17,Landuress,UNCHANGED,Landuress,Laundress
 Machiniest,17,Machiniest,UNCHANGED,Machiniest,Machinist
@@ -167,8 +153,6 @@ Catle Dealer,16,Catle Dealer,UNCHANGED,Catle,Cattle Dealer
 Domestic Servnt,16,Domestic Servnt,UNCHANGED,Servnt,Domestic Servant
 Domistic Servant,16,Domistic Servant,UNCHANGED,Domistic,Domestic Servant
 Domstic Servant,16,Domstic Servant,UNCHANGED,Domstic,Domestic Servant
-Farme Labourer,16,Farme Labourer,STANDARD,Farme,Farmer Labourer
-Farmer Servent,16,Farmer Servent,UNCHANGED,Servent,Farmer Servant
 Farmer's Daugher,16,Farmer's Daugher,UNCHANGED,Daugher,Farmer's Daughter
 General Labourar,16,General Labourar,UNCHANGED,Labourar,General Labourer
 Generl Servant,16,Generl Servant,STANDARD,Generl,General Servant
@@ -183,11 +167,9 @@ Schololar,16,Schololar,UNCHANGED,Schololar,Scholar
 Schoular,16,Schoular,UNCHANGED,Schoular,Scholar
 Wool Spiner,16,Wool Spiner,STANDARD,Spiner,Wool Spinner
 Agrcultural Labourer,15,Agrcultural Labourer,UNCHANGED,Agrcultural,Agricultural Labourer
-Agricultur Labour,15,Agricultur Labour,UNCHANGED,Agricultur,Agriculture Labour
 Augricultural Labourer,15,Augricultural Labourer,UNCHANGED,Augricultural,Agricultural Labourer
 Catton Weaver,15,Catton Weaver,UNCHANGED,Catton,Cotton Weaver
 Dessmaker,15,Dessmaker,UNCHANGED,Dessmaker,Dressmaker
-Farm Labr,15,Farm Labr,UNCHANGED,Labr,Farm Lab
 Farm Serant,15,Farm Serant,STANDARD,Serant,Farm Servant
 General Labrourer,15,General Labrourer,UNCHANGED,Labrourer,General Labourer
 Hankerchief Folder,15,Hankerchief Folder,UNCHANGED,Hankerchief,Handkerchief Folder
@@ -227,13 +209,10 @@ Domestc Servant,13,Domestc Servant,UNCHANGED,Domestc,Domestic Servant
 Fars Son,13,Fars Son,UNCHANGED,Fars,Farm Son
 Garderner,13,Garderner,UNCHANGED,Garderner,Gardener
 General Sevant,13,General Sevant,UNCHANGED,Sevant,General Servant
-House Worke,13,House Worke,UNCHANGED,Worke,House Worker
-Labrour General,13,Labrour General,STANDARD,Labrour,Labour General
 Land Stward,13,Land Stward,UNCHANGED,Stward,Land Steward
 Landry Maid,13,Landry Maid,UNCHANGED,Landry,Laundry Maid
 Linnon Weaver,13,Linnon Weaver,UNCHANGED,Linnon,Linnen Weaver
 Probationes Nurse,13,Probationes Nurse,UNCHANGED,Probationes,Probationer Nurse
-Servant Domc,13,Servant Domc,UNCHANGED,Domc,Servant Dom
 Shepheard,13,Shepheard,UNCHANGED,Shepheard,Shepherd
 Towl Dealer,13,Towl Dealer,UNCHANGED,Towl,Fowl Dealer
 Tram Conducter,13,Tram Conducter,UNCHANGED,Conducter,Tram Conductor
@@ -248,8 +227,6 @@ Fancey Box Maker,12,Fancey Box Maker,UNCHANGED,Fancey,Fancy Box Maker
 Farm Laboures,12,Farm Laboures,UNCHANGED,Laboures,Farm Labourer
 Farmer's Neice,12,Farmer's Neice,UNCHANGED,Neice,Farmer's Niece
 Farmor,12,Farmor,UNCHANGED,Farmor,Farmer
-Gardener Domestic Svt,12,Gardener Domestic Svt,STANDARD,Svt,Gardener Domestic St
-General Labiour,12,General Labiour,UNCHANGED,Labiour,General Labour
 General Laubourer,12,General Laubourer,UNCHANGED,Laubourer,General Labourer
 Grom Domestic Servant,12,Grom Domestic Servant,UNCHANGED,Grom,Groom Domestic Servant
 Invalide,12,Invalide,UNCHANGED,Invalide,Invalid
@@ -259,7 +236,6 @@ Laudress,12,Laudress,UNCHANGED,Laudress,Laundress
 Lobourer,12,Lobourer,UNCHANGED,Lobourer,Labourer
 Machienist,12,Machienist,UNCHANGED,Machienist,Machinist
 Messag Boy,12,Messag Boy,UNCHANGED,Messag,Message Boy
-N.School Teacher,12,N.School Teacher,UNCHANGED,N.School,School Teacher
 No Occpation,12,No Occpation,UNCHANGED,Occpation,No Occupation
 No Profesion,12,No Profesion,UNCHANGED,Profesion,No Profession
 Scool Girl,12,Scool Girl,STANDARD,Scool,School Girl
@@ -274,12 +250,10 @@ Domestic Serant,11,Domestic Serant,UNCHANGED,Serant,Domestic Servant
 Embroyderer,11,Embroyderer,UNCHANGED,Embroyderer,Embroiderer
 Frarmer,11,Frarmer,UNCHANGED,Frarmer,Farmer
 French Pollisher,11,French Pollisher,UNCHANGED,Pollisher,French Polisher
-Gardener Domestic Sevt,11,Gardener Domestic Sevt,STANDARD,Sevt,Gardener Domestic Sert
 Gass Fitter,11,Gass Fitter,STANDARD,Gass,Gas Fitter
 Genaral Labourer,11,Genaral Labourer,UNCHANGED,Genaral,General Labourer
 General Serant,11,General Serant,UNCHANGED,Serant,General Servant
 Labouerer,11,Labouerer,UNCHANGED,Labouerer,Labourer
-Nurse Domestic Sevt,11,Nurse Domestic Sevt,STANDARD,Sevt,Nurse Domestic Sert
 Resturant Keeper,11,Resturant Keeper,UNCHANGED,Resturant,Restaurant Keeper
 Schallar,11,Schallar,UNCHANGED,Schallar,Scholar
 Scohalar,11,Scohalar,UNCHANGED,Scohalar,Scholar
@@ -295,11 +269,9 @@ Attendng School,10,Attendng School,UNCHANGED,Attendng,Attending School
 Ceneral Servant,10,Ceneral Servant,UNCHANGED,Ceneral,General Servant
 Cigarett Maker,10,Cigarett Maker,UNCHANGED,Cigarett,Cigarette Maker
 Clerk Comercial,10,Clerk Comercial,UNCHANGED,Comercial,Clerk Commercial
-Coachman Domestic Svt,10,Coachman Domestic Svt,STANDARD,Svt,Coachman Domestic St
 Cochman Domestic Servant,10,Cochman Domestic Servant,UNCHANGED,Cochman,Coachman Domestic Servant
 Embroideror,10,Embroideror,UNCHANGED,Embroideror,Embroiderer
 Failor,10,Failor,UNCHANGED,Failor,Tailor
-Famer Servant,10,Famer Servant,UNCHANGED,Famer,Farmer Servant
 Farm Laboror,10,Farm Laboror,UNCHANGED,Laboror,Farm Labourer
 Farm Lauborer,10,Farm Lauborer,UNCHANGED,Lauborer,Farm Labourer
 Farme's Wife,10,Farme's Wife,UNCHANGED,Farme's,Farmer's Wife
@@ -309,7 +281,6 @@ Farmr,10,Farmr,UNCHANGED,Farmr,Farmer
 General Laboruer,10,General Laboruer,UNCHANGED,Laboruer,General Labourer
 Housekeepr,10,Housekeepr,UNCHANGED,Housekeepr,Housekeeper
 Income from Dividents,10,Income from Dividents,UNCHANGED,Dividents,Income from Dividends
-Labour Agrl,10,Labour Agrl,UNCHANGED,Agrl,Labour Agr
 Linen Spiner,10,Linen Spiner,UNCHANGED,Spiner,Linen Spinner
 Linen Weavor,10,Linen Weavor,UNCHANGED,Weavor,Linen Weaver
 Mercheant Sailor,10,Mercheant Sailor,UNCHANGED,Mercheant,Merchant Sailor
@@ -325,7 +296,6 @@ Attenting School,9,Attenting School,UNCHANGED,Attenting,Attending School
 Car Owener,9,Car Owener,UNCHANGED,Owener,Car Owner
 Carpainter,9,Carpainter,UNCHANGED,Carpainter,Carpenter
 Carwoman,9,Carwoman,UNCHANGED,Carwoman,Charwoman
-Cook-Domestic Svt,9,Cook Domestic Svt,NORMALIZATION,Svt,Cook Domestic St
 Damisk Weaver,9,Damisk Weaver,UNCHANGED,Damisk,Damask Weaver
 Domestic Sevant,9,Domestic Sevant,UNCHANGED,Sevant,Domestic Servant
 Farm Servat,9,Farm Servat,UNCHANGED,Servat,Farm Servant
@@ -339,7 +309,6 @@ Horness Maker,9,Horness Maker,UNCHANGED,Horness,Harness Maker
 Hous Keeping,9,Hous Keeping,UNCHANGED,Hous,House Keeping
 Infent,9,Infent,UNCHANGED,Infent,Infant
 Laberour General,9,Laberour General,STANDARD,Laberour,Labour General
-Labourer (Agricul),9,Labourer Agricul,NORMALIZATION,Agricul,Labourer Agric
 Laibourer,9,Laibourer,UNCHANGED,Laibourer,Labourer
 Linen Reller,9,Linen Reller,UNCHANGED,Reller,Linen Reeler
 Machanical Engineer,9,Machanical Engineer,UNCHANGED,Machanical,Mechanical Engineer
@@ -446,7 +415,6 @@ General Labouror,7,General Labouror,UNCHANGED,Labouror,General Labourer
 General Labrouer,7,General Labrouer,UNCHANGED,Labrouer,General Labourer
 General Leabourer,7,General Leabourer,UNCHANGED,Leabourer,General Labourer
 General Lobourer,7,General Lobourer,UNCHANGED,Lobourer,General Labourer
-General Svt-Domestic,7,General Svt Domestic,NORMALIZATION,Svt,General St Domestic
 Genl Sevt Domestic,7,Genl Sevt Domestic,STANDARD,Sevt,Genl Sert Domestic
 Gnl. Servant Domestic,7,Gnl. Domestic Servant,WORD_ORDER,Gnl,Genl. Domestic Servant
 Handerchief Folder,7,Handerchief Folder,UNCHANGED,Handerchief,Handkerchief Folder
@@ -531,7 +499,6 @@ General Labarour,6,General Labarour,UNCHANGED,Labarour,General Labour
 General Labeour,6,General Labeour,UNCHANGED,Labeour,General Labour
 General Laubour,6,General Laubour,UNCHANGED,Laubour,General Labour
 General Servan,6,General Servan,UNCHANGED,Servan,General Servant
-General Servt Domc,6,General Servant Domc,ABBREVIATION,Domc,General Servant Dom
 Grocer Aprentice,6,Grocer Aprentice,UNCHANGED,Aprentice,Grocer Apprentice
 Guay Labourer,6,Guay Labourer,UNCHANGED,Guay,Quay Labourer
 Hackel Maker,6,Hackel Maker,STANDARD,Hackel,Hackle Maker
@@ -675,7 +642,6 @@ Ironmongers Shopman,5,Ironmongers Shopman,UNCHANGED,Ironmongers,Ironmonger Shopm
 Labiouer,5,Labiouer,UNCHANGED,Labiouer,Labourer
 Laboruer,5,Laboruer,UNCHANGED,Laboruer,Labourer
 Labour Agl,5,Labour Agl,STANDARD,Agl,Labour Agr
-Labourer (Agl.),5,Labourer Agl.,NORMALIZATION,Agl,Labourer Agr.
 Labourer Corman,5,Labourer Corman,UNCHANGED,Corman,Labourer Carman
 Labourer Gass,5,Labourer Gass,STANDARD,Gass,Labourer Gas
 Labourere,5,Labourere,UNCHANGED,Labourere,Labourer
@@ -722,7 +688,6 @@ Seamptress,5,Seamptress,UNCHANGED,Seamptress,Seamstress
 Seamsress,5,Seamsress,UNCHANGED,Seamsress,Seamstress
 Seamstre,5,Seamstre,UNCHANGED,Seamstre,Seamster
 Seamstris,5,Seamstris,UNCHANGED,Seamstris,Seamstress
-Servant-Domest,5,Servant Domest,NORMALIZATION,Domest,Servant Domes
 Servent General,5,Servent General,UNCHANGED,Servent,Servant General
 Servnt,5,Servnt,UNCHANGED,Servnt,Servant
 Shepwright,5,Shepwright,UNCHANGED,Shepwright,Shipwright
@@ -830,7 +795,6 @@ General Laboarer,4,General Laboarer,UNCHANGED,Laboarer,General Labourer
 General Laburor,4,General Laburor,UNCHANGED,Laburor,General Labourer
 General Servant Domet,4,General Servant Domet,STANDARD,Domet,General Servant Domes
 General Servnt,4,General Servnt,UNCHANGED,Servnt,General Servant
-General Sevt-Domestic,4,General Sevt Domestic,NORMALIZATION,Sevt,General Sert Domestic
 Generald Servant,4,Generald Servant,UNCHANGED,Generald,General Servant
 Generil Labourer,4,Generil Labourer,UNCHANGED,Generil,General Labourer
 Generl Domestic Servant,4,Generl Domestic Servant,STANDARD,Generl,General Domestic Servant
@@ -1116,9 +1080,7 @@ Gardenar,3,Gardenar,UNCHANGED,Gardenar,Gardener
 Gardenar-Domestic Servant,3,Gardenar Domestic Servant,NORMALIZATION,Gardenar,Gardener Domestic Servant
 Gardener Domestic Serant,3,Gardener Domestic Serant,UNCHANGED,Serant,Gardener Domestic Servant
 Gardener Domestic Servat,3,Gardener Domestic Servat,UNCHANGED,Servat,Gardener Domestic Servant
-Gardener Domestic-Svt,3,Gardener Domestic Svt,NORMALIZATION,Svt,Gardener Domestic St
 Gardener Domt Servt,3,Gardener Domt Servant,ABBREVIATION,Domt,Gardener Dom Servant
-Gardener-Domestic Sevt,3,Gardener Domestic Sevt,NORMALIZATION,Sevt,Gardener Domestic Sert
 Gardiner-Domestic Servant,3,Gardiner Domestic Servant,NORMALIZATION,Gardiner,Gardener Domestic Servant
 Gass Yard Labourer,3,Gass Yard Labourer,UNCHANGED,Gass,Gas Yard Labourer
 Genarel Labourer,3,Genarel Labourer,UNCHANGED,Genarel,General Labourer
@@ -1541,7 +1503,6 @@ Clothies Dealer,2,Clothies Dealer,UNCHANGED,Clothies,Clothes Dealer
 Coach Boday Maker,2,Coach Boday Maker,UNCHANGED,Boday,Coach Body Maker
 Coach Buildar,2,Coach Buildar,UNCHANGED,Buildar,Coach Builder
 Coachmaid Domestic Servant,2,Coachmaid Domestic Servant,STANDARD,Coachmaid,Coachman Domestic Servant
-Coachman - Domestic Svt,2,Coachman Domestic Svt,NORMALIZATION,Svt,Coachman Domestic St
 Coachman Domestic Servnt,2,Coachman Domestic Servnt,UNCHANGED,Servnt,Coachman Domestic Servant
 Coachman Domestic Sevt,2,Coachman Domestic Sevt,UNCHANGED,Sevt,Coachman Domestic Sert
 Coack Builder,2,Coack Builder,UNCHANGED,Coack,Coach Builder
@@ -1691,7 +1652,6 @@ Farm Servnat,2,Farm Servnat,UNCHANGED,Servnat,Farm Servant
 Farmaer,2,Farmaer,UNCHANGED,Farmaer,Farmer
 Farmar Wife,2,Farmar Wife,UNCHANGED,Farmar,Farmer Wife
 Farmarer,2,Farmarer,UNCHANGED,Farmarer,Farmer
-Farme Laborer,2,Farme Labourer,AMERICAN_SPELLING,Farme,Farmer Labourer
 Farme Labour,2,Farme Labour,UNCHANGED,Farme,Farmer Labour
 Farme's Servant,2,Farme's Servant,UNCHANGED,Farme's,Farmer's Servant
 Farmer Labrour,2,Farmer Labrour,UNCHANGED,Labrour,Farmer Labour
@@ -1750,7 +1710,6 @@ Gardener D.Servant,2,Gardener D.Servant,UNCHANGED,D.Servant,Gardener Servant
 Gardener Domestic Servent,2,Gardener Domestic Servent,UNCHANGED,Servent,Gardener Domestic Servant
 Gardener Domestick Servant,2,Gardener Domestick Servant,UNCHANGED,Domestick,Gardener Domestic Servant
 Gardener-Domestic Seravnt,2,Gardener Domestic Seravnt,NORMALIZATION,Seravnt,Gardener Domestic Servant
-Gardener-Domestic Svt,2,Gardener Domestic Svt,NORMALIZATION,Svt,Gardener Domestic St
 Gardiner (Domestic Servant),2,Gardiner Domestic Servant,NORMALIZATION,Gardiner,Gardener Domestic Servant
 Gardiner D. Servant,2,Gardiner D. Servant,UNCHANGED,Gardiner,Gardener D. Servant
 Gardiner Dom Servant,2,Gardiner Dom Servant,UNCHANGED,Gardiner,Gardener Dom Servant
@@ -1869,7 +1828,6 @@ Housekipper,2,Housekipper,UNCHANGED,Housekipper,Housekeeper
 Housekper,2,Housekper,UNCHANGED,Housekper,Housekeeper
 Housemaid Domc Servt,2,Housemaid Domc Servant,ABBREVIATION,Domc,Housemaid Dom Servant
 Housemaid Domestick Servant,2,Housemaid Domestick Servant,UNCHANGED,Domestick,Housemaid Domestic Servant
-Housemaid-Domestic Sevt,2,Housemaid Domestic Sevt,NORMALIZATION,Sevt,Housemaid Domestic Sert
 Housepeeper,2,Housepeeper,UNCHANGED,Housepeeper,Housekeeper
 Housepkeeper,2,Housepkeeper,UNCHANGED,Housepkeeper,Housekeeper
 Housewif,2,Housewif,UNCHANGED,Housewif,Housewife
@@ -2050,7 +2008,6 @@ Nurse Domestic Servnt,2,Nurse Domestic Servnt,STANDARD,Servnt,Nurse Domestic Ser
 Nurse Domt Servant,2,Nurse Domt Servant,STANDARD,Domt,Nurse Dom Servant
 Nurse-Domestic Servent,2,Nurse Domestic Servent,NORMALIZATION,Servent,Nurse Domestic Servant
 Nurse-Domestic Servnt,2,Nurse Domestic Servnt,NORMALIZATION,Servnt,Nurse Domestic Servant
-Nurse-Domestic Sevt,2,Nurse Domestic Sevt,NORMALIZATION,Sevt,Nurse Domestic Sert
 Nurse-Domestice Servant,2,Nurse Domestice Servant,NORMALIZATION,Domestice,Nurse Domestic Servant
 Ouay Labourer,2,Ouay Labourer,UNCHANGED,Ouay,Quay Labourer
 Painter Aprentice,2,Painter Aprentice,UNCHANGED,Aprentice,Painter Apprentice
@@ -3342,7 +3299,6 @@ Coachman Unemployd,1,Coachman Unemployd,UNCHANGED,Unemployd,Coachman Unemployed
 Coachman-Domastic Servant,1,Coachman Domastic Servant,NORMALIZATION,Domastic,Coachman Domestic Servant
 Coachman-Domc Servt,1,Coachman Domc Servant,ABBREVIATION; NORMALIZATION,Domc,Coachman Dom Servant
 Coachman-Domestc Servt,1,Coachman Domestc Servant,ABBREVIATION; NORMALIZATION,Domestc,Coachman Domestic Servant
-Coachman-Domestic Svt,1,Coachman Domestic Svt,NORMALIZATION,Svt,Coachman Domestic St
 Coachmans,1,Coachmans,UNCHANGED,Coachmans,Coachman
 Coachmans Domestic (Servant),1,Coachmans Domestic Servant,NORMALIZATION,Coachmans,Coachman Domestic Servant
 Coachmman,1,Coachmman,UNCHANGED,Coachmman,Coachman
@@ -3455,7 +3411,6 @@ Coochman-Domestic Servant,1,Coochman Domestic Servant,NORMALIZATION,Coochman,Coa
 Coock - Domestic,1,Coock Domestic,NORMALIZATION,Coock,Cook Domestic
 Cook (Domc Servt),1,Cook Domc Servant,ABBREVIATION; NORMALIZATION,Domc,Cook Dom Servant
 Cook - Domestic Servatn,1,Cook Domestic Servatn,NORMALIZATION,Servatn,Cook Domestic Servant
-Cook - Domestic Svt,1,Cook Domestic Svt,NORMALIZATION,Svt,Cook Domestic St
 Cook D. Serveant,1,Cook D. Serveant,UNCHANGED,Serveant,Cook D. Servant
 Cook Deomestic Ser,1,Cook Deomestic Ser,UNCHANGED,Deomestic,Cook Domestic Ser
 Cook Doemstic Servant,1,Cook Doemstic Servant,UNCHANGED,Doemstic,Cook Domestic Servant
@@ -4235,7 +4190,6 @@ Gardene,1,Gardene,UNCHANGED,Gardene,Gardener
 Gardene Domestic Servant,1,Gardene Domestic Servant,UNCHANGED,Gardene,Gardener Domestic Servant
 Gardenen,1,Gardenen,UNCHANGED,Gardenen,Gardener
 Gardener - Domestc Servant,1,Gardener Domestc Servant,NORMALIZATION,Domestc,Gardener Domestic Servant
-Gardener - Domestic Svt,1,Gardener Domestic Svt,NORMALIZATION,Svt,Gardener Domestic St
 Gardener D Serveant,1,Gardener D Serveant,UNCHANGED,Serveant,Gardener D Servant
 Gardener Domc Servant,1,Gardener Domc Servant,STANDARD,Domc,Gardener Dom Servant
 Gardener Domc Servt,1,Gardener Domc Servant,ABBREVIATION,Domc,Gardener Dom Servant
@@ -4419,7 +4373,6 @@ General Serv Domstic,1,General Serv Domstic,UNCHANGED,Domstic,General Serv Domes
 General Servan Domest,1,General Servan Domest,UNCHANGED,Servan; Domest,General Servant Domes
 General Servan-Housekeeper,1,General Servan Housekeeper,NORMALIZATION,Servan,General Servant Housekeeper
 General Servans,1,General Servans,UNCHANGED,Servans,General Servant
-General Servant (Domc),1,General Servant Domc,NORMALIZATION,Domc,General Servant Dom
 General Servant (Unemplayed),1,General Servant Unemplayed,NORMALIZATION,Unemplayed,General Servant Unemployed
 General Servant Cooke,1,General Servant Cooke,UNCHANGED,Cooke,General Servant Cook
 General Servant Dmes,1,General Servant Dmes,UNCHANGED,Dmes,General Servant Domes
@@ -4429,7 +4382,6 @@ General Servant Domtis,1,General Servant Domtis,UNCHANGED,Domtis,General Servant
 General Servant Unemoployed,1,General Servant Unemoployed,UNCHANGED,Unemoployed,General Servant Unemployed
 General Servant Unemployor,1,General Servant Unemployor,UNCHANGED,Unemployor,General Servant Unemployed
 General Servant Unimployed,1,General Servant Unimployed,UNCHANGED,Unimployed,General Servant Unemployed
-General Servant-Domc,1,General Servant Domc,NORMALIZATION,Domc,General Servant Dom
 General Servant-Domtic,1,General Servant Domtic,NORMALIZATION,Domtic,General Servant Domic
 General Servant-Laboure,1,General Servant Laboure,NORMALIZATION,Laboure,General Servant Labourer
 General Servant_,1,General Servant_,UNCHANGED,Servant_,General Servant
@@ -4443,7 +4395,6 @@ General Servt Domet,1,General Servant Domet,ABBREVIATION,Domet,General Servant D
 General Servt Domse,1,General Servant Domse,ABBREVIATION,Domse,General Servant Domes
 General Severant Domc,1,General Severant Domc,UNCHANGED,Severant; Domc,General Servant Dom
 General Soliciters Clerk,1,General Soliciters Clerk,UNCHANGED,Soliciters,General Solicitors Clerk
-General Svt (Domestic),1,General Svt Domestic,NORMALIZATION,Svt,General St Domestic
 General-Domestc Servt,1,General Domestc Servant,ABBREVIATION; NORMALIZATION,Domestc,General Domestic Servant
 General-Domestic Serveant,1,General Domestic Serveant,NORMALIZATION,Serveant,General Domestic Servant
 General-Domestic Servent,1,General Domestic Servent,NORMALIZATION,Servent,General Domestic Servant
@@ -5064,8 +5015,6 @@ Labonrer,1,Labonrer,UNCHANGED,Labonrer,Labourer
 Laborar (Genl),1,Laborar Genl,NORMALIZATION,Laborar,Labourer Genl
 Laborar Fisherman,1,Laborar Fisherman,UNCHANGED,Laborar,Labourer Fisherman
 Laborar's Wife,1,Laborar's Wife,UNCHANGED,Laborar's,Labourer's Wife
-Laborer - Gnl,1,Labourer Gnl,AMERICAN_SPELLING; NORMALIZATION,Gnl,Labourer Genl
-Laborer Agricul,1,Labourer Agricul,AMERICAN_SPELLING,Agricul,Labourer Agric
 Laborer-Quaryman,1,Labourer Quaryman,AMERICAN_SPELLING; NORMALIZATION,Quaryman,Labourer Quarryman
 Laborere,1,Laborere,UNCHANGED,Laborere,Labourer
 Laborerer,1,Laborerer,UNCHANGED,Laborerer,Labourer
@@ -5202,7 +5151,6 @@ Labourer Unemployd,1,Labourer Unemployd,UNCHANGED,Unemployd,Labourer Unemployed
 Labourer Uninployed,1,Labourer Uninployed,UNCHANGED,Uninployed,Labourer Unemployed
 Labourer's Daughtr,1,Labourer's Daughtr,UNCHANGED,Daughtr,Labourer's Daughter
 Labourer's Siter,1,Labourer's Siter,UNCHANGED,Siter,Labourer's Sister
-Labourer-Agl.,1,Labourer Agl.,NORMALIZATION,Agl,Labourer Agr.
 Labourerin Ropework,1,Labourerin Ropework,UNCHANGED,Labourerin,Labourer Ropework
 Labourerin Ropeworks,1,Labourerin Ropeworks,UNCHANGED,Labourerin; Ropeworks,Labourer Ropework
 Labourerl Genl,1,Labourerl Genl,UNCHANGED,Labourerl,Labourer Genl
@@ -5223,7 +5171,6 @@ Labror Dock,1,Labror Dock,UNCHANGED,Labror,Labour Dock
 Labror Farm,1,Labror Farm,STANDARD,Labror,Labour Farm
 Labror Quay,1,Labror Quay,UNCHANGED,Labror,Labour Quay
 Labrorer (Genl),1,Labrorer Genl,NORMALIZATION,Labrorer,Labourer Genl
-Labrour (General),1,Labrour General,NORMALIZATION,Labrour,Labour General
 Labrour Builders,1,Labrour Builders,UNCHANGED,Labrour,Labour Builders
 Labrour Genl,1,Labrour Genl,STANDARD,Labrour,Labour Genl
 Labrour Genl.,1,Labrour Genl.,UNCHANGED,Labrour,Labour Genl.
