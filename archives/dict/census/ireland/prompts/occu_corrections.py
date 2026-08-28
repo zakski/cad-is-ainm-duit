@@ -766,19 +766,31 @@ def correct_occupation_with_patterns(occupation: str, max_passes: int = 3) -> tu
 
     return (corrected, change_category)
 
+def processCategoriesRow(change_categories):
+    categories: set[str] = set(change_categories.split("; "))
+    return "; ".join(sorted(categories))
 
-def correct_occupations(df):
+
+
+def processCategories(df, change_categories, index):
+    if index == 0:
+        return change_categories
+    else:
+        categories = df["change_category"].str.cat(change_categories, sep="; ")
+        return categories.map(lambda x: processCategoriesRow(x))
+
+
+def correct_occupations(df, index):
     print("Applying corrections (normalize + dict + patterns) ...", flush=True)
     df = df.copy()
-    result = df["occupation"].map(correct_occupation_with_patterns)
-    df["corrected_occupation"] = result.map(lambda x: x[0])
-    df["change_category"] = result.map(lambda x: x[1])
+    result = df["occupation"].map(correct_occupation_with_patterns) if (index == 0) else df["corrected_occupation_" + str(index+1)].map(correct_occupation_with_patterns)
+    df["corrected_occupation_" + str(index+1)] = result.map(lambda x: x[0])
+    df["change_category"] = processCategories(df,result.map(lambda x: x[1]),index)
     # STANDARD: unchanged occupation whose corrected_occupation is the target of some other row's correction
-    corrected_from_changed = set(
-        df.loc[df["occupation"] != df["corrected_occupation"], "corrected_occupation"]
-    )
+
+    corrected_from_changed = set(df.loc[df["occupation"] != df["corrected_occupation_" + str(index+1)], "corrected_occupation_" + str(index+1)]) if (index == 0) else set(df.loc[df["corrected_occupation_" + str(index)] != df["corrected_occupation_" + str(index+1)], "corrected_occupation_" + str(index+1)])
     mask_standard = (df["change_category"] == "UNCHANGED") & (
-        df["corrected_occupation"].isin(corrected_from_changed)
+        df["corrected_occupation_" + str(index+1)].isin(corrected_from_changed)
     )
     df.loc[mask_standard, "change_category"] = "STANDARD"
     print("  Done.", flush=True)
@@ -821,19 +833,20 @@ def publish_scholar_review(df):
     print(f"  Wrote {len(scholar_review)} rows (Scholar variants) to {OUTPUT_SCHOLAR_REVIEW_PATH}", flush=True)
     return df
 
-def publish_changed_and_unchanged(df):
+def publish_changed_and_unchanged(df, index):
     print("Writing changed/unchanged splits ...", flush=True)
     df["_sort_count"] = pd.to_numeric(df["count"], errors="coerce").fillna(0).astype("int64")
     df["_occ_lower"] = df["occupation"].str.lower()
 
-    changed = df[df["occupation"] != df["corrected_occupation"]].copy()
+    changed = df[df["occupation"] != df["corrected_occupation_" + str(index+1)]].copy() if (index == 0) else df[df["corrected_occupation_" + str(index)] != df["corrected_occupation_" + str(index+1)]].copy()
+
     changed = changed.sort_values(by=["_sort_count", "_occ_lower"], ascending=[False, True]).drop(
         columns=["_sort_count", "_occ_lower"]
     )
     changed.to_csv(OUTPUT_CHANGED_PATH, index=False, encoding="utf-8")
     print(f"  Wrote {len(changed)} rows (changed) to {OUTPUT_CHANGED_PATH}", flush=True)
 
-    unchanged = df[df["occupation"] == df["corrected_occupation"]].copy()
+    unchanged = df[df["occupation"] == df["corrected_occupation_" + str(index+1)]].copy() if (index == 0) else df[df["corrected_occupation_" + str(index)] == df["corrected_occupation_" + str(index+1)]].copy()
     unchanged = unchanged.sort_values(by=["_sort_count", "_occ_lower"], ascending=[False, True]).drop(
         columns=["_sort_count", "_occ_lower"]
     )
@@ -845,23 +858,23 @@ def main() -> None:
     print("Loading CSV ...", flush=True)
     df = pd.read_csv(CSV_PATH, encoding="utf-8").dropna(how="all")
     print(f"  Loaded {len(df)} rows.", flush=True)
-
-    df = correct_occupations(df)
+    index = 0
+    df = correct_occupations(df,index)
 
     df.to_csv(OUTPUT_PATH, index=False, encoding="utf-8")
     print(f"  Wrote {len(df)} rows to {OUTPUT_PATH}", flush=True)
 
-    df = publish_changed_and_unchanged(df)
+    df = publish_changed_and_unchanged(df, index)
     df = publish_scholar_review(df)
 
     print("Spellcheck review ...", flush=True)
     if has_word_list():
         print("  Identifying rows with unknown words ...", flush=True)
-        unknown_per_row = df["corrected_occupation"].map(unknown_words_in_text)
+        unknown_per_row = df["corrected_occupation_" + str(index+1)].map(unknown_words_in_text)
         has_unknown = unknown_per_row.map(len) > 0
         spellcheck_review = df[has_unknown].copy()
         spellcheck_review["unknown_words"] = unknown_per_row[has_unknown].map(lambda w: "; ".join(w))
-        unique_texts = spellcheck_review["corrected_occupation"].unique().tolist()
+        unique_texts = spellcheck_review["corrected_occupation_" + str(index+1)].unique().tolist()
         print(f"  Computing suggestions for {len(unique_texts)} unique occupations (parallel) ...", flush=True)
         from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
         try:
@@ -875,7 +888,7 @@ def main() -> None:
 
         # Spelling Correction Suggestion Map
         suggestion_map = dict(zip(unique_texts, suggestions))
-        spellcheck_review["suggested_occupation"] = spellcheck_review["corrected_occupation"].map(suggestion_map)
+        spellcheck_review["suggested_occupation"] = spellcheck_review["corrected_occupation_" + str(index+1)].map(suggestion_map)
 
         print("  Sorting and writing spellcheck review ...", flush=True)
         spellcheck_review = spellcheck_review.sort_values(
@@ -885,21 +898,21 @@ def main() -> None:
         print(f"  Wrote {len(spellcheck_review)} rows (spellcheck review) to {OUTPUT_SPELLCHECK_REVIEW_PATH}", flush=True)
 
         corrected_from_changed = set(
-            spellcheck_review.loc[spellcheck_review["suggested_occupation"] != spellcheck_review["corrected_occupation"], "suggested_occupation"]
+            spellcheck_review.loc[spellcheck_review["suggested_occupation"] != spellcheck_review["corrected_occupation_" + str(index+1)], "suggested_occupation"]
         )
         mask_spelling_accepted = (df["change_category"] == "STANDARD") & (
-            df["corrected_occupation"].isin(corrected_from_changed)
+            df["corrected_occupation_" + str(index+1)].isin(corrected_from_changed)
         )
 
-        correction_accepted = set(df.loc[mask_spelling_accepted, "corrected_occupation"])
+        correction_accepted = set(df.loc[mask_spelling_accepted, "corrected_occupation_" + str(index+1)])
         correction_acceptable = spellcheck_review["suggested_occupation"].isin(correction_accepted)
         spellcheck_accepted = spellcheck_review[correction_acceptable].copy()
         spellcheck_accepted.to_csv(OUTPUT_SPELLCHECK_ACCEPTED_PATH, index=False, encoding="utf-8")
 
         print("  Applying Corrected Spellings ...", flush=True)
-        corrections_for_df = dict(zip(spellcheck_accepted["corrected_occupation"], spellcheck_accepted["suggested_occupation"]))
-        result = df.apply(lambda x: correct_spelling(x.corrected_occupation, x.change_category,corrections_for_df), axis=1)
-        df["corrected_occupation"] = result.map(lambda x: x[0])
+        corrections_for_df = dict(zip(spellcheck_accepted["corrected_occupation_" + str(index+1)], spellcheck_accepted["suggested_occupation"]))
+        result = df.apply(lambda x: correct_spelling(x["corrected_occupation_" + str(index+1)], x.change_category,corrections_for_df), axis=1)
+        df["corrected_occupation_" + str(index+1)] = result.map(lambda x: x[0])
         df["change_category"] = result.map(lambda x: x[1])
         df = df.sort_values(
             by=["_sort_count", "_occ_lower"], ascending=[False, True]

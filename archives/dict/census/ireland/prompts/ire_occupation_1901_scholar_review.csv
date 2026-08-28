@@ -1,4 +1,4 @@
-occupation,count,corrected_occupation,change_category
+occupation,count,corrected_occupation_1,change_category
 Scholars,33357,Scholar,DICT_LOOKUP
 Schollar,5571,Scholar,DICT_LOOKUP
 Schoolar,4214,Scholar,DICT_LOOKUP
